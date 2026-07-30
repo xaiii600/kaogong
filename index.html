@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="小艾考公" />
+  <meta name="theme-color" content="#f7a8c4" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23f7a8c4'/><text x='50' y='68' text-anchor='middle' font-size='52'>📚</text></svg>" />
+  <link rel="manifest" href="data:application/json,{}" />
+  <title>小艾的考公工作台</title>
+  <style>
+    :root {
+      --page-bg: #fff5f8;
+      --sidebar-grad: linear-gradient(165deg, #f7a8c4 0%, #f285ab 100%);
+      --card-bg: #ffffff;
+      --text-strong: #5a434c;
+      --text-soft: #9a848d;
+      --accent: #ef7da3;
+      --accent-soft: #fbe3ec;
+      --border: #f3e2e9;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+      --radius-sm: 12px;
+      --shadow-card: 0 6px 20px rgba(236, 126, 163, 0.10);
+      --shadow-side: 0 8px 28px rgba(228, 110, 155, 0.25);
+      --sidebar-w: 264px;
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+      --safe-left: env(safe-area-inset-left, 0px);
+      --safe-right: env(safe-area-inset-right, 0px);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--page-bg); color: var(--text-strong); -webkit-font-smoothing: antialiased; line-height: 1.6;
+    }
+    .layout { display: flex; min-height: 100vh; min-height: 100dvh; }
+
+    /* 侧边栏 */
+    .sidebar {
+      width: var(--sidebar-w); flex: 0 0 var(--sidebar-w);
+      background: var(--sidebar-grad); color: #fff; padding: calc(26px + var(--safe-top)) 18px calc(24px + var(--safe-bottom));
+      display: flex; flex-direction: column; gap: 18px; position: sticky; top: 0;
+      height: 100vh; height: 100dvh; box-shadow: var(--shadow-side); z-index: 30;
+    }
+    .sidebar-date { font-size: 13px; letter-spacing: 0.3px; opacity: 0.92; background: rgba(255,255,255,0.16); padding: 8px 12px; border-radius: var(--radius-sm); text-align: center; backdrop-filter: blur(2px); }
+    .profile { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 4px; }
+    .avatar {
+      width: 84px; height: 84px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.85);
+      background: #fff center/cover no-repeat; cursor: pointer; object-fit: cover;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.12); position: relative; transition: transform 0.18s ease;
+    }
+    .avatar:hover { transform: scale(1.04); } .avatar:active { transform: scale(0.97); }
+    .avatar::after { content: "更换"; position: absolute; left: 0; right: 0; bottom: 0; font-size: 11px; text-align: center; padding: 3px 0; background: rgba(0,0,0,0.32); color: #fff; opacity: 0; transition: opacity 0.18s ease; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%; }
+    .avatar:hover::after { opacity: 1; }
+    .sidebar-title { font-size: 18px; font-weight: 700; text-align: center; text-shadow: 0 1px 2px rgba(0,0,0,0.08); letter-spacing: 0.5px; }
+    .menu { margin-top: 6px; display: flex; flex-direction: column; gap: 6px; overflow-y: auto; flex: 1; padding-right: 2px; }
+    .menu::-webkit-scrollbar { width: 0; }
+    .menu-item { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: var(--radius-md); cursor: pointer; font-size: 15px; font-weight: 600; color: #fff; user-select: none;
+      background-size: 200% 100%; background-position: 0% 50%; transition: background-position 0.35s ease, transform 0.18s ease, box-shadow 0.25s ease;
+      -webkit-tap-highlight-color: transparent; min-height: 48px; }
+    .menu-item:not(.active):hover { background-image: linear-gradient(120deg, #ffb8d0, #f7a8c4, #f09fc8, #ffb8d0, #f7a8c4); background-size: 200% 100%; background-position: 100% 50%; transform: translateX(3px); box-shadow: 0 2px 12px rgba(247,168,196,.35); }
+    .menu-item:not(.has-sub):not(.active):active { transform: scale(0.97); }
+    .menu-item.has-sub:not(.active):active { transform: none; }
+    .menu-emoji { font-size: 20px; line-height: 1; transition: transform 0.2s ease; }
+    .menu-item:not(.active):hover .menu-emoji { transform: scale(1.15) rotate(-5deg); }
+    .menu-label { flex: 1; }
+    .menu-item.active { background: rgba(255,255,255,0.92); color: var(--accent); box-shadow: 0 4px 12px rgba(0,0,0,0.10); }
+    .arrow { font-size: 18px; transition: transform 0.2s ease; opacity: 0.9; }
+    .menu-group.open > .menu-item .arrow { transform: rotate(90deg); }
+    .submenu { max-height: 0; overflow: hidden; transition: max-height 0.25s ease; padding-left: 14px; }
+    .menu-group.open > .submenu { max-height: 360px; }
+    .submenu-item { display: flex; align-items: center; gap: 10px; padding: 10px 14px; margin: 4px 0; border-radius: var(--radius-sm); cursor: pointer; font-size: 14px; color: rgba(255,255,255,0.92); transition: background 0.16s ease; }
+    .submenu-item:hover { background: rgba(255,255,255,0.18); }
+    .submenu-item.active { background: rgba(255,255,255,0.92); color: var(--accent); font-weight: 600; }
+
+    /* 主区域 */
+    .main { flex: 1; min-width: 0; display: flex; flex-direction: column; height: 100vh; height: 100dvh; overflow: hidden; }
+    .topbar { display: flex; align-items: center; gap: 12px; padding: 16px 22px; padding-top: calc(16px + var(--safe-top)); padding-left: calc(22px + var(--safe-left)); padding-right: calc(22px + var(--safe-right)); flex: 0 0 auto; }
+    .hamburger { display: none; width: 42px; height: 42px; border: none; border-radius: 12px; background: #fff; color: var(--accent); font-size: 20px; cursor: pointer; box-shadow: var(--shadow-card); -webkit-tap-highlight-color: transparent; }
+    .breadcrumb { font-size: 14px; color: var(--text-soft); } .breadcrumb b { color: var(--text-strong); }
+    .content { flex: 1; overflow-y: auto; padding: 6px 22px 32px; padding-bottom: calc(32px + var(--safe-bottom)); }
+
+    .page { display: none; animation: fade 0.22s ease; }
+    .page.active { display: block; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    .page-title { font-size: 22px; font-weight: 700; margin: 4px 0 4px; }
+    .page-sub { font-size: 13px; color: var(--text-soft); margin-bottom: 20px; }
+
+    .card { background: var(--card-bg); border-radius: var(--radius-lg); padding: 22px; box-shadow: var(--shadow-card); border: 1px solid var(--border); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+    .stat-card { background: var(--card-bg); border-radius: var(--radius-lg); padding: 18px 20px; box-shadow: var(--shadow-card); border: 1px solid var(--border); display: flex; flex-direction: column; gap: 4px; }
+    .stat-card .ico { font-size: 24px; } .stat-card .num { font-size: 28px; font-weight: 800; color: var(--accent); } .stat-card .lbl { font-size: 13px; color: var(--text-soft); }
+    .tag { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+    .section-gap { margin-top: 18px; }
+    .empty { text-align: center; color: var(--text-soft); padding: 28px 12px; font-size: 14px; }
+
+    /* 概览：语录 */
+    .quote-card { background: linear-gradient(135deg, #ffe3ee 0%, #ffd0e0 100%); border-radius: var(--radius-lg); padding: 22px 24px; box-shadow: var(--shadow-card); display: flex; align-items: center; gap: 16px; border: 1px solid var(--border); }
+    .quote-card .qmark { font-size: 40px; line-height: 1; color: var(--accent); opacity: 0.6; }
+    .quote-card .qtext { font-size: 17px; font-weight: 600; color: #7a4a5c; }
+    .quote-card .qsub { font-size: 12px; color: var(--text-soft); margin-top: 4px; }
+
+    /* 倒计时（参考图风格：大卡 + emoji + 大号天数 + 副标题） */
+    .countdowns { display: flex; gap: 14px; margin-top: 16px; overflow-x: auto; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }
+    .cd-card { flex: 0 0 auto; width: 180px; background: linear-gradient(145deg, #f8e0ec 0%, #f5d0e0 50%, #efc8dc 100%); border-radius: var(--radius-lg); padding: 20px 16px 16px; box-shadow: 0 6px 22px rgba(239,125,163,.15), inset 0 1px 0 rgba(255,255,255,.55); border: 1px solid rgba(240,200,215,.45); position: relative; text-align: center; transition: transform .16s ease; }
+    .cd-card:hover { transform: translateY(-3px); }
+    .cd-card .cd-icon { font-size: 32px; line-height: 1; margin-bottom: 6px; }
+    .cd-card .cd-name { font-size: 15px; font-weight: 700; color: #7a4a5c; letter-spacing: .5px; }
+    .cd-card .cd-days { font-size: 13px; font-weight: 500; color: #9a7080; margin: 8px 0 2px; }
+    .cd-card .cd-days b { font-size: 36px; font-weight: 900; color: #d65f8e; letter-spacing: -1px; }
+    .cd-card .cd-meta { font-size: 11px; color: #b08a98; opacity: .85; }
+    .cd-hint { flex: 1; min-width: 200px; color: var(--text-soft); font-size: 13px; display: flex; align-items: center; justify-content: center; }
+    .cd-edit { position: absolute; top: 10px; right: 10px; border: none; background: rgba(255,255,255,.6); color: #d65f8e; width: 28px; height: 28px; border-radius: 9px; cursor: pointer; font-size: 13px; backdrop-filter: blur(2px); }
+    .cd-add { flex: 0 0 auto; width: 150px; border: 2px dashed rgba(240,200,215,.6); background: linear-gradient(145deg,#fdf2f6,#fef6f8); border-radius: var(--radius-lg); color: #b08a98; cursor: pointer; font-size: 14px; font-weight: 600; min-height: 110px; display: flex; align-items: center; justify-content: center; }
+    .cd-add:hover { border-color: #ef7da3; color: #d65f8e; }
+
+    /* 学习时长统计（紧凑版，放在折线图上方） */
+    .study-stats { margin-top: 14px; margin-bottom: 4px; }
+    .study-head { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+    .study-head h3 { font-size: 14px; font-weight: 700; color: #5a434c; margin: 0; }
+    .study-tabs { display: flex; gap: 6px; margin-bottom: 10px; }
+    .study-tab { padding: 5px 14px; border-radius: 999px; font-size: 12px; font-weight: 600; border: none; cursor: pointer; background: #fff; color: #9a848d; box-shadow: 0 1px 5px rgba(0,0,0,.04); transition: all .16s ease; }
+    .study-tab.active { background: linear-gradient(135deg, #e8a8cc, #d87ab0); color: #fff; box-shadow: 0 3px 10px rgba(216,122,176,.3); }
+    .study-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .ss-card { border-radius: var(--radius-md); padding: 12px 10px; text-align: center; box-shadow: var(--shadow-card); border: 1px solid var(--border); }
+    .ss-card.purple { background: linear-gradient(145deg, #ede0f5, #e8d2f0); }
+    .ss-card.pink { background: linear-gradient(145deg, #fce4ed, #f9d8e6); }
+    .ss-card.green { background: linear-gradient(145deg, #ddf0e4, #d4ebdd); }
+    .ss-card .ss-num { font-size: 22px; font-weight: 900; line-height: 1.2; }
+    .ss-card.purple .ss-num { color: #9b6fc2; }
+    .ss-card.pink .ss-num { color: #d65f8e; }
+    .ss-card.green .ss-num { color: #4ba87a; }
+    .ss-card .ss-lbl { font-size: 11px; color: #8a7380; margin-top: 2px; }
+    /* 每日时政热点 — 卡片样式 */
+    .news-box { display: flex; flex-direction: column; gap: 12px; }
+    .news-card { background: var(--card-bg); border-radius: var(--radius-md); padding: 16px 18px; box-shadow: 0 2px 10px rgba(239,125,163,.08); border: 1px solid var(--border); border-left: 4px solid var(--accent); transition: box-shadow 0.18s ease, transform 0.16s ease; position: relative; overflow: hidden; cursor: pointer; }
+    .news-card:hover { box-shadow: 0 6px 20px rgba(239,125,163,.15); transform: translateY(-2px); }
+    .news-card:active { transform: translateY(0); }
+    .news-card .nc-tag { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.3px; }
+    .news-card .nc-tag.policy { background: #e8f0fe; color: #3b6ec4; }
+    .news-card .nc-tag.international { background: #e6f5ee; color: #2f9e74; }
+    .news-card .nc-tag.society { background: #fdf2e9; color: #d9822b; }
+    .news-card .nc-tag.economy { background: #fef3e0; color: #b8860b; }
+    .news-card .nc-tag.tech { background: #f3e5f5; color: #8e5ea2; }
+    .news-card .nc-tag.hot { background: #fde8ec; color: #d65f8e; }
+    .news-card .nc-body { font-size: 15px; color: #5a434c; line-height: 1.6; }
+    /* 挖空关键词：默认显示文字带虚线框，点击隐藏/显示切换，方便自测 */
+    .nc-keyword { color: #c24d7e; font-weight: 700; padding: 0 3px; cursor: pointer; user-select: none;
+      border-bottom: 2px dashed #d65f8e; background: rgba(239,125,163,.08); border-radius: 2px;
+      transition: all .2s ease; position: relative; }
+    .nc-keyword:hover { background: rgba(239,125,163,.18); }
+    .nc-keyword.blind { color: transparent; background: rgba(239,125,163,.12); border-bottom: 2px dashed #d65f8e;
+      min-width: 2em; display: inline-block; text-align: center; }
+    .nc-keyword.blind::after { content: "?"; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+      color: #d65f8e; font-size: 11px; font-weight: 800; pointer-events: none; }
+    .news-card .nc-body .nc-keyword { color: #c24d7e; font-weight: 700; padding: 0 3px; cursor: pointer; user-select: none;
+      border-bottom: 2px dashed #d65f8e; background: rgba(239,125,163,.08); border-radius: 2px;
+      transition: all .2s ease; position: relative; }
+    .news-card .nc-body .nc-keyword:hover { background: rgba(239,125,163,.18); }
+    .news-card .nc-body .nc-keyword.blind { color: transparent; background: rgba(239,125,163,.12);
+      min-width: 2em; display: inline-block; text-align: center; }
+    .news-card .nc-body .nc-keyword.blind::after { content: "?"; position: absolute; left: 50%; top: 50%;
+      transform: translate(-50%,-50%); color: #d65f8e; font-size: 11px; font-weight: 800; pointer-events: none; }
+    .news-card .nc-body .nc-highlight { color: #c24d7e; font-weight: 800; }
+    .news-card .nc-source { font-size: 11px; color: var(--text-soft); margin-top: 8px; display: flex; align-items: center; gap: 6px; }
+    .news-card .nc-source::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); opacity: .6; }
+    .news-card .nc-date-tag { position: absolute; top: 14px; right: 16px; font-size: 11px; color: var(--text-soft); background: var(--accent-soft); border-radius: 999px; padding: 1px 10px; }
+    .news-empty, .news-loading { color: var(--text-soft); font-size: 13px; padding: 6px 0; }
+    .news-foot { display: flex; align-items: center; gap: 8px; margin-top: 12px; }
+    .news-updated { font-size: 12px; color: var(--text-soft); margin-left: auto; }
+    .news-tip { font-size: 12px; color: var(--text-soft); margin: 6px 0 10px; line-height: 1.5; }
+    .news-sample-tip { font-size: 12px; color: var(--accent); background: var(--accent-soft); border-radius: 10px; padding: 7px 10px; margin-bottom: 2px; }
+    .news-sample-foot { margin-top: 4px; }
+    .charts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-top: 18px; }
+    .chart-card { background: var(--card-bg); border-radius: var(--radius-lg); padding: 18px 20px; box-shadow: var(--shadow-card); border: 1px solid var(--border); }
+    .chart-card h3 { font-size: 15px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .chart-card h3 .hint { font-size: 11px; color: var(--text-soft); font-weight: 400; }
+    .pie-wrap { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+    .pie-legend { flex: 1; min-width: 140px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+    .pie-legend .lg { display: flex; align-items: center; gap: 8px; }
+    .pie-legend .lg .sw { width: 12px; height: 12px; border-radius: 4px; flex: 0 0 auto; }
+    .pie-legend .lg .lg-name { flex: 1; color: var(--text-strong); } .pie-legend .lg .lg-val { color: var(--text-soft); }
+    svg .slice { cursor: pointer; transition: opacity 0.15s ease; } svg .slice:hover { opacity: 0.82; }
+
+    /* 计时器 */
+    .timer-panel { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+    .timer-clock { font-size: 56px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 2px; }
+    .timer-subject-now { font-size: 15px; color: var(--text-soft); } .timer-subject-now b { color: var(--text-strong); }
+    .timer-modes { display: flex; gap: 8px; }
+    .seg { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: 7px 16px; cursor: pointer; font-size: 13px; color: var(--text-soft); font-weight: 600; }
+    .seg.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .pomo-input { display: none; align-items: center; gap: 6px; font-size: 13px; color: var(--text-soft); }
+    .pomo-input.show { display: flex; }
+    .pomo-input input { width: 56px; padding: 5px 8px; border: 1px solid var(--border); border-radius: 8px; text-align: center; }
+    .timer-btns { display: flex; gap: 10px; }
+    .subject-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-top: 22px; }
+    .subject-btn { border: 2px solid transparent; border-radius: var(--radius-md); padding: 16px 14px; cursor: pointer; font-size: 15px; font-weight: 700; color: #5a434c; text-align: center; box-shadow: var(--shadow-card); display: flex; flex-direction: column; align-items: center; gap: 6px; transition: transform 0.12s ease; }
+    .subject-btn:active { transform: scale(0.97); }
+    .subject-btn .sb-ico { font-size: 22px; }
+    .subject-btn.active { border-color: var(--accent); box-shadow: 0 6px 18px rgba(239,125,163,0.28); }
+    .subject-btn .sb-run { font-size: 11px; color: var(--accent); font-weight: 700; height: 14px; }
+
+    /* 通用按钮 / 表单 */
+    .btn { border: none; border-radius: 12px; padding: 10px 18px; font-size: 14px; font-weight: 600; cursor: pointer; transition: transform 0.12s ease, opacity 0.15s ease; }
+    .btn:active { transform: scale(0.97); }
+    .btn-primary { background: var(--accent); color: #fff; } .btn-primary:hover { opacity: 0.92; }
+    .btn-ghost { background: var(--accent-soft); color: var(--accent); } .btn-ghost:hover { opacity: 0.85; }
+    .btn-line { background: #fff; border: 1px solid var(--border); color: var(--text-soft); }
+    .btn-sm { padding: 6px 12px; font-size: 13px; border-radius: 9px; }
+    .add-bar { display: flex; justify-content: flex-end; margin-bottom: 14px; }
+    .form-row { margin-bottom: 14px; }
+    .form-row label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text-strong); }
+    .form-row input, .form-row textarea, .form-row select { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; font-size: 14px; font-family: inherit; color: var(--text-strong); background: #fffdfe; resize: vertical; }
+    .form-row textarea { min-height: 92px; }
+    .form-row input:focus, .form-row textarea:focus, .form-row select:focus { outline: none; border-color: var(--accent); }
+    .form-row .mini { max-width: 240px; }
+    .form-row label .charcount { float: right; font-size: 12px; font-weight: 400; color: var(--text-soft); }
+    .form-row label .charcount.limit { color: #d6517f; }
+
+    /* 列表项 */
+    .item { background: #fffdfe; border: 1px solid var(--border); border-radius: var(--radius-md); padding: 14px 16px; margin-bottom: 12px; }
+    .item .item-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+    .item .item-title { font-size: 15px; font-weight: 700; flex: 1; min-width: 120px; }
+    .item .item-meta { font-size: 12px; color: var(--text-soft); }
+    .item .item-body { font-size: 14px; color: #6b555e; white-space: pre-wrap; word-break: break-word; margin-top: 4px; }
+    .item-note { font-size: 13px; color: #8a7380; background: var(--accent-soft); border-radius: 10px; padding: 8px 10px; margin-top: 8px; white-space: pre-wrap; word-break: break-word; }
+    .item .item-body .lab { color: var(--accent); font-weight: 600; }
+    .item-actions { display: flex; gap: 8px; margin-top: 10px; }
+    .tag-reason { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 999px; font-weight: 600; }
+    /* 错因颜色标识：顶部图例 + 卡片左侧强调色边 */
+    .reason-legend { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 14px; padding: 10px 12px; background: #fffdfe; border: 1px solid var(--border); border-radius: var(--radius-md); }
+    .reason-legend .rl-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #7a6470; }
+    .reason-legend .rl-dot { width: 11px; height: 11px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1px rgba(0,0,0,.04); }
+    .item.reason-tint { border-left-width: 6px; }
+    /* 错题图片导入 */
+    .mk-img-row { margin-top: 6px; }
+    .mk-img-preview { position: relative; display: inline-block; margin-top: 8px; }
+    .mk-img-preview img { max-width: 100%; max-height: 180px; border-radius: 12px; display: block; border: 1px solid var(--border); }
+    .mk-img-del { position: absolute; top: 6px; right: 6px; width: 26px; height: 26px; border-radius: 50%; border: none; background: rgba(90,67,76,0.72); color: #fff; cursor: pointer; font-size: 16px; line-height: 1; }
+    .mk-img-box { margin: 8px 0; }
+    .mk-img { max-width: 100%; max-height: 200px; border-radius: 12px; border: 1px solid var(--border); cursor: zoom-in; display: block; }
+    .chip { font-size: 11px; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+    .tab { border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: 7px 16px; cursor: pointer; font-size: 13px; color: var(--text-soft); font-weight: 600; }
+    .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    /* 试卷分析 */
+    .paper-row { display: grid; grid-template-columns: 110px 70px 70px; gap: 10px; align-items: center; margin-bottom: 8px; font-size: 13px; }
+    .paper-row.head { font-weight: 700; color: var(--text-soft); font-size: 12px; }
+    .paper-row input { width: 100%; padding: 7px 8px; border: 1px solid var(--border); border-radius: 8px; text-align: center; font-size: 13px; }
+    .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px; }
+    .bar-row .bar-name { width: 92px; flex: 0 0 auto; color: var(--text-strong); }
+    .bar-track { flex: 1; height: 16px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 999px; background: var(--accent); transition: width 0.3s ease; }
+    .bar-fill.weak { background: #e06a8b; }
+    .bar-row .bar-val { width: 86px; text-align: right; color: var(--text-soft); flex: 0 0 auto; }
+    .trend-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .weak-tag { background: #fde0e8; color: #d6517f; }
+    /* 套卷：逻辑判断子项 / 合计 */
+    .paper-row.sub { padding-left: 18px; }
+    .paper-subs { background: var(--accent-soft); border-radius: 10px; padding: 6px 8px; margin: 4px 0 8px; }
+    .lt-head { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+    .lt-caret { cursor: pointer; display: inline-block; width: 16px; color: var(--accent); font-weight: 700; }
+    .lt-hint { font-size: 11px; color: var(--text-soft); font-weight: 400; }
+    .bar-row.sub { padding-left: 18px; }
+    .bar-row.logic-group { background: var(--accent-soft); border-radius: 8px; padding: 4px 8px; margin: 4px 0; }
+    .bar-name .chip { font-size: 10px; padding: 1px 6px; vertical-align: middle; }
+
+    /* 弹窗 / 提示 */
+    .overlay-bg { display: none; position: fixed; inset: 0; background: rgba(90,40,60,0.35); z-index: 50; align-items: center; justify-content: center; padding: 16px; }
+    .overlay-bg.show { display: flex; }
+    .modal { background: #fff; border-radius: var(--radius-lg); width: 100%; max-width: 480px; max-height: 86vh; overflow-y: auto; box-shadow: 0 20px 50px rgba(0,0,0,0.2); }
+    .modal-head { display: flex; align-items: center; justify-content: space-between; padding: 18px 20px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: #fff; }
+    .modal-head h3 { font-size: 16px; } .modal-close { border: none; background: var(--accent-soft); color: var(--accent); width: 30px; height: 30px; border-radius: 9px; cursor: pointer; font-size: 16px; }
+    .modal-body { padding: 18px 20px; } .modal-foot { padding: 14px 20px; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; gap: 10px; position: sticky; bottom: 0; background: #fff; }
+    .toast { position: fixed; left: 50%; bottom: 32px; transform: translateX(-50%) translateY(20px); background: #5a434c; color: #fff; padding: 11px 20px; border-radius: 999px; font-size: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.2s ease, transform 0.2s ease; z-index: 80; pointer-events: none; }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    .overlay { display: none; position: fixed; inset: 0; background: rgba(90,40,60,0.35); z-index: 25; }
+
+    @media (max-width: 900px) {
+      .sidebar { position: fixed; top: 0; left: 0; transform: translateX(-100%); transition: transform 0.26s ease; }
+      body.drawer-open .sidebar { transform: translateX(0); } body.drawer-open .overlay { display: block; }
+      .hamburger { display: inline-flex; align-items: center; justify-content: center; }
+      .content { padding: 6px 16px 28px; } .topbar { padding: 14px 16px; }
+    }
+    @media (max-width: 480px) {
+      .sidebar { width: 82vw; flex-basis: 82vw; } .grid { grid-template-columns: 1fr 1fr; }
+      .page-title { font-size: 20px; } .timer-clock { font-size: 44px; }
+      .subject-list { grid-template-columns: 1fr 1fr; }
+    }
+    /* 平板横屏优化 */
+    @media (min-width: 901px) and (max-width: 1200px) {
+      :root { --sidebar-w: 230px; }
+      .sidebar { padding: calc(20px + var(--safe-top)) 14px calc(20px + var(--safe-bottom)); }
+      .avatar { width: 68px; height: 68px; }
+      .sidebar-title { font-size: 16px; }
+      .menu-item { padding: 10px 12px; font-size: 14px; min-height: 44px; }
+      .menu-emoji { font-size: 18px; }
+      .cd-card { min-width: 150px; }
+      .cd-days { font-size: 28px; }
+      .charts-grid { grid-template-columns: 1fr 1fr; }
+      .content { padding: 6px 20px 28px; }
+    }
+    /* 平板竖屏 */
+    @media (min-width: 481px) and (max-width: 900px) {
+      .grid { grid-template-columns: repeat(4, 1fr); }
+      .charts-grid { grid-template-columns: 1fr; }
+      .cd-card { min-width: 140px; }
+      .game-body { grid-template-columns: 130px 1fr; }
+    }
+    /* 手机横屏 */
+    @media (max-width: 900px) and (orientation: landscape) {
+      .sidebar { width: 280px; flex-basis: 280px; }
+      .topbar { padding: 10px 16px; }
+      .page-title { font-size: 18px; }
+      .content { padding: 4px 16px 20px; }
+    }
+
+    /* 掌握度徽标 + 艾宾浩斯 + 热力图 + 柱状图 + 洞察 */
+    .mk-mastery { font-size: 11px; padding: 2px 9px; border-radius: 999px; font-weight: 700; }
+    .mk-mastery.mastered { background: #d8f3e6; color: #2f9e74; }
+    .mk-mastery.review { background: #fde9d6; color: #d9822b; }
+    .ebb-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+    .ebb-tip { font-size: 12px; color: var(--text-soft); margin-bottom: 10px; line-height: 1.5; }
+    .ebb-due { font-size: 13px; font-weight: 700; color: #d9822b; }
+    .ebb-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--border); flex-wrap: wrap; }
+    .ebb-row:first-of-type { border-top: none; }
+    .ebb-name { flex: 1; min-width: 120px; font-size: 13px; color: #5a434c; }
+    .ebb-next { font-size: 12px; color: #7a6470; white-space: nowrap; }
+    .ebb-dots { display: flex; gap: 4px; }
+    .ebb-dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 auto; }
+    .heat-wrap { width: 100%; overflow-x: auto; }
+    .heat-legend { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-soft); margin-top: 8px; justify-content: flex-end; }
+    .heat-legend .hl { width: 11px; height: 11px; border-radius: 3px; }
+    .bar-chart text { font-family: inherit; }
+    .insight-stat { background: var(--card-bg); border-radius: var(--radius-lg); padding: 16px 18px; box-shadow: var(--shadow-card); border: 1px solid var(--border); display: flex; flex-direction: column; gap: 4px; }
+    .insight-stat .is-num { font-size: 26px; font-weight: 800; color: var(--accent); }
+    .insight-stat .is-lbl { font-size: 12px; color: var(--text-soft); }
+
+    /* 打卡学习天数（紧凑，标题下方） */
+    .checkin-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; padding: 9px 14px; background: linear-gradient(135deg, #fff5f8 0%, #ffeef4 100%); border-radius: var(--radius-md); border: 1px solid rgba(240,200,215,.45); box-shadow: 0 2px 10px rgba(239,125,163,.08); }
+    .checkin-info { display: flex; align-items: center; gap: 6px; }
+    .checkin-fire { font-size: 18px; line-height: 1; }
+    .checkin-streak { font-size: 13px; color: #7a4a5c; font-weight: 500; }
+    .checkin-streak b { color: #d65f8e; font-weight: 800; font-size: 15px; }
+    .checkin-btn { padding: 5px 16px; border-radius: 999px; font-size: 12px; font-weight: 700; border: none; cursor: pointer; background: linear-gradient(135deg, #ef7da3, #d85f8e); color: #fff; box-shadow: 0 2px 8px rgba(216,95,142,.3); transition: all .16s ease; white-space: nowrap; }
+    .checkin-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(216,95,142,.4); }
+    .checkin-btn.checked { background: linear-gradient(135deg, #a8e0d4, #6bbf9e); box-shadow: 0 2px 8px rgba(107,191,158,.3); pointer-events: none; }
+    .checkin-coins { display: inline-flex; align-items: center; gap: 3px; margin-left: 8px; padding: 2px 9px; border-radius: 999px; background: rgba(255,225,120,.22); color: #b8860b; font-size: 12px; font-weight: 800; }
+
+    /* 打卡激励小游戏 */
+    .game-card { margin-top: 14px; padding: 16px 16px 14px; background: linear-gradient(160deg, #fffdfa 0%, #fff5f9 100%); border: 1px solid rgba(240,200,215,.5); border-radius: var(--radius-md); box-shadow: 0 4px 16px rgba(239,125,163,.1); }
+    .game-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .game-title { font-size: 15px; font-weight: 800; color: #c24d7e; }
+    .game-coin { display: inline-flex; align-items: center; gap: 4px; padding: 3px 11px; border-radius: 999px; background: linear-gradient(135deg, #ffe9a8, #ffd24d); color: #8a5a00; font-size: 13px; font-weight: 900; box-shadow: 0 2px 6px rgba(255,193,7,.35); }
+    .game-body { display: grid; grid-template-columns: 130px 1fr; gap: 14px; margin-top: 12px; align-items: center; }
+    @media (max-width: 560px) { .game-body { grid-template-columns: 1fr; } }
+    .tree-wrap { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+    .tree-box { width: 120px; height: 120px; }
+    .tree-stage { font-size: 12px; color: #a05b7d; font-weight: 700; }
+    .tree-tip { font-size: 11px; color: #b89; text-align: center; }
+    .gacha-wrap { display: flex; flex-direction: column; gap: 10px; }
+    .gacha-machine { display: flex; align-items: center; gap: 12px; background: linear-gradient(135deg, #ffe3ee, #ffd0e2); border-radius: 14px; padding: 12px; border: 1px dashed rgba(216,95,142,.4); }
+    .gacha-glass { width: 64px; height: 64px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0%, #ffd9ea 60%, #f7a8c4 100%); border: 3px solid #fff; box-shadow: inset 0 0 10px rgba(216,95,142,.25); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; flex: 0 0 auto; }
+    .gacha-capsule { font-size: 30px; transition: transform .5s cubic-bezier(.34,1.56,.64,1); }
+    .gacha-machine.rolling .gacha-capsule { animation: capsuleShake .5s ease-in-out 2; }
+    .gacha-machine.reveal .gacha-capsule { transform: scale(1.25) rotate(12deg); }
+    @keyframes capsuleShake { 0%,100%{transform:translateX(0) rotate(0)} 25%{transform:translateX(-4px) rotate(-14deg)} 75%{transform:translateX(4px) rotate(14deg)} }
+    .gacha-meta { flex: 1; min-width: 0; }
+    .gacha-meta .gm-t { font-size: 13px; font-weight: 800; color: #c24d7e; }
+    .gacha-meta .gm-s { font-size: 11px; color: #a8788f; }
+    .gacha-btn { align-self: flex-start; padding: 7px 18px; border-radius: 999px; border: none; cursor: pointer; font-size: 13px; font-weight: 800; color: #fff; background: linear-gradient(135deg, #ff9a3c, #ff6f91); box-shadow: 0 3px 10px rgba(255,111,145,.4); transition: transform .16s; }
+    .gacha-btn:hover { transform: translateY(-1px); }
+    .gacha-btn:disabled { background: linear-gradient(135deg, #cfc2c9, #b9aab2); box-shadow: none; cursor: not-allowed; }
+    .reward-box { display: none; margin-top: 4px; padding: 12px 14px; border-radius: 12px; background: linear-gradient(135deg, #fff7e0, #ffe9f3); border: 1px solid rgba(255,193,7,.4); animation: rewardPop .4s ease; }
+    .reward-box.show { display: block; }
+    @keyframes rewardPop { from { transform: scale(.92); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+    .reward-box .rw-coin { font-size: 18px; font-weight: 900; color: #d4920a; }
+    .reward-box .rw-quote { font-size: 13px; color: #8a5a6e; margin-top: 4px; font-style: italic; }
+    .reward-box .rw-badge { display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 999px; background: linear-gradient(135deg,#ffd54f,#ffb300); color:#7a4f00; font-size: 12px; font-weight: 800; }
+    .badge-wall { margin-top: 14px; }
+    .badge-wall h4 { font-size: 13px; color: #a05b7d; margin: 0 0 8px; font-weight: 700; }
+    .badge-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .badge { display: flex; flex-direction: column; align-items: center; gap: 2px; width: 64px; padding: 8px 4px; border-radius: 12px; background: #fff; border: 1px solid rgba(240,200,215,.5); box-shadow: 0 2px 6px rgba(239,125,163,.08); }
+    .badge.locked { filter: grayscale(1); opacity: .45; }
+    .badge .b-ico { font-size: 22px; }
+    .badge .b-name { font-size: 10px; color: #8a5a6e; text-align: center; line-height: 1.15; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-date" id="sidebarDate">加载中…</div>
+      <div class="profile">
+        <img class="avatar" id="avatar" alt="头像" title="点击更换头像"
+          src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f7a8c4'/><circle cx='50' cy='40' r='18' fill='%23ffffff'/><path d='M24 84c0-15 12-25 26-25s26 10 26 25z' fill='%23ffffff'/></svg>" />
+        <input type="file" id="avatarInput" accept="image/*" hidden />
+        <div class="sidebar-title">小艾的考公工作台</div>
+      </div>
+      <nav class="menu" id="menu">
+        <div class="menu-item" data-page="overview"><span class="menu-emoji">📊</span><span class="menu-label">学习概览</span></div>
+        <div class="menu-group">
+          <div class="menu-item has-sub"><span class="menu-emoji">📚</span><span class="menu-label">模块学习</span><span class="arrow">›</span></div>
+          <div class="submenu">
+            <div class="submenu-item" data-page="timer">⏱ 科目计时器</div>
+            <div class="submenu-item" data-page="memo">📖 知识备忘录</div>
+            <div class="submenu-item" data-page="mistakes">🗂 分模块错题本</div>
+          </div>
+        </div>
+        <div class="menu-group">
+          <div class="menu-item has-sub"><span class="menu-emoji">📝</span><span class="menu-label">复盘总结</span><span class="arrow">›</span></div>
+          <div class="submenu"><div class="submenu-item" data-page="review">📋 每日学习复盘</div></div>
+        </div>
+        <div class="menu-group">
+          <div class="menu-item has-sub"><span class="menu-emoji">📃</span><span class="menu-label">套卷分析</span><span class="arrow">›</span></div>
+          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div></div>
+        </div>
+        <div class="menu-item" data-page="insights"><span class="menu-emoji">📈</span><span class="menu-label">数据洞察</span></div>
+        <div class="menu-item" data-page="news"><span class="menu-emoji">🔥</span><span class="menu-label">时政热点</span></div>
+      </nav>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="hamburger" id="hamburger" aria-label="菜单">☰</button>
+        <div class="breadcrumb" id="breadcrumb">📊 学习概览</div>
+      </header>
+
+      <div class="content">
+        <!-- 学习概览 -->
+        <section class="page active" id="page-overview">
+          <h1 class="page-title">学习概览</h1>
+          <p class="page-sub">今日数据一览 · 自动从计时器同步</p>
+          <div class="checkin-bar" id="checkinBar">
+            <div class="checkin-info">
+              <span class="checkin-fire">🔥</span>
+              <span class="checkin-streak" id="checkinStreak">连续学习 <b id="streakNum">0</b> 天</span>
+            </div>
+            <button class="checkin-btn" id="checkinBtn">今日打卡</button>
+          </div>
+          <div class="quote-card">
+            <div class="qmark">"</div>
+            <div><div class="qtext" id="quoteText">—</div><div class="qsub" id="quoteSub">今日励志语录</div></div>
+          </div>
+
+          <h3 style="margin:16px 0 0;font-size:15px;">⏳ 考试倒计时</h3>
+          <div class="countdowns" id="countdownList"></div>
+
+          <!-- 打卡激励小游戏 -->
+          <div class="game-card" id="gameCard">
+            <div class="game-head">
+              <span class="game-title">🎮 打卡激励小游戏</span>
+              <span class="game-coin">💰 <span id="coinNum">0</span></span>
+            </div>
+            <div class="game-body">
+              <div class="tree-wrap">
+                <div class="tree-box" id="treeBox"></div>
+                <div class="tree-stage" id="treeStage">种子 · 0 天</div>
+                <div class="tree-tip" id="treeTip">坚持打卡，小树会长大 🌱</div>
+              </div>
+              <div class="gacha-wrap">
+                <div class="gacha-machine" id="gachaMachine">
+                  <div class="gacha-glass"><span class="gacha-capsule" id="gachaCapsule">🥚</span></div>
+                  <div class="gacha-meta">
+                    <div class="gm-t">每日打卡扭蛋</div>
+                    <div class="gm-s" id="gachaSub">先完成上方「今日打卡」，再来抽今日好运 🍀</div>
+                  </div>
+                </div>
+                <button class="gacha-btn" id="gachaBtn">🎰 抽今日奖励</button>
+                <div class="reward-box" id="rewardBox"></div>
+              </div>
+            </div>
+            <div class="badge-wall">
+              <h4>🏅 成就徽章</h4>
+              <div class="badge-list" id="badgeWall"></div>
+            </div>
+          </div>
+          <div class="grid section-gap" id="statGrid"></div>
+          <div class="study-stats">
+            <div class="study-head"><span style="font-size:16px;">⏱</span><h3>学习时长统计</h3></div>
+            <div class="study-tabs" id="studyTabs">
+              <button type="button" class="study-tab active" data-range="week">📅 近一周</button>
+              <button type="button" class="study-tab" data-range="month">📅 近一月</button>
+              <button type="button" class="study-tab" data-range="year">📅 近一年</button>
+            </div>
+            <div class="study-summary" id="studySummary"></div>
+          </div>
+          <div class="charts-grid">
+            <div class="chart-card">
+              <h3>🥧 今日科目占比 <span class="hint">点击饼块看明细</span></h3>
+              <div class="pie-wrap"><div id="pieChart"></div><div class="pie-legend" id="pieLegend"></div></div>
+            </div>
+            <div class="chart-card"><h3>📈 近 7 日学习时长 <span class="hint">小时</span></h3><div id="weekChart"></div></div>
+            <div class="chart-card"><h3>📈 本月每日学习时长 <span class="hint">小时</span></h3><div id="monthChart"></div></div>
+          </div>
+        </section>
+
+        <!-- 科目计时器 -->
+        <section class="page" id="page-timer">
+          <h1 class="page-title">科目计时器</h1>
+          <p class="page-sub">选择科目开始计时，时长自动记录并同步到学习概览</p>
+          <div class="card timer-panel">
+            <div class="timer-subject-now">当前科目：<b id="timerSubjectName">政治理论</b></div>
+            <div class="timer-clock" id="timerClock">00:00:00</div>
+            <div class="timer-modes">
+              <div class="seg active" id="segCount" data-mode="count">⏱ 正计时</div>
+              <div class="seg" id="segPomo" data-mode="pomo">🍅 番茄钟</div>
+            </div>
+            <div class="pomo-input" id="pomoInput">时长 <input type="number" id="pomoMin" value="25" min="1" max="120" /> 分钟</div>
+            <div class="timer-btns">
+              <button class="btn btn-primary" id="btnStart">开始</button>
+              <button class="btn btn-ghost" id="btnReset">重置</button>
+            </div>
+          </div>
+          <h3 style="margin:22px 0 0;font-size:15px;">选择科目（竖向）</h3>
+          <div class="subject-list" id="subjectList"></div>
+        </section>
+
+        <!-- 知识备忘录 -->
+        <section class="page" id="page-memo">
+          <h1 class="page-title">知识备忘录</h1>
+          <p class="page-sub">按模块存放行测、申论素材笔记</p>
+          <div class="tabs" id="memoTabs"></div>
+          <div class="add-bar"><button class="btn btn-primary btn-sm" id="addNoteBtn">+ 新建笔记</button></div>
+          <div id="noteList"></div>
+        </section>
+
+        <!-- 分模块错题本（重点优化） -->
+        <section class="page" id="page-mistakes">
+          <h1 class="page-title">分模块错题本</h1>
+          <p class="page-sub">录入错题、选择错因、整理正确思路，按模块归类</p>
+          <div class="card" style="margin-bottom:16px;">
+            <h3 style="margin-bottom:12px;">➕ 录入错题</h3>
+            <div class="form-row"><label>所属模块</label><select id="mkModule" class="mini"></select></div>
+            <div class="form-row"><label>日期</label><input type="date" id="mkDate" class="mini" /></div>
+            <div class="form-row"><label>题目 / 错点</label><textarea id="mkQuestion" placeholder="题目描述或易错点"></textarea></div>
+            <div class="mk-img-row">
+              <button type="button" class="btn btn-line btn-sm" id="mkImgBtn">📷 导入题目图片</button>
+              <input type="file" id="mkImage" accept="image/*" style="display:none;" />
+              <div id="mkImgPreview" class="mk-img-preview" style="display:none;">
+                <img id="mkImgThumb" alt="题目图片" />
+                <button type="button" class="mk-img-del" id="mkImgDel" title="移除图片">×</button>
+              </div>
+            </div>
+            <div class="form-row">
+              <label>错误原因</label>
+              <select id="mkReason">
+                <option value="知识点盲区">知识点盲区</option>
+                <option value="审题粗心失误">审题粗心失误</option>
+                <option value="公式/方法遗忘">公式/方法遗忘</option>
+                <option value="干扰选项混淆">干扰选项混淆</option>
+                <option value="时间不足未做完">时间不足未做完</option>
+                <option value="计算失误">计算失误</option>
+                <option value="思路逻辑偏差">思路逻辑偏差</option>
+                <option value="语感/素材积累不足">语感/素材积累不足</option>
+                <option value="其他">其他</option>
+              </select>
+              <input type="text" id="mkReasonOther" placeholder="请填写自定义错误原因" style="display:none;margin-top:8px;" />
+            </div>
+            <div class="form-row"><label>正确思路</label><textarea id="mkCorrect" placeholder="正确的解题方法"></textarea></div>
+            <div class="mk-img-row">
+              <button type="button" class="btn btn-line btn-sm" id="mkCorrectImgBtn">📷 导入思路图片</button>
+              <input type="file" id="mkCorrectImage" accept="image/*" style="display:none;" />
+              <div id="mkCorrectImgPreview" class="mk-img-preview" style="display:none;">
+                <img id="mkCorrectImgThumb" alt="思路图片" />
+                <button type="button" class="mk-img-del" id="mkCorrectImgDel" title="移除图片">×</button>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="mkSave">保存错题</button>
+            <button class="btn btn-line" id="mkCancel" style="display:none;margin-left:8px;">取消</button>
+          </div>
+          <div class="card">
+            <div class="form-row" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap;">
+              <label style="margin:0;white-space:nowrap;">按模块筛选</label>
+              <select id="mkFilter" class="mini"></select>
+              <label style="margin:0 0 0 6px;white-space:nowrap;">掌握度</label>
+              <select id="mkMasFilter" class="mini"><option value="">全部</option><option value="review">需复习</option><option value="mastered">已掌握</option></select>
+            </div>
+            <div class="reason-legend" id="reasonLegend"></div>
+            <div id="mistakeList"></div>
+          </div>
+        </section>
+
+        <!-- 每日学习复盘 -->
+        <section class="page" id="page-review">
+          <h1 class="page-title">每日学习复盘</h1>
+          <p class="page-sub">记录学习问题，制定后续改进计划</p>
+          <div class="card" style="margin-bottom:16px;">
+            <div class="form-row"><label>日期</label><input type="date" id="rvDate" class="mini" /></div>
+            <div class="form-row"><label>复盘标签</label><select id="rvTag" class="mini"></select></div>
+            <div class="form-row">
+              <label>今日学习问题 <span class="charcount" id="rvProblemsCount">0 / 300</span></label>
+              <textarea id="rvProblems" maxlength="300" placeholder="记录做题卡点、薄弱模块、效率问题"></textarea>
+            </div>
+            <div class="form-row">
+              <label>后续改进计划 <span class="charcount" id="rvPlanCount">0 / 300</span></label>
+              <textarea id="rvPlan" maxlength="300" placeholder="写下刷题安排、复习调整方案"></textarea>
+            </div>
+            <button class="btn btn-primary" id="rvSave">保存复盘</button>
+            <button class="btn btn-line" id="rvCancel" style="display:none;margin-left:8px;">取消</button>
+          </div>
+          <div class="card" style="margin-bottom:16px;">
+            <h3 style="margin-bottom:4px;">📅 复习计划 <span class="hint">艾宾浩斯遗忘曲线</span></h3>
+            <p class="ebb-tip">根据记忆规律，一道错题建议在学后的第 1 / 2 / 4 / 7 / 15 / 30 天复习。已标记「已掌握」的不再提醒。</p>
+            <div id="ebbDue" class="ebb-due"></div>
+            <div id="ebbList"></div>
+          </div>
+          <div class="card" style="margin-bottom:16px;">
+            <h3 style="margin-bottom:4px;">🔥 错误数热力图 <span class="hint">近 12 周每日错题</span></h3>
+            <p class="page-sub" style="margin-bottom:10px;">颜色越深，当天录入的错题越多</p>
+            <div class="heat-wrap"><div id="heatMap"></div></div>
+            <div class="heat-legend"><span>少</span><span class="hl" style="background:#fbe3ec"></span><span class="hl" style="background:#f9c4d8"></span><span class="hl" style="background:#f49bc0"></span><span class="hl" style="background:#ef7da3"></span><span class="hl" style="background:#d85f8e"></span><span>多</span></div>
+          </div>
+          <div class="card">
+            <div class="form-row" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+              <label style="margin:0;white-space:nowrap;">按标签筛选</label>
+              <select id="rvFilter" class="mini"></select>
+            </div>
+            <div id="reviewList"></div>
+          </div>
+        </section>
+
+        <!-- 试卷专项分析 -->
+        <section class="page" id="page-analysis">
+          <h1 class="page-title">试卷专项分析</h1>
+          <p class="page-sub">录入套卷答题情况，统计各模块总题量与答对数，标记薄弱模块</p>
+          <div class="card" style="margin-bottom:16px;">
+            <div class="form-row"><label>试卷名称</label><input type="text" id="ppName" placeholder="如：2025国考地市级行测" /></div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>日期</label><input type="date" id="ppDate" /></div>
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>做题时长（分钟）</label><input type="number" id="ppDuration" min="0" placeholder="120" /></div>
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>分数</label><input type="number" id="ppScore" min="0" placeholder="0" /></div>
+            </div>
+            <div class="paper-row head"><span>模块</span><span>总题量</span><span>答对数</span></div>
+            <div id="ppRows"></div>
+            <div class="form-row" style="margin-top:6px;">
+              <label>试卷备注 <span class="charcount" id="ppNoteCount">0 / 500</span></label>
+              <textarea id="ppNote" maxlength="500" placeholder="记录错题、遗忘的知识点，便于试卷总结"></textarea>
+            </div>
+            <button class="btn btn-primary" id="ppSave" style="margin-top:8px;">保存试卷分析</button>
+          </div>
+          <div class="card" style="margin-bottom:16px;">
+            <h3 style="margin-bottom:6px;">📈 成绩趋势</h3>
+            <p class="page-sub" style="margin-bottom:10px;">按时间顺序展示各套试卷的正确率 / 分数变化</p>
+            <div style="display:flex;gap:8px;margin-bottom:8px;">
+              <button type="button" class="btn btn-ghost btn-sm trend-btn active" data-metric="rate">正确率</button>
+              <button type="button" class="btn btn-ghost btn-sm trend-btn" data-metric="score">分数</button>
+            </div>
+            <div id="trendChart"></div>
+          </div>
+          <div id="paperList"></div>
+        </section>
+
+        <!-- 每日时政热点 -->
+        <section class="page" id="page-news">
+          <h1 class="page-title">每日时政热点</h1>
+          <p class="page-sub">AI 每日自动生成 · 聚焦考点相关的国内外重大政策、会议、社会热点</p>
+          <div class="card" style="margin-top:14px;">
+            <div id="newsBox" class="news-box"></div>
+            <div class="news-foot">
+              <button class="btn btn-ghost btn-sm" id="newsRefresh">↻ 刷新</button>
+              <button class="btn btn-line btn-sm" id="newsSettings">⚙ 设置</button>
+              <span class="news-updated" id="newsUpdated"></span>
+            </div>
+            <div id="newsSettingsPanel" style="display:none;margin-top:12px;border-top:1px solid var(--border);padding-top:12px;">
+              <div class="form-row"><label>API 地址</label><input type="text" id="aiEndpoint" placeholder="https://api.deepseek.com/chat/completions" /></div>
+              <div class="form-row"><label>API Key</label><input type="password" id="aiKey" placeholder="sk-..." /></div>
+              <div class="form-row"><label>模型</label><input type="text" id="aiModel" placeholder="deepseek-chat" /></div>
+              <p class="news-tip">密钥仅保存在本机浏览器，不会上传到任何服务器；需使用支持浏览器跨域（CORS）的接口（如 DeepSeek / Kimi 等）。也可填一个带 CORS 的代理地址。</p>
+              <button class="btn btn-primary btn-sm" id="aiSave">保存设置</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 数据洞察 -->
+        <section class="page" id="page-insights">
+          <h1 class="page-title">数据洞察</h1>
+          <p class="page-sub">从错题与复盘中看见规律 · 全部图表零依赖手绘 SVG</p>
+          <div class="grid section-gap" id="insightStats"></div>
+          <div class="charts-grid">
+            <div class="chart-card"><h3>🍩 错题掌握度</h3><div class="pie-wrap"><div id="donutMastery"></div><div class="pie-legend" id="donutMasteryLegend"></div></div></div>
+            <div class="chart-card"><h3>📊 各模块错题数</h3><div id="barModule" class="bar-chart"></div></div>
+            <div class="chart-card"><h3>📈 近 30 天每日错题数</h3><div id="lineErrTrend"></div></div>
+            <div class="chart-card"><h3>🎯 错因分布</h3><div id="barReason" class="bar-chart"></div></div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="overlay-bg" id="modalRoot">
+    <div class="modal">
+      <div class="modal-head"><h3 id="modalTitle">标题</h3><button class="modal-close" id="modalClose">×</button></div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-foot" id="modalFoot"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <script>
+  (function () {
+    "use strict";
+    /* 存储 */
+    var K = "kaogong_";
+    function load(k, def) { try { var v = localStorage.getItem(K + k); return v ? JSON.parse(v) : def; } catch (e) { return def; } }
+    function save(k, v) { try { localStorage.setItem(K + k, JSON.stringify(v)); } catch (e) {} }
+
+    /* 科目（柔和配色） */
+    var SUBJECTS = [
+      { key: "politics", name: "政治理论", ico: "🏛️", color: "#f6a5c0" },
+      { key: "common",   name: "常识",     ico: "🌟", color: "#f7c59f" },
+      { key: "verbal",   name: "言语理解", ico: "📝", color: "#f9d0dd" },
+      { key: "graph",    name: "图形推理", ico: "🔷", color: "#cdbdf0" },
+      { key: "logic",    name: "判断推理", ico: "🧩", color: "#bcd4f0" },
+      { key: "data",     name: "资料分析", ico: "📊", color: "#a8e0d4" },
+      { key: "quant",    name: "数量关系", ico: "🔢", color: "#f7e2a8" },
+      { key: "calc",     name: "速算",     ico: "⚡", color: "#c3e8b0" },
+      { key: "review",   name: "复盘",     ico: "🔁", color: "#e6bfe0" },
+      { key: "paper",    name: "套卷",     ico: "📃", color: "#b6e4dd" },
+      { key: "essay",    name: "申论",     ico: "✍️", color: "#f3b0b8" }
+    ];
+    var SUB_MAP = {}; SUBJECTS.forEach(function (s) { SUB_MAP[s.key] = s; });
+
+    /* 错因选项 + 颜色 */
+    var ERROR_REASONS = ["知识点盲区","审题粗心失误","公式/方法遗忘","干扰选项混淆","时间不足未做完","计算失误","思路逻辑偏差","语感/素材积累不足","其他"];
+    var REASON_COLORS = {
+      "知识点盲区":"#f6a5c0","审题粗心失误":"#f7c59f","公式/方法遗忘":"#f9d0dd","干扰选项混淆":"#cdbdf0",
+      "时间不足未做完":"#bcd4f0","计算失误":"#a8e0d4","思路逻辑偏差":"#f7e2a8","语感/素材积累不足":"#c3e8b0","其他":"#e6bfe0"
+    };
+    function reasonColor(r) { if (r && r.indexOf("其他") === 0) return REASON_COLORS["其他"]; return REASON_COLORS[r] || "#fbe3ec"; }
+
+    /* 日期 / 格式化 */
+    function pad(n) { return n < 10 ? "0" + n : "" + n; }
+    function todayKey(d) { d = d || new Date(); return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+    function fmtClock(sec) { sec = Math.floor(sec); var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60; return pad(h) + ":" + pad(m) + ":" + pad(s); }
+    function fmtDur(sec) { sec = Math.floor(sec); var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60; if (h > 0) return h + "小时" + m + "分"; if (m > 0) return m + "分钟"; return s + "秒"; }
+    var WK = ["日","一","二","三","四","五","六"];
+    function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+    function esc(s) { return ("" + (s || "")).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+    /* 语录（每日自动更换） */
+    var QUOTES = ["路虽远，行则将至；事虽难，做则必成。","你只管努力，剩下的交给时间。","今天的每一分坚持，都是明天上岸的筹码。","不是因为看到希望才坚持，而是坚持了才看到希望。","把平凡的事做到极致，就是不平凡。","与其担心未来，不如努力现在。","上岸不是终点，而是更好的起点。","奋斗的青春最美丽，拼搏的时光最珍贵。","种一棵树最好的时间是十年前，其次是现在。","越努力，越幸运。","不要假装努力，结果不会陪你演戏。","你流过的汗，终将变成录取通知书上的字。","备考很苦，但上岸很甜。","把目标刻在心里，把行动落在脚下。","所谓运气，不过是机会碰巧撞到了你的努力。","坚持到最后的人，配得上最好的结果。","不积跬步，无以至千里。","你现在的努力，是为了以后有更多的选择。","真正的稳定，来自自身的能力。","当你的才华还撑不起梦想时，就去学习。","慢慢来，比较快。","山高自有客行路，水深自有渡船人。","每一次刷题，都是在为梦想添砖加瓦。","星光不问赶路人，时光不负有心人。"];
+    function todayQuote() { return QUOTES[Math.floor(Date.now() / 86400000) % QUOTES.length]; }
+
+    /* 学习记录聚合 */
+    function daily() { return load("daily", {}); }
+    function todayRec() { var d = daily(); return d[todayKey()] || {}; }
+    function addSeconds(subjectKey, sec) { var d = daily(); var tk = todayKey(); if (!d[tk]) d[tk] = {}; d[tk][subjectKey] = (d[tk][subjectKey] || 0) + sec; save("daily", d); }
+    function dayTotal(key) { var r = daily()[key]; if (!r) return 0; var t = 0; for (var k in r) t += r[k]; return t; }
+
+    /* 弹窗 / 提示 */
+    var modalRoot = document.getElementById("modalRoot"), modalTitle = document.getElementById("modalTitle"), modalBody = document.getElementById("modalBody"), modalFoot = document.getElementById("modalFoot");
+    function openModal(title, bodyHtml, footHtml) { modalTitle.textContent = title; modalBody.innerHTML = bodyHtml || ""; modalFoot.innerHTML = footHtml || ""; modalRoot.classList.add("show"); }
+    function closeModal() { modalRoot.classList.remove("show"); modalBody.innerHTML = ""; modalFoot.innerHTML = ""; }
+    document.getElementById("modalClose").addEventListener("click", closeModal);
+    modalRoot.addEventListener("click", function (e) { if (e.target === modalRoot) closeModal(); });
+    var toastEl = document.getElementById("toast"), toastTimer;
+    function toast(msg) { toastEl.textContent = msg; toastEl.classList.add("show"); clearTimeout(toastTimer); toastTimer = setTimeout(function () { toastEl.classList.remove("show"); }, 2000); }
+
+    /* SVG 饼图 */
+    function polar(cx, cy, r, deg) { var a = (deg - 90) * Math.PI / 180; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; }
+    function donutSlice(cx, cy, rO, rI, start, end) {
+      var so = polar(cx, cy, rO, start), eo = polar(cx, cy, rO, end), si = polar(cx, cy, rI, end), ei = polar(cx, cy, rI, start);
+      var large = (end - start) > 180 ? 1 : 0;
+      return "M" + so[0] + " " + so[1] + " A" + rO + " " + rO + " 0 " + large + " 1 " + eo[0] + " " + eo[1] + " L" + si[0] + " " + si[1] + " A" + rI + " " + rI + " 0 " + large + " 0 " + ei[0] + " " + ei[1] + " Z";
+    }
+    function drawPie(el, legendEl, items, onSlice) {
+      var total = 0; items.forEach(function (i) { total += i.value; });
+      if (total <= 0) { el.innerHTML = '<div class="empty">今日还没有学习记录<br>去计时器开始学习吧～</div>'; legendEl.innerHTML = ""; return; }
+      var cx = 90, cy = 90, rO = 84, rI = 52, svg = '<svg width="180" height="180" viewBox="0 0 180 180">';
+      var pos = 0; var single = items.filter(function (i) { return i.value > 0; }).length === 1;
+      items.forEach(function (it, idx) {
+        if (it.value <= 0) return;
+        if (single) { var rmid = (rO + rI) / 2; svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rmid + '" fill="none" stroke="' + it.color + '" stroke-width="' + (rO - rI) + '" class="slice" data-i="' + idx + '"><title>' + it.name + '</title></circle>'; }
+        else { var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value; svg += '<path d="' + donutSlice(cx, cy, rO, rI, start, end) + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + '</title></path>'; }
+      });
+      svg += '<text x="90" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#5a434c">' + (total / 3600).toFixed(1) + '</text><text x="90" y="103" text-anchor="middle" font-size="11" fill="#9a848d">小时</text></svg>';
+      el.innerHTML = svg;
+      legendEl.innerHTML = items.map(function (it) { var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0"; return '<div class="lg"><span class="sw" style="background:' + it.color + '"></span><span class="lg-name">' + it.name + '</span><span class="lg-val">' + fmtDur(it.value) + " · " + pct + '%</span></div>'; }).join("");
+      Array.prototype.forEach.call(el.querySelectorAll(".slice"), function (s) { s.addEventListener("click", function () { onSlice(items[+s.getAttribute("data-i")]); }); });
+    }
+
+    /* SVG 折线图 */
+    function drawLine(el, points, opts) {
+      opts = opts || {};
+      var tip = opts.tip, color = opts.color || "#ef7da3";
+      var W = 480, H = 220, pL = 38, pR = 14, pT = 16, pB = 30, iW = W - pL - pR, iH = H - pT - pB;
+      var maxV = 0; points.forEach(function (p) { if (p.value > maxV) maxV = p.value; });
+      var yMax = Math.max(0.5, Math.ceil(maxV * 1.15 * 10) / 10); if (yMax <= 0) yMax = 1;
+      var n = points.length, step = n > 1 ? iW / (n - 1) : 0;
+      var svg = '<svg width="100%" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="xMidYMid meet">';
+      for (var g = 0; g <= 4; g++) { var yv = yMax * g / 4, yy = pT + iH - (yv / yMax) * iH; svg += '<line x1="' + pL + '" y1="' + yy + '" x2="' + (W - pR) + '" y2="' + yy + '" stroke="#f3e2e9"/><text x="' + (pL - 6) + '" y="' + (yy + 3) + '" text-anchor="end" font-size="9" fill="#b09aa2">' + yv.toFixed(1) + '</text>'; }
+      var path = "", dots = "";
+      points.forEach(function (p, i) {
+        var x = n > 1 ? pL + step * i : pL + iW / 2, y = pT + iH - (p.value / yMax) * iH;
+        path += (i === 0 ? "M" : "L") + x.toFixed(1) + " " + y.toFixed(1) + " ";
+        var lab = tip ? tip(p) : (p.value > 0 ? fmtDur(p.value * 3600) : "0");
+        dots += '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="3.5" fill="' + color + '"><title>' + esc(p.label) + (lab ? "：" + lab : "") + "</title></circle>";
+        var showLab = n <= 12 || i % Math.ceil(n / 10) === 0 || i === n - 1;
+        if (showLab) svg += '<text x="' + x.toFixed(1) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="9" fill="#9a848d">' + esc(p.label) + "</text>";
+      });
+      svg += '<path d="' + path + '" fill="none" stroke="' + color + '" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>' + dots + "</svg>";
+      el.innerHTML = svg;
+    }
+
+    /* 日期工具 + 艾宾浩斯遗忘曲线 */
+    function addDays(ds, n) { var d = new Date(ds + "T00:00:00"); d.setDate(d.getDate() + n); return todayKey(d); }
+    var EBB = [1, 2, 4, 7, 15, 30]; /* 学后第 N 天复习 */
+    function mm(m) { return m.mastery || "review"; } /* 兼容旧数据：默认需复习 */
+    function ebbInfo(m) {
+      var base = m.date || todayKey(new Date(m.created || Date.now())), today = todayKey();
+      var dates = EBB.map(function (d) { return addDays(base, d); });
+      var next = null, dueToday = false, overdue = false;
+      dates.forEach(function (d) {
+        if (d === today) { dueToday = true; if (next === null) next = d; }
+        else if (d < today) { overdue = true; if (next === null) next = today; }
+        else { if (next === null) next = d; }
+      });
+      if (next === null) next = dates[dates.length - 1];
+      var statusText, statusClass;
+      if (dueToday) { statusText = "今天到期 🔥"; statusClass = "due"; }
+      else if (overdue) { statusText = "已逾期 · 尽快复习"; statusClass = "due"; }
+      else { statusText = "下次复习 " + next; statusClass = "soon"; }
+      var dots = dates.map(function (d) { return { date: d, state: d < today ? "done" : (d === today ? "due" : "soon") }; });
+      return { base: base, dates: dates, next: next, dueToday: dueToday, overdue: overdue, statusText: statusText, statusClass: statusClass, dots: dots };
+    }
+    function dueReviewCount(list) {
+      var today = todayKey(), n = 0;
+      list.forEach(function (m) { if (mm(m) === "mastered") return; var info = ebbInfo(m); if (info.dueToday || info.overdue) n++; });
+      return n;
+    }
+
+    /* 手绘 SVG 柱状图（横向，移动端友好） */
+    function drawBar(el, items, opts) {
+      opts = opts || {};
+      var color = opts.color || "#ef7da3";
+      var maxV = 0; items.forEach(function (i) { if (i.value > maxV) maxV = i.value; });
+      if (maxV <= 0) { el.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      var rowH = 24, gap = 8, labelW = 92, valW = 28, padL = 4, padR = 4;
+      var W = 480, H = items.length * (rowH + gap) + 8, iW = W - labelW - valW - padL - padR;
+      var svg = '<svg width="100%" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="xMidYMid meet" class="bar-chart">';
+      items.forEach(function (it, idx) {
+        var y = 4 + idx * (rowH + gap), bw = maxV > 0 ? (it.value / maxV) * iW : 0;
+        svg += '<text x="' + padL + '" y="' + (y + rowH / 2 + 4) + '" font-size="12" fill="#6b555e">' + esc(it.name) + "</text>";
+        svg += '<rect x="' + (padL + labelW) + '" y="' + y + '" width="' + iW + '" height="' + rowH + '" rx="6" fill="#fbe3ec"/>';
+        svg += '<rect x="' + (padL + labelW) + '" y="' + y + '" width="' + bw.toFixed(1) + '" height="' + rowH + '" rx="6" fill="' + (it.color || color) + '"><title>' + esc(it.name) + "：" + it.value + " 题</title></rect>";
+        svg += '<text x="' + (padL + labelW + iW + 6) + '" y="' + (y + rowH / 2 + 4) + '" font-size="12" fill="#9a848d">' + it.value + "</text>";
+      });
+      svg += "</svg>"; el.innerHTML = svg;
+    }
+
+    /* 手绘 SVG 环形图（通用，中心可自定义文字） */
+    function drawDonut(el, legendEl, items, opts) {
+      opts = opts || {};
+      var total = 0; items.forEach(function (i) { total += i.value; });
+      if (total <= 0) { el.innerHTML = '<div class="empty">暂无数据</div>'; legendEl.innerHTML = ""; return; }
+      var cx = 90, cy = 90, rO = 84, rI = 52, svg = '<svg width="180" height="180" viewBox="0 0 180 180">';
+      var pos = 0; var single = items.filter(function (i) { return i.value > 0; }).length === 1;
+      items.forEach(function (it, idx) {
+        if (it.value <= 0) return;
+        if (single) { var rmid = (rO + rI) / 2; svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rmid + '" fill="none" stroke="' + it.color + '" stroke-width="' + (rO - rI) + '" class="slice" data-i="' + idx + '"><title>' + it.name + "</title></circle>"; }
+        else { var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value; svg += '<path d="' + donutSlice(cx, cy, rO, rI, start, end) + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + "</title></path>"; }
+      });
+      svg += '<text x="90" y="86" text-anchor="middle" font-size="22" font-weight="800" fill="#5a434c">' + (opts.center || total) + "</text>";
+      if (opts.centerSub) svg += '<text x="90" y="104" text-anchor="middle" font-size="11" fill="#9a848d">' + opts.centerSub + "</text>";
+      svg += "</svg>"; el.innerHTML = svg;
+      legendEl.innerHTML = items.map(function (it) { var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0"; return '<div class="lg"><span class="sw" style="background:' + it.color + '"></span><span class="lg-name">' + it.name + '</span><span class="lg-val">' + it.value + " · " + pct + '%</span></div>'; }).join("");
+    }
+
+    /* 手绘 SVG 错误数热力图（GitHub 风格，按周分列） */
+    function drawHeatmap(el, counts) {
+      var weeks = 12, cell = 13, gap = 3, padL = 22, padT = 4;
+      var today = new Date(); today.setHours(0, 0, 0, 0);
+      var endD = new Date(today), startD = new Date(endD);
+      startD.setDate(startD.getDate() - (weeks * 7 - 1)); startD.setDate(startD.getDate() - startD.getDay());
+      var days = [], cur = new Date(startD);
+      while (cur <= endD) { days.push(new Date(cur)); cur.setDate(cur.getDate() + 1); }
+      function cf(c) { if (c <= 0) return "#fbe3ec"; if (c <= 1) return "#f9c4d8"; if (c <= 3) return "#f49bc0"; if (c <= 5) return "#ef7da3"; return "#d85f8e"; }
+      var W = padL + weeks * (cell + gap), H = padT + 7 * (cell + gap) + 2;
+      var svg = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + " " + H + '" style="max-width:100%;">';
+      var wd = ["日", "一", "二", "三", "四", "五", "六"];
+      for (var r = 0; r < 7; r++) { if (r % 2 === 0) svg += '<text x="2" y="' + (padT + r * (cell + gap) + cell - 2) + '" font-size="9" fill="#9a848d">' + wd[r] + "</text>"; }
+      days.forEach(function (d, i) {
+        var col = Math.floor(i / 7), row = d.getDay(), x = padL + col * (cell + gap), y = padT + row * (cell + gap);
+        var ds = todayKey(d), c = counts[ds] || 0;
+        svg += '<rect x="' + x + '" y="' + y + '" width="' + cell + '" height="' + cell + '" rx="3" fill="' + cf(c) + '"><title>' + ds + "：" + c + " 题</title></rect>";
+      });
+      svg += "</svg>"; el.innerHTML = svg;
+    }
+
+    /* 打卡连续学习天数 */
+    function calcStreak() {
+      var d = daily(); var streak = 0; var today = new Date();
+      for (var i = 0; i < 9999; i++) { /* 最多查近 30 年 */
+        var dd = new Date(today); dd.setDate(dd.getDate() - i); var dk = todayKey(dd);
+        var rec = d[dk]; var hasStudy = false;
+        if (rec) for (var k in rec) { if (rec[k] > 0) { hasStudy = true; break; } }
+        var checkins = load("checkins", []); if (checkins.indexOf(dk) >= 0) hasStudy = true;
+        if (hasStudy) streak++; else break;
+      }
+      return streak;
+    }
+    function isTodayCheckedIn() {
+      var checkins = load("checkins", []);
+      return checkins.indexOf(todayKey()) >= 0 || dayTotal(todayKey()) > 0;
+    }
+    function renderCheckin() {
+      var bar = document.getElementById("checkinBar"); var btn = document.getElementById("checkinBtn");
+      var numEl = document.getElementById("streakNum"); if (!bar || !btn) return;
+      var streak = calcStreak(); if (numEl) numEl.textContent = streak;
+      if (isTodayCheckedIn()) { btn.textContent = "✅ 已打卡"; btn.classList.add("checked"); }
+      else { btn.textContent = "今日打卡"; btn.classList.remove("checked"); }
+    }
+    document.getElementById("checkinBtn").addEventListener("click", function () {
+      if (isTodayCheckedIn()) { toast("今天已经打卡啦 ✅"); return; }
+      var checkins = load("checkins", []); checkins.push(todayKey()); save("checkins", checkins);
+      var nb = checkBadges();
+      renderCheckin(); renderGame();
+      toast(nb.length ? ("🎉 打卡成功！解锁徽章：" + nb.map(function (b) { return b.icon + b.name; }).join(" ")) : "🎉 打卡成功！坚持就是胜利！");
+    });
+
+    /* ===== 打卡激励小游戏：成长树 + 扭蛋 + 徽章 ===== */
+    var QUOTES = [
+      "今天的努力，是明天上岸的底气。", "把简单的事做到极致，就是不简单。", "你只管努力，剩下的交给时间。",
+      "看似不起眼的日复一日，会在将来某天突然让你看到坚持的意义。", "上岸不是终点，而是你自律习惯的起点。",
+      "不要假装努力，结果不会陪你演戏。", "山高路远，但每一步都算数。", "自律给你自由，坚持给你答案。",
+      "别人在刷手机，你在刷真题，差距就是这样拉开的。", "考公没有捷径，唯有日拱一卒。",
+      "你现在的苦，是为了将来选工作的底气。", "乾坤未定，你我皆是黑马。", "把目标拆成每天的小任务，上岸就不远了。",
+      "真正的稳定，是你拥有随时离开的能力。", "今天的错题，是明天的得分点。"
+    ];
+    var BADGE_DEFS = [
+      { id: "first", icon: "🌱", name: "初次打卡", test: function (c) { return c.total >= 1; } },
+      { id: "week", icon: "🔥", name: "一周坚持", test: function (c) { return c.streak >= 7; } },
+      { id: "month", icon: "🏆", name: "月度学霸", test: function (c) { return c.streak >= 30; } },
+      { id: "hundred", icon: "💯", name: "百日筑基", test: function (c) { return c.total >= 100; } },
+      { id: "rich", icon: "💰", name: "金币富翁", test: function (c) { return c.coins >= 300; } },
+      { id: "gacha", icon: "🎰", name: "扭蛋达人", test: function (c) { return c.gachaCount >= 10; } }
+    ];
+    var TREE_NAMES = ["种子", "嫩芽", "小苗", "花丛", "小树", "大树"];
+    var TREE_TIPS = ["坚持打卡，小树会长大 🌱", "再坚持几天就能发芽啦", "小苗正在努力生长 🌿", "枝繁叶茂，继续加油 🌸", "已长成小树，真棒 🌳", "参天大树，百日筑基 💯"];
+
+    function totalCheckins() { return load("checkins", []).length; }
+    function treeStage(t) { if (t < 1) return 0; if (t < 7) return 1; if (t < 21) return 2; if (t < 50) return 3; if (t < 100) return 4; return 5; }
+
+    function drawTree(el, stage) {
+      if (!el) return;
+      var g = '<ellipse cx="60" cy="110" rx="44" ry="8" fill="#efd9bf"/>';
+      var s = '<svg width="120" height="120" viewBox="0 0 120 120">';
+      if (stage === 0) {
+        s += g + '<ellipse cx="60" cy="102" rx="10" ry="7" fill="#b07a4f"/><ellipse cx="57" cy="100" rx="3" ry="2" fill="#d9a878"/>';
+      } else if (stage === 1) {
+        s += g + '<rect x="58" y="80" width="4" height="28" rx="2" fill="#6bbf9e"/>' +
+          '<path d="M60 90 q-16 -4 -20 -18 q16 0 20 14z" fill="#7fd1a8"/>' +
+          '<path d="M60 86 q16 -4 20 -18 q-16 0 -20 14z" fill="#7fd1a8"/>';
+      } else if (stage === 2) {
+        s += g + '<rect x="57" y="64" width="5" height="44" rx="2" fill="#6bbf9e"/>' +
+          '<path d="M59 84 q-18 -2 -24 -16 q18 -2 24 12z" fill="#7fd1a8"/>' +
+          '<path d="M61 78 q18 -2 24 -16 q-18 -2 -24 12z" fill="#7fd1a8"/>' +
+          '<path d="M59 70 q-14 -2 -18 -14 q14 -2 18 10z" fill="#8fddb4"/>' +
+          '<path d="M61 66 q14 -2 18 -14 q-14 -2 -18 10z" fill="#8fddb4"/>';
+      } else if (stage === 3) {
+        s += g + '<circle cx="44" cy="80" r="18" fill="#7fce9f"/><circle cx="76" cy="80" r="18" fill="#7fce9f"/><circle cx="60" cy="68" r="20" fill="#8fddb4"/>' +
+          '<circle cx="50" cy="70" r="3" fill="#ff9ec4"/><circle cx="70" cy="74" r="3" fill="#ffd24d"/><circle cx="60" cy="60" r="3" fill="#ff9ec4"/><circle cx="64" cy="84" r="3" fill="#ffd24d"/>';
+      } else if (stage === 4) {
+        s += g + '<rect x="55" y="70" width="10" height="40" rx="4" fill="#b07a4f"/>' +
+          '<circle cx="60" cy="56" r="32" fill="#7fce9f"/><circle cx="42" cy="62" r="18" fill="#8fddb4"/><circle cx="80" cy="62" r="18" fill="#8fddb4"/>';
+      } else {
+        s += g + '<rect x="54" y="64" width="12" height="46" rx="5" fill="#a86a40"/>' +
+          '<circle cx="60" cy="50" r="36" fill="#7fce9f"/><circle cx="38" cy="58" r="22" fill="#8fddb4"/><circle cx="84" cy="58" r="22" fill="#8fddb4"/><circle cx="60" cy="34" r="20" fill="#9fe3c0"/>' +
+          '<circle cx="50" cy="44" r="3.5" fill="#ff9ec4"/><circle cx="72" cy="46" r="3.5" fill="#ffd24d"/><circle cx="60" cy="34" r="3.5" fill="#ff9ec4"/><circle cx="44" cy="60" r="3.5" fill="#ffd24d"/><circle cx="78" cy="62" r="3.5" fill="#ff9ec4"/>';
+      }
+      s += "</svg>"; el.innerHTML = s;
+    }
+
+    function grantBadge(id) { var o = load("badges", []); if (o.indexOf(id) < 0) { o.push(id); save("badges", o); return true; } return false; }
+    function checkBadges() {
+      var owned = load("badges", []);
+      var ctx = { streak: calcStreak(), total: totalCheckins(), coins: load("coins", 0), gachaCount: load("gachaCount", 0) };
+      var newly = [];
+      BADGE_DEFS.forEach(function (b) { if (owned.indexOf(b.id) < 0 && b.test(ctx)) { owned.push(b.id); newly.push(b); } });
+      if (newly.length) save("badges", owned);
+      return newly;
+    }
+    function renderBadges() {
+      var wl = document.getElementById("badgeWall"); if (!wl) return;
+      var owned = load("badges", []);
+      wl.innerHTML = BADGE_DEFS.map(function (b) {
+        var has = owned.indexOf(b.id) >= 0;
+        return '<div class="badge' + (has ? "" : " locked") + '"><span class="b-ico">' + b.icon + '</span><span class="b-name">' + b.name + "</span></div>";
+      }).join("");
+    }
+    function renderGame() {
+      var total = totalCheckins();
+      var stage = treeStage(total);
+      drawTree(document.getElementById("treeBox"), stage);
+      var stEl = document.getElementById("treeStage"); if (stEl) stEl.textContent = TREE_NAMES[stage] + " · " + total + " 天";
+      var tipEl = document.getElementById("treeTip"); if (tipEl) tipEl.textContent = TREE_TIPS[stage];
+      var cEl = document.getElementById("coinNum"); if (cEl) cEl.textContent = load("coins", 0);
+      var btn = document.getElementById("gachaBtn");
+      var sub = document.getElementById("gachaSub");
+      if (btn) {
+        if (!isTodayCheckedIn()) { btn.disabled = false; btn.textContent = "🎰 抽今日奖励"; if (sub) sub.textContent = "先完成上方「今日打卡」，再来抽今日好运 🍀"; }
+        else if (load("lastGacha", "") === todayKey()) { btn.disabled = true; btn.textContent = "✅ 今日已抽"; if (sub) sub.textContent = "今日好运已领取，明天再来 🌟"; }
+        else { btn.disabled = false; btn.textContent = "🎰 抽今日奖励"; if (sub) sub.textContent = "已打卡！点击抽取今日好运 🍀"; }
+      }
+      renderBadges();
+    }
+    function rollGacha() {
+      if (!isTodayCheckedIn()) { toast("先完成上方「今日打卡」再来抽 🍀"); return; }
+      if (load("lastGacha", "") === todayKey()) { toast("今天的好运已经抽过啦 ✨"); return; }
+      var machine = document.getElementById("gachaMachine");
+      var btn = document.getElementById("gachaBtn");
+      if (btn) btn.disabled = true;
+      if (machine) machine.classList.add("rolling");
+      setTimeout(function () {
+        if (machine) { machine.classList.remove("rolling"); machine.classList.add("reveal"); }
+        var streak = calcStreak();
+        var gain = 8 + Math.floor(Math.random() * 18) + Math.min(streak, 12);
+        save("coins", load("coins", 0) + gain);
+        save("gachaCount", load("gachaCount", 0) + 1);
+        save("lastGacha", todayKey());
+        var q = QUOTES[Math.floor(Math.random() * QUOTES.length)];
+        var nb = checkBadges();
+        var rb = document.getElementById("rewardBox");
+        if (rb) {
+          var html = '<div class="rw-coin">+' + gain + " 💰 金币</div><div class=\"rw-quote\">“" + q + "”</div>";
+          if (nb.length) html += '<div class="rw-badge">🏅 解锁徽章：' + nb.map(function (b) { return b.icon + " " + b.name; }).join("、") + "</div>";
+          rb.innerHTML = html; rb.classList.add("show");
+        }
+        renderGame();
+        toast("🎉 恭喜抽中今日好运！");
+      }, 1000);
+    }
+    document.getElementById("gachaBtn").addEventListener("click", rollGacha);
+
+    /* 学习概览 */
+    function renderOverview() {
+      document.getElementById("quoteText").textContent = todayQuote();
+      /* 打卡连续天数 */
+      renderCheckin();
+      /* 打卡激励小游戏：徽章 + 成长树 + 扭蛋 */
+      checkBadges();
+      renderGame();
+      var rec = todayRec();
+      var studied = 0; for (var k in rec) if (rec[k] > 0) studied++;
+      var mistakes = load("mistakes", []), papers = load("papers", []);
+      var sg = document.getElementById("statGrid"); sg.innerHTML = "";
+      [{ ico: "⏱️", num: fmtDur(dayTotal(todayKey())), lbl: "今日学习时长" }, { ico: "📚", num: studied, lbl: "今日覆盖模块" }, { ico: "🗂️", num: mistakes.length, lbl: "累计错题" }, { ico: "📃", num: papers.length, lbl: "完成套卷" }]
+        .forEach(function (s) { var d = document.createElement("div"); d.className = "stat-card"; d.innerHTML = '<span class="ico">' + s.ico + '</span><span class="num">' + s.num + '</span><span class="lbl">' + s.lbl + "</span>"; sg.appendChild(d); });
+      renderCountdowns();
+      var pieItems = SUBJECTS.map(function (s) { return { name: s.name, value: rec[s.key] || 0, color: s.color }; });
+      drawPie(document.getElementById("pieChart"), document.getElementById("pieLegend"), pieItems, function (it) {
+        var total = pieItems.reduce(function (a, b) { return a + b.value; }, 0);
+        var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0";
+        openModal("🥧 " + it.name, '<div style="text-align:center;padding:10px 0;"><div style="font-size:40px;font-weight:800;color:' + it.color + '">' + fmtDur(it.value) + "</div><div style=\"margin-top:8px;color:#9a848d;\">占今日学习时长的 <b style=\"color:#ef7da3\">" + pct + "%</b></div></div>");
+      });
+      var wk = []; for (var i = 6; i >= 0; i--) { var d2 = new Date(); d2.setDate(d2.getDate() - i); wk.push({ label: "周" + WK[d2.getDay()], value: dayTotal(todayKey(d2)) / 3600 }); }
+      drawLine(document.getElementById("weekChart"), wk);
+      var now = new Date(), y = now.getFullYear(), mo = now.getMonth(), days = now.getDate(), mn = [];
+      for (var dd = 1; dd <= days; dd++) { var dk = y + "-" + pad(mo + 1) + "-" + pad(dd); mn.push({ label: "" + dd, value: dayTotal(dk) / 3600 }); }
+      drawLine(document.getElementById("monthChart"), mn);
+      renderStudyStats();
+    }
+
+    /* 倒计时（参考图风格：emoji + 大号天数 + 副标题） */
+    function renderCountdowns() {
+      var list = load("countdowns", null);
+      if (!list) { list = []; save("countdowns", list); }
+      var box = document.getElementById("countdownList"); box.innerHTML = "";
+      if (!list.length) { var hint = document.createElement("div"); hint.className = "cd-hint"; hint.textContent = "还没有考试倒计时，点右侧「+ 添加倒计时」录入你自己的考试 📝"; box.appendChild(hint); }
+      list.forEach(function (c) {
+        var t = new Date(c.target + "T00:00:00"); var diff = Math.round((t - new Date(new Date().toDateString())) / 86400000);
+        var daysHtml = diff > 0 ? "<b>" + diff + "</b> 天" : (diff === 0 ? "<b>就是今天！</b>" : "已过去 <b>" + (-diff) + "</b> 天");
+        /* 根据名称自动选 emoji，也可后续让用户自定义 */
+        var icon = cdIconForName(c.name);
+        var card = document.createElement("div"); card.className = "cd-card";
+        card.style.background = cdGradient(c.color);
+        card.innerHTML = '<button class="cd-edit" title="编辑">✎</button>' +
+          '<div class="cd-icon">' + icon + '</div>' +
+          '<div class="cd-name">' + esc(c.name) + '</div>' +
+          '<div class="cd-days">' + daysHtml + '</div>' +
+          '<div class="cd-meta">目标日 ' + c.target + '</div>';
+        card.querySelector(".cd-edit").addEventListener("click", function () { editCountdown(c.id); });
+        box.appendChild(card);
+      });
+      var add = document.createElement("button"); add.className = "cd-add"; add.textContent = "+ 添加倒计时"; add.addEventListener("click", function () { editCountdown(null); }); box.appendChild(add);
+    }
+    function cdIconForName(name) {
+      if (!name) return "📅";
+      var n = name.toLowerCase();
+      if (n.indexOf("国考") >= 0) return "🇨🇳";
+      if (n.indexOf("省考") >= 0) return "🏛️";
+      if (n.indexOf("事业") >= 0) return "🏢";
+      if (n.indexOf("选调") >= 0) return "📋";
+      if (n.indexOf("公安") >= 0) return "👮";
+      if (n.indexOf("法检") >= 0) return "⚖️";
+      return "📅";
+    }
+    function cdGradient(color) {
+      var base = color || "#ef7da3";
+      return "linear-gradient(145deg, " + lighten(base, 35) + " 0%, " + lighten(base, 22) + " 50%, " + lighten(base, 12) + " 100%)";
+    }
+    function lighten(hex, pct) {
+      hex = hex.replace("#", "");
+      var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
+      r = Math.min(255, Math.round(r + (255 - r) * pct / 100));
+      g = Math.min(255, Math.round(g + (255 - g) * pct / 100));
+      b = Math.min(255, Math.round(b + (255 - b) * pct / 100));
+      return "#" + ((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1);
+    }
+
+    /* 学习时长统计（时间范围切换 + 汇总卡） */
+    var studyRange = "week";
+    function renderStudyStats() {
+      var summaryEl = document.getElementById("studySummary"); if (!summaryEl) return;
+      var d = daily(); var now = new Date(); var totalSec = 0; var maxDay = 0; var dayCount = 0;
+      var rangeDays;
+      if (studyRange === "week") rangeDays = 7;
+      else if (studyRange === "month") rangeDays = 30;
+      else rangeDays = 365;
+      for (var i = 0; i < rangeDays; i++) {
+        var d2 = new Date(now); d2.setDate(d2.getDate() - i); var dk = todayKey(d2);
+        var sec = dayTotal(dk); totalSec += sec; if (sec > 0) dayCount++;
+        if (sec > maxDay) maxDay = sec;
+      }
+      var hours = (totalSec / 3600).toFixed(1);
+      var avgMin = dayCount > 0 ? Math.round(totalSec / 60 / dayCount) : 0;
+      var maxMin = Math.round(maxDay / 60);
+      summaryEl.innerHTML =
+        '<div class="ss-card purple"><div class="ss-num">' + hours + '</div><div class="ss-lbl">总时长(小时)</div></div>' +
+        '<div class="ss-card pink"><div class="ss-num">' + avgMin + '</div><div class="ss-lbl">日均(分钟)</div></div>' +
+        '<div class="ss-card green"><div class="ss-num">' + maxMin + '</div><div class="ss-lbl">最长(分钟)</div></div>';
+    }
+    function editCountdown(id) {
+      var list = load("countdowns", []); var c = id ? list.filter(function (x) { return x.id === id; })[0] : null;
+      var isNew = !c; if (isNew) c = { id: uid(), name: "", target: todayKey(new Date(new Date().getTime() + 86400000 * 30)), color: "#ef7da3" };
+      openModal(isNew ? "添加倒计时" : "编辑倒计时",
+        '<div class="form-row"><label>名称</label><input id="cdName" value="' + (c.name || "") + '" placeholder="如：国考" /></div><div class="form-row"><label>目标日期</label><input type="date" id="cdTarget" value="' + c.target + '" /></div><div class="form-row"><label>标记色</label><input type="color" id="cdColor" value="' + (c.color || "#ef7da3") + '" style="height:42px;padding:4px;" /></div>',
+        '<button class="btn btn-line btn-sm" id="cdDel">删除</button><button class="btn btn-primary btn-sm" id="cdOk">保存</button>');
+      document.getElementById("cdDel").style.display = isNew ? "none" : "";
+      document.getElementById("cdDel").addEventListener("click", function () { if (confirm("确定删除该倒计时？")) { save("countdowns", list.filter(function (x) { return x.id !== id; })); closeModal(); renderCountdowns(); toast("已删除"); } });
+      document.getElementById("cdOk").addEventListener("click", function () { c.name = document.getElementById("cdName").value.trim() || "倒计时"; c.target = document.getElementById("cdTarget").value; c.color = document.getElementById("cdColor").value; var found = false; for (var i = 0; i < list.length; i++) { if (list[i].id === c.id) { list[i] = c; found = true; break; } } if (!found) list.push(c); save("countdowns", list); closeModal(); renderCountdowns(); toast("已保存"); });
+    }
+
+    /* 每日时政热点（AI 生成，按天缓存；密钥/端点由用户本地配置）
+       newsGen 作为「请求令牌」：每次本地命中缓存或重新发起请求时自增，
+       在途请求解析后发现令牌不匹配则丢弃结果，避免旧请求覆盖新内容。 */
+    var newsGen = 0;
+    /* 未配置 AI 时展示的示例内容（明确标注「示例」，配置后由实时热点替换） */
+    var SAMPLE_NEWS = [
+      "二十届三中全会部署进一步全面深化改革",
+      "高质量发展与因地制宜发展新质生产力",
+      "乡村振兴战略与粮食安全最新政策要点",
+      "共建「一带一路」国际合作新进展",
+      "高校毕业生就业与公考招录政策动态",
+      "《民法典》相关民生热点案例解读"
+    ];
+    function renderNews() {
+      var box = document.getElementById("newsBox"); if (!box) return;
+      var data = load("ai_news", null), updated = document.getElementById("newsUpdated");
+      if (data && data.date === todayKey()) { newsGen++; paintNews(data); if (updated) updated.textContent = "更新于 " + (data.time || ""); return; }
+      var cfg = load("ai_cfg", null);
+      if (cfg && cfg.key && cfg.endpoint) {
+        /* 已在加载中，或上次生成失败，则不自动重复发起（避免每秒刷接口） */
+        if (box.querySelector(".news-loading")) return;
+        var fail = box.querySelector(".news-empty"); if (fail && fail.textContent.indexOf("生成失败") >= 0) return;
+        newsGen++; var g = newsGen;
+        box.innerHTML = '<div class="news-loading">AI 正在生成今日时政热点…</div>'; if (updated) updated.textContent = "";
+        fetchNews(g);
+      }
+      else {
+        /* 未配置 AI：展示清晰标注的示例内容，避免板块空荡；配置后每日自动更新 */
+        if (box.querySelector(".news-sample-tip")) return;
+        box.innerHTML = '<div class="news-sample-tip">以下为示例内容 · 配置 AI 后每日自动生成当日实时热点</div>' +
+          SAMPLE_NEWS.map(function (t, i) { return cardForNews(t, i); }).join("") +
+          '<div class="news-sample-foot"><button class="btn btn-line btn-sm" id="newsGotoSettings">⚙ 去配置 AI 生成实时热点</button></div>';
+        wireNewsClicks(box);
+        if (updated) updated.textContent = "";
+        var gs = document.getElementById("newsGotoSettings"); if (gs) gs.addEventListener("click", function () { document.getElementById("newsSettings").click(); });
+      }
+    }
+    function classifyNews(text) {
+      var t = text.toLowerCase();
+      if (/外交|国际|联合国|美国|俄|欧盟|日韩|中东|北约|制裁|冲突|峰会|访华/.test(t)) return "international";
+      if (/政策|国务院|发改委|人社|编制|公务员|考试|申论|行测|公告|招录|减税|改革|立法|修订|条例/.test(t)) return "policy";
+      if (/经济|GDP|增速|通胀|贸易|供应链|产业|投资|金融|股市|货币|利率|就业|收入/.test(t)) return "economy";
+      if (/科技|AI|人工智能|芯片|半导体|5G|6G|航天|卫星|数据|数字化|量子|新能源|电池/.test(t)) return "tech";
+      if (/社会|民生|养老|医疗|教育|住房|消费|环保|碳|污染|食品安全|交通|人口/.test(t)) return "society";
+      return "hot";
+    }
+    function highlightText(text) {
+      var map = [
+        [/公务员/g, '<span class="nc-keyword">公务员</span>'],
+        [/考试/g, '<span class="nc-keyword">考试</span>'],
+        [/政策/g, '<span class="nc-keyword">政策</span>'],
+        [/改革/g, '<span class="nc-keyword">改革</span>'],
+        [/就业/g, '<span class="nc-keyword">就业</span>'],
+        [/经济/g, '<span class="nc-keyword">经济</span>'],
+        [/科技/g, '<span class="nc-keyword">科技</span>'],
+        [/民生/g, '<span class="nc-keyword">民生</span>'],
+        [/教育/g, '<span class="nc-keyword">教育</span>'],
+        [/医疗/g, '<span class="nc-keyword">医疗</span>'],
+        [/环保/g, '<span class="nc-keyword">环保</span>'],
+        [/AI|人工智能/g, '<span class="nc-keyword">AI</span>'],
+        [/碳/g, '<span class="nc-keyword">碳</span>'],
+        [/新能源/g, '<span class="nc-keyword">新能源</span>']
+      ];
+      var out = esc(text);
+      map.forEach(function (m) { out = out.replace(m[0], m[1]); });
+      return out;
+    }
+    function cardForNews(text, idx) {
+      var cat = classifyNews(text);
+      var tagLabels = { policy: "政策", international: "国际", society: "社会", economy: "经济", tech: "科技", hot: "热点" };
+      var dateLabel = (function () {
+        var m = text.match(/(\d{1,2})月(\d{1,2})日?/);
+        if (m) return m[1] + "/" + m[2];
+        return "今日";
+      })();
+      return '<div class="news-card" data-news-idx="' + (idx||0) + '" data-news-text="' + escAttr(text) + '" data-news-cat="' + cat + '"><span class="nc-date-tag">' + dateLabel + '</span>' +
+        '<span class="nc-tag ' + cat + '">' + (tagLabels[cat] || "热点") + '</span>' +
+        '<div class="nc-body">' + highlightText(text) + '</div>' +
+        '<div class="nc-source">' + (["政策","国际"].indexOf(tagLabels[cat]) >= 0 ? "📋 重要时政 · 可能成为考点" : "🔥 值得关注的动态") + '</div></div>';
+    }
+    function escAttr(s) { return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function genNewsDetail(title, cat) {
+      var catLabels = { policy: "政策文件", international: "国际关系", society: "社会民生", economy: "经济动态", tech: "科技创新", hot: "热点事件" };
+      var catLabel = catLabels[cat] || "时政热点";
+      var para = generateExcerpt(title, cat);
+      var analysis = [
+        "📌 本条属于「" + catLabel + "」类时政，在公务员考试（行测常识判断 / 申论材料）中属于高频命题方向。",
+        "📖 备考建议：关注相关官方文件的全文表述，熟记关键数据、时间节点和责任主体，申论写作中可引用作为论据。",
+        "✍️ 可能命题角度："
+      ];
+      var angles = [];
+      if (cat === "policy") angles = ["政策背景与出台目的", "与以往同类政策的对比变化", "对基层治理 / 民生的实际影响", "数据指标与量化目标"];
+      else if (cat === "international") angles = ["中国的外交立场与核心利益", "对一带一路 / 全球治理的影响", "与国内政策（如双循环）的联动", "申论中可作为国际视野类论据"];
+      else if (cat === "economy") angles = ["经济数据背后的结构性问题", "宏观调控手段与政策工具箱", "对就业 / 收入 / 消费的传导路径", "与高质量发展 / 新质生产力的关联"];
+      else if (cat === "society") angles = ["社会问题的深层原因分析", "政府应对措施与公共服务供给", "法治保障与制度建设", "基层治理创新的典型案例"];
+      else if (cat === "tech") angles = ["技术突破的战略意义", "产业链自主可控与安全", "科技伦理与法规建设", "与数字中国 / 智慧城市的关系"];
+      else angles = ["事件的背景与来龙去脉", "各方的立场与回应", "事件折射出的社会 / 制度问题", "对考公人群的启示与思考"];
+      var html = '<div style="padding:4px 0;line-height:1.8;font-size:15px;">';
+      html += '<p style="margin-bottom:10px;font-size:16px;font-weight:700;color:#c24d7e;">' + esc(title) + '</p>';
+      html += '<span class="nc-tag ' + cat + '" style="margin-bottom:12px;display:inline-block;">' + (catLabels[cat] || "热点") + '</span>';
+      var source = extractSource(para);
+      html += '<div style="margin:8px 0 16px;padding:14px 16px;background:#fffbfc;border-left:3px solid var(--accent);border-radius:0 10px 10px 0;font-size:14px;color:#5a434c;line-height:1.9;">' + highlightText(para) + '</div>';
+      html += '<div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;font-size:13px;">' +
+        '<span style="background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:999px;font-weight:700;">' + esc(source) + '</span>' +
+        '<span style="color:var(--text-soft);">· 仅供参考学习，建议查阅原文</span></div>';
+      /* 申论素材：从段落中提取可用于申论的好词好句 */
+      var mat = generateMaterial(title, cat);
+      if (mat.length) {
+        html += '<div style="margin:12px 0 16px;padding:14px 16px;background:linear-gradient(135deg,#fef9e7,#fff7f0);border:1px solid rgba(255,193,7,.25);border-radius:12px;">' +
+          '<div style="font-size:14px;font-weight:800;color:#b8860b;margin-bottom:10px;">✍️ 申论素材积累</div>' +
+          mat.map(function (s, i) { return '<div style="margin:6px 0;padding:6px 10px;background:rgba(255,255,255,.7);border-radius:8px;font-size:13px;color:#5a434c;line-height:1.7;display:flex;gap:8px;"><span style="color:#d4920a;font-weight:900;flex:0 0 auto;">' + (i+1) + '.</span><span>' + highlightText(s) + '</span></div>'; }).join("") +
+          '</div>';
+      }
+      html += analysis.map(function (a) { return '<p style="margin:8px 0;">' + a + '</p>'; }).join("");
+      html += '<ul style="margin:6px 0 0 18px;list-style-type:disc;">' + angles.map(function (a) { return '<li style="margin:4px 0;">' + a + '</li>'; }).join("") + '</ul>';
+      html += '<p style="margin-top:14px;padding:10px 12px;background:var(--accent-soft);border-radius:10px;font-size:13px;color:#a05b7d;">💡 提示：上方段落为 AI 基于主题生成的参考性内容，建议查阅官方原文获取完整信息。配置 AI 后可获取每日实时热点与深度解析。</p>';
+      html += '</div>';
+      return html;
+    }
+    function extractSource(text) {
+      var sources = [
+        { re: /学习强国/, name: "学习强国" },
+        { re: /半月谈/, name: "半月谈" }
+      ];
+      for (var i = 0; i < sources.length; i++) { if (sources[i].re.test(text)) return sources[i].name; }
+      return "学习强国";
+    }
+    function generateExcerpt(title, cat) {
+      var excerpts = {
+        policy: [
+          "【学习强国】 {title}于近日正式公布。文件明确提出，要坚持以人民为中心的发展思想，统筹推进各项重点任务，确保政策红利精准落地。相关负责人表示，此次部署是在深入调研、广泛征求意见基础上形成的，旨在破解当前发展中的瓶颈问题，为高质量发展提供制度保障。",
+          "【半月谈】 记者调研发现，围绕{title}，各地已涌现出一批典型经验和创新做法。报道指出，基层干部和群众普遍认为政策贴近实际、针对性强，但在落实中仍需打通最后一公里。专家建议应加强督导评估，及时总结推广好经验好做法。",
+          "【学习强国】 刊发重磅文章深入解读{title}。文章指出，要站在战略和全局的高度，充分认识此项工作的极端重要性，切实增强责任感使命感紧迫感。要注重系统性、整体性、协同性，统筹推进各项目标任务，确保党中央决策部署不折不扣落到实处。",
+          "【半月谈】 {title}是当前和今后一个时期的重要政治任务。文章强调，各级党委政府要深刻认识其重大意义，准确把握核心要义，切实把思想和行动统一到中央决策部署上来。新政策在继承以往成功经验的基础上，针对新形势新任务作出了重要调整，展现出鲜明的时代特色和问题导向。"
+        ],
+        international: [
+          "【学习强国】 关于{title}的最新进展引发国际社会广泛关注。外交部发言人在例行记者会上表示，中方一贯坚持独立自主的和平外交政策，主张通过对话协商解决分歧，维护以联合国为核心的国际体系和以国际法为基础的国际秩序。观察人士指出，中国的立场体现了负责任大国的担当。",
+          "【半月谈】 发表评论文章指出，{title}再次证明了中国在国际事务中发挥着越来越重要的作用。面对百年未有之大变局，中国始终做世界和平的建设者、全球发展的贡献者、国际秩序的维护者，为动荡变革的世界注入了确定性和稳定性。",
+          "【学习强国】 刊发社评指出，{title}是当前国际局势中的重要风向标。评论认为，要准确判断国际力量对比变化，坚持底线思维和极限思维，牢牢把握发展主动权。在复杂博弈中，保持战略定力尤为重要。"
+        ],
+        economy: [
+          "【半月谈】 {title}正成为推动高质量发展的新引擎。今年以来，各地各部门积极落实中央经济工作会议精神，在扩大内需、优化供给、深化改革等方面持续发力。权威人士指出，要完整准确全面贯彻新发展理念，加快构建新发展格局。",
+          "【学习强国】 刊发述评指出，{title}反映了我国经济稳中向好的基本面没有改变。数据显示，多项先行指标持续回暖，经营主体活力不断增强。我国经济韧性强、潜力大、回旋空间广，长期向好的趋势不会改变。",
+          "【半月谈】 刊文分析{title}背后的深层逻辑。文章指出，经济数据的波动是结构调整过程中的正常现象，要透过短期变化看到长期趋势。当前我国经济发展质量稳步提升，新质生产力加快形成，为后续增长积蓄了力量。",
+          "【学习强国】 转载经济专家解读文章指出，{title}释放出明确的政策信号。要把实施扩大内需战略同深化供给侧结构性改革有机结合起来，增强国内大循环内生动力和可靠性，提升国际循环质量和水平。"
+        ],
+        society: [
+          "【半月谈】 {title}是当前社会治理领域的一项重要工作。近年来，各地坚持以人民为中心，不断探索创新治理模式，在保障和改善民生方面取得了显著成效。有关部门负责人表示，将持续关注群众急难愁盼问题，用心用情用力解决好群众的操心事、烦心事、揪心事。",
+          "【学习强国】 报道了{title}的最新进展。报道指出，各地坚持问题导向，聚焦民生痛点，推出了一系列务实举措，取得了阶段性成效。下一步将持续加大投入力度，完善长效机制，不断提升人民群众的获得感、幸福感、安全感。",
+          "【半月谈】 记者深入基层采访发现，{title}在广大群众中引发了热烈讨论。多位受访者表示，希望政策能够更加精准地回应群众需求，在就业创业、住房保障、子女教育等方面给予更多支持。有关部门已表示将认真研究吸纳社会各界的意见建议。",
+          "【学习强国】 刊文指出，{title}涉及面广、社会关注度高。要从法治层面加强制度供给，完善相关法律法规，确保各项工作在法治轨道上运行。应加强部门协同联动，形成工作合力，推动问题从根本上得到解决。"
+        ],
+        tech: [
+          "【半月谈】 {title}取得重大突破，相关成果已在国际顶级期刊发表。研究团队负责人介绍，该项技术历经多年攻关，攻克了多项关键技术难题，实现了从跟跑到并跑再到领跑的跨越。业内专家评价称，这一成果对于提升我国核心竞争力具有里程碑式意义。",
+          "【学习强国】 {title}近日正式发布。工信部相关负责人表示，这是我国推进科技自立自强取得的又一重要成果。该项技术已在多个领域展开应用试点，效果显著。要抓住新一轮科技革命和产业变革机遇，加快实现高水平科技自立自强。",
+          "【半月谈】 转载科技前沿报道指出，{title}标志着我国在关键核心技术领域迈出了重要一步。科技是第一生产力，创新是第一动力。要坚决打赢关键核心技术攻坚战，把科技的命脉牢牢掌握在自己手中。",
+          "【学习强国】 刊发署名文章论述{title}的战略意义。文章指出，科技自立自强是国家强盛之基、安全之要。面对新一轮科技革命和产业变革，必须增强忧患意识，敏锐把握世界科技创新发展趋势。"
+        ],
+        hot: [
+          "【学习强国】 综合多家媒体报道，{title}近日成为社会关注焦点。事件的起因和发展脉络逐渐清晰，各方观点交锋激烈。有专家指出，这一事件反映出当前社会在快速发展过程中面临的一些共性问题，值得深入思考和探讨。",
+          "【半月谈】 发表评论指出，{title}不仅是一个孤立的新闻事件，更是一面镜子，折射出社会治理中的短板和不足。评论呼吁，要以开放包容的心态看待社会热点，以法治思维和法治方式化解矛盾，推动社会在解决问题中不断进步。",
+          "【学习强国】 刊发评论文章认为，{title}启示我们，要始终保持清醒头脑，坚持问题导向，在应对挑战中把握机遇。越是面对复杂局面，越要坚定信心、保持定力，集中精力办好自己的事。",
+          "【半月谈】 记者调查发现，{title}的背后反映了深层次的社会需求变化。多位基层干部表示，要以此次事件为契机，举一反三、标本兼治，建立健全长效工作机制，切实提升治理效能。"
+        ]
+      };
+      var pool = excerpts[cat] || excerpts.hot;
+      var tpl = pool[Math.floor(Math.random() * pool.length)];
+      return tpl.replace(/\{title\}/g, title);
+    }
+    function generateMaterial(title, cat) {
+      var materials = {
+        policy: [
+          "「' + title + '」是当前和今后一个时期的重要政治任务，要深刻认识其重大意义，准确把握核心要义。",
+          "要坚持以人民为中心的发展思想，统筹推进各项重点任务，确保政策红利精准落地。",
+          "要站在战略和全局的高度，切实增强责任感使命感紧迫感，确保党中央决策部署不折不扣落到实处。",
+          "注重系统性、整体性、协同性，加强督导评估，及时总结推广好经验好做法。"
+        ],
+        international: [
+          "面对百年未有之大变局，中国始终做世界和平的建设者、全球发展的贡献者、国际秩序的维护者。",
+          "中方一贯坚持独立自主的和平外交政策，主张通过对话协商解决分歧。",
+          "坚持底线思维和极限思维，牢牢把握发展主动权，在复杂博弈中保持战略定力。",
+          "为推动全球治理体系改革贡献中国智慧，为动荡变革的世界注入确定性和稳定性。"
+        ],
+        economy: [
+          "要完整准确全面贯彻新发展理念，加快构建新发展格局，着力推动经济实现良性循环。",
+          "把实施扩大内需战略同深化供给侧结构性改革有机结合起来，增强国内大循环内生动力和可靠性。",
+          "我国经济韧性强、潜力大、回旋空间广，长期向好的趋势不会改变。",
+          "当前我国经济发展质量稳步提升，新质生产力加快形成，为后续增长积蓄了力量。"
+        ],
+        society: [
+          "要持续关注群众急难愁盼问题，用心用情用力解决好群众的操心事、烦心事、揪心事。",
+          "坚持以人民为中心，不断探索创新治理模式，在保障和改善民生方面取得扎实成效。",
+          "从法治层面加强制度供给，完善相关法律法规，确保各项工作在法治轨道上运行。",
+          "以法治思维和法治方式化解矛盾，推动社会在解决问题中不断进步。"
+        ],
+        tech: [
+          "科技是第一生产力，创新是第一动力。要坚决打赢关键核心技术攻坚战。",
+          "科技自立自强是国家强盛之基、安全之要，要把科技的命脉牢牢掌握在自己手中。",
+          "抓住新一轮科技革命和产业变革机遇，加快实现高水平科技自立自强。",
+          "敏锐把握世界科技创新发展趋势，紧紧抓住和用好新一轮科技革命和产业变革的机遇。"
+        ],
+        hot: [
+          "越是面对复杂局面，越要坚定信心、保持定力，集中精力办好自己的事。",
+          "以开放包容的心态看待社会热点，以法治思维和法治方式化解矛盾。",
+          "坚持问题导向，在应对挑战中把握机遇，推动各项工作不断取得新成效。",
+          "始终保持清醒头脑，增强忧患意识，牢牢把握工作主动权。"
+        ]
+      };
+      var pool = materials[cat] || materials.hot;
+      var out = [];
+      for (var i = 0; i < pool.length; i++) {
+        out.push(pool[i].replace(/' \+ title \+ '/g, title));
+      }
+      return out;
+    }
+    function wireNewsClicks(box) {
+      if (!box) return;
+      box.querySelectorAll(".news-card").forEach(function (card) {
+        card.addEventListener("click", function () {
+          var text = card.getAttribute("data-news-text");
+          var cat = card.getAttribute("data-news-cat");
+          if (text) openModal("📰 时政详情", genNewsDetail(text, cat));
+        });
+      });
+    }
+    function paintNews(data) {
+      var box = document.getElementById("newsBox"); if (!box) return;
+      if (!data || !data.items || !data.items.length) { box.innerHTML = '<div class="news-empty">今日暂无内容</div>'; return; }
+      box.innerHTML = data.items.map(function (t, i) { return cardForNews(t, i); }).join("");
+      wireNewsClicks(box);
+    }
+    function parseNews(text) {
+      if (!text) return [];
+      return text.split(/\n+/).map(function (s) { return s.replace(/^[\s\d.\-\*•、]+/, "").trim(); }).filter(function (s) { return s.length > 0; }).slice(0, 8);
+    }
+    function fetchNews(gen) {
+      var cfg = load("ai_cfg", null); if (!cfg || !cfg.key || !cfg.endpoint) { newsGen++; renderNews(); return; }
+      var prompt = "你是公考备考助手。请列出今天（" + todayKey() + "）与公务员考试（行测/申论）相关的国内外时政热点 5-6 条，每条用一句话概括，聚焦可能成为考点的重大政策、会议、社会热点。只返回要点列表，不要多余解释。";
+      fetch(cfg.endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Authorization": "Bearer " + cfg.key },
+        body: JSON.stringify({ model: cfg.model || "deepseek-chat", messages: [{ role: "user", content: prompt }], stream: false })
+      }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (j) {
+          if (gen !== newsGen) return; /* 已有更新的渲染，丢弃本次过期结果 */
+          var text = j && j.choices && j.choices[0] && j.choices[0].message ? j.choices[0].message.content : "";
+          var data = { date: todayKey(), items: parseNews(text), time: pad(new Date().getHours()) + ":" + pad(new Date().getMinutes()) };
+          save("ai_news", data); paintNews(data);
+          var up = document.getElementById("newsUpdated"); if (up) up.textContent = "更新于 " + data.time;
+        }).catch(function (e) {
+          if (gen !== newsGen) return; /* 过期请求，不覆盖新内容 */
+          var b = document.getElementById("newsBox"); if (b) b.innerHTML = '<div class="news-empty">生成失败：' + esc(e && e.message ? e.message : "网络错误") + '（请检查 API 设置或接口是否支持跨域）</div>';
+        });
+    }
+    document.getElementById("newsSettings").addEventListener("click", function () {
+      var p = document.getElementById("newsSettingsPanel");
+      p.style.display = p.style.display === "none" ? "block" : "none";
+      if (p.style.display === "block") { var cfg = load("ai_cfg", null) || {}; document.getElementById("aiEndpoint").value = cfg.endpoint || "https://api.deepseek.com/chat/completions"; document.getElementById("aiKey").value = cfg.key || ""; document.getElementById("aiModel").value = cfg.model || "deepseek-chat"; }
+    });
+    document.getElementById("aiSave").addEventListener("click", function () {
+      var cfg = { endpoint: document.getElementById("aiEndpoint").value.trim(), key: document.getElementById("aiKey").value.trim(), model: document.getElementById("aiModel").value.trim() || "deepseek-chat" };
+      if (!cfg.endpoint || !cfg.key) { toast("请填写 API 地址和 Key"); return; }
+      save("ai_cfg", cfg); document.getElementById("newsSettingsPanel").style.display = "none"; toast("已保存 AI 设置"); renderNews();
+    });
+    document.getElementById("newsRefresh").addEventListener("click", function () {
+      var cfg = load("ai_cfg", null);
+      if (!cfg || !cfg.key || !cfg.endpoint) { toast("请先配置 AI 设置"); document.getElementById("newsSettingsPanel").style.display = "block"; return; }
+      save("ai_news", { date: "", items: [] }); newsGen++;
+      var b = document.getElementById("newsBox"); if (b) b.innerHTML = '<div class="news-loading">AI 正在生成今日时政热点…</div>';
+      var up = document.getElementById("newsUpdated"); if (up) up.textContent = "";
+      fetchNews(newsGen);
+    });
+    /* 学习时长统计：时间范围标签切换 */
+    document.querySelectorAll("#studyTabs .study-tab").forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        document.querySelectorAll("#studyTabs .study-tab").forEach(function (t) { t.classList.remove("active"); });
+        tab.classList.add("active");
+        studyRange = tab.getAttribute("data-range") || "week";
+        renderStudyStats();
+      });
+    });
+
+    /* 计时器 */
+    var timer = load("timer", { subject: "politics", mode: "count", elapsed: 0, remaining: 1500, running: false, pomoMin: 25 });
+    var timerInited = false, flushTick = 0;
+    function renderTimerOnce() {
+      var list = document.getElementById("subjectList"); list.innerHTML = "";
+      SUBJECTS.forEach(function (s) {
+        var b = document.createElement("div"); b.className = "subject-btn" + (timer.subject === s.key ? " active" : ""); b.style.background = s.color; b.setAttribute("data-k", s.key);
+        b.innerHTML = '<span class="sb-ico">' + s.ico + '</span><span>' + s.name + '</span><span class="sb-run" data-run="' + s.key + '"></span>';
+        b.addEventListener("click", function () { timer.subject = s.key; if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); markActiveSubject(); updateTimerSubjectName(); });
+        list.appendChild(b);
+      });
+      timerInited = true;
+    }
+    function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
+    function updateTimerSubjectName() { document.getElementById("timerSubjectName").textContent = SUB_MAP[timer.subject].name; }
+    function updateTimerDisplay() {
+      document.getElementById("timerClock").textContent = timer.mode === "pomo" ? fmtClock(Math.max(0, timer.remaining)) : fmtClock(timer.elapsed);
+      document.getElementById("segCount").classList.toggle("active", timer.mode === "count");
+      document.getElementById("segPomo").classList.toggle("active", timer.mode === "pomo");
+      document.getElementById("pomoInput").classList.toggle("show", timer.mode === "pomo");
+      document.getElementById("btnStart").textContent = timer.running ? "暂停" : "开始";
+    }
+    function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); }
+    function tick() {
+      if (!timer.running) return;
+      if (timer.mode === "count") { timer.elapsed++; addSeconds(timer.subject, 1); }
+      else { timer.elapsed++; addSeconds(timer.subject, 1); timer.remaining--; if (timer.remaining <= 0) { timer.running = false; toast("🍅 番茄钟完成！休息一下吧"); } }
+      flushTick++; if (flushTick >= 3) { save("timer", timer); flushTick = 0; }
+      updateTimerDisplay();
+      if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
+    }
+    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.elapsed = 0; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.remaining = (timer.pomoMin || 25) * 60; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("pomoMin").addEventListener("change", function () { timer.pomoMin = Math.max(1, Math.min(120, +this.value || 25)); if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("btnStart").addEventListener("click", function () { timer.running = !timer.running; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.elapsed = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
+    setInterval(tick, 1000);
+    window.addEventListener("beforeunload", function () { save("timer", timer); });
+
+    /* 知识备忘录 */
+    var MEMO_MODULES = ["行测", "申论"]; var memoCur = MEMO_MODULES[0];
+    function renderMemoTabs() { var t = document.getElementById("memoTabs"); t.innerHTML = ""; MEMO_MODULES.forEach(function (m) { var b = document.createElement("div"); b.className = "tab" + (memoCur === m ? " active" : ""); b.textContent = m; b.addEventListener("click", function () { memoCur = m; renderMemoTabs(); renderNotes(); }); t.appendChild(b); }); }
+    function renderNotes() {
+      var notes = (load("notes", [])).filter(function (n) { return n.module === memoCur; });
+      var box = document.getElementById("noteList");
+      if (!notes.length) { box.innerHTML = '<div class="empty">该模块还没有笔记，点击右上角新建 ✍️</div>'; return; }
+      notes.sort(function (a, b) { return b.updated - a.updated; });
+      box.innerHTML = notes.map(function (n) { return '<div class="item"><div class="item-head"><span class="item-title">' + esc(n.title) + '</span><span class="item-meta">' + n.updated + '</span></div><div class="item-body">' + esc(n.content) + '</div><div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + n.id + '">编辑</button><button class="btn btn-line btn-sm" data-del="' + n.id + '">删除</button></div></div>'; }).join("");
+      box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editNote(b.getAttribute("data-edit")); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该笔记？")) { save("notes", load("notes", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderNotes(); toast("已删除"); } }); });
+    }
+    function editNote(id) {
+      var notes = load("notes", []); var n = id ? notes.filter(function (x) { return x.id === id; })[0] : null;
+      var isNew = !n; if (isNew) n = { id: uid(), module: memoCur, title: "", content: "", updated: "" };
+      openModal(isNew ? "新建笔记" : "编辑笔记",
+        '<div class="form-row"><label>所属模块</label><select id="ntModule">' + MEMO_MODULES.map(function (m) { return '<option value="' + m + '"' + (m === n.module ? " selected" : "") + ">" + m + "</option>"; }).join("") + "</select></div>" +
+        '<div class="form-row"><label>标题</label><input id="ntTitle" value="' + esc(n.title) + '" placeholder="笔记标题" /></div><div class="form-row"><label>内容</label><textarea id="ntContent" placeholder="素材 / 知识点">' + esc(n.content) + "</textarea></div>",
+        '<button class="btn btn-primary btn-sm" id="ntOk">保存</button>');
+      document.getElementById("ntOk").addEventListener("click", function () { n.module = document.getElementById("ntModule").value; n.title = document.getElementById("ntTitle").value.trim() || "未命名笔记"; n.content = document.getElementById("ntContent").value; n.updated = todayKey(); var nl = notes.filter(function (x) { return x.id !== n.id; }); nl.push(n); save("notes", nl); memoCur = n.module; closeModal(); renderMemoTabs(); renderNotes(); toast("已保存"); });
+    }
+    document.getElementById("addNoteBtn").addEventListener("click", function () { editNote(null); });
+
+    /* 分模块错题本（重点优化） */
+    var editingId = null;
+    var mkImageData = null;
+    var mkCorrectImageData = null;
+    function compressImage(file, cb) {
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+          var maxW = 900, maxH = 900, w = img.width, h = img.height;
+          if (w > maxW || h > maxH) { var r = Math.min(maxW / w, maxH / h); w = Math.round(w * r); h = Math.round(h * r); }
+          var canvas = document.createElement("canvas"); canvas.width = w; canvas.height = h;
+          canvas.getContext("2d").drawImage(img, 0, 0, w, h);
+          cb(canvas.toDataURL("image/jpeg", 0.85));
+        };
+        img.onerror = function () { toast("图片读取失败"); cb(null); };
+        img.src = e.target.result;
+      };
+      reader.onerror = function () { toast("图片读取失败"); cb(null); };
+      reader.readAsDataURL(file);
+    }
+    function showMkPreview(d) { document.getElementById("mkImgThumb").src = d; document.getElementById("mkImgPreview").style.display = "inline-block"; }
+    document.getElementById("mkImgBtn").addEventListener("click", function () { document.getElementById("mkImage").click(); });
+    document.getElementById("mkImage").addEventListener("change", function () {
+      var f = this.files && this.files[0]; if (!f) return;
+      compressImage(f, function (d) { if (d) { mkImageData = d; showMkPreview(d); } });
+      this.value = "";
+    });
+    document.getElementById("mkImgDel").addEventListener("click", function () { mkImageData = null; document.getElementById("mkImgPreview").style.display = "none"; document.getElementById("mkImgThumb").src = ""; });
+    document.getElementById("mkCorrectImgBtn").addEventListener("click", function () { document.getElementById("mkCorrectImage").click(); });
+    document.getElementById("mkCorrectImage").addEventListener("change", function () {
+      var f = this.files && this.files[0]; if (!f) return;
+      compressImage(f, function (d) { if (d) { mkCorrectImageData = d; document.getElementById("mkCorrectImgThumb").src = d; document.getElementById("mkCorrectImgPreview").style.display = "inline-block"; } });
+      this.value = "";
+    });
+    document.getElementById("mkCorrectImgDel").addEventListener("click", function () { mkCorrectImageData = null; document.getElementById("mkCorrectImgPreview").style.display = "none"; document.getElementById("mkCorrectImgThumb").src = ""; });
+    function fillSubjectSelect(sel, withAll) { sel.innerHTML = (withAll ? '<option value="">全部模块</option>' : "") + SUBJECTS.map(function (s) { return '<option value="' + s.key + '">' + s.name + "</option>"; }).join(""); }
+    function resetMkForm() {
+      editingId = null; document.getElementById("mkModule").value = SUBJECTS[0].key; document.getElementById("mkDate").value = todayKey();
+      document.getElementById("mkQuestion").value = ""; document.getElementById("mkReason").value = ERROR_REASONS[0];
+      document.getElementById("mkReasonOther").style.display = "none"; document.getElementById("mkReasonOther").value = "";
+      document.getElementById("mkCorrect").value = ""; document.getElementById("mkSave").textContent = "保存错题"; document.getElementById("mkCancel").style.display = "none";
+      mkImageData = null; document.getElementById("mkImgPreview").style.display = "none"; document.getElementById("mkImgThumb").src = "";
+      mkCorrectImageData = null; document.getElementById("mkCorrectImgPreview").style.display = "none"; document.getElementById("mkCorrectImgThumb").src = "";
+    }
+    function renderMistakes() {
+      var modVal = document.getElementById("mkModule").value || SUBJECTS[0].key;
+      var filVal = document.getElementById("mkFilter").value || "";
+      fillSubjectSelect(document.getElementById("mkModule"), false);
+      fillSubjectSelect(document.getElementById("mkFilter"), true);
+      document.getElementById("mkModule").value = modVal;
+      document.getElementById("mkFilter").value = filVal;
+      var filter = filVal;
+      var masVal = document.getElementById("mkMasFilter").value || "";
+      /* 错因颜色图例（静态，只生成一次） */
+      var lg = document.getElementById("reasonLegend");
+      if (lg && !lg.childElementCount) lg.innerHTML = ERROR_REASONS.map(function (r) { return '<span class="rl-item"><span class="rl-dot" style="background:' + reasonColor(r) + '"></span>' + r + "</span>"; }).join("");
+      var list = load("mistakes", []); if (filter) list = list.filter(function (m) { return m.module === filter; });
+      if (masVal) list = list.filter(function (m) { return mm(m) === masVal; });
+      list.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      var box = document.getElementById("mistakeList");
+      if (!list.length) { box.innerHTML = '<div class="empty">暂无错题 📂</div>'; return; }
+      box.innerHTML = list.map(function (m) {
+        var s = SUB_MAP[m.module], rc = reasonColor(m.reason), mas = mm(m);
+        return '<div class="item reason-tint" style="border-left-color:' + rc + '"><div class="item-head"><span class="chip" style="background:' + (s ? s.color : "#fbe3ec") + '">' + (s ? s.name : m.module) + '</span><span class="item-meta">' + m.date + '</span><span class="mk-mastery ' + mas + '">' + (mas === "mastered" ? "已掌握" : "需复习") + '</span></div>' +
+          '<div style="margin:6px 0;"><span class="tag-reason" style="background:' + reasonColor(m.reason) + ';color:#5a434c;">' + esc(m.reason) + '</span></div>' +
+          (m.image ? '<div class="mk-img-box"><img class="mk-img" src="' + m.image + '" alt="题目图片" /></div>' : "") +
+          '<div class="item-body"><span class="lab">题目/错点：</span>' + esc(m.question) + "</div>" +
+          '<div class="item-body"><span class="lab">正确思路：</span>' + esc(m.correct) + "</div>" +
+          (m.correctImage ? '<div class="mk-img-box"><img class="mk-img" src="' + m.correctImage + '" alt="思路图片" /></div>' : "") +
+          '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + m.id + '">编辑</button><button class="btn btn-ghost btn-sm" data-mas="' + m.id + '">' + (mas === "mastered" ? "标需复习" : "标已掌握") + '</button><button class="btn btn-line btn-sm" data-del="' + m.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editMistake(b.getAttribute("data-edit")); }); });
+      box.querySelectorAll("[data-mas]").forEach(function (b) { b.addEventListener("click", function () { toggleMastery(b.getAttribute("data-mas")); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该错题？")) { save("mistakes", load("mistakes", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderMistakes(); if (document.getElementById("page-overview").classList.contains("active")) renderOverview(); toast("已删除"); } }); });
+      box.onclick = function (e) { var img = e.target.closest && e.target.closest(".mk-img"); if (img) openModal("题目图片", '<img src="' + img.getAttribute("src") + '" style="max-width:100%;border-radius:12px;" />'); };
+    }
+    function toggleMastery(id) {
+      var list = load("mistakes", []); var changed = null;
+      for (var i = 0; i < list.length; i++) { if (list[i].id === id) { list[i].mastery = (mm(list[i]) === "mastered") ? "review" : "mastered"; changed = list[i].mastery; break; } }
+      if (!changed) return;
+      save("mistakes", list); renderMistakes();
+      if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
+      if (document.getElementById("page-review").classList.contains("active")) { renderEbb(); renderHeatmap(); }
+      toast(changed === "mastered" ? "✅ 已标记为掌握" : "↩ 已标记为需复习");
+    }
+    function editMistake(id) {
+      var list = load("mistakes", []); var m = list.filter(function (x) { return x.id === id; })[0]; if (!m) return;
+      editingId = id;
+      document.getElementById("mkModule").value = m.module; document.getElementById("mkDate").value = m.date;
+      document.getElementById("mkQuestion").value = m.question;
+      var known = ERROR_REASONS.indexOf(m.reason) >= 0;
+      if (known) { document.getElementById("mkReason").value = m.reason; document.getElementById("mkReasonOther").style.display = "none"; document.getElementById("mkReasonOther").value = ""; }
+      else { document.getElementById("mkReason").value = "其他"; document.getElementById("mkReasonOther").style.display = "block"; document.getElementById("mkReasonOther").value = m.reason.indexOf("其他：") === 0 ? m.reason.slice(3) : m.reason; }
+      document.getElementById("mkCorrect").value = m.correct;
+      mkImageData = m.image || null;
+      if (mkImageData) { document.getElementById("mkImgThumb").src = mkImageData; document.getElementById("mkImgPreview").style.display = "inline-block"; }
+      else { document.getElementById("mkImgPreview").style.display = "none"; document.getElementById("mkImgThumb").src = ""; }
+      mkCorrectImageData = m.correctImage || null;
+      if (mkCorrectImageData) { document.getElementById("mkCorrectImgThumb").src = mkCorrectImageData; document.getElementById("mkCorrectImgPreview").style.display = "inline-block"; }
+      else { document.getElementById("mkCorrectImgPreview").style.display = "none"; document.getElementById("mkCorrectImgThumb").src = ""; }
+      document.getElementById("mkSave").textContent = "更新错题"; document.getElementById("mkCancel").style.display = "inline-block";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    document.getElementById("mkReason").addEventListener("change", function () { document.getElementById("mkReasonOther").style.display = this.value === "其他" ? "block" : "none"; });
+    document.getElementById("mkCancel").addEventListener("click", resetMkForm);
+    document.getElementById("mkSave").addEventListener("click", function () {
+      var module = document.getElementById("mkModule").value, date = document.getElementById("mkDate").value || todayKey();
+      var q = document.getElementById("mkQuestion").value.trim();
+      var reason = document.getElementById("mkReason").value;
+      if (reason === "其他") { var c = document.getElementById("mkReasonOther").value.trim(); reason = c ? "其他：" + c : "其他"; }
+      var correct = document.getElementById("mkCorrect").value.trim();
+      if (!q && !mkImageData) { toast("请填写题目/错点，或导入题目图片"); return; }
+      var list = load("mistakes", []);
+      if (editingId) { var idx = -1; for (var i = 0; i < list.length; i++) if (list[i].id === editingId) idx = i; if (idx >= 0) { list[idx] = { id: editingId, module: module, date: date, question: q, reason: reason, correct: correct, image: mkImageData, correctImage: mkCorrectImageData, created: list[idx].created, mastery: list[idx].mastery || "review" }; } editingId = null; }
+      else { list.push({ id: uid(), module: module, date: date, question: q, reason: reason, correct: correct, image: mkImageData, correctImage: mkCorrectImageData, created: Date.now(), mastery: "review" }); }
+      save("mistakes", list); resetMkForm(); renderMistakes(); toast("已保存错题");
+    });
+    document.getElementById("mkFilter").addEventListener("change", renderMistakes);
+    document.getElementById("mkMasFilter").addEventListener("change", renderMistakes);
+
+    /* 每日学习复盘（优化） */
+    var REVIEW_TAGS = ["时间安排问题","知识点薄弱","做题粗心","答题技巧不足","心态/效率问题","申论写作问题","其他"];
+    var REVIEW_MAX = 300;
+    var editingReviewId = null;
+    function updateRvCounts() {
+      document.getElementById("rvProblemsCount").textContent = document.getElementById("rvProblems").value.length + " / " + REVIEW_MAX;
+      document.getElementById("rvPlanCount").textContent = document.getElementById("rvPlan").value.length + " / " + REVIEW_MAX;
+    }
+    function resetRvForm() {
+      editingReviewId = null;
+      document.getElementById("rvDate").value = todayKey();
+      var tsel = document.getElementById("rvTag");
+      tsel.innerHTML = REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      tsel.value = REVIEW_TAGS[0];
+      document.getElementById("rvProblems").value = "";
+      document.getElementById("rvPlan").value = "";
+      document.getElementById("rvSave").textContent = "保存复盘";
+      document.getElementById("rvCancel").style.display = "none";
+      updateRvCounts();
+    }
+    function renderReviews() {
+      document.getElementById("rvDate").value = todayKey();
+      var filVal = document.getElementById("rvFilter").value || "";
+      var fsel = document.getElementById("rvFilter");
+      fsel.innerHTML = '<option value="">全部标签</option>' + REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      fsel.value = filVal;
+      var filter = filVal;
+      var list = load("reviews", []); if (filter) list = list.filter(function (r) { return (r.tag || "其他") === filter; });
+      list.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      var box = document.getElementById("reviewList");
+      if (!list.length) { box.innerHTML = '<div class="empty">暂无复盘记录 ✍</div>'; renderEbb(); renderHeatmap(); return; }
+      box.innerHTML = list.map(function (r) {
+        var tag = r.tag || "其他";
+        return '<div class="item"><div class="item-head"><span class="item-title">📅 ' + r.date + '</span><span class="chip">' + tag + '</span></div>' +
+          (r.problems ? '<div class="item-body"><span class="lab">学习问题：</span>' + esc(r.problems) + '</div>' : '') +
+          (r.plan ? '<div class="item-body"><span class="lab">改进计划：</span>' + esc(r.plan) + '</div>' : '') +
+          '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + r.id + '">编辑</button><button class="btn btn-line btn-sm" data-del="' + r.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editReview(b.getAttribute("data-edit")); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该复盘？")) { save("reviews", load("reviews", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderReviews(); toast("已删除"); } }); });
+    }
+    function renderEbb() {
+      var list = load("mistakes", []);
+      var dueEl = document.getElementById("ebbDue"), listEl = document.getElementById("ebbList");
+      if (!dueEl || !listEl) return;
+      var active = list.filter(function (m) { return mm(m) !== "mastered"; });
+      if (!active.length) { dueEl.textContent = ""; listEl.innerHTML = '<div class="empty">全部已掌握，暂无待复习错题 🎉</div>'; return; }
+      var dueCount = dueReviewCount(active);
+      dueEl.textContent = dueCount > 0 ? ("🔥 今日待复习 " + dueCount + " 题") : "✅ 今天没有到期复习，保持节奏～";
+      var rows = active.map(function (m) { return { m: m, info: ebbInfo(m) }; }).sort(function (a, b) { return a.info.next < b.info.next ? -1 : 1; });
+      listEl.innerHTML = rows.map(function (r) {
+        var m = r.m, info = r.info, s = SUB_MAP[m.module];
+        var dots = info.dots.map(function (d) { var c = d.state === "done" ? "#ef7da3" : (d.state === "due" ? "#d9822b" : "#f0d3df"); return '<span class="ebb-dot" style="background:' + c + '" title="' + d.date + '"></span>'; }).join("");
+        return '<div class="ebb-row"><span class="chip" style="background:' + (s ? s.color : "#fbe3ec") + '">' + (s ? s.name : m.module) + '</span>' +
+          '<span class="ebb-name">' + esc(m.question || m.reason || "错题") + '</span>' +
+          '<span class="ebb-next ' + (info.statusClass === "due" ? "ebb-due" : "") + '">' + info.statusText + '</span>' +
+          '<span class="ebb-dots">' + dots + '</span></div>';
+      }).join("");
+    }
+    function renderHeatmap() {
+      var el = document.getElementById("heatMap"); if (!el) return;
+      var list = load("mistakes", []), counts = {};
+      list.forEach(function (m) { var d = m.date || todayKey(new Date(m.created || Date.now())); counts[d] = (counts[d] || 0) + 1; });
+      drawHeatmap(el, counts);
+    }
+    function editReview(id) {
+      var list = load("reviews", []); var r = list.filter(function (x) { return x.id === id; })[0]; if (!r) return;
+      editingReviewId = id;
+      document.getElementById("rvDate").value = r.date;
+      var tsel = document.getElementById("rvTag");
+      tsel.innerHTML = REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      tsel.value = r.tag || REVIEW_TAGS[0];
+      document.getElementById("rvProblems").value = r.problems || "";
+      document.getElementById("rvPlan").value = r.plan || "";
+      document.getElementById("rvSave").textContent = "更新复盘";
+      document.getElementById("rvCancel").style.display = "inline-block";
+      updateRvCounts();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    document.getElementById("rvProblems").addEventListener("input", updateRvCounts);
+    document.getElementById("rvPlan").addEventListener("input", updateRvCounts);
+    document.getElementById("rvCancel").addEventListener("click", resetRvForm);
+    document.getElementById("rvFilter").addEventListener("change", renderReviews);
+    document.getElementById("rvSave").addEventListener("click", function () {
+      var date = document.getElementById("rvDate").value || todayKey();
+      var tag = document.getElementById("rvTag").value;
+      var p = document.getElementById("rvProblems").value.trim();
+      var pl = document.getElementById("rvPlan").value.trim();
+      if (!p && !pl) { toast("内容为空，请填写学习问题或改进计划"); return; }
+      var list = load("reviews", []);
+      if (editingReviewId) {
+        var idx = -1; for (var i = 0; i < list.length; i++) if (list[i].id === editingReviewId) idx = i;
+        if (idx >= 0) list[idx] = { id: editingReviewId, date: date, tag: tag, problems: p, plan: pl };
+        editingReviewId = null;
+      } else {
+        list.push({ id: uid(), date: date, tag: tag, problems: p, plan: pl });
+      }
+      save("reviews", list);
+      resetRvForm();
+      renderReviews();
+      toast("✅ 复盘保存成功");
+    });
+
+    /* 试卷专项分析（各模块总题量+答对数；逻辑判断含子项，手动值优先、避免重复统计） */
+    var PAPER_MODULES = [
+      { key: "politics", name: "政治理论", color: "#f6a5c0" },
+      { key: "common",   name: "常识判断", color: "#f7c59f" },
+      { key: "verbal",   name: "言语理解", color: "#f9d0dd" },
+      { key: "logic",    name: "逻辑判断", color: "#cdbdf0", subs: [
+        { key: "judge",  name: "判断推理", color: "#bcd4f0" },
+        { key: "define", name: "定义",     color: "#c9e0f0" },
+        { key: "analogy",name: "类比",     color: "#d6c8f0" },
+        { key: "graph",  name: "图形推理", color: "#bdb0e6" }
+      ]},
+      { key: "data",     name: "资料分析", color: "#a8e0d4" },
+      { key: "quant",    name: "数量关系", color: "#f7e2a8" }
+    ];
+    var PAPER_MAP = {}; PAPER_MODULES.forEach(function (m) { PAPER_MAP[m.key] = m; });
+    function correctOf(mm) { return mm && mm.correct != null ? mm.correct : (mm ? mm.total : 0); }
+    function renderPaperRows() {
+      var box = document.getElementById("ppRows"), html = "", logicKeys = [];
+      PAPER_MODULES.forEach(function (m) {
+        if (!m.subs) {
+          html += '<div class="paper-row"><span>' + m.name + '</span><input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /></div>';
+        } else {
+          logicKeys.push(m.key);
+          html += '<div class="paper-row"><span class="lt-head"><span class="lt-caret" data-k="' + m.key + '">▸</span> ' + m.name +
+            ' <span class="lt-hint" id="ppAgg_' + m.key + '">合计 0/0</span></span>' +
+            '<input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" />' +
+            '<input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /></div>';
+          html += '<div class="paper-subs" id="ppSubs_' + m.key + '" style="display:none;">';
+          m.subs.forEach(function (s) {
+            html += '<div class="paper-row sub"><span>· ' + s.name + '</span><input type="number" min="0" id="ppT_' + m.key + '_' + s.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '_' + s.key + '" placeholder="0" /></div>';
+          });
+          html += "</div>";
+        }
+      });
+      box.innerHTML = html;
+      // 逻辑判断：展开/收起子项（仅箭头可点，不影响手动输入）
+      Array.prototype.forEach.call(box.querySelectorAll(".lt-caret"), function (c) {
+        c.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var mk = c.getAttribute("data-k"), sub = document.getElementById("ppSubs_" + mk);
+          var open = sub.style.display === "none";
+          sub.style.display = open ? "block" : "none";
+          c.textContent = open ? "▾" : "▸";
+        });
+      });
+      // 实时合计：手动值优先，未填则取子项之和（仅显示，避免重复）
+      logicKeys.forEach(function (mk) {
+        var mod = PAPER_MAP[mk];
+        function upd() {
+          var mT = +document.getElementById("ppT_" + mk).value || 0, mC = +document.getElementById("ppC_" + mk).value || 0;
+          var sT = 0, sC = 0;
+          mod.subs.forEach(function (s) { sT += +document.getElementById("ppT_" + mk + "_" + s.key).value || 0; sC += +document.getElementById("ppC_" + mk + "_" + s.key).value || 0; });
+          var T = mT > 0 ? mT : sT, C = mT > 0 ? mC : sC;
+          var a = document.getElementById("ppAgg_" + mk);
+          if (a) { var mismatch = (mT > 0 && sT > 0 && (mT !== sT || mC !== sC)); a.textContent = "合计 " + C + "/" + T + (mismatch ? " ⚠与子项不符" : ""); a.style.color = mismatch ? "#d6517f" : ""; }
+        }
+        var ids = ["ppT_" + mk, "ppC_" + mk];
+        mod.subs.forEach(function (s) { ids.push("ppT_" + mk + "_" + s.key); ids.push("ppC_" + mk + "_" + s.key); });
+        ids.forEach(function (id) { var el = document.getElementById(id); if (el) el.addEventListener("input", upd); });
+        upd();
+      });
+    }
+    function renderPapers() {
+      document.getElementById("ppDate").value = todayKey();
+      renderPaperRows();
+      var list = load("papers", []); list.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      var box = document.getElementById("paperList");
+      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); return; }
+      box.innerHTML = list.map(function (p) {
+        var mods = p.modules, total = 0, correct = 0, bars = "";
+        if (mods) {
+          for (var k in mods) { var mm = mods[k]; total += mm.total || 0; correct += correctOf(mm); }
+          var rate = total > 0 ? (correct / total * 100).toFixed(1) : "0.0";
+          bars = PAPER_MODULES.map(function (m) {
+            var mm = mods[m.key]; if (!mm || mm.total <= 0) return "";
+            var isGroup = !!m.subs;
+            var cr = mm.total > 0 ? correctOf(mm) / mm.total : 0, weak = cr < 0.6;
+            var out = '<div class="bar-row' + (isGroup ? " logic-group" : "") + '" title="' + m.name + '：' + correctOf(mm) + "/" + mm.total + '"><span class="bar-name">' + m.name + (isGroup ? ' <span class="chip">合计</span>' : "") + '</span><div class="bar-track"><div class="bar-fill' + (weak ? " weak" : "") + '" style="width:' + (cr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (cr * 100).toFixed(1) + "%" + (weak ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
+            if (m.subs && mm.subs) m.subs.forEach(function (s) {
+              var sm = mm.subs[s.key]; if (!sm || sm.total <= 0) return;
+              var scr = sm.total > 0 ? sm.correct / sm.total : 0, sw = scr < 0.6;
+              out += '<div class="bar-row sub" title="' + s.name + '：' + sm.correct + "/" + sm.total + '"><span class="bar-name">· ' + s.name + '</span><div class="bar-track"><div class="bar-fill' + (sw ? " weak" : "") + '" style="width:' + (scr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (scr * 100).toFixed(1) + "%" + (sw ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
+            });
+            return out;
+          }).join("");
+          var meta = p.date + (p.duration ? " · 时长 " + p.duration + " 分钟" : "") + (p.score !== "" && p.score != null ? " · 分数 " + p.score : "");
+          return '<div class="item"><div class="item-head"><span class="item-title">📃 ' + esc(p.name) + '</span><span class="item-meta">' + meta + '</span></div>' +
+            '<div class="item-body"><span class="lab">总题量：</span>' + total + ' · <span class="lab">答对数：</span>' + correct + ' · <span class="lab">正确率：</span>' + rate + "%</div>" +
+            '<div style="margin-top:10px">' + bars + "</div>" +
+            (p.note ? '<div class="item-note"><span class="lab">备注：</span>' + esc(p.note) + "</div>" : "") +
+            '<div class="item-actions"><button class="btn btn-line btn-sm" data-del="' + p.id + '">删除</button></div></div>';
+        }
+        // 兼容旧版（仅 wrong 字段）数据
+        return '<div class="item"><div class="item-head"><span class="item-title">📃 ' + esc(p.name) + '</span><span class="item-meta">' + p.date + '</span></div><div class="item-body">旧版数据（缺少答对数），建议重新录入</div><div class="item-actions"><button class="btn btn-line btn-sm" data-del="' + p.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该套卷分析？")) { save("papers", load("papers", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderPapers(); if (document.getElementById("page-overview").classList.contains("active")) renderOverview(); toast("已删除"); } }); });
+      renderTrend();
+    }
+    var trendMetric = "rate";
+    function renderTrend() {
+      var el = document.getElementById("trendChart"); if (!el) return;
+      var list = load("papers", []).filter(function (p) { return p.modules; }).slice();
+      list.sort(function (a, b) { return (a.date < b.date ? -1 : 1); });
+      function lab(d) { return d && d.length >= 10 ? d.slice(5) : d; }
+      if (trendMetric === "rate") {
+        if (list.length < 2) { el.innerHTML = '<div class="empty">至少录入 2 套试卷后展示成绩趋势</div>'; return; }
+        var pts = list.map(function (p) {
+          var t = 0, c = 0; for (var k in p.modules) { var mm = p.modules[k]; t += mm.total || 0; c += correctOf(mm); }
+          return { label: lab(p.date), value: t > 0 ? c / t * 100 : 0 };
+        });
+        drawLine(el, pts, { tip: function (p) { return "正确率 " + p.value.toFixed(1) + "%"; }, color: "#ef7da3" });
+      } else {
+        var withScore = list.filter(function (p) { return p.score !== "" && p.score != null; });
+        if (withScore.length < 2) { el.innerHTML = '<div class="empty">录入分数的试卷不足 2 套，无法展示分数趋势</div>'; return; }
+        var pts2 = withScore.map(function (p) { return { label: lab(p.date), value: +p.score }; });
+        drawLine(el, pts2, { tip: function (p) { return "分数 " + p.value; }, color: "#6bbf9e" });
+      }
+    }
+    document.getElementById("ppSave").addEventListener("click", function () {
+      var name = document.getElementById("ppName").value.trim(), date = document.getElementById("ppDate").value || todayKey();
+      var duration = Math.max(0, +document.getElementById("ppDuration").value || 0), score = document.getElementById("ppScore").value;
+      if (!name) { toast("请填写试卷名称"); return; }
+      var modules = {};
+      PAPER_MODULES.forEach(function (m) {
+        if (!m.subs) {
+          var t = +document.getElementById("ppT_" + m.key).value || 0, c = +document.getElementById("ppC_" + m.key).value || 0;
+          modules[m.key] = { total: t, correct: Math.min(c, t) };
+        } else {
+          var mT = +document.getElementById("ppT_" + m.key).value || 0, mC = +document.getElementById("ppC_" + m.key).value || 0;
+          var T = 0, C = 0, subs = {};
+          m.subs.forEach(function (s) {
+            var t = +document.getElementById("ppT_" + m.key + "_" + s.key).value || 0, c = +document.getElementById("ppC_" + m.key + "_" + s.key).value || 0;
+            subs[s.key] = { total: t, correct: Math.min(c, t) }; T += t; C += c;
+          });
+          var finT = mT > 0 ? mT : T, finC = mT > 0 ? mC : C;
+          modules[m.key] = { total: finT, correct: Math.min(finC, finT), subs: subs };
+        }
+      });
+      var note = document.getElementById("ppNote").value.trim();
+      var list = load("papers", []); list.push({ id: uid(), name: name, date: date, duration: duration, score: score, modules: modules, note: note }); save("papers", list);
+      document.getElementById("ppName").value = ""; document.getElementById("ppDuration").value = ""; document.getElementById("ppScore").value = ""; document.getElementById("ppNote").value = ""; document.getElementById("ppNoteCount").textContent = "0 / 500";
+      renderPaperRows(); renderPapers(); toast("已保存套卷分析");
+    });
+    document.getElementById("ppNote").addEventListener("input", function () { document.getElementById("ppNoteCount").textContent = this.value.length + " / 500"; });
+    Array.prototype.forEach.call(document.querySelectorAll(".trend-btn"), function (b) {
+      b.addEventListener("click", function () {
+        trendMetric = b.getAttribute("data-metric");
+        document.querySelectorAll(".trend-btn").forEach(function (x) { x.classList.toggle("active", x === b); });
+        renderTrend();
+      });
+    });
+
+    /* 侧边栏 / 导航 */
+    (function updateDate() { var now = new Date(); document.getElementById("sidebarDate").textContent = now.getFullYear() + "年" + pad(now.getMonth() + 1) + "月" + pad(now.getDate()) + "日 星期" + WK[now.getDay()]; })();
+    (function avatarChange() { var avatar = document.getElementById("avatar"), input = document.getElementById("avatarInput"); avatar.addEventListener("click", function () { input.click(); }); input.addEventListener("change", function () { var f = input.files && input.files[0]; if (!f) return; var r = new FileReader(); r.onload = function (e) { avatar.src = e.target.result; }; r.readAsDataURL(f); }); })();
+    /* 数据洞察（零依赖手绘 SVG：环形 / 柱状 / 折线） */
+    function renderInsights() {
+      var mistakes = load("mistakes", []);
+      var mastered = 0; mistakes.forEach(function (m) { if (mm(m) === "mastered") mastered++; });
+      var review = mistakes.length - mastered;
+      var due = dueReviewCount(mistakes);
+      var reviews = load("reviews", []).length;
+      var stats = [
+        { n: mistakes.length, l: "累计错题" }, { n: mastered, l: "已掌握" }, { n: review, l: "待复习" },
+        { n: due, l: "今日待复习" }, { n: reviews, l: "累计复盘" }
+      ];
+      var sg = document.getElementById("insightStats"); sg.innerHTML = "";
+      stats.forEach(function (s) { var d = document.createElement("div"); d.className = "insight-stat"; d.innerHTML = '<span class="is-num">' + s.n + '</span><span class="is-lbl">' + s.l + "</span>"; sg.appendChild(d); });
+      drawDonut(document.getElementById("donutMastery"), document.getElementById("donutMasteryLegend"),
+        [{ name: "已掌握", value: mastered, color: "#6bbf9e" }, { name: "需复习", value: review, color: "#f7c59f" }],
+        { center: mistakes.length, centerSub: "错题总数" });
+      var modItems = SUBJECTS.map(function (s) { var c = 0; mistakes.forEach(function (m) { if (m.module === s.key) c++; }); return { name: s.name, value: c, color: s.color }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
+      drawBar(document.getElementById("barModule"), modItems);
+      var today = new Date(), trend = [];
+      for (var i = 29; i >= 0; i--) { var d2 = new Date(today); d2.setDate(d2.getDate() - i); var dk = todayKey(d2); var c = 0; mistakes.forEach(function (m) { if ((m.date || todayKey(new Date(m.created || Date.now()))) === dk) c++; }); trend.push({ label: (d2.getMonth() + 1) + "/" + d2.getDate(), value: c }); }
+      drawLine(document.getElementById("lineErrTrend"), trend, { tip: function (p) { return p.value + " 题"; }, color: "#ef7da3" });
+      var reasonItems = ERROR_REASONS.map(function (r) { var c = 0; mistakes.forEach(function (m) { if (m.reason === r) c++; }); return { name: r, value: c, color: reasonColor(r) }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
+      drawBar(document.getElementById("barReason"), reasonItems);
+    }
+    var titles = { overview: "📊 学习概览", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", review: "📝 复盘总结 / 📋 每日学习复盘", analysis: "📃 套卷分析 / 📊 试卷专项分析", insights: "📈 数据洞察", news: "🔥 时政热点" };
+    var renderers = { overview: renderOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, review: renderReviews, analysis: renderPapers, insights: renderInsights, news: renderNews };
+    function goPage(id) {
+      document.querySelectorAll(".page").forEach(function (p) { p.classList.remove("active"); });
+      var t = document.getElementById("page-" + id); if (t) t.classList.add("active");
+      document.querySelectorAll("[data-page]").forEach(function (el) { el.classList.toggle("active", el.getAttribute("data-page") === id); });
+      var activeSub = document.querySelector(".submenu-item.active"); if (activeSub) activeSub.closest(".menu-group").classList.add("open");
+      document.getElementById("breadcrumb").textContent = titles[id] || "";
+      document.body.classList.remove("drawer-open");
+      if (renderers[id]) renderers[id]();
+    }
+    document.querySelectorAll(".menu-item:not(.has-sub)").forEach(function (el) { el.addEventListener("click", function () { goPage(el.getAttribute("data-page")); }); });
+    document.querySelectorAll(".submenu-item").forEach(function (el) { el.addEventListener("click", function () { goPage(el.getAttribute("data-page")); }); });
+    document.querySelectorAll(".menu-item.has-sub").forEach(function (el) { el.addEventListener("click", function () { el.closest(".menu-group").classList.toggle("open"); }); });
+    document.getElementById("hamburger").addEventListener("click", function () { document.body.classList.toggle("drawer-open"); });
+    document.getElementById("overlay").addEventListener("click", function () { document.body.classList.remove("drawer-open"); });
+
+    resetMkForm();
+    resetRvForm();
+    /* 挖空关键词：点击切换隐藏/显示，方便自测记忆 */
+    document.addEventListener("click", function (e) {
+      var kw = e.target.closest(".nc-keyword"); if (!kw) return;
+      e.stopPropagation();
+      kw.classList.toggle("blind");
+    });
+    goPage("overview");
+    /* 平板横竖屏切换：自动关闭抽屉 */
+    window.addEventListener("orientationchange", function () {
+      document.body.classList.remove("drawer-open");
+      setTimeout(function () { if (renderers[titles] && renderers[window._currentPage]) renderers[window._currentPage](); }, 200);
+    });
+    /* 记录当前页面以便 orientationchange 时重新渲染 */
+    var _origGoPage = goPage;
+    goPage = function (id) { window._currentPage = id; _origGoPage(id); };
+  })();
+  </script>
+</body>
+</html>
