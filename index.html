@@ -43,7 +43,10 @@
         </div>
         <div class="menu-group">
           <div class="menu-item has-sub" data-page="review-overview"><span class="menu-emoji">📝</span><span class="menu-label">复盘总结</span><span class="arrow">›</span></div>
-          <div class="submenu"><div class="submenu-item" data-page="review">📋 每日学习复盘</div></div>
+          <div class="submenu">
+            <div class="submenu-item" data-page="review">📋 每日学习复盘</div>
+            <div class="submenu-item" data-page="review-history">📊 复盘历史总览</div>
+          </div>
         </div>
         <div class="menu-group">
           <div class="menu-item has-sub" data-page="analysis-overview"><span class="menu-emoji">📃</span><span class="menu-label">套卷分析</span><span class="arrow">›</span></div>
@@ -258,13 +261,14 @@
             <div class="form-row"><label>日期</label><input type="date" id="rvDate" class="mini" /></div>
             <div class="form-row"><label>复盘标签</label><select id="rvTag" class="mini"></select></div>
             <div class="form-row">
-              <label>今日学习问题 <span class="charcount" id="rvProblemsCount">0 / 300</span></label>
-              <textarea id="rvProblems" maxlength="300" placeholder="记录做题卡点、薄弱模块、效率问题"></textarea>
+              <label>今日学习问题 <span class="charcount" id="rvProblemsCount">0 / 500</span></label>
+              <textarea id="rvProblems" maxlength="500" placeholder="记录做题卡点、薄弱模块、学习效率问题"></textarea>
             </div>
             <div class="form-row">
-              <label>后续改进计划 <span class="charcount" id="rvPlanCount">0 / 300</span></label>
-              <textarea id="rvPlan" maxlength="300" placeholder="写下刷题安排、复习调整方案"></textarea>
+              <label>后续改进计划 <span class="charcount" id="rvPlanCount">0 / 500</span></label>
+              <textarea id="rvPlan" maxlength="500" placeholder="规划刷题安排、复习调整方案"></textarea>
             </div>
+            <p class="page-sub" style="margin-top:-4px;">同一天仅保存一条复盘，再次保存将更新当日记录</p>
             <button class="btn btn-primary" id="rvSave">保存复盘</button>
             <button class="btn btn-line" id="rvCancel" style="display:none;margin-left:8px;">取消</button>
           </div>
@@ -286,6 +290,23 @@
               <select id="rvFilter" class="mini"></select>
             </div>
             <div id="reviewList"></div>
+          </div>
+        </section>
+
+        <!-- 复盘历史总览 -->
+        <section class="page" id="page-review-history">
+          <h1 class="page-title">复盘历史总览</h1>
+          <p class="page-sub">按日期区间与标签检索全部复盘 · 统计标签频次</p>
+          <div class="card" style="margin-bottom:16px;">
+            <div class="form-row" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;">
+              <div style="flex:1;min-width:130px;"><label>开始日期</label><input type="date" id="rhStart" class="mini" /></div>
+              <div style="flex:1;min-width:130px;"><label>结束日期</label><input type="date" id="rhEnd" class="mini" /></div>
+              <div style="flex:1;min-width:130px;"><label>复盘标签</label><select id="rhTag" class="mini"></select></div>
+            </div>
+            <div id="rhStats" class="rh-stats"></div>
+          </div>
+          <div class="card">
+            <div id="rhList"></div>
           </div>
         </section>
 

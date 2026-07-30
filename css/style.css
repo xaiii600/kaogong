@@ -231,6 +231,17 @@
     .item-note { font-size: 13px; color: #8a7380; background: var(--accent-soft); border-radius: 10px; padding: 8px 10px; margin-top: 8px; white-space: pre-wrap; word-break: break-word; }
     .item .item-body .lab { color: var(--accent); font-weight: 600; }
     .item-actions { display: flex; gap: 8px; margin-top: 10px; }
+    /* 复盘历史总览：标签频次统计（轻量条形） */
+    .rvh-item { cursor: pointer; transition: box-shadow .14s ease, transform .12s ease; }
+    .rvh-item:active { transform: scale(.99); }
+    .rvh-preview { flex: 1; min-width: 100%; font-size: 13px; color: #9a848d; margin-top: 4px; word-break: break-word; }
+    .rh-stats { margin-top: 4px; }
+    .rh-total { font-size: 13px; color: var(--text-soft); margin-bottom: 8px; font-weight: 600; }
+    .rh-stat { display: flex; align-items: center; gap: 10px; font-size: 13px; margin-bottom: 7px; }
+    .rh-stat-name { width: 92px; flex: none; color: var(--text-strong); font-weight: 600; }
+    .rh-stat-bar { flex: 1; height: 10px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; }
+    .rh-stat-bar i { display: block; height: 100%; background: var(--accent); border-radius: 999px; transition: width .2s ease; }
+    .rh-stat-num { width: 26px; text-align: right; color: var(--text-soft); flex: none; }
     .tag-reason { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 999px; font-weight: 600; }
     /* 错因颜色标识：顶部图例 + 卡片左侧强调色边 */
     .reason-legend { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 14px; padding: 10px 12px; background: #fffdfe; border: 1px solid var(--border); border-radius: var(--radius-md); }

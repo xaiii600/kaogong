@@ -1163,11 +1163,16 @@
 
     /* 每日学习复盘（优化） */
     var REVIEW_TAGS = ["时间安排问题","知识点薄弱","做题粗心","答题技巧不足","心态/效率问题","申论写作问题","其他"];
-    var REVIEW_MAX = 300;
+    var REVIEW_MAX = 500;
     var editingReviewId = null;
+    var rvExpanded = {};
+    function clampRv(el) { if (el.value.length > REVIEW_MAX) el.value = el.value.slice(0, REVIEW_MAX); }
     function updateRvCounts() {
-      document.getElementById("rvProblemsCount").textContent = document.getElementById("rvProblems").value.length + " / " + REVIEW_MAX;
-      document.getElementById("rvPlanCount").textContent = document.getElementById("rvPlan").value.length + " / " + REVIEW_MAX;
+      var p = document.getElementById("rvProblems"), pl = document.getElementById("rvPlan");
+      clampRv(p); clampRv(pl);
+      var pc = document.getElementById("rvProblemsCount"), plc = document.getElementById("rvPlanCount");
+      pc.textContent = p.value.length + " / " + REVIEW_MAX; plc.textContent = pl.value.length + " / " + REVIEW_MAX;
+      pc.classList.toggle("limit", p.value.length >= REVIEW_MAX); plc.classList.toggle("limit", pl.value.length >= REVIEW_MAX);
     }
     function resetRvForm() {
       editingReviewId = null;
@@ -1181,24 +1186,43 @@
       document.getElementById("rvCancel").style.display = "none";
       updateRvCounts();
     }
+    function loadTodayReviewIntoForm() {
+      var list = load("reviews", []);
+      var r = list.filter(function (x) { return x.date === todayKey(); })[0];
+      if (!r) return;
+      editingReviewId = r.id;
+      var tsel = document.getElementById("rvTag");
+      tsel.innerHTML = REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      tsel.value = r.tag || REVIEW_TAGS[0];
+      document.getElementById("rvProblems").value = r.problems || "";
+      document.getElementById("rvPlan").value = r.plan || "";
+      document.getElementById("rvSave").textContent = "更新复盘";
+      document.getElementById("rvCancel").style.display = "inline-block";
+      updateRvCounts();
+    }
     function renderReviews() {
-      document.getElementById("rvDate").value = todayKey();
       var filVal = document.getElementById("rvFilter").value || "";
       var fsel = document.getElementById("rvFilter");
       fsel.innerHTML = '<option value="">全部标签</option>' + REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
       fsel.value = filVal;
       var filter = filVal;
       var list = load("reviews", []); if (filter) list = list.filter(function (r) { return (r.tag || "其他") === filter; });
-      list.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      list.sort(function (a, b) { return b.date === a.date ? (b.created || 0) - (a.created || 0) : (b.date < a.date ? -1 : 1); });
       var box = document.getElementById("reviewList");
       if (!list.length) { box.innerHTML = '<div class="empty">暂无复盘记录 ✍</div>'; renderEbb(); renderHeatmap(); return; }
       box.innerHTML = list.map(function (r) {
         var tag = r.tag || "其他";
-        return '<div class="item"><div class="item-head"><span class="item-title">📅 ' + r.date + '</span><span class="chip">' + tag + '</span></div>' +
-          (r.problems ? '<div class="item-body"><span class="lab">学习问题：</span>' + esc(r.problems) + '</div>' : '') +
-          (r.plan ? '<div class="item-body"><span class="lab">改进计划：</span>' + esc(r.plan) + '</div>' : '') +
+        var exp = !!rvExpanded[r.id];
+        var preview = ((r.problems || r.plan || "").replace(/\n/g, " ")).slice(0, 42);
+        var bodyHtml = exp
+          ? '<div class="item-body">' + (r.problems ? '<span class="lab">学习问题：</span>' + esc(r.problems) + (r.plan ? '<br>' : '') : '') + (r.plan ? '<span class="lab">改进计划：</span>' + esc(r.plan) : '') + '</div>'
+          : (preview ? '<div class="item-body" style="color:#9a848d;">' + esc(preview) + (preview.length >= 42 ? "…" : "") + '</div>' : '');
+        return '<div class="item"><div class="item-head"><span class="item-title">📅 ' + r.date + '</span><span class="chip">' + tag + '</span>' +
+          '<button class="btn btn-ghost btn-sm" data-toggle="' + r.id + '">' + (exp ? "收起" : "展开") + '</button></div>' +
+          bodyHtml +
           '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + r.id + '">编辑</button><button class="btn btn-line btn-sm" data-del="' + r.id + '">删除</button></div></div>';
       }).join("");
+      box.querySelectorAll("[data-toggle]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); var id = b.getAttribute("data-toggle"); rvExpanded[id] = !rvExpanded[id]; renderReviews(); }); });
       box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editReview(b.getAttribute("data-edit")); }); });
       box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该复盘？")) { save("reviews", load("reviews", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderReviews(); toast("已删除"); } }); });
     }
@@ -1244,6 +1268,9 @@
     document.getElementById("rvPlan").addEventListener("input", updateRvCounts);
     document.getElementById("rvCancel").addEventListener("click", resetRvForm);
     document.getElementById("rvFilter").addEventListener("change", renderReviews);
+    document.getElementById("rhStart") && document.getElementById("rhStart").addEventListener("change", renderReviewHistory);
+    document.getElementById("rhEnd") && document.getElementById("rhEnd").addEventListener("change", renderReviewHistory);
+    (function initRhTag() { var el = document.getElementById("rhTag"); if (!el) return; el.innerHTML = '<option value="">全部标签</option>' + REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join(""); el.addEventListener("change", renderReviewHistory); })();
     document.getElementById("rvSave").addEventListener("click", function () {
       var date = document.getElementById("rvDate").value || todayKey();
       var tag = document.getElementById("rvTag").value;
@@ -1251,18 +1278,54 @@
       var pl = document.getElementById("rvPlan").value.trim();
       if (!p && !pl) { toast("内容为空，请填写学习问题或改进计划"); return; }
       var list = load("reviews", []);
-      if (editingReviewId) {
-        var idx = -1; for (var i = 0; i < list.length; i++) if (list[i].id === editingReviewId) idx = i;
-        if (idx >= 0) list[idx] = { id: editingReviewId, date: date, tag: tag, problems: p, plan: pl };
-        editingReviewId = null;
+      var exIdx = -1; for (var i = 0; i < list.length; i++) { if (list[i].date === date) { exIdx = i; break; } }
+      if (exIdx >= 0) {
+        list[exIdx] = { id: list[exIdx].id, date: date, tag: tag, problems: p, plan: pl, created: list[exIdx].created };
+        editingReviewId = list[exIdx].id;
+      } else if (editingReviewId) {
+        for (var j = 0; j < list.length; j++) { if (list[j].id === editingReviewId) { list[j] = { id: editingReviewId, date: date, tag: tag, problems: p, plan: pl, created: list[j].created }; break; } }
       } else {
-        list.push({ id: uid(), date: date, tag: tag, problems: p, plan: pl });
+        var rec = { id: uid(), date: date, tag: tag, problems: p, plan: pl, created: Date.now() };
+        list.push(rec); editingReviewId = rec.id;
       }
       save("reviews", list);
-      resetRvForm();
+      resetRvForm(); loadTodayReviewIntoForm();
       renderReviews();
       toast("✅ 复盘保存成功");
     });
+
+    /* 复盘历史总览（按日期区间/标签筛选 + 标签频次统计 + 点击跳编辑） */
+    function renderReviewHistory() {
+      var startEl = document.getElementById("rhStart"), endEl = document.getElementById("rhEnd"), tagEl = document.getElementById("rhTag");
+      if (!startEl || !tagEl) return;
+      var start = startEl.value, end = endEl.value, tag = tagEl.value || "";
+      var list = load("reviews", []);
+      if (start) list = list.filter(function (r) { return r.date >= start; });
+      if (end) list = list.filter(function (r) { return r.date <= end; });
+      if (tag) list = list.filter(function (r) { return (r.tag || "其他") === tag; });
+      list.sort(function (a, b) { return b.date === a.date ? (b.created || 0) - (a.created || 0) : (b.date < a.date ? -1 : 1); });
+      var freq = {}; REVIEW_TAGS.forEach(function (t) { freq[t] = 0; });
+      list.forEach(function (r) { var t = r.tag || "其他"; if (freq[t] === undefined) freq[t] = 0; freq[t]++; });
+      var maxC = 1; REVIEW_TAGS.forEach(function (t) { if (freq[t] > maxC) maxC = freq[t]; });
+      var statsEl = document.getElementById("rhStats");
+      if (statsEl) {
+        statsEl.innerHTML = '<div class="rh-total">共 ' + list.length + ' 条复盘' + (tag || start || end ? '（已筛选）' : '') + '</div>' +
+          REVIEW_TAGS.map(function (t) {
+            return '<div class="rh-stat"><span class="rh-stat-name">' + t + '</span><span class="rh-stat-bar"><i style="width:' + Math.round(freq[t] / maxC * 100) + '%"></i></span><span class="rh-stat-num">' + freq[t] + '</span></div>';
+          }).join("");
+      }
+      var box = document.getElementById("rhList"); if (!box) return;
+      if (!list.length) { box.innerHTML = '<div class="empty">暂无复盘记录 ✍</div>'; return; }
+      box.innerHTML = list.map(function (r) {
+        var tag2 = r.tag || "其他";
+        var preview = ((r.problems || r.plan || "").replace(/\n/g, " ")).slice(0, 42);
+        return '<div class="item rvh-item" data-id="' + r.id + '"><div class="item-head"><span class="item-title">📅 ' + r.date + '</span><span class="chip">' + tag2 + '</span>' +
+          (preview ? '<span class="rvh-preview">' + esc(preview) + (preview.length >= 42 ? "…" : "") + '</span>' : '') + '</div>' +
+          '<div class="item-actions"><button class="btn btn-line btn-sm" data-del="' + r.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll(".rvh-item").forEach(function (el) { el.addEventListener("click", function (e) { if (e.target.closest("[data-del]")) return; editReview(el.getAttribute("data-id")); goPage("review"); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); if (confirm("删除该复盘？")) { save("reviews", load("reviews", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderReviewHistory(); toast("已删除"); } }); });
+    }
 
     /* 试卷专项分析（各模块总题量+答对数；逻辑判断含子项，手动值优先、避免重复统计） */
     var PAPER_MODULES = [
@@ -1463,8 +1526,8 @@
       var reasonItems = ERROR_REASONS.map(function (r) { var c = 0; mistakes.forEach(function (m) { if (m.reason === r) c++; }); return { name: r, value: c, color: reasonColor(r) }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
       drawBar(document.getElementById("barReason"), reasonItems);
     }
-    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", insights: "📈 数据洞察", news: "🔥 时政热点" };
-    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, "review-overview": renderReviewOverview, review: renderReviews, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, insights: renderInsights, news: renderNews };
+    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "review-history": "📝 复盘总结 / 📊 复盘历史总览", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", insights: "📈 数据洞察", news: "🔥 时政热点" };
+    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, "review-overview": renderReviewOverview, review: renderReviews, "review-history": renderReviewHistory, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, insights: renderInsights, news: renderNews };
     function goPage(id) {
       document.querySelectorAll(".page").forEach(function (p) { p.classList.remove("active"); });
       var t = document.getElementById("page-" + id); if (t) t.classList.add("active");
@@ -1482,6 +1545,7 @@
 
     resetMkForm();
     resetRvForm();
+    loadTodayReviewIntoForm();
     /* 挖空关键词：点击切换隐藏/显示，方便自测记忆 */
     document.addEventListener("click", function (e) {
       var kw = e.target.closest(".nc-keyword"); if (!kw) return;
