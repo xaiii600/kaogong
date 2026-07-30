@@ -948,9 +948,11 @@
           ? "🍅 番茄钟 剩余 " + fmtClock(Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)))
           : "⏱ 已学习 " + fmtClock(Math.floor(ms / 1000))) + " · " + SUB_MAP[timer.subject].name;
         navigator.serviceWorker.ready.then(function (reg) {
-          reg.showNotification("小艾考公 · 计时中", {
-            tag: "kaogong-timer", renotify: false, silent: true,
-            body: body, icon: "icon-192.png", badge: "icon-192.png", data: { page: "timer" }
+          reg.showNotification("⏱ 小艾考公 · 计时中", {
+            tag: "kaogong-timer", renotify: false,
+            body: body, icon: "icon-192.png", badge: "icon-192.png",
+            data: { page: "timer" },
+            actions: [{ action: "pause", title: "暂停计时" }]
           });
         }).catch(function () {});
       } catch (e) {}
@@ -1006,6 +1008,14 @@
     setInterval(tick, 1000);
     window.addEventListener("beforeunload", function () { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); });
     document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") tick(); else { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); } });
+    /* 接收来自 Service Worker 通知按钮的消息（暂停/恢复） */
+    navigator.serviceWorker && navigator.serviceWorker.addEventListener('message', function (e) {
+      if (!e.data || e.data.type !== 'timer-action') return;
+      if (e.data.action === 'toggle') {
+        document.getElementById('btnStart').click();
+        timerNotifyClose();
+      }
+    });
 
     /* 知识备忘录 */
     var MEMO_MODULES = ["行测", "申论"]; var memoCur = MEMO_MODULES[0];

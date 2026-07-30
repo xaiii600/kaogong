@@ -39,7 +39,14 @@ self.addEventListener('notificationclick', (event) => {
   event.waitUntil(
     self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(function (list) {
       for (var i = 0; i < list.length; i++) {
-        if ('focus' in list[i]) return list[i].focus();
+        var client = list[i];
+        if (client.url && client.url.indexOf(self.location.origin) === 0 && 'focus' in client) {
+          // Forward action to the page so it can pause/resume
+          if (event.action === 'pause') {
+            client.postMessage({ type: 'timer-action', action: 'toggle' });
+          }
+          return client.focus();
+        }
       }
       if (self.clients.openWindow) return self.clients.openWindow('./');
     })
