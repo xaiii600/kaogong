@@ -1354,7 +1354,27 @@
 
     /* 侧边栏 / 导航 */
     (function updateDate() { var now = new Date(); document.getElementById("sidebarDate").textContent = now.getFullYear() + "年" + pad(now.getMonth() + 1) + "月" + pad(now.getDate()) + "日 星期" + WK[now.getDay()]; })();
-    (function avatarChange() { var avatar = document.getElementById("avatar"), input = document.getElementById("avatarInput"); avatar.addEventListener("click", function () { input.click(); }); input.addEventListener("change", function () { var f = input.files && input.files[0]; if (!f) return; var r = new FileReader(); r.onload = function (e) { avatar.src = e.target.result; }; r.readAsDataURL(f); }); })();
+    (function avatarChange() { var avatar = document.getElementById("avatar"), input = document.getElementById("avatarInput");
+      var saved = load("avatar", "");
+      if (saved) avatar.src = saved;
+      avatar.addEventListener("click", function () { input.click(); });
+      input.addEventListener("change", function () { var f = input.files && input.files[0]; if (!f) return;
+        var r = new FileReader();
+        r.onload = function (e) {
+          var img = new Image();
+          img.onload = function () {
+            var max = 256, w = img.width, h = img.height;
+            if (w > max || h > max) { if (w >= h) { h = Math.round(h * max / w); w = max; } else { w = Math.round(w * max / h); h = max; } }
+            var c = document.createElement("canvas"); c.width = w; c.height = h;
+            c.getContext("2d").drawImage(img, 0, 0, w, h);
+            var uri = c.toDataURL("image/jpeg", 0.85);
+            avatar.src = uri; save("avatar", uri);
+          };
+          img.onerror = function () { avatar.src = e.target.result; save("avatar", e.target.result); };
+          img.src = e.target.result;
+        };
+        r.readAsDataURL(f);
+      }); })();
     /* 数据洞察（零依赖手绘 SVG：环形 / 柱状 / 折线） */
     function renderInsights() {
       var mistakes = load("mistakes", []);
