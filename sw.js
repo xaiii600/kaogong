@@ -33,6 +33,19 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// Notification click: focus the existing workbench tab, or open it
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(function (list) {
+      for (var i = 0; i < list.length; i++) {
+        if ('focus' in list[i]) return list[i].focus();
+      }
+      if (self.clients.openWindow) return self.clients.openWindow('./');
+    })
+  );
+});
+
 // Fetch: stale-while-revalidate for same-origin, network-first for cross-origin
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);

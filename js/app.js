@@ -939,6 +939,30 @@
     function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
     function updateTimerSubjectName() { document.getElementById("timerSubjectName").textContent = SUB_MAP[timer.subject].name; }
     function timerLiveMs() { return timer.accumMs + (timer.running ? (Date.now() - timer.startTs) : 0); }
+    function timerNotify() {
+      try {
+        if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
+        if (!navigator.serviceWorker) return;
+        var ms = timerLiveMs();
+        var body = (timer.mode === "pomo"
+          ? "🍅 番茄钟 剩余 " + fmtClock(Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)))
+          : "⏱ 已学习 " + fmtClock(Math.floor(ms / 1000))) + " · " + SUB_MAP[timer.subject].name;
+        navigator.serviceWorker.ready.then(function (reg) {
+          reg.showNotification("小艾考公 · 计时中", {
+            tag: "kaogong-timer", renotify: false, silent: true,
+            body: body, icon: "icon-192.png", badge: "icon-192.png", data: { page: "timer" }
+          });
+        }).catch(function () {});
+      } catch (e) {}
+    }
+    function timerNotifyClose() {
+      try {
+        if (!navigator.serviceWorker) return;
+        navigator.serviceWorker.ready.then(function (reg) {
+          reg.getNotifications({ tag: "kaogong-timer" }).then(function (list) { list.forEach(function (n) { n.close(); }); });
+        }).catch(function () {});
+      } catch (e) {}
+    }
     function bankDelta() {
       if (!timer.running) return;
       var now = Date.now(), secs = Math.floor((now - timer.lastBankTs) / 1000);
@@ -959,25 +983,29 @@
       bankDelta();
       if (timer.mode === "pomo" && Math.floor(timerLiveMs() / 1000) >= (timer.pomoMin || 25) * 60) {
         timer.accumMs = timerLiveMs(); timer.running = false; timer.startTs = 0;
+        timerNotifyClose();
         toast("🍅 番茄钟完成！休息一下吧"); save("timer", timer); updateTimerDisplay();
         if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
         return;
       }
-      updateTimerDisplay();
+      updateTimerDisplay(); timerNotify();
       if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
     }
-    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.pomoMin || 25) * 60; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.pomoMin || 25) * 60; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); });
     document.getElementById("pomoMin").addEventListener("change", function () { timer.pomoMin = Math.max(1, Math.min(120, +this.value || 25)); if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); updateTimerDisplay(); });
     document.getElementById("btnStart").addEventListener("click", function () {
-      if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; timer.running = false; }
-      else { timer.running = true; timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
+      if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; timer.running = false; timerNotifyClose(); }
+      else {
+        if (typeof Notification !== "undefined" && Notification.permission === "default") { try { Notification.requestPermission(); } catch (e) {} }
+        timer.running = true; timer.startTs = Date.now(); timer.lastBankTs = Date.now(); timerNotify();
+      }
       save("timer", timer); updateTimerDisplay();
     });
-    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
+    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); timerNotifyClose(); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
     setInterval(tick, 1000);
-    window.addEventListener("beforeunload", function () { bankDelta(); save("timer", timer); });
-    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") tick(); else { bankDelta(); save("timer", timer); } });
+    window.addEventListener("beforeunload", function () { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); });
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") tick(); else { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); } });
 
     /* 知识备忘录 */
     var MEMO_MODULES = ["行测", "申论"]; var memoCur = MEMO_MODULES[0];
