@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "小艾的考公工作台",
+  "short_name": "小艾考公",
+  "description": "公务员考试备考工作台",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fef6fb",
+  "theme_color": "#f7a8c4",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://webview.e2b.gz2.sandbox.cloudstudio.club/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://webview.e2b.gz2.sandbox.cloudstudio.club/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

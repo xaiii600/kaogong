@@ -1,0 +1,65 @@
+// Service Worker for 小艾的考公工作台 PWA
+const CACHE_VERSION = 'v5';
+const CACHE_NAME = 'kaogong-' + CACHE_VERSION;
+
+// Core assets to precache
+const PRECACHE_ASSETS = [
+  '.',
+  'index.html',
+  'manifest.json',
+  'css/style.css',
+  'js/app.js',
+  'icon-192.png',
+  'icon-512.png'
+];
+
+// Install: precache core assets
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(PRECACHE_ASSETS);
+    }).then(() => self.skipWaiting())
+  );
+});
+
+// Activate: clean old caches
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.all(
+        keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))
+      );
+    }).then(() => self.clients.claim())
+  );
+});
+
+// Fetch: stale-while-revalidate for same-origin, network-first for cross-origin
+self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+  
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') return;
+  
+  // For same-origin requests: stale-while-revalidate
+  if (url.origin === self.location.origin) {
+    event.respondWith(
+      caches.open(CACHE_NAME).then((cache) => {
+        return cache.match(event.request).then((cached) => {
+          const fetchPromise = fetch(event.request).then((response) => {
+            if (response.ok) cache.put(event.request, response.clone());
+            return response;
+          }).catch(() => cached);
+          return cached || fetchPromise;
+        });
+      })
+    );
+    return;
+  }
+  
+  // For cross-origin: network-first, fallback to cache
+  event.respondWith(
+    fetch(event.request).catch(() => {
+      return caches.match(event.request);
+    })
+  );
+});
