@@ -914,23 +914,40 @@
       });
     });
 
-    /* 计时器 */
-    var timer = load("timer", { subject: "politics", mode: "count", elapsed: 0, remaining: 1500, running: false, pomoMin: 25 });
-    var timerInited = false, flushTick = 0;
+    /* 计时器（时间戳记账：切到别的软件 / 关闭页面也能在后台继续计时） */
+    var timer = load("timer", { subject: "politics", mode: "count", running: false, pomoMin: 25, accumMs: 0, startTs: 0, lastBankTs: 0, remaining: 1500 });
+    if (typeof timer.accumMs !== "number") timer.accumMs = 0;
+    if (typeof timer.startTs !== "number") timer.startTs = 0;
+    if (typeof timer.lastBankTs !== "number") timer.lastBankTs = 0;
+    var timerInited = false;
     function renderTimerOnce() {
       var list = document.getElementById("subjectList"); list.innerHTML = "";
       SUBJECTS.forEach(function (s) {
         var b = document.createElement("div"); b.className = "subject-btn" + (timer.subject === s.key ? " active" : ""); b.style.background = s.color; b.setAttribute("data-k", s.key);
         b.innerHTML = '<span class="sb-ico">' + s.ico + '</span><span>' + s.name + '</span><span class="sb-run" data-run="' + s.key + '"></span>';
-        b.addEventListener("click", function () { timer.subject = s.key; if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); markActiveSubject(); updateTimerSubjectName(); });
+        b.addEventListener("click", function () {
+          if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; }
+          timer.subject = s.key;
+          if (timer.running) { timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
+          else if (timer.mode === "pomo") timer.remaining = (timer.pomoMin || 25) * 60;
+          save("timer", timer); markActiveSubject(); updateTimerSubjectName(); updateTimerDisplay();
+        });
         list.appendChild(b);
       });
       timerInited = true;
     }
     function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
     function updateTimerSubjectName() { document.getElementById("timerSubjectName").textContent = SUB_MAP[timer.subject].name; }
+    function timerLiveMs() { return timer.accumMs + (timer.running ? (Date.now() - timer.startTs) : 0); }
+    function bankDelta() {
+      if (!timer.running) return;
+      var now = Date.now(), secs = Math.floor((now - timer.lastBankTs) / 1000);
+      if (secs > 0) { addSeconds(timer.subject, secs); timer.lastBankTs += secs * 1000; }
+    }
     function updateTimerDisplay() {
-      document.getElementById("timerClock").textContent = timer.mode === "pomo" ? fmtClock(Math.max(0, timer.remaining)) : fmtClock(timer.elapsed);
+      var ms = timerLiveMs();
+      var shown = timer.mode === "pomo" ? Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)) : Math.floor(ms / 1000);
+      document.getElementById("timerClock").textContent = fmtClock(shown);
       document.getElementById("segCount").classList.toggle("active", timer.mode === "count");
       document.getElementById("segPomo").classList.toggle("active", timer.mode === "pomo");
       document.getElementById("pomoInput").classList.toggle("show", timer.mode === "pomo");
@@ -939,19 +956,28 @@
     function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); }
     function tick() {
       if (!timer.running) return;
-      if (timer.mode === "count") { timer.elapsed++; addSeconds(timer.subject, 1); }
-      else { timer.elapsed++; addSeconds(timer.subject, 1); timer.remaining--; if (timer.remaining <= 0) { timer.running = false; toast("🍅 番茄钟完成！休息一下吧"); } }
-      flushTick++; if (flushTick >= 3) { save("timer", timer); flushTick = 0; }
+      bankDelta();
+      if (timer.mode === "pomo" && Math.floor(timerLiveMs() / 1000) >= (timer.pomoMin || 25) * 60) {
+        timer.accumMs = timerLiveMs(); timer.running = false; timer.startTs = 0;
+        toast("🍅 番茄钟完成！休息一下吧"); save("timer", timer); updateTimerDisplay();
+        if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
+        return;
+      }
       updateTimerDisplay();
       if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
     }
-    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.elapsed = 0; save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.remaining = (timer.pomoMin || 25) * 60; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.pomoMin || 25) * 60; save("timer", timer); updateTimerDisplay(); });
     document.getElementById("pomoMin").addEventListener("change", function () { timer.pomoMin = Math.max(1, Math.min(120, +this.value || 25)); if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("btnStart").addEventListener("click", function () { timer.running = !timer.running; save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.elapsed = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
+    document.getElementById("btnStart").addEventListener("click", function () {
+      if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; timer.running = false; }
+      else { timer.running = true; timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
+      save("timer", timer); updateTimerDisplay();
+    });
+    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
     setInterval(tick, 1000);
-    window.addEventListener("beforeunload", function () { save("timer", timer); });
+    window.addEventListener("beforeunload", function () { bankDelta(); save("timer", timer); });
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") tick(); else { bankDelta(); save("timer", timer); } });
 
     /* 知识备忘录 */
     var MEMO_MODULES = ["行测", "申论"]; var memoCur = MEMO_MODULES[0];
