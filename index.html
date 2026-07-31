@@ -54,6 +54,7 @@
         </div>
         <div class="menu-item" data-page="insights"><span class="menu-emoji">📈</span><span class="menu-label">数据洞察</span></div>
         <div class="menu-item" data-page="news"><span class="menu-emoji">🔥</span><span class="menu-label">时政热点</span></div>
+        <div class="menu-item" data-page="essay"><span class="menu-emoji">📚</span><span class="menu-label">申论素材</span></div>
       </nav>
     </aside>
     <div class="overlay" id="overlay"></div>
@@ -110,6 +111,10 @@
               <span class="checkin-streak" id="checkinStreak">连续学习 <b id="streakNum">0</b> 天</span>
             </div>
             <button class="checkin-btn" id="checkinBtn">今日打卡</button>
+          </div>
+          <div class="reminder-card" id="reminderCard">
+            <div class="reminder-title">📌 今日复习任务</div>
+            <div class="reminder-list" id="reminderList"></div>
           </div>
           <div class="quote-card">
             <div class="qmark">"</div>
@@ -209,7 +214,10 @@
           <div class="card" style="margin-bottom:16px;">
             <h3 style="margin-bottom:12px;">➕ 录入错题</h3>
             <div class="form-row"><label>所属模块</label><select id="mkModule" class="mini"></select></div>
-            <div class="form-row"><label>日期</label><input type="date" id="mkDate" class="mini" /></div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>日期</label><input type="date" id="mkDate" class="mini" /></div>
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>难度</label><select id="mkDifficulty" class="mini"><option value="1">⭐ 简单</option><option value="2">⭐⭐ 中等</option><option value="3">⭐⭐⭐ 困难</option></select></div>
+            </div>
             <div class="form-row"><label>题目 / 错点</label><textarea id="mkQuestion" placeholder="题目描述或易错点"></textarea></div>
             <div class="mk-img-row">
               <button type="button" class="btn btn-line btn-sm" id="mkImgBtn">📷 导入题目图片</button>
@@ -248,13 +256,31 @@
           </div>
           <div class="card">
             <div class="form-row" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap;">
-              <label style="margin:0;white-space:nowrap;">按模块筛选</label>
+              <label style="margin:0;white-space:nowrap;">按模块</label>
               <select id="mkFilter" class="mini"></select>
               <label style="margin:0 0 0 6px;white-space:nowrap;">掌握度</label>
               <select id="mkMasFilter" class="mini"><option value="">全部</option><option value="review">需复习</option><option value="mastered">已掌握</option></select>
+              <label style="margin:0 0 0 6px;white-space:nowrap;">难度</label>
+              <select id="mkDiffFilter" class="mini"><option value="">全部</option><option value="1">简单</option><option value="2">中等</option><option value="3">困难</option></select>
+              <label style="margin:0 0 0 6px;white-space:nowrap;">复习</label>
+              <select id="mkRevFilter" class="mini"><option value="">全部</option><option value="due">待复习</option><option value="fav">已收藏</option></select>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+              <button class="btn btn-line btn-sm" id="mkBatchBtn">⬚ 批量导出</button>
+              <span id="mkBatchInfo" style="font-size:12px;color:var(--text-soft);"></span>
             </div>
             <div class="reason-legend" id="reasonLegend"></div>
             <div id="mistakeList"></div>
+            <div class="pager" id="mkPager"></div>
+          </div>
+          <div class="card" id="mkBatchBar" style="display:none;position:sticky;bottom:8px;">
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+              <label style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;"><input type="checkbox" id="mkSelectAll" /> 全选本页</label>
+              <button class="btn btn-primary btn-sm" id="mkExportSel">导出选中 JSON</button>
+              <button class="btn btn-line btn-sm" id="mkExportAll">导出全部</button>
+              <button class="btn btn-ghost btn-sm" id="mkBatchCancel">取消</button>
+              <span id="mkSelCount" style="font-size:12px;color:var(--text-soft);"></span>
+            </div>
           </div>
         </section>
 
@@ -325,6 +351,7 @@
               <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>日期</label><input type="date" id="ppDate" /></div>
               <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>做题时长（分钟）</label><input type="number" id="ppDuration" min="0" placeholder="120" /></div>
               <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>分数</label><input type="number" id="ppScore" min="0" placeholder="0" /></div>
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>试卷类型</label><select id="ppType" class="mini"><option value="国考">国考</option><option value="省考">省考</option></select></div>
             </div>
             <div class="paper-row head"><span>模块</span><span>总题量</span><span>答对数</span></div>
             <div id="ppRows"></div>
@@ -335,6 +362,10 @@
             <button class="btn btn-primary" id="ppSave" style="margin-top:8px;">保存试卷分析</button>
           </div>
           <div class="card" style="margin-bottom:16px;">
+            <div class="form-row" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap;">
+              <label style="margin:0;white-space:nowrap;">按类型</label>
+              <select id="ppTypeFilter" class="mini"><option value="">全部</option><option value="国考">国考</option><option value="省考">省考</option></select>
+            </div>
             <h3 style="margin-bottom:6px;">📈 成绩趋势</h3>
             <p class="page-sub" style="margin-bottom:10px;">按时间顺序展示各套试卷的正确率 / 分数变化</p>
             <div style="display:flex;gap:8px;margin-bottom:8px;">
@@ -343,7 +374,27 @@
             </div>
             <div id="trendChart"></div>
           </div>
+          <div class="card" style="margin-bottom:16px;">
+            <h3 style="margin-bottom:6px;">🎯 薄弱模块汇总 <span class="hint">跨全部套卷</span></h3>
+            <p class="page-sub" style="margin-bottom:10px;">按各模块累计正确率排序，越靠前越薄弱（红=正确率&lt;60%）</p>
+            <div id="weakSummary"></div>
+          </div>
           <div id="paperList"></div>
+          <div class="pager" id="ppPager"></div>
+        </section>
+
+        <!-- 申论素材库 -->
+        <section class="page" id="page-essay">
+          <h1 class="page-title">申论素材库</h1>
+          <p class="page-sub">按主题归类政策理论与金句，随时调用背诵</p>
+          <div class="card" style="margin-bottom:16px;">
+            <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+              <div class="tabs" id="essayTabs" style="flex:1;margin-bottom:0;"></div>
+              <input type="search" id="essaySearch" class="mini" placeholder="🔍 搜索素材…" style="flex:0 0 160px;" />
+              <button class="btn btn-primary btn-sm" id="addEssayBtn">+ 新增素材</button>
+            </div>
+          </div>
+          <div id="essayList"></div>
         </section>
 
         <!-- 每日时政热点 -->

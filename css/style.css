@@ -449,3 +449,36 @@
       body.sidebar-collapsed .menu-item { justify-content: center; padding: 12px; }
       body.sidebar-collapsed .submenu { display: none; }
     }
+
+    /* 错题本：收藏星标 + 难度徽标 + 批量 + 分页 */
+    .mk-star { border: none; background: none; cursor: pointer; font-size: 18px; line-height: 1; padding: 2px 4px; color: #d9c2cc; flex: 0 0 auto; -webkit-tap-highlight-color: transparent; }
+    .mk-star.on { color: #f5b73d; }
+    .mk-check { width: 18px; height: 18px; flex: 0 0 auto; accent-color: var(--accent); }
+    .diff-badge { display: inline-block; font-size: 11px; padding: 2px 9px; border-radius: 999px; font-weight: 600; }
+    .diff-1 { background: #d8f3e6; color: #2f9e74; }
+    .diff-2 { background: #fde9d6; color: #d9822b; }
+    .diff-3 { background: #fde0e8; color: #d6517f; }
+    .pager { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+    .pager button { border: 1px solid var(--border); background: var(--field-bg); color: var(--text-strong); border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .pager button:disabled { opacity: .45; cursor: not-allowed; }
+    .pager .pager-info { font-size: 13px; color: var(--text-soft); }
+
+    /* 套卷：类型标签 + 薄弱汇总 */
+    .exam-tag { display: inline-block; font-size: 11px; padding: 2px 9px; border-radius: 999px; font-weight: 700; }
+    .exam-国考 { background: #e8eafc; color: #4a55c4; }
+    .exam-省考 { background: #e6f5ee; color: #2f9e74; }
+    .weak-row { display: flex; align-items: center; gap: 10px; font-size: 13px; margin-bottom: 8px; }
+    .weak-name { width: 92px; flex: 0 0 auto; color: var(--text-strong); font-weight: 600; }
+    .weak-track { flex: 1; height: 14px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; }
+    .weak-fill { height: 100%; border-radius: 999px; transition: width .3s ease; }
+    .weak-val { width: 64px; text-align: right; color: var(--text-soft); flex: 0 0 auto; }
+
+    /* 首页：今日复习任务提醒 */
+    .reminder-card { margin-top: 14px; padding: 14px 16px; background: linear-gradient(135deg, #fff5f8 0%, #ffeef4 100%); border: 1px solid rgba(240,200,215,.45); border-radius: var(--radius-md); box-shadow: var(--shadow-card); }
+    .reminder-title { font-size: 14px; font-weight: 700; color: #c24d7e; margin-bottom: 8px; }
+    .reminder-list { display: flex; flex-direction: column; gap: 6px; }
+    .reminder-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-strong); }
+    .reminder-item .dot { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; background: var(--accent); }
+    .reminder-item .dot.ok { background: #4ba87a; }
+    .reminder-item .rm-num { font-weight: 800; color: #d65f8e; }
+    .reminder-empty { font-size: 13px; color: var(--text-soft); }
