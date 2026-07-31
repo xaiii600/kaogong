@@ -629,15 +629,37 @@
         fetchNews(g);
         return;
       }
-      /* B 模式：无 AI 配置 → 实时 RSS（中国新闻网），内置要点作兜底 */
-      var rssCache = load("rss_news", null);
-      if (rssCache && rssCache.date === todayKey() && rssCache.fresh) {
-        paintNews(rssCache);
-        if (updated) updated.textContent = "来源: " + (rssCache.source || "RSS") + " · " + (rssCache.time || "");
+      /* 非 AI 模式：优先用 GitHub Actions 定时聚合的多源 JSON（中国新闻网 + 百度热搜） */
+      var agg = load("aggregated_news", null);
+      if (agg && agg.date === todayKey() && agg.items && agg.items.length) {
+        newsGen++; paintNews(agg);
+        if (updated) updated.textContent = "来源: " + (agg.source_summary || "多源聚合") + " · " + (agg.time || "");
         return;
       }
-      paintBuiltinNews();          /* 先即时显示，避免空白 */
-      fetchRSSNews();              /* 后台拉实时，抓到新鲜内容再替换 */
+      fetchAggregatedJson(function (ok) {
+        if (ok) return; /* 已在内部 paint */
+        /* 回退：实时 RSS（中国新闻网），内置要点作兜底 */
+        var rssCache = load("rss_news", null);
+        if (rssCache && rssCache.date === todayKey() && rssCache.fresh) {
+          paintNews(rssCache);
+          if (updated) updated.textContent = "来源: " + (rssCache.source || "RSS") + " · " + (rssCache.time || "");
+          return;
+        }
+        paintBuiltinNews();          /* 先即时显示，避免空白 */
+        fetchRSSNews();              /* 后台拉实时，抓到新鲜内容再替换 */
+      });
+    }
+    /* 拉取仓库内聚合 JSON（相对路径，兼容 GitHub Pages 子目录） */
+    function fetchAggregatedJson(cb) {
+      fetch("news-data.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (j) {
+          if (!j || !j.items || !j.items.length) throw new Error("empty");
+          var items = j.items.map(function (it) { return { title: it.title, url: it.url || "", source: it.source || "" }; });
+          var data = { date: j.date, time: j.time, source_summary: j.source_summary, items: items };
+          save("aggregated_news", data); newsGen++; paintNews(data);
+          var up = document.getElementById("newsUpdated"); if (up) up.textContent = "来源: " + (j.source_summary || "多源聚合") + " · " + (j.time || "");
+          cb(true);
+        }).catch(function () { cb(false); });
     }
     /* ===== RSS 抓取（中国新闻网实时源，仅近 14 天内容才采用，避免旧闻） ===== */
     /* ===== RSS 抓取：多源 + 跨域代理兜底，聚焦公考考点，保留原文链接 ===== */
@@ -717,16 +739,15 @@
     function nTitle(x) { return typeof x === "string" ? x : (x && x.title) || ""; }
     function nUrl(x) { return typeof x === "string" ? "" : (x && x.url) || ""; }
     function nSource(x) { return typeof x === "string" ? "" : (x && x.source) || ""; }
-    /* 考点自动标注：根据关键词命中公考类型，给出备考维度标签 */
+    /* 考点自动标注：命中具体考试类型就标具体类型，否则默认标「申论素材」（当前时政热点本身就是申论素材来源） */
     function examTags(title) {
       var t = (title || "").toLowerCase();
-      var map = [
-        { k: "国考", e: "gk", re: /公务员|国考|国家公务员|行测|申论|常识判断|职位表|报名条件|笔试|面试/ },
-        { k: "省考", e: "sk", re: /省考|联考|乡镇公务员|选调生|市考|本省/ },
-        { k: "事业单位", e: "sy", re: /事业单位|教师招聘|三支一扶|军队文职|社区工作者|国企|卫健/ },
-        { k: "申论素材", e: "ss", re: /申论|公文|写作|材料|治理|论据|乡村振兴|民生|改革|基层/ }
-      ];
-      return map.filter(function (m) { return m.re.test(t); }).map(function (m) { return { k: m.k, e: m.e }; });
+      var out = [];
+      if (/公务员|国考|国家公务员|行测|申论|常识判断|职位表|报名条件|笔试|面试/.test(t)) out.push({ k: "国考", e: "gk" });
+      if (/省考|联考|乡镇公务员|选调生|市考|本省/.test(t)) out.push({ k: "省考", e: "sk" });
+      if (/事业单位|教师招聘|三支一扶|军队文职|社区工作者|国企|卫健/.test(t)) out.push({ k: "事业单位", e: "sy" });
+      if (!out.length) out.push({ k: "申论素材", e: "ss" });
+      return out;
     }
     function classifyNews(text) {
       var t = text.toLowerCase();
