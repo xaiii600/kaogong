@@ -154,6 +154,12 @@
     .news-card .nc-tag.economy { background: #fef3e0; color: #b8860b; }
     .news-card .nc-tag.tech { background: #f3e5f5; color: #8e5ea2; }
     .news-card .nc-tag.hot { background: #fde8ec; color: #d65f8e; }
+    .news-card .nc-exams { display: inline-flex; flex-wrap: wrap; gap: 5px; margin: 0 0 8px 6px; vertical-align: middle; }
+    .news-card .nc-exam { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 10px; font-weight: 800; letter-spacing: .2px; border: 1px solid transparent; }
+    .news-card .nc-exam.e-gk { background: #eaf2ff; color: #2f6fdc; border-color: rgba(47,111,220,.25); }
+    .news-card .nc-exam.e-sk { background: #e8f7ee; color: #2f9e74; border-color: rgba(47,158,116,.25); }
+    .news-card .nc-exam.e-sy { background: #fff4e0; color: #c47f12; border-color: rgba(196,127,18,.25); }
+    .news-card .nc-exam.e-ss { background: #f3e8ff; color: #8e5ea2; border-color: rgba(142,94,162,.25); }
     .news-card .nc-body { font-size: 15px; color: var(--ink); line-height: 1.6; }
     /* 挖空关键词：默认显示文字带虚线框，点击隐藏/显示切换，方便自测 */
     .nc-keyword { color: #c24d7e; font-weight: 700; padding: 0 3px; cursor: pointer; user-select: none;
@@ -175,6 +181,11 @@
     .news-card .nc-body .nc-highlight { color: #c24d7e; font-weight: 800; }
     .news-card .nc-source { font-size: 11px; color: var(--text-soft); margin-top: 8px; display: flex; align-items: center; gap: 6px; }
     .news-card .nc-source::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); opacity: .6; }
+    .news-card .nc-meta { font-size: 11px; color: var(--text-soft); margin-top: 8px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .news-card .nc-src { background: rgba(239,125,163,.1); color: #b06; padding: 1px 8px; border-radius: 999px; font-weight: 600; }
+    .news-card .nc-foot { margin-top: 8px; }
+    .news-card .nc-link { display: inline-block; font-size: 12px; font-weight: 700; color: var(--accent); text-decoration: none; border: 1px solid var(--accent); border-radius: 999px; padding: 3px 12px; transition: all .15s ease; }
+    .news-card .nc-link:hover { background: var(--accent); color: #fff; }
     .news-card .nc-date-tag { position: absolute; top: 14px; right: 16px; font-size: 11px; color: var(--text-soft); background: var(--accent-soft); border-radius: 999px; padding: 1px 10px; }
     .news-empty, .news-loading { color: var(--text-soft); font-size: 13px; padding: 6px 0; }
     .news-foot { display: flex; align-items: center; gap: 8px; margin-top: 12px; }

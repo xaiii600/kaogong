@@ -583,8 +583,8 @@
       if (newsArchiveMonth > 0) items = getMonthlyNews(newsArchiveMonth);
       else items = newsItems || [];
       var favSet = loadNewsFav();
-      if (newsFavMode) items = items.filter(function (t) { return favSet.some(function (f) { return f.title === t; }); });
-      if (newsKw) { var kw = newsKw.toLowerCase(); items = items.filter(function (t) { return (t || "").toLowerCase().indexOf(kw) >= 0; }); }
+      if (newsFavMode) items = items.filter(function (t) { return favSet.some(function (f) { return f.title === nTitle(t); }); });
+      if (newsKw) { var kw = newsKw.toLowerCase(); items = items.filter(function (t) { return nTitle(t).toLowerCase().indexOf(kw) >= 0; }); }
       if (!items.length) {
         box.innerHTML = '<div class="news-empty">' + (newsFavMode ? "还没有收藏的时政，点卡片右上角 ★ 收藏" : (newsArchiveMonth > 0 ? "该月暂无归档要点" : "没有匹配的时政热点")) + '</div>';
         var np0 = document.getElementById("newsPager"); if (np0) np0.innerHTML = "";
@@ -640,53 +640,93 @@
       fetchRSSNews();              /* 后台拉实时，抓到新鲜内容再替换 */
     }
     /* ===== RSS 抓取（中国新闻网实时源，仅近 14 天内容才采用，避免旧闻） ===== */
-    function fetchRSSNews() {
-      var rssUrl = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.chinanews.com.cn/rss/scroll-news.xml");
+    /* ===== RSS 抓取：多源 + 跨域代理兜底，聚焦公考考点，保留原文链接 ===== */
+    /* 解析 RSS/Atom XML（经由跨域代理拿到的原始文本）为统一结构 */
+    function parseRssXml(xml) {
+      var out = [];
+      try {
+        var doc = new DOMParser().parseFromString(xml, "text/xml");
+        var nodes = doc.querySelectorAll("item, entry");
+        Array.prototype.forEach.call(nodes, function (n) {
+          var tEl = n.querySelector("title"); var title = tEl ? tEl.textContent : "";
+          var lEl = n.querySelector("link");
+          var link = lEl ? (lEl.getAttribute("href") || lEl.textContent || "") : "";
+          var pEl = n.querySelector("pubDate") || n.querySelector("published") || n.querySelector("updated");
+          var pub = pEl ? pEl.textContent : "";
+          if (title) out.push({ title: title, link: link, pubDate: pub });
+        });
+      } catch (e) {}
+      return out;
+    }
+    function withTimeout(promise, ms) {
       var ctrl = new AbortController();
-      var timer = setTimeout(function () { ctrl.abort(); }, 12000);
-      fetch(rssUrl, { signal: ctrl.signal }).then(function (r) { clearTimeout(timer); return r.json(); }).then(function (j) {
-        if (j.status === "ok" && j.items && j.items.length) {
-          var fresh = j.items.filter(function (it) { return isFresh(it.pubDate, 14); });
+      var t = setTimeout(function () { ctrl.abort(); }, ms || 10000);
+      return Promise.race([promise, new Promise(function (_, rej) { setTimeout(function () { rej(new Error("timeout")); }, ms || 10000); })]).then(function (v) { clearTimeout(t); return v; }, function (e) { clearTimeout(t); throw e; });
+    }
+    /* 数据源：同一订阅源走「跨域代理(XML)」与「rss2json(JSON)」两条路，再叠加一个国际源，串行兜底 */
+    var RSS_SOURCES = [
+      { name: "中国新闻网", fetch: function () { return withTimeout(fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.chinanews.com.cn/rss/scroll-news.xml"))).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); }).then(parseRssXml); } },
+      { name: "中国新闻网", fetch: function () { return withTimeout(fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.chinanews.com.cn/rss/scroll-news.xml"))).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }).then(function (j) { if (j.status !== "ok" || !j.items) throw new Error("no items"); return j.items.map(function (it) { return { title: it.title, link: it.link, pubDate: it.pubDate }; }); }); } },
+      { name: "BBC中文", fetch: function () { return withTimeout(fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"))).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); }).then(parseRssXml); } }
+    ];
+    function fetchRSSNews() {
+      var sources = RSS_SOURCES.slice();
+      function tryNext() {
+        if (!sources.length) { paintBuiltinNews(); toast("实时要闻抓取失败，已显示内置要点"); return; }
+        var src = sources.shift();
+        src.fetch().then(function (raw) {
+          var fresh = raw.filter(function (it) { return isFresh(it.pubDate, 14); });
           var parsed = fresh.map(function (it) {
-            var title = it.title.replace(/<[^>]+>/g, "").replace(/\[.*?\]/g, "").replace(/^\d{4}-\d{2}-\d{2}\s*/, "").trim();
-            return { title: title, score: newsScore(title) };
+            var title = String(it.title || "").replace(/<[^>]+>/g, "").replace(/\[.*?\]/g, "").replace(/^\d{4}-\d{2}-\d{2}\s*/, "").trim();
+            return { title: title, url: it.link || "", source: src.name, pubDate: it.pubDate, score: newsScore(title) };
           }).filter(function (o) { return o.title.length > 8; });
           /* 聚焦公考考点：相关度降序，仅采用相关度>=1 的条目 */
-          var ranked = parsed.slice().sort(function (a, b) { return b.score - a.score; });
-          var relevant = ranked.filter(function (o) { return o.score >= 1; });
+          var relevant = parsed.slice().sort(function (a, b) { return b.score - a.score; }).filter(function (o) { return o.score >= 1; });
           if (relevant.length >= 3) {
-            var src = (j.feed && j.feed.title) ? j.feed.title : "中国新闻网";
-            var items = relevant.slice(0, 8).map(function (o) { return o.title; });
-            var data = { date: todayKey(), time: new Date().toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" }), items: items, source: src, fresh: true };
-            save("rss_news", data);
-            newsGen++; paintNews(data);
-            var updated = document.getElementById("newsUpdated"); if (updated) updated.textContent = "来源: " + src + " · 聚焦公考考点 · " + data.time;
+            var data = { date: todayKey(), time: new Date().toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" }), items: relevant.slice(0, 8), source: src.name, fresh: true };
+            save("rss_news", data); newsGen++; paintNews(data);
+            var updated = document.getElementById("newsUpdated"); if (updated) updated.textContent = "来源: " + src.name + " · 聚焦公考考点 · " + data.time;
             return;
           }
-        }
-        paintBuiltinNews();
-        toast("实时要闻暂无足够考点内容，已显示内置要点");
-      }).catch(function (e) { paintBuiltinNews(); clearTimeout(timer); var msg = e && e.name === 'AbortError' ? '请求超时' : (e && e.message ? e.message : '网络异常'); toast(msg + '，已显示内置要点'); });
+          tryNext();
+        }).catch(function () { tryNext(); });
+      }
+      tryNext();
     }
     function showSampleNews() { paintBuiltinNews(); }
     /* ===== 按月份的内置时政模板 ===== */
     function getMonthlyNews() {
       var m = new Date().getMonth() + 1;
       var templates = {
-        1: ["中央一号文件聚焦乡村振兴与农业农村现代化","全国两会即将召开 · 政府工作报告起草进入关键阶段","国务院常务会议部署稳就业促消费政策措施","2026年全国公务员招录计划陆续发布"],
-        2: ["全国两会开幕 · 政府工作报告发布年度经济社会发展目标","两会代表委员热议新质生产力与高质量发展","国务院机构改革方案提交审议","高校毕业生就业创业政策进一步优化"],
-        3: ["两会闭幕 · 各项决议表决通过","国务院印发《推动大规模设备更新和消费品以旧换新行动方案》","公务员省考联考笔试举行 · 多地招录规模扩大","春季农业生产全面推进 · 粮食安全政策持续加力"],
-        4: ["一季度经济数据发布 · GDP增长符合预期","数字中国建设峰会召开 · 数字经济成为增长新引擎","国务院常务会议研究优化营商环境新举措","多地事业单位招聘启动 · 基层岗位需求增加"],
-        5: ["五四青年节 · 习近平总书记寄语新时代青年","全国高考备考进入冲刺阶段 · 教育改革持续推进","中国—中亚峰会成果落地 · 共建一带一路深化合作","国务院印发促进民营经济发展壮大若干措施"],
-        6: ["全国高考举行 · 千万考生奔赴考场","国务院常务会议部署防汛抗旱工作","上半年经济形势分析会召开 · 高质量发展扎实推进","公务员面试陆续开展 · 结构化面试技巧受关注"],
-        7: ["庆祝建党105周年 · 党的建设新的伟大工程深入推进","上半年经济数据发布 · 经济运行总体平稳","二十届三中全会筹备工作推进 · 改革议题引关注","高校毕业生就业季 · 多地出台就业扶持政策"],
-        8: ["国务院常务会议部署下半年经济工作","秋季开学准备工作启动 · 教育公平持续推进","粮食产量有望再创新高 · 农业现代化成效显著","国家公务员考试备考进入黄金期"],
-        9: ["中国国际服务贸易交易会举办 · 开放型经济新体制加快构建","二十届三中全会召开 · 进一步全面深化改革","教师节表彰优秀教师 · 尊师重教氛围浓厚","国考公告即将发布 · 考生关注职位表与报考条件"],
-        10:["庆祝中华人民共和国成立77周年","国家公务员考试公告发布 · 报名即将开始","二十届三中全会精神学习宣传贯彻","秋粮收购全面展开 · 粮食安全保障有力"],
-        11:["国考报名截止 · 报名人数再创新高","进博会成功举办 · 高水平对外开放持续推进","国务院常务会议研究明年经济社会发展思路","冬季供暖保障工作部署"],
-        12:["国考笔试举行 · 数百万考生参加","中央经济工作会议召开 · 部署明年经济工作","年度十大新闻盘点 · 时政大事回顾","新年贺词发布 · 展望2027年奋斗目标"]
+        1: ["中央一号文件聚焦乡村振兴与农业农村现代化","全国两会即将召开 · 政府工作报告起草进入关键阶段","国务院常务会议部署稳就业促消费政策措施","2026年全国公务员招录计划陆续发布","十四五规划收官之年各项部署加快落地","城乡居民基本医疗保险待遇稳步提升 · 民生保障再加力","科技创新引领新质生产力 · 战略性新兴产业加快发展","冬季能源保供与困难群众兜底帮扶工作部署"],
+        2: ["全国两会开幕 · 政府工作报告发布年度经济社会发展目标","两会代表委员热议新质生产力与高质量发展","国务院机构改革方案提交审议","高校毕业生就业创业政策进一步优化","春节消费数据亮眼 · 国内大循环活力增强","中央一号文件落地 · 粮食安全与种业振兴持续推进","高水平对外开放稳步推进 · 外资准入负面清单再缩减","人工智能大模型加速应用 · 数字经济发展新动能"],
+        3: ["两会闭幕 · 各项决议表决通过","国务院印发《推动大规模设备更新和消费品以旧换新行动方案》","公务员省考联考笔试举行 · 多地招录规模扩大","春季农业生产全面推进 · 粮食安全政策持续加力","政府工作报告解读 · 全年经济社会发展主要预期目标明确","营商环境改革深化 · 民营经济促进法立法推进","碳达峰碳中和稳步推进 · 绿色低碳转型加快","民生实事清单发布 · 养老托育服务体系建设加力"],
+        4: ["一季度经济数据发布 · GDP增长符合预期","数字中国建设峰会召开 · 数字经济成为增长新引擎","国务院常务会议研究优化营商环境新举措","多地事业单位招聘启动 · 基层岗位需求增加","清明节缅怀英烈 · 红色文化与爱国主义教育升温","安全生产治本攻坚行动深入开展","高水平对外开放 · 自贸试验区制度创新提速","乡村振兴示范县建设推进 · 城乡融合发展迈出坚实步伐"],
+        5: ["五四青年节 · 习近平总书记寄语新时代青年","全国高考备考进入冲刺阶段 · 教育改革持续推进","中国—中亚峰会成果落地 · 共建一带一路深化合作","国务院印发促进民营经济发展壮大若干措施","五一假期文旅消费火热 · 服务消费潜力释放","科技自立自强 · 关键核心技术攻关取得新突破","就业优先政策持续发力 · 重点群体就业有保障","文化和自然遗产日 · 中华优秀传统文化传承创新发展"],
+        6: ["全国高考举行 · 千万考生奔赴考场","国务院常务会议部署防汛抗旱工作","上半年经济形势分析会召开 · 高质量发展扎实推进","公务员面试陆续开展 · 结构化面试技巧受关注","安全生产月活动启动 · 重点领域风险隐患排查整治","乡村振兴促进法实施成效显著 · 农村集体经济发展壮大","高校毕业生就业季 · 政策性岗位扩容稳就业","六五环境日 · 生态文明建设和生态环境保护持续推进"],
+        7: ["庆祝建党105周年 · 党的建设新的伟大工程深入推进","上半年经济数据发布 · 经济运行总体平稳","二十届三中全会筹备工作推进 · 改革议题引关注","高校毕业生就业季 · 多地出台就业扶持政策","民生保障网越织越密 · 社保医保覆盖面持续扩大","科技自立自强步伐加快 · 航天与重大科技基础设施捷报频传","防汛救灾与应急管理体系不断完善","全面深化改革开放 · 统一大市场建设迈出实质性步伐"],
+        8: ["国务院常务会议部署下半年经济工作","秋季开学准备工作启动 · 教育公平持续推进","粮食产量有望再创新高 · 农业现代化成效显著","国家公务员考试备考进入黄金期","建军节 · 国防和军队现代化建设迈上新台阶","科技创新驱动产业升级 · 专精特新企业培育壮大","民生改善实事落地 · 老旧小区改造与保障性住房建设加力","乡村振兴与数字乡村建设深度融合"],
+        9: ["中国国际服务贸易交易会举办 · 开放型经济新体制加快构建","二十届三中全会召开 · 进一步全面深化改革","教师节表彰优秀教师 · 尊师重教氛围浓厚","国考公告即将发布 · 考生关注职位表与报考条件","中秋佳节 · 传统文化与消费促进同频共振","网络安全宣传周 · 数据安全与个人信息保护持续强化","高质量发展扎实推进 · 现代化产业体系建设加快","基层治理能力提升 · 党建引领城乡社区治理创新"],
+        10:["庆祝中华人民共和国成立77周年","国家公务员考试公告发布 · 报名即将开始","二十届三中全会精神学习宣传贯彻","秋粮收购全面展开 · 粮食安全保障有力","国庆假期消费数据出炉 · 内需潜力持续释放","科技自立自强重大成果集中涌现","民生保障提标扩面 · 养老服务体系建设提速","一带一路高质量发展 · 高水平对外开放新格局"],
+        11:["国考报名截止 · 报名人数再创新高","进博会成功举办 · 高水平对外开放持续推进","国务院常务会议研究明年经济社会发展思路","冬季供暖保障工作部署","双十一彰显消费韧性 · 实体经济与数字经济深度融合","科技创新赋能新质生产力 · 未来产业布局加快","乡村振兴成果巩固 · 防止返贫监测帮扶机制健全","对外开放持续深化 · 自贸协定朋友圈不断扩大"],
+        12:["国考笔试举行 · 数百万考生参加","中央经济工作会议召开 · 部署明年经济工作","年度十大新闻盘点 · 时政大事回顾","新年贺词发布 · 展望2027年奋斗目标","全年经济数据收官 · 高质量发展迈出坚实步伐","民生实事年度盘点 · 群众获得感幸福感增强","法治中国建设稳步推进 · 重点领域立法不断完善","全面深化改革开放总结部署 · 中国式现代化行稳致远"]
       };
       return templates[m] || templates[1];
+    }
+    /* 新闻条目归一化：兼容「纯标题字符串」与「{title,url,source} 对象」 */
+    function nTitle(x) { return typeof x === "string" ? x : (x && x.title) || ""; }
+    function nUrl(x) { return typeof x === "string" ? "" : (x && x.url) || ""; }
+    function nSource(x) { return typeof x === "string" ? "" : (x && x.source) || ""; }
+    /* 考点自动标注：根据关键词命中公考类型，给出备考维度标签 */
+    function examTags(title) {
+      var t = (title || "").toLowerCase();
+      var map = [
+        { k: "国考", e: "gk", re: /公务员|国考|国家公务员|行测|申论|常识判断|职位表|报名条件|笔试|面试/ },
+        { k: "省考", e: "sk", re: /省考|联考|乡镇公务员|选调生|市考|本省/ },
+        { k: "事业单位", e: "sy", re: /事业单位|教师招聘|三支一扶|军队文职|社区工作者|国企|卫健/ },
+        { k: "申论素材", e: "ss", re: /申论|公文|写作|材料|治理|论据|乡村振兴|民生|改革|基层/ }
+      ];
+      return map.filter(function (m) { return m.re.test(t); }).map(function (m) { return { k: m.k, e: m.e }; });
     }
     function classifyNews(text) {
       var t = text.toLowerCase();
@@ -731,7 +771,10 @@
       map.forEach(function (m) { out = out.replace(m[0], m[1]); });
       return out;
     }
-    function cardForNews(text, idx) {
+    function cardForNews(item, idx) {
+      var text = nTitle(item);
+      var url = nUrl(item);
+      var src = nSource(item);
       var cat = classifyNews(text);
       var tagLabels = { policy: "政策", international: "国际", society: "社会", economy: "经济", tech: "科技", hot: "热点" };
       var dateLabel = (function () {
@@ -740,12 +783,19 @@
         return "今日";
       })();
       var fav = isNewsFav(text);
+      var exams = examTags(text);
+      var examHtml = exams.map(function (x) { return '<span class="nc-exam e-' + x.e + '">' + x.k + '</span>'; }).join("");
+      var srcHtml = src ? '<span class="nc-src">📰 ' + esc(src) + '</span>' : "";
+      var linkHtml = url ? '<a class="nc-link" href="' + escAttr(url) + '" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">查看原文 →</a>' : "";
       return '<div class="news-card' + (fav ? " fav" : "") + '" data-news-idx="' + (idx||0) + '" data-news-text="' + escAttr(text) + '" data-news-cat="' + cat + '">' +
         '<button class="news-star' + (fav ? " on" : "") + '" data-news-fav="' + escAttr(text) + '" title="收藏">★</button>' +
         '<span class="nc-date-tag">' + dateLabel + '</span>' +
         '<span class="nc-tag ' + cat + '">' + (tagLabels[cat] || "热点") + '</span>' +
+        (examHtml ? '<span class="nc-exams">' + examHtml + '</span>' : "") +
         '<div class="nc-body">' + highlightText(text) + '</div>' +
-        '<div class="nc-source">' + (["政策","国际"].indexOf(tagLabels[cat]) >= 0 ? "📋 重要时政 · 可能成为考点" : "🔥 值得关注的动态") + '</div></div>';
+        '<div class="nc-meta">' + (["政策","国际"].indexOf(tagLabels[cat]) >= 0 ? "📋 重要时政 · 可能成为考点" : "🔥 值得关注的动态") + srcHtml + '</div>' +
+        (linkHtml ? '<div class="nc-foot">' + linkHtml + '</div>' : "") +
+        '</div>';
     }
     function escAttr(s) { return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
     function genNewsDetail(title, cat) {
