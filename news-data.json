@@ -1,7 +1,7 @@
 {
   "date": "2026-07-31",
-  "time": "18:17",
-  "generatedAt": "2026-07-31T18:17:55.357Z",
+  "time": "22:15",
+  "generatedAt": "2026-07-31T22:15:03.026Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -126,6 +126,16 @@
       ]
     },
     {
+      "title": "发改委连续3场发布会回应算力发展",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%91%E6%94%B9%E5%A7%94%E8%BF%9E%E7%BB%AD3%E5%9C%BA%E5%8F%91%E5%B8%83%E4%BC%9A%E5%9B%9E%E5%BA%94%E7%AE%97%E5%8A%9B%E5%8F%91%E5%B1%95",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "AI公司批量抢购旧书",
       "url": "https://www.baidu.com/s?wd=AI%E5%85%AC%E5%8F%B8%E6%89%B9%E9%87%8F%E6%8A%A2%E8%B4%AD%E6%97%A7%E4%B9%A6",
       "source": "百度热搜",
@@ -140,16 +150,6 @@
       "url": "https://www.baidu.com/s?wd=%E7%94%B7%E6%BC%94%E5%91%98%E7%A7%B0%E6%9B%BE%E8%A2%AB%E6%8F%90%E5%87%BAAI%E6%8D%A2%E8%84%B8%EF%BC%9A%E6%B2%A1%E6%B3%95%E6%8E%A5%E5%8F%97",
       "source": "百度热搜",
       "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "发改委连续3场发布会回应算力发展",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%91%E6%94%B9%E5%A7%94%E8%BF%9E%E7%BB%AD3%E5%9C%BA%E5%8F%91%E5%B8%83%E4%BC%9A%E5%9B%9E%E5%BA%94%E7%AE%97%E5%8A%9B%E5%8F%91%E5%B1%95",
-      "source": "百度热搜",
-      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
