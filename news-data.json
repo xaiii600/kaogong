@@ -1,201 +1,249 @@
 {
   "date": "2026-07-31",
-  "time": "13:25",
-  "generatedAt": "2026-07-31T05:25:06.293Z",
+  "time": "10:34",
+  "generatedAt": "2026-07-31T10:34:19.681Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "2026年职业教育科（教）研工作会议召开，助力职教高质量发展",
-      "url": "https://www.chinanews.com.cn/edu/2026/07-31/10669652.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
-      "exams": []
-    },
-    {
-      "title": "中国发布首个跨境税收行业类指引",
-      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10669812.shtml",
+      "title": "香港今年第二季度GDP同比升4.3%",
+      "url": "https://www.chinanews.com.cn/dwq/2026/07-31/10670086.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "国家发改委详解中国“空调自由”：系统构筑“四道保险”",
-      "url": "https://www.chinanews.com.cn/gn/2026/07-31/10669811.shtml",
+      "title": "开局“十五五” 浙江加速释放创新力",
+      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10670072.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "tech",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "【光明时评】从经济半年报看科创活力",
-      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10669752.shtml",
+      "title": "今年上半年保险市场运行总体平稳 原保险保费收入超3万亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10670091.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "张金良会见印度尼西亚中央银行副行长托马斯·吉万多诺",
-      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10669747.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": []
-    },
-    {
-      "title": "【中国那些事儿】国际热议全球发展倡议五周年：中国方案让全球发展愿景变得“可感可及”",
-      "url": "https://www.chinanews.com.cn/gj/2026/07-31/10669745.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": []
-    },
-    {
-      "title": "直面前沿挑战，职业教育科（教）研如何破题？",
-      "url": "https://www.chinanews.com.cn/edu/2026/07-31/10669651.shtml",
+      "title": "锚定粮食安全与乡村振兴 全国供销合作社“十五五”发展规划发布",
+      "url": "https://www.chinanews.com.cn/gn/2026/07-31/10670087.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "与欧足联硬刚，国际足联：我们没有出卖足球",
-      "url": "https://www.chinanews.com.cn/gj/2026/07-31/10669815.shtml",
+      "title": "中央军委主席习近平签署通令 给1名个人记功",
+      "url": "https://www.chinanews.com.cn/gn/2026/07-31/10670076.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "policy",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "看下半年经济工作着力点",
-      "url": "https://www.baidu.com/s?wd=%E7%9C%8B%E4%B8%8B%E5%8D%8A%E5%B9%B4%E7%BB%8F%E6%B5%8E%E5%B7%A5%E4%BD%9C%E7%9D%80%E5%8A%9B%E7%82%B9",
+      "title": "山东丰富夜间消费场景 多维驱动“夜经济”消费潜力",
+      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10670065.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "民歌大观踏歌穿越横断山 以AI技术重现滇藏公路50载天路故事",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-31/10670063.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "清凉富民活水生金 浙江“玩水经济”催热夏日消费生态",
+      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10670049.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中共中央政治局第二十七次集体学习",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B2%BB%E5%B1%80%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E6%AC%A1%E9%9B%86%E4%BD%93%E5%AD%A6%E4%B9%A0",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "超60城优化公积金政策",
+      "url": "https://www.baidu.com/s?wd=%E8%B6%8560%E5%9F%8E%E4%BC%98%E5%8C%96%E5%85%AC%E7%A7%AF%E9%87%91%E6%94%BF%E7%AD%96",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "5年期大额存单返场 部分利率破2%",
+      "url": "https://www.baidu.com/s?wd=5%E5%B9%B4%E6%9C%9F%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E8%BF%94%E5%9C%BA+%E9%83%A8%E5%88%86%E5%88%A9%E7%8E%87%E7%A0%B42%25",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "长鑫科技市值突破4万亿",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%B8%82%E5%80%BC%E7%AA%81%E7%A0%B44%E4%B8%87%E4%BA%BF",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": []
-    },
-    {
-      "title": "1988元伴漂可抱抱亲亲 当地通报",
-      "url": "https://www.baidu.com/s?wd=1988%E5%85%83%E4%BC%B4%E6%BC%82%E5%8F%AF%E6%8A%B1%E6%8A%B1%E4%BA%B2%E4%BA%B2+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": []
-    },
-    {
-      "title": "欧足联宣布抵制所有国际足联赛事",
-      "url": "https://www.baidu.com/s?wd=%E6%AC%A7%E8%B6%B3%E8%81%94%E5%AE%A3%E5%B8%83%E6%8A%B5%E5%88%B6%E6%89%80%E6%9C%89%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E8%B5%9B%E4%BA%8B",
+      "title": "外交部回应王虹邓煜获菲尔兹奖",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%8E%8B%E8%99%B9%E9%82%93%E7%85%9C%E8%8E%B7%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "长鑫科技上市以来涨了6倍",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E4%BB%A5%E6%9D%A5%E6%B6%A8%E4%BA%866%E5%80%8D",
+      "title": "保时捷女销冠回应被AI合成不雅视频",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%9D%E6%97%B6%E6%8D%B7%E5%A5%B3%E9%94%80%E5%86%A0%E5%9B%9E%E5%BA%94%E8%A2%ABAI%E5%90%88%E6%88%90%E4%B8%8D%E9%9B%85%E8%A7%86%E9%A2%91",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "国际足联：我们没有出卖足球",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%EF%BC%9A%E6%88%91%E4%BB%AC%E6%B2%A1%E6%9C%89%E5%87%BA%E5%8D%96%E8%B6%B3%E7%90%83",
+      "title": "日韩股市“疯狂星期五”",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E2%80%9C%E7%96%AF%E7%8B%82%E6%98%9F%E6%9C%9F%E4%BA%94%E2%80%9D",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "向世界讲述香港法治的真实面貌——专访英籍资深大律师江乐士",
-      "url": "https://www.chinanews.com.cn/dwq/2026/07-31/10669821.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "穿越少越凉快？冲冷水澡降温？一文看懂桑拿天如何科学防暑",
-      "url": "https://www.chinanews.com.cn/jk/2026/07-31/10669820.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "慢行万里，品路人生",
-      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10669809.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "行进中国丨从“幸福园”到“幸福城”",
-      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10669808.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "风雨之中有依靠——探访吉林汪清受灾群众安置点",
-      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10669797.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "高温天气，冷饮怎么吃不伤脾胃？记住四个关键细节",
-      "url": "https://www.chinanews.com.cn/jk/2026/07-31/10669791.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "“冷门”“热门”辩证看（人民时评）",
-      "url": "https://www.chinanews.com.cn/edu/2026/07-31/10669772.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "奔腾中国·质胜未来丨既要“放得活”，又要“管得好”",
-      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10669764.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": []
-    },
-    {
-      "title": "【理响中国】推动尊法学法守法用法在全社会蔚然成风",
-      "url": "https://www.chinanews.com.cn/ll/2026/07-31/10669759.shtml",
-      "source": "中国新闻网",
+      "title": "中国60周岁及以上老年人口超3.23亿",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD60%E5%91%A8%E5%B2%81%E5%8F%8A%E4%BB%A5%E4%B8%8A%E8%80%81%E5%B9%B4%E4%BA%BA%E5%8F%A3%E8%B6%853.23%E4%BA%BF",
+      "source": "百度热搜",
       "cat": "society",
-      "score": 0,
-      "exams": []
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
     },
     {
-      "title": "作家解读古代文人：苏轼有贵人相助 陶渊明是“辞职狂”",
-      "url": "https://www.chinanews.com.cn/cul/2026/07-31/10669779.shtml",
+      "title": "不砍树也能致富 山东让闲置林地变身“绿色银行”",
+      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10670073.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
-      "exams": []
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "暴雨黄色预警持续生效 河北连发雷电、山洪、地质灾害预警",
+      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10670071.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国保险行业协会：上半年保险业已赔付受灾地区55.3亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10670090.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国证监会同意焦炭期权注册",
+      "url": "https://www.chinanews.com.cn/cj/2026/07-31/10670089.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "我国将开展为期一年的深化扫黑除恶专项斗争",
+      "url": "https://www.chinanews.com.cn/gn/2026/07-31/10670088.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "三伏天减重快？医生提醒：别把水分流失当成减脂",
+      "url": "https://www.chinanews.com.cn/jk/2026/07-31/10670085.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "涉“婚托”欺诈等七类问题 五部门出手整治婚介机构乱象",
+      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10670077.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "整治婚介机构乱象专项行动启动",
+      "url": "https://www.chinanews.com.cn/sh/2026/07-31/10670075.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "《微短剧发展管理办法》将于9月1日起施行",
+      "url": "https://www.chinanews.com.cn/cul/2026/07-31/10670074.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
     }
   ]
 }
