@@ -60,6 +60,7 @@
 
     <main class="main">
       <header class="topbar">
+        <button class="collapse-btn" id="collapseBtn" aria-label="收起侧边栏" title="收起/展开侧边栏">«</button>
         <button class="hamburger" id="hamburger" aria-label="菜单">☰</button>
         <div class="breadcrumb" id="breadcrumb">📊 学习概览</div>
         <div class="topbar-actions">
@@ -178,11 +179,15 @@
               <div class="seg active" id="segCount" data-mode="count">⏱ 正计时</div>
               <div class="seg" id="segPomo" data-mode="pomo">🍅 番茄钟</div>
             </div>
+            <div class="timer-types" id="timerTypes"></div>
+            <div class="timer-type-hint" id="timerTypeHint">学习类型：听课</div>
             <div class="pomo-input" id="pomoInput">时长 <input type="number" id="pomoMin" value="25" min="1" max="120" /> 分钟</div>
             <div class="timer-btns">
               <button class="btn btn-primary" id="btnStart">开始</button>
               <button class="btn btn-ghost" id="btnReset">重置</button>
             </div>
+            <div class="timer-resume" id="timerResume"></div>
+            <div class="type-breakdown" id="typeBreakdown"></div>
           </div>
           <h3 style="margin:22px 0 0;font-size:15px;">选择科目（竖向）</h3>
           <div class="subject-list" id="subjectList"></div>

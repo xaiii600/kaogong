@@ -915,11 +915,35 @@
     });
 
     /* 计时器（时间戳记账：切到别的软件 / 关闭页面也能在后台继续计时） */
-    var timer = load("timer", { subject: "politics", mode: "count", running: false, pomoMin: 25, accumMs: 0, startTs: 0, lastBankTs: 0, remaining: 1500 });
+    var TIMER_TYPES = [
+      { key: "lecture", name: "听课" },
+      { key: "brush", name: "刷题" },
+      { key: "recite", name: "背诵" },
+      { key: "mock", name: "模考" },
+      { key: "other", name: "其他" }
+    ];
+    var TYPE_MAP = {}; TIMER_TYPES.forEach(function (t) { TYPE_MAP[t.key] = t.name; });
+    var timer = load("timer", { subject: "politics", mode: "count", type: "lecture", running: false, pomoMin: 25, accumMs: 0, startTs: 0, lastBankTs: 0, remaining: 1500 });
+    if (typeof timer.type !== "string" || !TYPE_MAP[timer.type]) timer.type = "lecture";
     if (typeof timer.accumMs !== "number") timer.accumMs = 0;
     if (typeof timer.startTs !== "number") timer.startTs = 0;
     if (typeof timer.lastBankTs !== "number") timer.lastBankTs = 0;
     var timerInited = false;
+    function renderTimerTypes() {
+      var box = document.getElementById("timerTypes"); if (!box) return;
+      box.innerHTML = "";
+      TIMER_TYPES.forEach(function (t) {
+        var b = document.createElement("div"); b.className = "type-seg" + (timer.type === t.key ? " active" : ""); b.textContent = t.name; b.setAttribute("data-t", t.key);
+        b.addEventListener("click", function () {
+          if (timer.type === t.key) return;
+          if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; }
+          timer.type = t.key;
+          if (timer.running) { timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
+          save("timer", timer); renderTimerTypes(); updateTimerTypeHint();
+        });
+        box.appendChild(b);
+      });
+    }
     function renderTimerOnce() {
       var list = document.getElementById("subjectList"); list.innerHTML = "";
       SUBJECTS.forEach(function (s) {
@@ -934,6 +958,7 @@
         });
         list.appendChild(b);
       });
+      renderTimerTypes();
       timerInited = true;
     }
     function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
@@ -968,7 +993,31 @@
     function bankDelta() {
       if (!timer.running) return;
       var now = Date.now(), secs = Math.floor((now - timer.lastBankTs) / 1000);
-      if (secs > 0) { addSeconds(timer.subject, secs); timer.lastBankTs += secs * 1000; }
+      if (secs > 0) { addSeconds(timer.subject, secs); addTypeSeconds(timer.type, secs); timer.lastBankTs += secs * 1000; }
+    }
+    function addTypeSeconds(typeKey, sec) {
+      if (!typeKey) return;
+      var d = load("dailyType", {}); var tk = todayKey();
+      if (!d[tk]) d[tk] = {};
+      d[tk][typeKey] = (d[tk][typeKey] || 0) + sec;
+      save("dailyType", d);
+    }
+    function updateTimerTypeHint() {
+      var el = document.getElementById("timerTypeHint"); if (el) el.textContent = "学习类型：" + (TYPE_MAP[timer.type] || "听课");
+    }
+    function renderTypeBreakdown() {
+      var box = document.getElementById("typeBreakdown"); if (!box) return;
+      var rec = (load("dailyType", {})[todayKey()] || {});
+      var keys = TIMER_TYPES.map(function (t) { return t.key; }).filter(function (k) { return rec[k]; });
+      if (!keys.length) { box.innerHTML = ""; return; }
+      var max = Math.max.apply(null, keys.map(function (k) { return rec[k]; }));
+      box.innerHTML = '<h3>📚 今日学习类型分布</h3>' + keys.map(function (k) {
+        var sec = rec[k];
+        var w = max > 0 ? Math.round(rec[k] / max * 100) : 0;
+        return '<div class="tb-row"><span class="tb-name">' + TYPE_MAP[k] + '</span>' +
+          '<span class="tb-track"><span class="tb-fill" style="width:' + w + '%"></span></span>' +
+          '<span class="tb-val">' + fmtDur(sec) + '</span></div>';
+      }).join("");
     }
     function updateTimerDisplay() {
       var ms = timerLiveMs();
@@ -978,6 +1027,16 @@
       document.getElementById("segPomo").classList.toggle("active", timer.mode === "pomo");
       document.getElementById("pomoInput").classList.toggle("show", timer.mode === "pomo");
       document.getElementById("btnStart").textContent = timer.running ? "暂停" : "开始";
+      updateTimerTypeHint();
+      renderTypeBreakdown();
+      updateTimerResume();
+    }
+    function updateTimerResume() {
+      var el = document.getElementById("timerResume");
+      if (!el) return;
+      if (timer.running) { el.textContent = "⏳ 未结束的计时已自动保存，切换软件或关闭页面后会继续累计"; }
+      else if (timer.accumMs > 0) { el.textContent = "已记录本次时长 " + fmtDur(Math.floor(timer.accumMs / 1000)) + "（暂停状态，可继续或重置）"; }
+      else { el.textContent = ""; }
     }
     function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); }
     function tick() {
@@ -1539,7 +1598,10 @@
     }
     document.querySelectorAll(".menu-item:not(.has-sub)").forEach(function (el) { el.addEventListener("click", function () { goPage(el.getAttribute("data-page")); }); });
     document.querySelectorAll(".submenu-item").forEach(function (el) { el.addEventListener("click", function () { goPage(el.getAttribute("data-page")); }); });
-    document.querySelectorAll(".menu-item.has-sub").forEach(function (el) { el.addEventListener("click", function () { el.closest(".menu-group").classList.toggle("open"); var dp = el.getAttribute("data-page"); if (dp) goPage(dp); }); });
+    document.querySelectorAll(".menu-item.has-sub").forEach(function (el) { el.addEventListener("click", function () {
+      if (document.body.classList.contains("sidebar-collapsed")) { document.body.classList.remove("sidebar-collapsed"); sidebarCollapsed = false; save("sidebarCollapsed", false); var cb = document.getElementById("collapseBtn"); if (cb) cb.textContent = "«"; }
+      el.closest(".menu-group").classList.toggle("open"); var dp = el.getAttribute("data-page"); if (dp) goPage(dp);
+    }); });
     document.getElementById("hamburger").addEventListener("click", function () { document.body.classList.toggle("drawer-open"); });
     document.getElementById("overlay").addEventListener("click", function () { document.body.classList.remove("drawer-open"); });
 
@@ -1577,6 +1639,19 @@
     }
     applyTheme();
     document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+
+    /* ===== 侧边栏收起（仅桌面端生效，移动端维持抽屉） ===== */
+    var sidebarCollapsed = load("sidebarCollapsed", false);
+    function applySidebarCollapse() {
+      document.body.classList.toggle("sidebar-collapsed", !!sidebarCollapsed);
+      var cb = document.getElementById("collapseBtn");
+      if (cb) cb.textContent = sidebarCollapsed ? "»" : "«";
+    }
+    applySidebarCollapse();
+    var collapseBtnEl = document.getElementById("collapseBtn");
+    if (collapseBtnEl) collapseBtnEl.addEventListener("click", function () {
+      sidebarCollapsed = !sidebarCollapsed; save("sidebarCollapsed", sidebarCollapsed); applySidebarCollapse();
+    });
 
     /* ===== 学习提醒 ===== */
     function checkReminder() {
