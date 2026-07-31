@@ -50,7 +50,7 @@
         </div>
         <div class="menu-group">
           <div class="menu-item has-sub" data-page="analysis-overview"><span class="menu-emoji">📃</span><span class="menu-label">套卷分析</span><span class="arrow">›</span></div>
-          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div></div>
+          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div><div class="submenu-item" data-page="mock">📝 模考提醒</div></div>
         </div>
         <div class="menu-item" data-page="insights"><span class="menu-emoji">📈</span><span class="menu-label">数据洞察</span></div>
         <div class="menu-item" data-page="news"><span class="menu-emoji">🔥</span><span class="menu-label">时政热点</span></div>
@@ -111,6 +111,11 @@
               <span class="checkin-streak" id="checkinStreak">连续学习 <b id="streakNum">0</b> 天</span>
             </div>
             <button class="checkin-btn" id="checkinBtn">今日打卡</button>
+          </div>
+          <div class="goal-bar" id="goalBar">
+            <div class="goal-head"><span>🎯 今日学习目标</span><span class="goal-edit" id="goalEdit">设置</span></div>
+            <div class="goal-track"><div class="goal-fill" id="goalFill"></div></div>
+            <div class="goal-meta"><span id="goalText">未设置目标</span><span id="goalPct" class="goal-pct">0%</span></div>
           </div>
           <div class="reminder-card" id="reminderCard">
             <div class="reminder-title">📌 今日复习任务</div>
@@ -205,6 +210,7 @@
           <div class="tabs" id="memoTabs"></div>
           <div class="add-bar"><button class="btn btn-primary btn-sm" id="addNoteBtn">+ 新建笔记</button></div>
           <div id="noteList"></div>
+          <div class="pager" id="notePager"></div>
         </section>
 
         <!-- 分模块错题本（重点优化） -->
@@ -383,6 +389,33 @@
           <div class="pager" id="ppPager"></div>
         </section>
 
+        <!-- 模考提醒 -->
+        <section class="page" id="page-mock">
+          <h1 class="page-title">模考提醒</h1>
+          <p class="page-sub">记录模考安排，到点自动提醒，考前一天也不放过</p>
+          <div class="card" style="margin-bottom:16px;">
+            <div class="form-row"><label>模考名称</label><input type="text" id="mkName" placeholder="如：2026国考模考（粉笔）" /></div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>日期</label><input type="date" id="mkExamDate" class="mini" /></div>
+              <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>时间</label><input type="time" id="mkExamTime" class="mini" value="09:00" /></div>
+            </div>
+            <div class="form-row"><label>备注</label><input type="text" id="mkExamNote" placeholder="考场 / 科目 / 注意事项" /></div>
+            <label style="display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink);margin-bottom:12px;"><input type="checkbox" id="mkExamRemind" checked /> 考前一天 20:00 提醒</label>
+            <button class="btn btn-primary" id="mkExamSave">添加模考</button>
+          </div>
+          <div class="card">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:8px;">
+              <h3 style="margin:0;">📅 模考安排</h3>
+              <div style="display:flex;align-items:center;gap:10px;">
+                <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink);"><input type="checkbox" id="mockNotifOn" checked /> 启用通知</label>
+                <button class="btn btn-line btn-sm" id="mockPermBtn" style="display:none;">🔔 开启通知</button>
+                <button class="btn btn-ghost btn-sm" id="mockTestBtn">📨 测试</button>
+              </div>
+            </div>
+            <div id="mockList"></div>
+          </div>
+        </section>
+
         <!-- 申论素材库 -->
         <section class="page" id="page-essay">
           <h1 class="page-title">申论素材库</h1>
@@ -402,8 +435,14 @@
           <h1 class="page-title">每日时政热点</h1>
           <p class="page-sub">实时抓取中国新闻网 · 聚焦公考考点（免联网兜底）· 可选升级 AI 自动生成</p>
           <div class="card" style="margin-top:14px;">
-            <div id="newsBox" class="news-box"></div>
-            <div class="news-foot">
+          <div class="news-toolbar">
+            <input type="search" id="newsSearch" class="mini" placeholder="🔍 搜索热点…" />
+            <button class="btn btn-ghost btn-sm" id="newsFavToggle">★ 我的收藏</button>
+            <select id="newsArchive" class="mini"><option value="">📅 按月归档</option></select>
+          </div>
+          <div id="newsBox" class="news-box"></div>
+          <div class="pager" id="newsPager"></div>
+          <div class="news-foot">
               <button class="btn btn-ghost btn-sm" id="newsRefresh">↻ 刷新</button>
               <button class="btn btn-line btn-sm" id="newsSettings">⚙ 设置</button>
               <span class="news-updated" id="newsUpdated"></span>

@@ -481,4 +481,37 @@
     .reminder-item .dot { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; background: var(--accent); }
     .reminder-item .dot.ok { background: #4ba87a; }
     .reminder-item .rm-num { font-weight: 800; color: #d65f8e; }
+
+    /* 首页：今日学习目标打卡 */
+    .goal-bar { margin-top: 14px; padding: 14px 16px; background: linear-gradient(135deg, #fff7fb 0%, #ffeef5 100%); border: 1px solid rgba(240,200,215,.5); border-radius: var(--radius-md); box-shadow: var(--shadow-card); }
+    .goal-head { display: flex; justify-content: space-between; align-items: center; font-size: 14px; font-weight: 700; color: #c24d7e; }
+    .goal-edit { font-size: 13px; color: var(--accent); cursor: pointer; font-weight: 600; }
+    .goal-edit:hover { text-decoration: underline; }
+    .goal-track { height: 12px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; margin: 10px 0 6px; }
+    .goal-fill { height: 100%; width: 0; background: linear-gradient(90deg, #f7a8c4, #ef7da3); border-radius: 999px; transition: width .4s ease; }
+    .goal-bar.done .goal-fill { background: linear-gradient(90deg, #7fd1a8, #4ba87a); }
+    .goal-meta { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-soft); }
+    .goal-pct { font-weight: 800; color: var(--accent); }
+    .goal-bar.done .goal-pct { color: #4ba87a; }
+
+    /* 时政：工具栏 + 收藏星标 */
+    .news-toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
+    .news-toolbar #newsSearch { flex: 1; min-width: 140px; }
+    .news-toolbar .btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .news-star { position: absolute; top: 12px; right: 14px; width: 26px; height: 26px; border: none; background: rgba(239,125,163,.12); color: #e0a; border-radius: 50%; font-size: 15px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all .15s ease; z-index: 2; }
+    .news-star:hover { background: rgba(239,125,163,.28); transform: scale(1.08); }
+    .news-star.on { background: var(--accent); color: #fff; }
+    .news-card.fav { border-left-color: #f4b400; }
+    .news-card .nc-date-tag { right: 50px; }
+
+    /* 复盘联动：同日记录跳转 */
+    .rv-link { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); font-size: 12px; color: var(--text-soft); }
+    .link-chip { border: 1px solid var(--border); background: var(--field-bg); color: var(--text-strong); border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .link-chip:hover { border-color: var(--accent); color: var(--accent); }
+    .link-more { font-size: 12px; color: var(--text-soft); }
+    .link-jump { border: none; background: transparent; color: var(--accent); font-size: 12px; font-weight: 700; cursor: pointer; padding: 3px 6px; }
+    .link-jump:hover { text-decoration: underline; }
+
+    /* 模考提醒：已完成项淡化 */
+    .mock-item.past { opacity: .55; }
     .reminder-empty { font-size: 13px; color: var(--text-soft); }
