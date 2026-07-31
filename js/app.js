@@ -227,36 +227,6 @@
       toast(nb.length ? ("🎉 打卡成功！解锁徽章：" + nb.map(function (b) { return b.icon + b.name; }).join(" ")) : "🎉 打卡成功！坚持就是胜利！");
     });
 
-    /* ===== 今日学习目标 ===== */
-    function renderGoal() {
-      var bar = document.getElementById("goalBar"); if (!bar) return;
-      var goal = load("study_goal", null);
-      var fill = document.getElementById("goalFill"), text = document.getElementById("goalText"), pct = document.getElementById("goalPct");
-      if (!goal || !goal.target) {
-        if (fill) fill.style.width = "0%";
-        if (text) text.textContent = "未设置目标";
-        if (pct) pct.textContent = "0%";
-        return;
-      }
-      var targetSec = goal.target * 60;
-      var doneSec = dayTotal(todayKey());
-      var p = Math.min(100, Math.round(doneSec / targetSec * 100));
-      if (fill) fill.style.width = p + "%";
-      if (text) text.textContent = "已学 " + fmtDur(doneSec) + " / 目标 " + goal.target + " 分钟";
-      if (pct) pct.textContent = p + "%";
-      if (bar) bar.classList.toggle("done", p >= 100);
-    }
-    document.getElementById("goalEdit").addEventListener("click", function () {
-      var goal = load("study_goal", { target: 60 });
-      openModal("🎯 设置今日学习目标",
-        '<div class="form-row"><label>学习时长目标（分钟）</label><input type="number" id="goalInput" min="1" max="600" value="' + (goal.target || 60) + '" /></div>' +
-        '<p style="font-size:12px;color:var(--text-soft);">目标用于首页进度条，按今日累计学习时长自动计算完成度。</p>',
-        '<button class="btn btn-primary btn-sm" id="goalOk">保存</button>');
-      document.getElementById("goalOk").addEventListener("click", function () {
-        var v = Math.max(1, Math.min(600, +document.getElementById("goalInput").value || 60));
-        save("study_goal", { target: v }); closeModal(); renderGoal(); toast("目标已设为 " + v + " 分钟");
-      });
-    });
     /* ===== 打卡激励小游戏：成长树 + 扭蛋 + 徽章 ===== */
     var GACHA_QUOTES = [
       "今天的努力，是明天上岸的底气。", "把简单的事做到极致，就是不简单。", "你只管努力，剩下的交给时间。",
@@ -376,8 +346,6 @@
       document.getElementById("quoteText").textContent = todayQuote();
       /* 打卡连续天数 */
       renderCheckin();
-      /* 今日学习目标 */
-      renderGoal();
       /* 打卡激励小游戏：徽章 + 成长树 + 扭蛋 */
       checkBadges();
       renderGame();
@@ -2150,7 +2118,7 @@
 
     /* ===== 数据导出/备份 ===== */
     function exportJSON() {
-      var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","study_goal","mock_reminder","profile","theme","reminder"];
+      var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","profile","theme","reminder"];
       var data = {};
       keys.forEach(function(k) { var v = localStorage.getItem(K + k); if (v) data[k] = JSON.parse(v); });
       data.exportedAt = new Date().toISOString();
@@ -2214,7 +2182,7 @@
       document.getElementById("dmExportCSV").addEventListener("click", function() { closeModal(); exportCSV(); });
       document.getElementById("dmClear").addEventListener("click", function() {
         if (confirm("确定要清除所有学习数据吗？此操作不可恢复！建议先导出备份。")) {
-          var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","study_goal","mock_reminder"];
+          var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder"];
           keys.forEach(function(k) { localStorage.removeItem(K + k); });
           closeModal(); toast("数据已清除"); setTimeout(function() { location.reload(); }, 1000);
         }
