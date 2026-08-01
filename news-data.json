@@ -1,7 +1,7 @@
 {
   "date": "2026-08-01",
-  "time": "20:14",
-  "generatedAt": "2026-08-01T20:14:57.916Z",
+  "time": "23:47",
+  "generatedAt": "2026-08-01T23:47:15.317Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -16,11 +16,31 @@
       ]
     },
     {
-      "title": "开局之年看中国·解码“产业大脑”｜数据大屏跳动，全球七成假睫毛跟着“起舞”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-01/10670634.shtml",
+      "title": "“民宿+”产业链越串越长 如何让游客觉得没白来？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670686.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 2,
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "莫斯科餐厅爆炸已致3死21伤 俄称系自制炸弹袭击",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670682.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美驻中东多国使馆发布警告 称地区局势可能升级",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670681.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -56,60 +76,10 @@
       ]
     },
     {
-      "title": "科技体验、夜间研学 暑期文旅花样上新",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-01/10670648.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "万亿产业可期！北斗走进日常赋能千行百业",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-01/10670645.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "泽连斯基称乌军击沉一艘俄集装箱船",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-01/10670644.shtml",
-      "source": "中国新闻网",
+      "title": "万人涌入西班牙飞地为何吓坏欧盟",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%87%E4%BA%BA%E6%B6%8C%E5%85%A5%E8%A5%BF%E7%8F%AD%E7%89%99%E9%A3%9E%E5%9C%B0%E4%B8%BA%E4%BD%95%E5%90%93%E5%9D%8F%E6%AC%A7%E7%9B%9F",
+      "source": "百度热搜",
       "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新闻1+1丨中央政治局会议，如何部署下半年？",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-01/10670643.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "爱尔兰前总理感叹中国的经济、技术和文化力量",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-01/10670639.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "黄金市场成洗钱暗道？有人被骗近600万元！套路曝光→",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-01/10670633.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -136,11 +106,121 @@
       ]
     },
     {
-      "title": "万人涌入西班牙飞地为何吓坏欧盟",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%87%E4%BA%BA%E6%B6%8C%E5%85%A5%E8%A5%BF%E7%8F%AD%E7%89%99%E9%A3%9E%E5%9C%B0%E4%B8%BA%E4%BD%95%E5%90%93%E5%9D%8F%E6%AC%A7%E7%9B%9F",
+      "title": "美建议中东地区美公民做好撤离准备",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%BB%BA%E8%AE%AE%E4%B8%AD%E4%B8%9C%E5%9C%B0%E5%8C%BA%E7%BE%8E%E5%85%AC%E6%B0%91%E5%81%9A%E5%A5%BD%E6%92%A4%E7%A6%BB%E5%87%86%E5%A4%87",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "被“三高”困住的年轻人该如何自救？",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-02/10670689.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美计划本周末发动“猛烈轰炸” 伊朗：全面反击方案已就绪",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670688.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "076型两栖攻击舰已是“准航母” 引导发展新模式",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670687.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "法国西南部吉伦特省野火受控 20万被疏散人员返回",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670678.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月2日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-02/10670685.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第12批国家组织药品集采开标 有哪些新变化？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670684.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "莫斯科发生爆炸事件已致3人死亡21人受伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670679.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全球央行购金大增62% 释放哪些信号？专家解读→",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670683.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "斯诺克上海大师赛：赵心童不敌威尔逊无缘争冠",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670677.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“闽超”岚台交流赛在平潭鸣哨开赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670676.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "以官员称美接近批准对伊军事打击 以方保持高度警惕",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670680.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -158,86 +238,6 @@
     {
       "title": "乘火车、飞机这些东西不能带 暑期出行攻略→",
       "url": "https://www.chinanews.com.cn/sh/2026/08-01/10670672.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "建军99周年，军号里的9个“第一次”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-01/10670670.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家防总、应急管理部针对重庆启动防汛四级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-01/10670671.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "这个夏天，香港书香满城",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-01/10670669.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "今年上半年港珠澳大桥珠海公路口岸进出口突破2000亿元",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-01/10670668.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日本正式设立“国家情报局” 分析人士：暴露其险恶用心",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-01/10670659.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "高端访谈丨专访斯洛伐克总统彼得·佩列格里尼",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-01/10670652.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "暑运过半 中国铁路发送旅客超4.3亿人次",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-01/10670647.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "长江十年行｜一条金沙江，三座城，见证绿色发展之变",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-01/10670651.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
