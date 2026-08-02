@@ -1,13 +1,13 @@
 {
   "date": "2026-08-02",
-  "time": "09:00",
-  "generatedAt": "2026-08-02T09:00:34.306Z",
+  "time": "12:43",
+  "generatedAt": "2026-08-02T12:43:37.364Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "广州人工智能经济提速 应用场景扩容欲建“机器人之城”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670842.shtml",
+      "title": "湖南隆回村民跨界培育辣椒新品种 小产业带动大民生",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670902.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -16,68 +16,18 @@
       ]
     },
     {
-      "title": "给中国AI“扣帽子”，遮不住美国的技术焦虑",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670826.shtml",
+      "title": "上海多家老年教育机构开设暑期班 让银发群体“四季有学”“时时乐学”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670921.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "利润最高涨700倍 半导体产业全线爆发",
-      "url": "https://www.baidu.com/s?wd=%E5%88%A9%E6%B6%A6%E6%9C%80%E9%AB%98%E6%B6%A8700%E5%80%8D+%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%BA%A7%E4%B8%9A%E5%85%A8%E7%BA%BF%E7%88%86%E5%8F%91",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "探访国家管网贵港枢纽：“AI巡防”护航能源“通江达海”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670846.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国贸促会组织企业家代表团访问美国",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670841.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第八届“博士后创新人才支持计划”学术交流活动在沈阳举行",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670830.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "香港财政司司长：上半年经济增长较预期强劲 将上调全年增长预测",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-02/10670824.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中央政法委就开展深化扫黑除恶专项斗争有关问题答记者问",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670836.shtml",
+      "title": "天津11部门联合出台意见 升级存量资产盘活政策",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670919.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -86,8 +36,38 @@
       ]
     },
     {
-      "title": "（走进中国乡村）一株远志的“逆袭”：中国小镇如何做成15亿元大产业",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670823.shtml",
+      "title": "Pick Yiwu韩国站 ：时尚饰品激活“潮流经济”",
+      "url": "http://www.chinanews.com.cn/cj/shipin/2026/08-02/news1064117.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“中国猛犸象故乡”青冈：农文旅融合“组团出圈” 激活夏日消费新活力",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670905.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "好评中国丨向“绿”而行 “碳”路致远",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670899.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台商在重庆培育牛樟芝 以生物技术拓产业新路",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670886.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -106,20 +86,20 @@
       ]
     },
     {
-      "title": "美国渔民徒手将鲨鱼拽回海里",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%B8%94%E6%B0%91%E5%BE%92%E6%89%8B%E5%B0%86%E9%B2%A8%E9%B1%BC%E6%8B%BD%E5%9B%9E%E6%B5%B7%E9%87%8C",
+      "title": "华为半导体首席科学家罕见露面",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%BD%95%E8%A7%81%E9%9C%B2%E9%9D%A2",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "深化扫黑除恶 中央政法委最新发声",
-      "url": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%8C%96%E6%89%AB%E9%BB%91%E9%99%A4%E6%81%B6+%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B3%95%E5%A7%94%E6%9C%80%E6%96%B0%E5%8F%91%E5%A3%B0",
+      "title": "库里签约李宁 轮不到美国政客来反对",
+      "url": "https://www.baidu.com/s?wd=%E5%BA%93%E9%87%8C%E7%AD%BE%E7%BA%A6%E6%9D%8E%E5%AE%81+%E8%BD%AE%E4%B8%8D%E5%88%B0%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%AE%A2%E6%9D%A5%E5%8F%8D%E5%AF%B9",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -136,8 +116,58 @@
       ]
     },
     {
-      "title": "上海稳步建设全球科创高地（活力中国调研行）",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-02/10670860.shtml",
+      "title": "网红曝一线明星一部戏收入100多万",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E6%9B%9D%E4%B8%80%E7%BA%BF%E6%98%8E%E6%98%9F%E4%B8%80%E9%83%A8%E6%88%8F%E6%94%B6%E5%85%A5100%E5%A4%9A%E4%B8%87",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泰总理：俄公民遇害案是泰国巨大耻辱",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%B0%E6%80%BB%E7%90%86%EF%BC%9A%E4%BF%84%E5%85%AC%E6%B0%91%E9%81%87%E5%AE%B3%E6%A1%88%E6%98%AF%E6%B3%B0%E5%9B%BD%E5%B7%A8%E5%A4%A7%E8%80%BB%E8%BE%B1",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国为何总上演“临门收手”戏码",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%BA%E4%BD%95%E6%80%BB%E4%B8%8A%E6%BC%94%E2%80%9C%E4%B8%B4%E9%97%A8%E6%94%B6%E6%89%8B%E2%80%9D%E6%88%8F%E7%A0%81",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中央编办批复同意组建新机构",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E7%BC%96%E5%8A%9E%E6%89%B9%E5%A4%8D%E5%90%8C%E6%84%8F%E7%BB%84%E5%BB%BA%E6%96%B0%E6%9C%BA%E6%9E%84",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "手机不好卖 芯片出货量暴跌",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E4%B8%8D%E5%A5%BD%E5%8D%96+%E8%8A%AF%E7%89%87%E5%87%BA%E8%B4%A7%E9%87%8F%E6%9A%B4%E8%B7%8C",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆：大熊猫萌态十足",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-02/1199983.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "国家防总、应急管理部针对北京河北启动防汛四级应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670857.shtml",
+      "title": "文商旅体展协同发力 上海夏日越“夜”越精彩",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670923.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "我国现代化水网建设提速",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670859.shtml",
+      "title": "中国特有濒危物种斑尾榛鸡种群规模稳定回升",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670922.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "三伏寻凉六盘山 静享山林康养慢时光",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670853.shtml",
+      "title": "重庆对12个区县启动市级防汛三级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670918.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "宋氏形意拳联谊演武大会在山西太谷举行 海内外传人同台切磋",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670851.shtml",
+      "title": "人文社“哈利·波特”学院知识竞赛引“哈迷”齐聚直播间展开智慧较量",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-02/10670917.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "2026年度电影总票房突破230亿！暑期档连续23天票房过亿",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-02/10670849.shtml",
+      "title": "第三届雷达学术前沿大会在长沙举行",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670915.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "广西洪灾中失联的甘道水库职工吕冠遗体已找到",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670848.shtml",
+      "title": "香港举办“全民运动日2026” 全城掀体育热潮",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-02/10670911.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,40 +236,10 @@
       ]
     },
     {
-      "title": "社会组织的“李鬼”们，别再硬蹭国字头了",
-      "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-02/news1064108.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "内蒙古苏尼特草原深处，有一个会讲故事的乌兰牧骑姐姐",
-      "url": "https://www.chinanews.com.cn/mz/2026/08-02/10670845.shtml",
+      "title": "现场直击！中国海军83舰编队抵达印度尼西亚进行友好访问",
+      "url": "http://www.chinanews.com.cn/gn/shipin/cns-d/2026/08-02/news1064114.shtml",
       "source": "中国新闻网",
       "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "从“听懂语言”到“读懂彼此” 宁夏探索中阿人文交流新路径",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670844.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云南省社会主义学院教授徐敏：架好“侨”梁 凝聚力量",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-02/10670843.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
       "score": 0,
       "exams": [
         "申论素材"
