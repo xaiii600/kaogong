@@ -1,7 +1,7 @@
 {
   "date": "2026-08-02",
-  "time": "16:36",
-  "generatedAt": "2026-08-02T16:36:29.425Z",
+  "time": "20:32",
+  "generatedAt": "2026-08-02T20:32:45.542Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -86,20 +86,10 @@
       ]
     },
     {
-      "title": "美国华盛顿州全州进入紧急状态",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%B7%9E%E5%85%A8%E5%B7%9E%E8%BF%9B%E5%85%A5%E7%B4%A7%E6%80%A5%E7%8A%B6%E6%80%81",
+      "title": "中俄首条跨境索道主体工程完工",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E9%A6%96%E6%9D%A1%E8%B7%A8%E5%A2%83%E7%B4%A2%E9%81%93%E4%B8%BB%E4%BD%93%E5%B7%A5%E7%A8%8B%E5%AE%8C%E5%B7%A5",
       "source": "百度热搜",
       "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "华为半导体首席科学家罕见露面",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%BD%95%E8%A7%81%E9%9C%B2%E9%9D%A2",
-      "source": "百度热搜",
-      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -238,6 +228,16 @@
     {
       "title": "学习·故事丨古厝焕新生",
       "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670946.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩国最高气温创纪录",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670936.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
