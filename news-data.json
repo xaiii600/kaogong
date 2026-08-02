@@ -1,73 +1,43 @@
 {
-  "date": "2026-08-01",
-  "time": "23:47",
-  "generatedAt": "2026-08-01T23:47:15.317Z",
+  "date": "2026-08-02",
+  "time": "09:00",
+  "generatedAt": "2026-08-02T09:00:34.306Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "全球媒体聚焦｜“日本当前政策和市场困境只能怪高市自己”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-01/10670663.shtml",
+      "title": "广州人工智能经济提速 应用场景扩容欲建“机器人之城”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670842.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "“民宿+”产业链越串越长 如何让游客觉得没白来？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670686.shtml",
+      "title": "给中国AI“扣帽子”，遮不住美国的技术焦虑",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670826.shtml",
       "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "利润最高涨700倍 半导体产业全线爆发",
+      "url": "https://www.baidu.com/s?wd=%E5%88%A9%E6%B6%A6%E6%9C%80%E9%AB%98%E6%B6%A8700%E5%80%8D+%E5%8D%8A%E5%AF%BC%E4%BD%93%E4%BA%A7%E4%B8%9A%E5%85%A8%E7%BA%BF%E7%88%86%E5%8F%91",
+      "source": "百度热搜",
       "cat": "economy",
-      "score": 1,
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "莫斯科餐厅爆炸已致3死21伤 俄称系自制炸弹袭击",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670682.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美驻中东多国使馆发布警告 称地区局势可能升级",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670681.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世界排球联赛男排总决赛：波兰、美国会师决赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670675.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国际人士：日本强化国家情报体制令人担忧",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-01/10670654.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【百万庄小课堂】被“AI”“开盒”手足无措？律师：收集证据 网络不是法外之地",
-      "url": "http://www.chinanews.com.cn/sh/shipin/cns/2026/08-01/news1064078.shtml",
+      "title": "探访国家管网贵港枢纽：“AI巡防”护航能源“通江达海”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670846.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -76,9 +46,9 @@
       ]
     },
     {
-      "title": "万人涌入西班牙飞地为何吓坏欧盟",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%87%E4%BA%BA%E6%B6%8C%E5%85%A5%E8%A5%BF%E7%8F%AD%E7%89%99%E9%A3%9E%E5%9C%B0%E4%B8%BA%E4%BD%95%E5%90%93%E5%9D%8F%E6%AC%A7%E7%9B%9F",
-      "source": "百度热搜",
+      "title": "中国贸促会组织企业家代表团访问美国",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670841.shtml",
+      "source": "中国新闻网",
       "cat": "international",
       "score": 1,
       "exams": [
@@ -86,9 +56,19 @@
       ]
     },
     {
-      "title": "这四个字读懂上半年中国经济",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E5%9B%9B%E4%B8%AA%E5%AD%97%E8%AF%BB%E6%87%82%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E",
-      "source": "百度热搜",
+      "title": "第八届“博士后创新人才支持计划”学术交流活动在沈阳举行",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670830.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港财政司司长：上半年经济增长较预期强劲 将上调全年增长预测",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-02/10670824.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -96,8 +76,38 @@
       ]
     },
     {
-      "title": "91岁老人隐姓埋名 曾击落美国侦察机",
-      "url": "https://www.baidu.com/s?wd=91%E5%B2%81%E8%80%81%E4%BA%BA%E9%9A%90%E5%A7%93%E5%9F%8B%E5%90%8D+%E6%9B%BE%E5%87%BB%E8%90%BD%E7%BE%8E%E5%9B%BD%E4%BE%A6%E5%AF%9F%E6%9C%BA",
+      "title": "中央政法委就开展深化扫黑除恶专项斗争有关问题答记者问",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670836.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（走进中国乡村）一株远志的“逆袭”：中国小镇如何做成15亿元大产业",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670823.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国AI大模型的优势在哪里",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BDAI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BC%98%E5%8A%BF%E5%9C%A8%E5%93%AA%E9%87%8C",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国渔民徒手将鲨鱼拽回海里",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%B8%94%E6%B0%91%E5%BE%92%E6%89%8B%E5%B0%86%E9%B2%A8%E9%B1%BC%E6%8B%BD%E5%9B%9E%E6%B5%B7%E9%87%8C",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -106,18 +116,28 @@
       ]
     },
     {
-      "title": "美建议中东地区美公民做好撤离准备",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%BB%BA%E8%AE%AE%E4%B8%AD%E4%B8%9C%E5%9C%B0%E5%8C%BA%E7%BE%8E%E5%85%AC%E6%B0%91%E5%81%9A%E5%A5%BD%E6%92%A4%E7%A6%BB%E5%87%86%E5%A4%87",
+      "title": "深化扫黑除恶 中央政法委最新发声",
+      "url": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%8C%96%E6%89%AB%E9%BB%91%E9%99%A4%E6%81%B6+%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B3%95%E5%A7%94%E6%9C%80%E6%96%B0%E5%8F%91%E5%A3%B0",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "被“三高”困住的年轻人该如何自救？",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-02/10670689.shtml",
+      "title": "中央政法委：依法严厉打击村霸乡霸",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B3%95%E5%A7%94%EF%BC%9A%E4%BE%9D%E6%B3%95%E4%B8%A5%E5%8E%89%E6%89%93%E5%87%BB%E6%9D%91%E9%9C%B8%E4%B9%A1%E9%9C%B8",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "上海稳步建设全球科创高地（活力中国调研行）",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-02/10670860.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +146,8 @@
       ]
     },
     {
-      "title": "美计划本周末发动“猛烈轰炸” 伊朗：全面反击方案已就绪",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670688.shtml",
+      "title": "国家防总、应急管理部针对北京河北启动防汛四级应急响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670857.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +156,8 @@
       ]
     },
     {
-      "title": "076型两栖攻击舰已是“准航母” 引导发展新模式",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670687.shtml",
+      "title": "我国现代化水网建设提速",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670859.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +166,8 @@
       ]
     },
     {
-      "title": "法国西南部吉伦特省野火受控 20万被疏散人员返回",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670678.shtml",
+      "title": "三伏寻凉六盘山 静享山林康养慢时光",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670853.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +176,8 @@
       ]
     },
     {
-      "title": "8月2日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-02/10670685.shtml",
+      "title": "宋氏形意拳联谊演武大会在山西太谷举行 海内外传人同台切磋",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670851.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +186,8 @@
       ]
     },
     {
-      "title": "第12批国家组织药品集采开标 有哪些新变化？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670684.shtml",
+      "title": "2026年度电影总票房突破230亿！暑期档连续23天票房过亿",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-02/10670849.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +196,8 @@
       ]
     },
     {
-      "title": "莫斯科发生爆炸事件已致3人死亡21人受伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670679.shtml",
+      "title": "广西洪灾中失联的甘道水库职工吕冠遗体已找到",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-02/10670848.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +206,18 @@
       ]
     },
     {
-      "title": "全球央行购金大增62% 释放哪些信号？专家解读→",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-02/10670683.shtml",
+      "title": "社会组织的“李鬼”们，别再硬蹭国字头了",
+      "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-02/news1064108.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "内蒙古苏尼特草原深处，有一个会讲故事的乌兰牧骑姐姐",
+      "url": "https://www.chinanews.com.cn/mz/2026/08-02/10670845.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "斯诺克上海大师赛：赵心童不敌威尔逊无缘争冠",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670677.shtml",
+      "title": "从“听懂语言”到“读懂彼此” 宁夏探索中阿人文交流新路径",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-02/10670844.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,40 +236,10 @@
       ]
     },
     {
-      "title": "“闽超”岚台交流赛在平潭鸣哨开赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-02/10670676.shtml",
+      "title": "云南省社会主义学院教授徐敏：架好“侨”梁 凝聚力量",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-02/10670843.shtml",
       "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "以官员称美接近批准对伊军事打击 以方保持高度警惕",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-02/10670680.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年广东省城市篮球联赛收官 东莞队获得总冠军",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-01/10670673.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "乘火车、飞机这些东西不能带 暑期出行攻略→",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-01/10670672.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
+      "cat": "society",
       "score": 0,
       "exams": [
         "申论素材"
