@@ -513,4 +513,48 @@
 
     /* 模考提醒：已完成项淡化 */
     .mock-item.past { opacity: .55; }
+
+    /* ===== 题库练习 ===== */
+    .pr-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pr-chip { border: 1.5px solid #eee; background: #fff; border-radius: 20px; padding: 6px 12px; font-size: 13px; cursor: pointer; color: var(--ink); transition: .15s; }
+    .pr-chip small { opacity: .6; margin-left: 2px; }
+    .pr-chip.on { color: #fff; border-color: transparent; }
+    .pr-q .pr-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+    .pr-type { font-size: 12px; color: var(--text-soft); }
+    .pr-prog { margin-left: auto; font-size: 12px; color: var(--text-soft); }
+    .pr-stem { font-size: 15px; line-height: 1.6; font-weight: 600; color: var(--text-strong); margin-bottom: 12px; }
+    .pr-opts { display: flex; flex-direction: column; gap: 8px; }
+    .pr-opt { text-align: left; background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 12px 14px; font-size: 14px; cursor: pointer; color: var(--ink); transition: .15s; line-height: 1.5; }
+    .pr-opt.sel { border-color: #f285ab; background: #fff0f5; }
+    .pr-opt.right { border-color: #6bbf9e; background: #eafaf3; color: #2e7d5b; }
+    .pr-opt.wrong { border-color: #ef7da3; background: #fdeef3; color: #c0396b; }
+    .pr-foot { margin-top: 14px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; }
+    .pr-feed { font-weight: 700; padding: 10px 12px; border-radius: 10px; width: 100%; box-sizing: border-box; }
+    .pr-feed.ok { background: #eafaf3; color: #2e7d5b; }
+    .pr-feed.no { background: #fdeef3; color: #c0396b; }
+    .pr-exp { font-size: 13px; line-height: 1.6; color: var(--text-soft); background: #faf6fb; border-radius: 10px; padding: 10px 12px; width: 100%; box-sizing: border-box; }
+    .pr-added { font-size: 13px; color: #2e7d5b; }
+    .pr-result { text-align: center; }
+    .pr-score { font-size: 48px; font-weight: 800; color: #f285ab; margin: 6px 0; }
+    .pr-score small { font-size: 18px; }
+    .pr-stats { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+    .pr-stats div { display: flex; flex-direction: column; }
+    .pr-stats b { font-size: 20px; color: var(--text-strong); }
+    .pr-stats span { font-size: 12px; color: var(--text-soft); }
+
+    /* ===== 分段计时 ===== */
+    .seg-clock { font-size: 42px; font-weight: 800; text-align: center; color: var(--text-strong); font-variant-numeric: tabular-nums; margin: 6px 0 12px; letter-spacing: 2px; }
+    .seg-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+    .seg-row { display: flex; align-items: center; justify-content: space-between; padding: 9px 0; border-bottom: 1px dashed var(--border); gap: 8px; }
+    .seg-row:last-child { border-bottom: none; }
+    .seg-cur { background: #fff0f5; border-radius: 8px; padding: 9px 10px; }
+    .seg-time { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-strong); white-space: nowrap; }
+    .seg-total { font-size: 14px; margin: 6px 0 10px; color: var(--text-soft); }
+    .seg-total b { font-size: 18px; color: var(--text-strong); margin: 0 2px; }
+    .seg-hist { padding: 10px 0; border-bottom: 1px dashed var(--border); }
+    .seg-hist:last-child { border-bottom: none; }
+    .seg-hist-h { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+    .seg-hist-b { font-size: 12px; color: var(--text-soft); margin-top: 4px; line-height: 1.5; }
+    .seg-result { border: 1.5px solid #f3b8cd; background: linear-gradient(180deg, #fff7fb 0%, #fffdfe 100%); }
+    .seg-result h3 { color: #d8608f; }
     .reminder-empty { font-size: 13px; color: var(--text-soft); }
