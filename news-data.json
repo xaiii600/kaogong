@@ -1,13 +1,43 @@
 {
   "date": "2026-08-04",
-  "time": "08:03",
-  "generatedAt": "2026-08-04T08:03:36.353Z",
+  "time": "16:24",
+  "generatedAt": "2026-08-04T16:24:29.306Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "7月车市两极分化：自主抢占全球市场，合资持续失守燃油车份额",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10671756.shtml",
+      "title": "（机遇香港）国际机构密集上调增长预期　香港经济基本面被看好",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-04/10672035.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "闽澳高层会晤暨闽澳合作会议第五次会议在福州举行",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/08-04/10672053.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "我国加快构建绿色低碳电力供给格局",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672051.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从破题到奔向万亿，上半年上海三大先导产业制造业产值同比增长14.5%",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672049.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -16,8 +46,8 @@
       ]
     },
     {
-      "title": "习近平总书记今年以来治国理政纪实丨扎扎实实以科技创新支撑和引领中国式现代化",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10671744.shtml",
+      "title": "两岸青年探访大熊猫“圆圆”“娘家 ”  AI共创短视频",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672044.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,8 +56,8 @@
       ]
     },
     {
-      "title": "世界奶业大会在青城举办 业内共话乳蛋白、益生菌产业新未来",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10671719.shtml",
+      "title": "年中经济观察丨多方合力 广西横州茉莉花产业链灾后突围",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672047.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,8 +66,8 @@
       ]
     },
     {
-      "title": "新疆兵团特色瓜果产业延链增值",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10671726.shtml",
+      "title": "亲子、研学体验持续“上新” 各地激活暑期文旅消费",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672046.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -46,9 +76,9 @@
       ]
     },
     {
-      "title": "下半年 经济工作如何推进",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8B%E5%8D%8A%E5%B9%B4+%E7%BB%8F%E6%B5%8E%E5%B7%A5%E4%BD%9C%E5%A6%82%E4%BD%95%E6%8E%A8%E8%BF%9B",
-      "source": "百度热搜",
+      "title": "物流业景气指数继续保持扩张 新订单指数连续回升 产业物流进一步向好",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672037.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -56,9 +86,29 @@
       ]
     },
     {
-      "title": "AI仿制通知书诈骗 开学季如何避坑",
-      "url": "https://www.baidu.com/s?wd=AI%E4%BB%BF%E5%88%B6%E9%80%9A%E7%9F%A5%E4%B9%A6%E8%AF%88%E9%AA%97+%E5%BC%80%E5%AD%A6%E5%AD%A3%E5%A6%82%E4%BD%95%E9%81%BF%E5%9D%91",
-      "source": "百度热搜",
+      "title": "（活力中国调研行）探访合肥大健康研究院：让前沿医疗技术从“书架”走上“货架”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672026.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【青春华章·长征路上山河新】从红军战士到遵义会议纪念馆馆长",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672027.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "马来西亚提出打造亚洲生物草药创新中心",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10672014.shtml",
+      "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -66,28 +116,18 @@
       ]
     },
     {
-      "title": "国家出手 新能源汽车充电将全面升级",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E5%87%BA%E6%89%8B+%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%85%85%E7%94%B5%E5%B0%86%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7",
-      "source": "百度热搜",
-      "cat": "tech",
+      "title": "【发现最美铁路】赤峰南站：从简陋平房小站到北疆综合交通枢纽",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672019.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "上海外环高速一辆新能源车起火",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E5%A4%96%E7%8E%AF%E9%AB%98%E9%80%9F%E4%B8%80%E8%BE%86%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E8%B5%B7%E7%81%AB",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "四川甘孜州一交通事故致5死1伤",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E5%B7%9D%E7%94%98%E5%AD%9C%E5%B7%9E%E4%B8%80%E4%BA%A4%E9%80%9A%E4%BA%8B%E6%95%85%E8%87%B45%E6%AD%BB1%E4%BC%A4",
+      "title": "5元2瓶都卖不动 含糖碳酸饮料遇冷",
+      "url": "https://www.baidu.com/s?wd=5%E5%85%832%E7%93%B6%E9%83%BD%E5%8D%96%E4%B8%8D%E5%8A%A8+%E5%90%AB%E7%B3%96%E7%A2%B3%E9%85%B8%E9%A5%AE%E6%96%99%E9%81%87%E5%86%B7",
       "source": "百度热搜",
       "cat": "society",
       "score": 1,
@@ -96,28 +136,18 @@
       ]
     },
     {
-      "title": "男女进店抢走两部手机 警方通报",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%A5%B3%E8%BF%9B%E5%BA%97%E6%8A%A2%E8%B5%B0%E4%B8%A4%E9%83%A8%E6%89%8B%E6%9C%BA+%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
+      "title": "哈尔滨暴雨 中央大街成“中央大河”",
+      "url": "https://www.baidu.com/s?wd=%E5%93%88%E5%B0%94%E6%BB%A8%E6%9A%B4%E9%9B%A8+%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E6%88%90%E2%80%9C%E4%B8%AD%E5%A4%AE%E5%A4%A7%E6%B2%B3%E2%80%9D",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "因凡蒂诺为保乌纱帽约谈美国务卿",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%A0%E5%87%A1%E8%92%82%E8%AF%BA%E4%B8%BA%E4%BF%9D%E4%B9%8C%E7%BA%B1%E5%B8%BD%E7%BA%A6%E8%B0%88%E7%BE%8E%E5%9B%BD%E5%8A%A1%E5%8D%BF",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "8月4日“农产品批发价格200指数”比昨天上升0.10个点",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10671757.shtml",
+      "title": "女演员带孩子看电影，孩子兴奋叫出声，散场后被观众淋奶油",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-04/10672050.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +156,8 @@
       ]
     },
     {
-      "title": "当整座城市为少年铺路：从少年创客到一人公司",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10671754.shtml",
+      "title": "伊朗拟管控霍尔木兹海峡进港航运 与阿曼协商通航计划",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10672045.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +166,8 @@
       ]
     },
     {
-      "title": "习近平总书记关切事｜实业报国志 接力谱新篇",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10671715.shtml",
+      "title": "中国最大自航式纯电驱深海海缆敷设船在江苏完成吉水作业",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672043.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "西夏陵景区被曝“四号陵马车马匹被挽具磨伤” 景区发布情况说明",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10671723.shtml",
+      "title": "中国出台强制性国标明确自动驾驶产品安全准入基线",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672042.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "用机甲模型当纪念？一场公益献血活动为何引发全网热议",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-04/10671748.shtml",
+      "title": "广交会已与全球231家境外机构建立合作关系",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672041.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "立英语为官方语言 新西兰新法案惹争议",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10671746.shtml",
+      "title": "中国“银河画卷”巡天证实星际分子云是超高能宇宙射线诞生的关键载体",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672039.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "湖南祁阳青年反哺家乡 支教创业激活乡村新活力",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10671734.shtml",
+      "title": "国防部批日新版防卫白皮书：贼喊捉贼为自身军事松绑找借口",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672034.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "危地马拉富埃戈火山喷发 全国发布橙色警报",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10671743.shtml",
+      "title": "7月中国物流业景气指数为50.4%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672033.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "澳大利亚新州政府拨款升级悉尼歌剧院",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10671741.shtml",
+      "title": "联创光电：公司及实控人被证监会立案",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672023.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,38 +236,8 @@
       ]
     },
     {
-      "title": "在巴西里约邂逅“舌尖上的中国”",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-04/10671736.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "大连电网迎新一轮用电尖峰  多措并举确保电力供应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10671733.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026明日之星冠军杯启幕 中国U17男足战胜英超豪门阿森纳",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-04/10671732.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第十六届台湾学生天府夏令营开营：篮球会友，青春同行",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10671730.shtml",
+      "title": "广东湛江鲜果出口添“新” 首批鲜番石榴销往新加坡",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672024.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
