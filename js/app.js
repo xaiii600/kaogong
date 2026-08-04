@@ -1140,13 +1140,15 @@
     }
     function tMarkSegment() {
       if (!timer.running || !timer.cur) { toast("请先点「开始」计时"); return; }
+      var firstSeg = timer.segs.length === 0;
       timer.cur.acc += Date.now() - timer.cur.start; timer.cur.start = null;
       timer.segs.push({ module: timer.cur.module, secs: Math.floor(timer.cur.acc / 1000) });
       var fromMod = timer.cur.module;
       timer.cur = { module: timer.subject, start: Date.now(), acc: 0 };
       timer.lastBankTs = Date.now();
+      if (firstSeg && timer.type !== "mock") { timer.type = "mock"; renderTimerTypes(); updateTimerTypeHint(); }
       var last = timer.segs[timer.segs.length - 1];
-      toast("已记上一段：" + segModName(last.module) + " " + fmtClock(last.secs) + (timer.subject !== fromMod ? " → 切到 " + segModName(timer.subject) : "（同科目续记）"));
+      toast((firstSeg ? "已切换为「模考」类型，" : "已记上一段：") + segModName(last.module) + " " + fmtClock(last.secs) + (timer.subject !== fromMod ? " → 切到 " + segModName(timer.subject) : "（同科目续记）"));
       save("timer", timer); updateTimerSubjectName(); updateTimerDisplay(); renderTimerSegs();
     }
     function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
@@ -1839,6 +1841,28 @@
       }).join("") + '<div style="font-size:12px;color:var(--text-soft);margin-top:4px;">共汇总 ' + list.length + ' 套试卷</div>';
     }
 
+    function moduleTimeMap() {
+      var map = { politics: "politics", common: "common", verbal: "verbal", data: "data", quant: "quant", logic: "logic", graph: "logic" };
+      var d = daily(), t = {};
+      PAPER_MODULES.forEach(function (m) { t[m.key] = 0; });
+      Object.keys(d).forEach(function (date) {
+        var rec = d[date]; if (!rec) return;
+        Object.keys(rec).forEach(function (k) { var mk = map[k]; if (mk && t[mk] != null) t[mk] += rec[k]; });
+      });
+      return t;
+    }
+    function renderModuleTime() {
+      var el = document.getElementById("moduleTime"); if (!el) return;
+      var t = moduleTimeMap();
+      var items = PAPER_MODULES.map(function (m) { return { name: m.name, secs: t[m.key], color: m.color }; }).filter(function (x) { return x.secs > 0; });
+      if (!items.length) { el.innerHTML = '<div class="empty">还没有计时记录，去「科目计时器」记一段就会累计到这里 ⏱</div>'; return; }
+      items.sort(function (a, b) { return b.secs - a.secs; });
+      var maxv = Math.max.apply(null, items.map(function (i) { return i.secs; }));
+      el.innerHTML = items.map(function (it) {
+        var w = maxv > 0 ? Math.round(it.secs / maxv * 100) : 0;
+        return '<div class="bar-row"><span class="bar-name">' + it.name + '</span><div class="bar-track"><div class="bar-fill" style="width:' + w + '%;background:' + it.color + '"></div></div><span class="bar-val">' + fmtDur(it.secs) + '</span></div>';
+      }).join("") + '<div style="font-size:12px;color:var(--text-soft);margin-top:4px;">数据来自「科目计时器」累计（图形推理归入逻辑判断）</div>';
+    }
     /* ===== 申论素材库 ===== */
     var ESSAY_CATS = ["政策理论","乡村振兴","基层治理","民生保障","生态文明","经济发展","文化自信","科技自立","其他"];
     var essayCat = "全部"; var essayKw = "";
@@ -1895,7 +1919,7 @@
       var totalPages = Math.max(1, Math.ceil(list.length / PP_PAGE_SIZE));
       if (ppPage > totalPages) ppPage = totalPages;
       var pageList = list.slice((ppPage - 1) * PP_PAGE_SIZE, ppPage * PP_PAGE_SIZE);
-      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); return; }
+      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); renderModuleTime(); return; }
       box.innerHTML = pageList.map(function (p) {
         var mods = p.modules, total = 0, correct = 0, bars = "";
         if (mods) {
@@ -1931,7 +1955,7 @@
       var prev = document.getElementById("ppPrev"), next = document.getElementById("ppNext");
       if (prev) prev.addEventListener("click", function () { if (ppPage > 1) { ppPage--; renderPapers(); } });
       if (next) next.addEventListener("click", function () { if (ppPage < totalPages) { ppPage++; renderPapers(); } });
-      renderTrend(); renderWeakSummary();
+      renderTrend(); renderWeakSummary(); renderModuleTime();
     }
     var trendMetric = "rate";
     function renderTrend() {
