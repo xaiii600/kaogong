@@ -81,7 +81,7 @@
     function drawPie(el, legendEl, items, onSlice) {
       var total = 0; items.forEach(function (i) { total += i.value; });
       if (total <= 0) { el.innerHTML = '<div class="empty">今日还没有学习记录<br>去计时器开始学习吧～</div>'; legendEl.innerHTML = ""; return; }
-      var W = 360, H = 260, cx = 150, cy = 130, rO = 80, rIn = 46, rLabel = 98, minGap = 26, MINARC = 50;
+      var W = 475, H = 305, cx = 215, cy = 150, rO = 125, rIn = 66, rLabel = 140, minGap = 26, MINARC = 50;
       var svg = '<svg width="100%" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
       var pos = 0;
       var slices = items.map(function (it, oi) {
