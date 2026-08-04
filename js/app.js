@@ -1128,23 +1128,26 @@
       SUBJECTS.forEach(function (s) {
         var b = document.createElement("div"); b.className = "subject-btn" + (timer.subject === s.key ? " active" : ""); b.style.background = s.color; b.setAttribute("data-k", s.key);
         b.innerHTML = '<span class="sb-ico">' + s.ico + '</span><span>' + s.name + '</span><span class="sb-run" data-run="' + s.key + '"></span>';
-        b.addEventListener("click", function () { tSwitchTo(s.key); });
+        b.addEventListener("click", function () { tSelectSubject(s.key); });
         list.appendChild(b);
       });
       renderTimerTypes();
       timerInited = true;
     }
-    function tSwitchTo(key) {
+    function tSelectSubject(key) {
       timer.subject = key;
-      if (timer.running && timer.cur && key !== timer.cur.module) {
-        timer.cur.acc += Date.now() - timer.cur.start; timer.cur.start = null;
-        timer.segs.push({ module: timer.cur.module, secs: Math.floor(timer.cur.acc / 1000) });
-        timer.cur = { module: key, start: Date.now(), acc: 0 };
-        timer.lastBankTs = Date.now();
-        var last = timer.segs[timer.segs.length - 1];
-        toast("已记录上一段：" + segModName(last.module) + " " + fmtClock(last.secs));
-      }
-      save("timer", timer); markActiveSubject(); updateTimerSubjectName(); updateTimerDisplay(); renderTimerSegs();
+      save("timer", timer); markActiveSubject(); updateTimerSubjectName(); updateTimerDisplay();
+    }
+    function tMarkSegment() {
+      if (!timer.running || !timer.cur) { toast("请先点「开始」计时"); return; }
+      timer.cur.acc += Date.now() - timer.cur.start; timer.cur.start = null;
+      timer.segs.push({ module: timer.cur.module, secs: Math.floor(timer.cur.acc / 1000) });
+      var fromMod = timer.cur.module;
+      timer.cur = { module: timer.subject, start: Date.now(), acc: 0 };
+      timer.lastBankTs = Date.now();
+      var last = timer.segs[timer.segs.length - 1];
+      toast("已记上一段：" + segModName(last.module) + " " + fmtClock(last.secs) + (timer.subject !== fromMod ? " → 切到 " + segModName(timer.subject) : "（同科目续记）"));
+      save("timer", timer); updateTimerSubjectName(); updateTimerDisplay(); renderTimerSegs();
     }
     function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
     function updateTimerSubjectName() { var el = document.getElementById("timerSubjectName"); if (el) el.textContent = (SUB_MAP[curModule()] ? SUB_MAP[curModule()].name : curModule()); }
@@ -1215,6 +1218,8 @@
       var sp = document.getElementById("segPomo"); if (sp) sp.classList.toggle("active", timer.mode === "pomo");
       var pi = document.getElementById("pomoInput"); if (pi) pi.classList.toggle("show", timer.mode === "pomo");
       var bs = document.getElementById("btnStart"); if (bs) bs.textContent = timer.running ? "暂停" : (timer.cur ? "继续" : "开始");
+      var bm = document.getElementById("btnMark"); if (bm) bm.disabled = !timer.running;
+      var ns = document.getElementById("timerNextSub"); if (ns) ns.textContent = (timer.running && timer.cur && timer.subject !== timer.cur.module) ? ("下一段将计入：" + segModName(timer.subject) + "（点「记一段」切换）") : "";
       updateTimerTypeHint();
       renderTypeBreakdown();
       updateTimerResume();
@@ -1258,6 +1263,7 @@
     }
     document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.cur = null; timer.segs = []; timer.name = ""; timer.lastBankTs = 0; var nm = document.getElementById("timerName"); if (nm) nm.value = ""; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); renderTimerSegs(); toast("已重置本次计时（已用时长仍计入学习时长）"); });
     var btnFinish = document.getElementById("btnFinish"); if (btnFinish) btnFinish.addEventListener("click", function () { tFinish(); });
+    var btnMark = document.getElementById("btnMark"); if (btnMark) btnMark.addEventListener("click", function () { tMarkSegment(); });
     var nmEl = document.getElementById("timerName"); if (nmEl) nmEl.addEventListener("input", function () { timer.name = this.value; save("timer", timer); });
     function tFinish() {
       if (timer.cur) {
@@ -1283,7 +1289,7 @@
       var rows = "";
       timer.segs.forEach(function (s) { var sm = SUB_MAP[s.module]; rows += '<div class="seg-row"><span class="chip" style="background:' + (sm ? sm.color : "#fbe3ec") + '">' + (sm ? sm.name : s.module) + '</span><span class="seg-time">' + fmtClock(s.secs) + '</span></div>'; });
       if (timer.cur) { var cm = SUB_MAP[timer.cur.module]; rows += '<div class="seg-row seg-cur"><span class="chip" style="background:' + (cm ? cm.color : "#fbe3ec") + '">' + (cm ? cm.name : timer.cur.module) + '（计时中）</span><span class="seg-time" id="segCurTime">' + fmtClock(curSegSecs()) + '</span></div>'; }
-      var list = '<div class="card"><h3 style="margin-bottom:8px;">📋 各段记录</h3>' + (rows ? rows : '<div class="empty">还没有分段，学习中点击其他科目即可自动记一段</div>') + '</div>';
+      var list = '<div class="card"><h3 style="margin-bottom:8px;">📋 各段记录</h3>' + (rows ? rows : '<div class="empty">还没有分段：计时中点选其他科目，再点「记一段」即可切段</div>') + '</div>';
       var byMod = {}; timer.segs.forEach(function (s) { byMod[s.module] = (byMod[s.module] || 0) + s.secs; });
       if (timer.cur) byMod[timer.cur.module] = (byMod[timer.cur.module] || 0) + curSegSecs();
       var maxv = Math.max(1, totalSecs());
