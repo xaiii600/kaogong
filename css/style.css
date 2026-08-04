@@ -200,7 +200,7 @@
     .chart-card h3 .hint { font-size: 11px; color: var(--text-soft); font-weight: 400; }
     .pie-wrap { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; justify-content: center; }
     #pieChart { flex: 0 0 auto; }
-    #pieChart svg { display: block; max-width: 300px; margin: 0 auto; }
+    #pieChart svg { display: block; max-width: 360px; margin: 0 auto; }
     .pie-data-list { flex: 1; min-width: 160px; max-height: 220px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px; }
     .pie-data-head { font-weight: 700; color: var(--text-strong); margin-bottom: 6px; font-size: 14px; text-align: center; }
     .pie-data-item { display: grid; grid-template-columns: 14px 1fr auto auto; gap: 8px; align-items: center; font-size: 13px; }
