@@ -1,0 +1,2575 @@
+    (function () {
+    "use strict";
+    /* 存储 */
+    var K = "kaogong_";
+    function load(k, def) { try { var v = localStorage.getItem(K + k); return v ? JSON.parse(v) : def; } catch (e) { return def; } }
+    function save(k, v) { try { localStorage.setItem(K + k, JSON.stringify(v)); } catch (e) { if (e.name === "QuotaExceededError" || e.name === "NS_ERROR_DOM_QUOTA_REACHED") { toast("存储空间不足，请清理旧数据"); } } }
+
+    /* 科目（柔和配色） */
+    var SUBJECTS = [
+      { key: "politics", name: "政治理论", ico: "🏛️", color: "#f6a5c0" },
+      { key: "common",   name: "常识",     ico: "🌟", color: "#f7c59f" },
+      { key: "verbal",   name: "言语理解", ico: "📝", color: "#f9d0dd" },
+      { key: "graph",    name: "图形推理", ico: "🔷", color: "#cdbdf0" },
+      { key: "logic",    name: "判断推理", ico: "🧩", color: "#bcd4f0" },
+      { key: "data",     name: "资料分析", ico: "📊", color: "#a8e0d4" },
+      { key: "quant",    name: "数量关系", ico: "🔢", color: "#f7e2a8" },
+      { key: "calc",     name: "速算",     ico: "⚡", color: "#c3e8b0" },
+      { key: "review",   name: "复盘",     ico: "🔁", color: "#e6bfe0" },
+      { key: "paper",    name: "套卷",     ico: "📃", color: "#b6e4dd" },
+      { key: "essay",    name: "申论",     ico: "✍️", color: "#f3b0b8" }
+    ];
+    var SUB_MAP = {}; SUBJECTS.forEach(function (s) { SUB_MAP[s.key] = s; });
+
+    /* 错因选项 + 颜色 */
+    var ERROR_REASONS = ["知识点盲区","审题粗心失误","公式/方法遗忘","干扰选项混淆","时间不足未做完","计算失误","思路逻辑偏差","语感/素材积累不足","其他"];
+    var REASON_COLORS = {
+      "知识点盲区":"#f6a5c0","审题粗心失误":"#f7c59f","公式/方法遗忘":"#f9d0dd","干扰选项混淆":"#cdbdf0",
+      "时间不足未做完":"#bcd4f0","计算失误":"#a8e0d4","思路逻辑偏差":"#f7e2a8","语感/素材积累不足":"#c3e8b0","其他":"#e6bfe0"
+    };
+    function reasonColor(r) { if (r && r.indexOf("其他") === 0) return REASON_COLORS["其他"]; return REASON_COLORS[r] || "#fbe3ec"; }
+
+    /* 日期 / 格式化 */
+    function pad(n) { return n < 10 ? "0" + n : "" + n; }
+    function todayKey(d) { d = d || new Date(); return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+    function fmtClock(sec) { sec = Math.floor(sec); var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60; return pad(h) + ":" + pad(m) + ":" + pad(s); }
+    function fmtDur(sec) { sec = Math.floor(sec); var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60; if (h > 0) return h + "小时" + m + "分"; if (m > 0) return m + "分钟"; return s + "秒"; }
+    var WK = ["日","一","二","三","四","五","六"];
+    function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+    function esc(s) { return ("" + (s || "")).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+    /* 语录（每日自动更换） */
+    var QUOTES = ["路虽远，行则将至；事虽难，做则必成。","你只管努力，剩下的交给时间。","今天的每一分坚持，都是明天上岸的筹码。","不是因为看到希望才坚持，而是坚持了才看到希望。","把平凡的事做到极致，就是不平凡。","与其担心未来，不如努力现在。","上岸不是终点，而是更好的起点。","奋斗的青春最美丽，拼搏的时光最珍贵。","种一棵树最好的时间是十年前，其次是现在。","越努力，越幸运。","不要假装努力，结果不会陪你演戏。","你流过的汗，终将变成录取通知书上的字。","备考很苦，但上岸很甜。","把目标刻在心里，把行动落在脚下。","所谓运气，不过是机会碰巧撞到了你的努力。","坚持到最后的人，配得上最好的结果。","不积跬步，无以至千里。","你现在的努力，是为了以后有更多的选择。","真正的稳定，来自自身的能力。","当你的才华还撑不起梦想时，就去学习。","慢慢来，比较快。","山高自有客行路，水深自有渡船人。","每一次刷题，都是在为梦想添砖加瓦。","星光不问赶路人，时光不负有心人。"];
+    function todayQuote() { return QUOTES[Math.floor(Date.now() / 86400000) % QUOTES.length]; }
+
+    /* 学习记录聚合 */
+    function daily() { return load("daily", {}); }
+    function todayRec() { var d = daily(); return d[todayKey()] || {}; }
+    function addSeconds(subjectKey, sec) { var d = daily(); var tk = todayKey(); if (!d[tk]) d[tk] = {}; d[tk][subjectKey] = (d[tk][subjectKey] || 0) + sec; save("daily", d); }
+    function dayTotal(key) { var r = daily()[key]; if (!r) return 0; var t = 0; for (var k in r) t += r[k]; return t; }
+    function downloadJSON(filename, data) {
+      try {
+        var blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement("a"); a.href = url; a.download = filename; document.body.appendChild(a); a.click();
+        setTimeout(function () { document.body.removeChild(a); URL.revokeObjectURL(url); }, 100);
+      } catch (e) { toast("导出失败：" + e.message); }
+    }
+
+    /* 弹窗 / 提示 */
+    var modalRoot = document.getElementById("modalRoot"), modalTitle = document.getElementById("modalTitle"), modalBody = document.getElementById("modalBody"), modalFoot = document.getElementById("modalFoot");
+    function openModal(title, bodyHtml, footHtml) { modalTitle.textContent = title; modalBody.innerHTML = bodyHtml || ""; modalFoot.innerHTML = footHtml || ""; modalRoot.classList.add("show"); }
+    function closeModal() { modalRoot.classList.remove("show"); modalBody.innerHTML = ""; modalFoot.innerHTML = ""; }
+    document.getElementById("modalClose").addEventListener("click", closeModal);
+    modalRoot.addEventListener("click", function (e) { if (e.target === modalRoot) closeModal(); });
+    var toastEl = document.getElementById("toast"), toastTimer;
+    function toast(msg) { toastEl.textContent = msg; toastEl.classList.add("show"); clearTimeout(toastTimer); toastTimer = setTimeout(function () { toastEl.classList.remove("show"); }, 2000); }
+
+    /* SVG 饼图 */
+    function polar(cx, cy, r, deg) { var a = (deg - 90) * Math.PI / 180; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; }
+    function donutSlice(cx, cy, rO, rI, start, end) {
+      var so = polar(cx, cy, rO, start), eo = polar(cx, cy, rO, end), si = polar(cx, cy, rI, end), ei = polar(cx, cy, rI, start);
+      var large = (end - start) > 180 ? 1 : 0;
+      return "M" + so[0] + " " + so[1] + " A" + rO + " " + rO + " 0 " + large + " 1 " + eo[0] + " " + eo[1] + " L" + si[0] + " " + si[1] + " A" + rI + " " + rI + " 0 " + large + " 0 " + ei[0] + " " + ei[1] + " Z";
+    }
+    function drawPie(el, legendEl, items, onSlice) {
+      var total = 0; items.forEach(function (i) { total += i.value; });
+      if (total <= 0) { el.innerHTML = '<div class="empty">今日还没有学习记录<br>去计时器开始学习吧～</div>'; legendEl.innerHTML = ""; return; }
+      var cx = 90, cy = 90, rO = 84, rI = 52, svg = '<svg width="180" height="180" viewBox="0 0 180 180">';
+      var pos = 0; var single = items.filter(function (i) { return i.value > 0; }).length === 1;
+      items.forEach(function (it, idx) {
+        if (it.value <= 0) return;
+        if (single) { var rmid = (rO + rI) / 2; svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rmid + '" fill="none" stroke="' + it.color + '" stroke-width="' + (rO - rI) + '" class="slice" data-i="' + idx + '"><title>' + it.name + '</title></circle>'; }
+        else { var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value; svg += '<path d="' + donutSlice(cx, cy, rO, rI, start, end) + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + '</title></path>'; }
+      });
+      svg += '<text x="90" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#5a434c">' + (total / 3600).toFixed(1) + '</text><text x="90" y="103" text-anchor="middle" font-size="11" fill="#9a848d">小时</text></svg>';
+      el.innerHTML = svg;
+      legendEl.innerHTML = items.map(function (it) { var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0"; return '<div class="lg"><span class="sw" style="background:' + it.color + '"></span><span class="lg-name">' + it.name + '</span><span class="lg-val">' + fmtDur(it.value) + " · " + pct + '%</span></div>'; }).join("");
+      Array.prototype.forEach.call(el.querySelectorAll(".slice"), function (s) { s.addEventListener("click", function () { onSlice(items[+s.getAttribute("data-i")]); }); });
+    }
+
+    /* SVG 折线图 */
+    function drawLine(el, points, opts) {
+      opts = opts || {};
+      var tip = opts.tip, color = opts.color || "#ef7da3";
+      var W = 480, H = 220, pL = 38, pR = 14, pT = 16, pB = 30, iW = W - pL - pR, iH = H - pT - pB;
+      var maxV = 0; points.forEach(function (p) { if (p.value > maxV) maxV = p.value; });
+      var yMax = Math.max(0.5, Math.ceil(maxV * 1.15 * 10) / 10); if (yMax <= 0) yMax = 1;
+      var n = points.length, step = n > 1 ? iW / (n - 1) : 0;
+      var svg = '<svg width="100%" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="xMidYMid meet">';
+      for (var g = 0; g <= 4; g++) { var yv = yMax * g / 4, yy = pT + iH - (yv / yMax) * iH; svg += '<line x1="' + pL + '" y1="' + yy + '" x2="' + (W - pR) + '" y2="' + yy + '" stroke="#f3e2e9"/><text x="' + (pL - 6) + '" y="' + (yy + 3) + '" text-anchor="end" font-size="9" fill="#b09aa2">' + yv.toFixed(1) + '</text>'; }
+      var path = "", dots = "";
+      points.forEach(function (p, i) {
+        var x = n > 1 ? pL + step * i : pL + iW / 2, y = pT + iH - (p.value / yMax) * iH;
+        path += (i === 0 ? "M" : "L") + x.toFixed(1) + " " + y.toFixed(1) + " ";
+        var lab = tip ? tip(p) : (p.value > 0 ? fmtDur(p.value * 3600) : "0");
+        dots += '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="3.5" fill="' + color + '"><title>' + esc(p.label) + (lab ? "：" + lab : "") + "</title></circle>";
+        var showLab = n <= 12 || i % Math.ceil(n / 10) === 0 || i === n - 1;
+        if (showLab) svg += '<text x="' + x.toFixed(1) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="9" fill="#9a848d">' + esc(p.label) + "</text>";
+      });
+      svg += '<path d="' + path + '" fill="none" stroke="' + color + '" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>' + dots + "</svg>";
+      el.innerHTML = svg;
+    }
+
+    /* 日期工具 + 艾宾浩斯遗忘曲线 */
+    function addDays(ds, n) { var d = new Date(ds + "T00:00:00"); d.setDate(d.getDate() + n); return todayKey(d); }
+    var EBB = [1, 2, 4, 7, 15, 30]; /* 学后第 N 天复习 */
+    function mm(m) { return m.mastery || "review"; } /* 兼容旧数据：默认需复习 */
+    function ebbInfo(m) {
+      var base = m.reviewBase || m.date || todayKey(new Date(m.created || Date.now())), today = todayKey();
+      var dates = EBB.map(function (d) { return addDays(base, d); });
+      var next = null, dueToday = false, overdue = false;
+      dates.forEach(function (d) {
+        if (d === today) { dueToday = true; if (next === null) next = d; }
+        else if (d < today) { overdue = true; if (next === null) next = today; }
+        else { if (next === null) next = d; }
+      });
+      if (next === null) next = dates[dates.length - 1];
+      var statusText, statusClass;
+      if (dueToday) { statusText = "今天到期 🔥"; statusClass = "due"; }
+      else if (overdue) { statusText = "已逾期 · 尽快复习"; statusClass = "due"; }
+      else { statusText = "下次复习 " + next; statusClass = "soon"; }
+      var dots = dates.map(function (d) { return { date: d, state: d < today ? "done" : (d === today ? "due" : "soon") }; });
+      return { base: base, dates: dates, next: next, dueToday: dueToday, overdue: overdue, statusText: statusText, statusClass: statusClass, dots: dots };
+    }
+    function dueReviewCount(list) {
+      var today = todayKey(), n = 0;
+      list.forEach(function (m) { if (mm(m) === "mastered") return; var info = ebbInfo(m); if (info.dueToday || info.overdue) n++; });
+      return n;
+    }
+
+    /* 手绘 SVG 柱状图（横向，移动端友好） */
+    function drawBar(el, items, opts) {
+      opts = opts || {};
+      var color = opts.color || "#ef7da3";
+      var maxV = 0; items.forEach(function (i) { if (i.value > maxV) maxV = i.value; });
+      if (maxV <= 0) { el.innerHTML = '<div class="empty">暂无数据</div>'; return; }
+      var rowH = 24, gap = 8, labelW = 92, valW = 28, padL = 4, padR = 4;
+      var W = 480, H = items.length * (rowH + gap) + 8, iW = W - labelW - valW - padL - padR;
+      var svg = '<svg width="100%" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="xMidYMid meet" class="bar-chart">';
+      items.forEach(function (it, idx) {
+        var y = 4 + idx * (rowH + gap), bw = maxV > 0 ? (it.value / maxV) * iW : 0;
+        svg += '<text x="' + padL + '" y="' + (y + rowH / 2 + 4) + '" font-size="12" fill="#6b555e">' + esc(it.name) + "</text>";
+        svg += '<rect x="' + (padL + labelW) + '" y="' + y + '" width="' + iW + '" height="' + rowH + '" rx="6" fill="#fbe3ec"/>';
+        svg += '<rect x="' + (padL + labelW) + '" y="' + y + '" width="' + bw.toFixed(1) + '" height="' + rowH + '" rx="6" fill="' + (it.color || color) + '"><title>' + esc(it.name) + "：" + it.value + " 题</title></rect>";
+        svg += '<text x="' + (padL + labelW + iW + 6) + '" y="' + (y + rowH / 2 + 4) + '" font-size="12" fill="#9a848d">' + it.value + "</text>";
+      });
+      svg += "</svg>"; el.innerHTML = svg;
+    }
+
+    /* 手绘 SVG 环形图（通用，中心可自定义文字） */
+    function drawDonut(el, legendEl, items, opts) {
+      opts = opts || {};
+      var total = 0; items.forEach(function (i) { total += i.value; });
+      if (total <= 0) { el.innerHTML = '<div class="empty">暂无数据</div>'; legendEl.innerHTML = ""; return; }
+      var cx = 90, cy = 90, rO = 84, rI = 52, svg = '<svg width="180" height="180" viewBox="0 0 180 180">';
+      var pos = 0; var single = items.filter(function (i) { return i.value > 0; }).length === 1;
+      items.forEach(function (it, idx) {
+        if (it.value <= 0) return;
+        if (single) { var rmid = (rO + rI) / 2; svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rmid + '" fill="none" stroke="' + it.color + '" stroke-width="' + (rO - rI) + '" class="slice" data-i="' + idx + '"><title>' + it.name + "</title></circle>"; }
+        else { var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value; svg += '<path d="' + donutSlice(cx, cy, rO, rI, start, end) + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + "</title></path>"; }
+      });
+      svg += '<text x="90" y="86" text-anchor="middle" font-size="22" font-weight="800" fill="#5a434c">' + (opts.center || total) + "</text>";
+      if (opts.centerSub) svg += '<text x="90" y="104" text-anchor="middle" font-size="11" fill="#9a848d">' + opts.centerSub + "</text>";
+      svg += "</svg>"; el.innerHTML = svg;
+      legendEl.innerHTML = items.map(function (it) { var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0"; return '<div class="lg"><span class="sw" style="background:' + it.color + '"></span><span class="lg-name">' + it.name + '</span><span class="lg-val">' + it.value + " · " + pct + '%</span></div>'; }).join("");
+    }
+
+    /* 手绘 SVG 错误数热力图（GitHub 风格，按周分列） */
+    function drawHeatmap(el, counts) {
+      var weeks = 12, cell = 13, gap = 3, padL = 22, padT = 4;
+      var today = new Date(); today.setHours(0, 0, 0, 0);
+      var endD = new Date(today), startD = new Date(endD);
+      startD.setDate(startD.getDate() - (weeks * 7 - 1)); startD.setDate(startD.getDate() - startD.getDay());
+      var days = [], cur = new Date(startD);
+      while (cur <= endD) { days.push(new Date(cur)); cur.setDate(cur.getDate() + 1); }
+      function cf(c) { if (c <= 0) return "#fbe3ec"; if (c <= 1) return "#f9c4d8"; if (c <= 3) return "#f49bc0"; if (c <= 5) return "#ef7da3"; return "#d85f8e"; }
+      var W = padL + weeks * (cell + gap), H = padT + 7 * (cell + gap) + 2;
+      var svg = '<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + " " + H + '" style="max-width:100%;">';
+      var wd = ["日", "一", "二", "三", "四", "五", "六"];
+      for (var r = 0; r < 7; r++) { if (r % 2 === 0) svg += '<text x="2" y="' + (padT + r * (cell + gap) + cell - 2) + '" font-size="9" fill="#9a848d">' + wd[r] + "</text>"; }
+      days.forEach(function (d, i) {
+        var col = Math.floor(i / 7), row = d.getDay(), x = padL + col * (cell + gap), y = padT + row * (cell + gap);
+        var ds = todayKey(d), c = counts[ds] || 0;
+        svg += '<rect x="' + x + '" y="' + y + '" width="' + cell + '" height="' + cell + '" rx="3" fill="' + cf(c) + '"><title>' + ds + "：" + c + " 题</title></rect>";
+      });
+      svg += "</svg>"; el.innerHTML = svg;
+    }
+
+    /* 打卡连续学习天数 */
+    function calcStreak() {
+      var d = daily(); var streak = 0; var today = new Date();
+      for (var i = 0; i < 9999; i++) { /* 最多查近 30 年 */
+        var dd = new Date(today); dd.setDate(dd.getDate() - i); var dk = todayKey(dd);
+        var rec = d[dk]; var hasStudy = false;
+        if (rec) for (var k in rec) { if (rec[k] > 0) { hasStudy = true; break; } }
+        var checkins = load("checkins", []); if (checkins.indexOf(dk) >= 0) hasStudy = true;
+        if (hasStudy) streak++; else break;
+      }
+      return streak;
+    }
+    function isTodayCheckedIn() {
+      var checkins = load("checkins", []);
+      return checkins.indexOf(todayKey()) >= 0 || dayTotal(todayKey()) > 0;
+    }
+    function renderCheckin() {
+      var bar = document.getElementById("checkinBar"); var btn = document.getElementById("checkinBtn");
+      var numEl = document.getElementById("streakNum"); if (!bar || !btn) return;
+      var streak = calcStreak(); if (numEl) numEl.textContent = streak;
+      if (isTodayCheckedIn()) { btn.textContent = "✅ 已打卡"; btn.classList.add("checked"); }
+      else { btn.textContent = "今日打卡"; btn.classList.remove("checked"); }
+    }
+    document.getElementById("checkinBtn").addEventListener("click", function () {
+      if (isTodayCheckedIn()) { toast("今天已经打卡啦 ✅"); return; }
+      var checkins = load("checkins", []); checkins.push(todayKey()); save("checkins", checkins);
+      var nb = checkBadges();
+      renderCheckin(); renderGame();
+      toast(nb.length ? ("🎉 打卡成功！解锁徽章：" + nb.map(function (b) { return b.icon + b.name; }).join(" ")) : "🎉 打卡成功！坚持就是胜利！");
+    });
+
+    /* ===== 打卡激励小游戏：成长树 + 扭蛋 + 徽章 ===== */
+    var GACHA_QUOTES = [
+      "今天的努力，是明天上岸的底气。", "把简单的事做到极致，就是不简单。", "你只管努力，剩下的交给时间。",
+      "看似不起眼的日复一日，会在将来某天突然让你看到坚持的意义。", "上岸不是终点，而是你自律习惯的起点。",
+      "不要假装努力，结果不会陪你演戏。", "山高路远，但每一步都算数。", "自律给你自由，坚持给你答案。",
+      "别人在刷手机，你在刷真题，差距就是这样拉开的。", "考公没有捷径，唯有日拱一卒。",
+      "你现在的苦，是为了将来选工作的底气。", "乾坤未定，你我皆是黑马。", "把目标拆成每天的小任务，上岸就不远了。",
+      "真正的稳定，是你拥有随时离开的能力。", "今天的错题，是明天的得分点。"
+    ];
+    var BADGE_DEFS = [
+      { id: "first", icon: "🌱", name: "初次打卡", test: function (c) { return c.total >= 1; } },
+      { id: "week", icon: "🔥", name: "一周坚持", test: function (c) { return c.streak >= 7; } },
+      { id: "month", icon: "🏆", name: "月度学霸", test: function (c) { return c.streak >= 30; } },
+      { id: "hundred", icon: "💯", name: "百日筑基", test: function (c) { return c.total >= 100; } },
+      { id: "rich", icon: "💰", name: "金币富翁", test: function (c) { return c.coins >= 300; } },
+      { id: "gacha", icon: "🎰", name: "扭蛋达人", test: function (c) { return c.gachaCount >= 10; } }
+    ];
+    var TREE_NAMES = ["种子", "嫩芽", "小苗", "花丛", "小树", "大树"];
+    var TREE_TIPS = ["坚持打卡，小树会长大 🌱", "再坚持几天就能发芽啦", "小苗正在努力生长 🌿", "枝繁叶茂，继续加油 🌸", "已长成小树，真棒 🌳", "参天大树，百日筑基 💯"];
+
+    function totalCheckins() { return load("checkins", []).length; }
+    function treeStage(t) { if (t < 1) return 0; if (t < 7) return 1; if (t < 21) return 2; if (t < 50) return 3; if (t < 100) return 4; return 5; }
+
+    function drawTree(el, stage) {
+      if (!el) return;
+      var g = '<ellipse cx="60" cy="110" rx="44" ry="8" fill="#efd9bf"/>';
+      var s = '<svg width="120" height="120" viewBox="0 0 120 120">';
+      if (stage === 0) {
+        s += g + '<ellipse cx="60" cy="102" rx="10" ry="7" fill="#b07a4f"/><ellipse cx="57" cy="100" rx="3" ry="2" fill="#d9a878"/>';
+      } else if (stage === 1) {
+        s += g + '<rect x="58" y="80" width="4" height="28" rx="2" fill="#6bbf9e"/>' +
+          '<path d="M60 90 q-16 -4 -20 -18 q16 0 20 14z" fill="#7fd1a8"/>' +
+          '<path d="M60 86 q16 -4 20 -18 q-16 0 -20 14z" fill="#7fd1a8"/>';
+      } else if (stage === 2) {
+        s += g + '<rect x="57" y="64" width="5" height="44" rx="2" fill="#6bbf9e"/>' +
+          '<path d="M59 84 q-18 -2 -24 -16 q18 -2 24 12z" fill="#7fd1a8"/>' +
+          '<path d="M61 78 q18 -2 24 -16 q-18 -2 -24 12z" fill="#7fd1a8"/>' +
+          '<path d="M59 70 q-14 -2 -18 -14 q14 -2 18 10z" fill="#8fddb4"/>' +
+          '<path d="M61 66 q14 -2 18 -14 q-14 -2 -18 10z" fill="#8fddb4"/>';
+      } else if (stage === 3) {
+        s += g + '<circle cx="44" cy="80" r="18" fill="#7fce9f"/><circle cx="76" cy="80" r="18" fill="#7fce9f"/><circle cx="60" cy="68" r="20" fill="#8fddb4"/>' +
+          '<circle cx="50" cy="70" r="3" fill="#ff9ec4"/><circle cx="70" cy="74" r="3" fill="#ffd24d"/><circle cx="60" cy="60" r="3" fill="#ff9ec4"/><circle cx="64" cy="84" r="3" fill="#ffd24d"/>';
+      } else if (stage === 4) {
+        s += g + '<rect x="55" y="70" width="10" height="40" rx="4" fill="#b07a4f"/>' +
+          '<circle cx="60" cy="56" r="32" fill="#7fce9f"/><circle cx="42" cy="62" r="18" fill="#8fddb4"/><circle cx="80" cy="62" r="18" fill="#8fddb4"/>';
+      } else {
+        s += g + '<rect x="54" y="64" width="12" height="46" rx="5" fill="#a86a40"/>' +
+          '<circle cx="60" cy="50" r="36" fill="#7fce9f"/><circle cx="38" cy="58" r="22" fill="#8fddb4"/><circle cx="84" cy="58" r="22" fill="#8fddb4"/><circle cx="60" cy="34" r="20" fill="#9fe3c0"/>' +
+          '<circle cx="50" cy="44" r="3.5" fill="#ff9ec4"/><circle cx="72" cy="46" r="3.5" fill="#ffd24d"/><circle cx="60" cy="34" r="3.5" fill="#ff9ec4"/><circle cx="44" cy="60" r="3.5" fill="#ffd24d"/><circle cx="78" cy="62" r="3.5" fill="#ff9ec4"/>';
+      }
+      s += "</svg>"; el.innerHTML = s;
+    }
+
+    function grantBadge(id) { var o = load("badges", []); if (o.indexOf(id) < 0) { o.push(id); save("badges", o); return true; } return false; }
+    function checkBadges() {
+      var owned = load("badges", []);
+      var ctx = { streak: calcStreak(), total: totalCheckins(), coins: load("coins", 0), gachaCount: load("gachaCount", 0) };
+      var newly = [];
+      BADGE_DEFS.forEach(function (b) { if (owned.indexOf(b.id) < 0 && b.test(ctx)) { owned.push(b.id); newly.push(b); } });
+      if (newly.length) save("badges", owned);
+      return newly;
+    }
+    function renderBadges() {
+      var wl = document.getElementById("badgeWall"); if (!wl) return;
+      var owned = load("badges", []);
+      wl.innerHTML = BADGE_DEFS.map(function (b) {
+        var has = owned.indexOf(b.id) >= 0;
+        return '<div class="badge' + (has ? "" : " locked") + '"><span class="b-ico">' + b.icon + '</span><span class="b-name">' + b.name + "</span></div>";
+      }).join("");
+    }
+    function renderGame() {
+      var total = totalCheckins();
+      var stage = treeStage(total);
+      drawTree(document.getElementById("treeBox"), stage);
+      var stEl = document.getElementById("treeStage"); if (stEl) stEl.textContent = TREE_NAMES[stage] + " · " + total + " 天";
+      var tipEl = document.getElementById("treeTip"); if (tipEl) tipEl.textContent = TREE_TIPS[stage];
+      var cEl = document.getElementById("coinNum"); if (cEl) cEl.textContent = load("coins", 0);
+      var btn = document.getElementById("gachaBtn");
+      var sub = document.getElementById("gachaSub");
+      if (btn) {
+        if (!isTodayCheckedIn()) { btn.disabled = false; btn.textContent = "🎰 抽今日奖励"; if (sub) sub.textContent = "先完成上方「今日打卡」，再来抽今日好运 🍀"; }
+        else if (load("lastGacha", "") === todayKey()) { btn.disabled = true; btn.textContent = "✅ 今日已抽"; if (sub) sub.textContent = "今日好运已领取，明天再来 🌟"; }
+        else { btn.disabled = false; btn.textContent = "🎰 抽今日奖励"; if (sub) sub.textContent = "已打卡！点击抽取今日好运 🍀"; }
+      }
+      renderBadges();
+    }
+    function rollGacha() {
+      if (!isTodayCheckedIn()) { toast("先完成上方「今日打卡」再来抽 🍀"); return; }
+      if (load("lastGacha", "") === todayKey()) { toast("今天的好运已经抽过啦 ✨"); return; }
+      var machine = document.getElementById("gachaMachine");
+      var btn = document.getElementById("gachaBtn");
+      if (btn) btn.disabled = true;
+      if (machine) machine.classList.add("rolling");
+      setTimeout(function () {
+        if (machine) { machine.classList.remove("rolling"); machine.classList.add("reveal"); }
+        var streak = calcStreak();
+        var gain = 8 + Math.floor(Math.random() * 18) + Math.min(streak, 12);
+        save("coins", load("coins", 0) + gain);
+        save("gachaCount", load("gachaCount", 0) + 1);
+        save("lastGacha", todayKey());
+        var q = GACHA_QUOTES[Math.floor(Math.random() * GACHA_QUOTES.length)];
+        var nb = checkBadges();
+        var rb = document.getElementById("rewardBox");
+        if (rb) {
+          var html = '<div class="rw-coin">+' + gain + " 💰 金币</div><div class=\"rw-quote\">“" + q + "”</div>";
+          if (nb.length) html += '<div class="rw-badge">🏅 解锁徽章：' + nb.map(function (b) { return b.icon + " " + b.name; }).join("、") + "</div>";
+          rb.innerHTML = html; rb.classList.add("show");
+        }
+        renderGame();
+        toast("🎉 恭喜抽中今日好运！");
+      }, 1000);
+    }
+    document.getElementById("gachaBtn").addEventListener("click", rollGacha);
+
+    /* 学习概览 */
+    function renderOverview() {
+      document.getElementById("quoteText").textContent = todayQuote();
+      /* 打卡连续天数 */
+      renderCheckin();
+      /* 打卡激励小游戏：徽章 + 成长树 + 扭蛋 */
+      checkBadges();
+      renderGame();
+      var rec = todayRec();
+      var studied = 0; for (var k in rec) if (rec[k] > 0) studied++;
+      var mistakes = load("mistakes", []), papers = load("papers", []);
+      var sg = document.getElementById("statGrid"); sg.innerHTML = "";
+      [{ ico: "⏱️", num: fmtDur(dayTotal(todayKey())), lbl: "今日学习时长" }, { ico: "📚", num: studied, lbl: "今日覆盖模块" }, { ico: "🗂️", num: mistakes.length, lbl: "累计错题" }, { ico: "📃", num: papers.length, lbl: "完成套卷" }]
+        .forEach(function (s) { var d = document.createElement("div"); d.className = "stat-card"; d.innerHTML = '<span class="ico">' + s.ico + '</span><span class="num">' + s.num + '</span><span class="lbl">' + s.lbl + "</span>"; sg.appendChild(d); });
+      renderCountdowns();
+      var pieItems = SUBJECTS.map(function (s) { return { name: s.name, value: rec[s.key] || 0, color: s.color }; });
+      drawPie(document.getElementById("pieChart"), document.getElementById("pieLegend"), pieItems, function (it) {
+        var total = pieItems.reduce(function (a, b) { return a + b.value; }, 0);
+        var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0";
+        openModal("🥧 " + it.name, '<div style="text-align:center;padding:10px 0;"><div style="font-size:40px;font-weight:800;color:' + it.color + '">' + fmtDur(it.value) + "</div><div style=\"margin-top:8px;color:#9a848d;\">占今日学习时长的 <b style=\"color:#ef7da3\">" + pct + "%</b></div></div>");
+      });
+      var wk = []; for (var i = 6; i >= 0; i--) { var d2 = new Date(); d2.setDate(d2.getDate() - i); wk.push({ label: "周" + WK[d2.getDay()], value: dayTotal(todayKey(d2)) / 3600 }); }
+      drawLine(document.getElementById("weekChart"), wk);
+      var now = new Date(), y = now.getFullYear(), mo = now.getMonth(), days = now.getDate(), mn = [];
+      for (var dd = 1; dd <= days; dd++) { var dk = y + "-" + pad(mo + 1) + "-" + pad(dd); mn.push({ label: "" + dd, value: dayTotal(dk) / 3600 }); }
+      drawLine(document.getElementById("monthChart"), mn);
+      renderStudyStats();
+      /* 今日复习任务提醒 */
+      (function renderReminder() {
+        var box = document.getElementById("reminderList"); if (!box) return;
+        var mistakes = load("mistakes", []), due = dueReviewCount(mistakes);
+        var reviews = load("reviews", []); var reviewedToday = reviews.some(function (r) { return r.date === todayKey(); });
+        var papers = load("papers", []); var paperToday = papers.some(function (p) { return p.date === todayKey(); });
+        var items = [];
+        items.push('<div class="reminder-item"><span class="dot' + (due > 0 ? "" : " ok") + '"></span>待复习错题 <span class="rm-num">' + due + '</span> 道' + (due > 0 ? "（点「复盘总结→每日学习复盘」查看艾宾浩斯计划）" : " · 已清空") + '</div>');
+        items.push('<div class="reminder-item"><span class="dot' + (reviewedToday ? " ok" : "") + '"></span>今日学习复盘 ' + (reviewedToday ? "✅ 已完成" : "⏳ 待完成") + '</div>');
+        items.push('<div class="reminder-item"><span class="dot' + (paperToday ? " ok" : "") + '"></span>今日套卷练习 ' + (paperToday ? "✅ 已录入" : "⏳ 未进行") + '</div>');
+        var mockCfg = load("mock_reminder", null);
+        if (mockCfg && mockCfg.items && mockCfg.items.length) {
+          var t0 = new Date(); t0.setHours(0, 0, 0, 0);
+          var upcoming = mockCfg.items.filter(function (m) { var tm = new Date(m.date + "T00:00:00"); var d = Math.round((tm - t0) / 86400000); return d >= 0 && d <= 7; })
+            .sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+          if (upcoming.length) {
+            var nm = upcoming[0];
+            items.push('<div class="reminder-item"><span class="dot"></span>近期模考 <b>' + esc(nm.name) + '</b> · ' + nm.date + (nm.time ? " " + nm.time : "") + (upcoming.length > 1 ? "（另有 " + (upcoming.length - 1) + " 场）" : "") + '</div>');
+          }
+        }
+        box.innerHTML = items.join("");
+      })();
+    }
+
+    /* 倒计时（参考图风格：emoji + 大号天数 + 副标题） */
+    function renderCountdowns() {
+      var list = load("countdowns", null);
+      if (!list) { list = []; save("countdowns", list); }
+      var box = document.getElementById("countdownList"); box.innerHTML = "";
+      if (!list.length) { var hint = document.createElement("div"); hint.className = "cd-hint"; hint.textContent = "还没有考试倒计时，点右侧「+ 添加倒计时」录入你自己的考试 📝"; box.appendChild(hint); }
+      list.forEach(function (c) {
+        var t = new Date(c.target + "T00:00:00"); var diff = Math.round((t - new Date(new Date().toDateString())) / 86400000);
+        var daysHtml = diff > 0 ? "<b>" + diff + "</b> 天" : (diff === 0 ? "<b>就是今天！</b>" : "已过去 <b>" + (-diff) + "</b> 天");
+        /* 根据名称自动选 emoji，也可后续让用户自定义 */
+        var icon = cdIconForName(c.name);
+        var card = document.createElement("div"); card.className = "cd-card";
+        card.style.background = cdGradient(c.color);
+        card.innerHTML = '<button class="cd-edit" title="编辑">✎</button>' +
+          '<div class="cd-icon">' + icon + '</div>' +
+          '<div class="cd-name">' + esc(c.name) + '</div>' +
+          '<div class="cd-days">' + daysHtml + '</div>' +
+          '<div class="cd-meta">目标日 ' + c.target + '</div>';
+        card.querySelector(".cd-edit").addEventListener("click", function () { editCountdown(c.id); });
+        box.appendChild(card);
+      });
+      var add = document.createElement("button"); add.className = "cd-add"; add.textContent = "+ 添加倒计时"; add.addEventListener("click", function () { editCountdown(null); }); box.appendChild(add);
+    }
+    function cdIconForName(name) {
+      if (!name) return "📅";
+      var n = name.toLowerCase();
+      if (n.indexOf("国考") >= 0) return "🇨🇳";
+      if (n.indexOf("省考") >= 0) return "🏛️";
+      if (n.indexOf("事业") >= 0) return "🏢";
+      if (n.indexOf("选调") >= 0) return "📋";
+      if (n.indexOf("公安") >= 0) return "👮";
+      if (n.indexOf("法检") >= 0) return "⚖️";
+      return "📅";
+    }
+    function cdGradient(color) {
+      var base = color || "#ef7da3";
+      return "linear-gradient(145deg, " + lighten(base, 35) + " 0%, " + lighten(base, 22) + " 50%, " + lighten(base, 12) + " 100%)";
+    }
+    function lighten(hex, pct) {
+      hex = hex.replace("#", "");
+      var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
+      r = Math.min(255, Math.round(r + (255 - r) * pct / 100));
+      g = Math.min(255, Math.round(g + (255 - g) * pct / 100));
+      b = Math.min(255, Math.round(b + (255 - b) * pct / 100));
+      return "#" + ((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1);
+    }
+
+    /* 学习时长统计（时间范围切换 + 汇总卡） */
+    var studyRange = "week";
+    function renderStudyStats() {
+      var summaryEl = document.getElementById("studySummary"); if (!summaryEl) return;
+      var d = daily(); var now = new Date(); var totalSec = 0; var maxDay = 0; var dayCount = 0;
+      var rangeDays;
+      if (studyRange === "week") rangeDays = 7;
+      else if (studyRange === "month") rangeDays = 30;
+      else rangeDays = 365;
+      for (var i = 0; i < rangeDays; i++) {
+        var d2 = new Date(now); d2.setDate(d2.getDate() - i); var dk = todayKey(d2);
+        var sec = dayTotal(dk); totalSec += sec; if (sec > 0) dayCount++;
+        if (sec > maxDay) maxDay = sec;
+      }
+      var hours = (totalSec / 3600).toFixed(1);
+      var avgMin = dayCount > 0 ? Math.round(totalSec / 60 / dayCount) : 0;
+      var maxMin = Math.round(maxDay / 60);
+      summaryEl.innerHTML =
+        '<div class="ss-card purple"><div class="ss-num">' + hours + '</div><div class="ss-lbl">总时长(小时)</div></div>' +
+        '<div class="ss-card pink"><div class="ss-num">' + avgMin + '</div><div class="ss-lbl">日均(分钟)</div></div>' +
+        '<div class="ss-card green"><div class="ss-num">' + maxMin + '</div><div class="ss-lbl">最长(分钟)</div></div>';
+    }
+    function editCountdown(id) {
+      var list = load("countdowns", []); var c = id ? list.filter(function (x) { return x.id === id; })[0] : null;
+      var isNew = !c; if (isNew) c = { id: uid(), name: "", target: todayKey(new Date(new Date().getTime() + 86400000 * 30)), color: "#ef7da3" };
+      openModal(isNew ? "添加倒计时" : "编辑倒计时",
+        '<div class="form-row"><label>名称</label><input id="cdName" value="' + (c.name || "") + '" placeholder="如：国考" /></div><div class="form-row"><label>目标日期</label><input type="date" id="cdTarget" value="' + c.target + '" /></div><div class="form-row"><label>标记色</label><input type="color" id="cdColor" value="' + (c.color || "#ef7da3") + '" style="height:42px;padding:4px;" /></div>',
+        '<button class="btn btn-line btn-sm" id="cdDel">删除</button><button class="btn btn-primary btn-sm" id="cdOk">保存</button>');
+      document.getElementById("cdDel").style.display = isNew ? "none" : "";
+      document.getElementById("cdDel").addEventListener("click", function () { if (confirm("确定删除该倒计时？")) { save("countdowns", list.filter(function (x) { return x.id !== id; })); closeModal(); renderCountdowns(); toast("已删除"); } });
+      document.getElementById("cdOk").addEventListener("click", function () { c.name = document.getElementById("cdName").value.trim() || "倒计时"; c.target = document.getElementById("cdTarget").value; c.color = document.getElementById("cdColor").value; var found = false; for (var i = 0; i < list.length; i++) { if (list[i].id === c.id) { list[i] = c; found = true; break; } } if (!found) list.push(c); save("countdowns", list); closeModal(); renderCountdowns(); toast("已保存"); });
+    }
+
+    /* 每日时政热点（AI 生成，按天缓存；密钥/端点由用户本地配置）
+       newsGen 作为「请求令牌」：每次本地命中缓存或重新发起请求时自增，
+       在途请求解析后发现令牌不匹配则丢弃结果，避免旧请求覆盖新内容。 */
+    var newsGen = 0;
+    /* 未配置 AI 时展示的示例内容（明确标注「示例」，配置后由实时热点替换） */
+    var SAMPLE_NEWS = [
+      "二十届三中全会部署进一步全面深化改革",
+      "高质量发展与因地制宜发展新质生产力",
+      "乡村振兴战略与粮食安全最新政策要点",
+      "共建「一带一路」国际合作新进展",
+      "高校毕业生就业与公考招录政策动态",
+      "《民法典》相关民生热点案例解读"
+    ];
+    /* ===== 模块学习概览 ===== */
+    function renderModuleOverview() {
+      var grid = document.getElementById("moduleOverviewGrid"); if (!grid) return;
+      var daily = load("daily", {});
+      var today = todayRec();
+      var items = SUBJECTS.map(function(s) {
+        var totalSec = 0;
+        Object.keys(daily).forEach(function(d) { totalSec += (daily[d][s.key] || 0); });
+        var todaySec = today ? (today[s.key] || 0) : 0;
+        var h = Math.floor(totalSec / 3600);
+        var m = Math.floor((totalSec % 3600) / 60);
+        var dur = h > 0 ? h + "h" + m + "m" : m + "分钟";
+        return { ico: s.ico, name: s.name, total: dur, today: todaySec, color: s.color };
+      });
+      grid.innerHTML = items.map(function(it) {
+        var barW = Math.min(100, Math.round(it.today / 36)); // 36 min = 100%
+        return '<div class="stat-card" style="border-left:4px solid ' + it.color + '">' +
+          '<div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">' +
+          '<span style="font-size:22px;">' + it.ico + '</span>' +
+          '<span style="font-weight:700;font-size:15px;">' + it.name + '</span></div>' +
+          '<div style="font-size:13px;color:var(--text-soft);">累计 ' + it.total + '</div>' +
+          '<div style="margin-top:4px;height:6px;background:var(--border);border-radius:3px;overflow:hidden;">' +
+          '<div style="height:100%;width:' + barW + '%;background:' + it.color + ';border-radius:3px;transition:width .3s;"></div></div>' +
+          '<div style="font-size:11px;color:var(--text-soft);margin-top:2px;">今日 ' + (it.today > 0 ? fmtDur(it.today) : "未学习") + '</div></div>';
+      }).join("");
+    }
+    window._goModulePage = function(id) { goPage(id); };
+    /* ===== 复盘总结概览 ===== */
+    function renderReviewOverview() {
+      var box = document.getElementById("reviewOverviewContent"); if (!box) return;
+      var reviews = load("reviews", []);
+      var mistakes = load("mistakes", []);
+      var due = dueReviewCount(mistakes);
+      var recentReviews = reviews.slice(-5).reverse();
+      var daily = load("daily", {});
+      var last7 = [];
+      for (var i = 0; i < 7; i++) {
+        var d = new Date(); d.setDate(d.getDate() - i);
+        var k = todayKey(d); last7.push(dayTotal(k));
+      }
+      var total7 = last7.reduce(function(a,b){return a+b;}, 0);
+      var avgMin = total7 > 0 ? Math.round(total7 / 7 / 60) : 0;
+      box.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-bottom:18px;">' +
+        '<div class="stat-card"><span class="ico">📝</span><span class="num">' + reviews.length + '</span><span class="lbl">复盘总数</span></div>' +
+        '<div class="stat-card"><span class="ico">🔄</span><span class="num">' + due + '</span><span class="lbl">今日待复习</span></div>' +
+        '<div class="stat-card"><span class="ico">⏱</span><span class="num">' + avgMin + '分钟</span><span class="lbl">近7天日均</span></div>' +
+        '</div>' +
+        (recentReviews.length ? '<h3 style="font-size:16px;margin-bottom:10px;">📋 近期复盘</h3>' +
+        recentReviews.map(function(r) {
+          return '<div class="news-card" style="margin-bottom:8px;border-left-color:' + REASON_COLORS[r.tag] + '"><div style="font-size:14px;font-weight:700;">' + r.date + ' · ' + (r.tag || "学习") + '</div>' +
+            '<div style="font-size:13px;color:var(--text-soft);margin-top:4px;">' + esc((r.problems || "").substring(0, 80) + (r.problems && r.problems.length > 80 ? "..." : "")) + '</div></div>';
+        }).join("") : '<div class="empty">还没有复盘记录，开始第一次复盘吧</div>');
+    }
+    /* ===== 套卷分析概览 ===== */
+    function renderAnalysisOverview() {
+      var box = document.getElementById("analysisOverviewContent"); if (!box) return;
+      var papers = load("papers", []);
+      var recent = papers.slice(-5).reverse();
+      if (!papers.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; return; }
+      var avgScore = Math.round(papers.reduce(function(s,p){return s+(p.score||0);},0) / papers.length);
+      var totalCorrect = 0, totalQuestions = 0;
+      papers.forEach(function(p) { if (p.modules) p.modules.forEach(function(m) { totalCorrect += correctOf(m); totalQuestions += (m.total||0); }); });
+      var avgRate = totalQuestions > 0 ? Math.round(totalCorrect / totalQuestions * 100) : 0;
+      box.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-bottom:18px;">' +
+        '<div class="stat-card"><span class="ico">📝</span><span class="num">' + papers.length + '</span><span class="lbl">试卷总数</span></div>' +
+        '<div class="stat-card"><span class="ico">🎯</span><span class="num">' + avgScore + '分</span><span class="lbl">平均得分</span></div>' +
+        '<div class="stat-card"><span class="ico">✅</span><span class="num">' + avgRate + '%</span><span class="lbl">平均正确率</span></div>' +
+        '</div>' +
+        '<h3 style="font-size:16px;margin-bottom:10px;">📊 近期试卷</h3>' +
+        recent.map(function(p) {
+          return '<div class="news-card" style="margin-bottom:8px;"><div style="font-size:14px;font-weight:700;">' + esc(p.name) + '</div>' +
+            '<div style="font-size:13px;color:var(--text-soft);margin-top:4px;">' + p.date + ' · 得分 ' + (p.score||0) + ' 分 · 时长 ' + (p.duration||0) + '分钟</div></div>';
+        }).join("");
+    }
+    function isFresh(pubDate, days) {
+      if (!pubDate) return false;
+      var t = Date.parse(String(pubDate).replace(/-/g, "/"));
+      if (isNaN(t)) return false;
+      return (Date.now() - t) <= days * 86400000;
+    }
+    /* ===== 时政：收藏 / 搜索 / 按月归档 / 分页 ===== */
+    var newsItems = []; var newsPage = 1; var NEWS_PAGE_SIZE = 8; var newsKw = ""; var newsFavMode = false; var newsArchiveMonth = 0;
+    function loadNewsFav() { return load("news_fav", []); }
+    function isNewsFav(text) { return loadNewsFav().some(function (f) { return f.title === text; }); }
+    function toggleNewsFav(text) {
+      var list = loadNewsFav();
+      var idx = -1; list.forEach(function (f, i) { if (f.title === text) idx = i; });
+      if (idx >= 0) { list.splice(idx, 1); toast("已取消收藏"); }
+      else { list.push({ title: text, cat: classifyNews(text), savedAt: new Date().toISOString() }); toast("★ 已收藏"); }
+      save("news_fav", list);
+      renderNewsList();
+    }
+    function renderNewsList() {
+      var box = document.getElementById("newsBox"); if (!box) return;
+      var items;
+      if (newsArchiveMonth > 0) items = getMonthlyNews(newsArchiveMonth);
+      else items = newsItems || [];
+      var favSet = loadNewsFav();
+      if (newsFavMode) items = items.filter(function (t) { return favSet.some(function (f) { return f.title === nTitle(t); }); });
+      if (newsKw) { var kw = newsKw.toLowerCase(); items = items.filter(function (t) { return nTitle(t).toLowerCase().indexOf(kw) >= 0; }); }
+      if (!items.length) {
+        box.innerHTML = '<div class="news-empty">' + (newsFavMode ? "还没有收藏的时政，点卡片右上角 ★ 收藏" : (newsArchiveMonth > 0 ? "该月暂无归档要点" : "没有匹配的时政热点")) + '</div>';
+        var np0 = document.getElementById("newsPager"); if (np0) np0.innerHTML = "";
+        var up0 = document.getElementById("newsUpdated"); if (up0) up0.textContent = newsFavMode ? "我的收藏" : (newsArchiveMonth > 0 ? "按月归档 · " + newsArchiveMonth + "月" : "");
+        return;
+      }
+      var totalPages = Math.max(1, Math.ceil(items.length / NEWS_PAGE_SIZE));
+      if (newsPage > totalPages) newsPage = totalPages;
+      var pageItems = items.slice((newsPage - 1) * NEWS_PAGE_SIZE, newsPage * NEWS_PAGE_SIZE);
+      var foot = (newsArchiveMonth === 0 && !newsFavMode) ? '<div class="news-sample-foot"><button class="btn btn-line btn-sm" id="newsGotoSettings">⚙ 可选：升级为 AI 自动生成</button></div>' : "";
+      box.innerHTML = pageItems.map(function (t, i) { return cardForNews(t, (newsPage - 1) * NEWS_PAGE_SIZE + i); }).join("") + foot;
+      wireNewsClicks(box);
+      var gs = document.getElementById("newsGotoSettings"); if (gs) gs.addEventListener("click", function () { document.getElementById("newsSettings").click(); });
+      var pager = document.getElementById("newsPager");
+      if (pager) {
+        if (totalPages <= 1) pager.innerHTML = "";
+        else pager.innerHTML = '<button id="newsPrev"' + (newsPage <= 1 ? " disabled" : "") + '>‹ 上一页</button><span class="pager-info">第 ' + newsPage + ' / ' + totalPages + ' 页</span><button id="newsNext"' + (newsPage >= totalPages ? " disabled" : "") + '>下一页 ›</button>';
+        var prev = document.getElementById("newsPrev"), next = document.getElementById("newsNext");
+        if (prev) prev.addEventListener("click", function () { if (newsPage > 1) { newsPage--; renderNewsList(); } });
+        if (next) next.addEventListener("click", function () { if (newsPage < totalPages) { newsPage++; renderNewsList(); } });
+      }
+      var up = document.getElementById("newsUpdated"); if (up) up.textContent = newsFavMode ? ("我的收藏 · " + items.length + " 条") : (newsArchiveMonth > 0 ? ("按月归档 · " + newsArchiveMonth + "月") : "");
+    }
+    /* 内置按月时政要点：开箱即用、零联网、永远可用（B 方案默认） */
+    function paintBuiltinNews() {
+      newsItems = getMonthlyNews(); newsArchiveMonth = 0; newsFavMode = false; newsPage = 1;
+      renderNewsList();
+      var up = document.getElementById("newsUpdated"); if (up) up.textContent = "内置要点 · 按月整理";
+    }
+    function renderNews() {
+      if (newsFavMode || newsArchiveMonth > 0) { renderNewsList(); return; }
+      var box = document.getElementById("newsBox"); if (!box) return;
+      var updated = document.getElementById("newsUpdated");
+      var data = load("ai_news", null);
+      if (data && data.date === todayKey()) { newsGen++; paintNews(data); if (updated) updated.textContent = "更新于 " + (data.time || ""); return; }
+      var cfg = load("ai_cfg", null);
+      if (cfg && cfg.key && cfg.endpoint) {
+        if (box.querySelector(".news-loading")) return;
+        var fail = box.querySelector(".news-empty"); if (fail && fail.textContent.indexOf("生成失败") >= 0) return;
+        newsGen++; var g = newsGen;
+        box.innerHTML = '<div class="news-loading">AI 正在生成今日时政热点…</div>'; if (updated) updated.textContent = "";
+        fetchNews(g);
+        return;
+      }
+      /* 非 AI 模式：优先用 GitHub Actions 定时聚合的多源 JSON（中国新闻网 + 百度热搜） */
+      var agg = load("aggregated_news", null);
+      if (agg && agg.date === todayKey() && agg.items && agg.items.length) {
+        newsGen++; paintNews(agg);
+        if (updated) updated.textContent = "来源: " + (agg.source_summary || "多源聚合") + " · " + (agg.time || "");
+        return;
+      }
+      fetchAggregatedJson(function (ok) {
+        if (ok) return; /* 已在内部 paint */
+        /* 回退：实时 RSS（中国新闻网），内置要点作兜底 */
+        var rssCache = load("rss_news", null);
+        if (rssCache && rssCache.date === todayKey() && rssCache.fresh) {
+          paintNews(rssCache);
+          if (updated) updated.textContent = "来源: " + (rssCache.source || "RSS") + " · " + (rssCache.time || "");
+          return;
+        }
+        paintBuiltinNews();          /* 先即时显示，避免空白 */
+        fetchRSSNews();              /* 后台拉实时，抓到新鲜内容再替换 */
+      });
+    }
+    /* 拉取仓库内聚合 JSON（相对路径，兼容 GitHub Pages 子目录） */
+    function fetchAggregatedJson(cb) {
+      fetch("news-data.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (j) {
+          if (!j || !j.items || !j.items.length) throw new Error("empty");
+          var items = j.items.map(function (it) { return { title: it.title, url: it.url || "", source: it.source || "" }; });
+          var data = { date: j.date, time: j.time, source_summary: j.source_summary, items: items };
+          save("aggregated_news", data); newsGen++; paintNews(data);
+          var up = document.getElementById("newsUpdated"); if (up) up.textContent = "来源: " + (j.source_summary || "多源聚合") + " · " + (j.time || "");
+          cb(true);
+        }).catch(function () { cb(false); });
+    }
+    /* ===== RSS 抓取（中国新闻网实时源，仅近 14 天内容才采用，避免旧闻） ===== */
+    /* ===== RSS 抓取：多源 + 跨域代理兜底，聚焦公考考点，保留原文链接 ===== */
+    /* 解析 RSS/Atom XML（经由跨域代理拿到的原始文本）为统一结构 */
+    function parseRssXml(xml) {
+      var out = [];
+      try {
+        var doc = new DOMParser().parseFromString(xml, "text/xml");
+        var nodes = doc.querySelectorAll("item, entry");
+        Array.prototype.forEach.call(nodes, function (n) {
+          var tEl = n.querySelector("title"); var title = tEl ? tEl.textContent : "";
+          var lEl = n.querySelector("link");
+          var link = lEl ? (lEl.getAttribute("href") || lEl.textContent || "") : "";
+          var pEl = n.querySelector("pubDate") || n.querySelector("published") || n.querySelector("updated");
+          var pub = pEl ? pEl.textContent : "";
+          if (title) out.push({ title: title, link: link, pubDate: pub });
+        });
+      } catch (e) {}
+      return out;
+    }
+    function withTimeout(promise, ms) {
+      var ctrl = new AbortController();
+      var t = setTimeout(function () { ctrl.abort(); }, ms || 10000);
+      return Promise.race([promise, new Promise(function (_, rej) { setTimeout(function () { rej(new Error("timeout")); }, ms || 10000); })]).then(function (v) { clearTimeout(t); return v; }, function (e) { clearTimeout(t); throw e; });
+    }
+    /* 数据源：同一订阅源走「跨域代理(XML)」与「rss2json(JSON)」两条路，再叠加一个国际源，串行兜底 */
+    var RSS_SOURCES = [
+      { name: "中国新闻网", fetch: function () { return withTimeout(fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://www.chinanews.com.cn/rss/scroll-news.xml"))).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); }).then(parseRssXml); } },
+      { name: "中国新闻网", fetch: function () { return withTimeout(fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.chinanews.com.cn/rss/scroll-news.xml"))).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }).then(function (j) { if (j.status !== "ok" || !j.items) throw new Error("no items"); return j.items.map(function (it) { return { title: it.title, link: it.link, pubDate: it.pubDate }; }); }); } },
+      { name: "BBC中文", fetch: function () { return withTimeout(fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"))).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); }).then(parseRssXml); } }
+    ];
+    function fetchRSSNews() {
+      var sources = RSS_SOURCES.slice();
+      function tryNext() {
+        if (!sources.length) { paintBuiltinNews(); toast("实时要闻抓取失败，已显示内置要点"); return; }
+        var src = sources.shift();
+        src.fetch().then(function (raw) {
+          var fresh = raw.filter(function (it) { return isFresh(it.pubDate, 14); });
+          var parsed = fresh.map(function (it) {
+            var title = String(it.title || "").replace(/<[^>]+>/g, "").replace(/\[.*?\]/g, "").replace(/^\d{4}-\d{2}-\d{2}\s*/, "").trim();
+            return { title: title, url: it.link || "", source: src.name, pubDate: it.pubDate, score: newsScore(title) };
+          }).filter(function (o) { return o.title.length > 8; });
+          /* 聚焦公考考点：相关度降序，仅采用相关度>=1 的条目 */
+          var relevant = parsed.slice().sort(function (a, b) { return b.score - a.score; }).filter(function (o) { return o.score >= 1; });
+          if (relevant.length >= 3) {
+            var data = { date: todayKey(), time: new Date().toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" }), items: relevant.slice(0, 8), source: src.name, fresh: true };
+            save("rss_news", data); newsGen++; paintNews(data);
+            var updated = document.getElementById("newsUpdated"); if (updated) updated.textContent = "来源: " + src.name + " · 聚焦公考考点 · " + data.time;
+            return;
+          }
+          tryNext();
+        }).catch(function () { tryNext(); });
+      }
+      tryNext();
+    }
+    function showSampleNews() { paintBuiltinNews(); }
+    /* ===== 按月份的内置时政模板 ===== */
+    function getMonthlyNews() {
+      var m = new Date().getMonth() + 1;
+      var templates = {
+        1: ["中央一号文件聚焦乡村振兴与农业农村现代化","全国两会即将召开 · 政府工作报告起草进入关键阶段","国务院常务会议部署稳就业促消费政策措施","2026年全国公务员招录计划陆续发布","十四五规划收官之年各项部署加快落地","城乡居民基本医疗保险待遇稳步提升 · 民生保障再加力","科技创新引领新质生产力 · 战略性新兴产业加快发展","冬季能源保供与困难群众兜底帮扶工作部署"],
+        2: ["全国两会开幕 · 政府工作报告发布年度经济社会发展目标","两会代表委员热议新质生产力与高质量发展","国务院机构改革方案提交审议","高校毕业生就业创业政策进一步优化","春节消费数据亮眼 · 国内大循环活力增强","中央一号文件落地 · 粮食安全与种业振兴持续推进","高水平对外开放稳步推进 · 外资准入负面清单再缩减","人工智能大模型加速应用 · 数字经济发展新动能"],
+        3: ["两会闭幕 · 各项决议表决通过","国务院印发《推动大规模设备更新和消费品以旧换新行动方案》","公务员省考联考笔试举行 · 多地招录规模扩大","春季农业生产全面推进 · 粮食安全政策持续加力","政府工作报告解读 · 全年经济社会发展主要预期目标明确","营商环境改革深化 · 民营经济促进法立法推进","碳达峰碳中和稳步推进 · 绿色低碳转型加快","民生实事清单发布 · 养老托育服务体系建设加力"],
+        4: ["一季度经济数据发布 · GDP增长符合预期","数字中国建设峰会召开 · 数字经济成为增长新引擎","国务院常务会议研究优化营商环境新举措","多地事业单位招聘启动 · 基层岗位需求增加","清明节缅怀英烈 · 红色文化与爱国主义教育升温","安全生产治本攻坚行动深入开展","高水平对外开放 · 自贸试验区制度创新提速","乡村振兴示范县建设推进 · 城乡融合发展迈出坚实步伐"],
+        5: ["五四青年节 · 习近平总书记寄语新时代青年","全国高考备考进入冲刺阶段 · 教育改革持续推进","中国—中亚峰会成果落地 · 共建一带一路深化合作","国务院印发促进民营经济发展壮大若干措施","五一假期文旅消费火热 · 服务消费潜力释放","科技自立自强 · 关键核心技术攻关取得新突破","就业优先政策持续发力 · 重点群体就业有保障","文化和自然遗产日 · 中华优秀传统文化传承创新发展"],
+        6: ["全国高考举行 · 千万考生奔赴考场","国务院常务会议部署防汛抗旱工作","上半年经济形势分析会召开 · 高质量发展扎实推进","公务员面试陆续开展 · 结构化面试技巧受关注","安全生产月活动启动 · 重点领域风险隐患排查整治","乡村振兴促进法实施成效显著 · 农村集体经济发展壮大","高校毕业生就业季 · 政策性岗位扩容稳就业","六五环境日 · 生态文明建设和生态环境保护持续推进"],
+        7: ["庆祝建党105周年 · 党的建设新的伟大工程深入推进","上半年经济数据发布 · 经济运行总体平稳","二十届三中全会筹备工作推进 · 改革议题引关注","高校毕业生就业季 · 多地出台就业扶持政策","民生保障网越织越密 · 社保医保覆盖面持续扩大","科技自立自强步伐加快 · 航天与重大科技基础设施捷报频传","防汛救灾与应急管理体系不断完善","全面深化改革开放 · 统一大市场建设迈出实质性步伐"],
+        8: ["国务院常务会议部署下半年经济工作","秋季开学准备工作启动 · 教育公平持续推进","粮食产量有望再创新高 · 农业现代化成效显著","国家公务员考试备考进入黄金期","建军节 · 国防和军队现代化建设迈上新台阶","科技创新驱动产业升级 · 专精特新企业培育壮大","民生改善实事落地 · 老旧小区改造与保障性住房建设加力","乡村振兴与数字乡村建设深度融合"],
+        9: ["中国国际服务贸易交易会举办 · 开放型经济新体制加快构建","二十届三中全会召开 · 进一步全面深化改革","教师节表彰优秀教师 · 尊师重教氛围浓厚","国考公告即将发布 · 考生关注职位表与报考条件","中秋佳节 · 传统文化与消费促进同频共振","网络安全宣传周 · 数据安全与个人信息保护持续强化","高质量发展扎实推进 · 现代化产业体系建设加快","基层治理能力提升 · 党建引领城乡社区治理创新"],
+        10:["庆祝中华人民共和国成立77周年","国家公务员考试公告发布 · 报名即将开始","二十届三中全会精神学习宣传贯彻","秋粮收购全面展开 · 粮食安全保障有力","国庆假期消费数据出炉 · 内需潜力持续释放","科技自立自强重大成果集中涌现","民生保障提标扩面 · 养老服务体系建设提速","一带一路高质量发展 · 高水平对外开放新格局"],
+        11:["国考报名截止 · 报名人数再创新高","进博会成功举办 · 高水平对外开放持续推进","国务院常务会议研究明年经济社会发展思路","冬季供暖保障工作部署","双十一彰显消费韧性 · 实体经济与数字经济深度融合","科技创新赋能新质生产力 · 未来产业布局加快","乡村振兴成果巩固 · 防止返贫监测帮扶机制健全","对外开放持续深化 · 自贸协定朋友圈不断扩大"],
+        12:["国考笔试举行 · 数百万考生参加","中央经济工作会议召开 · 部署明年经济工作","年度十大新闻盘点 · 时政大事回顾","新年贺词发布 · 展望2027年奋斗目标","全年经济数据收官 · 高质量发展迈出坚实步伐","民生实事年度盘点 · 群众获得感幸福感增强","法治中国建设稳步推进 · 重点领域立法不断完善","全面深化改革开放总结部署 · 中国式现代化行稳致远"]
+      };
+      return templates[m] || templates[1];
+    }
+    /* 新闻条目归一化：兼容「纯标题字符串」与「{title,url,source} 对象」 */
+    function nTitle(x) { return typeof x === "string" ? x : (x && x.title) || ""; }
+    function nUrl(x) { return typeof x === "string" ? "" : (x && x.url) || ""; }
+    function nSource(x) { return typeof x === "string" ? "" : (x && x.source) || ""; }
+    /* 考点自动标注：命中具体考试类型就标具体类型，否则默认标「申论素材」（当前时政热点本身就是申论素材来源） */
+    function examTags(title) {
+      var t = (title || "").toLowerCase();
+      var out = [];
+      if (/公务员|国考|国家公务员|行测|申论|常识判断|职位表|报名条件|笔试|面试/.test(t)) out.push({ k: "国考", e: "gk" });
+      if (/省考|联考|乡镇公务员|选调生|市考|本省/.test(t)) out.push({ k: "省考", e: "sk" });
+      if (/事业单位|教师招聘|三支一扶|军队文职|社区工作者|国企|卫健/.test(t)) out.push({ k: "事业单位", e: "sy" });
+      if (!out.length) out.push({ k: "申论素材", e: "ss" });
+      return out;
+    }
+    function classifyNews(text) {
+      var t = text.toLowerCase();
+      if (/外交|国际|联合国|美国|俄|欧盟|日韩|中东|北约|制裁|冲突|峰会|访华/.test(t)) return "international";
+      if (/政策|国务院|发改委|人社|编制|公务员|考试|申论|行测|公告|招录|减税|改革|立法|修订|条例/.test(t)) return "policy";
+      if (/经济|GDP|增速|通胀|贸易|供应链|产业|投资|金融|股市|货币|利率|就业|收入/.test(t)) return "economy";
+      if (/科技|AI|人工智能|芯片|半导体|5G|6G|航天|卫星|数据|数字化|量子|新能源|电池/.test(t)) return "tech";
+      if (/社会|民生|养老|医疗|教育|住房|消费|环保|碳|污染|食品安全|交通|人口/.test(t)) return "society";
+      return "hot";
+    }
+    /* 公考时政相关度打分：命中的考点关键词越多分越高，用于聚焦筛选 */
+    function newsScore(text) {
+      var t = text.toLowerCase();
+      var rules = [
+        /政策|国务院|发改委|人大|政协|两会|三中|中央|改革|立法|修订|条例|公务员|编制|招录|考试|申论|行测|公告|印发|部署|会议|决议/,
+        /经济|gdp|增速|通胀|贸易|产业|投资|金融|货币|利率|就业|收入|消费|税收|财政|贷款|市场/,
+        /民生|养老|医疗|教育|住房|环保|碳|污染|食品安全|交通|人口|乡村振兴|农业农村|兜底/,
+        /外交|国际|联合国|美国|俄|欧盟|日韩|中东|北约|制裁|冲突|峰会|访华|一带一路|中亚/,
+        /科技|ai|人工智能|芯片|半导体|航天|卫星|量子|新能源|数字化|创新|数据/,
+        /落马|被查|反腐|纪律|通报/
+      ];
+      var s = 0; rules.forEach(function (re) { if (re.test(t)) s++; }); return s;
+    }
+    function highlightText(text) {
+      var map = [
+        [/公务员/g, '<span class="nc-keyword">公务员</span>'],
+        [/考试/g, '<span class="nc-keyword">考试</span>'],
+        [/政策/g, '<span class="nc-keyword">政策</span>'],
+        [/改革/g, '<span class="nc-keyword">改革</span>'],
+        [/就业/g, '<span class="nc-keyword">就业</span>'],
+        [/经济/g, '<span class="nc-keyword">经济</span>'],
+        [/科技/g, '<span class="nc-keyword">科技</span>'],
+        [/民生/g, '<span class="nc-keyword">民生</span>'],
+        [/教育/g, '<span class="nc-keyword">教育</span>'],
+        [/医疗/g, '<span class="nc-keyword">医疗</span>'],
+        [/环保/g, '<span class="nc-keyword">环保</span>'],
+        [/AI|人工智能/g, '<span class="nc-keyword">AI</span>'],
+        [/碳/g, '<span class="nc-keyword">碳</span>'],
+        [/新能源/g, '<span class="nc-keyword">新能源</span>']
+      ];
+      var out = esc(text);
+      map.forEach(function (m) { out = out.replace(m[0], m[1]); });
+      return out;
+    }
+    function cardForNews(item, idx) {
+      var text = nTitle(item);
+      var url = nUrl(item);
+      var src = nSource(item);
+      var cat = classifyNews(text);
+      var tagLabels = { policy: "政策", international: "国际", society: "社会", economy: "经济", tech: "科技", hot: "热点" };
+      var dateLabel = (function () {
+        var m = text.match(/(\d{1,2})月(\d{1,2})日?/);
+        if (m) return m[1] + "/" + m[2];
+        return "今日";
+      })();
+      var fav = isNewsFav(text);
+      var exams = examTags(text);
+      var examHtml = exams.map(function (x) { return '<span class="nc-exam e-' + x.e + '">' + x.k + '</span>'; }).join("");
+      var srcHtml = src ? '<span class="nc-src">📰 ' + esc(src) + '</span>' : "";
+      var linkHtml = url ? '<a class="nc-link" href="' + escAttr(url) + '" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">查看原文 →</a>' : "";
+      return '<div class="news-card' + (fav ? " fav" : "") + '" data-news-idx="' + (idx||0) + '" data-news-text="' + escAttr(text) + '" data-news-cat="' + cat + '">' +
+        '<button class="news-star' + (fav ? " on" : "") + '" data-news-fav="' + escAttr(text) + '" title="收藏">★</button>' +
+        '<span class="nc-date-tag">' + dateLabel + '</span>' +
+        '<span class="nc-tag ' + cat + '">' + (tagLabels[cat] || "热点") + '</span>' +
+        (examHtml ? '<span class="nc-exams">' + examHtml + '</span>' : "") +
+        '<div class="nc-body">' + highlightText(text) + '</div>' +
+        '<div class="nc-meta">' + (["政策","国际"].indexOf(tagLabels[cat]) >= 0 ? "📋 重要时政 · 可能成为考点" : "🔥 值得关注的动态") + srcHtml + '</div>' +
+        (linkHtml ? '<div class="nc-foot">' + linkHtml + '</div>' : "") +
+        '</div>';
+    }
+    function escAttr(s) { return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+    function genNewsDetail(title, cat) {
+      var catLabels = { policy: "政策文件", international: "国际关系", society: "社会民生", economy: "经济动态", tech: "科技创新", hot: "热点事件" };
+      var catLabel = catLabels[cat] || "时政热点";
+      var para = generateExcerpt(title, cat);
+      var analysis = [
+        "📌 本条属于「" + catLabel + "」类时政，在公务员考试（行测常识判断 / 申论材料）中属于高频命题方向。",
+        "📖 备考建议：关注相关官方文件的全文表述，熟记关键数据、时间节点和责任主体，申论写作中可引用作为论据。",
+        "✍️ 可能命题角度："
+      ];
+      var angles = [];
+      if (cat === "policy") angles = ["政策背景与出台目的", "与以往同类政策的对比变化", "对基层治理 / 民生的实际影响", "数据指标与量化目标"];
+      else if (cat === "international") angles = ["中国的外交立场与核心利益", "对一带一路 / 全球治理的影响", "与国内政策（如双循环）的联动", "申论中可作为国际视野类论据"];
+      else if (cat === "economy") angles = ["经济数据背后的结构性问题", "宏观调控手段与政策工具箱", "对就业 / 收入 / 消费的传导路径", "与高质量发展 / 新质生产力的关联"];
+      else if (cat === "society") angles = ["社会问题的深层原因分析", "政府应对措施与公共服务供给", "法治保障与制度建设", "基层治理创新的典型案例"];
+      else if (cat === "tech") angles = ["技术突破的战略意义", "产业链自主可控与安全", "科技伦理与法规建设", "与数字中国 / 智慧城市的关系"];
+      else angles = ["事件的背景与来龙去脉", "各方的立场与回应", "事件折射出的社会 / 制度问题", "对考公人群的启示与思考"];
+      var html = '<div style="padding:4px 0;line-height:1.8;font-size:15px;">';
+      html += '<p style="margin-bottom:10px;font-size:16px;font-weight:700;color:#c24d7e;">' + esc(title) + '</p>';
+      html += '<span class="nc-tag ' + cat + '" style="margin-bottom:12px;display:inline-block;">' + (catLabels[cat] || "热点") + '</span>';
+      var source = extractSource(para);
+      html += '<div style="margin:8px 0 16px;padding:14px 16px;background:#fffbfc;border-left:3px solid var(--accent);border-radius:0 10px 10px 0;font-size:14px;color:#5a434c;line-height:1.9;">' + highlightText(para) + '</div>';
+      html += '<div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;font-size:13px;">' +
+        '<span style="background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:999px;font-weight:700;">' + esc(source) + '</span>' +
+        '<span style="color:var(--text-soft);">· 仅供参考学习，建议查阅原文</span></div>';
+      /* 申论素材：从段落中提取可用于申论的好词好句 */
+      var mat = generateMaterial(title, cat);
+      if (mat.length) {
+        html += '<div style="margin:12px 0 16px;padding:14px 16px;background:linear-gradient(135deg,#fef9e7,#fff7f0);border:1px solid rgba(255,193,7,.25);border-radius:12px;">' +
+          '<div style="font-size:14px;font-weight:800;color:#b8860b;margin-bottom:10px;">✍️ 申论素材积累</div>' +
+          mat.map(function (s, i) { return '<div style="margin:6px 0;padding:6px 10px;background:rgba(255,255,255,.7);border-radius:8px;font-size:13px;color:#5a434c;line-height:1.7;display:flex;gap:8px;"><span style="color:#d4920a;font-weight:900;flex:0 0 auto;">' + (i+1) + '.</span><span>' + highlightText(s) + '</span></div>'; }).join("") +
+          '</div>';
+      }
+      html += analysis.map(function (a) { return '<p style="margin:8px 0;">' + a + '</p>'; }).join("");
+      html += '<ul style="margin:6px 0 0 18px;list-style-type:disc;">' + angles.map(function (a) { return '<li style="margin:4px 0;">' + a + '</li>'; }).join("") + '</ul>';
+      html += '<p style="margin-top:14px;padding:10px 12px;background:var(--accent-soft);border-radius:10px;font-size:13px;color:#a05b7d;">💡 提示：上方段落为 AI 基于主题生成的参考性内容，建议查阅官方原文获取完整信息。配置 AI 后可获取每日实时热点与深度解析。</p>';
+      html += '</div>';
+      return html;
+    }
+    function extractSource(text) {
+      var sources = [
+        { re: /学习强国/, name: "学习强国" },
+        { re: /半月谈/, name: "半月谈" }
+      ];
+      for (var i = 0; i < sources.length; i++) { if (sources[i].re.test(text)) return sources[i].name; }
+      return "学习强国";
+    }
+    function generateExcerpt(title, cat) {
+      var excerpts = {
+        policy: [
+          "【学习强国】 {title}于近日正式公布。文件明确提出，要坚持以人民为中心的发展思想，统筹推进各项重点任务，确保政策红利精准落地。相关负责人表示，此次部署是在深入调研、广泛征求意见基础上形成的，旨在破解当前发展中的瓶颈问题，为高质量发展提供制度保障。",
+          "【半月谈】 记者调研发现，围绕{title}，各地已涌现出一批典型经验和创新做法。报道指出，基层干部和群众普遍认为政策贴近实际、针对性强，但在落实中仍需打通最后一公里。专家建议应加强督导评估，及时总结推广好经验好做法。",
+          "【学习强国】 刊发重磅文章深入解读{title}。文章指出，要站在战略和全局的高度，充分认识此项工作的极端重要性，切实增强责任感使命感紧迫感。要注重系统性、整体性、协同性，统筹推进各项目标任务，确保党中央决策部署不折不扣落到实处。",
+          "【半月谈】 {title}是当前和今后一个时期的重要政治任务。文章强调，各级党委政府要深刻认识其重大意义，准确把握核心要义，切实把思想和行动统一到中央决策部署上来。新政策在继承以往成功经验的基础上，针对新形势新任务作出了重要调整，展现出鲜明的时代特色和问题导向。"
+        ],
+        international: [
+          "【学习强国】 关于{title}的最新进展引发国际社会广泛关注。外交部发言人在例行记者会上表示，中方一贯坚持独立自主的和平外交政策，主张通过对话协商解决分歧，维护以联合国为核心的国际体系和以国际法为基础的国际秩序。观察人士指出，中国的立场体现了负责任大国的担当。",
+          "【半月谈】 发表评论文章指出，{title}再次证明了中国在国际事务中发挥着越来越重要的作用。面对百年未有之大变局，中国始终做世界和平的建设者、全球发展的贡献者、国际秩序的维护者，为动荡变革的世界注入了确定性和稳定性。",
+          "【学习强国】 刊发社评指出，{title}是当前国际局势中的重要风向标。评论认为，要准确判断国际力量对比变化，坚持底线思维和极限思维，牢牢把握发展主动权。在复杂博弈中，保持战略定力尤为重要。"
+        ],
+        economy: [
+          "【半月谈】 {title}正成为推动高质量发展的新引擎。今年以来，各地各部门积极落实中央经济工作会议精神，在扩大内需、优化供给、深化改革等方面持续发力。权威人士指出，要完整准确全面贯彻新发展理念，加快构建新发展格局。",
+          "【学习强国】 刊发述评指出，{title}反映了我国经济稳中向好的基本面没有改变。数据显示，多项先行指标持续回暖，经营主体活力不断增强。我国经济韧性强、潜力大、回旋空间广，长期向好的趋势不会改变。",
+          "【半月谈】 刊文分析{title}背后的深层逻辑。文章指出，经济数据的波动是结构调整过程中的正常现象，要透过短期变化看到长期趋势。当前我国经济发展质量稳步提升，新质生产力加快形成，为后续增长积蓄了力量。",
+          "【学习强国】 转载经济专家解读文章指出，{title}释放出明确的政策信号。要把实施扩大内需战略同深化供给侧结构性改革有机结合起来，增强国内大循环内生动力和可靠性，提升国际循环质量和水平。"
+        ],
+        society: [
+          "【半月谈】 {title}是当前社会治理领域的一项重要工作。近年来，各地坚持以人民为中心，不断探索创新治理模式，在保障和改善民生方面取得了显著成效。有关部门负责人表示，将持续关注群众急难愁盼问题，用心用情用力解决好群众的操心事、烦心事、揪心事。",
+          "【学习强国】 报道了{title}的最新进展。报道指出，各地坚持问题导向，聚焦民生痛点，推出了一系列务实举措，取得了阶段性成效。下一步将持续加大投入力度，完善长效机制，不断提升人民群众的获得感、幸福感、安全感。",
+          "【半月谈】 记者深入基层采访发现，{title}在广大群众中引发了热烈讨论。多位受访者表示，希望政策能够更加精准地回应群众需求，在就业创业、住房保障、子女教育等方面给予更多支持。有关部门已表示将认真研究吸纳社会各界的意见建议。",
+          "【学习强国】 刊文指出，{title}涉及面广、社会关注度高。要从法治层面加强制度供给，完善相关法律法规，确保各项工作在法治轨道上运行。应加强部门协同联动，形成工作合力，推动问题从根本上得到解决。"
+        ],
+        tech: [
+          "【半月谈】 {title}取得重大突破，相关成果已在国际顶级期刊发表。研究团队负责人介绍，该项技术历经多年攻关，攻克了多项关键技术难题，实现了从跟跑到并跑再到领跑的跨越。业内专家评价称，这一成果对于提升我国核心竞争力具有里程碑式意义。",
+          "【学习强国】 {title}近日正式发布。工信部相关负责人表示，这是我国推进科技自立自强取得的又一重要成果。该项技术已在多个领域展开应用试点，效果显著。要抓住新一轮科技革命和产业变革机遇，加快实现高水平科技自立自强。",
+          "【半月谈】 转载科技前沿报道指出，{title}标志着我国在关键核心技术领域迈出了重要一步。科技是第一生产力，创新是第一动力。要坚决打赢关键核心技术攻坚战，把科技的命脉牢牢掌握在自己手中。",
+          "【学习强国】 刊发署名文章论述{title}的战略意义。文章指出，科技自立自强是国家强盛之基、安全之要。面对新一轮科技革命和产业变革，必须增强忧患意识，敏锐把握世界科技创新发展趋势。"
+        ],
+        hot: [
+          "【学习强国】 综合多家媒体报道，{title}近日成为社会关注焦点。事件的起因和发展脉络逐渐清晰，各方观点交锋激烈。有专家指出，这一事件反映出当前社会在快速发展过程中面临的一些共性问题，值得深入思考和探讨。",
+          "【半月谈】 发表评论指出，{title}不仅是一个孤立的新闻事件，更是一面镜子，折射出社会治理中的短板和不足。评论呼吁，要以开放包容的心态看待社会热点，以法治思维和法治方式化解矛盾，推动社会在解决问题中不断进步。",
+          "【学习强国】 刊发评论文章认为，{title}启示我们，要始终保持清醒头脑，坚持问题导向，在应对挑战中把握机遇。越是面对复杂局面，越要坚定信心、保持定力，集中精力办好自己的事。",
+          "【半月谈】 记者调查发现，{title}的背后反映了深层次的社会需求变化。多位基层干部表示，要以此次事件为契机，举一反三、标本兼治，建立健全长效工作机制，切实提升治理效能。"
+        ]
+      };
+      var pool = excerpts[cat] || excerpts.hot;
+      var tpl = pool[Math.floor(Math.random() * pool.length)];
+      return tpl.replace(/\{title\}/g, title);
+    }
+    function generateMaterial(title, cat) {
+      var materials = {
+        policy: [
+          "「' + title + '」是当前和今后一个时期的重要政治任务，要深刻认识其重大意义，准确把握核心要义。",
+          "要坚持以人民为中心的发展思想，统筹推进各项重点任务，确保政策红利精准落地。",
+          "要站在战略和全局的高度，切实增强责任感使命感紧迫感，确保党中央决策部署不折不扣落到实处。",
+          "注重系统性、整体性、协同性，加强督导评估，及时总结推广好经验好做法。"
+        ],
+        international: [
+          "面对百年未有之大变局，中国始终做世界和平的建设者、全球发展的贡献者、国际秩序的维护者。",
+          "中方一贯坚持独立自主的和平外交政策，主张通过对话协商解决分歧。",
+          "坚持底线思维和极限思维，牢牢把握发展主动权，在复杂博弈中保持战略定力。",
+          "为推动全球治理体系改革贡献中国智慧，为动荡变革的世界注入确定性和稳定性。"
+        ],
+        economy: [
+          "要完整准确全面贯彻新发展理念，加快构建新发展格局，着力推动经济实现良性循环。",
+          "把实施扩大内需战略同深化供给侧结构性改革有机结合起来，增强国内大循环内生动力和可靠性。",
+          "我国经济韧性强、潜力大、回旋空间广，长期向好的趋势不会改变。",
+          "当前我国经济发展质量稳步提升，新质生产力加快形成，为后续增长积蓄了力量。"
+        ],
+        society: [
+          "要持续关注群众急难愁盼问题，用心用情用力解决好群众的操心事、烦心事、揪心事。",
+          "坚持以人民为中心，不断探索创新治理模式，在保障和改善民生方面取得扎实成效。",
+          "从法治层面加强制度供给，完善相关法律法规，确保各项工作在法治轨道上运行。",
+          "以法治思维和法治方式化解矛盾，推动社会在解决问题中不断进步。"
+        ],
+        tech: [
+          "科技是第一生产力，创新是第一动力。要坚决打赢关键核心技术攻坚战。",
+          "科技自立自强是国家强盛之基、安全之要，要把科技的命脉牢牢掌握在自己手中。",
+          "抓住新一轮科技革命和产业变革机遇，加快实现高水平科技自立自强。",
+          "敏锐把握世界科技创新发展趋势，紧紧抓住和用好新一轮科技革命和产业变革的机遇。"
+        ],
+        hot: [
+          "越是面对复杂局面，越要坚定信心、保持定力，集中精力办好自己的事。",
+          "以开放包容的心态看待社会热点，以法治思维和法治方式化解矛盾。",
+          "坚持问题导向，在应对挑战中把握机遇，推动各项工作不断取得新成效。",
+          "始终保持清醒头脑，增强忧患意识，牢牢把握工作主动权。"
+        ]
+      };
+      var pool = materials[cat] || materials.hot;
+      var out = [];
+      for (var i = 0; i < pool.length; i++) {
+        out.push(pool[i].replace(/' \+ title \+ '/g, title));
+      }
+      return out;
+    }
+    function wireNewsClicks(box) {
+      if (!box) return;
+      box.querySelectorAll(".news-card").forEach(function (card) {
+        card.addEventListener("click", function (e) {
+          if (e.target.closest(".news-star")) return; /* 收藏按钮单独处理 */
+          var text = card.getAttribute("data-news-text");
+          var cat = card.getAttribute("data-news-cat");
+          if (text) openModal("📰 时政详情", genNewsDetail(text, cat));
+        });
+      });
+      box.querySelectorAll(".news-star").forEach(function (star) {
+        star.addEventListener("click", function (e) {
+          e.stopPropagation();
+          toggleNewsFav(star.getAttribute("data-news-fav"));
+        });
+      });
+    }
+    function paintNews(data) {
+      if (!data || !data.items || !data.items.length) {
+        newsItems = [];
+        var box = document.getElementById("newsBox"); if (box) box.innerHTML = '<div class="news-empty">今日暂无内容</div>';
+        var np = document.getElementById("newsPager"); if (np) np.innerHTML = "";
+        return;
+      }
+      newsItems = data.items; newsArchiveMonth = 0; newsFavMode = false; newsPage = 1;
+      renderNewsList();
+    }
+    function parseNews(text) {
+      if (!text) return [];
+      return text.split(/\n+/).map(function (s) { return s.replace(/^[\s\d.\-\*•、]+/, "").trim(); }).filter(function (s) { return s.length > 0; }).slice(0, 8);
+    }
+    function fetchNews(gen) {
+      var cfg = load("ai_cfg", null); if (!cfg || !cfg.key || !cfg.endpoint) { newsGen++; renderNews(); return; }
+      var prompt = "你是公考备考助手。请列出今天（" + todayKey() + "）与公务员考试（行测/申论）相关的国内外时政热点 5-6 条，每条用一句话概括，聚焦可能成为考点的重大政策、会议、社会热点。只返回要点列表，不要多余解释。";
+      fetch(cfg.endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Authorization": "Bearer " + cfg.key },
+        body: JSON.stringify({ model: cfg.model || "deepseek-chat", messages: [{ role: "user", content: prompt }], stream: false })
+      }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (j) {
+          if (gen !== newsGen) return; /* 已有更新的渲染，丢弃本次过期结果 */
+          var text = j && j.choices && j.choices[0] && j.choices[0].message ? j.choices[0].message.content : "";
+          var data = { date: todayKey(), items: parseNews(text), time: pad(new Date().getHours()) + ":" + pad(new Date().getMinutes()) };
+          save("ai_news", data); paintNews(data);
+          var up = document.getElementById("newsUpdated"); if (up) up.textContent = "更新于 " + data.time;
+        }).catch(function (e) {
+          if (gen !== newsGen) return; /* 过期请求，不覆盖新内容 */
+          var b = document.getElementById("newsBox"); if (b) b.innerHTML = '<div class="news-empty">生成失败：' + esc(e && e.message ? e.message : "网络错误") + '（请检查 API 设置或接口是否支持跨域）</div>';
+        });
+    }
+    var AI_PRESETS = {
+      doubao:   { endpoint: "https://ark.cn-beijing.volces.com/api/v3/chat/completions", model: "ep-xxxxxx", tip: "豆包（火山方舟）：模型名填「推理接入点 ID」（控制台「模型推理」里 ep- 开头的那串），API Key 在「API Key 管理」创建。无需打开豆包 App。" },
+      deepseek: { endpoint: "https://api.deepseek.com/chat/completions", model: "deepseek-chat", tip: "DeepSeek：模型名填 deepseek-chat，API Key 在 platform.deepseek.com 的 API Keys 页面创建。" },
+      kimi:     { endpoint: "https://api.moonshot.cn/v1/chat/completions", model: "moonshot-v1-8k", tip: "Kimi（月之暗面）：模型名填 moonshot-v1-8k，API Key 在 platform.moonshot.cn 的 API Keys 页面创建。" }
+    };
+    function applyPreset(v) {
+      var pr = AI_PRESETS[v]; if (!pr) return;
+      document.getElementById("aiPreset").value = v;
+      document.getElementById("aiEndpoint").value = pr.endpoint;
+      document.getElementById("aiModel").value = pr.model;
+      document.getElementById("aiTip").textContent = pr.tip;
+    }
+    document.getElementById("newsSettings").addEventListener("click", function () {
+      var p = document.getElementById("newsSettingsPanel");
+      p.style.display = p.style.display === "none" ? "block" : "none";
+      if (p.style.display === "block") {
+        var cfg = load("ai_cfg", null) || {};
+        if (cfg.endpoint && cfg.key) { /* 已配置过，原样恢复 */
+          document.getElementById("aiEndpoint").value = cfg.endpoint;
+          document.getElementById("aiKey").value = cfg.key;
+          document.getElementById("aiModel").value = cfg.model || "";
+          document.getElementById("aiPreset").value = "custom";
+        } else { /* 首次使用，默认豆包 */
+          applyPreset("doubao");
+          document.getElementById("aiKey").value = "";
+        }
+      }
+    });
+    document.getElementById("aiPreset").addEventListener("change", function () {
+      var v = this.value, pr = AI_PRESETS[v]; if (!pr) return;
+      document.getElementById("aiEndpoint").value = pr.endpoint;
+      document.getElementById("aiModel").value = pr.model;
+      document.getElementById("aiTip").textContent = pr.tip;
+      if (navigator.userAgent.match(/Mobi/i)) document.getElementById("aiKey").focus();
+    });
+    document.getElementById("aiSave").addEventListener("click", function () {
+      var cfg = { endpoint: document.getElementById("aiEndpoint").value.trim(), key: document.getElementById("aiKey").value.trim(), model: document.getElementById("aiModel").value.trim() || "deepseek-chat" };
+      if (!cfg.endpoint || !cfg.key) { toast("请填写 API 地址和 Key"); return; }
+      save("ai_cfg", cfg); document.getElementById("newsSettingsPanel").style.display = "none"; toast("已保存 AI 设置"); renderNews();
+    });
+    document.getElementById("newsRefresh").addEventListener("click", function () {
+      var cfg = load("ai_cfg", null);
+      if (cfg && cfg.key && cfg.endpoint) {
+        save("ai_news", { date: "", items: [] }); newsGen++;
+        var b = document.getElementById("newsBox"); if (b) b.innerHTML = '<div class="news-loading">AI 正在生成今日时政热点…</div>';
+        var up = document.getElementById("newsUpdated"); if (up) up.textContent = "";
+        fetchNews(newsGen);
+        return;
+      }
+      /* B 模式：尝试抓取新鲜 RSS，抓不到就保持内置要点 */
+      var b = document.getElementById("newsBox"); if (b) b.innerHTML = '<div class="news-loading">正在获取最新时政…</div>';
+      var up = document.getElementById("newsUpdated"); if (up) up.textContent = "";
+      newsGen++; fetchRSSNews();
+    });
+    /* 时政：搜索 / 收藏切换 / 按月归档 */
+    (function initNewsArchive() {
+      var sel = document.getElementById("newsArchive"); if (!sel) return;
+      for (var m = 1; m <= 12; m++) {
+        var o = document.createElement("option"); o.value = m; o.textContent = m + "月时政要点"; sel.appendChild(o);
+      }
+    })();
+    document.getElementById("newsSearch").addEventListener("input", function () { newsKw = this.value.trim(); newsPage = 1; renderNewsList(); });
+    document.getElementById("newsFavToggle").addEventListener("click", function () {
+      newsFavMode = !newsFavMode; newsArchiveMonth = 0;
+      var sel = document.getElementById("newsArchive"); if (sel) sel.value = "";
+      this.classList.toggle("active", newsFavMode);
+      newsPage = 1; renderNewsList();
+    });
+    document.getElementById("newsArchive").addEventListener("change", function () {
+      newsArchiveMonth = +this.value || 0; newsFavMode = false;
+      var ft = document.getElementById("newsFavToggle"); if (ft) ft.classList.remove("active");
+      newsKw = ""; var s = document.getElementById("newsSearch"); if (s) s.value = "";
+      newsPage = 1; renderNewsList();
+    });
+    /* 学习时长统计：时间范围标签切换 */
+    document.querySelectorAll("#studyTabs .study-tab").forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        document.querySelectorAll("#studyTabs .study-tab").forEach(function (t) { t.classList.remove("active"); });
+        tab.classList.add("active");
+        studyRange = tab.getAttribute("data-range") || "week";
+        renderStudyStats();
+      });
+    });
+
+    /* 计时器（时间戳记账：切到别的软件 / 关闭页面也能在后台继续计时） */
+    var TIMER_TYPES = [
+      { key: "lecture", name: "听课" },
+      { key: "brush", name: "刷题" },
+      { key: "recite", name: "背诵" },
+      { key: "mock", name: "模考" },
+      { key: "other", name: "其他" }
+    ];
+    var TYPE_MAP = {}; TIMER_TYPES.forEach(function (t) { TYPE_MAP[t.key] = t.name; });
+    var timer = load("timer", { subject: "politics", mode: "count", type: "lecture", running: false, pomoMin: 25, accumMs: 0, startTs: 0, lastBankTs: 0, remaining: 1500 });
+    if (typeof timer.type !== "string" || !TYPE_MAP[timer.type]) timer.type = "lecture";
+    if (typeof timer.accumMs !== "number") timer.accumMs = 0;
+    if (typeof timer.startTs !== "number") timer.startTs = 0;
+    if (typeof timer.lastBankTs !== "number") timer.lastBankTs = 0;
+    var timerInited = false;
+    function renderTimerTypes() {
+      var box = document.getElementById("timerTypes"); if (!box) return;
+      box.innerHTML = "";
+      TIMER_TYPES.forEach(function (t) {
+        var b = document.createElement("div"); b.className = "type-seg" + (timer.type === t.key ? " active" : ""); b.textContent = t.name; b.setAttribute("data-t", t.key);
+        b.addEventListener("click", function () {
+          if (timer.type === t.key) return;
+          if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; }
+          timer.type = t.key;
+          if (timer.running) { timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
+          save("timer", timer); renderTimerTypes(); updateTimerTypeHint();
+        });
+        box.appendChild(b);
+      });
+    }
+    function renderTimerOnce() {
+      var list = document.getElementById("subjectList"); list.innerHTML = "";
+      SUBJECTS.forEach(function (s) {
+        var b = document.createElement("div"); b.className = "subject-btn" + (timer.subject === s.key ? " active" : ""); b.style.background = s.color; b.setAttribute("data-k", s.key);
+        b.innerHTML = '<span class="sb-ico">' + s.ico + '</span><span>' + s.name + '</span><span class="sb-run" data-run="' + s.key + '"></span>';
+        b.addEventListener("click", function () {
+          if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; }
+          timer.subject = s.key;
+          if (timer.running) { timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
+          else if (timer.mode === "pomo") timer.remaining = (timer.pomoMin || 25) * 60;
+          save("timer", timer); markActiveSubject(); updateTimerSubjectName(); updateTimerDisplay();
+        });
+        list.appendChild(b);
+      });
+      renderTimerTypes();
+      timerInited = true;
+    }
+    function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
+    function updateTimerSubjectName() { document.getElementById("timerSubjectName").textContent = SUB_MAP[timer.subject].name; }
+    function timerLiveMs() { return timer.accumMs + (timer.running ? (Date.now() - timer.startTs) : 0); }
+    function timerNotify() {
+      try {
+        if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
+        if (!navigator.serviceWorker) return;
+        var ms = timerLiveMs();
+        var body = (timer.mode === "pomo"
+          ? "🍅 番茄钟 剩余 " + fmtClock(Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)))
+          : "⏱ 已学习 " + fmtClock(Math.floor(ms / 1000))) + " · " + SUB_MAP[timer.subject].name;
+        navigator.serviceWorker.ready.then(function (reg) {
+          reg.showNotification("⏱ 小艾考公 · 计时中", {
+            tag: "kaogong-timer", renotify: false,
+            body: body, icon: "icon-192.png", badge: "icon-192.png",
+            data: { page: "timer" },
+            actions: [{ action: "pause", title: "暂停计时" }]
+          });
+        }).catch(function () {});
+      } catch (e) {}
+    }
+    function timerNotifyClose() {
+      try {
+        if (!navigator.serviceWorker) return;
+        navigator.serviceWorker.ready.then(function (reg) {
+          reg.getNotifications({ tag: "kaogong-timer" }).then(function (list) { list.forEach(function (n) { n.close(); }); });
+        }).catch(function () {});
+      } catch (e) {}
+    }
+    function bankDelta() {
+      if (!timer.running) return;
+      var now = Date.now(), secs = Math.floor((now - timer.lastBankTs) / 1000);
+      if (secs > 0) { addSeconds(timer.subject, secs); addTypeSeconds(timer.type, secs); timer.lastBankTs += secs * 1000; }
+    }
+    function addTypeSeconds(typeKey, sec) {
+      if (!typeKey) return;
+      var d = load("dailyType", {}); var tk = todayKey();
+      if (!d[tk]) d[tk] = {};
+      d[tk][typeKey] = (d[tk][typeKey] || 0) + sec;
+      save("dailyType", d);
+    }
+    function updateTimerTypeHint() {
+      var el = document.getElementById("timerTypeHint"); if (el) el.textContent = "学习类型：" + (TYPE_MAP[timer.type] || "听课");
+    }
+    function renderTypeBreakdown() {
+      var box = document.getElementById("typeBreakdown"); if (!box) return;
+      var rec = (load("dailyType", {})[todayKey()] || {});
+      var keys = TIMER_TYPES.map(function (t) { return t.key; }).filter(function (k) { return rec[k]; });
+      if (!keys.length) { box.innerHTML = ""; return; }
+      var max = Math.max.apply(null, keys.map(function (k) { return rec[k]; }));
+      box.innerHTML = '<h3>📚 今日学习类型分布</h3>' + keys.map(function (k) {
+        var sec = rec[k];
+        var w = max > 0 ? Math.round(rec[k] / max * 100) : 0;
+        return '<div class="tb-row"><span class="tb-name">' + TYPE_MAP[k] + '</span>' +
+          '<span class="tb-track"><span class="tb-fill" style="width:' + w + '%"></span></span>' +
+          '<span class="tb-val">' + fmtDur(sec) + '</span></div>';
+      }).join("");
+    }
+    function updateTimerDisplay() {
+      var ms = timerLiveMs();
+      var shown = timer.mode === "pomo" ? Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)) : Math.floor(ms / 1000);
+      document.getElementById("timerClock").textContent = fmtClock(shown);
+      document.getElementById("segCount").classList.toggle("active", timer.mode === "count");
+      document.getElementById("segPomo").classList.toggle("active", timer.mode === "pomo");
+      document.getElementById("pomoInput").classList.toggle("show", timer.mode === "pomo");
+      document.getElementById("btnStart").textContent = timer.running ? "暂停" : "开始";
+      updateTimerTypeHint();
+      renderTypeBreakdown();
+      updateTimerResume();
+    }
+    function updateTimerResume() {
+      var el = document.getElementById("timerResume");
+      if (!el) return;
+      if (timer.running) { el.textContent = "⏳ 未结束的计时已自动保存，切换软件或关闭页面后会继续累计"; }
+      else if (timer.accumMs > 0) { el.textContent = "已记录本次时长 " + fmtDur(Math.floor(timer.accumMs / 1000)) + "（暂停状态，可继续或重置）"; }
+      else { el.textContent = ""; }
+    }
+    function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); }
+    function tick() {
+      if (!timer.running) return;
+      bankDelta();
+      if (timer.mode === "pomo" && Math.floor(timerLiveMs() / 1000) >= (timer.pomoMin || 25) * 60) {
+        timer.accumMs = timerLiveMs(); timer.running = false; timer.startTs = 0;
+        timerNotifyClose();
+        toast("🍅 番茄钟完成！休息一下吧"); save("timer", timer); updateTimerDisplay();
+        if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
+        return;
+      }
+      updateTimerDisplay(); timerNotify();
+      if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
+    }
+    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.pomoMin || 25) * 60; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("pomoMin").addEventListener("change", function () { timer.pomoMin = Math.max(1, Math.min(120, +this.value || 25)); if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("btnStart").addEventListener("click", function () {
+      if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; timer.running = false; timerNotifyClose(); }
+      else {
+        if (typeof Notification !== "undefined" && Notification.permission === "default") { try { Notification.requestPermission(); } catch (e) {} }
+        timer.running = true; timer.startTs = Date.now(); timer.lastBankTs = Date.now(); timerNotify();
+      }
+      save("timer", timer); updateTimerDisplay();
+    });
+    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); timerNotifyClose(); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
+    setInterval(tick, 1000);
+    window.addEventListener("beforeunload", function () { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); });
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") tick(); else { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); } });
+    /* 接收来自 Service Worker 通知按钮的消息（暂停/恢复） */
+    navigator.serviceWorker && navigator.serviceWorker.addEventListener('message', function (e) {
+      if (!e.data || e.data.type !== 'timer-action') return;
+      if (e.data.action === 'toggle') {
+        document.getElementById('btnStart').click();
+        timerNotifyClose();
+      }
+    });
+
+    /* 知识备忘录 */
+    var MEMO_MODULES = ["行测", "申论"]; var memoCur = MEMO_MODULES[0]; var notePage = 1; var NOTE_PAGE_SIZE = 8;
+    function renderMemoTabs() { var t = document.getElementById("memoTabs"); t.innerHTML = ""; MEMO_MODULES.forEach(function (m) { var b = document.createElement("div"); b.className = "tab" + (memoCur === m ? " active" : ""); b.textContent = m; b.addEventListener("click", function () { memoCur = m; notePage = 1; renderMemoTabs(); renderNotes(); }); t.appendChild(b); }); }
+    function renderNotes() {
+      var all = (load("notes", [])).filter(function (n) { return n.module === memoCur; });
+      var box = document.getElementById("noteList");
+      if (!all.length) { box.innerHTML = '<div class="empty">该模块还没有笔记，点击右上角新建 ✍️</div>'; var np = document.getElementById("notePager"); if (np) np.innerHTML = ""; return; }
+      all.sort(function (a, b) { return b.updated - a.updated; });
+      var totalPages = Math.max(1, Math.ceil(all.length / NOTE_PAGE_SIZE));
+      if (notePage > totalPages) notePage = totalPages;
+      var notes = all.slice((notePage - 1) * NOTE_PAGE_SIZE, notePage * NOTE_PAGE_SIZE);
+      box.innerHTML = notes.map(function (n) { return '<div class="item"><div class="item-head"><span class="item-title">' + esc(n.title) + '</span><span class="item-meta">' + n.updated + '</span></div><div class="item-body">' + esc(n.content) + '</div><div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + n.id + '">编辑</button><button class="btn btn-line btn-sm" data-del="' + n.id + '">删除</button></div></div>'; }).join("");
+      box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editNote(b.getAttribute("data-edit")); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该笔记？")) { save("notes", load("notes", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderNotes(); toast("已删除"); } }); });
+      var pager = document.getElementById("notePager");
+      if (!pager) return;
+      if (totalPages <= 1) pager.innerHTML = "";
+      else pager.innerHTML = '<button id="notePrev"' + (notePage <= 1 ? " disabled" : "") + '>‹ 上一页</button><span class="pager-info">第 ' + notePage + ' / ' + totalPages + ' 页</span><button id="noteNext"' + (notePage >= totalPages ? " disabled" : "") + '>下一页 ›</button>';
+      var prev = document.getElementById("notePrev"), next = document.getElementById("noteNext");
+      if (prev) prev.addEventListener("click", function () { if (notePage > 1) { notePage--; renderNotes(); } });
+      if (next) next.addEventListener("click", function () { if (notePage < totalPages) { notePage++; renderNotes(); } });
+    }
+    function editNote(id) {
+      var notes = load("notes", []); var n = id ? notes.filter(function (x) { return x.id === id; })[0] : null;
+      var isNew = !n; if (isNew) n = { id: uid(), module: memoCur, title: "", content: "", updated: "" };
+      openModal(isNew ? "新建笔记" : "编辑笔记",
+        '<div class="form-row"><label>所属模块</label><select id="ntModule">' + MEMO_MODULES.map(function (m) { return '<option value="' + m + '"' + (m === n.module ? " selected" : "") + ">" + m + "</option>"; }).join("") + "</select></div>" +
+        '<div class="form-row"><label>标题</label><input id="ntTitle" value="' + esc(n.title) + '" placeholder="笔记标题" /></div><div class="form-row"><label>内容</label><textarea id="ntContent" placeholder="素材 / 知识点">' + esc(n.content) + "</textarea></div>",
+        '<button class="btn btn-primary btn-sm" id="ntOk">保存</button>');
+      document.getElementById("ntOk").addEventListener("click", function () { n.module = document.getElementById("ntModule").value; n.title = document.getElementById("ntTitle").value.trim() || "未命名笔记"; n.content = document.getElementById("ntContent").value; n.updated = todayKey(); var nl = notes.filter(function (x) { return x.id !== n.id; }); nl.push(n); save("notes", nl); memoCur = n.module; closeModal(); renderMemoTabs(); renderNotes(); toast("已保存"); });
+    }
+    document.getElementById("addNoteBtn").addEventListener("click", function () { editNote(null); });
+
+    /* 分模块错题本（重点优化） */
+    var editingId = null;
+    var mkImageData = null;
+    var mkCorrectImageData = null;
+    function compressImage(file, cb) {
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+          var maxW = 720, maxH = 720, w = img.width, h = img.height;
+          if (w > maxW || h > maxH) { var r = Math.min(maxW / w, maxH / h); w = Math.round(w * r); h = Math.round(h * r); }
+          var canvas = document.createElement("canvas"); canvas.width = w; canvas.height = h;
+          canvas.getContext("2d").drawImage(img, 0, 0, w, h);
+          cb(canvas.toDataURL("image/jpeg", 0.7));
+        };
+        img.onerror = function () { toast("图片读取失败"); cb(null); };
+        img.src = e.target.result;
+      };
+      reader.onerror = function () { toast("图片读取失败"); cb(null); };
+      reader.readAsDataURL(file);
+    }
+    function showMkPreview(d) { document.getElementById("mkImgThumb").src = d; document.getElementById("mkImgPreview").style.display = "inline-block"; }
+    document.getElementById("mkImgBtn").addEventListener("click", function () { document.getElementById("mkImage").click(); });
+    document.getElementById("mkImage").addEventListener("change", function () {
+      var f = this.files && this.files[0]; if (!f) return;
+      compressImage(f, function (d) { if (d) { mkImageData = d; showMkPreview(d); } });
+      this.value = "";
+    });
+    document.getElementById("mkImgDel").addEventListener("click", function () { mkImageData = null; document.getElementById("mkImgPreview").style.display = "none"; document.getElementById("mkImgThumb").src = ""; });
+    document.getElementById("mkCorrectImgBtn").addEventListener("click", function () { document.getElementById("mkCorrectImage").click(); });
+    document.getElementById("mkCorrectImage").addEventListener("change", function () {
+      var f = this.files && this.files[0]; if (!f) return;
+      compressImage(f, function (d) { if (d) { mkCorrectImageData = d; document.getElementById("mkCorrectImgThumb").src = d; document.getElementById("mkCorrectImgPreview").style.display = "inline-block"; } });
+      this.value = "";
+    });
+    document.getElementById("mkCorrectImgDel").addEventListener("click", function () { mkCorrectImageData = null; document.getElementById("mkCorrectImgPreview").style.display = "none"; document.getElementById("mkCorrectImgThumb").src = ""; });
+    function fillSubjectSelect(sel, withAll) { sel.innerHTML = (withAll ? '<option value="">全部模块</option>' : "") + SUBJECTS.map(function (s) { return '<option value="' + s.key + '">' + s.name + "</option>"; }).join(""); }
+    function resetMkForm() {
+      editingId = null; document.getElementById("mkModule").value = SUBJECTS[0].key; document.getElementById("mkDate").value = todayKey();
+      document.getElementById("mkQuestion").value = ""; document.getElementById("mkReason").value = ERROR_REASONS[0];
+      document.getElementById("mkReasonOther").style.display = "none"; document.getElementById("mkReasonOther").value = "";
+      document.getElementById("mkCorrect").value = ""; document.getElementById("mkSave").textContent = "保存错题"; document.getElementById("mkCancel").style.display = "none";
+      mkImageData = null; document.getElementById("mkImgPreview").style.display = "none"; document.getElementById("mkImgThumb").src = "";
+      mkCorrectImageData = null; document.getElementById("mkCorrectImgPreview").style.display = "none"; document.getElementById("mkCorrectImgThumb").src = "";
+    }
+    var mkPage = 1; var MK_PAGE_SIZE = 12; var mkBatch = false; var mkSelected = {};
+    var DIFF_NAMES = { 1: "简单", 2: "中等", 3: "困难" };
+    function difficultyOf(m) { var d = +m.difficulty; return DIFF_NAMES[d] ? d : 2; }
+    function toggleFavorite(id) {
+      var list = load("mistakes", []); for (var i = 0; i < list.length; i++) { if (list[i].id === id) { list[i].favorite = !list[i].favorite; break; } }
+      save("mistakes", list); renderMistakes();
+    }
+    function markReviewed(id) {
+      var list = load("mistakes", []); for (var i = 0; i < list.length; i++) { if (list[i].id === id) { list[i].reviewBase = todayKey(); list[i].mastery = "review"; break; } }
+      save("mistakes", list); renderMistakes();
+      if (document.getElementById("page-review").classList.contains("active")) { renderEbb(); renderHeatmap(); }
+      toast("✅ 已记录复习，明天进入下一轮");
+    }
+    function filteredMistakes() {
+      var filter = document.getElementById("mkFilter").value || "";
+      var masVal = document.getElementById("mkMasFilter").value || "";
+      var diffVal = document.getElementById("mkDiffFilter").value || "";
+      var revVal = document.getElementById("mkRevFilter").value || "";
+      var list = load("mistakes", []);
+      if (filter) list = list.filter(function (m) { return m.module === filter; });
+      if (masVal) list = list.filter(function (m) { return mm(m) === masVal; });
+      if (diffVal) list = list.filter(function (m) { return String(difficultyOf(m)) === diffVal; });
+      if (revVal === "fav") list = list.filter(function (m) { return !!m.favorite; });
+      else if (revVal === "due") list = list.filter(function (m) { if (mm(m) === "mastered") return false; var info = ebbInfo(m); return info.dueToday || info.overdue; });
+      list.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      return list;
+    }
+    function renderMistakes() {
+      var modVal = document.getElementById("mkModule").value || SUBJECTS[0].key;
+      var filVal = document.getElementById("mkFilter").value || "";
+      fillSubjectSelect(document.getElementById("mkModule"), false);
+      fillSubjectSelect(document.getElementById("mkFilter"), true);
+      document.getElementById("mkModule").value = modVal;
+      document.getElementById("mkFilter").value = filVal;
+      var lg = document.getElementById("reasonLegend");
+      if (lg && !lg.childElementCount) lg.innerHTML = ERROR_REASONS.map(function (r) { return '<span class="rl-item"><span class="rl-dot" style="background:' + reasonColor(r) + '"></span>' + r + "</span>"; }).join("");
+      var list = filteredMistakes();
+      var box = document.getElementById("mistakeList");
+      document.getElementById("mkBatchBar").style.display = mkBatch ? "block" : "none";
+      document.getElementById("mkBatchInfo").textContent = list.length ? ("共 " + list.length + " 条") : "";
+      var totalPages = Math.max(1, Math.ceil(list.length / MK_PAGE_SIZE));
+      if (mkPage > totalPages) mkPage = totalPages;
+      var pageList = list.slice((mkPage - 1) * MK_PAGE_SIZE, mkPage * MK_PAGE_SIZE);
+      if (!list.length) { box.innerHTML = '<div class="empty">暂无错题 📂</div>'; document.getElementById("mkPager").innerHTML = ""; return; }
+      box.innerHTML = pageList.map(function (m) {
+        var s = SUB_MAP[m.module], rc = reasonColor(m.reason), mas = mm(m), d = difficultyOf(m);
+        var star = '<button class="mk-star' + (m.favorite ? " on" : "") + '" data-fav="' + m.id + '" title="收藏">' + (m.favorite ? "★" : "☆") + '</button>';
+        var check = mkBatch ? '<input type="checkbox" class="mk-check" data-check="' + m.id + '"' + (mkSelected[m.id] ? " checked" : "") + ' />' : '';
+        var due = (mas !== "mastered") && (function () { var info = ebbInfo(m); return info.dueToday || info.overdue; })();
+        return '<div class="item reason-tint" style="border-left-color:' + rc + '"><div class="item-head">' + check +
+          '<span class="chip" style="background:' + (s ? s.color : "#fbe3ec") + '">' + (s ? s.name : m.module) + '</span>' +
+          '<span class="item-meta">' + m.date + '</span>' +
+          '<span class="diff-badge diff-' + d + '">' + DIFF_NAMES[d] + '</span>' +
+          (due ? '<span class="mk-mastery review" style="background:#fde0e8;color:#d6517f;">待复习</span>' : '<span class="mk-mastery ' + mas + '">' + (mas === "mastered" ? "已掌握" : "需复习") + '</span>') +
+          star + '</div>' +
+          '<div style="margin:6px 0;"><span class="tag-reason" style="background:' + reasonColor(m.reason) + ';color:#5a434c;">' + esc(m.reason) + '</span></div>' +
+          (m.image ? '<div class="mk-img-box"><img class="mk-img" src="' + m.image + '" alt="题目图片" /></div>' : "") +
+          '<div class="item-body"><span class="lab">题目/错点：</span>' + esc(m.question) + "</div>" +
+          '<div class="item-body"><span class="lab">正确思路：</span>' + esc(m.correct) + "</div>" +
+          (m.correctImage ? '<div class="mk-img-box"><img class="mk-img" src="' + m.correctImage + '" alt="思路图片" /></div>' : "") +
+          '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + m.id + '">编辑</button><button class="btn btn-ghost btn-sm" data-mas="' + m.id + '">' + (mas === "mastered" ? "标需复习" : "标已掌握") + '</button><button class="btn btn-line btn-sm" data-rev="' + m.id + '">标复习</button>' + (hasReview(m.date) ? '<button class="btn btn-ghost btn-sm" data-rvlink="' + m.date + '">📝 复盘</button>' : '') + '<button class="btn btn-line btn-sm" data-del="' + m.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editMistake(b.getAttribute("data-edit")); }); });
+      box.querySelectorAll("[data-mas]").forEach(function (b) { b.addEventListener("click", function () { toggleMastery(b.getAttribute("data-mas")); }); });
+      box.querySelectorAll("[data-rev]").forEach(function (b) { b.addEventListener("click", function () { markReviewed(b.getAttribute("data-rev")); }); });
+      box.querySelectorAll("[data-fav]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); toggleFavorite(b.getAttribute("data-fav")); }); });
+      box.querySelectorAll("[data-check]").forEach(function (b) { b.addEventListener("change", function () { if (b.checked) mkSelected[b.getAttribute("data-check")] = true; else delete mkSelected[b.getAttribute("data-check")]; updateMkSelCount(); }); });
+      box.querySelectorAll("[data-rvlink]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); jumpToReviewByDate(b.getAttribute("data-rvlink")); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该错题？")) { save("mistakes", load("mistakes", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderMistakes(); if (document.getElementById("page-overview").classList.contains("active")) renderOverview(); toast("已删除"); } }); });
+      box.onclick = function (e) { var img = e.target.closest && e.target.closest(".mk-img"); if (img) openModal("题目图片", '<img src="' + img.getAttribute("src") + '" style="max-width:100%;border-radius:12px;" />'); };
+      /* 分页 */
+      var pager = document.getElementById("mkPager");
+      if (totalPages <= 1) pager.innerHTML = "";
+      else pager.innerHTML = '<button id="mkPrev"' + (mkPage <= 1 ? " disabled" : "") + '>‹ 上一页</button><span class="pager-info">第 ' + mkPage + ' / ' + totalPages + ' 页</span><button id="mkNext"' + (mkPage >= totalPages ? " disabled" : "") + '>下一页 ›</button>';
+      var prev = document.getElementById("mkPrev"), next = document.getElementById("mkNext");
+      if (prev) prev.addEventListener("click", function () { if (mkPage > 1) { mkPage--; renderMistakes(); } });
+      if (next) next.addEventListener("click", function () { if (mkPage < totalPages) { mkPage++; renderMistakes(); } });
+    }
+    function updateMkSelCount() {
+      var n = Object.keys(mkSelected).length;
+      document.getElementById("mkSelCount").textContent = n ? ("已选 " + n + " 条") : "";
+    }
+    function toggleMastery(id) {
+      var list = load("mistakes", []); var changed = null;
+      for (var i = 0; i < list.length; i++) { if (list[i].id === id) { list[i].mastery = (mm(list[i]) === "mastered") ? "review" : "mastered"; changed = list[i].mastery; break; } }
+      if (!changed) return;
+      save("mistakes", list); renderMistakes();
+      if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
+      if (document.getElementById("page-review").classList.contains("active")) { renderEbb(); renderHeatmap(); }
+      toast(changed === "mastered" ? "✅ 已标记为掌握" : "↩ 已标记为需复习");
+    }
+    function editMistake(id) {
+      var list = load("mistakes", []); var m = list.filter(function (x) { return x.id === id; })[0]; if (!m) return;
+      editingId = id;
+      mkPage = 1;
+      document.getElementById("mkModule").value = m.module; document.getElementById("mkDate").value = m.date;
+      document.getElementById("mkDifficulty").value = String(difficultyOf(m));
+      document.getElementById("mkQuestion").value = m.question;
+      var known = ERROR_REASONS.indexOf(m.reason) >= 0;
+      if (known) { document.getElementById("mkReason").value = m.reason; document.getElementById("mkReasonOther").style.display = "none"; document.getElementById("mkReasonOther").value = ""; }
+      else { document.getElementById("mkReason").value = "其他"; document.getElementById("mkReasonOther").style.display = "block"; document.getElementById("mkReasonOther").value = m.reason.indexOf("其他：") === 0 ? m.reason.slice(3) : m.reason; }
+      document.getElementById("mkCorrect").value = m.correct;
+      mkImageData = m.image || null;
+      if (mkImageData) { document.getElementById("mkImgThumb").src = mkImageData; document.getElementById("mkImgPreview").style.display = "inline-block"; }
+      else { document.getElementById("mkImgPreview").style.display = "none"; document.getElementById("mkImgThumb").src = ""; }
+      mkCorrectImageData = m.correctImage || null;
+      if (mkCorrectImageData) { document.getElementById("mkCorrectImgThumb").src = mkCorrectImageData; document.getElementById("mkCorrectImgPreview").style.display = "inline-block"; }
+      else { document.getElementById("mkCorrectImgPreview").style.display = "none"; document.getElementById("mkCorrectImgThumb").src = ""; }
+      document.getElementById("mkSave").textContent = "更新错题"; document.getElementById("mkCancel").style.display = "inline-block";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    document.getElementById("mkReason").addEventListener("change", function () { document.getElementById("mkReasonOther").style.display = this.value === "其他" ? "block" : "none"; });
+    document.getElementById("mkCancel").addEventListener("click", resetMkForm);
+    document.getElementById("mkSave").addEventListener("click", function () {
+      var module = document.getElementById("mkModule").value, date = document.getElementById("mkDate").value || todayKey();
+      var q = document.getElementById("mkQuestion").value.trim();
+      var reason = document.getElementById("mkReason").value;
+      if (reason === "其他") { var c = document.getElementById("mkReasonOther").value.trim(); reason = c ? "其他：" + c : "其他"; }
+      var correct = document.getElementById("mkCorrect").value.trim();
+      if (!q && !mkImageData) { toast("请填写题目/错点，或导入题目图片"); return; }
+      var difficulty = Math.min(3, Math.max(1, +document.getElementById("mkDifficulty").value || 2));
+      var list = load("mistakes", []);
+      if (editingId) { var idx = -1; for (var i = 0; i < list.length; i++) if (list[i].id === editingId) idx = i; if (idx >= 0) { list[idx] = { id: editingId, module: module, date: date, question: q, reason: reason, correct: correct, image: mkImageData, correctImage: mkCorrectImageData, created: list[idx].created, mastery: list[idx].mastery || "review", favorite: !!list[idx].favorite, reviewBase: list[idx].reviewBase || "", difficulty: difficulty }; } editingId = null; }
+      else { list.push({ id: uid(), module: module, date: date, question: q, reason: reason, correct: correct, image: mkImageData, correctImage: mkCorrectImageData, created: Date.now(), mastery: "review", favorite: false, reviewBase: "", difficulty: difficulty }); }
+      save("mistakes", list); resetMkForm(); renderMistakes(); toast("已保存错题");
+    });
+    document.getElementById("mkFilter").addEventListener("change", function () { mkPage = 1; renderMistakes(); });
+    document.getElementById("mkMasFilter").addEventListener("change", function () { mkPage = 1; renderMistakes(); });
+    document.getElementById("mkDiffFilter").addEventListener("change", function () { mkPage = 1; renderMistakes(); });
+    document.getElementById("mkRevFilter").addEventListener("change", function () { mkPage = 1; renderMistakes(); });
+    /* 批量导出 */
+    document.getElementById("mkBatchBtn").addEventListener("click", function () { mkBatch = !mkBatch; mkSelected = {}; updateMkSelCount(); renderMistakes(); });
+    document.getElementById("mkBatchCancel").addEventListener("click", function () { mkBatch = false; mkSelected = {}; updateMkSelCount(); renderMistakes(); });
+    document.getElementById("mkSelectAll").addEventListener("change", function () {
+      var checked = this.checked;
+      var pageIds = filteredMistakes().slice((mkPage - 1) * MK_PAGE_SIZE, mkPage * MK_PAGE_SIZE).map(function (m) { return m.id; });
+      pageIds.forEach(function (id) { if (checked) mkSelected[id] = true; else delete mkSelected[id]; });
+      updateMkSelCount(); renderMistakes();
+    });
+    document.getElementById("mkExportSel").addEventListener("click", function () {
+      var ids = Object.keys(mkSelected);
+      if (!ids.length) { toast("请先勾选要导出的错题"); return; }
+      var list = load("mistakes", []).filter(function (m) { return mkSelected[m.id]; });
+      downloadJSON("错题本_选中" + ids.length + "条_" + todayKey() + ".json", list);
+      toast("已导出 " + list.length + " 条错题");
+    });
+    document.getElementById("mkExportAll").addEventListener("click", function () {
+      var list = load("mistakes", []);
+      if (!list.length) { toast("暂无错题可导出"); return; }
+      downloadJSON("错题本_全部" + list.length + "条_" + todayKey() + ".json", list);
+      toast("已导出全部 " + list.length + " 条错题");
+    });
+
+    /* 每日学习复盘（优化） */
+    var REVIEW_TAGS = ["时间安排问题","知识点薄弱","做题粗心","答题技巧不足","心态/效率问题","申论写作问题","其他"];
+    var REVIEW_MAX = 500;
+    var editingReviewId = null;
+    var rvExpanded = {};
+    function clampRv(el) { if (el.value.length > REVIEW_MAX) el.value = el.value.slice(0, REVIEW_MAX); }
+    function updateRvCounts() {
+      var p = document.getElementById("rvProblems"), pl = document.getElementById("rvPlan");
+      clampRv(p); clampRv(pl);
+      var pc = document.getElementById("rvProblemsCount"), plc = document.getElementById("rvPlanCount");
+      pc.textContent = p.value.length + " / " + REVIEW_MAX; plc.textContent = pl.value.length + " / " + REVIEW_MAX;
+      pc.classList.toggle("limit", p.value.length >= REVIEW_MAX); plc.classList.toggle("limit", pl.value.length >= REVIEW_MAX);
+    }
+    function resetRvForm() {
+      editingReviewId = null;
+      document.getElementById("rvDate").value = todayKey();
+      var tsel = document.getElementById("rvTag");
+      tsel.innerHTML = REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      tsel.value = REVIEW_TAGS[0];
+      document.getElementById("rvProblems").value = "";
+      document.getElementById("rvPlan").value = "";
+      document.getElementById("rvSave").textContent = "保存复盘";
+      document.getElementById("rvCancel").style.display = "none";
+      updateRvCounts();
+    }
+    function loadTodayReviewIntoForm() {
+      var list = load("reviews", []);
+      var r = list.filter(function (x) { return x.date === todayKey(); })[0];
+      if (!r) return;
+      editingReviewId = r.id;
+      var tsel = document.getElementById("rvTag");
+      tsel.innerHTML = REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      tsel.value = r.tag || REVIEW_TAGS[0];
+      document.getElementById("rvProblems").value = r.problems || "";
+      document.getElementById("rvPlan").value = r.plan || "";
+      document.getElementById("rvSave").textContent = "更新复盘";
+      document.getElementById("rvCancel").style.display = "inline-block";
+      updateRvCounts();
+    }
+    /* ===== 复盘联动：与同日错题 / 套卷互相关联跳转 ===== */
+    function linkedEntries(date) {
+      var mistakes = load("mistakes", []).filter(function (m) { return (m.date || todayKey(new Date(m.created || Date.now()))) === date; });
+      var papers = load("papers", []).filter(function (p) { return p.date === date; });
+      return { mistakes: mistakes, papers: papers };
+    }
+    function hasReview(date) { return load("reviews", []).some(function (r) { return r.date === date; }); }
+    function linkageHtml(date) {
+      var lk = linkedEntries(date);
+      if (!lk.mistakes.length && !lk.papers.length) return "";
+      var h = '<div class="rv-link">🔗 同日记录：';
+      lk.mistakes.slice(0, 4).forEach(function (m) {
+        h += '<button class="link-chip" data-lmk="' + m.id + '">🗂 ' + esc((m.question || m.reason || "错题").slice(0, 10)) + '</button>';
+      });
+      if (lk.mistakes.length > 4) h += '<span class="link-more">+' + (lk.mistakes.length - 4) + ' 题</span>';
+      if (lk.papers.length) h += '<button class="link-chip" data-lpp="' + lk.papers[0].id + '">📃 ' + esc(lk.papers[0].name.slice(0, 10)) + '</button>';
+      h += '<button class="link-jump" data-lgoto="mistakes">看错题 ›</button><button class="link-jump" data-lgoto="analysis">看套卷 ›</button>';
+      return h + '</div>';
+    }
+    function wireReviewLinkage(box) {
+      if (!box) return;
+      box.querySelectorAll("[data-lmk]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); editMistake(b.getAttribute("data-lmk")); }); });
+      box.querySelectorAll("[data-lpp]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); viewPaper(b.getAttribute("data-lpp")); }); });
+      box.querySelectorAll("[data-lgoto]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); goPage(b.getAttribute("data-lgoto")); }); });
+    }
+    function viewPaper(id) {
+      var list = load("papers", []); var p = list.filter(function (x) { return x.id === id; })[0]; if (!p) return;
+      var html = '<div style="font-size:16px;font-weight:700;margin-bottom:6px;">' + esc(p.name) + '</div><div class="item-meta" style="margin-bottom:8px;">' + p.date + (p.duration ? " · 时长 " + p.duration + " 分钟" : "") + (p.score !== "" && p.score != null ? " · 分数 " + p.score : "") + '</div>';
+      var mods = p.modules;
+      if (mods) {
+        var total = 0, correct = 0;
+        for (var k in mods) { total += mods[k].total || 0; correct += correctOf(mods[k]); }
+        html += '<div style="margin:6px 0 10px;">总题量 <b>' + total + '</b> · 答对数 <b>' + correct + '</b> · 正确率 <b>' + (total > 0 ? (correct / total * 100).toFixed(1) : "0.0") + '%</b></div>';
+      }
+      if (p.note) html += '<div style="margin-top:8px;padding:12px;background:var(--accent-soft);border-radius:10px;line-height:1.7;">' + esc(p.note) + '</div>';
+      openModal("📃 套卷详情", html);
+    }
+    function jumpToReviewByDate(date) {
+      goPage("review");
+      var list = load("reviews", []);
+      var r = list.filter(function (x) { return x.date === date; })[0];
+      if (r) editReview(r.id);
+      else toast("该日期暂无复盘，可在「每日学习复盘」新建");
+    }
+    function renderReviews() {
+      var filVal = document.getElementById("rvFilter").value || "";
+      var fsel = document.getElementById("rvFilter");
+      fsel.innerHTML = '<option value="">全部标签</option>' + REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      fsel.value = filVal;
+      var filter = filVal;
+      var list = load("reviews", []); if (filter) list = list.filter(function (r) { return (r.tag || "其他") === filter; });
+      list.sort(function (a, b) { return b.date === a.date ? (b.created || 0) - (a.created || 0) : (b.date < a.date ? -1 : 1); });
+      var box = document.getElementById("reviewList");
+      if (!list.length) { box.innerHTML = '<div class="empty">暂无复盘记录 ✍</div>'; renderEbb(); renderHeatmap(); return; }
+      box.innerHTML = list.map(function (r) {
+        var tag = r.tag || "其他";
+        var exp = !!rvExpanded[r.id];
+        var preview = ((r.problems || r.plan || "").replace(/\n/g, " ")).slice(0, 42);
+        var bodyHtml = exp
+          ? '<div class="item-body">' + (r.problems ? '<span class="lab">学习问题：</span>' + esc(r.problems) + (r.plan ? '<br>' : '') : '') + (r.plan ? '<span class="lab">改进计划：</span>' + esc(r.plan) : '') + '</div>'
+          : (preview ? '<div class="item-body" style="color:#9a848d;">' + esc(preview) + (preview.length >= 42 ? "…" : "") + '</div>' : '');
+        return '<div class="item"><div class="item-head"><span class="item-title">📅 ' + r.date + '</span><span class="chip">' + tag + '</span>' +
+          '<button class="btn btn-ghost btn-sm" data-toggle="' + r.id + '">' + (exp ? "收起" : "展开") + '</button></div>' +
+          bodyHtml +
+          linkageHtml(r.date) +
+          '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-edit="' + r.id + '">编辑</button><button class="btn btn-line btn-sm" data-del="' + r.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-toggle]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); var id = b.getAttribute("data-toggle"); rvExpanded[id] = !rvExpanded[id]; renderReviews(); }); });
+      box.querySelectorAll("[data-edit]").forEach(function (b) { b.addEventListener("click", function () { editReview(b.getAttribute("data-edit")); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该复盘？")) { save("reviews", load("reviews", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderReviews(); toast("已删除"); } }); });
+      wireReviewLinkage(box);
+    }
+    function renderEbb() {
+      var list = load("mistakes", []);
+      var dueEl = document.getElementById("ebbDue"), listEl = document.getElementById("ebbList");
+      if (!dueEl || !listEl) return;
+      var active = list.filter(function (m) { return mm(m) !== "mastered"; });
+      if (!active.length) { dueEl.textContent = ""; listEl.innerHTML = '<div class="empty">全部已掌握，暂无待复习错题 🎉</div>'; return; }
+      var dueCount = dueReviewCount(active);
+      dueEl.textContent = dueCount > 0 ? ("🔥 今日待复习 " + dueCount + " 题") : "✅ 今天没有到期复习，保持节奏～";
+      var rows = active.map(function (m) { return { m: m, info: ebbInfo(m) }; }).sort(function (a, b) { return a.info.next < b.info.next ? -1 : 1; });
+      listEl.innerHTML = rows.map(function (r) {
+        var m = r.m, info = r.info, s = SUB_MAP[m.module];
+        var dots = info.dots.map(function (d) { var c = d.state === "done" ? "#ef7da3" : (d.state === "due" ? "#d9822b" : "#f0d3df"); return '<span class="ebb-dot" style="background:' + c + '" title="' + d.date + '"></span>'; }).join("");
+        return '<div class="ebb-row"><span class="chip" style="background:' + (s ? s.color : "#fbe3ec") + '">' + (s ? s.name : m.module) + '</span>' +
+          '<span class="ebb-name">' + esc(m.question || m.reason || "错题") + '</span>' +
+          '<span class="ebb-next ' + (info.statusClass === "due" ? "ebb-due" : "") + '">' + info.statusText + '</span>' +
+          '<span class="ebb-dots">' + dots + '</span></div>';
+      }).join("");
+    }
+    function renderHeatmap() {
+      var el = document.getElementById("heatMap"); if (!el) return;
+      var list = load("mistakes", []), counts = {};
+      list.forEach(function (m) { var d = m.date || todayKey(new Date(m.created || Date.now())); counts[d] = (counts[d] || 0) + 1; });
+      drawHeatmap(el, counts);
+    }
+    function editReview(id) {
+      var list = load("reviews", []); var r = list.filter(function (x) { return x.id === id; })[0]; if (!r) return;
+      editingReviewId = id;
+      document.getElementById("rvDate").value = r.date;
+      var tsel = document.getElementById("rvTag");
+      tsel.innerHTML = REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join("");
+      tsel.value = r.tag || REVIEW_TAGS[0];
+      document.getElementById("rvProblems").value = r.problems || "";
+      document.getElementById("rvPlan").value = r.plan || "";
+      document.getElementById("rvSave").textContent = "更新复盘";
+      document.getElementById("rvCancel").style.display = "inline-block";
+      updateRvCounts();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    document.getElementById("rvProblems").addEventListener("input", updateRvCounts);
+    document.getElementById("rvPlan").addEventListener("input", updateRvCounts);
+    document.getElementById("rvCancel").addEventListener("click", resetRvForm);
+    document.getElementById("rvFilter").addEventListener("change", renderReviews);
+    document.getElementById("rhStart") && document.getElementById("rhStart").addEventListener("change", renderReviewHistory);
+    document.getElementById("rhEnd") && document.getElementById("rhEnd").addEventListener("change", renderReviewHistory);
+    (function initRhTag() { var el = document.getElementById("rhTag"); if (!el) return; el.innerHTML = '<option value="">全部标签</option>' + REVIEW_TAGS.map(function (t) { return '<option value="' + t + '">' + t + '</option>'; }).join(""); el.addEventListener("change", renderReviewHistory); })();
+    document.getElementById("rvSave").addEventListener("click", function () {
+      var date = document.getElementById("rvDate").value || todayKey();
+      var tag = document.getElementById("rvTag").value;
+      var p = document.getElementById("rvProblems").value.trim();
+      var pl = document.getElementById("rvPlan").value.trim();
+      if (!p && !pl) { toast("内容为空，请填写学习问题或改进计划"); return; }
+      var list = load("reviews", []);
+      var exIdx = -1; for (var i = 0; i < list.length; i++) { if (list[i].date === date) { exIdx = i; break; } }
+      if (exIdx >= 0) {
+        list[exIdx] = { id: list[exIdx].id, date: date, tag: tag, problems: p, plan: pl, created: list[exIdx].created };
+        editingReviewId = list[exIdx].id;
+      } else if (editingReviewId) {
+        for (var j = 0; j < list.length; j++) { if (list[j].id === editingReviewId) { list[j] = { id: editingReviewId, date: date, tag: tag, problems: p, plan: pl, created: list[j].created }; break; } }
+      } else {
+        var rec = { id: uid(), date: date, tag: tag, problems: p, plan: pl, created: Date.now() };
+        list.push(rec); editingReviewId = rec.id;
+      }
+      save("reviews", list);
+      resetRvForm(); loadTodayReviewIntoForm();
+      renderReviews();
+      toast("✅ 复盘保存成功");
+    });
+
+    /* 复盘历史总览（按日期区间/标签筛选 + 标签频次统计 + 点击跳编辑） */
+    function renderReviewHistory() {
+      var startEl = document.getElementById("rhStart"), endEl = document.getElementById("rhEnd"), tagEl = document.getElementById("rhTag");
+      if (!startEl || !tagEl) return;
+      var start = startEl.value, end = endEl.value, tag = tagEl.value || "";
+      var list = load("reviews", []);
+      if (start) list = list.filter(function (r) { return r.date >= start; });
+      if (end) list = list.filter(function (r) { return r.date <= end; });
+      if (tag) list = list.filter(function (r) { return (r.tag || "其他") === tag; });
+      list.sort(function (a, b) { return b.date === a.date ? (b.created || 0) - (a.created || 0) : (b.date < a.date ? -1 : 1); });
+      var freq = {}; REVIEW_TAGS.forEach(function (t) { freq[t] = 0; });
+      list.forEach(function (r) { var t = r.tag || "其他"; if (freq[t] === undefined) freq[t] = 0; freq[t]++; });
+      var maxC = 1; REVIEW_TAGS.forEach(function (t) { if (freq[t] > maxC) maxC = freq[t]; });
+      var statsEl = document.getElementById("rhStats");
+      if (statsEl) {
+        statsEl.innerHTML = '<div class="rh-total">共 ' + list.length + ' 条复盘' + (tag || start || end ? '（已筛选）' : '') + '</div>' +
+          REVIEW_TAGS.map(function (t) {
+            return '<div class="rh-stat"><span class="rh-stat-name">' + t + '</span><span class="rh-stat-bar"><i style="width:' + Math.round(freq[t] / maxC * 100) + '%"></i></span><span class="rh-stat-num">' + freq[t] + '</span></div>';
+          }).join("");
+      }
+      var box = document.getElementById("rhList"); if (!box) return;
+      if (!list.length) { box.innerHTML = '<div class="empty">暂无复盘记录 ✍</div>'; return; }
+      box.innerHTML = list.map(function (r) {
+        var tag2 = r.tag || "其他";
+        var preview = ((r.problems || r.plan || "").replace(/\n/g, " ")).slice(0, 42);
+        return '<div class="item rvh-item" data-id="' + r.id + '"><div class="item-head"><span class="item-title">📅 ' + r.date + '</span><span class="chip">' + tag2 + '</span>' +
+          (preview ? '<span class="rvh-preview">' + esc(preview) + (preview.length >= 42 ? "…" : "") + '</span>' : '') + '</div>' +
+          linkageHtml(r.date) +
+          '<div class="item-actions"><button class="btn btn-line btn-sm" data-del="' + r.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll(".rvh-item").forEach(function (el) { el.addEventListener("click", function (e) { if (e.target.closest("[data-del]")) return; editReview(el.getAttribute("data-id")); goPage("review"); }); });
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); if (confirm("删除该复盘？")) { save("reviews", load("reviews", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderReviewHistory(); toast("已删除"); } }); });
+      wireReviewLinkage(box);
+    }
+
+    /* 试卷专项分析（各模块总题量+答对数；逻辑判断含子项，手动值优先、避免重复统计） */
+    var PAPER_MODULES = [
+      { key: "politics", name: "政治理论", color: "#f6a5c0" },
+      { key: "common",   name: "常识判断", color: "#f7c59f" },
+      { key: "verbal",   name: "言语理解", color: "#f9d0dd" },
+      { key: "logic",    name: "逻辑判断", color: "#cdbdf0", subs: [
+        { key: "judge",  name: "判断推理", color: "#bcd4f0" },
+        { key: "define", name: "定义",     color: "#c9e0f0" },
+        { key: "analogy",name: "类比",     color: "#d6c8f0" },
+        { key: "graph",  name: "图形推理", color: "#bdb0e6" }
+      ]},
+      { key: "data",     name: "资料分析", color: "#a8e0d4" },
+      { key: "quant",    name: "数量关系", color: "#f7e2a8" }
+    ];
+    var PAPER_MAP = {}; PAPER_MODULES.forEach(function (m) { PAPER_MAP[m.key] = m; });
+    function correctOf(mm) { return mm && mm.correct != null ? mm.correct : (mm ? mm.total : 0); }
+    function renderPaperRows() {
+      var box = document.getElementById("ppRows"), html = "", logicKeys = [];
+      PAPER_MODULES.forEach(function (m) {
+        if (!m.subs) {
+          html += '<div class="paper-row"><span>' + m.name + '</span><input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /></div>';
+        } else {
+          logicKeys.push(m.key);
+          html += '<div class="paper-row"><span class="lt-head"><span class="lt-caret" data-k="' + m.key + '">▸</span> ' + m.name +
+            ' <span class="lt-hint" id="ppAgg_' + m.key + '">合计 0/0</span></span>' +
+            '<input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" />' +
+            '<input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /></div>';
+          html += '<div class="paper-subs" id="ppSubs_' + m.key + '" style="display:none;">';
+          m.subs.forEach(function (s) {
+            html += '<div class="paper-row sub"><span>· ' + s.name + '</span><input type="number" min="0" id="ppT_' + m.key + '_' + s.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '_' + s.key + '" placeholder="0" /></div>';
+          });
+          html += "</div>";
+        }
+      });
+      box.innerHTML = html;
+      // 逻辑判断：展开/收起子项（仅箭头可点，不影响手动输入）
+      Array.prototype.forEach.call(box.querySelectorAll(".lt-caret"), function (c) {
+        c.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var mk = c.getAttribute("data-k"), sub = document.getElementById("ppSubs_" + mk);
+          var open = sub.style.display === "none";
+          sub.style.display = open ? "block" : "none";
+          c.textContent = open ? "▾" : "▸";
+        });
+      });
+      // 实时合计：手动值优先，未填则取子项之和（仅显示，避免重复）
+      logicKeys.forEach(function (mk) {
+        var mod = PAPER_MAP[mk];
+        function upd() {
+          var mT = +document.getElementById("ppT_" + mk).value || 0, mC = +document.getElementById("ppC_" + mk).value || 0;
+          var sT = 0, sC = 0;
+          mod.subs.forEach(function (s) { sT += +document.getElementById("ppT_" + mk + "_" + s.key).value || 0; sC += +document.getElementById("ppC_" + mk + "_" + s.key).value || 0; });
+          var T = mT > 0 ? mT : sT, C = mT > 0 ? mC : sC;
+          var a = document.getElementById("ppAgg_" + mk);
+          if (a) { var mismatch = (mT > 0 && sT > 0 && (mT !== sT || mC !== sC)); a.textContent = "合计 " + C + "/" + T + (mismatch ? " ⚠与子项不符" : ""); a.style.color = mismatch ? "#d6517f" : ""; }
+        }
+        var ids = ["ppT_" + mk, "ppC_" + mk];
+        mod.subs.forEach(function (s) { ids.push("ppT_" + mk + "_" + s.key); ids.push("ppC_" + mk + "_" + s.key); });
+        ids.forEach(function (id) { var el = document.getElementById(id); if (el) el.addEventListener("input", upd); });
+        upd();
+      });
+    }
+    var ppPage = 1; var PP_PAGE_SIZE = 8;
+    function renderWeakSummary() {
+      var el = document.getElementById("weakSummary"); if (!el) return;
+      var list = load("papers", []).filter(function (p) { return p.modules; });
+      if (!list.length) { el.innerHTML = '<div class="empty">录入套卷后展示薄弱模块</div>'; return; }
+      var agg = {};
+      list.forEach(function (p) { for (var k in p.modules) { var mm = p.modules[k]; if (!agg[k]) agg[k] = { total: 0, correct: 0 }; agg[k].total += mm.total || 0; agg[k].correct += correctOf(mm); } });
+      var items = PAPER_MODULES.map(function (m) {
+        var a = agg[m.key]; if (!a || a.total <= 0) return null;
+        var rate = a.correct / a.total;
+        return { name: m.name, rate: rate, color: rate < 0.6 ? "#e06a8b" : (rate < 0.75 ? "#f0a23c" : "#4ba87a") };
+      }).filter(function (x) { return x; });
+      items.sort(function (a, b) { return a.rate - b.rate; });
+      var maxV = 100;
+      el.innerHTML = items.map(function (it) {
+        var w = (it.rate * 100).toFixed(0);
+        return '<div class="weak-row"><span class="weak-name">' + it.name + '</span><span class="weak-track"><span class="weak-fill" style="width:' + w + '%;background:' + it.color + '"></span></span><span class="weak-val">' + w + '%</span></div>';
+      }).join("") + '<div style="font-size:12px;color:var(--text-soft);margin-top:4px;">共汇总 ' + list.length + ' 套试卷</div>';
+    }
+
+    /* ===== 申论素材库 ===== */
+    var ESSAY_CATS = ["政策理论","乡村振兴","基层治理","民生保障","生态文明","经济发展","文化自信","科技自立","其他"];
+    var essayCat = "全部"; var essayKw = "";
+    function renderEssayTabs() {
+      var t = document.getElementById("essayTabs"); if (!t) return;
+      var cats = ["全部"].concat(ESSAY_CATS);
+      t.innerHTML = cats.map(function (c) { return '<div class="tab' + (essayCat === c ? " active" : "") + '" data-c="' + c + '">' + c + "</div>"; }).join("");
+      t.querySelectorAll(".tab").forEach(function (b) { b.addEventListener("click", function () { essayCat = b.getAttribute("data-c"); renderEssayTabs(); renderEssays(); }); });
+    }
+    function renderEssays() {
+      var box = document.getElementById("essayList"); if (!box) return;
+      var list = load("essays", []);
+      if (essayCat !== "全部") list = list.filter(function (e) { return e.cat === essayCat; });
+      if (essayKw) { var kw = essayKw.toLowerCase(); list = list.filter(function (e) { return (e.title + " " + e.content).toLowerCase().indexOf(kw) >= 0; }); }
+      list.sort(function (a, b) { return (b.created || 0) - (a.created || 0); });
+      if (!list.length) { box.innerHTML = '<div class="empty">这个分类还没有素材，点「+ 新增素材」积累金句 📚</div>'; return; }
+      box.innerHTML = list.map(function (e) {
+        return '<div class="item"><div class="item-head"><span class="chip" style="background:var(--accent-soft);color:var(--accent);">' + esc(e.cat) + '</span><span class="item-title">' + esc(e.title) + '</span></div>' +
+          '<div class="item-body" style="margin-top:4px;">' + esc(e.content) + '</div>' +
+          '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-eedit="' + e.id + '">编辑</button><button class="btn btn-line btn-sm" data-edel="' + e.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-eedit]").forEach(function (b) { b.addEventListener("click", function () { editEssay(b.getAttribute("data-eedit")); }); });
+      box.querySelectorAll("[data-edel]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该素材？")) { save("essays", load("essays", []).filter(function (x) { return x.id !== b.getAttribute("data-edel"); })); renderEssays(); toast("已删除"); } }); });
+    }
+    function editEssay(id) {
+      var list = load("essays", []); var e = id ? list.filter(function (x) { return x.id === id; })[0] : null;
+      var isNew = !e; if (isNew) e = { id: uid(), cat: ESSAY_CATS[0], title: "", content: "", created: Date.now() };
+      openModal(isNew ? "新增申论素材" : "编辑素材",
+        '<div class="form-row"><label>主题分类</label><select id="esCat">' + ESSAY_CATS.map(function (c) { return '<option value="' + c + '"' + (c === e.cat ? " selected" : "") + ">" + c + "</option>"; }).join("") + "</select></div>" +
+        '<div class="form-row"><label>标题 / 关键词</label><input id="esTitle" value="' + esc(e.title) + '" placeholder="如：新质生产力" /></div>' +
+        '<div class="form-row"><label>素材内容 / 金句</label><textarea id="esContent" placeholder="政策要点、论证素材或金句">' + esc(e.content) + "</textarea></div>",
+        '<button class="btn btn-primary btn-sm" id="esOk">保存</button>');
+      document.getElementById("esOk").addEventListener("click", function () {
+        e.cat = document.getElementById("esCat").value;
+        e.title = document.getElementById("esTitle").value.trim() || "未命名素材";
+        e.content = document.getElementById("esContent").value.trim();
+        if (!e.content) { toast("请填写素材内容"); return; }
+        var nl = load("essays", []).filter(function (x) { return x.id !== e.id; }); nl.push(e);
+        save("essays", nl); closeModal(); renderEssayTabs(); renderEssays(); toast("已保存");
+      });
+    }
+    document.getElementById("addEssayBtn").addEventListener("click", function () { editEssay(null); });
+    document.getElementById("essaySearch").addEventListener("input", function () { essayKw = this.value.trim(); renderEssays(); });
+    function renderEssay() { renderEssayTabs(); renderEssays(); }
+
+    function renderPapers() {
+      document.getElementById("ppDate").value = todayKey();
+      renderPaperRows();
+      var typeFilter = document.getElementById("ppTypeFilter") ? (document.getElementById("ppTypeFilter").value || "") : "";
+      var list = load("papers", []);
+      if (typeFilter) list = list.filter(function (p) { return (p.examType || "国考") === typeFilter; });
+      list.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      var box = document.getElementById("paperList");
+      var totalPages = Math.max(1, Math.ceil(list.length / PP_PAGE_SIZE));
+      if (ppPage > totalPages) ppPage = totalPages;
+      var pageList = list.slice((ppPage - 1) * PP_PAGE_SIZE, ppPage * PP_PAGE_SIZE);
+      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); return; }
+      box.innerHTML = pageList.map(function (p) {
+        var mods = p.modules, total = 0, correct = 0, bars = "";
+        if (mods) {
+          for (var k in mods) { var mm = mods[k]; total += mm.total || 0; correct += correctOf(mm); }
+          var rate = total > 0 ? (correct / total * 100).toFixed(1) : "0.0";
+          bars = PAPER_MODULES.map(function (m) {
+            var mm = mods[m.key]; if (!mm || mm.total <= 0) return "";
+            var isGroup = !!m.subs;
+            var cr = mm.total > 0 ? correctOf(mm) / mm.total : 0, weak = cr < 0.6;
+            var out = '<div class="bar-row' + (isGroup ? " logic-group" : "") + '" title="' + m.name + '：' + correctOf(mm) + "/" + mm.total + '"><span class="bar-name">' + m.name + (isGroup ? ' <span class="chip">合计</span>' : "") + '</span><div class="bar-track"><div class="bar-fill' + (weak ? " weak" : "") + '" style="width:' + (cr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (cr * 100).toFixed(1) + "%" + (weak ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
+            if (m.subs && mm.subs) m.subs.forEach(function (s) {
+              var sm = mm.subs[s.key]; if (!sm || sm.total <= 0) return;
+              var scr = sm.total > 0 ? sm.correct / sm.total : 0, sw = scr < 0.6;
+              out += '<div class="bar-row sub" title="' + s.name + '：' + sm.correct + "/" + sm.total + '"><span class="bar-name">· ' + s.name + '</span><div class="bar-track"><div class="bar-fill' + (sw ? " weak" : "") + '" style="width:' + (scr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (scr * 100).toFixed(1) + "%" + (sw ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
+            });
+            return out;
+          }).join("");
+          var meta = p.date + (p.duration ? " · 时长 " + p.duration + " 分钟" : "") + (p.score !== "" && p.score != null ? " · 分数 " + p.score : "");
+          var et = p.examType || "国考";
+          return '<div class="item"><div class="item-head"><span class="item-title">📃 ' + esc(p.name) + '</span><span class="exam-tag exam-' + et + '">' + et + '</span><span class="item-meta">' + meta + '</span></div>' +
+            '<div class="item-body"><span class="lab">总题量：</span>' + total + ' · <span class="lab">答对数：</span>' + correct + ' · <span class="lab">正确率：</span>' + rate + "%</div>" +
+            '<div style="margin-top:10px">' + bars + "</div>" +
+            (p.note ? '<div class="item-note"><span class="lab">备注：</span>' + esc(p.note) + "</div>" : "") +
+            '<div class="item-actions">' + (hasReview(p.date) ? '<button class="btn btn-ghost btn-sm" data-rvlink="' + p.date + '">📝 复盘</button>' : '') + '<button class="btn btn-line btn-sm" data-del="' + p.id + '">删除</button></div></div>';
+        }
+        return '<div class="item"><div class="item-head"><span class="item-title">📃 ' + esc(p.name) + '</span><span class="exam-tag exam-' + (p.examType || "国考") + '">' + (p.examType || "国考") + '</span><span class="item-meta">' + p.date + '</span></div><div class="item-body">旧版数据（缺少答对数），建议重新录入</div><div class="item-actions"><button class="btn btn-line btn-sm" data-del="' + p.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-del]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该套卷分析？")) { save("papers", load("papers", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); })); renderPapers(); if (document.getElementById("page-overview").classList.contains("active")) renderOverview(); toast("已删除"); } }); });
+      box.querySelectorAll("[data-rvlink]").forEach(function (b) { b.addEventListener("click", function (e) { e.stopPropagation(); jumpToReviewByDate(b.getAttribute("data-rvlink")); }); });
+      var pager = document.getElementById("ppPager");
+      if (totalPages <= 1) pager.innerHTML = "";
+      else pager.innerHTML = '<button id="ppPrev"' + (ppPage <= 1 ? " disabled" : "") + '>‹ 上一页</button><span class="pager-info">第 ' + ppPage + ' / ' + totalPages + ' 页</span><button id="ppNext"' + (ppPage >= totalPages ? " disabled" : "") + '>下一页 ›</button>';
+      var prev = document.getElementById("ppPrev"), next = document.getElementById("ppNext");
+      if (prev) prev.addEventListener("click", function () { if (ppPage > 1) { ppPage--; renderPapers(); } });
+      if (next) next.addEventListener("click", function () { if (ppPage < totalPages) { ppPage++; renderPapers(); } });
+      renderTrend(); renderWeakSummary();
+    }
+    var trendMetric = "rate";
+    function renderTrend() {
+      var el = document.getElementById("trendChart"); if (!el) return;
+      var list = load("papers", []).filter(function (p) { return p.modules; }).slice();
+      list.sort(function (a, b) { return (a.date < b.date ? -1 : 1); });
+      function lab(d) { return d && d.length >= 10 ? d.slice(5) : d; }
+      if (trendMetric === "rate") {
+        if (list.length < 2) { el.innerHTML = '<div class="empty">至少录入 2 套试卷后展示成绩趋势</div>'; return; }
+        var pts = list.map(function (p) {
+          var t = 0, c = 0; for (var k in p.modules) { var mm = p.modules[k]; t += mm.total || 0; c += correctOf(mm); }
+          return { label: lab(p.date), value: t > 0 ? c / t * 100 : 0 };
+        });
+        drawLine(el, pts, { tip: function (p) { return "正确率 " + p.value.toFixed(1) + "%"; }, color: "#ef7da3" });
+      } else {
+        var withScore = list.filter(function (p) { return p.score !== "" && p.score != null; });
+        if (withScore.length < 2) { el.innerHTML = '<div class="empty">录入分数的试卷不足 2 套，无法展示分数趋势</div>'; return; }
+        var pts2 = withScore.map(function (p) { return { label: lab(p.date), value: +p.score }; });
+        drawLine(el, pts2, { tip: function (p) { return "分数 " + p.value; }, color: "#6bbf9e" });
+      }
+    }
+    document.getElementById("ppSave").addEventListener("click", function () {
+      var name = document.getElementById("ppName").value.trim(), date = document.getElementById("ppDate").value || todayKey();
+      var duration = Math.max(0, +document.getElementById("ppDuration").value || 0), score = document.getElementById("ppScore").value;
+      if (!name) { toast("请填写试卷名称"); return; }
+      var modules = {};
+      PAPER_MODULES.forEach(function (m) {
+        if (!m.subs) {
+          var t = +document.getElementById("ppT_" + m.key).value || 0, c = +document.getElementById("ppC_" + m.key).value || 0;
+          modules[m.key] = { total: t, correct: Math.min(c, t) };
+        } else {
+          var mT = +document.getElementById("ppT_" + m.key).value || 0, mC = +document.getElementById("ppC_" + m.key).value || 0;
+          var T = 0, C = 0, subs = {};
+          m.subs.forEach(function (s) {
+            var t = +document.getElementById("ppT_" + m.key + "_" + s.key).value || 0, c = +document.getElementById("ppC_" + m.key + "_" + s.key).value || 0;
+            subs[s.key] = { total: t, correct: Math.min(c, t) }; T += t; C += c;
+          });
+          var finT = mT > 0 ? mT : T, finC = mT > 0 ? mC : C;
+          modules[m.key] = { total: finT, correct: Math.min(finC, finT), subs: subs };
+        }
+      });
+      var note = document.getElementById("ppNote").value.trim();
+      var examType = document.getElementById("ppType").value || "国考";
+      var list = load("papers", []); list.push({ id: uid(), name: name, date: date, duration: duration, score: score, examType: examType, modules: modules, note: note }); save("papers", list);
+      document.getElementById("ppName").value = ""; document.getElementById("ppDuration").value = ""; document.getElementById("ppScore").value = ""; document.getElementById("ppNote").value = ""; document.getElementById("ppNoteCount").textContent = "0 / 500";
+      renderPaperRows(); renderPapers(); toast("已保存套卷分析");
+    });
+    document.getElementById("ppNote").addEventListener("input", function () { document.getElementById("ppNoteCount").textContent = this.value.length + " / 500"; });
+    Array.prototype.forEach.call(document.querySelectorAll(".trend-btn"), function (b) {
+      b.addEventListener("click", function () {
+        trendMetric = b.getAttribute("data-metric");
+        document.querySelectorAll(".trend-btn").forEach(function (x) { x.classList.toggle("active", x === b); });
+        renderTrend();
+      });
+    });
+    document.getElementById("ppTypeFilter").addEventListener("change", function () { ppPage = 1; renderPapers(); });
+
+    /* 侧边栏 / 导航 */
+    (function updateDate() { var now = new Date(); document.getElementById("sidebarDate").textContent = now.getFullYear() + "年" + pad(now.getMonth() + 1) + "月" + pad(now.getDate()) + "日 星期" + WK[now.getDay()]; })();
+    (function avatarChange() { var avatar = document.getElementById("avatar"), input = document.getElementById("avatarInput");
+      var saved = load("avatar", "");
+      if (saved) avatar.src = saved;
+      avatar.addEventListener("click", function () { input.click(); });
+      input.addEventListener("change", function () { var f = input.files && input.files[0]; if (!f) return;
+        var r = new FileReader();
+        r.onload = function (e) {
+          var img = new Image();
+          img.onload = function () {
+            var max = 256, w = img.width, h = img.height;
+            if (w > max || h > max) { if (w >= h) { h = Math.round(h * max / w); w = max; } else { w = Math.round(w * max / h); h = max; } }
+            var c = document.createElement("canvas"); c.width = w; c.height = h;
+            c.getContext("2d").drawImage(img, 0, 0, w, h);
+            var uri = c.toDataURL("image/jpeg", 0.85);
+            avatar.src = uri; save("avatar", uri);
+          };
+          img.onerror = function () { avatar.src = e.target.result; save("avatar", e.target.result); };
+          img.src = e.target.result;
+        };
+        r.readAsDataURL(f);
+      }); })();
+    /* ===== 题库练习 ===== */
+    var prSetup = { mods: [], count: 10, mode: "random", autoAdd: true };
+    var practice = { active: false, done: false, items: [], idx: 0, selected: [], graded: false, correct: 0, wrong: 0, startTs: 0, autoAdd: true, added: {} };
+
+    var QBANK_BUILTIN = [
+      { id: "p1", module: "politics", type: "单选", stem: "新发展理念中，注重解决发展不平衡问题的是？", options: ["创新", "协调", "绿色", "开放"], answer: "B", explanation: "协调发展注重解决发展不平衡问题，促进城乡、区域、经济社会、人与自然、国内国际协调发展。", difficulty: 1 },
+      { id: "p2", module: "politics", type: "单选", stem: "中国特色社会主义最本质的特征是？", options: ["中国共产党领导", "社会主义市场经济", "人民当家作主", "依法治国"], answer: "A", explanation: "中国共产党的领导是中国特色社会主义最本质的特征和最大优势。", difficulty: 1 },
+      { id: "p3", module: "politics", type: "单选", stem: "“四个全面”战略布局中，处于引领地位的战略目标是？", options: ["全面深化改革", "全面依法治国", "全面从严治党", "全面建设社会主义现代化国家"], answer: "D", explanation: "全面建设社会主义现代化国家是战略目标，其余三项是战略举措。", difficulty: 2 },
+      { id: "p4", module: "politics", type: "单选", stem: "我们党的根本宗旨是？", options: ["全心全意为人民服务", "实现共同富裕", "发展生产力", "依法治国"], answer: "A", explanation: "全心全意为人民服务是党的根本宗旨。", difficulty: 1 },
+      { id: "p5", module: "politics", type: "单选", stem: "我国的根本政治制度是？", options: ["人民代表大会制度", "多党合作制度", "基层群众自治", "民族区域自治"], answer: "A", explanation: "人民代表大会制度是我国的根本政治制度。", difficulty: 1 },
+      { id: "p6", module: "politics", type: "单选", stem: "社会主义民主政治的本质和核心是？", options: ["人民当家作主", "依法治国", "党的领导", "民主集中制"], answer: "A", explanation: "人民当家作主是社会主义民主政治的本质和核心。", difficulty: 2 },
+      { id: "c1", module: "common", type: "单选", stem: "下列不属于我国古代“四大发明”的是？", options: ["造纸术", "印刷术", "地动仪", "火药"], answer: "C", explanation: "四大发明为造纸术、印刷术、火药、指南针；地动仪是张衡发明的观测仪器，不属于四大发明。", difficulty: 1 },
+      { id: "c2", module: "common", type: "单选", stem: "二十四节气中，属于春季的最后一个节气是？", options: ["清明", "谷雨", "立夏", "春分"], answer: "B", explanation: "春季六节气为立春、雨水、惊蛰、春分、清明、谷雨，谷雨为最后一个。", difficulty: 2 },
+      { id: "c3", module: "common", type: "单选", stem: "“一带一路”倡议指的是？", options: ["丝绸之路经济带和21世纪海上丝绸之路", "长江经济带", "京津冀协同发展", "粤港澳大湾区"], answer: "A", explanation: "“一带一路”即丝绸之路经济带和21世纪海上丝绸之路。", difficulty: 1 },
+      { id: "c4", module: "common", type: "单选", stem: "我国第一颗人造地球卫星是？", options: ["东方红一号", "神舟一号", "嫦娥一号", "风云一号"], answer: "A", explanation: "1970年发射的“东方红一号”是我国第一颗人造地球卫星。", difficulty: 1 },
+      { id: "c5", module: "common", type: "单选", stem: "下列人物中，属于道家学派代表人物的是？", options: ["孔子", "老子", "墨子", "韩非子"], answer: "B", explanation: "老子、庄子是道家代表人物；孔子属儒家，墨子是墨家，韩非子是法家。", difficulty: 1 },
+      { id: "c6", module: "common", type: "单选", stem: "长江的发源地是？", options: ["青藏高原唐古拉山脉", "巴颜喀拉山", "云贵高原", "黄土高原"], answer: "A", explanation: "长江发源于青藏高原唐古拉山脉各拉丹冬峰。", difficulty: 2 },
+      { id: "v1", module: "verbal", type: "单选", stem: "填入横线最恰当的一项是：面对错综复杂的形势，我们必须______。", options: ["统筹兼顾", "南辕北辙", "墨守成规", "削足适履"], answer: "A", explanation: "统筹兼顾指统一筹划、各方面兼顾；其余均含贬义或语义相反。", difficulty: 2 },
+      { id: "v2", module: "verbal", type: "单选", stem: "与“画蛇添足”意思最接近的成语是？", options: ["多此一举", "锦上添花", "雪中送炭", "精益求精"], answer: "A", explanation: "画蛇添足比喻做了多余的事反而不恰当，与多此一举近义。", difficulty: 2 },
+      { id: "v3", module: "verbal", type: "单选", stem: "“左右逢源”的原意是指？", options: ["做事得心应手、处处顺利", "为人圆滑世故", "财力雄厚", "关系网广"], answer: "A", explanation: "原意指学问广博、处事周全（语出《孟子》）；后多含贬义指为人圆滑。", difficulty: 3 },
+      { id: "v4", module: "verbal", type: "单选", stem: "下列句子中，“不绝如缕”使用正确的一项是？", options: ["集市上人群不绝如缕", "他的琴声不绝如缕，余音绕梁", "消息不绝如缕地传来", "雨水不绝如缕下了三天"], answer: "B", explanation: "不绝如缕形容局势危急或声音细微悠长，不能误用为“连续不断”。", difficulty: 3 },
+      { id: "v5", module: "verbal", type: "单选", stem: "文段主旨：阅读纸质书有助于深度思考，而电子阅读容易碎片化、浅阅读。最适合的概括是？", options: ["纸质书优于电子书", "提倡深度阅读、警惕碎片化", "电子阅读一无是处", "应当禁止电子阅读"], answer: "B", explanation: "文段核心是对比中提倡深度阅读、警惕碎片化，并非全盘否定电子阅读。", difficulty: 2 },
+      { id: "v6", module: "verbal", type: "单选", stem: "填入横线最恰当的是：经过______的努力，他终于考上理想的大学。", options: ["锲而不舍", "见异思迁", "半途而废", "浅尝辄止"], answer: "A", explanation: "锲而不舍指坚持不懈，符合语境；其余均为贬义。", difficulty: 1 },
+      { id: "l1", module: "logic", type: "单选", stem: "“医生：病人” 与下列哪项逻辑关系最相似？", options: ["教师：学生", "司机：汽车", "作家：小说", "农民：土地"], answer: "A", explanation: "均为职业与其服务/作用对象的关系。", difficulty: 1 },
+      { id: "l2", module: "logic", type: "单选", stem: "“所有金属都导电，铜是金属，所以铜导电。”这一推理属于？", options: ["演绎推理", "归纳推理", "类比推理", "因果推理"], answer: "A", explanation: "由一般到个别、前提必然推出结论，是演绎推理（三段论）。", difficulty: 2 },
+      { id: "l3", module: "logic", type: "单选", stem: "已知：如果明天下雨，地面就会湿。今天地面没有湿。可以推出？", options: ["明天下雨了", "明天没下雨", "地面湿了", "无法确定"], answer: "B", explanation: "由“下雨→地湿”的逆否命题“地不湿→没下雨”可得明天没下雨。", difficulty: 2 },
+      { id: "l4", module: "logic", type: "单选", stem: "要支持“限时停车能缓解拥堵”的结论，最有力的是？", options: ["限时停车提高了车位周转率", "该措施成本很低", "市民普遍支持", "其他城市也采用过"], answer: "A", explanation: "直接建立“限时停车”与“缓解拥堵”之间的因果联系，最能支持。", difficulty: 2 },
+      { id: "l5", module: "logic", type: "单选", stem: "有人声称“每天吃维生素C能预防感冒”。最能削弱该说法的是？", options: ["研究显示维C对预防感冒无显著效果", "维C有益健康", "很多人都在吃维C", "维C价格便宜"], answer: "A", explanation: "直接否定因果关系的有效性，削弱力度最强。", difficulty: 2 },
+      { id: "l6", module: "logic", type: "单选", stem: "类比推理：苹果：水果 相当于 胡萝卜：？", options: ["蔬菜", "萝卜", "粮食", "植物"], answer: "A", explanation: "前者是后者的一种（种属关系）。", difficulty: 1 },
+      { id: "g1", module: "graph", type: "单选", stem: "下列图形中，对称轴数量最多的是？", options: ["等边三角形", "正方形", "正五边形", "圆"], answer: "D", explanation: "圆有无数条对称轴，其余分别为3、4、5条。", difficulty: 1 },
+      { id: "g2", module: "graph", type: "单选", stem: "一组图形封闭区域数依次为 1、2、3、4，则下一个应为？", options: ["3", "4", "5", "6"], answer: "C", explanation: "按自然数递增规律，下一项为5。", difficulty: 2 },
+      { id: "g3", module: "graph", type: "单选", stem: "字母序列 A、C、E、G、？ 下一个是？", options: ["H", "I", "K", "J"], answer: "B", explanation: "每次间隔一个字母（序号+2），G后为I。", difficulty: 2 },
+      { id: "g4", module: "graph", type: "单选", stem: "下列几何体中，不属于多面体的是？", options: ["正方体", "三棱锥", "圆柱", "正八面体"], answer: "C", explanation: "圆柱含有曲面，不是多面体。", difficulty: 2 },
+      { id: "g5", module: "graph", type: "单选", stem: "两个边长为 a 的正方形拼成一个长方形后，新图形周长比原来两个正方形周长之和？", options: ["变大", "变小", "不变", "无法确定"], answer: "B", explanation: "拼接后重合边不再计入，周长由8a减为6a。", difficulty: 2 },
+      { id: "g6", module: "graph", type: "单选", stem: "若图形按“轴对称、中心对称、轴对称、中心对称”逐行排列，第三行应为？", options: ["轴对称", "中心对称", "既轴对称又中心对称", "不对称"], answer: "C", explanation: "按交替规律，第三行与前一行（中心对称）相反，应为既轴又中心对称。", difficulty: 3 },
+      { id: "d1", module: "data", type: "单选", stem: "2023年某省GDP为12000亿元，同比增长5%，则2022年约为？", options: ["11429亿元", "12600亿元", "12000亿元", "11500亿元"], answer: "A", explanation: "基期=12000÷1.05≈11428.6亿元。", difficulty: 2 },
+      { id: "d2", module: "data", type: "单选", stem: "某企业2022年利润200万元，2023年利润260万元，利润增长率约为？", options: ["30%", "26%", "23%", "20%"], answer: "A", explanation: "(260−200)÷200=30%。", difficulty: 1 },
+      { id: "d3", module: "data", type: "单选", stem: "A市800万人、B市600万、C市500万，三市总人口约？", options: ["1900万", "2000万", "1800万", "2100万"], answer: "A", explanation: "800+600+500=1900万。", difficulty: 1 },
+      { id: "d4", module: "data", type: "单选", stem: "增速比较：甲8.5%、乙9.2%、丙7.1%，最高的是？", options: ["甲", "乙", "丙", "三者相同"], answer: "B", explanation: "9.2%最大，为乙。", difficulty: 1 },
+      { id: "d5", module: "data", type: "单选", stem: "某商品单价由100元涨到120元，涨幅约为？", options: ["20%", "16.7%", "25%", "15%"], answer: "A", explanation: "(120−100)÷100=20%。", difficulty: 1 },
+      { id: "d6", module: "data", type: "单选", stem: "某指标2020—2023年依次为100、120、150、180，年均增量约为？", options: ["20", "26.7", "30", "25"], answer: "B", explanation: "(180−100)÷3≈26.7。", difficulty: 2 },
+      { id: "q1", module: "quant", type: "单选", stem: "甲单独12天完成，乙单独18天，两人合作需几天？", options: ["7.2天", "15天", "10天", "8天"], answer: "A", explanation: "效率和=1/12+1/18=5/36，时间=36/5=7.2天。", difficulty: 2 },
+      { id: "q2", module: "quant", type: "单选", stem: "等差数列 2、5、8、11…… 第10项是？", options: ["29", "30", "31", "28"], answer: "A", explanation: "aₙ=2+(n−1)×3，a₁₀=2+27=29。", difficulty: 1 },
+      { id: "q3", module: "quant", type: "单选", stem: "边长为4的正方形面积是？", options: ["16", "8", "12", "20"], answer: "A", explanation: "面积=边长²=16。", difficulty: 1 },
+      { id: "q4", module: "quant", type: "单选", stem: "商品打八折后售价80元，原价为？", options: ["100元", "90元", "96元", "64元"], answer: "A", explanation: "80÷0.8=100。", difficulty: 1 },
+      { id: "q5", module: "quant", type: "单选", stem: "A比B多20%，B=50，则A=？", options: ["60", "55", "70", "62"], answer: "A", explanation: "50×(1+20%)=60。", difficulty: 1 },
+      { id: "q6", module: "quant", type: "单选", stem: "1到100的自然数中，3的倍数共有多少个？", options: ["33", "34", "30", "32"], answer: "A", explanation: "3,6,…,99 共 99÷3=33 个。", difficulty: 2 },
+      { id: "k1", module: "calc", type: "单选", stem: "25×44 = ?", options: ["1100", "1000", "1150", "1200"], answer: "A", explanation: "25×4×11=1100。", difficulty: 1 },
+      { id: "k2", module: "calc", type: "单选", stem: "3456×1.15 ≈ ?", options: ["3974", "3800", "3900", "4000"], answer: "A", explanation: "3456×1.15=3974.4。", difficulty: 1 },
+      { id: "k3", module: "calc", type: "单选", stem: "1/4 + 1/2 = ?", options: ["3/4", "2/3", "1/2", "1"], answer: "A", explanation: "1/4+2/4=3/4。", difficulty: 1 },
+      { id: "k4", module: "calc", type: "单选", stem: "200 的 15% 是？", options: ["30", "25", "35", "40"], answer: "A", explanation: "200×0.15=30。", difficulty: 1 },
+      { id: "k5", module: "calc", type: "单选", stem: "999×9 = ?", options: ["8991", "8900", "9000", "8990"], answer: "A", explanation: "(1000−1)×9=8991。", difficulty: 2 },
+      { id: "k6", module: "calc", type: "单选", stem: "√144 = ?", options: ["12", "14", "11", "13"], answer: "A", explanation: "12²=144。", difficulty: 1 }
+    ];
+
+    function getQBank() {
+      var user = load("qbank", []) || [];
+      var map = {};
+      QBANK_BUILTIN.forEach(function (q) { map[q.id] = q; });
+      user.forEach(function (q) { if (q && q.id) map[q.id] = q; });
+      return Object.keys(map).map(function (k) { return map[k]; });
+    }
+    function isAnswerRight(q) {
+      return practice.selected.slice().sort().join("") === ("" + q.answer).split("").sort().join("");
+    }
+    function addWrongToMistakes(q) {
+      var list = load("mistakes", []);
+      list.push({ id: uid(), module: q.module, date: todayKey(), question: q.stem, reason: "练习答错", correct: q.explanation, image: null, correctImage: null, created: Date.now(), mastery: "review", favorite: false, reviewBase: "", difficulty: q.difficulty });
+      save("mistakes", list);
+    }
+    function finishPractice() {
+      var dur = Math.round((Date.now() - practice.startTs) / 1000);
+      var acc = practice.items.length ? Math.round(practice.correct / practice.items.length * 100) : 0;
+      var hist = load("practice", []);
+      hist.push({ date: todayKey(), total: practice.items.length, correct: practice.correct, accuracy: acc, duration: dur });
+      save("practice", hist);
+      practice.done = true;
+    }
+    function startPractice() {
+      var bank = getQBank();
+      var pool = prSetup.mods.length ? bank.filter(function (q) { return prSetup.mods.indexOf(q.module) >= 0; }) : bank;
+      if (!pool.length) { toast("该模块暂无题目"); return; }
+      var n = Math.min(prSetup.count || 10, pool.length);
+      var items = pool.slice();
+      if (prSetup.mode === "random") {
+        for (var i = items.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = items[i]; items[i] = items[j]; items[j] = t; }
+      }
+      items = items.slice(0, n);
+      practice = { active: true, done: false, items: items, idx: 0, selected: [], graded: false, correct: 0, wrong: 0, startTs: Date.now(), autoAdd: prSetup.autoAdd, added: {} };
+      renderPractice();
+    }
+    function prGrade() {
+      if (practice.graded) return;
+      var q = practice.items[practice.idx];
+      practice.graded = true;
+      if (isAnswerRight(q)) practice.correct++; else practice.wrong++;
+      if (!isAnswerRight(q) && practice.autoAdd && !practice.added[q.id]) { addWrongToMistakes(q); practice.added[q.id] = true; }
+      renderPractice();
+    }
+    function prSetupHTML() {
+      var bank = getQBank();
+      var counts = {};
+      bank.forEach(function (q) { counts[q.module] = (counts[q.module] || 0) + 1; });
+      var chips = SUBJECTS.filter(function (s) { return counts[s.key]; }).map(function (s) {
+        var on = prSetup.mods.indexOf(s.key) >= 0;
+        return '<button type="button" class="pr-chip' + (on ? " on" : "") + '" data-mod="' + s.key + '" style="border-color:' + s.color + ';' + (on ? "background:" + s.color + ";" : "") + '">' + s.ico + " " + s.name + " <small>" + counts[s.key] + "</small></button>";
+      }).join("");
+      return '<div class="card"><h3 style="margin-bottom:10px;">🎯 练习设置</h3>' +
+        '<div class="form-row"><label>选择模块（不选 = 全部）</label><div class="pr-chips">' + chips + "</div></div>" +
+        '<div style="display:flex;gap:12px;flex-wrap:wrap;">' +
+        '<div class="form-row" style="flex:1;min-width:140px;"><label>题数</label><input type="number" id="prCount" class="mini" value="' + prSetup.count + '" min="1" max="' + bank.length + '" /></div>' +
+        '<div class="form-row" style="flex:1;min-width:140px;"><label>出题模式</label><select id="prMode" class="mini"><option value="random"' + (prSetup.mode === "random" ? " selected" : "") + ">随机</option><option value=\"seq\"" + (prSetup.mode === "seq" ? " selected" : "") + ">顺序</option></select></div>" +
+        "</div>" +
+        '<label style="display:flex;align-items:center;gap:8px;font-size:14px;margin:6px 0 12px;color:var(--ink);"><input type="checkbox" id="prAuto"' + (prSetup.autoAdd ? " checked" : "") + " /> 答错自动加入错题本</label>" +
+        '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;"><button class="btn btn-primary" id="prStart">▶ 开始练习</button>' +
+        '<span style="font-size:13px;color:var(--text-soft);">题库共 ' + bank.length + " 题（内置 " + QBANK_BUILTIN.length + " + 你的 " + (bank.length - QBANK_BUILTIN.length) + "）</span></div>" +
+        "</div>";
+    }
+    function bindSetup() {
+      var root = document.getElementById("practiceRoot");
+      root.querySelectorAll(".pr-chip").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var k = b.getAttribute("data-mod"), i = prSetup.mods.indexOf(k);
+          if (i >= 0) prSetup.mods.splice(i, 1); else prSetup.mods.push(k);
+          renderPractice();
+        });
+      });
+      var st = document.getElementById("prStart");
+      if (st) st.addEventListener("click", function () {
+        prSetup.count = Math.max(1, parseInt(document.getElementById("prCount").value, 10) || 10);
+        prSetup.mode = document.getElementById("prMode").value;
+        prSetup.autoAdd = document.getElementById("prAuto").checked;
+        startPractice();
+      });
+    }
+    function prQuestionHTML(q, graded) {
+      var s = SUB_MAP[q.module];
+      var opts = (q.options || []).map(function (o, i) {
+        var letter = String.fromCharCode(65 + i), cls = "pr-opt", sel = practice.selected.indexOf(letter) >= 0;
+        if (sel) cls += " sel";
+        if (graded) { if (("" + q.answer).indexOf(letter) >= 0) cls += " right"; else if (sel) cls += " wrong"; }
+        return '<button type="button" class="' + cls + '" data-opt="' + letter + '" ' + (graded ? "disabled" : "") + ">" + letter + ". " + esc(o) + "</button>";
+      }).join("");
+      var foot;
+      if (!graded) {
+        foot = '<button class="btn btn-primary" id="prSubmit" ' + (practice.selected.length ? "" : "disabled") + ">提交答案</button>";
+      } else {
+        var right = isAnswerRight(q), added = practice.added[q.id];
+        foot = '<div class="pr-feed ' + (right ? "ok" : "no") + '">' + (right ? "✅ 回答正确" : "❌ 回答错误 · 正确答案：" + q.answer) + "</div>" +
+          '<div class="pr-exp"><b>解析：</b>' + esc(q.explanation) + "</div>" +
+          (right ? "" : (added ? '<div class="pr-added">📌 已加入错题本</div>' : '<button class="btn btn-line" id="prAdd">📥 加入错题本</button>')) +
+          '<button class="btn btn-primary" id="prNext">' + (practice.idx + 1 >= practice.items.length ? "查看结果 ▸" : "下一题 ›") + "</button>";
+      }
+      return '<div class="card pr-q">' +
+        '<div class="pr-top"><span class="chip" style="background:' + (s ? s.color : "#fbe3ec") + '">' + (s ? s.name : q.module) + "</span>" +
+        '<span class="diff-badge diff-' + q.difficulty + '">' + DIFF_NAMES[q.difficulty] + "</span>" +
+        '<span class="pr-type">' + q.type + '</span><span class="pr-prog">第 ' + (practice.idx + 1) + " / " + practice.items.length + " 题</span></div>" +
+        '<div class="pr-stem">' + esc(q.stem) + "</div>" +
+        '<div class="pr-opts">' + opts + "</div>" +
+        '<div class="pr-foot">' + foot + "</div></div>";
+    }
+    function bindQuestion(q) {
+      var root = document.getElementById("practiceRoot");
+      root.querySelectorAll(".pr-opt").forEach(function (b) {
+        if (b.disabled) return;
+        b.addEventListener("click", function () {
+          var letter = b.getAttribute("data-opt"), multi = q.type === "多选", i = practice.selected.indexOf(letter);
+          if (multi) { if (i >= 0) practice.selected.splice(i, 1); else practice.selected.push(letter); }
+          else { practice.selected = [letter]; }
+          renderPractice();
+        });
+      });
+      var sub = document.getElementById("prSubmit"); if (sub) sub.addEventListener("click", prGrade);
+      var nx = document.getElementById("prNext");
+      if (nx) nx.addEventListener("click", function () {
+        practice.idx++; practice.selected = []; practice.graded = false;
+        if (practice.idx >= practice.items.length) finishPractice();
+        renderPractice();
+      });
+      var add = document.getElementById("prAdd");
+      if (add) add.addEventListener("click", function () { addWrongToMistakes(q); practice.added[q.id] = true; renderPractice(); });
+    }
+    function prFinishHTML() {
+      var total = practice.items.length, acc = total ? Math.round(practice.correct / total * 100) : 0, dur = Math.round((Date.now() - practice.startTs) / 1000);
+      return '<div class="card pr-result"><h3 style="text-align:center;margin-bottom:4px;">🎉 练习完成</h3>' +
+        '<div class="pr-score">' + acc + "<small>%</small></div>" +
+        '<div class="pr-stats"><div><b>' + total + "</b><span>总题数</span></div><div><b>" + practice.correct + "</b><span>答对</span></div><div><b>" + practice.wrong + "</b><span>答错</span></div><div><b>" + fmtDur(dur) + "</b><span>用时</span></div></div>" +
+        '<div style="display:flex;gap:10px;margin-top:14px;"><button class="btn btn-primary" id="prAgain">🔁 再练一次</button><button class="btn btn-line" id="prBack">返回设置</button></div>' +
+        (practice.wrong ? '<p class="page-sub" style="text-align:center;margin-top:10px;">答错的题已加入错题本，可在「分模块错题本」复习</p>' : "") + "</div>";
+    }
+    function bindFinish() {
+      var again = document.getElementById("prAgain"); if (again) again.addEventListener("click", startPractice);
+      var back = document.getElementById("prBack"); if (back) back.addEventListener("click", function () { practice = { active: false, done: false }; renderPractice(); });
+    }
+    function renderPractice() {
+      var root = document.getElementById("practiceRoot"); if (!root) return;
+      if (practice.done) { root.innerHTML = prFinishHTML(); bindFinish(); return; }
+      if (!practice.active) { root.innerHTML = prSetupHTML(); bindSetup(); return; }
+      var q = practice.items[practice.idx];
+      root.innerHTML = prQuestionHTML(q, practice.graded);
+      bindQuestion(q);
+    }
+
+    /* ===== 分段计时（套卷按模块统计用时） ===== */
+    var seg = { active: false, paused: false, name: "", date: todayKey(), segs: [], cur: null };
+    var segLast = null;
+    var segTimer = null;
+    function segCurSecs() {
+      if (!seg.cur) return 0;
+      return (seg.cur.acc || 0) + (seg.cur.start ? Math.floor((Date.now() - seg.cur.start) / 1000) : 0);
+    }
+    function segTotalSecs() {
+      var s = seg.segs.reduce(function (a, x) { return a + x.secs; }, 0);
+      return s + segCurSecs();
+    }
+    function segModName(k) { var s = SUB_MAP[k]; return s ? s.name : k; }
+    function startSegTick() { stopSegTick(); segTimer = setInterval(function () { var c = document.getElementById("segClock"); if (c) c.textContent = fmtClock(segCurSecs()); var t = document.getElementById("segCurTime"); if (t) t.textContent = fmtClock(segCurSecs()); }, 1000); }
+    function stopSegTick() { if (segTimer) { clearInterval(segTimer); segTimer = null; } }
+    function segStart() {
+      if (seg.active) return;
+      segLast = null;
+      var m = document.getElementById("segModule") ? document.getElementById("segModule").value : SUBJECTS[0].key;
+      seg.active = true; seg.paused = false;
+      seg.cur = { module: m, start: Date.now(), acc: 0 };
+      startSegTick(); renderSegment();
+    }
+    function segPause() {
+      if (!seg.active) return;
+      if (seg.paused) { seg.paused = false; seg.cur.start = Date.now(); }
+      else { seg.paused = true; seg.cur.acc += Math.floor((Date.now() - seg.cur.start) / 1000); seg.cur.start = null; }
+      renderSegment();
+    }
+    function segNext() {
+      if (!seg.active) return;
+      seg.segs.push({ module: seg.cur.module, secs: segCurSecs() });
+      var m = document.getElementById("segModule") ? document.getElementById("segModule").value : SUBJECTS[0].key;
+      seg.cur = { module: m, start: Date.now(), acc: 0 }; seg.paused = false;
+      renderSegment();
+    }
+    function segFinish() {
+      if (seg.active) { if (seg.cur) seg.segs.push({ module: seg.cur.module, secs: segCurSecs() }); stopSegTick(); }
+      var total = seg.segs.reduce(function (a, x) { return a + x.secs; }, 0);
+      if (seg.segs.length) {
+        var hist = load("segments", []);
+        var rec = { id: uid(), name: seg.name || "未命名套卷", date: seg.date, totalSecs: total, segments: seg.segs.slice() };
+        hist.push(rec); save("segments", hist);
+        segLast = rec;
+        toast("已保存本次分段计时");
+      }
+      seg = { active: false, paused: false, name: "", date: todayKey(), segs: [], cur: null };
+      renderSegment();
+    }
+    function renderSegment() {
+      var root = document.getElementById("segmentRoot"); if (!root) return;
+      var modLabel = seg.active ? "下一段模块" : "首段模块";
+      var modSel = '<select id="segModule" class="mini">' + SUBJECTS.map(function (s) { return '<option value="' + s.key + '">' + s.ico + " " + s.name + "</option>"; }).join("") + "</select>";
+      var ctrl = '<div class="card"><h3 style="margin-bottom:10px;">⏱ 分段计时</h3>' +
+        '<div class="form-row"><label>套卷名称（选填）</label><input type="text" id="segName" class="mini" value="' + esc(seg.name) + '" placeholder="如：2026国考行测" /></div>' +
+        '<div class="form-row"><label>' + modLabel + '</label>' + modSel + "</div>" +
+        '<div class="seg-clock" id="segClock">' + fmtClock(segCurSecs()) + "</div>" +
+        '<div class="seg-btns">' +
+        (seg.active ? (seg.paused ? '<button class="btn btn-primary" id="segPause">▶ 继续</button>' : '<button class="btn btn-ghost" id="segPause">⏸ 暂停</button>')
+                    : '<button class="btn btn-primary" id="segStart">● 开始计时</button>') +
+        (seg.active ? '<button class="btn" id="segNext">结束本段·切下一段 ›</button>' : "") +
+        (seg.active ? '<button class="btn btn-line" id="segFinish">■ 结束并统计</button>' : "") +
+        "</div>" +
+        '<p class="page-sub" style="margin-top:8px;">计时中可在「下一段模块」先选好下一模块，点「结束本段·切下一段」即把当前段时长计入对应模块并开始下一段</p></div>';
+      var listRows = "";
+      seg.segs.forEach(function (s) { var sm = SUB_MAP[s.module]; listRows += '<div class="seg-row"><span class="chip" style="background:' + (sm ? sm.color : "#fbe3ec") + '">' + (sm ? sm.name : s.module) + '</span><span class="seg-time">' + fmtClock(s.secs) + "</span></div>"; });
+      if (seg.cur) { var cm = SUB_MAP[seg.cur.module]; listRows += '<div class="seg-row seg-cur"><span class="chip" style="background:' + (cm ? cm.color : "#fbe3ec") + '">' + (cm ? cm.name : seg.cur.module) + "（计时中）</span><span class=\"seg-time\" id=\"segCurTime\">" + fmtClock(segCurSecs()) + "</span></div>"; }
+      var list = '<div class="card"><h3 style="margin-bottom:8px;">📋 各段记录</h3>' + (listRows ? listRows : '<div class="empty">还没有分段</div>') + "</div>";
+      var byMod = {}; seg.segs.forEach(function (s) { byMod[s.module] = (byMod[s.module] || 0) + s.secs; });
+      var maxv = Math.max(1, segTotalSecs());
+      var sumRows = Object.keys(byMod).map(function (k) { var sm = SUB_MAP[k]; return '<div class="bar-row"><span class="bar-name">' + (sm ? sm.name : k) + '</span><div class="bar-track"><div class="bar-fill" style="width:' + (byMod[k] / maxv * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + fmtClock(byMod[k]) + "</span></div>"; }).join("");
+      var summary = seg.segs.length ? '<div class="card"><h3>📊 本次各模块时长</h3><div class="seg-total">总计 <b>' + fmtClock(segTotalSecs()) + "</b></div>" + (sumRows || "") + "</div>" : "";
+      var result = "";
+      if (!seg.active && segLast) {
+        var bm2 = {}; segLast.segments.forEach(function (s) { bm2[s.module] = (bm2[s.module] || 0) + s.secs; });
+        var maxr = Math.max(1, segLast.totalSecs);
+        var rrows = Object.keys(bm2).map(function (k) { var sm = SUB_MAP[k]; return '<div class="bar-row"><span class="bar-name">' + (sm ? sm.name : k) + '</span><div class="bar-track"><div class="bar-fill" style="width:' + (bm2[k] / maxr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + fmtClock(bm2[k]) + "</span></div>"; }).join("");
+        result = '<div class="card seg-result"><h3>✅ 本次结果 · ' + esc(segLast.name) + '</h3>' +
+          '<div class="seg-total">总计 <b>' + fmtClock(segLast.totalSecs) + '</b> · ' + segLast.date + '</div>' + (rrows || "") +
+          '<div class="seg-btns"><button class="btn" id="segClearLast">清除结果</button></div></div>';
+      }
+      var hist = load("segments", []); hist.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      var histRows = hist.slice(0, 20).map(function (h) { var bm = {}; h.segments.forEach(function (s) { bm[s.module] = (bm[s.module] || 0) + s.secs; }); var mini = Object.keys(bm).map(function (k) { return segModName(k) + " " + fmtClock(bm[k]); }).join(" · "); return '<div class="seg-hist"><div class="seg-hist-h"><b>' + esc(h.name) + '</b><span class="seg-time">' + h.date + " · " + fmtClock(h.totalSecs) + '</span></div><div class="seg-hist-b">' + mini + "</div></div>"; }).join("");
+      var history = '<div class="card"><h3>🗂 历史记录</h3>' + (histRows ? histRows : '<div class="empty">暂无记录</div>') + "</div>";
+      root.innerHTML = ctrl + result + list + summary + history;
+      bindSegment();
+    }
+    function bindSegment() {
+      var nm = document.getElementById("segName"); if (nm) nm.addEventListener("input", function () { seg.name = this.value; });
+      var st = document.getElementById("segStart"); if (st) st.addEventListener("click", segStart);
+      var pa = document.getElementById("segPause"); if (pa) pa.addEventListener("click", segPause);
+      var nx = document.getElementById("segNext"); if (nx) nx.addEventListener("click", segNext);
+      var fn = document.getElementById("segFinish"); if (fn) fn.addEventListener("click", segFinish);
+      var cl = document.getElementById("segClearLast"); if (cl) cl.addEventListener("click", function () { segLast = null; renderSegment(); });
+    }
+
+    /* 数据洞察（零依赖手绘 SVG：环形 / 柱状 / 折线） */
+    function renderInsights() {
+      var mistakes = load("mistakes", []);
+      var mastered = 0; mistakes.forEach(function (m) { if (mm(m) === "mastered") mastered++; });
+      var review = mistakes.length - mastered;
+      var due = dueReviewCount(mistakes);
+      var reviews = load("reviews", []).length;
+      var prHist = load("practice", []);
+      var prCount = prHist.length;
+      var prAcc = prCount ? Math.round(prHist.reduce(function (a, b) { return a + (b.accuracy || 0); }, 0) / prCount) : 0;
+      var qbCount = getQBank().length;
+      var stats = [
+        { n: mistakes.length, l: "累计错题" }, { n: mastered, l: "已掌握" }, { n: review, l: "待复习" },
+        { n: due, l: "今日待复习" }, { n: reviews, l: "累计复盘" },
+        { n: qbCount, l: "题库题量" }, { n: prCount, l: "练习次数" }, { n: prAcc + "%", l: "平均正确率" }
+      ];
+      var sg = document.getElementById("insightStats"); sg.innerHTML = "";
+      stats.forEach(function (s) { var d = document.createElement("div"); d.className = "insight-stat"; d.innerHTML = '<span class="is-num">' + s.n + '</span><span class="is-lbl">' + s.l + "</span>"; sg.appendChild(d); });
+      drawDonut(document.getElementById("donutMastery"), document.getElementById("donutMasteryLegend"),
+        [{ name: "已掌握", value: mastered, color: "#6bbf9e" }, { name: "需复习", value: review, color: "#f7c59f" }],
+        { center: mistakes.length, centerSub: "错题总数" });
+      var modItems = SUBJECTS.map(function (s) { var c = 0; mistakes.forEach(function (m) { if (m.module === s.key) c++; }); return { name: s.name, value: c, color: s.color }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
+      drawBar(document.getElementById("barModule"), modItems);
+      var today = new Date(), trend = [];
+      for (var i = 29; i >= 0; i--) { var d2 = new Date(today); d2.setDate(d2.getDate() - i); var dk = todayKey(d2); var c = 0; mistakes.forEach(function (m) { if ((m.date || todayKey(new Date(m.created || Date.now()))) === dk) c++; }); trend.push({ label: (d2.getMonth() + 1) + "/" + d2.getDate(), value: c }); }
+      drawLine(document.getElementById("lineErrTrend"), trend, { tip: function (p) { return p.value + " 题"; }, color: "#ef7da3" });
+      var reasonItems = ERROR_REASONS.map(function (r) { var c = 0; mistakes.forEach(function (m) { if (m.reason === r) c++; }); return { name: r, value: c, color: reasonColor(r) }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
+      drawBar(document.getElementById("barReason"), reasonItems);
+    }
+    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", practice: "📚 模块学习 / 📝 题库练习", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "review-history": "📝 复盘总结 / 📊 复盘历史总览", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", mock: "📃 套卷分析 / 📝 模考提醒", segment: "📃 套卷分析 / ⏱ 分段计时", insights: "📈 数据洞察", news: "🔥 时政热点", essay: "📚 申论素材" };
+    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, practice: renderPractice, "review-overview": renderReviewOverview, review: renderReviews, "review-history": renderReviewHistory, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, mock: renderMock, segment: renderSegment, insights: renderInsights, news: renderNews, essay: renderEssay };
+    function goPage(id) {
+      document.querySelectorAll(".page").forEach(function (p) { p.classList.remove("active"); });
+      var t = document.getElementById("page-" + id); if (t) t.classList.add("active");
+      document.querySelectorAll("[data-page]").forEach(function (el) { el.classList.toggle("active", el.getAttribute("data-page") === id); });
+      var activeSub = document.querySelector(".submenu-item.active"); if (activeSub) activeSub.closest(".menu-group").classList.add("open");
+      document.getElementById("breadcrumb").textContent = titles[id] || "";
+      document.body.classList.remove("drawer-open");
+      if (renderers[id]) renderers[id]();
+    }
+    document.querySelectorAll(".menu-item:not(.has-sub)").forEach(function (el) { el.addEventListener("click", function () { goPage(el.getAttribute("data-page")); }); });
+    document.querySelectorAll(".submenu-item").forEach(function (el) { el.addEventListener("click", function () { goPage(el.getAttribute("data-page")); }); });
+    document.querySelectorAll(".menu-item.has-sub").forEach(function (el) { el.addEventListener("click", function () {
+      if (document.body.classList.contains("sidebar-collapsed")) { document.body.classList.remove("sidebar-collapsed"); sidebarCollapsed = false; save("sidebarCollapsed", false); var cb = document.getElementById("collapseBtn"); if (cb) cb.textContent = "«"; }
+      el.closest(".menu-group").classList.toggle("open"); var dp = el.getAttribute("data-page"); if (dp) goPage(dp);
+    }); });
+    document.getElementById("hamburger").addEventListener("click", function () { document.body.classList.toggle("drawer-open"); });
+    document.getElementById("overlay").addEventListener("click", function () { document.body.classList.remove("drawer-open"); });
+
+    resetMkForm();
+    resetRvForm();
+    loadTodayReviewIntoForm();
+    /* 挖空关键词：点击切换隐藏/显示，方便自测记忆 */
+    document.addEventListener("click", function (e) {
+      var kw = e.target.closest(".nc-keyword"); if (!kw) return;
+      e.stopPropagation();
+      kw.classList.toggle("blind");
+    });
+    goPage("overview");
+    /* 平板横竖屏切换：自动关闭抽屉 */
+    window.addEventListener("orientationchange", function () {
+      document.body.classList.remove("drawer-open");
+      setTimeout(function () { if (window._currentPage && renderers[window._currentPage]) renderers[window._currentPage](); }, 200);
+    });
+    /* 记录当前页面以便 orientationchange 时重新渲染 */
+    var _origGoPage = goPage;
+    goPage = function (id) { window._currentPage = id; _origGoPage(id); };
+
+    /* ===== 暗色模式 ===== */
+    function applyTheme() {
+      var theme = load("theme", "light");
+      document.documentElement.setAttribute("data-theme", theme);
+      var btn = document.getElementById("themeToggle");
+      if (btn) btn.textContent = theme === "dark" ? "☀️" : "🌙";
+    }
+    function toggleTheme() {
+      var cur = load("theme", "light");
+      var next = cur === "dark" ? "light" : "dark";
+      save("theme", next);
+      applyTheme();
+    }
+    applyTheme();
+    document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+
+    /* ===== 侧边栏收起（仅桌面端生效，移动端维持抽屉） ===== */
+    var sidebarCollapsed = load("sidebarCollapsed", false);
+    function applySidebarCollapse() {
+      document.body.classList.toggle("sidebar-collapsed", !!sidebarCollapsed);
+      var cb = document.getElementById("collapseBtn");
+      if (cb) cb.textContent = sidebarCollapsed ? "»" : "«";
+    }
+    applySidebarCollapse();
+    var collapseBtnEl = document.getElementById("collapseBtn");
+    if (collapseBtnEl) collapseBtnEl.addEventListener("click", function () {
+      sidebarCollapsed = !sidebarCollapsed; save("sidebarCollapsed", sidebarCollapsed); applySidebarCollapse();
+    });
+
+    /* ===== 学习提醒 ===== */
+    function checkReminder() {
+      var cfg = load("reminder", null);
+      if (!cfg || !cfg.enabled) return;
+      var now = new Date();
+      var today = todayKey(now);
+      if (cfg.lastNotified === today) return;
+      var hm = cfg.time.split(":");
+      var targetH = +hm[0], targetM = +hm[1] || 0;
+      if (now.getHours() === targetH && now.getMinutes() === targetM) {
+        var due = dueReviewCount(load("mistakes", []));
+        var body = "该学习啦！";
+        if (due > 0) body += "今日有 " + due + " 题待复习。";
+        if (Notification.permission === "granted") {
+          new Notification("📚 小艾考公提醒", { body: body, icon: "icon-192.png", badge: "icon-192.png" });
+        }
+        cfg.lastNotified = today;
+        save("reminder", cfg);
+      }
+    }
+    function setupReminder() {
+      if (!("Notification" in window)) { toast("此浏览器不支持通知"); return; }
+      if (Notification.permission === "granted") {
+        openReminderSettings();
+        return;
+      }
+      Notification.requestPermission().then(function(p) {
+        if (p === "granted") { toast("通知已开启"); openReminderSettings(); }
+        else toast("通知权限被拒绝，请在浏览器设置中手动开启");
+      });
+    }
+    function openReminderSettings() {
+      var cfg = load("reminder", { enabled: true, time: "19:00", lastNotified: "" });
+      openModal("🔔 学习提醒",
+        '<div style="display:flex;flex-direction:column;gap:14px;">' +
+        '<label style="display:flex;align-items:center;gap:8px;font-size:15px;"><input type="checkbox" id="remEnabled" ' + (cfg.enabled ? "checked" : "") + '> 启用每日提醒</label>' +
+        '<label style="display:flex;align-items:center;gap:8px;font-size:15px;">提醒时间: <input type="time" id="remTime" value="' + (cfg.time || "19:00") + '" style="padding:6px 10px;border-radius:8px;border:1px solid var(--border);font-size:14px;"></label>' +
+        '<p style="font-size:12px;color:var(--text-soft);">每天指定时间自动弹出学习提醒通知</p>' +
+        '</div>',
+        '<button class="btn btn-primary" id="remSave">保存</button>'
+      );
+      document.getElementById("remSave").addEventListener("click", function() {
+        var c = {
+          enabled: document.getElementById("remEnabled").checked,
+          time: document.getElementById("remTime").value || "19:00",
+          lastNotified: load("reminder", {}).lastNotified || ""
+        };
+        save("reminder", c);
+        closeModal();
+        toast("提醒设置已保存");
+      });
+    }
+    document.getElementById("reminderBtn").addEventListener("click", setupReminder);
+    setInterval(checkReminder, 60000);
+    checkReminder();
+
+    /* ===== 模考提醒 ===== */
+    function renderMock() {
+      var cfg = load("mock_reminder", { enabled: true, items: [] });
+      var notif = document.getElementById("mockNotifOn"); if (notif) notif.checked = cfg.enabled !== false;
+      refreshMockPermUi();
+      var list = (cfg.items || []).slice();
+      list.sort(function (a, b) { return a.date < b.date ? -1 : (a.date > b.date ? 1 : (a.time < b.time ? -1 : 1)); });
+      var box = document.getElementById("mockList"); if (!box) return;
+      if (!list.length) { box.innerHTML = '<div class="empty">还没有模考安排，添加一场模考开始倒计时吧 📝</div>'; return; }
+      var today = new Date(); today.setHours(0, 0, 0, 0);
+      box.innerHTML = list.map(function (m) {
+        var t = new Date(m.date + "T00:00:00");
+        var diff = Math.round((t - today) / 86400000);
+        var dl = diff > 0 ? ("还有 <b>" + diff + "</b> 天") : (diff === 0 ? "<b>就是今天！</b>" : "已过去 <b>" + (-diff) + "</b> 天");
+        var past = diff < 0;
+        return '<div class="item mock-item' + (past ? " past" : "") + '"><div class="item-head"><span class="item-title">📝 ' + esc(m.name) + '</span><span class="item-meta">' + m.date + (m.time ? " " + m.time : "") + '</span></div>' +
+          '<div class="item-body">⏳ ' + dl + (m.note ? ' · ' + esc(m.note) : '') + (m.remindDayBefore !== false ? ' · <span class="chip">考前提醒</span>' : '') + '</div>' +
+          '<div class="item-actions"><button class="btn btn-ghost btn-sm" data-med="' + m.id + '">编辑</button><button class="btn btn-line btn-sm" data-mdn="' + m.id + '">删除</button></div></div>';
+      }).join("");
+      box.querySelectorAll("[data-med]").forEach(function (b) { b.addEventListener("click", function () { editMockExam(b.getAttribute("data-med")); }); });
+      box.querySelectorAll("[data-mdn]").forEach(function (b) { b.addEventListener("click", function () { if (confirm("删除该模考安排？")) { var c = load("mock_reminder", { enabled: true, items: [] }); c.items = c.items.filter(function (x) { return x.id !== b.getAttribute("data-mdn"); }); save("mock_reminder", c); renderMock(); toast("已删除"); } }); });
+    }
+    function editMockExam(id) {
+      var cfg = load("mock_reminder", { enabled: true, items: [] });
+      var m = id ? cfg.items.filter(function (x) { return x.id === id; })[0] : null;
+      var isNew = !m; if (isNew) m = { id: uid(), name: "", date: todayKey(), time: "09:00", note: "", remindDayBefore: true, notified: "" };
+      openModal(isNew ? "添加模考" : "编辑模考",
+        '<div class="form-row"><label>模考名称</label><input id="mxName" value="' + esc(m.name) + '" placeholder="如：2026国考模考" /></div>' +
+        '<div style="display:flex;gap:12px;flex-wrap:wrap;"><div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>日期</label><input type="date" id="mxDate" class="mini" value="' + m.date + '" /></div><div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>时间</label><input type="time" id="mxTime" class="mini" value="' + (m.time || "09:00") + '" /></div></div>' +
+        '<div class="form-row"><label>备注</label><input id="mxNote" value="' + esc(m.note) + '" placeholder="考场 / 科目" /></div>' +
+        '<label style="display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink);"><input type="checkbox" id="mxRemind" ' + (m.remindDayBefore !== false ? "checked" : "") + ' /> 考前一天 20:00 提醒</label>',
+        '<button class="btn btn-primary btn-sm" id="mxOk">保存</button>');
+      document.getElementById("mxOk").addEventListener("click", function () {
+        var name = document.getElementById("mxName").value.trim(); if (!name) { toast("请填写模考名称"); return; }
+        var date = document.getElementById("mxDate").value; if (!date) { toast("请选择日期"); return; }
+        m.name = name; m.date = date; m.time = document.getElementById("mxTime").value || "09:00"; m.note = document.getElementById("mxNote").value.trim(); m.remindDayBefore = document.getElementById("mxRemind").checked;
+        var c = load("mock_reminder", { enabled: true, items: [] }); var found = false;
+        for (var i = 0; i < c.items.length; i++) { if (c.items[i].id === m.id) { c.items[i] = m; found = true; break; } }
+        if (!found) c.items.push(m);
+        save("mock_reminder", c); closeModal(); renderMock(); toast("已保存");
+      });
+    }
+    function checkMockReminder() {
+      var cfg = load("mock_reminder", null); if (!cfg || !cfg.enabled || !cfg.items || !cfg.items.length) return;
+      if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
+      var now = new Date(); var today = todayKey(now); var hm = pad(now.getHours()) + ":" + pad(now.getMinutes());
+      var changed = false;
+      cfg.items.forEach(function (m) {
+        if (m.date === today && m.time === hm && m.notified !== today) {
+          try { new Notification("📝 模考提醒", { body: "今天的模考「" + m.name + "」" + (m.time || "") + " 开始，加油！", icon: "icon-192.png", badge: "icon-192.png" }); } catch (e) {}
+          m.notified = today; changed = true;
+        }
+        if (m.remindDayBefore !== false) {
+          var tm = new Date(m.date + "T00:00:00"); var y = new Date(); y.setHours(0, 0, 0, 0); var diff = Math.round((tm - y) / 86400000);
+          if (diff === 1 && hm === "20:00" && m.notified !== "pre-" + today) {
+            try { new Notification("📝 模考提醒", { body: "明天「" + m.name + "」" + (m.time || "") + " 开考，记得准备准考证和文具 📋", icon: "icon-192.png", badge: "icon-192.png" }); } catch (e) {}
+            m.notified = "pre-" + today; changed = true;
+          }
+        }
+      });
+      if (changed) save("mock_reminder", cfg);
+    }
+    function refreshMockPermUi() {
+      var btn = document.getElementById("mockPermBtn"); if (!btn) return;
+      var ok = (typeof Notification !== "undefined" && Notification.permission === "granted");
+      btn.style.display = ok ? "none" : "";
+    }
+    document.getElementById("mkExamSave").addEventListener("click", function () {
+      var name = document.getElementById("mkName").value.trim(); if (!name) { toast("请填写模考名称"); return; }
+      var date = document.getElementById("mkExamDate").value; if (!date) { toast("请选择日期"); return; }
+      var cfg = load("mock_reminder", { enabled: true, items: [] });
+      cfg.items.push({ id: uid(), name: name, date: date, time: document.getElementById("mkExamTime").value || "09:00", note: document.getElementById("mkExamNote").value.trim(), remindDayBefore: document.getElementById("mkExamRemind").checked, notified: "" });
+      save("mock_reminder", cfg);
+      document.getElementById("mkName").value = ""; document.getElementById("mkExamNote").value = "";
+      renderMock(); toast("已添加模考");
+    });
+    document.getElementById("mockNotifOn").addEventListener("change", function () { var c = load("mock_reminder", { enabled: true, items: [] }); c.enabled = this.checked; save("mock_reminder", c); toast(this.checked ? "已启用模考通知" : "已关闭模考通知"); });
+    var mockPermBtn = document.getElementById("mockPermBtn"), mockTestBtn = document.getElementById("mockTestBtn");
+    if (mockPermBtn) mockPermBtn.addEventListener("click", function () {
+      if (typeof Notification === "undefined") { toast("此浏览器不支持通知"); return; }
+      Notification.requestPermission().then(function (p) { if (p === "granted") toast("通知已开启"); else toast("通知被拒绝"); refreshMockPermUi(); });
+    });
+    if (mockTestBtn) mockTestBtn.addEventListener("click", function () {
+      if (typeof Notification === "undefined") { toast("此浏览器不支持通知"); return; }
+      if (Notification.permission !== "granted") { toast("请先开启通知权限"); refreshMockPermUi(); return; }
+      try { new Notification("📝 模考提醒测试", { body: "这是一条测试通知，到点会收到模考提醒 📋", icon: "icon-192.png", badge: "icon-192.png" }); } catch (e) {}
+    });
+    setInterval(checkMockReminder, 60000);
+    checkMockReminder();
+
+    /* ===== 数据导出/备份 ===== */
+    function exportJSON() {
+      var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","profile","theme","reminder","qbank","practice","segments"];
+      var data = {};
+      keys.forEach(function(k) { var v = localStorage.getItem(K + k); if (v) data[k] = JSON.parse(v); });
+      data.exportedAt = new Date().toISOString();
+      var blob = new Blob([JSON.stringify(data, null, 2)], {type: "application/json"});
+      var a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+      a.download = "kaogong-backup-" + todayKey(new Date()) + ".json"; a.click();
+      URL.revokeObjectURL(a.href);
+      toast("数据已导出");
+    }
+    function importJSON() {
+      var input = document.createElement("input"); input.type = "file"; input.accept = ".json";
+      input.addEventListener("change", function() {
+        var file = input.files[0]; if (!file) return;
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            var data = JSON.parse(e.target.result);
+            var count = 0;
+            Object.keys(data).forEach(function(k) {
+              if (k === "exportedAt") return;
+              if (data[k] !== undefined && data[k] !== null) {
+                localStorage.setItem(K + k, JSON.stringify(data[k]));
+                count++;
+              }
+            });
+            toast("已导入 " + count + " 项数据，刷新后生效");
+            setTimeout(function() { location.reload(); }, 1500);
+          } catch (err) { toast("文件格式错误"); }
+        };
+        reader.readAsText(file);
+      });
+      input.click();
+    }
+    function exportCSV() {
+      var mistakes = load("mistakes", []);
+      if (!mistakes.length) { toast("暂无错题数据"); return; }
+      var header = "科目,日期,题目,错因,正确思路,掌握度";
+      var rows = mistakes.map(function(m) {
+        var sub = SUB_MAP[m.module]; var mn = sub ? sub.name : m.module;
+        return [mn, m.date, '"' + (m.question || "").replace(/"/g,'""') + '"', m.reason || "", '"' + (m.correct || "").replace(/"/g,'""') + '"', m.mastery === "mastered" ? "已掌握" : "未掌握"].join(",");
+      });
+      var csv = "\uFEFF" + header + "\n" + rows.join("\n");
+      var blob = new Blob([csv], {type: "text/csv;charset=utf-8"});
+      var a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+      a.download = "kaogong-mistakes-" + todayKey(new Date()) + ".csv"; a.click();
+      URL.revokeObjectURL(a.href);
+      toast("错题 CSV 已导出");
+    }
+    function openDataManager() {
+      openModal("💾 数据管理",
+        '<div style="display:flex;flex-direction:column;gap:10px;">' +
+        '<button class="btn btn-primary" id="dmExportJSON">📥 导出全部数据 (JSON)</button>' +
+        '<button class="btn" id="dmImportJSON">📤 导入数据 (JSON)</button>' +
+        '<button class="btn" id="dmExportCSV">📊 导出错题本 (CSV)</button>' +
+        '<button class="btn btn-danger" id="dmClear" style="background:#e74c3c;color:#fff;">⚠️ 清除所有数据</button>' +
+        '<p style="font-size:12px;color:var(--text-soft);margin-top:8px;">建议定期导出备份，以防数据丢失</p>' +
+        '</div>'
+      );
+      document.getElementById("dmExportJSON").addEventListener("click", function() { closeModal(); exportJSON(); });
+      document.getElementById("dmImportJSON").addEventListener("click", function() { closeModal(); importJSON(); });
+      document.getElementById("dmExportCSV").addEventListener("click", function() { closeModal(); exportCSV(); });
+      document.getElementById("dmClear").addEventListener("click", function() {
+        if (confirm("确定要清除所有学习数据吗？此操作不可恢复！建议先导出备份。")) {
+          var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","qbank","practice","segments"];
+          keys.forEach(function(k) { localStorage.removeItem(K + k); });
+          closeModal(); toast("数据已清除"); setTimeout(function() { location.reload(); }, 1000);
+        }
+      });
+    }
+    document.getElementById("dataBtn").addEventListener("click", openDataManager);
+
+    /* ===== 隐藏 Splash Screen ===== */
+    var splashEl = document.getElementById("splash");
+    if (splashEl) { splashEl.style.opacity = "0"; setTimeout(function() { splashEl.remove(); }, 400); }
+
+    /* 暴露给调试 / 外部调用 */
+    window.goPage = goPage; window.todayKey = todayKey;
+  })();
+  

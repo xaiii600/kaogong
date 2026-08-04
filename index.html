@@ -39,6 +39,7 @@
             <div class="submenu-item" data-page="timer">⏱ 科目计时器</div>
             <div class="submenu-item" data-page="memo">📖 知识备忘录</div>
             <div class="submenu-item" data-page="mistakes">🗂 分模块错题本</div>
+            <div class="submenu-item" data-page="practice">📝 题库练习</div>
           </div>
         </div>
         <div class="menu-group">
@@ -50,7 +51,7 @@
         </div>
         <div class="menu-group">
           <div class="menu-item has-sub" data-page="analysis-overview"><span class="menu-emoji">📃</span><span class="menu-label">套卷分析</span><span class="arrow">›</span></div>
-          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div><div class="submenu-item" data-page="mock">📝 模考提醒</div></div>
+          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div><div class="submenu-item" data-page="segment">⏱ 分段计时</div><div class="submenu-item" data-page="mock">📝 模考提醒</div></div>
         </div>
         <div class="menu-item" data-page="insights"><span class="menu-emoji">📈</span><span class="menu-label">数据洞察</span></div>
         <div class="menu-item" data-page="news"><span class="menu-emoji">🔥</span><span class="menu-label">时政热点</span></div>
@@ -81,6 +82,7 @@
             <button class="btn btn-primary" onclick="window._goModulePage('timer')">⏱ 科目计时器</button>
             <button class="btn" onclick="window._goModulePage('memo')">📖 知识备忘录</button>
             <button class="btn" onclick="window._goModulePage('mistakes')">🗂 分模块错题本</button>
+            <button class="btn" onclick="window._goModulePage('practice')">📝 题库练习</button>
           </div>
         </section>
         <!-- 复盘总结概览 -->
@@ -285,6 +287,13 @@
           </div>
         </section>
 
+        <!-- 题库练习 -->
+        <section class="page" id="page-practice">
+          <h1 class="page-title">题库练习</h1>
+          <p class="page-sub">按模块抽题自测，答错一键加入错题本 · 内置示例题库</p>
+          <div id="practiceRoot"></div>
+        </section>
+
         <!-- 每日学习复盘 -->
         <section class="page" id="page-review">
           <h1 class="page-title">每日学习复盘</h1>
@@ -409,6 +418,13 @@
             </div>
             <div id="mockList"></div>
           </div>
+        </section>
+
+        <!-- 分段计时 -->
+        <section class="page" id="page-segment">
+          <h1 class="page-title">分段计时</h1>
+          <p class="page-sub">做套卷时按模块分段计时，自动统计每个模块用时</p>
+          <div id="segmentRoot"></div>
         </section>
 
         <!-- 申论素材库 -->
