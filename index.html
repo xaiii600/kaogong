@@ -51,7 +51,7 @@
         </div>
         <div class="menu-group">
           <div class="menu-item has-sub" data-page="analysis-overview"><span class="menu-emoji">📃</span><span class="menu-label">套卷分析</span><span class="arrow">›</span></div>
-          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div><div class="submenu-item" data-page="segment">⏱ 分段计时</div><div class="submenu-item" data-page="mock">📝 模考提醒</div></div>
+          <div class="submenu"><div class="submenu-item" data-page="analysis">📊 试卷专项分析</div><div class="submenu-item" data-page="mock">📝 模考提醒</div></div>
         </div>
         <div class="menu-item" data-page="insights"><span class="menu-emoji">📈</span><span class="menu-label">数据洞察</span></div>
         <div class="menu-item" data-page="news"><span class="menu-emoji">🔥</span><span class="menu-label">时政热点</span></div>
@@ -179,22 +179,25 @@
         <section class="page" id="page-timer">
           <h1 class="page-title">科目计时器</h1>
           <p class="page-sub">选择科目开始计时，时长自动记录并同步到学习概览</p>
-          <div class="card timer-panel">
-            <div class="timer-subject-now">当前科目：<b id="timerSubjectName">政治理论</b></div>
-            <div class="timer-clock" id="timerClock">00:00:00</div>
-            <div class="timer-modes">
-              <div class="seg active" id="segCount" data-mode="count">⏱ 正计时</div>
-              <div class="seg" id="segPomo" data-mode="pomo">🍅 番茄钟</div>
+          <div class="timer-grid">
+            <div class="card timer-panel">
+              <div class="timer-subject-now">当前科目：<b id="timerSubjectName">政治理论</b></div>
+              <div class="timer-clock" id="timerClock">00:00:00</div>
+              <div class="timer-modes">
+                <div class="seg active" id="segCount" data-mode="count">⏱ 正计时</div>
+                <div class="seg" id="segPomo" data-mode="pomo">🍅 番茄钟</div>
+              </div>
+              <div class="timer-types" id="timerTypes"></div>
+              <div class="timer-type-hint" id="timerTypeHint">学习类型：听课</div>
+              <div class="pomo-input" id="pomoInput">时长 <input type="number" id="pomoMin" value="25" min="1" max="120" /> 分钟</div>
+              <div class="timer-btns">
+                <button class="btn btn-primary" id="btnStart">开始</button>
+                <button class="btn btn-ghost" id="btnReset">重置</button>
+              </div>
+              <div class="timer-resume" id="timerResume"></div>
+              <div class="type-breakdown" id="typeBreakdown"></div>
             </div>
-            <div class="timer-types" id="timerTypes"></div>
-            <div class="timer-type-hint" id="timerTypeHint">学习类型：听课</div>
-            <div class="pomo-input" id="pomoInput">时长 <input type="number" id="pomoMin" value="25" min="1" max="120" /> 分钟</div>
-            <div class="timer-btns">
-              <button class="btn btn-primary" id="btnStart">开始</button>
-              <button class="btn btn-ghost" id="btnReset">重置</button>
-            </div>
-            <div class="timer-resume" id="timerResume"></div>
-            <div class="type-breakdown" id="typeBreakdown"></div>
+            <div id="segmentRoot"></div>
           </div>
           <h3 style="margin:22px 0 0;font-size:15px;">选择科目（竖向）</h3>
           <div class="subject-list" id="subjectList"></div>
@@ -418,13 +421,6 @@
             </div>
             <div id="mockList"></div>
           </div>
-        </section>
-
-        <!-- 分段计时 -->
-        <section class="page" id="page-segment">
-          <h1 class="page-title">分段计时</h1>
-          <p class="page-sub">做套卷时按模块分段计时，自动统计每个模块用时</p>
-          <div id="segmentRoot"></div>
         </section>
 
         <!-- 申论素材库 -->
