@@ -204,13 +204,11 @@
     .pie-legend .lg .lg-name { flex: 1; color: var(--text-strong); } .pie-legend .lg .lg-val { color: var(--text-soft); }
     svg .slice { cursor: pointer; transition: opacity 0.15s ease; } svg .slice:hover { opacity: 0.82; }
 
-    /* 计时器 */
-    .timer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
-    .timer-grid > #segmentRoot { min-width: 0; }
-    .timer-grid .timer-clock, .timer-grid .seg-clock { font-size: 30px; letter-spacing: 1px; }
-    .timer-grid .card { width: 100%; box-sizing: border-box; }
-    @media (max-width: 380px) { .timer-grid { grid-template-columns: 1fr; } .timer-grid .timer-clock, .timer-grid .seg-clock { font-size: 44px; } }
+    /* 计时器（融合：一个计时器 + 随时分段） */
     .timer-panel { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+    .timer-segnow { font-size: 13px; color: var(--text-soft); margin-bottom: 2px; }
+    .timer-segnow b { color: var(--text-strong); font-variant-numeric: tabular-nums; }
+    .timer-name-row { width: 100%; max-width: 320px; margin: 2px auto 0; }
     .timer-clock { font-size: 56px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 2px; }
     .timer-subject-now { font-size: 15px; color: var(--text-soft); } .timer-subject-now b { color: var(--text-strong); }
     .timer-modes { display: flex; gap: 8px; }
