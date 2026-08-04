@@ -1096,12 +1096,18 @@
       { key: "other", name: "其他" }
     ];
     var TYPE_MAP = {}; TIMER_TYPES.forEach(function (t) { TYPE_MAP[t.key] = t.name; });
-    var timer = load("timer", { subject: "politics", mode: "count", type: "lecture", running: false, pomoMin: 25, accumMs: 0, startTs: 0, lastBankTs: 0, remaining: 1500 });
+    var timer = load("timer", { subject: "politics", mode: "count", type: "lecture", running: false, pomoMin: 25, name: "", segs: [], cur: null, lastBankTs: 0 });
     if (typeof timer.type !== "string" || !TYPE_MAP[timer.type]) timer.type = "lecture";
-    if (typeof timer.accumMs !== "number") timer.accumMs = 0;
-    if (typeof timer.startTs !== "number") timer.startTs = 0;
+    if (!Array.isArray(timer.segs)) timer.segs = [];
+    if (typeof timer.name !== "string") timer.name = "";
+    if (timer.cur && typeof timer.cur !== "object") timer.cur = null;
     if (typeof timer.lastBankTs !== "number") timer.lastBankTs = 0;
     var timerInited = false;
+    function curModule() { return timer.cur ? timer.cur.module : timer.subject; }
+    function curSegMs() { if (!timer.cur) return 0; return timer.cur.acc + (timer.running && timer.cur.start ? Date.now() - timer.cur.start : 0); }
+    function curSegSecs() { return Math.floor(curSegMs() / 1000); }
+    function totalSecs() { var s = timer.segs.reduce(function (a, x) { return a + x.secs; }, 0); return s + curSegSecs(); }
+    function segModName(k) { var s = SUB_MAP[k]; return s ? s.name : k; }
     function renderTimerTypes() {
       var box = document.getElementById("timerTypes"); if (!box) return;
       box.innerHTML = "";
@@ -1122,26 +1128,32 @@
       SUBJECTS.forEach(function (s) {
         var b = document.createElement("div"); b.className = "subject-btn" + (timer.subject === s.key ? " active" : ""); b.style.background = s.color; b.setAttribute("data-k", s.key);
         b.innerHTML = '<span class="sb-ico">' + s.ico + '</span><span>' + s.name + '</span><span class="sb-run" data-run="' + s.key + '"></span>';
-        b.addEventListener("click", function () {
-          if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; }
-          timer.subject = s.key;
-          if (timer.running) { timer.startTs = Date.now(); timer.lastBankTs = Date.now(); }
-          else if (timer.mode === "pomo") timer.remaining = (timer.pomoMin || 25) * 60;
-          save("timer", timer); markActiveSubject(); updateTimerSubjectName(); updateTimerDisplay();
-        });
+        b.addEventListener("click", function () { tSwitchTo(s.key); });
         list.appendChild(b);
       });
       renderTimerTypes();
       timerInited = true;
     }
+    function tSwitchTo(key) {
+      timer.subject = key;
+      if (timer.running && timer.cur && key !== timer.cur.module) {
+        timer.cur.acc += Date.now() - timer.cur.start; timer.cur.start = null;
+        timer.segs.push({ module: timer.cur.module, secs: Math.floor(timer.cur.acc / 1000) });
+        timer.cur = { module: key, start: Date.now(), acc: 0 };
+        timer.lastBankTs = Date.now();
+        var last = timer.segs[timer.segs.length - 1];
+        toast("已记录上一段：" + segModName(last.module) + " " + fmtClock(last.secs));
+      }
+      save("timer", timer); markActiveSubject(); updateTimerSubjectName(); updateTimerDisplay(); renderTimerSegs();
+    }
     function markActiveSubject() { document.querySelectorAll(".subject-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-k") === timer.subject); }); }
-    function updateTimerSubjectName() { document.getElementById("timerSubjectName").textContent = SUB_MAP[timer.subject].name; }
-    function timerLiveMs() { return timer.accumMs + (timer.running ? (Date.now() - timer.startTs) : 0); }
+    function updateTimerSubjectName() { var el = document.getElementById("timerSubjectName"); if (el) el.textContent = (SUB_MAP[curModule()] ? SUB_MAP[curModule()].name : curModule()); }
+    /* 计时总时长统一用 totalSecs() 计算（含已完成各段 + 当前段） */
     function timerNotify() {
       try {
         if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
         if (!navigator.serviceWorker) return;
-        var ms = timerLiveMs();
+        var ms = totalSecs();
         var body = (timer.mode === "pomo"
           ? "🍅 番茄钟 剩余 " + fmtClock(Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)))
           : "⏱ 已学习 " + fmtClock(Math.floor(ms / 1000))) + " · " + SUB_MAP[timer.subject].name;
@@ -1164,9 +1176,9 @@
       } catch (e) {}
     }
     function bankDelta() {
-      if (!timer.running) return;
+      if (!timer.running || !timer.cur) return;
       var now = Date.now(), secs = Math.floor((now - timer.lastBankTs) / 1000);
-      if (secs > 0) { addSeconds(timer.subject, secs); addTypeSeconds(timer.type, secs); timer.lastBankTs += secs * 1000; }
+      if (secs > 0) { addSeconds(timer.cur.module, secs); addTypeSeconds(timer.type, secs); timer.lastBankTs += secs * 1000; }
     }
     function addTypeSeconds(typeKey, sec) {
       if (!typeKey) return;
@@ -1193,13 +1205,16 @@
       }).join("");
     }
     function updateTimerDisplay() {
-      var ms = timerLiveMs();
-      var shown = timer.mode === "pomo" ? Math.max(0, (timer.pomoMin || 25) * 60 - Math.floor(ms / 1000)) : Math.floor(ms / 1000);
-      document.getElementById("timerClock").textContent = fmtClock(shown);
-      document.getElementById("segCount").classList.toggle("active", timer.mode === "count");
-      document.getElementById("segPomo").classList.toggle("active", timer.mode === "pomo");
-      document.getElementById("pomoInput").classList.toggle("show", timer.mode === "pomo");
-      document.getElementById("btnStart").textContent = timer.running ? "暂停" : "开始";
+      var total = totalSecs();
+      var shown = timer.mode === "pomo" ? Math.max(0, (timer.pomoMin || 25) * 60 - total) : total;
+      var clk = document.getElementById("timerClock"); if (clk) clk.textContent = fmtClock(shown);
+      var seg = document.getElementById("timerSeg"); if (seg) seg.textContent = fmtClock(curSegSecs());
+      var segn = document.getElementById("timerSegN"); if (segn) segn.textContent = timer.segs.length + (timer.cur ? 1 : 0);
+      var curT = document.getElementById("segCurTime"); if (curT) curT.textContent = fmtClock(curSegSecs());
+      var sc = document.getElementById("segCount"); if (sc) sc.classList.toggle("active", timer.mode === "count");
+      var sp = document.getElementById("segPomo"); if (sp) sp.classList.toggle("active", timer.mode === "pomo");
+      var pi = document.getElementById("pomoInput"); if (pi) pi.classList.toggle("show", timer.mode === "pomo");
+      var bs = document.getElementById("btnStart"); if (bs) bs.textContent = timer.running ? "暂停" : (timer.cur ? "继续" : "开始");
       updateTimerTypeHint();
       renderTypeBreakdown();
       updateTimerResume();
@@ -1207,36 +1222,78 @@
     function updateTimerResume() {
       var el = document.getElementById("timerResume");
       if (!el) return;
-      if (timer.running) { el.textContent = "⏳ 未结束的计时已自动保存，切换软件或关闭页面后会继续累计"; }
-      else if (timer.accumMs > 0) { el.textContent = "已记录本次时长 " + fmtDur(Math.floor(timer.accumMs / 1000)) + "（暂停状态，可继续或重置）"; }
+      if (timer.running) { el.textContent = "⏳ 计时进行中，切换到其他软件或关闭页面也会继续累计"; }
+      else if (timer.cur || timer.segs.length) { el.textContent = "已累计 " + fmtDur(totalSecs()) + "（暂停状态，可继续、记一段或结束）"; }
       else { el.textContent = ""; }
     }
-    function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); renderSegment(); }
+    function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); renderTimerSegs(); }
     function tick() {
       if (!timer.running) return;
       bankDelta();
-      if (timer.mode === "pomo" && Math.floor(timerLiveMs() / 1000) >= (timer.pomoMin || 25) * 60) {
-        timer.accumMs = timerLiveMs(); timer.running = false; timer.startTs = 0;
-        timerNotifyClose();
-        toast("🍅 番茄钟完成！休息一下吧"); save("timer", timer); updateTimerDisplay();
+      if (timer.mode === "pomo" && totalSecs() >= (timer.pomoMin || 25) * 60) {
+        tFinish();
+        toast("🍅 番茄钟完成！已自动保存本次计时");
         if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
         return;
       }
       updateTimerDisplay(); timerNotify();
       if (document.getElementById("page-overview").classList.contains("active")) renderOverview();
     }
-    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.pomoMin || 25) * 60; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("pomoMin").addEventListener("change", function () { timer.pomoMin = Math.max(1, Math.min(120, +this.value || 25)); if (timer.mode === "pomo" && !timer.running) timer.remaining = timer.pomoMin * 60; save("timer", timer); updateTimerDisplay(); });
-    document.getElementById("btnStart").addEventListener("click", function () {
-      if (timer.running) { bankDelta(); timer.accumMs += Date.now() - timer.startTs; timer.running = false; timerNotifyClose(); }
-      else {
+    document.getElementById("segCount").addEventListener("click", function () { timer.mode = "count"; timer.running = false; timer.cur = null; timer.segs = []; timer.lastBankTs = 0; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); renderTimerSegs(); });
+    document.getElementById("segPomo").addEventListener("click", function () { timer.mode = "pomo"; timer.running = false; timer.cur = null; timer.segs = []; timer.lastBankTs = 0; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); renderTimerSegs(); });
+    document.getElementById("pomoMin").addEventListener("change", function () { timer.pomoMin = Math.max(1, Math.min(120, +this.value || 25)); save("timer", timer); updateTimerDisplay(); });
+    document.getElementById("btnStart").addEventListener("click", function () { tStartPause(); });
+    function tStartPause() {
+      if (timer.running) {
+        bankDelta();
+        if (timer.cur) { timer.cur.acc += Date.now() - timer.cur.start; timer.cur.start = null; }
+        timer.running = false; timerNotifyClose();
+      } else {
         if (typeof Notification !== "undefined" && Notification.permission === "default") { try { Notification.requestPermission(); } catch (e) {} }
-        timer.running = true; timer.startTs = Date.now(); timer.lastBankTs = Date.now(); timerNotify();
+        if (!timer.cur) timer.cur = { module: timer.subject, start: Date.now(), acc: 0 };
+        else if (!timer.cur.start) timer.cur.start = Date.now();
+        timer.running = true; timer.lastBankTs = Date.now(); timerNotify();
       }
-      save("timer", timer); updateTimerDisplay();
-    });
-    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.accumMs = 0; timer.startTs = 0; timer.lastBankTs = 0; timer.remaining = (timer.mode === "pomo" ? (timer.pomoMin || 25) * 60 : 0); timerNotifyClose(); save("timer", timer); updateTimerDisplay(); toast("已重置"); });
+      save("timer", timer); updateTimerDisplay(); renderTimerSegs();
+    }
+    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.cur = null; timer.segs = []; timer.name = ""; timer.lastBankTs = 0; var nm = document.getElementById("timerName"); if (nm) nm.value = ""; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); renderTimerSegs(); toast("已重置本次计时（已用时长仍计入学习时长）"); });
+    var btnFinish = document.getElementById("btnFinish"); if (btnFinish) btnFinish.addEventListener("click", function () { tFinish(); });
+    var nmEl = document.getElementById("timerName"); if (nmEl) nmEl.addEventListener("input", function () { timer.name = this.value; save("timer", timer); });
+    function tFinish() {
+      if (timer.cur) {
+        timer.cur.acc += (timer.running && timer.cur.start ? Date.now() - timer.cur.start : 0);
+        if (timer.cur.acc > 0) timer.segs.push({ module: timer.cur.module, secs: Math.floor(timer.cur.acc / 1000) });
+      }
+      var total = timer.segs.reduce(function (a, x) { return a + x.secs; }, 0);
+      if (timer.segs.length) {
+        var hist = load("segments", []);
+        hist.push({ id: uid(), name: timer.name || "未命名学习", date: todayKey(), totalSecs: total, segments: timer.segs.slice(), type: timer.type });
+        save("segments", hist);
+        toast("已保存本次计时（" + fmtClock(total) + "），并计入学习时长");
+      } else {
+        toast("本次没有可保存的计时");
+      }
+      timer.running = false; timer.cur = null; timer.segs = []; timer.name = ""; timer.lastBankTs = 0;
+      var nm2 = document.getElementById("timerName"); if (nm2) nm2.value = "";
+      timerNotifyClose();
+      save("timer", timer); updateTimerDisplay(); renderTimerSegs();
+    }
+    function renderTimerSegs() {
+      var root = document.getElementById("segmentRoot"); if (!root) return;
+      var rows = "";
+      timer.segs.forEach(function (s) { var sm = SUB_MAP[s.module]; rows += '<div class="seg-row"><span class="chip" style="background:' + (sm ? sm.color : "#fbe3ec") + '">' + (sm ? sm.name : s.module) + '</span><span class="seg-time">' + fmtClock(s.secs) + '</span></div>'; });
+      if (timer.cur) { var cm = SUB_MAP[timer.cur.module]; rows += '<div class="seg-row seg-cur"><span class="chip" style="background:' + (cm ? cm.color : "#fbe3ec") + '">' + (cm ? cm.name : timer.cur.module) + '（计时中）</span><span class="seg-time" id="segCurTime">' + fmtClock(curSegSecs()) + '</span></div>'; }
+      var list = '<div class="card"><h3 style="margin-bottom:8px;">📋 各段记录</h3>' + (rows ? rows : '<div class="empty">还没有分段，学习中点击其他科目即可自动记一段</div>') + '</div>';
+      var byMod = {}; timer.segs.forEach(function (s) { byMod[s.module] = (byMod[s.module] || 0) + s.secs; });
+      if (timer.cur) byMod[timer.cur.module] = (byMod[timer.cur.module] || 0) + curSegSecs();
+      var maxv = Math.max(1, totalSecs());
+      var sumRows = Object.keys(byMod).map(function (k) { var sm = SUB_MAP[k]; return '<div class="bar-row"><span class="bar-name">' + (sm ? sm.name : k) + '</span><div class="bar-track"><div class="bar-fill" style="width:' + (byMod[k] / maxv * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + fmtClock(byMod[k]) + '</span></div>'; }).join("");
+      var summary = (timer.segs.length || timer.cur) ? '<div class="card"><h3>📊 本次各科目时长</h3><div class="seg-total">总计 <b>' + fmtClock(totalSecs()) + '</b> · 已记 ' + (timer.segs.length + (timer.cur ? 1 : 0)) + ' 段</div>' + (sumRows || "") + '</div>' : "";
+      var hist = load("segments", []); hist.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
+      var histRows = hist.slice(0, 20).map(function (h) { var bm = {}; h.segments.forEach(function (s) { bm[s.module] = (bm[s.module] || 0) + s.secs; }); var mini = Object.keys(bm).map(function (k) { return segModName(k) + " " + fmtClock(bm[k]); }).join(" · "); return '<div class="seg-hist"><div class="seg-hist-h"><b>' + esc(h.name) + '</b><span class="seg-time">' + h.date + " · " + fmtClock(h.totalSecs) + '</span></div><div class="seg-hist-b">' + mini + '</div></div>'; }).join("");
+      var history = '<div class="card"><h3>🗂 历史记录</h3>' + (histRows ? histRows : '<div class="empty">暂无记录</div>') + '</div>';
+      root.innerHTML = list + summary + history;
+    }
     setInterval(tick, 1000);
     window.addEventListener("beforeunload", function () { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); });
     document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") tick(); else { bankDelta(); if (timer.running) timerNotify(); save("timer", timer); } });
@@ -1949,103 +2006,6 @@
         };
         r.readAsDataURL(f);
       }); })();
-    /* ===== 分段计时（套卷按模块统计用时） ===== */
-    var seg = { active: false, paused: false, name: "", date: todayKey(), segs: [], cur: null };
-    var segLast = null;
-    var segTimer = null;
-    function segCurSecs() {
-      if (!seg.cur) return 0;
-      return (seg.cur.acc || 0) + (seg.cur.start ? Math.floor((Date.now() - seg.cur.start) / 1000) : 0);
-    }
-    function segTotalSecs() {
-      var s = seg.segs.reduce(function (a, x) { return a + x.secs; }, 0);
-      return s + segCurSecs();
-    }
-    function segModName(k) { var s = SUB_MAP[k]; return s ? s.name : k; }
-    function startSegTick() { stopSegTick(); segTimer = setInterval(function () { var c = document.getElementById("segClock"); if (c) c.textContent = fmtClock(segCurSecs()); var t = document.getElementById("segCurTime"); if (t) t.textContent = fmtClock(segCurSecs()); }, 1000); }
-    function stopSegTick() { if (segTimer) { clearInterval(segTimer); segTimer = null; } }
-    function segStart() {
-      if (seg.active) return;
-      segLast = null;
-      var m = document.getElementById("segModule") ? document.getElementById("segModule").value : SUBJECTS[0].key;
-      seg.active = true; seg.paused = false;
-      seg.cur = { module: m, start: Date.now(), acc: 0 };
-      startSegTick(); renderSegment();
-    }
-    function segPause() {
-      if (!seg.active) return;
-      if (seg.paused) { seg.paused = false; seg.cur.start = Date.now(); }
-      else { seg.paused = true; seg.cur.acc += Math.floor((Date.now() - seg.cur.start) / 1000); seg.cur.start = null; }
-      renderSegment();
-    }
-    function segNext() {
-      if (!seg.active) return;
-      seg.segs.push({ module: seg.cur.module, secs: segCurSecs() });
-      var m = document.getElementById("segModule") ? document.getElementById("segModule").value : SUBJECTS[0].key;
-      seg.cur = { module: m, start: Date.now(), acc: 0 }; seg.paused = false;
-      renderSegment();
-    }
-    function segFinish() {
-      if (seg.active) { if (seg.cur) seg.segs.push({ module: seg.cur.module, secs: segCurSecs() }); stopSegTick(); }
-      var total = seg.segs.reduce(function (a, x) { return a + x.secs; }, 0);
-      if (seg.segs.length) {
-        seg.segs.forEach(function (s) { addSeconds(s.module, s.secs); });
-        var hist = load("segments", []);
-        var rec = { id: uid(), name: seg.name || "未命名套卷", date: seg.date, totalSecs: total, segments: seg.segs.slice() };
-        hist.push(rec); save("segments", hist);
-        segLast = rec;
-        toast("已保存本次分段计时，并计入学习时长");
-      }
-      seg = { active: false, paused: false, name: "", date: todayKey(), segs: [], cur: null };
-      renderSegment();
-    }
-    function renderSegment() {
-      var root = document.getElementById("segmentRoot"); if (!root) return;
-      var modLabel = seg.active ? "下一段模块" : "首段模块";
-      var modSel = '<select id="segModule" class="mini">' + SUBJECTS.map(function (s) { return '<option value="' + s.key + '">' + s.ico + " " + s.name + "</option>"; }).join("") + "</select>";
-      var ctrl = '<div class="card"><h3 style="margin-bottom:10px;">⏱ 分段计时</h3>' +
-        '<div class="form-row"><label>套卷名称（选填）</label><input type="text" id="segName" class="mini" value="' + esc(seg.name) + '" placeholder="如：2026国考行测" /></div>' +
-        '<div class="form-row"><label>' + modLabel + '</label>' + modSel + "</div>" +
-        '<div class="seg-clock" id="segClock">' + fmtClock(segCurSecs()) + "</div>" +
-        '<div class="seg-btns">' +
-        (seg.active ? (seg.paused ? '<button class="btn btn-primary" id="segPause">▶ 继续</button>' : '<button class="btn btn-ghost" id="segPause">⏸ 暂停</button>')
-                    : '<button class="btn btn-primary" id="segStart">● 开始计时</button>') +
-        (seg.active ? '<button class="btn" id="segNext">结束本段·切下一段 ›</button>' : "") +
-        (seg.active ? '<button class="btn btn-line" id="segFinish">■ 结束并统计</button>' : "") +
-        "</div>" +
-        '<p class="page-sub" style="margin-top:8px;">计时中可在「下一段模块」先选好下一模块，点「结束本段·切下一段」即把当前段时长计入对应模块并开始下一段</p></div>';
-      var listRows = "";
-      seg.segs.forEach(function (s) { var sm = SUB_MAP[s.module]; listRows += '<div class="seg-row"><span class="chip" style="background:' + (sm ? sm.color : "#fbe3ec") + '">' + (sm ? sm.name : s.module) + '</span><span class="seg-time">' + fmtClock(s.secs) + "</span></div>"; });
-      if (seg.cur) { var cm = SUB_MAP[seg.cur.module]; listRows += '<div class="seg-row seg-cur"><span class="chip" style="background:' + (cm ? cm.color : "#fbe3ec") + '">' + (cm ? cm.name : seg.cur.module) + "（计时中）</span><span class=\"seg-time\" id=\"segCurTime\">" + fmtClock(segCurSecs()) + "</span></div>"; }
-      var list = '<div class="card"><h3 style="margin-bottom:8px;">📋 各段记录</h3>' + (listRows ? listRows : '<div class="empty">还没有分段</div>') + "</div>";
-      var byMod = {}; seg.segs.forEach(function (s) { byMod[s.module] = (byMod[s.module] || 0) + s.secs; });
-      var maxv = Math.max(1, segTotalSecs());
-      var sumRows = Object.keys(byMod).map(function (k) { var sm = SUB_MAP[k]; return '<div class="bar-row"><span class="bar-name">' + (sm ? sm.name : k) + '</span><div class="bar-track"><div class="bar-fill" style="width:' + (byMod[k] / maxv * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + fmtClock(byMod[k]) + "</span></div>"; }).join("");
-      var summary = seg.segs.length ? '<div class="card"><h3>📊 本次各模块时长</h3><div class="seg-total">总计 <b>' + fmtClock(segTotalSecs()) + "</b></div>" + (sumRows || "") + "</div>" : "";
-      var result = "";
-      if (!seg.active && segLast) {
-        var bm2 = {}; segLast.segments.forEach(function (s) { bm2[s.module] = (bm2[s.module] || 0) + s.secs; });
-        var maxr = Math.max(1, segLast.totalSecs);
-        var rrows = Object.keys(bm2).map(function (k) { var sm = SUB_MAP[k]; return '<div class="bar-row"><span class="bar-name">' + (sm ? sm.name : k) + '</span><div class="bar-track"><div class="bar-fill" style="width:' + (bm2[k] / maxr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + fmtClock(bm2[k]) + "</span></div>"; }).join("");
-        result = '<div class="card seg-result"><h3>✅ 本次结果 · ' + esc(segLast.name) + '</h3>' +
-          '<div class="seg-total">总计 <b>' + fmtClock(segLast.totalSecs) + '</b> · ' + segLast.date + '</div>' + (rrows || "") +
-          '<div class="seg-btns"><button class="btn" id="segClearLast">清除结果</button></div></div>';
-      }
-      var hist = load("segments", []); hist.sort(function (a, b) { return (b.date < a.date ? -1 : 1); });
-      var histRows = hist.slice(0, 20).map(function (h) { var bm = {}; h.segments.forEach(function (s) { bm[s.module] = (bm[s.module] || 0) + s.secs; }); var mini = Object.keys(bm).map(function (k) { return segModName(k) + " " + fmtClock(bm[k]); }).join(" · "); return '<div class="seg-hist"><div class="seg-hist-h"><b>' + esc(h.name) + '</b><span class="seg-time">' + h.date + " · " + fmtClock(h.totalSecs) + '</span></div><div class="seg-hist-b">' + mini + "</div></div>"; }).join("");
-      var history = '<div class="card"><h3>🗂 历史记录</h3>' + (histRows ? histRows : '<div class="empty">暂无记录</div>') + "</div>";
-      root.innerHTML = ctrl + result + list + summary + history;
-      bindSegment();
-    }
-    function bindSegment() {
-      var nm = document.getElementById("segName"); if (nm) nm.addEventListener("input", function () { seg.name = this.value; });
-      var st = document.getElementById("segStart"); if (st) st.addEventListener("click", segStart);
-      var pa = document.getElementById("segPause"); if (pa) pa.addEventListener("click", segPause);
-      var nx = document.getElementById("segNext"); if (nx) nx.addEventListener("click", segNext);
-      var fn = document.getElementById("segFinish"); if (fn) fn.addEventListener("click", segFinish);
-      var cl = document.getElementById("segClearLast"); if (cl) cl.addEventListener("click", function () { segLast = null; renderSegment(); });
-    }
-
     /* 数据洞察（零依赖手绘 SVG：环形 / 柱状 / 折线） */
     function renderInsights() {
       var mistakes = load("mistakes", []);
