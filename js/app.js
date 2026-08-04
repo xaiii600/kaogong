@@ -1842,6 +1842,25 @@
       { key: "quant",    name: "数量关系", color: "#f7e2a8" }
     ];
     var PAPER_MAP = {}; PAPER_MODULES.forEach(function (m) { PAPER_MAP[m.key] = m; });
+    // 各模块目标：正确率(%) + 用时(分)区间[下限,上限]（用户可在看板内编辑，覆盖默认值）
+    var DEFAULT_TARGETS = {
+      politics: { rate: 80, tmin: 10, tmax: 10 },
+      common:   { rate: 50, tmin: 5,  tmax: 6 },
+      verbal:   { rate: 80, tmin: 25, tmax: 30 },
+      logic:    { rate: 80, tmin: 25, tmax: 30 },
+      quant:    { rate: 50, tmin: 10, tmax: 20 },
+      data:     { rate: 90, tmin: 20, tmax: 25 }
+    };
+    function loadTargets() {
+      var d = {};
+      PAPER_MODULES.forEach(function (m) { var t = DEFAULT_TARGETS[m.key]; d[m.key] = { rate: t.rate, tmin: t.tmin, tmax: t.tmax }; });
+      var s = load("targets", null);
+      if (s && typeof s === "object") PAPER_MODULES.forEach(function (m) {
+        var v = s[m.key];
+        if (v && typeof v === "object") { if (v.rate != null) d[m.key].rate = v.rate; if (v.tmin != null) d[m.key].tmin = v.tmin; if (v.tmax != null) d[m.key].tmax = v.tmax; }
+      });
+      return d;
+    }
     function correctOf(mm) { return mm && mm.correct != null ? mm.correct : (mm ? mm.total : 0); }
     function renderPaperRows() {
       var box = document.getElementById("ppRows"), html = "", logicKeys = [];
@@ -1908,6 +1927,25 @@
         return '<div class="weak-row"><span class="weak-name">' + it.name + '</span><span class="weak-track"><span class="weak-fill" style="width:' + w + '%;background:' + it.color + '"></span></span><span class="weak-val">' + w + '%</span></div>';
       }).join("") + '<div style="font-size:12px;color:var(--text-soft);margin-top:4px;">共汇总 ' + list.length + ' 套试卷</div>';
     }
+    function fmtMin(m) {
+      m = Math.round(m || 0);
+      if (m <= 0) return "0分";
+      if (m >= 60) { var h = Math.floor(m / 60), r = m % 60; return h + "小时" + (r > 0 ? r + "分" : ""); }
+      return m + "分";
+    }
+    function renderTargetBoard() {
+      var el = document.getElementById("targetBoard"); if (!el) return;
+      var targets = loadTargets();
+      var html = '<div class="tb-head"><span>科目</span><span>目标正确率</span><span>目标用时</span></div>';
+      PAPER_MODULES.forEach(function (m) {
+        var tg = targets[m.key];
+        var tLabel = tg.tmin === tg.tmax ? (tg.tmin + '分') : (tg.tmin + '-' + tg.tmax + '分');
+        html += '<div class="tb-row"><span class="tb-name">' + m.name + '</span>' +
+          '<span class="tb-target">' + tg.rate + '%</span>' +
+          '<span class="tb-target-time">' + tLabel + '</span></div>';
+      });
+      el.innerHTML = html;
+    }
     /* ===== 申论素材库 ===== */
     var ESSAY_CATS = ["政策理论","乡村振兴","基层治理","民生保障","生态文明","经济发展","文化自信","科技自立","其他"];
     var essayCat = "全部"; var essayKw = "";
@@ -1964,7 +2002,7 @@
       var totalPages = Math.max(1, Math.ceil(list.length / PP_PAGE_SIZE));
       if (ppPage > totalPages) ppPage = totalPages;
       var pageList = list.slice((ppPage - 1) * PP_PAGE_SIZE, ppPage * PP_PAGE_SIZE);
-      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); return; }
+      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); renderTargetBoard(); return; }
       box.innerHTML = pageList.map(function (p) {
         var mods = p.modules, total = 0, correct = 0, bars = "";
         if (mods) {
@@ -2000,7 +2038,7 @@
       var prev = document.getElementById("ppPrev"), next = document.getElementById("ppNext");
       if (prev) prev.addEventListener("click", function () { if (ppPage > 1) { ppPage--; renderPapers(); } });
       if (next) next.addEventListener("click", function () { if (ppPage < totalPages) { ppPage++; renderPapers(); } });
-      renderTrend(); renderWeakSummary();
+      renderTrend(); renderWeakSummary(); renderTargetBoard();
     }
     var trendMetric = "rate";
     function renderTrend() {
@@ -2060,6 +2098,29 @@
       });
     });
     document.getElementById("ppTypeFilter").addEventListener("change", function () { ppPage = 1; renderPapers(); });
+    document.getElementById("editTargets").addEventListener("click", function () {
+      var t = loadTargets();
+      var body = PAPER_MODULES.map(function (m) {
+        var tg = t[m.key];
+        return '<div class="tg-edit-row"><div class="tg-name">' + m.name + '</div>' +
+          '<div class="tg-inputs">' +
+          '<label>正确率%<input type="number" min="0" max="100" id="tg_r_' + m.key + '" value="' + tg.rate + '"></label>' +
+          '<label>用时下限分<input type="number" min="0" id="tg_min_' + m.key + '" value="' + tg.tmin + '"></label>' +
+          '<label>用时上限分<input type="number" min="0" id="tg_max_' + m.key + '" value="' + tg.tmax + '"></label>' +
+          '</div></div>';
+      }).join("");
+      openModal("编辑目标（正确率 + 用时）", body, '<button class="btn btn-primary btn-sm" id="tgOk">保存</button>');
+      document.getElementById("tgOk").addEventListener("click", function () {
+        var nt = {};
+        PAPER_MODULES.forEach(function (m) {
+          var r = Math.max(0, Math.min(100, +document.getElementById("tg_r_" + m.key).value || 0));
+          var mn = Math.max(0, +document.getElementById("tg_min_" + m.key).value || 0);
+          var mx = Math.max(0, +document.getElementById("tg_max_" + m.key).value || 0);
+          nt[m.key] = { rate: r, tmin: Math.min(mn, mx), tmax: Math.max(mn, mx) };
+        });
+        save("targets", nt); closeModal(); renderTargetBoard(); toast("目标已更新");
+      });
+    });
 
     /* 侧边栏 / 导航 */
     (function updateDate() { var now = new Date(); document.getElementById("sidebarDate").textContent = now.getFullYear() + "年" + pad(now.getMonth() + 1) + "月" + pad(now.getDate()) + "日 星期" + WK[now.getDay()]; })();
