@@ -301,9 +301,9 @@
     .bar-fill { height: 100%; border-radius: 999px; background: var(--accent); transition: width 0.3s ease; }
     .bar-fill.weak { background: #e06a8b; }
     /* 目标达成看板 */
-    .tb-head, .tb-row { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 8px; align-items: center; padding: 9px 4px; }
-    .tb-head { font-size: 12px; color: var(--text-soft); border-bottom: 1px solid var(--border); }
-    .tb-row { font-size: 14px; border-bottom: 1px solid var(--border); }
+    .tb-head, .tb-row { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 8px; align-items: center; padding: 6px 4px; }
+    .tb-head { font-size: 11px; color: var(--text-soft); border-bottom: 1px solid var(--border); }
+    .tb-row { font-size: 12px; border-bottom: 1px solid var(--border); }
     .tb-row:last-child { border-bottom: none; }
     .tb-name { font-weight: 600; color: var(--text-strong); }
     .tb-target, .tb-target-time { font-weight: 700; color: var(--accent); white-space: nowrap; }
