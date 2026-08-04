@@ -1,16 +1,56 @@
 {
   "date": "2026-08-04",
-  "time": "16:24",
-  "generatedAt": "2026-08-04T16:24:29.306Z",
+  "time": "21:53",
+  "generatedAt": "2026-08-04T21:53:11.700Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "俄总统普京签署数字货币和数字权利监管法律",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672056.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "（机遇香港）国际机构密集上调增长预期　香港经济基本面被看好",
       "url": "https://www.chinanews.com.cn/dwq/2026/08-04/10672035.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新闻分析｜AI对网络安全的“双刃剑”效应日益凸显",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672059.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "英国司法大臣为囚犯提前释放争议政策致歉",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672058.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "哈萨克斯坦将扩大非资源类商品出口 中国为重点市场之一",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672057.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -106,26 +146,6 @@
       ]
     },
     {
-      "title": "马来西亚提出打造亚洲生物草药创新中心",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10672014.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【发现最美铁路】赤峰南站：从简陋平房小站到北疆综合交通枢纽",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672019.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "5元2瓶都卖不动 含糖碳酸饮料遇冷",
       "url": "https://www.baidu.com/s?wd=5%E5%85%832%E7%93%B6%E9%83%BD%E5%8D%96%E4%B8%8D%E5%8A%A8+%E5%90%AB%E7%B3%96%E7%A2%B3%E9%85%B8%E9%A5%AE%E6%96%99%E9%81%87%E5%86%B7",
       "source": "百度热搜",
@@ -136,11 +156,31 @@
       ]
     },
     {
-      "title": "哈尔滨暴雨 中央大街成“中央大河”",
-      "url": "https://www.baidu.com/s?wd=%E5%93%88%E5%B0%94%E6%BB%A8%E6%9A%B4%E9%9B%A8+%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E6%88%90%E2%80%9C%E4%B8%AD%E5%A4%AE%E5%A4%A7%E6%B2%B3%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
+      "title": "新华时评｜日本“新型军国主义”危险图谋的再次暴露",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672060.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港教师冀与内地共同培养复合型人才",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-05/10672055.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩国通过法案全面取消检察机关侦查权",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672054.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -198,46 +238,6 @@
     {
       "title": "中国“银河画卷”巡天证实星际分子云是超高能宇宙射线诞生的关键载体",
       "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672039.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国防部批日新版防卫白皮书：贼喊捉贼为自身军事松绑找借口",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672034.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "7月中国物流业景气指数为50.4%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672033.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "联创光电：公司及实控人被证监会立案",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672023.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广东湛江鲜果出口添“新” 首批鲜番石榴销往新加坡",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672024.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
