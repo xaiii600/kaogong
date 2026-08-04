@@ -205,6 +205,11 @@
     svg .slice { cursor: pointer; transition: opacity 0.15s ease; } svg .slice:hover { opacity: 0.82; }
 
     /* 计时器 */
+    .timer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+    .timer-grid > #segmentRoot { min-width: 0; }
+    .timer-grid .timer-clock, .timer-grid .seg-clock { font-size: 30px; letter-spacing: 1px; }
+    .timer-grid .card { width: 100%; box-sizing: border-box; }
+    @media (max-width: 380px) { .timer-grid { grid-template-columns: 1fr; } .timer-grid .timer-clock, .timer-grid .seg-clock { font-size: 44px; } }
     .timer-panel { display: flex; flex-direction: column; align-items: center; gap: 14px; }
     .timer-clock { font-size: 56px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 2px; }
     .timer-subject-now { font-size: 15px; color: var(--text-soft); } .timer-subject-now b { color: var(--text-strong); }
