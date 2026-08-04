@@ -81,51 +81,36 @@
     function drawPie(el, legendEl, items, onSlice) {
       var total = 0; items.forEach(function (i) { total += i.value; });
       if (total <= 0) { el.innerHTML = '<div class="empty">今日还没有学习记录<br>去计时器开始学习吧～</div>'; legendEl.innerHTML = ""; return; }
-      var W = 440, H = 250, cx = 190, cy = 116, rO = 78, rLabel = 92, minGap = 30;
+      var W = 220, H = 220, cx = 110, cy = 110, rO = 90;
       var svg = '<svg width="100%" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">';
       var pos = 0;
       var slices = items.map(function (it, oi) {
         var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value;
-        return { it: it, oi: oi, start: start, end: end, mid: (start + end) / 2, lx: 0, ly: 0, side: "R" };
+        return { it: it, oi: oi, start: start, end: end };
       }).filter(function (x) { return x.it.value > 0; });
       if (slices.length === 1) {
         svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rO + '" fill="' + slices[0].it.color + '" class="slice" data-i="' + slices[0].oi + '"><title>' + slices[0].it.name + '</title></circle>';
-        svg += '<text x="' + cx + '" y="' + (cy + rO + 18) + '" text-anchor="middle" font-size="13" font-weight="700" fill="' + slices[0].it.color + '">' + slices[0].it.name + '</text>';
-        svg += '<text x="' + cx + '" y="' + (cy + rO + 36) + '" text-anchor="middle" font-size="12" fill="#9a848d">' + fmtDur(slices[0].it.value) + '</text>';
       } else {
         slices.forEach(function (s) {
           svg += '<path d="' + pieSlice(cx, cy, rO, s.start, s.end) + '" fill="' + s.it.color + '" class="slice" data-i="' + s.oi + '"><title>' + s.it.name + '</title></path>';
         });
-        slices.forEach(function (s) {
-          var p = polar(cx, cy, rLabel, s.mid);
-          s.lx = p[0]; s.ly = p[1]; s.side = p[0] >= cx ? "R" : "L";
-        });
-        ["R", "L"].forEach(function (flag) {
-          var grp = slices.filter(function (s) { return s.side === flag; }).sort(function (a, b) { return a.ly - b.ly; });
-          for (var k = 1; k < grp.length; k++) { if (grp[k].ly - grp[k - 1].ly < minGap) grp[k].ly = grp[k - 1].ly + minGap; }
-          if (grp.length) {
-            var maxY = H - 40, minY = 14, diff = 0;
-            if (grp[grp.length - 1].ly > maxY) diff = grp[grp.length - 1].ly - maxY;
-            else if (grp[0].ly < minY) diff = grp[0].ly - minY;
-            if (diff) grp.forEach(function (s) { s.ly -= diff; });
-          }
-        });
-        slices.forEach(function (s) {
-          var e = polar(cx, cy, rO, s.mid);
-          var tx = s.side === "R" ? s.lx + 6 : s.lx - 6;
-          var anchor = s.side === "R" ? "start" : "end";
-          svg += '<polyline points="' + e[0] + "," + e[1] + " " + s.lx + "," + s.ly + '" fill="none" stroke="#caa9b6" stroke-width="1"/>';
-          svg += '<circle cx="' + e[0] + '" cy="' + e[1] + '" r="2" fill="#caa9b6"/>';
-          svg += '<text x="' + tx + '" y="' + (s.ly - 4) + '" text-anchor="' + anchor + '" font-size="12" font-weight="700" fill="' + s.it.color + '">' + s.it.name + '</text>';
-          svg += '<text x="' + tx + '" y="' + (s.ly + 12) + '" text-anchor="' + anchor + '" font-size="11" fill="#9a848d">' + fmtDur(s.it.value) + '</text>';
-        });
       }
-      svg += '<text x="' + cx + '" y="' + (H - 8) + '" text-anchor="middle" font-size="12" font-weight="700" fill="#5a434c">今日学习 ' + fmtDur(total) + '</text>';
       svg += "</svg>";
       el.innerHTML = svg;
-      legendEl.innerHTML = "";
+      var activeItems = items.filter(function (i) { return i.value > 0; }).map(function (i) {
+        return { name: i.name, value: i.value, color: i.color, pct: total > 0 ? (i.value / total * 100).toFixed(1) : "0.0" };
+      }).sort(function (a, b) { return b.value - a.value; });
+      var listHtml = '<div class="pie-data-head">今日学习 ' + fmtDur(total) + '</div>';
+      listHtml += activeItems.map(function (it) {
+        return '<div class="pie-data-item"><span class="pie-dot" style="background:' + it.color + '"></span>' +
+               '<span class="pie-name">' + it.name + '</span>' +
+               '<span class="pie-time">' + fmtDur(it.value) + '</span>' +
+               '<span class="pie-pct">' + it.pct + '%</span></div>';
+      }).join("");
+      legendEl.innerHTML = '<div class="pie-data-list">' + listHtml + '</div>';
       Array.prototype.forEach.call(el.querySelectorAll(".slice"), function (sd) { sd.addEventListener("click", function () { onSlice(items[+sd.getAttribute("data-i")]); }); });
     }
+
 
 
     /* SVG 折线图 */
