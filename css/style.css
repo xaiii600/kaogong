@@ -198,7 +198,9 @@
     .chart-card { background: var(--card-bg); border-radius: var(--radius-lg); padding: 18px 20px; box-shadow: var(--shadow-card); border: 1px solid var(--border); }
     .chart-card h3 { font-size: 15px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
     .chart-card h3 .hint { font-size: 11px; color: var(--text-soft); font-weight: 400; }
-    .pie-wrap { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; justify-content: center; }
+    .pie-wrap { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; justify-content: center; flex-direction: column; }
+    #pieChart { width: 100%; }
+    #pieChart svg { display: block; max-width: 460px; margin: 0 auto; }
     .pie-total { font-weight: 700; color: var(--text-strong); margin-bottom: 8px; text-align: center; font-size: 14px; }
     .pie-legend { flex: 1; min-width: 140px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
     .pie-legend .lg { display: flex; align-items: center; gap: 8px; }
