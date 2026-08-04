@@ -163,11 +163,13 @@
             </div>
             <div class="study-summary" id="studySummary"></div>
           </div>
-          <div class="charts-grid">
+          <div class="chart-pie-row">
             <div class="chart-card">
               <h3>🥧 今日科目占比 <span class="hint">点击饼块看明细</span></h3>
               <div class="pie-wrap"><div id="pieChart"></div><div class="pie-legend" id="pieLegend"></div></div>
             </div>
+          </div>
+          <div class="chart-line-row">
             <div class="chart-card"><h3>📈 近 7 日学习时长 <span class="hint">小时</span></h3><div id="weekChart"></div></div>
             <div class="chart-card"><h3>📈 本月每日学习时长 <span class="hint">小时</span></h3><div id="monthChart"></div></div>
           </div>
@@ -189,7 +191,6 @@
             <div class="timer-types" id="timerTypes"></div>
             <div class="timer-type-hint" id="timerTypeHint">学习类型：听课</div>
             <div class="pomo-input" id="pomoInput">时长 <input type="number" id="pomoMin" value="25" min="1" max="120" /> 分钟</div>
-            <div class="form-row timer-name-row"><label>学习主题（选填）</label><input type="text" id="timerName" class="mini" placeholder="如：2026国考行测 / 今日刷题" /></div>
             <div class="timer-btns">
               <button class="btn btn-primary" id="btnStart">开始</button>
               <button class="btn" id="btnMark" disabled>记一段 ›</button>
@@ -360,7 +361,7 @@
               <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>分数</label><input type="number" id="ppScore" min="0" placeholder="0" /></div>
               <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>试卷类型</label><select id="ppType" class="mini"><option value="国考">国考</option><option value="省考">省考</option></select></div>
             </div>
-            <div class="paper-row head"><span>模块</span><span>总题量</span><span>答对数</span></div>
+            <div class="paper-row head"><span>模块</span><span>总题量</span><span>答对数</span><span>时间(分)</span></div>
             <div id="ppRows"></div>
             <div class="form-row" style="margin-top:6px;">
               <label>试卷备注 <span class="charcount" id="ppNoteCount">0 / 500</span></label>
@@ -385,11 +386,6 @@
             <h3 style="margin-bottom:6px;">🎯 薄弱模块汇总 <span class="hint">跨全部套卷</span></h3>
             <p class="page-sub" style="margin-bottom:10px;">按各模块累计正确率排序，越靠前越薄弱（红=正确率&lt;60%）</p>
             <div id="weakSummary"></div>
-          </div>
-          <div class="card" style="margin-bottom:16px;">
-            <h3 style="margin-bottom:6px;">⏱ 各模块答题时间 <span class="hint">来自科目计时器</span></h3>
-            <p class="page-sub" style="margin-bottom:10px;">按模块汇总你累计的学习 / 答题时长，越靠前花的时间越多</p>
-            <div id="moduleTime"></div>
           </div>
           <div id="paperList"></div>
           <div class="pager" id="ppPager"></div>
