@@ -1211,7 +1211,7 @@
       else if (timer.accumMs > 0) { el.textContent = "已记录本次时长 " + fmtDur(Math.floor(timer.accumMs / 1000)) + "（暂停状态，可继续或重置）"; }
       else { el.textContent = ""; }
     }
-    function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); }
+    function renderTimer() { if (!timerInited) renderTimerOnce(); updateTimerSubjectName(); updateTimerDisplay(); renderSegment(); }
     function tick() {
       if (!timer.running) return;
       bankDelta();
@@ -2192,11 +2192,12 @@
       if (seg.active) { if (seg.cur) seg.segs.push({ module: seg.cur.module, secs: segCurSecs() }); stopSegTick(); }
       var total = seg.segs.reduce(function (a, x) { return a + x.secs; }, 0);
       if (seg.segs.length) {
+        seg.segs.forEach(function (s) { addSeconds(s.module, s.secs); });
         var hist = load("segments", []);
         var rec = { id: uid(), name: seg.name || "未命名套卷", date: seg.date, totalSecs: total, segments: seg.segs.slice() };
         hist.push(rec); save("segments", hist);
         segLast = rec;
-        toast("已保存本次分段计时");
+        toast("已保存本次分段计时，并计入学习时长");
       }
       seg = { active: false, paused: false, name: "", date: todayKey(), segs: [], cur: null };
       renderSegment();
@@ -2277,8 +2278,8 @@
       var reasonItems = ERROR_REASONS.map(function (r) { var c = 0; mistakes.forEach(function (m) { if (m.reason === r) c++; }); return { name: r, value: c, color: reasonColor(r) }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
       drawBar(document.getElementById("barReason"), reasonItems);
     }
-    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", practice: "📚 模块学习 / 📝 题库练习", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "review-history": "📝 复盘总结 / 📊 复盘历史总览", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", mock: "📃 套卷分析 / 📝 模考提醒", segment: "📃 套卷分析 / ⏱ 分段计时", insights: "📈 数据洞察", news: "🔥 时政热点", essay: "📚 申论素材" };
-    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, practice: renderPractice, "review-overview": renderReviewOverview, review: renderReviews, "review-history": renderReviewHistory, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, mock: renderMock, segment: renderSegment, insights: renderInsights, news: renderNews, essay: renderEssay };
+    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", practice: "📚 模块学习 / 📝 题库练习", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "review-history": "📝 复盘总结 / 📊 复盘历史总览", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", mock: "📃 套卷分析 / 📝 模考提醒", insights: "📈 数据洞察", news: "🔥 时政热点", essay: "📚 申论素材" };
+    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, practice: renderPractice, "review-overview": renderReviewOverview, review: renderReviews, "review-history": renderReviewHistory, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, mock: renderMock, insights: renderInsights, news: renderNews, essay: renderEssay };
     function goPage(id) {
       document.querySelectorAll(".page").forEach(function (p) { p.classList.remove("active"); });
       var t = document.getElementById("page-" + id); if (t) t.classList.add("active");
