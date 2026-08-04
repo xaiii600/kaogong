@@ -72,19 +72,25 @@
       var large = (end - start) > 180 ? 1 : 0;
       return "M" + so[0] + " " + so[1] + " A" + rO + " " + rO + " 0 " + large + " 1 " + eo[0] + " " + eo[1] + " L" + si[0] + " " + si[1] + " A" + rI + " " + rI + " 0 " + large + " 0 " + ei[0] + " " + ei[1] + " Z";
     }
+    /* 实心饼图切片（从圆心到外弧） */
+    function pieSlice(cx, cy, r, start, end) {
+      var so = polar(cx, cy, r, start), eo = polar(cx, cy, r, end);
+      var large = (end - start) > 180 ? 1 : 0;
+      return "M" + cx + " " + cy + " L" + so[0] + " " + so[1] + " A" + r + " " + r + " 0 " + large + " 1 " + eo[0] + " " + eo[1] + " Z";
+    }
     function drawPie(el, legendEl, items, onSlice) {
       var total = 0; items.forEach(function (i) { total += i.value; });
       if (total <= 0) { el.innerHTML = '<div class="empty">今日还没有学习记录<br>去计时器开始学习吧～</div>'; legendEl.innerHTML = ""; return; }
-      var cx = 90, cy = 90, rO = 84, rI = 52, svg = '<svg width="180" height="180" viewBox="0 0 180 180">';
+      var cx = 90, cy = 90, rO = 84, svg = '<svg width="180" height="180" viewBox="0 0 180 180">';
       var pos = 0; var single = items.filter(function (i) { return i.value > 0; }).length === 1;
       items.forEach(function (it, idx) {
         if (it.value <= 0) return;
-        if (single) { var rmid = (rO + rI) / 2; svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rmid + '" fill="none" stroke="' + it.color + '" stroke-width="' + (rO - rI) + '" class="slice" data-i="' + idx + '"><title>' + it.name + '</title></circle>'; }
-        else { var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value; svg += '<path d="' + donutSlice(cx, cy, rO, rI, start, end) + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + '</title></path>'; }
+        if (single) { svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rO + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + "</title></circle>"; }
+        else { var start = pos / total * 360, end = (pos + it.value) / total * 360; pos += it.value; svg += '<path d="' + pieSlice(cx, cy, rO, start, end) + '" fill="' + it.color + '" class="slice" data-i="' + idx + '"><title>' + it.name + "</title></path>"; }
       });
-      svg += '<text x="90" y="85" text-anchor="middle" font-size="15" font-weight="700" fill="#5a434c">' + (total / 3600).toFixed(1) + '</text><text x="90" y="103" text-anchor="middle" font-size="11" fill="#9a848d">小时</text></svg>';
+      svg += "</svg>";
       el.innerHTML = svg;
-      legendEl.innerHTML = items.map(function (it) { var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0"; return '<div class="lg"><span class="sw" style="background:' + it.color + '"></span><span class="lg-name">' + it.name + '</span><span class="lg-val">' + fmtDur(it.value) + " · " + pct + '%</span></div>'; }).join("");
+      legendEl.innerHTML = '<div class="pie-total">今日学习 ' + fmtDur(total) + "</div>" + items.map(function (it) { var pct = total > 0 ? (it.value / total * 100).toFixed(1) : "0.0"; return '<div class="lg"><span class="sw" style="background:' + it.color + '"></span><span class="lg-name">' + it.name + '</span><span class="lg-val">' + fmtDur(it.value) + " · " + pct + '%</span></div>'; }).join("");
       Array.prototype.forEach.call(el.querySelectorAll(".slice"), function (s) { s.addEventListener("click", function () { onSlice(items[+s.getAttribute("data-i")]); }); });
     }
 
@@ -1263,10 +1269,9 @@
       }
       save("timer", timer); updateTimerDisplay(); renderTimerSegs();
     }
-    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.cur = null; timer.segs = []; timer.name = ""; timer.lastBankTs = 0; var nm = document.getElementById("timerName"); if (nm) nm.value = ""; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); renderTimerSegs(); toast("已重置本次计时（已用时长仍计入学习时长）"); });
+    document.getElementById("btnReset").addEventListener("click", function () { timer.running = false; timer.cur = null; timer.segs = []; timer.name = ""; timer.lastBankTs = 0; timerNotifyClose(); save("timer", timer); updateTimerDisplay(); renderTimerSegs(); toast("已重置本次计时（已用时长仍计入学习时长）"); });
     var btnFinish = document.getElementById("btnFinish"); if (btnFinish) btnFinish.addEventListener("click", function () { tFinish(); });
     var btnMark = document.getElementById("btnMark"); if (btnMark) btnMark.addEventListener("click", function () { tMarkSegment(); });
-    var nmEl = document.getElementById("timerName"); if (nmEl) nmEl.addEventListener("input", function () { timer.name = this.value; save("timer", timer); });
     function tFinish() {
       if (timer.cur) {
         timer.cur.acc += (timer.running && timer.cur.start ? Date.now() - timer.cur.start : 0);
@@ -1282,7 +1287,6 @@
         toast("本次没有可保存的计时");
       }
       timer.running = false; timer.cur = null; timer.segs = []; timer.name = ""; timer.lastBankTs = 0;
-      var nm2 = document.getElementById("timerName"); if (nm2) nm2.value = "";
       timerNotifyClose();
       save("timer", timer); updateTimerDisplay(); renderTimerSegs();
     }
@@ -1779,16 +1783,16 @@
       var box = document.getElementById("ppRows"), html = "", logicKeys = [];
       PAPER_MODULES.forEach(function (m) {
         if (!m.subs) {
-          html += '<div class="paper-row"><span>' + m.name + '</span><input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /></div>';
+          html += '<div class="paper-row"><span>' + m.name + '</span><input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /><input type="number" min="0" id="ppTime_' + m.key + '" placeholder="0" class="pp-time" /></div>';
         } else {
           logicKeys.push(m.key);
           html += '<div class="paper-row"><span class="lt-head"><span class="lt-caret" data-k="' + m.key + '">▸</span> ' + m.name +
             ' <span class="lt-hint" id="ppAgg_' + m.key + '">合计 0/0</span></span>' +
             '<input type="number" min="0" id="ppT_' + m.key + '" placeholder="0" />' +
-            '<input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /></div>';
+            '<input type="number" min="0" id="ppC_' + m.key + '" placeholder="0" /><input type="number" min="0" id="ppTime_' + m.key + '" placeholder="0" class="pp-time" /></div>';
           html += '<div class="paper-subs" id="ppSubs_' + m.key + '" style="display:none;">';
           m.subs.forEach(function (s) {
-            html += '<div class="paper-row sub"><span>· ' + s.name + '</span><input type="number" min="0" id="ppT_' + m.key + '_' + s.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '_' + s.key + '" placeholder="0" /></div>';
+            html += '<div class="paper-row sub"><span>· ' + s.name + '</span><input type="number" min="0" id="ppT_' + m.key + '_' + s.key + '" placeholder="0" /><input type="number" min="0" id="ppC_' + m.key + '_' + s.key + '" placeholder="0" /><input type="number" min="0" id="ppTime_' + m.key + '_' + s.key + '" placeholder="0" class="pp-time" /></div>';
           });
           html += "</div>";
         }
@@ -1839,29 +1843,6 @@
         var w = (it.rate * 100).toFixed(0);
         return '<div class="weak-row"><span class="weak-name">' + it.name + '</span><span class="weak-track"><span class="weak-fill" style="width:' + w + '%;background:' + it.color + '"></span></span><span class="weak-val">' + w + '%</span></div>';
       }).join("") + '<div style="font-size:12px;color:var(--text-soft);margin-top:4px;">共汇总 ' + list.length + ' 套试卷</div>';
-    }
-
-    function moduleTimeMap() {
-      var map = { politics: "politics", common: "common", verbal: "verbal", data: "data", quant: "quant", logic: "logic", graph: "logic" };
-      var d = daily(), t = {};
-      PAPER_MODULES.forEach(function (m) { t[m.key] = 0; });
-      Object.keys(d).forEach(function (date) {
-        var rec = d[date]; if (!rec) return;
-        Object.keys(rec).forEach(function (k) { var mk = map[k]; if (mk && t[mk] != null) t[mk] += rec[k]; });
-      });
-      return t;
-    }
-    function renderModuleTime() {
-      var el = document.getElementById("moduleTime"); if (!el) return;
-      var t = moduleTimeMap();
-      var items = PAPER_MODULES.map(function (m) { return { name: m.name, secs: t[m.key], color: m.color }; }).filter(function (x) { return x.secs > 0; });
-      if (!items.length) { el.innerHTML = '<div class="empty">还没有计时记录，去「科目计时器」记一段就会累计到这里 ⏱</div>'; return; }
-      items.sort(function (a, b) { return b.secs - a.secs; });
-      var maxv = Math.max.apply(null, items.map(function (i) { return i.secs; }));
-      el.innerHTML = items.map(function (it) {
-        var w = maxv > 0 ? Math.round(it.secs / maxv * 100) : 0;
-        return '<div class="bar-row"><span class="bar-name">' + it.name + '</span><div class="bar-track"><div class="bar-fill" style="width:' + w + '%;background:' + it.color + '"></div></div><span class="bar-val">' + fmtDur(it.secs) + '</span></div>';
-      }).join("") + '<div style="font-size:12px;color:var(--text-soft);margin-top:4px;">数据来自「科目计时器」累计（图形推理归入逻辑判断）</div>';
     }
     /* ===== 申论素材库 ===== */
     var ESSAY_CATS = ["政策理论","乡村振兴","基层治理","民生保障","生态文明","经济发展","文化自信","科技自立","其他"];
@@ -1919,7 +1900,7 @@
       var totalPages = Math.max(1, Math.ceil(list.length / PP_PAGE_SIZE));
       if (ppPage > totalPages) ppPage = totalPages;
       var pageList = list.slice((ppPage - 1) * PP_PAGE_SIZE, ppPage * PP_PAGE_SIZE);
-      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); renderModuleTime(); return; }
+      if (!list.length) { box.innerHTML = '<div class="empty">还没有套卷分析记录</div>'; renderTrend(); renderWeakSummary(); return; }
       box.innerHTML = pageList.map(function (p) {
         var mods = p.modules, total = 0, correct = 0, bars = "";
         if (mods) {
@@ -1929,11 +1910,11 @@
             var mm = mods[m.key]; if (!mm || mm.total <= 0) return "";
             var isGroup = !!m.subs;
             var cr = mm.total > 0 ? correctOf(mm) / mm.total : 0, weak = cr < 0.6;
-            var out = '<div class="bar-row' + (isGroup ? " logic-group" : "") + '" title="' + m.name + '：' + correctOf(mm) + "/" + mm.total + '"><span class="bar-name">' + m.name + (isGroup ? ' <span class="chip">合计</span>' : "") + '</span><div class="bar-track"><div class="bar-fill' + (weak ? " weak" : "") + '" style="width:' + (cr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (cr * 100).toFixed(1) + "%" + (weak ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
+            var out = '<div class="bar-row' + (isGroup ? " logic-group" : "") + '" title="' + m.name + '：' + correctOf(mm) + "/" + mm.total + '" + ((mm.time ? " · 用时 " + mm.time + " 分" : ""))><span class="bar-name">' + m.name + (isGroup ? ' <span class="chip">合计</span>' : "") + '</span><div class="bar-track"><div class="bar-fill' + (weak ? " weak" : "") + '" style="width:' + (cr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (cr * 100).toFixed(1) + "%" + (weak ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
             if (m.subs && mm.subs) m.subs.forEach(function (s) {
               var sm = mm.subs[s.key]; if (!sm || sm.total <= 0) return;
               var scr = sm.total > 0 ? sm.correct / sm.total : 0, sw = scr < 0.6;
-              out += '<div class="bar-row sub" title="' + s.name + '：' + sm.correct + "/" + sm.total + '"><span class="bar-name">· ' + s.name + '</span><div class="bar-track"><div class="bar-fill' + (sw ? " weak" : "") + '" style="width:' + (scr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (scr * 100).toFixed(1) + "%" + (sw ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
+              out += '<div class="bar-row sub" title="' + s.name + '：' + sm.correct + "/" + sm.total + '" + ((sm.time ? " · 用时 " + sm.time + " 分" : ""))><span class="bar-name">· ' + s.name + '</span><div class="bar-track"><div class="bar-fill' + (sw ? " weak" : "") + '" style="width:' + (scr * 100).toFixed(0) + '%"></div></div><span class="bar-val">' + (scr * 100).toFixed(1) + "%" + (sw ? ' <span class="chip weak-tag">薄弱</span>' : "") + "</span></div>";
             });
             return out;
           }).join("");
@@ -1955,7 +1936,7 @@
       var prev = document.getElementById("ppPrev"), next = document.getElementById("ppNext");
       if (prev) prev.addEventListener("click", function () { if (ppPage > 1) { ppPage--; renderPapers(); } });
       if (next) next.addEventListener("click", function () { if (ppPage < totalPages) { ppPage++; renderPapers(); } });
-      renderTrend(); renderWeakSummary(); renderModuleTime();
+      renderTrend(); renderWeakSummary();
     }
     var trendMetric = "rate";
     function renderTrend() {
@@ -1985,16 +1966,19 @@
       PAPER_MODULES.forEach(function (m) {
         if (!m.subs) {
           var t = +document.getElementById("ppT_" + m.key).value || 0, c = +document.getElementById("ppC_" + m.key).value || 0;
-          modules[m.key] = { total: t, correct: Math.min(c, t) };
+          var tm = +document.getElementById("ppTime_" + m.key).value || 0;
+          modules[m.key] = { total: t, correct: Math.min(c, t), time: tm };
         } else {
           var mT = +document.getElementById("ppT_" + m.key).value || 0, mC = +document.getElementById("ppC_" + m.key).value || 0;
+          var mTime = +document.getElementById("ppTime_" + m.key).value || 0;
           var T = 0, C = 0, subs = {};
           m.subs.forEach(function (s) {
             var t = +document.getElementById("ppT_" + m.key + "_" + s.key).value || 0, c = +document.getElementById("ppC_" + m.key + "_" + s.key).value || 0;
-            subs[s.key] = { total: t, correct: Math.min(c, t) }; T += t; C += c;
+            var st = +document.getElementById("ppTime_" + m.key + "_" + s.key).value || 0;
+            subs[s.key] = { total: t, correct: Math.min(c, t), time: st }; T += t; C += c;
           });
           var finT = mT > 0 ? mT : T, finC = mT > 0 ? mC : C;
-          modules[m.key] = { total: finT, correct: Math.min(finC, finT), subs: subs };
+          modules[m.key] = { total: finT, correct: Math.min(finC, finT), time: mTime, subs: subs };
         }
       });
       var note = document.getElementById("ppNote").value.trim();
