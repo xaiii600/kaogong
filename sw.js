@@ -1,5 +1,5 @@
 // Service Worker for 小艾的考公工作台 PWA
-const CACHE_VERSION = 'v19';
+const CACHE_VERSION = 'v20';
 const CACHE_NAME = 'kaogong-' + CACHE_VERSION;
 
 // Core assets to precache
