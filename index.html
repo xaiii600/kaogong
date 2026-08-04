@@ -176,11 +176,12 @@
         <!-- 科目计时器 -->
         <section class="page" id="page-timer">
           <h1 class="page-title">科目计时器</h1>
-          <p class="page-sub">一个计时器搞定：选科目开始，学习中点其他科目即自动记一段并切换；结束统一计入学习时长</p>
+          <p class="page-sub">一个计时器搞定：选科目点「开始」，学习中想分段就先点选其他科目、再点「记一段」切段；结束后统一计入学习时长</p>
           <div class="card timer-panel">
             <div class="timer-subject-now">当前科目：<b id="timerSubjectName">政治理论</b></div>
             <div class="timer-clock" id="timerClock">00:00:00</div>
             <div class="timer-segnow">本段 <b id="timerSeg">00:00</b> · 已记 <b id="timerSegN">0</b> 段</div>
+            <div class="timer-nextsub" id="timerNextSub"></div>
             <div class="timer-modes">
               <div class="seg active" id="segCount" data-mode="count">⏱ 正计时</div>
               <div class="seg" id="segPomo" data-mode="pomo">🍅 番茄钟</div>
@@ -191,6 +192,7 @@
             <div class="form-row timer-name-row"><label>学习主题（选填）</label><input type="text" id="timerName" class="mini" placeholder="如：2026国考行测 / 今日刷题" /></div>
             <div class="timer-btns">
               <button class="btn btn-primary" id="btnStart">开始</button>
+              <button class="btn" id="btnMark" disabled>记一段 ›</button>
               <button class="btn btn-line" id="btnFinish">结束并保存</button>
               <button class="btn btn-ghost" id="btnReset">重置</button>
             </div>
@@ -198,7 +200,7 @@
             <div class="type-breakdown" id="typeBreakdown"></div>
           </div>
           <div id="segmentRoot"></div>
-          <h3 style="margin:22px 0 0;font-size:15px;">选择科目（学习中点击其他科目即记一段并切换）</h3>
+          <h3 style="margin:22px 0 0;font-size:15px;">选择科目（学习中先点选下一科目，再点「记一段」切段）</h3>
           <div class="subject-list" id="subjectList"></div>
         </section>
 
