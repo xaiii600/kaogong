@@ -354,6 +354,14 @@
           <h1 class="page-title">试卷专项分析</h1>
           <p class="page-sub">录入套卷答题情况，统计各模块总题量与答对数，标记薄弱模块</p>
           <div class="card" style="margin-bottom:16px;">
+            <div class="form-row" style="display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px;flex-wrap:wrap;">
+              <h3 style="margin:0;">🎯 目标达成看板</h3>
+              <button class="btn btn-ghost btn-sm" id="editTargets">✏️ 编辑目标</button>
+            </div>
+            <p class="page-sub" style="margin-bottom:10px;">各模块目标正确率与用时（单次套卷）</p>
+            <div id="targetBoard"></div>
+          </div>
+          <div class="card" style="margin-bottom:16px;">
             <div class="form-row"><label>试卷名称</label><input type="text" id="ppName" placeholder="如：2025国考地市级行测" /></div>
             <div style="display:flex;gap:12px;flex-wrap:wrap;">
               <div class="form-row" style="flex:1;min-width:120px;margin-bottom:14px;"><label>日期</label><input type="date" id="ppDate" /></div>
