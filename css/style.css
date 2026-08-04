@@ -209,6 +209,8 @@
     .timer-segnow { font-size: 13px; color: var(--text-soft); margin-bottom: 2px; }
     .timer-segnow b { color: var(--text-strong); font-variant-numeric: tabular-nums; }
     .timer-name-row { width: 100%; max-width: 320px; margin: 2px auto 0; }
+    .timer-nextsub { font-size: 12px; color: var(--accent); min-height: 16px; margin-top: -6px; }
+    .btn:disabled { opacity: .45; cursor: not-allowed; }
     .timer-clock { font-size: 56px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 2px; }
     .timer-subject-now { font-size: 15px; color: var(--text-soft); } .timer-subject-now b { color: var(--text-strong); }
     .timer-modes { display: flex; gap: 8px; }
