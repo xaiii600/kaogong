@@ -1949,209 +1949,6 @@
         };
         r.readAsDataURL(f);
       }); })();
-    /* ===== 题库练习 ===== */
-    var prSetup = { mods: [], count: 10, mode: "random", autoAdd: true };
-    var practice = { active: false, done: false, items: [], idx: 0, selected: [], graded: false, correct: 0, wrong: 0, startTs: 0, autoAdd: true, added: {} };
-
-    var QBANK_BUILTIN = [
-      { id: "p1", module: "politics", type: "单选", stem: "新发展理念中，注重解决发展不平衡问题的是？", options: ["创新", "协调", "绿色", "开放"], answer: "B", explanation: "协调发展注重解决发展不平衡问题，促进城乡、区域、经济社会、人与自然、国内国际协调发展。", difficulty: 1 },
-      { id: "p2", module: "politics", type: "单选", stem: "中国特色社会主义最本质的特征是？", options: ["中国共产党领导", "社会主义市场经济", "人民当家作主", "依法治国"], answer: "A", explanation: "中国共产党的领导是中国特色社会主义最本质的特征和最大优势。", difficulty: 1 },
-      { id: "p3", module: "politics", type: "单选", stem: "“四个全面”战略布局中，处于引领地位的战略目标是？", options: ["全面深化改革", "全面依法治国", "全面从严治党", "全面建设社会主义现代化国家"], answer: "D", explanation: "全面建设社会主义现代化国家是战略目标，其余三项是战略举措。", difficulty: 2 },
-      { id: "p4", module: "politics", type: "单选", stem: "我们党的根本宗旨是？", options: ["全心全意为人民服务", "实现共同富裕", "发展生产力", "依法治国"], answer: "A", explanation: "全心全意为人民服务是党的根本宗旨。", difficulty: 1 },
-      { id: "p5", module: "politics", type: "单选", stem: "我国的根本政治制度是？", options: ["人民代表大会制度", "多党合作制度", "基层群众自治", "民族区域自治"], answer: "A", explanation: "人民代表大会制度是我国的根本政治制度。", difficulty: 1 },
-      { id: "p6", module: "politics", type: "单选", stem: "社会主义民主政治的本质和核心是？", options: ["人民当家作主", "依法治国", "党的领导", "民主集中制"], answer: "A", explanation: "人民当家作主是社会主义民主政治的本质和核心。", difficulty: 2 },
-      { id: "c1", module: "common", type: "单选", stem: "下列不属于我国古代“四大发明”的是？", options: ["造纸术", "印刷术", "地动仪", "火药"], answer: "C", explanation: "四大发明为造纸术、印刷术、火药、指南针；地动仪是张衡发明的观测仪器，不属于四大发明。", difficulty: 1 },
-      { id: "c2", module: "common", type: "单选", stem: "二十四节气中，属于春季的最后一个节气是？", options: ["清明", "谷雨", "立夏", "春分"], answer: "B", explanation: "春季六节气为立春、雨水、惊蛰、春分、清明、谷雨，谷雨为最后一个。", difficulty: 2 },
-      { id: "c3", module: "common", type: "单选", stem: "“一带一路”倡议指的是？", options: ["丝绸之路经济带和21世纪海上丝绸之路", "长江经济带", "京津冀协同发展", "粤港澳大湾区"], answer: "A", explanation: "“一带一路”即丝绸之路经济带和21世纪海上丝绸之路。", difficulty: 1 },
-      { id: "c4", module: "common", type: "单选", stem: "我国第一颗人造地球卫星是？", options: ["东方红一号", "神舟一号", "嫦娥一号", "风云一号"], answer: "A", explanation: "1970年发射的“东方红一号”是我国第一颗人造地球卫星。", difficulty: 1 },
-      { id: "c5", module: "common", type: "单选", stem: "下列人物中，属于道家学派代表人物的是？", options: ["孔子", "老子", "墨子", "韩非子"], answer: "B", explanation: "老子、庄子是道家代表人物；孔子属儒家，墨子是墨家，韩非子是法家。", difficulty: 1 },
-      { id: "c6", module: "common", type: "单选", stem: "长江的发源地是？", options: ["青藏高原唐古拉山脉", "巴颜喀拉山", "云贵高原", "黄土高原"], answer: "A", explanation: "长江发源于青藏高原唐古拉山脉各拉丹冬峰。", difficulty: 2 },
-      { id: "v1", module: "verbal", type: "单选", stem: "填入横线最恰当的一项是：面对错综复杂的形势，我们必须______。", options: ["统筹兼顾", "南辕北辙", "墨守成规", "削足适履"], answer: "A", explanation: "统筹兼顾指统一筹划、各方面兼顾；其余均含贬义或语义相反。", difficulty: 2 },
-      { id: "v2", module: "verbal", type: "单选", stem: "与“画蛇添足”意思最接近的成语是？", options: ["多此一举", "锦上添花", "雪中送炭", "精益求精"], answer: "A", explanation: "画蛇添足比喻做了多余的事反而不恰当，与多此一举近义。", difficulty: 2 },
-      { id: "v3", module: "verbal", type: "单选", stem: "“左右逢源”的原意是指？", options: ["做事得心应手、处处顺利", "为人圆滑世故", "财力雄厚", "关系网广"], answer: "A", explanation: "原意指学问广博、处事周全（语出《孟子》）；后多含贬义指为人圆滑。", difficulty: 3 },
-      { id: "v4", module: "verbal", type: "单选", stem: "下列句子中，“不绝如缕”使用正确的一项是？", options: ["集市上人群不绝如缕", "他的琴声不绝如缕，余音绕梁", "消息不绝如缕地传来", "雨水不绝如缕下了三天"], answer: "B", explanation: "不绝如缕形容局势危急或声音细微悠长，不能误用为“连续不断”。", difficulty: 3 },
-      { id: "v5", module: "verbal", type: "单选", stem: "文段主旨：阅读纸质书有助于深度思考，而电子阅读容易碎片化、浅阅读。最适合的概括是？", options: ["纸质书优于电子书", "提倡深度阅读、警惕碎片化", "电子阅读一无是处", "应当禁止电子阅读"], answer: "B", explanation: "文段核心是对比中提倡深度阅读、警惕碎片化，并非全盘否定电子阅读。", difficulty: 2 },
-      { id: "v6", module: "verbal", type: "单选", stem: "填入横线最恰当的是：经过______的努力，他终于考上理想的大学。", options: ["锲而不舍", "见异思迁", "半途而废", "浅尝辄止"], answer: "A", explanation: "锲而不舍指坚持不懈，符合语境；其余均为贬义。", difficulty: 1 },
-      { id: "l1", module: "logic", type: "单选", stem: "“医生：病人” 与下列哪项逻辑关系最相似？", options: ["教师：学生", "司机：汽车", "作家：小说", "农民：土地"], answer: "A", explanation: "均为职业与其服务/作用对象的关系。", difficulty: 1 },
-      { id: "l2", module: "logic", type: "单选", stem: "“所有金属都导电，铜是金属，所以铜导电。”这一推理属于？", options: ["演绎推理", "归纳推理", "类比推理", "因果推理"], answer: "A", explanation: "由一般到个别、前提必然推出结论，是演绎推理（三段论）。", difficulty: 2 },
-      { id: "l3", module: "logic", type: "单选", stem: "已知：如果明天下雨，地面就会湿。今天地面没有湿。可以推出？", options: ["明天下雨了", "明天没下雨", "地面湿了", "无法确定"], answer: "B", explanation: "由“下雨→地湿”的逆否命题“地不湿→没下雨”可得明天没下雨。", difficulty: 2 },
-      { id: "l4", module: "logic", type: "单选", stem: "要支持“限时停车能缓解拥堵”的结论，最有力的是？", options: ["限时停车提高了车位周转率", "该措施成本很低", "市民普遍支持", "其他城市也采用过"], answer: "A", explanation: "直接建立“限时停车”与“缓解拥堵”之间的因果联系，最能支持。", difficulty: 2 },
-      { id: "l5", module: "logic", type: "单选", stem: "有人声称“每天吃维生素C能预防感冒”。最能削弱该说法的是？", options: ["研究显示维C对预防感冒无显著效果", "维C有益健康", "很多人都在吃维C", "维C价格便宜"], answer: "A", explanation: "直接否定因果关系的有效性，削弱力度最强。", difficulty: 2 },
-      { id: "l6", module: "logic", type: "单选", stem: "类比推理：苹果：水果 相当于 胡萝卜：？", options: ["蔬菜", "萝卜", "粮食", "植物"], answer: "A", explanation: "前者是后者的一种（种属关系）。", difficulty: 1 },
-      { id: "g1", module: "graph", type: "单选", stem: "下列图形中，对称轴数量最多的是？", options: ["等边三角形", "正方形", "正五边形", "圆"], answer: "D", explanation: "圆有无数条对称轴，其余分别为3、4、5条。", difficulty: 1 },
-      { id: "g2", module: "graph", type: "单选", stem: "一组图形封闭区域数依次为 1、2、3、4，则下一个应为？", options: ["3", "4", "5", "6"], answer: "C", explanation: "按自然数递增规律，下一项为5。", difficulty: 2 },
-      { id: "g3", module: "graph", type: "单选", stem: "字母序列 A、C、E、G、？ 下一个是？", options: ["H", "I", "K", "J"], answer: "B", explanation: "每次间隔一个字母（序号+2），G后为I。", difficulty: 2 },
-      { id: "g4", module: "graph", type: "单选", stem: "下列几何体中，不属于多面体的是？", options: ["正方体", "三棱锥", "圆柱", "正八面体"], answer: "C", explanation: "圆柱含有曲面，不是多面体。", difficulty: 2 },
-      { id: "g5", module: "graph", type: "单选", stem: "两个边长为 a 的正方形拼成一个长方形后，新图形周长比原来两个正方形周长之和？", options: ["变大", "变小", "不变", "无法确定"], answer: "B", explanation: "拼接后重合边不再计入，周长由8a减为6a。", difficulty: 2 },
-      { id: "g6", module: "graph", type: "单选", stem: "若图形按“轴对称、中心对称、轴对称、中心对称”逐行排列，第三行应为？", options: ["轴对称", "中心对称", "既轴对称又中心对称", "不对称"], answer: "C", explanation: "按交替规律，第三行与前一行（中心对称）相反，应为既轴又中心对称。", difficulty: 3 },
-      { id: "d1", module: "data", type: "单选", stem: "2023年某省GDP为12000亿元，同比增长5%，则2022年约为？", options: ["11429亿元", "12600亿元", "12000亿元", "11500亿元"], answer: "A", explanation: "基期=12000÷1.05≈11428.6亿元。", difficulty: 2 },
-      { id: "d2", module: "data", type: "单选", stem: "某企业2022年利润200万元，2023年利润260万元，利润增长率约为？", options: ["30%", "26%", "23%", "20%"], answer: "A", explanation: "(260−200)÷200=30%。", difficulty: 1 },
-      { id: "d3", module: "data", type: "单选", stem: "A市800万人、B市600万、C市500万，三市总人口约？", options: ["1900万", "2000万", "1800万", "2100万"], answer: "A", explanation: "800+600+500=1900万。", difficulty: 1 },
-      { id: "d4", module: "data", type: "单选", stem: "增速比较：甲8.5%、乙9.2%、丙7.1%，最高的是？", options: ["甲", "乙", "丙", "三者相同"], answer: "B", explanation: "9.2%最大，为乙。", difficulty: 1 },
-      { id: "d5", module: "data", type: "单选", stem: "某商品单价由100元涨到120元，涨幅约为？", options: ["20%", "16.7%", "25%", "15%"], answer: "A", explanation: "(120−100)÷100=20%。", difficulty: 1 },
-      { id: "d6", module: "data", type: "单选", stem: "某指标2020—2023年依次为100、120、150、180，年均增量约为？", options: ["20", "26.7", "30", "25"], answer: "B", explanation: "(180−100)÷3≈26.7。", difficulty: 2 },
-      { id: "q1", module: "quant", type: "单选", stem: "甲单独12天完成，乙单独18天，两人合作需几天？", options: ["7.2天", "15天", "10天", "8天"], answer: "A", explanation: "效率和=1/12+1/18=5/36，时间=36/5=7.2天。", difficulty: 2 },
-      { id: "q2", module: "quant", type: "单选", stem: "等差数列 2、5、8、11…… 第10项是？", options: ["29", "30", "31", "28"], answer: "A", explanation: "aₙ=2+(n−1)×3，a₁₀=2+27=29。", difficulty: 1 },
-      { id: "q3", module: "quant", type: "单选", stem: "边长为4的正方形面积是？", options: ["16", "8", "12", "20"], answer: "A", explanation: "面积=边长²=16。", difficulty: 1 },
-      { id: "q4", module: "quant", type: "单选", stem: "商品打八折后售价80元，原价为？", options: ["100元", "90元", "96元", "64元"], answer: "A", explanation: "80÷0.8=100。", difficulty: 1 },
-      { id: "q5", module: "quant", type: "单选", stem: "A比B多20%，B=50，则A=？", options: ["60", "55", "70", "62"], answer: "A", explanation: "50×(1+20%)=60。", difficulty: 1 },
-      { id: "q6", module: "quant", type: "单选", stem: "1到100的自然数中，3的倍数共有多少个？", options: ["33", "34", "30", "32"], answer: "A", explanation: "3,6,…,99 共 99÷3=33 个。", difficulty: 2 },
-      { id: "k1", module: "calc", type: "单选", stem: "25×44 = ?", options: ["1100", "1000", "1150", "1200"], answer: "A", explanation: "25×4×11=1100。", difficulty: 1 },
-      { id: "k2", module: "calc", type: "单选", stem: "3456×1.15 ≈ ?", options: ["3974", "3800", "3900", "4000"], answer: "A", explanation: "3456×1.15=3974.4。", difficulty: 1 },
-      { id: "k3", module: "calc", type: "单选", stem: "1/4 + 1/2 = ?", options: ["3/4", "2/3", "1/2", "1"], answer: "A", explanation: "1/4+2/4=3/4。", difficulty: 1 },
-      { id: "k4", module: "calc", type: "单选", stem: "200 的 15% 是？", options: ["30", "25", "35", "40"], answer: "A", explanation: "200×0.15=30。", difficulty: 1 },
-      { id: "k5", module: "calc", type: "单选", stem: "999×9 = ?", options: ["8991", "8900", "9000", "8990"], answer: "A", explanation: "(1000−1)×9=8991。", difficulty: 2 },
-      { id: "k6", module: "calc", type: "单选", stem: "√144 = ?", options: ["12", "14", "11", "13"], answer: "A", explanation: "12²=144。", difficulty: 1 }
-    ];
-
-    function getQBank() {
-      var user = load("qbank", []) || [];
-      var map = {};
-      QBANK_BUILTIN.forEach(function (q) { map[q.id] = q; });
-      user.forEach(function (q) { if (q && q.id) map[q.id] = q; });
-      return Object.keys(map).map(function (k) { return map[k]; });
-    }
-    function isAnswerRight(q) {
-      return practice.selected.slice().sort().join("") === ("" + q.answer).split("").sort().join("");
-    }
-    function addWrongToMistakes(q) {
-      var list = load("mistakes", []);
-      list.push({ id: uid(), module: q.module, date: todayKey(), question: q.stem, reason: "练习答错", correct: q.explanation, image: null, correctImage: null, created: Date.now(), mastery: "review", favorite: false, reviewBase: "", difficulty: q.difficulty });
-      save("mistakes", list);
-    }
-    function finishPractice() {
-      var dur = Math.round((Date.now() - practice.startTs) / 1000);
-      var acc = practice.items.length ? Math.round(practice.correct / practice.items.length * 100) : 0;
-      var hist = load("practice", []);
-      hist.push({ date: todayKey(), total: practice.items.length, correct: practice.correct, accuracy: acc, duration: dur });
-      save("practice", hist);
-      practice.done = true;
-    }
-    function startPractice() {
-      var bank = getQBank();
-      var pool = prSetup.mods.length ? bank.filter(function (q) { return prSetup.mods.indexOf(q.module) >= 0; }) : bank;
-      if (!pool.length) { toast("该模块暂无题目"); return; }
-      var n = Math.min(prSetup.count || 10, pool.length);
-      var items = pool.slice();
-      if (prSetup.mode === "random") {
-        for (var i = items.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = items[i]; items[i] = items[j]; items[j] = t; }
-      }
-      items = items.slice(0, n);
-      practice = { active: true, done: false, items: items, idx: 0, selected: [], graded: false, correct: 0, wrong: 0, startTs: Date.now(), autoAdd: prSetup.autoAdd, added: {} };
-      renderPractice();
-    }
-    function prGrade() {
-      if (practice.graded) return;
-      var q = practice.items[practice.idx];
-      practice.graded = true;
-      if (isAnswerRight(q)) practice.correct++; else practice.wrong++;
-      if (!isAnswerRight(q) && practice.autoAdd && !practice.added[q.id]) { addWrongToMistakes(q); practice.added[q.id] = true; }
-      renderPractice();
-    }
-    function prSetupHTML() {
-      var bank = getQBank();
-      var counts = {};
-      bank.forEach(function (q) { counts[q.module] = (counts[q.module] || 0) + 1; });
-      var chips = SUBJECTS.filter(function (s) { return counts[s.key]; }).map(function (s) {
-        var on = prSetup.mods.indexOf(s.key) >= 0;
-        return '<button type="button" class="pr-chip' + (on ? " on" : "") + '" data-mod="' + s.key + '" style="border-color:' + s.color + ';' + (on ? "background:" + s.color + ";" : "") + '">' + s.ico + " " + s.name + " <small>" + counts[s.key] + "</small></button>";
-      }).join("");
-      return '<div class="card"><h3 style="margin-bottom:10px;">🎯 练习设置</h3>' +
-        '<div class="form-row"><label>选择模块（不选 = 全部）</label><div class="pr-chips">' + chips + "</div></div>" +
-        '<div style="display:flex;gap:12px;flex-wrap:wrap;">' +
-        '<div class="form-row" style="flex:1;min-width:140px;"><label>题数</label><input type="number" id="prCount" class="mini" value="' + prSetup.count + '" min="1" max="' + bank.length + '" /></div>' +
-        '<div class="form-row" style="flex:1;min-width:140px;"><label>出题模式</label><select id="prMode" class="mini"><option value="random"' + (prSetup.mode === "random" ? " selected" : "") + ">随机</option><option value=\"seq\"" + (prSetup.mode === "seq" ? " selected" : "") + ">顺序</option></select></div>" +
-        "</div>" +
-        '<label style="display:flex;align-items:center;gap:8px;font-size:14px;margin:6px 0 12px;color:var(--ink);"><input type="checkbox" id="prAuto"' + (prSetup.autoAdd ? " checked" : "") + " /> 答错自动加入错题本</label>" +
-        '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;"><button class="btn btn-primary" id="prStart">▶ 开始练习</button>' +
-        '<span style="font-size:13px;color:var(--text-soft);">题库共 ' + bank.length + " 题（内置 " + QBANK_BUILTIN.length + " + 你的 " + (bank.length - QBANK_BUILTIN.length) + "）</span></div>" +
-        "</div>";
-    }
-    function bindSetup() {
-      var root = document.getElementById("practiceRoot");
-      root.querySelectorAll(".pr-chip").forEach(function (b) {
-        b.addEventListener("click", function () {
-          var k = b.getAttribute("data-mod"), i = prSetup.mods.indexOf(k);
-          if (i >= 0) prSetup.mods.splice(i, 1); else prSetup.mods.push(k);
-          renderPractice();
-        });
-      });
-      var st = document.getElementById("prStart");
-      if (st) st.addEventListener("click", function () {
-        prSetup.count = Math.max(1, parseInt(document.getElementById("prCount").value, 10) || 10);
-        prSetup.mode = document.getElementById("prMode").value;
-        prSetup.autoAdd = document.getElementById("prAuto").checked;
-        startPractice();
-      });
-    }
-    function prQuestionHTML(q, graded) {
-      var s = SUB_MAP[q.module];
-      var opts = (q.options || []).map(function (o, i) {
-        var letter = String.fromCharCode(65 + i), cls = "pr-opt", sel = practice.selected.indexOf(letter) >= 0;
-        if (sel) cls += " sel";
-        if (graded) { if (("" + q.answer).indexOf(letter) >= 0) cls += " right"; else if (sel) cls += " wrong"; }
-        return '<button type="button" class="' + cls + '" data-opt="' + letter + '" ' + (graded ? "disabled" : "") + ">" + letter + ". " + esc(o) + "</button>";
-      }).join("");
-      var foot;
-      if (!graded) {
-        foot = '<button class="btn btn-primary" id="prSubmit" ' + (practice.selected.length ? "" : "disabled") + ">提交答案</button>";
-      } else {
-        var right = isAnswerRight(q), added = practice.added[q.id];
-        foot = '<div class="pr-feed ' + (right ? "ok" : "no") + '">' + (right ? "✅ 回答正确" : "❌ 回答错误 · 正确答案：" + q.answer) + "</div>" +
-          '<div class="pr-exp"><b>解析：</b>' + esc(q.explanation) + "</div>" +
-          (right ? "" : (added ? '<div class="pr-added">📌 已加入错题本</div>' : '<button class="btn btn-line" id="prAdd">📥 加入错题本</button>')) +
-          '<button class="btn btn-primary" id="prNext">' + (practice.idx + 1 >= practice.items.length ? "查看结果 ▸" : "下一题 ›") + "</button>";
-      }
-      return '<div class="card pr-q">' +
-        '<div class="pr-top"><span class="chip" style="background:' + (s ? s.color : "#fbe3ec") + '">' + (s ? s.name : q.module) + "</span>" +
-        '<span class="diff-badge diff-' + q.difficulty + '">' + DIFF_NAMES[q.difficulty] + "</span>" +
-        '<span class="pr-type">' + q.type + '</span><span class="pr-prog">第 ' + (practice.idx + 1) + " / " + practice.items.length + " 题</span></div>" +
-        '<div class="pr-stem">' + esc(q.stem) + "</div>" +
-        '<div class="pr-opts">' + opts + "</div>" +
-        '<div class="pr-foot">' + foot + "</div></div>";
-    }
-    function bindQuestion(q) {
-      var root = document.getElementById("practiceRoot");
-      root.querySelectorAll(".pr-opt").forEach(function (b) {
-        if (b.disabled) return;
-        b.addEventListener("click", function () {
-          var letter = b.getAttribute("data-opt"), multi = q.type === "多选", i = practice.selected.indexOf(letter);
-          if (multi) { if (i >= 0) practice.selected.splice(i, 1); else practice.selected.push(letter); }
-          else { practice.selected = [letter]; }
-          renderPractice();
-        });
-      });
-      var sub = document.getElementById("prSubmit"); if (sub) sub.addEventListener("click", prGrade);
-      var nx = document.getElementById("prNext");
-      if (nx) nx.addEventListener("click", function () {
-        practice.idx++; practice.selected = []; practice.graded = false;
-        if (practice.idx >= practice.items.length) finishPractice();
-        renderPractice();
-      });
-      var add = document.getElementById("prAdd");
-      if (add) add.addEventListener("click", function () { addWrongToMistakes(q); practice.added[q.id] = true; renderPractice(); });
-    }
-    function prFinishHTML() {
-      var total = practice.items.length, acc = total ? Math.round(practice.correct / total * 100) : 0, dur = Math.round((Date.now() - practice.startTs) / 1000);
-      return '<div class="card pr-result"><h3 style="text-align:center;margin-bottom:4px;">🎉 练习完成</h3>' +
-        '<div class="pr-score">' + acc + "<small>%</small></div>" +
-        '<div class="pr-stats"><div><b>' + total + "</b><span>总题数</span></div><div><b>" + practice.correct + "</b><span>答对</span></div><div><b>" + practice.wrong + "</b><span>答错</span></div><div><b>" + fmtDur(dur) + "</b><span>用时</span></div></div>" +
-        '<div style="display:flex;gap:10px;margin-top:14px;"><button class="btn btn-primary" id="prAgain">🔁 再练一次</button><button class="btn btn-line" id="prBack">返回设置</button></div>' +
-        (practice.wrong ? '<p class="page-sub" style="text-align:center;margin-top:10px;">答错的题已加入错题本，可在「分模块错题本」复习</p>' : "") + "</div>";
-    }
-    function bindFinish() {
-      var again = document.getElementById("prAgain"); if (again) again.addEventListener("click", startPractice);
-      var back = document.getElementById("prBack"); if (back) back.addEventListener("click", function () { practice = { active: false, done: false }; renderPractice(); });
-    }
-    function renderPractice() {
-      var root = document.getElementById("practiceRoot"); if (!root) return;
-      if (practice.done) { root.innerHTML = prFinishHTML(); bindFinish(); return; }
-      if (!practice.active) { root.innerHTML = prSetupHTML(); bindSetup(); return; }
-      var q = practice.items[practice.idx];
-      root.innerHTML = prQuestionHTML(q, practice.graded);
-      bindQuestion(q);
-    }
-
     /* ===== 分段计时（套卷按模块统计用时） ===== */
     var seg = { active: false, paused: false, name: "", date: todayKey(), segs: [], cur: null };
     var segLast = null;
@@ -2256,14 +2053,9 @@
       var review = mistakes.length - mastered;
       var due = dueReviewCount(mistakes);
       var reviews = load("reviews", []).length;
-      var prHist = load("practice", []);
-      var prCount = prHist.length;
-      var prAcc = prCount ? Math.round(prHist.reduce(function (a, b) { return a + (b.accuracy || 0); }, 0) / prCount) : 0;
-      var qbCount = getQBank().length;
       var stats = [
         { n: mistakes.length, l: "累计错题" }, { n: mastered, l: "已掌握" }, { n: review, l: "待复习" },
-        { n: due, l: "今日待复习" }, { n: reviews, l: "累计复盘" },
-        { n: qbCount, l: "题库题量" }, { n: prCount, l: "练习次数" }, { n: prAcc + "%", l: "平均正确率" }
+        { n: due, l: "今日待复习" }, { n: reviews, l: "累计复盘" }
       ];
       var sg = document.getElementById("insightStats"); sg.innerHTML = "";
       stats.forEach(function (s) { var d = document.createElement("div"); d.className = "insight-stat"; d.innerHTML = '<span class="is-num">' + s.n + '</span><span class="is-lbl">' + s.l + "</span>"; sg.appendChild(d); });
@@ -2278,8 +2070,8 @@
       var reasonItems = ERROR_REASONS.map(function (r) { var c = 0; mistakes.forEach(function (m) { if (m.reason === r) c++; }); return { name: r, value: c, color: reasonColor(r) }; }).filter(function (i) { return i.value > 0; }).sort(function (a, b) { return b.value - a.value; });
       drawBar(document.getElementById("barReason"), reasonItems);
     }
-    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", practice: "📚 模块学习 / 📝 题库练习", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "review-history": "📝 复盘总结 / 📊 复盘历史总览", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", mock: "📃 套卷分析 / 📝 模考提醒", insights: "📈 数据洞察", news: "🔥 时政热点", essay: "📚 申论素材" };
-    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, practice: renderPractice, "review-overview": renderReviewOverview, review: renderReviews, "review-history": renderReviewHistory, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, mock: renderMock, insights: renderInsights, news: renderNews, essay: renderEssay };
+    var titles = { overview: "📊 学习概览", "module-overview": "📚 模块学习", timer: "📚 模块学习 / ⏱ 科目计时器", memo: "📚 模块学习 / 📖 知识备忘录", mistakes: "📚 模块学习 / 🗂 分模块错题本", "review-overview": "📝 复盘总结", review: "📝 复盘总结 / 📋 每日学习复盘", "review-history": "📝 复盘总结 / 📊 复盘历史总览", "analysis-overview": "📃 套卷分析", analysis: "📃 套卷分析 / 📊 试卷专项分析", mock: "📃 套卷分析 / 📝 模考提醒", insights: "📈 数据洞察", news: "🔥 时政热点", essay: "📚 申论素材" };
+    var renderers = { overview: renderOverview, "module-overview": renderModuleOverview, timer: renderTimer, memo: function () { renderMemoTabs(); renderNotes(); }, mistakes: renderMistakes, "review-overview": renderReviewOverview, review: renderReviews, "review-history": renderReviewHistory, "analysis-overview": renderAnalysisOverview, analysis: renderPapers, mock: renderMock, insights: renderInsights, news: renderNews, essay: renderEssay };
     function goPage(id) {
       document.querySelectorAll(".page").forEach(function (p) { p.classList.remove("active"); });
       var t = document.getElementById("page-" + id); if (t) t.classList.add("active");
@@ -2494,7 +2286,7 @@
 
     /* ===== 数据导出/备份 ===== */
     function exportJSON() {
-      var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","profile","theme","reminder","qbank","practice","segments"];
+      var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","profile","theme","reminder","segments"];
       var data = {};
       keys.forEach(function(k) { var v = localStorage.getItem(K + k); if (v) data[k] = JSON.parse(v); });
       data.exportedAt = new Date().toISOString();
@@ -2558,7 +2350,7 @@
       document.getElementById("dmExportCSV").addEventListener("click", function() { closeModal(); exportCSV(); });
       document.getElementById("dmClear").addEventListener("click", function() {
         if (confirm("确定要清除所有学习数据吗？此操作不可恢复！建议先导出备份。")) {
-          var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","qbank","practice","segments"];
+          var keys = ["daily","checkins","badges","coins","gachaCount","lastGacha","countdowns","mistakes","papers","notes","reviews","timer","ai_cfg","ai_news","essays","news_fav","news_archive","mock_reminder","segments"];
           keys.forEach(function(k) { localStorage.removeItem(K + k); });
           closeModal(); toast("数据已清除"); setTimeout(function() { location.reload(); }, 1000);
         }
