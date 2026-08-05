@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-04",
-  "time": "21:53",
-  "generatedAt": "2026-08-04T21:53:11.700Z",
+  "date": "2026-08-05",
+  "time": "08:04",
+  "generatedAt": "2026-08-05T08:04:35.379Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "俄总统普京签署数字货币和数字权利监管法律",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672056.shtml",
+      "title": "打好政策“组合拳” 以优质消费环境激发消费潜力",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672355.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "policy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "（机遇香港）国际机构密集上调增长预期　香港经济基本面被看好",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-04/10672035.shtml",
+      "title": "新就业群体“法律明白人”上岗记",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672364.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "新闻分析｜AI对网络安全的“双刃剑”效应日益凸显",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672059.shtml",
+      "title": "40余名台湾青年在闽研学AI电商技能   提升电商运营能力",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-05/10672356.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,58 +36,8 @@
       ]
     },
     {
-      "title": "英国司法大臣为囚犯提前释放争议政策致歉",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672058.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "哈萨克斯坦将扩大非资源类商品出口 中国为重点市场之一",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672057.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "闽澳高层会晤暨闽澳合作会议第五次会议在福州举行",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-04/10672053.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我国加快构建绿色低碳电力供给格局",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672051.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "从破题到奔向万亿，上半年上海三大先导产业制造业产值同比增长14.5%",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672049.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "两岸青年探访大熊猫“圆圆”“娘家 ”  AI共创短视频",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672044.shtml",
+      "title": "湖南人工智能赛道双创赛事收官 优质科创项目获算力、资金扶持",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672354.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -96,8 +46,18 @@
       ]
     },
     {
-      "title": "年中经济观察丨多方合力 广西横州茉莉花产业链灾后突围",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672047.shtml",
+      "title": "活力中国调研行|巢湖畔崛起“新能源汽车之城”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672357.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "投资于人蕴机遇 民企拓新岗育新才",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-05/10672342.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -106,8 +66,8 @@
       ]
     },
     {
-      "title": "亲子、研学体验持续“上新” 各地激活暑期文旅消费",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672046.shtml",
+      "title": "服务提质，内需扩容有保障（评论员观察）——2026中国经济年中观察③",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672348.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -116,8 +76,8 @@
       ]
     },
     {
-      "title": "物流业景气指数继续保持扩张 新订单指数连续回升 产业物流进一步向好",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672037.shtml",
+      "title": "（乡村行·看振兴）跨省游、深度游渐兴  大巴山腹地清凉经济升温",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672338.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -126,38 +86,48 @@
       ]
     },
     {
-      "title": "（活力中国调研行）探访合肥大健康研究院：让前沿医疗技术从“书架”走上“货架”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672026.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【青春华章·长征路上山河新】从红军战士到遵义会议纪念馆馆长",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672027.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "5元2瓶都卖不动 含糖碳酸饮料遇冷",
-      "url": "https://www.baidu.com/s?wd=5%E5%85%832%E7%93%B6%E9%83%BD%E5%8D%96%E4%B8%8D%E5%8A%A8+%E5%90%AB%E7%B3%96%E7%A2%B3%E9%85%B8%E9%A5%AE%E6%96%99%E9%81%87%E5%86%B7",
+      "title": "“扎扎实实建设现代化产业体系”",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%89%8E%E6%89%8E%E5%AE%9E%E5%AE%9E%E5%BB%BA%E8%AE%BE%E7%8E%B0%E4%BB%A3%E5%8C%96%E4%BA%A7%E4%B8%9A%E4%BD%93%E7%B3%BB%E2%80%9D",
       "source": "百度热搜",
-      "cat": "society",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "新华时评｜日本“新型军国主义”危险图谋的再次暴露",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672060.shtml",
+      "title": "西安通报赛格商场与坠楼者纠纷情况",
+      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E5%AE%89%E9%80%9A%E6%8A%A5%E8%B5%9B%E6%A0%BC%E5%95%86%E5%9C%BA%E4%B8%8E%E5%9D%A0%E6%A5%BC%E8%80%85%E7%BA%A0%E7%BA%B7%E6%83%85%E5%86%B5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄罗斯空降兵日 老兵跳伞高空坠亡",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E7%A9%BA%E9%99%8D%E5%85%B5%E6%97%A5+%E8%80%81%E5%85%B5%E8%B7%B3%E4%BC%9E%E9%AB%98%E7%A9%BA%E5%9D%A0%E4%BA%A1",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI剧开播引热议 为何AI越像人越诡异",
+      "url": "https://www.baidu.com/s?wd=AI%E5%89%A7%E5%BC%80%E6%92%AD%E5%BC%95%E7%83%AD%E8%AE%AE+%E4%B8%BA%E4%BD%95AI%E8%B6%8A%E5%83%8F%E4%BA%BA%E8%B6%8A%E8%AF%A1%E5%BC%82",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "江苏邳州：监督护航碧水安澜 聚力绘就幸福河湖",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-05/10672332.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +136,8 @@
       ]
     },
     {
-      "title": "香港教师冀与内地共同培养复合型人才",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-05/10672055.shtml",
+      "title": "提前预警、转移安置 防灾减灾工作做在前 守住安全底线",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672363.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +146,8 @@
       ]
     },
     {
-      "title": "韩国通过法案全面取消检察机关侦查权",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672054.shtml",
+      "title": "“村超”成败，开赛前就定了",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-05/10672329.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +156,8 @@
       ]
     },
     {
-      "title": "女演员带孩子看电影，孩子兴奋叫出声，散场后被观众淋奶油",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-04/10672050.shtml",
+      "title": "柜台一日三价，存储热潮中的华强北",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672362.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +166,8 @@
       ]
     },
     {
-      "title": "伊朗拟管控霍尔木兹海峡进港航运 与阿曼协商通航计划",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-04/10672045.shtml",
+      "title": "福州台湾会馆：从“两郡试馆”到“台胞之家”的百年文脉传承",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-05/10672360.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +176,8 @@
       ]
     },
     {
-      "title": "中国最大自航式纯电驱深海海缆敷设船在江苏完成吉水作业",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-04/10672043.shtml",
+      "title": "上半年北京28.5万户经营主体完成信用修复",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672358.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +186,8 @@
       ]
     },
     {
-      "title": "中国出台强制性国标明确自动驾驶产品安全准入基线",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672042.shtml",
+      "title": "规范涉企执法 优化营商环境（“十五五”开好局起好步）",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672361.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +196,8 @@
       ]
     },
     {
-      "title": "广交会已与全球231家境外机构建立合作关系",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-04/10672041.shtml",
+      "title": "台风“白海豚”逐渐靠近 福建霞浦“小开渔”推迟",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672359.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +206,38 @@
       ]
     },
     {
-      "title": "中国“银河画卷”巡天证实星际分子云是超高能宇宙射线诞生的关键载体",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-04/10672039.shtml",
+      "title": "上海向“新”而行底气足（活力中国调研行）",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672353.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "增长8.3%！上半年我国服务进出口总额37797.5亿元 知识密集型服务出口过一半",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672352.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“凉资源”变成“热流量” 一起解锁避暑好去处",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672351.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "30多年化解纠纷4000余起 “江西好人”吴智尧的“解纷”之路",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672343.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
