@@ -1,13 +1,23 @@
 {
-  "date": "2026-08-05",
-  "time": "20:45",
-  "generatedAt": "2026-08-05T20:45:50.204Z",
+  "date": "2026-08-06",
+  "time": "07:28",
+  "generatedAt": "2026-08-06T07:28:40.653Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "各界聚力青盐提质 助力建设世界级盐湖产业基地",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-05/10672646.shtml",
+      "title": "污染环境行为承担多种法律责任如何处罚？最高法回应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672936.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从“向新”“向优”读懂中国经济韧性活力",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672974.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -16,8 +26,8 @@
       ]
     },
     {
-      "title": "福建连城非遗展演燃旺夜经济  两岸少年共续客家魂",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672645.shtml",
+      "title": "产业兴、通道畅、动能足 西藏外贸焕发新生机",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672969.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,18 +36,18 @@
       ]
     },
     {
-      "title": "广西钦州向海产业换上“向高、向绿、向智”新装",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672644.shtml",
+      "title": "拓视野促发展 全方位发挥立法会建设作用——访香港特区立法会主席李慧琼",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-06/10672968.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "大科学装置建设全面提速 创新成果涌现",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-05/10672650.shtml",
+      "title": "聚焦“AI+IT”实训赛道 雄安人工智能实训基地正式投运",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672963.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -46,8 +56,8 @@
       ]
     },
     {
-      "title": "青海：牦牛藏羊产业逐步实现由数量型向质量效益型转变",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672641.shtml",
+      "title": "小剧场演出场次持续增长 成为演出市场重要增长引擎",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-06/10672962.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,59 +66,9 @@
       ]
     },
     {
-      "title": "海内外媒体齐聚辽宁朝阳 共探红山文化创新表达之道",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-05/10672639.shtml",
+      "title": "一包瓜子 怎么就上美国制裁清单了",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672966.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“2026年澳门青年赴内地跨境金融见习计划”开班仪式在穗举行",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-05/10672637.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中钢协：铁矿石市场新秩序正逐步构建",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-05/10672624.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西钦州推进向海产业布局 深化与东盟跨境产供链合作",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-05/10672619.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国经济展现强大韧性和活力",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%B1%95%E7%8E%B0%E5%BC%BA%E5%A4%A7%E9%9F%A7%E6%80%A7%E5%92%8C%E6%B4%BB%E5%8A%9B",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一对俄罗斯双胞胎在上海地铁站跳芭蕾",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%AF%B9%E4%BF%84%E7%BD%97%E6%96%AF%E5%8F%8C%E8%83%9E%E8%83%8E%E5%9C%A8%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81%E7%AB%99%E8%B7%B3%E8%8A%AD%E8%95%BE",
-      "source": "百度热搜",
       "cat": "international",
       "score": 1,
       "exams": [
@@ -116,8 +76,38 @@
       ]
     },
     {
-      "title": "海南一编制教师岗出现高分断档考生",
-      "url": "https://www.baidu.com/s?wd=%E6%B5%B7%E5%8D%97%E4%B8%80%E7%BC%96%E5%88%B6%E6%95%99%E5%B8%88%E5%B2%97%E5%87%BA%E7%8E%B0%E9%AB%98%E5%88%86%E6%96%AD%E6%A1%A3%E8%80%83%E7%94%9F",
+      "title": "外交部驳斥日本《防卫白皮书》已向日方严正交涉",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672961.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中企在吉实施灌溉工程、光伏发电项目助力民生改善——“希望引进更多中国经验和技术”",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/08-06/10672955.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "曝张一鸣下死命令：不依赖AI蒸馏技术",
+      "url": "https://www.baidu.com/s?wd=%E6%9B%9D%E5%BC%A0%E4%B8%80%E9%B8%A3%E4%B8%8B%E6%AD%BB%E5%91%BD%E4%BB%A4%EF%BC%9A%E4%B8%8D%E4%BE%9D%E8%B5%96AI%E8%92%B8%E9%A6%8F%E6%8A%80%E6%9C%AF",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中央考核巡查组当场质问：这么干不行",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E8%80%83%E6%A0%B8%E5%B7%A1%E6%9F%A5%E7%BB%84%E5%BD%93%E5%9C%BA%E8%B4%A8%E9%97%AE%EF%BC%9A%E8%BF%99%E4%B9%88%E5%B9%B2%E4%B8%8D%E8%A1%8C",
       "source": "百度热搜",
       "cat": "policy",
       "score": 1,
@@ -126,8 +116,8 @@
       ]
     },
     {
-      "title": "联合国：当前热浪仅是气候危机开端",
-      "url": "https://www.baidu.com/s?wd=%E8%81%94%E5%90%88%E5%9B%BD%EF%BC%9A%E5%BD%93%E5%89%8D%E7%83%AD%E6%B5%AA%E4%BB%85%E6%98%AF%E6%B0%94%E5%80%99%E5%8D%B1%E6%9C%BA%E5%BC%80%E7%AB%AF",
+      "title": "美国退回1000亿美元关税",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%80%80%E5%9B%9E1000%E4%BA%BF%E7%BE%8E%E5%85%83%E5%85%B3%E7%A8%8E",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -136,8 +126,18 @@
       ]
     },
     {
-      "title": "传销头目出狱办书院打孩子 当地通报",
-      "url": "https://www.baidu.com/s?wd=%E4%BC%A0%E9%94%80%E5%A4%B4%E7%9B%AE%E5%87%BA%E7%8B%B1%E5%8A%9E%E4%B9%A6%E9%99%A2%E6%89%93%E5%AD%A9%E5%AD%90+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5",
+      "title": "小伙靠AI减肥 45天瘦40斤进了ICU",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E4%BC%99%E9%9D%A0AI%E5%87%8F%E8%82%A5+45%E5%A4%A9%E7%98%A640%E6%96%A4%E8%BF%9B%E4%BA%86ICU",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "网红全程直播“荒岛改造”被查处",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E5%85%A8%E7%A8%8B%E7%9B%B4%E6%92%AD%E2%80%9C%E8%8D%92%E5%B2%9B%E6%94%B9%E9%80%A0%E2%80%9D%E8%A2%AB%E6%9F%A5%E5%A4%84",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -146,18 +146,8 @@
       ]
     },
     {
-      "title": "一个中国新税号引发美国大焦虑",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E4%B8%AA%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%A8%8E%E5%8F%B7%E5%BC%95%E5%8F%91%E7%BE%8E%E5%9B%BD%E5%A4%A7%E7%84%A6%E8%99%91",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "个人贷款明白纸亮相 多个收费项消失",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AA%E4%BA%BA%E8%B4%B7%E6%AC%BE%E6%98%8E%E7%99%BD%E7%BA%B8%E4%BA%AE%E7%9B%B8+%E5%A4%9A%E4%B8%AA%E6%94%B6%E8%B4%B9%E9%A1%B9%E6%B6%88%E5%A4%B1",
+      "title": "事关万亿市场 地方密集开展专项整治",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8B%E5%85%B3%E4%B8%87%E4%BA%BF%E5%B8%82%E5%9C%BA+%E5%9C%B0%E6%96%B9%E5%AF%86%E9%9B%86%E5%BC%80%E5%B1%95%E4%B8%93%E9%A1%B9%E6%95%B4%E6%B2%BB",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -166,68 +156,8 @@
       ]
     },
     {
-      "title": "外交部：坚决反对日方抹黑指责中方",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E5%9D%9A%E5%86%B3%E5%8F%8D%E5%AF%B9%E6%97%A5%E6%96%B9%E6%8A%B9%E9%BB%91%E6%8C%87%E8%B4%A3%E4%B8%AD%E6%96%B9",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一枚俄导弹都没击落 泽连斯基发声",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E6%9E%9A%E4%BF%84%E5%AF%BC%E5%BC%B9%E9%83%BD%E6%B2%A1%E5%87%BB%E8%90%BD+%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E5%8F%91%E5%A3%B0",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "尤文图斯1比0切尔西 双方起冲突",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%A4%E6%96%87%E5%9B%BE%E6%96%AF1%E6%AF%940%E5%88%87%E5%B0%94%E8%A5%BF+%E5%8F%8C%E6%96%B9%E8%B5%B7%E5%86%B2%E7%AA%81",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "反制美国！中方公布5项措施",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%8D%E5%88%B6%E7%BE%8E%E5%9B%BD%EF%BC%81%E4%B8%AD%E6%96%B9%E5%85%AC%E5%B8%835%E9%A1%B9%E6%8E%AA%E6%96%BD",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "普京会见俄国防部领导层",
-      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E4%BC%9A%E8%A7%81%E4%BF%84%E5%9B%BD%E9%98%B2%E9%83%A8%E9%A2%86%E5%AF%BC%E5%B1%82",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "笔试第一遭第二名花钱劝退 当地通报",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%94%E8%AF%95%E7%AC%AC%E4%B8%80%E9%81%AD%E7%AC%AC%E4%BA%8C%E5%90%8D%E8%8A%B1%E9%92%B1%E5%8A%9D%E9%80%80+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "国考"
-      ]
-    },
-    {
-      "title": "人贩子“梅姨”真实姓名曝光",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-05/10672661.shtml",
+      "title": "理疗贴广告暗藏套路 虚拟数字人上演“疗效大戏”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672978.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +166,78 @@
       ]
     },
     {
-      "title": "让渔民当“群演”，菲律宾的海上闹剧演给谁看",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-05/10672660.shtml",
+      "title": "未来五年，民爆行业这样安全发展",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672970.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "江西省气象台发布雷电黄色预警信号",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672965.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沉浸式体验多彩民俗 外国游客到四川感受“清凉一夏”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672967.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月6日“农产品批发价格200指数”比昨天上升0.17个点",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672952.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江温台地区启动防台风Ⅳ级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672959.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "吉林高温将“退场”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672957.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“秋天的第一杯奶茶”怎么喝？湖南医生为秋日养生饮食划重点",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-06/10672956.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "最高法：将采取五项举措确保生态环境法典落实落地",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672876.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
