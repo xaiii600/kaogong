@@ -1,23 +1,23 @@
 {
   "date": "2026-08-07",
-  "time": "01:44",
-  "generatedAt": "2026-08-07T01:44:31.118Z",
+  "time": "06:19",
+  "generatedAt": "2026-08-07T06:19:37.934Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美国科学家首次用AI设计出病毒",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%A6%96%E6%AC%A1%E7%94%A8AI%E8%AE%BE%E8%AE%A1%E5%87%BA%E7%97%85%E6%AF%92",
-      "source": "百度热搜",
-      "cat": "international",
+      "title": "国家人工智能产业创新应用先导区落地银川",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673590.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "广州就业局势稳定结构优化 新兴领域岗位扩容",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673361.shtml",
+      "title": "九三学社金华市经济支社委员会开展乡村公益关爱行动",
+      "url": "https://www.chinanews.com.cn/kong/2026/08-07/10673596.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,70 +26,10 @@
       ]
     },
     {
-      "title": "贵州省遵义市人大常委会副主任刘东明接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673352.shtml",
+      "title": "安徽省天然气销售有限公司原总经理张玲被查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673592.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗拟禁止美国等敌对方通行霍尔木兹海峡 对违规者重罚",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673330.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "女子开一天一夜空调后二氧化碳中毒",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%BC%80%E4%B8%80%E5%A4%A9%E4%B8%80%E5%A4%9C%E7%A9%BA%E8%B0%83%E5%90%8E%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A2%B3%E4%B8%AD%E6%AF%92",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "内娱第一人 戚薇开放形象AI授权",
-      "url": "https://www.baidu.com/s?wd=%E5%86%85%E5%A8%B1%E7%AC%AC%E4%B8%80%E4%BA%BA+%E6%88%9A%E8%96%87%E5%BC%80%E6%94%BE%E5%BD%A2%E8%B1%A1AI%E6%8E%88%E6%9D%83",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国将对多晶硅衍生品加征15%关税",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%B0%86%E5%AF%B9%E5%A4%9A%E6%99%B6%E7%A1%85%E8%A1%8D%E7%94%9F%E5%93%81%E5%8A%A0%E5%BE%8115%25%E5%85%B3%E7%A8%8E",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "曝OpenAI最快下周推出Astra AI",
-      "url": "https://www.baidu.com/s?wd=%E6%9B%9DOpenAI%E6%9C%80%E5%BF%AB%E4%B8%8B%E5%91%A8%E6%8E%A8%E5%87%BAAstra+AI",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世界杯不能卖 国际足联终于明白了",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%8D%E8%83%BD%E5%8D%96+%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E7%BB%88%E4%BA%8E%E6%98%8E%E7%99%BD%E4%BA%86",
-      "source": "百度热搜",
-      "cat": "international",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,18 +46,8 @@
       ]
     },
     {
-      "title": "粉笔教育发布“自曝式”公开信",
-      "url": "https://www.baidu.com/s?wd=%E7%B2%89%E7%AC%94%E6%95%99%E8%82%B2%E5%8F%91%E5%B8%83%E2%80%9C%E8%87%AA%E6%9B%9D%E5%BC%8F%E2%80%9D%E5%85%AC%E5%BC%80%E4%BF%A1",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI终结印度三十年“外包神话”",
-      "url": "https://www.baidu.com/s?wd=AI%E7%BB%88%E7%BB%93%E5%8D%B0%E5%BA%A6%E4%B8%89%E5%8D%81%E5%B9%B4%E2%80%9C%E5%A4%96%E5%8C%85%E7%A5%9E%E8%AF%9D%E2%80%9D",
+      "title": "汪峰公司因AI从1100人减到400人",
+      "url": "https://www.baidu.com/s?wd=%E6%B1%AA%E5%B3%B0%E5%85%AC%E5%8F%B8%E5%9B%A0AI%E4%BB%8E1100%E4%BA%BA%E5%87%8F%E5%88%B0400%E4%BA%BA",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -126,10 +56,70 @@
       ]
     },
     {
-      "title": "宇树科技发行价格150.80元/股",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E8%A1%8C%E4%BB%B7%E6%A0%BC150.80%E5%85%83%2F%E8%82%A1",
+      "title": "宇树科技IPO 一批90后千万富豪或诞生",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80IPO+%E4%B8%80%E6%89%B990%E5%90%8E%E5%8D%83%E4%B8%87%E5%AF%8C%E8%B1%AA%E6%88%96%E8%AF%9E%E7%94%9F",
       "source": "百度热搜",
       "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄军：乌军伤亡总人数逼近250万",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%86%9B%EF%BC%9A%E4%B9%8C%E5%86%9B%E4%BC%A4%E4%BA%A1%E6%80%BB%E4%BA%BA%E6%95%B0%E9%80%BC%E8%BF%91250%E4%B8%87",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日韩企业被中国厂商“打”到自闭",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E9%9F%A9%E4%BC%81%E4%B8%9A%E8%A2%AB%E4%B8%AD%E5%9B%BD%E5%8E%82%E5%95%86%E2%80%9C%E6%89%93%E2%80%9D%E5%88%B0%E8%87%AA%E9%97%AD",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "谁是宇树科技背后大赢家",
+      "url": "https://www.baidu.com/s?wd=%E8%B0%81%E6%98%AF%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E8%83%8C%E5%90%8E%E5%A4%A7%E8%B5%A2%E5%AE%B6",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "张春香退休后被查",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E6%98%A5%E9%A6%99%E9%80%80%E4%BC%91%E5%90%8E%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "当地通报笔试前13被淘汰后5进体检",
+      "url": "https://www.baidu.com/s?wd=%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5%E7%AC%94%E8%AF%95%E5%89%8D13%E8%A2%AB%E6%B7%98%E6%B1%B0%E5%90%8E5%E8%BF%9B%E4%BD%93%E6%A3%80",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "国考"
+      ]
+    },
+    {
+      "title": "美国将对多晶硅衍生品加征15%关税",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%B0%86%E5%AF%B9%E5%A4%9A%E6%99%B6%E7%A1%85%E8%A1%8D%E7%94%9F%E5%93%81%E5%8A%A0%E5%BE%8115%25%E5%85%B3%E7%A8%8E",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -146,18 +136,8 @@
       ]
     },
     {
-      "title": "AI能不能接广告",
-      "url": "https://www.baidu.com/s?wd=AI%E8%83%BD%E4%B8%8D%E8%83%BD%E6%8E%A5%E5%B9%BF%E5%91%8A",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "越南“重整江山”进入新阶段",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673382.shtml",
+      "title": "华裔Z视界｜马来西亚华裔青年的中文情结：说好中文是很酷的事",
+      "url": "http://www.chinanews.com.cn/hr/shipin/2026/08-07/news1064609.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +146,8 @@
       ]
     },
     {
-      "title": "北京市气象台发布雷电黄色预警信号",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673374.shtml",
+      "title": "“白海豚”登陆后是否会北上？为何近期台风“扎堆”来袭？气象专家解读",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673583.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +156,8 @@
       ]
     },
     {
-      "title": "北京市气象台发布暴雨蓝色预警信号",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673372.shtml",
+      "title": "南水北调中线工程调水突破800亿立方米",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673593.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +166,8 @@
       ]
     },
     {
-      "title": "宁夏银川第十届少儿艺术展赛启幕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673360.shtml",
+      "title": "韩国选管会涉嫌投票统计造假 被搜查取证",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673576.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +176,8 @@
       ]
     },
     {
-      "title": "8月7日央行开展10亿元7天期逆回购操作",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673375.shtml",
+      "title": "摩洛哥称愿就遣返未成年非法移民同西班牙开展合作",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673589.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +186,8 @@
       ]
     },
     {
-      "title": "西藏恰普村驻村工作队组织乡村青少年暑期“嘉年华”研学活动",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673365.shtml",
+      "title": "50名海外华裔青少年齐聚宁夏 开启寻根研学之旅",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-07/10673588.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +196,8 @@
       ]
     },
     {
-      "title": "经纬线·向新，向前",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673378.shtml",
+      "title": "2026年广东省军休文艺荟暨军休文艺轻骑兵活动启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673587.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +206,8 @@
       ]
     },
     {
-      "title": "宁夏燕宝奖学金托举青春梦想 慈善力量助力48.83万名西部学子求学路",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673359.shtml",
+      "title": "“侨助千企万品出海” 长治市侨联在行动",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-07/10673591.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +216,28 @@
       ]
     },
     {
-      "title": "东方之约 相约未来",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673376.shtml",
+      "title": "十年接力 浙江大学“组团式”援疆让受援地医院硕果累累",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673586.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（长江十年行）长江大保护下黄冈黄州的生态答卷",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673585.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "山西省发布暴雨黄色预警",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673584.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
