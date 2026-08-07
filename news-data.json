@@ -1,33 +1,23 @@
 {
-  "date": "2026-08-06",
-  "time": "07:28",
-  "generatedAt": "2026-08-06T07:28:40.653Z",
+  "date": "2026-08-07",
+  "time": "01:44",
+  "generatedAt": "2026-08-07T01:44:31.118Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "污染环境行为承担多种法律责任如何处罚？最高法回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672936.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
+      "title": "美国科学家首次用AI设计出病毒",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%A6%96%E6%AC%A1%E7%94%A8AI%E8%AE%BE%E8%AE%A1%E5%87%BA%E7%97%85%E6%AF%92",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "从“向新”“向优”读懂中国经济韧性活力",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672974.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "产业兴、通道畅、动能足 西藏外贸焕发新生机",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672969.shtml",
+      "title": "广州就业局势稳定结构优化 新兴领域岗位扩容",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673361.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,8 +26,8 @@
       ]
     },
     {
-      "title": "拓视野促发展 全方位发挥立法会建设作用——访香港特区立法会主席李慧琼",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-06/10672968.shtml",
+      "title": "贵州省遵义市人大常委会副主任刘东明接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673352.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -46,28 +36,8 @@
       ]
     },
     {
-      "title": "聚焦“AI+IT”实训赛道 雄安人工智能实训基地正式投运",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672963.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "小剧场演出场次持续增长 成为演出市场重要增长引擎",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-06/10672962.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一包瓜子 怎么就上美国制裁清单了",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672966.shtml",
+      "title": "伊朗拟禁止美国等敌对方通行霍尔木兹海峡 对违规者重罚",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673330.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -76,19 +46,9 @@
       ]
     },
     {
-      "title": "外交部驳斥日本《防卫白皮书》已向日方严正交涉",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672961.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中企在吉实施灌溉工程、光伏发电项目助力民生改善——“希望引进更多中国经验和技术”",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-06/10672955.shtml",
-      "source": "中国新闻网",
+      "title": "女子开一天一夜空调后二氧化碳中毒",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%BC%80%E4%B8%80%E5%A4%A9%E4%B8%80%E5%A4%9C%E7%A9%BA%E8%B0%83%E5%90%8E%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A2%B3%E4%B8%AD%E6%AF%92",
+      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -96,8 +56,8 @@
       ]
     },
     {
-      "title": "曝张一鸣下死命令：不依赖AI蒸馏技术",
-      "url": "https://www.baidu.com/s?wd=%E6%9B%9D%E5%BC%A0%E4%B8%80%E9%B8%A3%E4%B8%8B%E6%AD%BB%E5%91%BD%E4%BB%A4%EF%BC%9A%E4%B8%8D%E4%BE%9D%E8%B5%96AI%E8%92%B8%E9%A6%8F%E6%8A%80%E6%9C%AF",
+      "title": "内娱第一人 戚薇开放形象AI授权",
+      "url": "https://www.baidu.com/s?wd=%E5%86%85%E5%A8%B1%E7%AC%AC%E4%B8%80%E4%BA%BA+%E6%88%9A%E8%96%87%E5%BC%80%E6%94%BE%E5%BD%A2%E8%B1%A1AI%E6%8E%88%E6%9D%83",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -106,18 +66,8 @@
       ]
     },
     {
-      "title": "中央考核巡查组当场质问：这么干不行",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E8%80%83%E6%A0%B8%E5%B7%A1%E6%9F%A5%E7%BB%84%E5%BD%93%E5%9C%BA%E8%B4%A8%E9%97%AE%EF%BC%9A%E8%BF%99%E4%B9%88%E5%B9%B2%E4%B8%8D%E8%A1%8C",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国退回1000亿美元关税",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%80%80%E5%9B%9E1000%E4%BA%BF%E7%BE%8E%E5%85%83%E5%85%B3%E7%A8%8E",
+      "title": "美国将对多晶硅衍生品加征15%关税",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%B0%86%E5%AF%B9%E5%A4%9A%E6%99%B6%E7%A1%85%E8%A1%8D%E7%94%9F%E5%93%81%E5%8A%A0%E5%BE%8115%25%E5%85%B3%E7%A8%8E",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -126,8 +76,8 @@
       ]
     },
     {
-      "title": "小伙靠AI减肥 45天瘦40斤进了ICU",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E4%BC%99%E9%9D%A0AI%E5%87%8F%E8%82%A5+45%E5%A4%A9%E7%98%A640%E6%96%A4%E8%BF%9B%E4%BA%86ICU",
+      "title": "曝OpenAI最快下周推出Astra AI",
+      "url": "https://www.baidu.com/s?wd=%E6%9B%9DOpenAI%E6%9C%80%E5%BF%AB%E4%B8%8B%E5%91%A8%E6%8E%A8%E5%87%BAAstra+AI",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -136,28 +86,78 @@
       ]
     },
     {
-      "title": "网红全程直播“荒岛改造”被查处",
-      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E5%85%A8%E7%A8%8B%E7%9B%B4%E6%92%AD%E2%80%9C%E8%8D%92%E5%B2%9B%E6%94%B9%E9%80%A0%E2%80%9D%E8%A2%AB%E6%9F%A5%E5%A4%84",
+      "title": "世界杯不能卖 国际足联终于明白了",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%8D%E8%83%BD%E5%8D%96+%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E7%BB%88%E4%BA%8E%E6%98%8E%E7%99%BD%E4%BA%86",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "事关万亿市场 地方密集开展专项整治",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8B%E5%85%B3%E4%B8%87%E4%BA%BF%E5%B8%82%E5%9C%BA+%E5%9C%B0%E6%96%B9%E5%AF%86%E9%9B%86%E5%BC%80%E5%B1%95%E4%B8%93%E9%A1%B9%E6%95%B4%E6%B2%BB",
+      "title": "打破国外垄断！中国重磅科技集中上新",
+      "url": "https://www.baidu.com/s?wd=%E6%89%93%E7%A0%B4%E5%9B%BD%E5%A4%96%E5%9E%84%E6%96%AD%EF%BC%81%E4%B8%AD%E5%9B%BD%E9%87%8D%E7%A3%85%E7%A7%91%E6%8A%80%E9%9B%86%E4%B8%AD%E4%B8%8A%E6%96%B0",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "理疗贴广告暗藏套路 虚拟数字人上演“疗效大戏”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672978.shtml",
+      "title": "粉笔教育发布“自曝式”公开信",
+      "url": "https://www.baidu.com/s?wd=%E7%B2%89%E7%AC%94%E6%95%99%E8%82%B2%E5%8F%91%E5%B8%83%E2%80%9C%E8%87%AA%E6%9B%9D%E5%BC%8F%E2%80%9D%E5%85%AC%E5%BC%80%E4%BF%A1",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI终结印度三十年“外包神话”",
+      "url": "https://www.baidu.com/s?wd=AI%E7%BB%88%E7%BB%93%E5%8D%B0%E5%BA%A6%E4%B8%89%E5%8D%81%E5%B9%B4%E2%80%9C%E5%A4%96%E5%8C%85%E7%A5%9E%E8%AF%9D%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宇树科技发行价格150.80元/股",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E8%A1%8C%E4%BB%B7%E6%A0%BC150.80%E5%85%83%2F%E8%82%A1",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "OpenAI为免费用户升级GPT-5.6 Luna",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E4%B8%BA%E5%85%8D%E8%B4%B9%E7%94%A8%E6%88%B7%E5%8D%87%E7%BA%A7GPT-5.6+Luna",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI能不能接广告",
+      "url": "https://www.baidu.com/s?wd=AI%E8%83%BD%E4%B8%8D%E8%83%BD%E6%8E%A5%E5%B9%BF%E5%91%8A",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "越南“重整江山”进入新阶段",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673382.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "title": "未来五年，民爆行业这样安全发展",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672970.shtml",
+      "title": "北京市气象台发布雷电黄色预警信号",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673374.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "江西省气象台发布雷电黄色预警信号",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672965.shtml",
+      "title": "北京市气象台发布暴雨蓝色预警信号",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673372.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "沉浸式体验多彩民俗 外国游客到四川感受“清凉一夏”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672967.shtml",
+      "title": "宁夏银川第十届少儿艺术展赛启幕",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673360.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "8月6日“农产品批发价格200指数”比昨天上升0.17个点",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-06/10672952.shtml",
+      "title": "8月7日央行开展10亿元7天期逆回购操作",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673375.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "浙江温台地区启动防台风Ⅳ级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672959.shtml",
+      "title": "西藏恰普村驻村工作队组织乡村青少年暑期“嘉年华”研学活动",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673365.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "吉林高温将“退场”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-06/10672957.shtml",
+      "title": "经纬线·向新，向前",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673378.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "“秋天的第一杯奶茶”怎么喝？湖南医生为秋日养生饮食划重点",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-06/10672956.shtml",
+      "title": "宁夏燕宝奖学金托举青春梦想 慈善力量助力48.83万名西部学子求学路",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673359.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "最高法：将采取五项举措确保生态环境法典落实落地",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-06/10672876.shtml",
+      "title": "东方之约 相约未来",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673376.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
