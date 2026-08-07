@@ -1,43 +1,33 @@
 {
   "date": "2026-08-07",
-  "time": "14:19",
-  "generatedAt": "2026-08-07T14:19:14.132Z",
+  "time": "17:14",
+  "generatedAt": "2026-08-07T17:14:46.771Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "第二届全球医疗峰会在港开幕 聚焦医疗创新发展",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-07/10673916.shtml",
+      "title": "最新外贸数据公布 四个关键词解读中国经济韧性",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674004.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 3,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "史无前例！美国AI开始攻击真人了",
-      "url": "http://www.chinanews.com.cn/gj/shipin/2026/08-07/news1064661.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "港澳青少年中华优秀语言文化教育研习营开营",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673963.shtml",
+      "title": "（活力中国调研行）从氢能产业到半导体芯片 安徽六安向“新”而行",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673975.shtml",
       "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "李家超：促进香港与内地保险市场互联互通",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-07/10673967.shtml",
+      "title": "【中国那些事儿】基建赋能、产业共进、人才共育 中非务实合作赢得非洲青年高度认同",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674012.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -46,8 +36,8 @@
       ]
     },
     {
-      "title": "一张球票撬动全城消费 赛事经济如何将“流量”变“增量”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673970.shtml",
+      "title": "外国游客购物清单上“新成员”增多 离境退税措施再优化推高入境消费热力",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674010.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,38 +46,8 @@
       ]
     },
     {
-      "title": "甘肃盐池湾国家级自然保护区：高原珍稀野生动物多样 黑颈鹤繁殖创新高",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-07/10673921.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海南“十五五”加快打造对外立体交通网",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673947.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《人间先施》导演刘加铠：用AI写一封给家乡的“情书”",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-07/10673908.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "上半年中国广告业务收入逾万亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673906.shtml",
+      "title": "延伸链条，老区“长”出新产业",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674009.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -96,8 +56,18 @@
       ]
     },
     {
-      "title": "（友城故事）小足球牵动大“朋友圈”  福建与国际友城续写青春友谊",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673911.shtml",
+      "title": "【好评中国】烟火氤氲处，经济脉动时",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674002.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国-中亚国家摔跤精英赛西安启幕  十国“跤士”共筑体育交流桥",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-07/10673985.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -106,9 +76,19 @@
       ]
     },
     {
-      "title": "重磅！北京调整房地产政策",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E7%A3%85%EF%BC%81%E5%8C%97%E4%BA%AC%E8%B0%83%E6%95%B4%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%94%BF%E7%AD%96",
-      "source": "百度热搜",
+      "title": "2026年“一带一路”四国男篮俱乐部邀请赛在宁夏开赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-07/10673987.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年中央一号文件首提“农创客”，上海乡村如何吸粉年轻人？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673996.shtml",
+      "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
       "exams": [
@@ -116,30 +96,30 @@
       ]
     },
     {
-      "title": "福建泉州市委书记张毅恭被查",
-      "url": "https://www.baidu.com/s?wd=%E7%A6%8F%E5%BB%BA%E6%B3%89%E5%B7%9E%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E5%BC%A0%E6%AF%85%E6%81%AD%E8%A2%AB%E6%9F%A5",
-      "source": "百度热搜",
-      "cat": "hot",
+      "title": "欧洲足球劲旅来港献技 助力香港盛事经济",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-07/10673978.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "宇树科技中一签需缴款7.54万元",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%AD%E4%B8%80%E7%AD%BE%E9%9C%80%E7%BC%B4%E6%AC%BE7.54%E4%B8%87%E5%85%83",
-      "source": "百度热搜",
-      "cat": "tech",
+      "title": "财经老王丨“电影+”如何激发千亿级消费新活力？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673994.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "广东雷州通报特教老师招聘违规事件",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E9%9B%B7%E5%B7%9E%E9%80%9A%E6%8A%A5%E7%89%B9%E6%95%99%E8%80%81%E5%B8%88%E6%8B%9B%E8%81%98%E8%BF%9D%E8%A7%84%E4%BA%8B%E4%BB%B6",
-      "source": "百度热搜",
-      "cat": "hot",
+      "title": "国家防总、应急管理部组织多部门联合会商  调度部署台风“白海豚”防范应对工作  国家防总提升防汛防台风应急响应至三级",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673995.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -156,8 +136,18 @@
       ]
     },
     {
-      "title": "国家防总将针对浙江、福建的防汛防台风应急响应提升至三级",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673972.shtml",
+      "title": "重庆通报工程建设项目招投标典型案件",
+      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E9%80%9A%E6%8A%A5%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E6%8B%9B%E6%8A%95%E6%A0%87%E5%85%B8%E5%9E%8B%E6%A1%88%E4%BB%B6",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "我们的家园｜萨迦县宗果社区灾后重建纪实：重建的是家园 温暖的是人心",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10674014.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +156,8 @@
       ]
     },
     {
-      "title": "安徽10市启动洪水防御四级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673968.shtml",
+      "title": "外媒观察丨海外青年追捧中式生活方式 世界看见鲜活立体的中国",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10674013.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +166,8 @@
       ]
     },
     {
-      "title": "广西发现两栖动物新物种大明山纤树蛙",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673966.shtml",
+      "title": "“期待从中国的发展实践中汲取经验和智慧”——访南非电力和能源部部长拉莫豪帕",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674011.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +176,8 @@
       ]
     },
     {
-      "title": "四大篇章25项特色内容 青海高原藏乡民众乐享民俗",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673965.shtml",
+      "title": "北京出台楼市新政 惠及非京籍家庭",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674007.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +186,8 @@
       ]
     },
     {
-      "title": "（长江十年行）重庆滨江“智”理：数字落江岸，治理见温度",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673962.shtml",
+      "title": "韩国极端高温持续 首尔气温8年来首次突破40摄氏度",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10674006.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +196,8 @@
       ]
     },
     {
-      "title": "总结问题、做好自己 中国男篮将迎热身赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-07/10673959.shtml",
+      "title": "活力中国调研行丨智能“好房子”什么样？看安徽科创成果如何落地",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10674008.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +206,8 @@
       ]
     },
     {
-      "title": "沙特、土耳其、巴基斯坦签署共同防务协议",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10673950.shtml",
+      "title": "上半年接待境外游客超531万人次 三个场景看上海入境游新变化",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10674005.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +216,8 @@
       ]
     },
     {
-      "title": "寒武纪：上半年归母净利润同比增长122.61%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673954.shtml",
+      "title": "人民论坛网评 | “文化列车”：从“送文化”到“种文化”",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-07/10674003.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +226,18 @@
       ]
     },
     {
-      "title": "第十二届两岸智库学术论坛聚焦“时代变局与两岸关系未来”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673958.shtml",
+      "title": "两岸彝绣创意作品亮相云南南华 针线连心共绣未来",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-07/10673990.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "朱卫东：统一是现在进行时 加速“台独”就是加速统一",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673989.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
