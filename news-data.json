@@ -1,10 +1,30 @@
 {
   "date": "2026-08-07",
-  "time": "19:59",
-  "generatedAt": "2026-08-07T19:59:54.372Z",
+  "time": "22:09",
+  "generatedAt": "2026-08-07T22:09:47.023Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "欧亚经济联盟政府间理事会会议举行 聚焦电子商务等议题",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674022.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国7月非农就业减少2.3万",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674020.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "最新外贸数据公布 四个关键词解读中国经济韧性",
       "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674004.shtml",
@@ -16,11 +36,21 @@
       ]
     },
     {
-      "title": "（活力中国调研行）从氢能产业到半导体芯片 安徽六安向“新”而行",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673975.shtml",
+      "title": "美国上诉法院维持对白宫宴会厅改造项目的暂停令",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674025.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "秘鲁与墨西哥恢复外交关系",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674018.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -76,60 +106,20 @@
       ]
     },
     {
-      "title": "2026年“一带一路”四国男篮俱乐部邀请赛在宁夏开赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-07/10673987.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年中央一号文件首提“农创客”，上海乡村如何吸粉年轻人？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10673996.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "欧洲足球劲旅来港献技 助力香港盛事经济",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-07/10673978.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "财经老王丨“电影+”如何激发千亿级消费新活力？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10673994.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家防总、应急管理部组织多部门联合会商  调度部署台风“白海豚”防范应对工作  国家防总提升防汛防台风应急响应至三级",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10673995.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "全球首个长时储能一体化产业园量产",
       "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E9%95%BF%E6%97%B6%E5%82%A8%E8%83%BD%E4%B8%80%E4%BD%93%E5%8C%96%E4%BA%A7%E4%B8%9A%E5%9B%AD%E9%87%8F%E4%BA%A7",
       "source": "百度热搜",
       "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "秘鲁和墨西哥宣布恢复外交关系",
+      "url": "https://www.baidu.com/s?wd=%E7%A7%98%E9%B2%81%E5%92%8C%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%AE%A3%E5%B8%83%E6%81%A2%E5%A4%8D%E5%A4%96%E4%BA%A4%E5%85%B3%E7%B3%BB",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -146,11 +136,61 @@
       ]
     },
     {
-      "title": "秘鲁和墨西哥宣布恢复外交关系",
-      "url": "https://www.baidu.com/s?wd=%E7%A7%98%E9%B2%81%E5%92%8C%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%AE%A3%E5%B8%83%E6%81%A2%E5%A4%8D%E5%A4%96%E4%BA%A4%E5%85%B3%E7%B3%BB",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "台风“白海豚”逼近 上海洋山港所有船舶已安全转移",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674027.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港宏福苑火灾跨部门调查最终报告：大火或由烟头引起",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674026.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "法国今年第二季度失业率升至8.3%",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674024.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "德国6月出口额同比增长6.6%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674023.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "印尼华裔总会新一届理监事就职",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-08/10674021.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国游客在泰国景区坠崖致一死一伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674019.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -198,46 +238,6 @@
     {
       "title": "韩国极端高温持续 首尔气温8年来首次突破40摄氏度",
       "url": "https://www.chinanews.com.cn/gj/2026/08-07/10674006.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "活力中国调研行丨智能“好房子”什么样？看安徽科创成果如何落地",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10674008.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "上半年接待境外游客超531万人次 三个场景看上海入境游新变化",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10674005.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "人民论坛网评 | “文化列车”：从“送文化”到“种文化”",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-07/10674003.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "两岸彝绣创意作品亮相云南南华 针线连心共绣未来",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-07/10673990.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
