@@ -1,133 +1,73 @@
 {
   "date": "2026-08-08",
-  "time": "00:00",
-  "generatedAt": "2026-08-08T00:00:12.808Z",
+  "time": "04:32",
+  "generatedAt": "2026-08-08T04:32:41.198Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "欧亚经济联盟政府间理事会会议举行 聚焦电子商务等议题",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674022.shtml",
+      "title": "新兴产业新设企业40万户 上半年全国经营主体发展数据发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674147.shtml",
       "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国AI开始攻击真人了",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BDAI%E5%BC%80%E5%A7%8B%E6%94%BB%E5%87%BB%E7%9C%9F%E4%BA%BA%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新思想引领新征程丨服务消费扩容升级 激发内需新活力",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674138.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国前州议员：中国持续在国际事务中发挥引领作用",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674116.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "19.9元门票引爆76亿消费",
+      "url": "https://www.baidu.com/s?wd=19.9%E5%85%83%E9%97%A8%E7%A5%A8%E5%BC%95%E7%88%8676%E4%BA%BF%E6%B6%88%E8%B4%B9",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "公务员医生休假了 窗口谁来值班",
+      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8A%A1%E5%91%98%E5%8C%BB%E7%94%9F%E4%BC%91%E5%81%87%E4%BA%86+%E7%AA%97%E5%8F%A3%E8%B0%81%E6%9D%A5%E5%80%BC%E7%8F%AD",
+      "source": "百度热搜",
       "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国7月非农就业减少2.3万",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674020.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
       "score": 1,
       "exams": [
-        "申论素材"
+        "国考"
       ]
     },
     {
-      "title": "45天暴瘦40斤后住进ICU AI减重暗藏哪些风险",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674034.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中期选举在即 美国两党“冗长辩论”规则之争再起波澜",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674032.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄黑客称获取北约直接参与袭击俄领土证据",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674031.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国上诉法院维持对白宫宴会厅改造项目的暂停令",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674025.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "秘鲁与墨西哥恢复外交关系",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674018.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【中国那些事儿】基建赋能、产业共进、人才共育 中非务实合作赢得非洲青年高度认同",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674012.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外国游客购物清单上“新成员”增多 离境退税措施再优化推高入境消费热力",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674010.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "延伸链条，老区“长”出新产业",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674009.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美股收盘：标普500指数再创新高",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E6%A0%87%E6%99%AE500%E6%8C%87%E6%95%B0%E5%86%8D%E5%88%9B%E6%96%B0%E9%AB%98",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "考生称遭第二名花钱劝退 当地再通报",
-      "url": "https://www.baidu.com/s?wd=%E8%80%83%E7%94%9F%E7%A7%B0%E9%81%AD%E7%AC%AC%E4%BA%8C%E5%90%8D%E8%8A%B1%E9%92%B1%E5%8A%9D%E9%80%80+%E5%BD%93%E5%9C%B0%E5%86%8D%E9%80%9A%E6%8A%A5",
+      "title": "周末打虎 宋致远被查",
+      "url": "https://www.baidu.com/s?wd=%E5%91%A8%E6%9C%AB%E6%89%93%E8%99%8E+%E5%AE%8B%E8%87%B4%E8%BF%9C%E8%A2%AB%E6%9F%A5",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -136,28 +76,18 @@
       ]
     },
     {
-      "title": "全球首个长时储能一体化产业园量产",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E9%95%BF%E6%97%B6%E5%82%A8%E8%83%BD%E4%B8%80%E4%BD%93%E5%8C%96%E4%BA%A7%E4%B8%9A%E5%9B%AD%E9%87%8F%E4%BA%A7",
+      "title": "多所幼师院校开设养老专业",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%89%80%E5%B9%BC%E5%B8%88%E9%99%A2%E6%A0%A1%E5%BC%80%E8%AE%BE%E5%85%BB%E8%80%81%E4%B8%93%E4%B8%9A",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "国际猫咪日",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E7%8C%AB%E5%92%AA%E6%97%A5",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "德拉埃斯普列亚宣誓就任哥伦比亚总统",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674038.shtml",
+      "title": "2026年全民健身日暨广州市体育节开幕",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674112.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +96,8 @@
       ]
     },
     {
-      "title": "8月8日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-08/10674035.shtml",
+      "title": "十龄童查出重度脂肪肝 专家提醒：孩子肥胖防控抓住两个关键节点",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674145.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +106,8 @@
       ]
     },
     {
-      "title": "旅行体验越玩越深！“China Travel”持续升温",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674033.shtml",
+      "title": "00后首都民警段宇：藏蓝青春里的“生命种子”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674144.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +116,8 @@
       ]
     },
     {
-      "title": "全国首个！健康生活方式医学中心什么样？记者探访",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674030.shtml",
+      "title": "鄱阳湖水位持续下降 跌破14米",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674146.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +126,8 @@
       ]
     },
     {
-      "title": "美上诉法院叫停白宫宴会厅改造项目",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674029.shtml",
+      "title": "洗牙出血、牙缝变大、牙齿松动？ 那是你的口腔在“求救”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674143.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +136,8 @@
       ]
     },
     {
-      "title": "景区门票“一秒没”？背后可能是不法分子在作祟",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674028.shtml",
+      "title": "夏天血糖不降反升？做好四件日常小事帮你稳住血糖",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674142.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +146,8 @@
       ]
     },
     {
-      "title": "台风“白海豚”逼近 上海洋山港所有船舶已安全转移",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674027.shtml",
+      "title": "它是老年人最常见的受伤原因 手把手教你有效预防",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674141.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +156,8 @@
       ]
     },
     {
-      "title": "香港宏福苑火灾跨部门调查最终报告：大火或由烟头引起",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674026.shtml",
+      "title": "学习进行时丨人民的健康、体质、幸福一脉相承",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674137.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +166,78 @@
       ]
     },
     {
-      "title": "法国今年第二季度失业率升至8.3%",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674024.shtml",
+      "title": "时政微观察丨从40%的新目标看全民健身事业高质量发展",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674136.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国铁南昌局启动四级应急响应 全力应对台风“白海豚”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674125.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "每天 15 分钟就能抗衰、延寿，这个最日常的运动一直被人忽略",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674123.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗媒体公布“被击落的美以战机残骸照片”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674124.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "列车车厢体感温度不适时 空调温度能自己调吗？",
+      "url": "https://www.chinanews.com.cn/life/2026/08-08/10674122.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西三江侗乡立秋田园美",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674110.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "陕西柞水泥石流已致2人死亡 仍有1人失联",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674121.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "景德镇瓷走向世界的澳门见证——访港澳首位故宫太和学者、澳门文物专家赵强",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674120.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
