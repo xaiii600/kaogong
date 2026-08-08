@@ -1,15 +1,15 @@
 {
   "date": "2026-08-08",
-  "time": "04:32",
-  "generatedAt": "2026-08-08T04:32:41.198Z",
+  "time": "08:00",
+  "generatedAt": "2026-08-08T08:00:07.751Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "新兴产业新设企业40万户 上半年全国经营主体发展数据发布",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674147.shtml",
+      "title": "国际青年广州南沙感受大湾区前沿科技与岭南文化",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674216.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "international",
       "score": 2,
       "exams": [
         "申论素材"
@@ -26,8 +26,8 @@
       ]
     },
     {
-      "title": "新思想引领新征程丨服务消费扩容升级 激发内需新活力",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674138.shtml",
+      "title": "总书记的人民情怀｜“让内需成为经济发展的主动力”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674242.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,8 +36,38 @@
       ]
     },
     {
-      "title": "美国前州议员：中国持续在国际事务中发挥引领作用",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674116.shtml",
+      "title": "粤菜产业文化嘉年华在广东河源启幕",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674226.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广州南沙升级港澳青创政策 打造湾区青年发展高地",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674214.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "GT世界挑战赛早鸟票开售 快闪店亮相北京体育消费季",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674211.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国阿拉斯加州发生5.2级地震 震源深度10千米",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674202.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -46,10 +76,40 @@
       ]
     },
     {
-      "title": "19.9元门票引爆76亿消费",
-      "url": "https://www.baidu.com/s?wd=19.9%E5%85%83%E9%97%A8%E7%A5%A8%E5%BC%95%E7%88%8676%E4%BA%BF%E6%B6%88%E8%B4%B9",
-      "source": "百度热搜",
+      "title": "晶采观察丨从“看海”到“玩海”新业态撬动海洋旅游消费新蓝海",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674201.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“人工智能+”，解锁更多新可能",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674199.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "金观平：以系统思维强化科技攻关能力",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-08/10674198.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "戚薇谈把脸交给AI",
+      "url": "https://www.baidu.com/s?wd=%E6%88%9A%E8%96%87%E8%B0%88%E6%8A%8A%E8%84%B8%E4%BA%A4%E7%BB%99AI",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,170 +136,110 @@
       ]
     },
     {
-      "title": "多所幼师院校开设养老专业",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%89%80%E5%B9%BC%E5%B8%88%E9%99%A2%E6%A0%A1%E5%BC%80%E8%AE%BE%E5%85%BB%E8%80%81%E4%B8%93%E4%B8%9A",
-      "source": "百度热搜",
+      "title": "健身的你 健康的你",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674241.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "学习新语｜乐享全民健身 共筑健康中国",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674240.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国驻泰使馆提醒：遵守当地法律法规 文明有序参加文体活动",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-08/10674189.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆：大熊猫坐摇篮悠闲度夏",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-08/1200493.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "黎巴嫩总统称黎以谈判在边界问题等方面取得“积极进展”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674205.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "人民领袖｜登山道上的办公会",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674239.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西区运会暨残特奥会文化标识“全家福”首次线下亮相",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674215.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“白海豚”逼近 浙江田间上演抢收“竞速赛”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674217.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第16届全国残疾人健身周启动活动启幕 港澳代表首次参加",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674218.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "陕西省群众体育五级联赛榆林赛区启动 塞上驼城涌动健身热潮",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674219.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“智能体为人服务社会实验”杭州项目正式启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674220.shtml",
+      "source": "中国新闻网",
       "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年全民健身日暨广州市体育节开幕",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674112.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "十龄童查出重度脂肪肝 专家提醒：孩子肥胖防控抓住两个关键节点",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674145.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "00后首都民警段宇：藏蓝青春里的“生命种子”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674144.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "鄱阳湖水位持续下降 跌破14米",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674146.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "洗牙出血、牙缝变大、牙齿松动？ 那是你的口腔在“求救”",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674143.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "夏天血糖不降反升？做好四件日常小事帮你稳住血糖",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674142.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "它是老年人最常见的受伤原因 手把手教你有效预防",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674141.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "学习进行时丨人民的健康、体质、幸福一脉相承",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674137.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "时政微观察丨从40%的新目标看全民健身事业高质量发展",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674136.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国铁南昌局启动四级应急响应 全力应对台风“白海豚”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674125.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "每天 15 分钟就能抗衰、延寿，这个最日常的运动一直被人忽略",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674123.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗媒体公布“被击落的美以战机残骸照片”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674124.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "列车车厢体感温度不适时 空调温度能自己调吗？",
-      "url": "https://www.chinanews.com.cn/life/2026/08-08/10674122.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西三江侗乡立秋田园美",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674110.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "陕西柞水泥石流已致2人死亡 仍有1人失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674121.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "景德镇瓷走向世界的澳门见证——访港澳首位故宫太和学者、澳门文物专家赵强",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674120.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
       "score": 0,
       "exams": [
         "申论素材"
