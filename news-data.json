@@ -1,83 +1,13 @@
 {
   "date": "2026-08-08",
-  "time": "21:51",
-  "generatedAt": "2026-08-08T21:51:44.965Z",
+  "time": "23:49",
+  "generatedAt": "2026-08-08T23:49:43.767Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "肯尼亚学者：中非贸易创新高为非洲经济发展创造新机遇",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674430.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "泰国成立医疗团队为受校园枪击案影响者提供心理健康治疗",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674445.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "综述｜中国人工智能模型在澳受关注",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674438.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日本在南鸟岛部署反舰导弹 暴露怎样“再军事化”野心？",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674433.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全球媒体聚焦 | 外媒：外贸强劲增长凸显中国经济韧性",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674432.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全球媒体聚焦︱美媒：多场景低成本应用 中国让AI变得更具实用价值",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674431.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "三七产业人士齐聚云南 共商高质量发展路径",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674420.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多家上市公司宣布收到美国关税退税",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674425.shtml",
+      "title": "美副总统称美伊冲突仍处于“博弈中段”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674472.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -86,18 +16,18 @@
       ]
     },
     {
-      "title": "抢占制高点 上海培育未来产业新模式",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674424.shtml",
+      "title": "全球首座、重大升级！我国基建、科技领域创新成果“上新”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674461.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "50年老厂绿色蝶变 看传统高耗能行业如何走出低碳新路",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674422.shtml",
+      "title": "泰国成立医疗团队为受校园枪击案影响者提供心理健康治疗",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674445.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -116,6 +46,186 @@
       ]
     },
     {
+      "title": "超八成睫毛胶样品检出致癌物，部分成分接近502胶！",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674473.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "未来五年 地质灾害防范会有哪些变化？",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674471.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "大量出汗后千万别猛灌白水！这些症状提示你可能不是中暑",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-09/10674470.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "克罗地亚两列火车相撞致20人受伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674469.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "河南发布农田渍涝灾害风险预警",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674468.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国战队KSG获2026电竞世俱杯王者荣耀项目冠军",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-09/10674467.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月9日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-09/10674466.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本岩手县近海地区发生5.6级地震",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674465.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "我国渤海首个千亿方大气田Ⅰ期开发项目全面投产",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674464.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "超16种改型！回顾轰-6家族的迭代蜕变之路",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674463.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一周大涨超7% 金价为何突然上涨？背后两大推手→",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674462.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泰国校园枪击案死亡人数升至9人",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674460.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "老挝国会主席赛宋蓬病逝",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674459.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美参议院通过临时拨款法案 暂缓政府“停摆”风险",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674458.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从规划到落实：中国发展经验引发南非各界思考",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674457.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宁夏第十七届运动会暨第十届民族传统体育运动会开幕",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674456.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“白海豚”增强 菲律宾多地发布强降雨警报",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674455.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "穗台港澳青年电竞交流湾区行活动在广州启动",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674454.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "200余名香港青少年在北京完成深度创科实践训练",
       "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674453.shtml",
       "source": "中国新闻网",
@@ -128,116 +238,6 @@
     {
       "title": "2026年“文化中国·水立方杯”中文歌曲大赛颁奖晚会举行",
       "url": "https://www.chinanews.com.cn/hr/2026/08-08/10674448.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "丁俊晖：输赢之外的二十年",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674447.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“白海豚”致福建逾9万人撤离转移",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674444.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国原子级制造：5分钟内可生成上千种全新人工分子物种",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674443.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "购飞机票7分钟后退票被扣2022元？航空公司回应，律师解读",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674446.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中越青少年广西东兴切磋拳技",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-08/10674442.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第十七届北京奥运城市体育文化节开幕 推出二十余项活动",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674440.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“中文+”助力尼泊尔培养复合型人才",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674439.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "单舰单艇敢打航母？从《制胜》看解放军强大侦察能力",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674436.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“新疆的交警怎么个个像我妈！”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674437.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“零关税”百日见证中非合作新气象",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674435.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全球瞭望｜卢旺达媒体：高效的中国制造业让全球受益",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674434.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
