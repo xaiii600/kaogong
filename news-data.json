@@ -1,7 +1,7 @@
 {
   "date": "2026-08-08",
-  "time": "15:52",
-  "generatedAt": "2026-08-08T15:52:46.617Z",
+  "time": "17:55",
+  "generatedAt": "2026-08-08T17:55:12.259Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -110,16 +110,6 @@
       "url": "https://www.baidu.com/s?wd=%E5%87%A0%E5%85%83%E6%88%90%E6%9C%AC%E7%9A%84AI%E5%B9%BF%E5%91%8A%E5%AF%BC%E8%87%B4%E5%8D%83%E4%B8%87%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91",
       "source": "百度热搜",
       "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄罗斯女子错过航班闯停机坪拦飞机",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%B3%E5%AD%90%E9%94%99%E8%BF%87%E8%88%AA%E7%8F%AD%E9%97%AF%E5%81%9C%E6%9C%BA%E5%9D%AA%E6%8B%A6%E9%A3%9E%E6%9C%BA",
-      "source": "百度热搜",
-      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -238,6 +228,16 @@
     {
       "title": "“零关税”百日见证中非合作新气象",
       "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674435.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全球瞭望｜卢旺达媒体：高效的中国制造业让全球受益",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674434.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
