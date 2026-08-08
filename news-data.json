@@ -1,7 +1,7 @@
 {
   "date": "2026-08-08",
-  "time": "14:17",
-  "generatedAt": "2026-08-08T14:17:55.084Z",
+  "time": "15:52",
+  "generatedAt": "2026-08-08T15:52:46.617Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -11,6 +11,16 @@
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泰国成立医疗团队为受校园枪击案影响者提供心理健康治疗",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674445.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -96,36 +106,6 @@
       ]
     },
     {
-      "title": "新疆喀什—胡占德国际客运航线加密",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674415.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄罗斯沃洛格达州非物质文化遗产交流展在陕西开展",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674405.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "雪佛兰退出中国市场 售后怎么办",
-      "url": "https://www.baidu.com/s?wd=%E9%9B%AA%E4%BD%9B%E5%85%B0%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA+%E5%94%AE%E5%90%8E%E6%80%8E%E4%B9%88%E5%8A%9E",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "几元成本的AI广告导致千万市值蒸发",
       "url": "https://www.baidu.com/s?wd=%E5%87%A0%E5%85%83%E6%88%90%E6%9C%AC%E7%9A%84AI%E5%B9%BF%E5%91%8A%E5%AF%BC%E8%87%B4%E5%8D%83%E4%B8%87%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91",
       "source": "百度热搜",
@@ -146,21 +126,71 @@
       ]
     },
     {
-      "title": "宇树科技批量造富",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%89%B9%E9%87%8F%E9%80%A0%E5%AF%8C",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "200余名香港青少年在北京完成深度创科实践训练",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674453.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "苹果AI",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9CAI",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "2026年“文化中国·水立方杯”中文歌曲大赛颁奖晚会举行",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-08/10674448.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "丁俊晖：输赢之外的二十年",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674447.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“白海豚”致福建逾9万人撤离转移",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674444.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国原子级制造：5分钟内可生成上千种全新人工分子物种",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674443.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "购飞机票7分钟后退票被扣2022元？航空公司回应，律师解读",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674446.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中越青少年广西东兴切磋拳技",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-08/10674442.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -208,36 +238,6 @@
     {
       "title": "“零关税”百日见证中非合作新气象",
       "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674435.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全球瞭望｜卢旺达媒体：高效的中国制造业让全球受益",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674434.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中美青少年新疆“以球会友” 共话“飞虎情”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674427.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "港中大2006级内地校友返校 重温同窗情谊共话桥梁作用",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674423.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
