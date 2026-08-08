@@ -1,23 +1,23 @@
 {
   "date": "2026-08-08",
-  "time": "11:49",
-  "generatedAt": "2026-08-08T11:49:19.146Z",
+  "time": "14:17",
+  "generatedAt": "2026-08-08T14:17:55.084Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美国AI频频翻车，智能体自主攻击隐患浮上水面",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674341.shtml",
+      "title": "肯尼亚学者：中非贸易创新高为非洲经济发展创造新机遇",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674430.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "台商李佳玲：用科技与情怀浇灌出一座“蔬菜王国”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674314.shtml",
+      "title": "综述｜中国人工智能模型在澳受关注",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674438.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,28 +26,18 @@
       ]
     },
     {
-      "title": "浙江杭州：2026年全国青少年航天创新大赛总决赛开赛",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674332.shtml",
+      "title": "日本在南鸟岛部署反舰导弹 暴露怎样“再军事化”野心？",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674433.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "“中国的发展与世界：现代化、转型与全球启示”国际研讨会在吉隆坡举行",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674307.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广州奏响森林花海音乐会 延伸生态康养文旅产业链",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674305.shtml",
+      "title": "全球媒体聚焦 | 外媒：外贸强劲增长凸显中国经济韧性",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674432.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,10 +46,70 @@
       ]
     },
     {
-      "title": "苹果AI",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9CAI",
-      "source": "百度热搜",
+      "title": "全球媒体聚焦︱美媒：多场景低成本应用 中国让AI变得更具实用价值",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674431.shtml",
+      "source": "中国新闻网",
       "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "三七产业人士齐聚云南 共商高质量发展路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674420.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "多家上市公司宣布收到美国关税退税",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674425.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "抢占制高点 上海培育未来产业新模式",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674424.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "50年老厂绿色蝶变 看传统高耗能行业如何走出低碳新路",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674422.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新疆喀什—胡占德国际客运航线加密",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674415.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄罗斯沃洛格达州非物质文化遗产交流展在陕西开展",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674405.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -70,16 +120,6 @@
       "url": "https://www.baidu.com/s?wd=%E9%9B%AA%E4%BD%9B%E5%85%B0%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA+%E5%94%AE%E5%90%8E%E6%80%8E%E4%B9%88%E5%8A%9E",
       "source": "百度热搜",
       "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技批量造富",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%89%B9%E9%87%8F%E9%80%A0%E5%AF%8C",
-      "source": "百度热搜",
-      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,8 +146,28 @@
       ]
     },
     {
-      "title": "2026年“同心杯” 粤港澳台青年足球篮球邀请赛在清远启幕",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674313.shtml",
+      "title": "宇树科技批量造富",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%89%B9%E9%87%8F%E9%80%A0%E5%AF%8C",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "苹果AI",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9CAI",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第十七届北京奥运城市体育文化节开幕 推出二十余项活动",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-08/10674440.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +176,8 @@
       ]
     },
     {
-      "title": "天津全民健身日：青春起舞燃动盛夏 青年踊跃参与广场舞运动",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674364.shtml",
+      "title": "“中文+”助力尼泊尔培养复合型人才",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674439.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +186,8 @@
       ]
     },
     {
-      "title": "受台风“白海豚”影响 福建武夷山多个景区关停印象大红袍停演",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674312.shtml",
+      "title": "单舰单艇敢打航母？从《制胜》看解放军强大侦察能力",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-08/10674436.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +196,8 @@
       ]
     },
     {
-      "title": "第三届西藏八宿文化旅游节启幕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674311.shtml",
+      "title": "“新疆的交警怎么个个像我妈！”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674437.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +206,8 @@
       ]
     },
     {
-      "title": "浙江“西泠网拍”上线 搭建艺术品流通新通道",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-08/10674309.shtml",
+      "title": "“零关税”百日见证中非合作新气象",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674435.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +216,8 @@
       ]
     },
     {
-      "title": "台风、暴雨、强对流等五预警齐发！沿海部分地区将有特大暴雨",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674340.shtml",
+      "title": "全球瞭望｜卢旺达媒体：高效的中国制造业让全球受益",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674434.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +226,8 @@
       ]
     },
     {
-      "title": "伊朗媒体发布伊朗最高领袖视频",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674338.shtml",
+      "title": "中美青少年新疆“以球会友” 共话“飞虎情”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674427.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,68 +236,8 @@
       ]
     },
     {
-      "title": "2026世界斯诺克中国公开赛太原开杆",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674329.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗：同阿曼的谈判与霍尔木兹海峡能否重开无关",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674337.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "贵州省黔南布依族苗族自治州成立70周年民族团结大巡游举行",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-08/10674331.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年度电影总票房突破240亿！中外佳片点亮夏日银幕",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-08/10674336.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多个明星演唱会紧急取消",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674335.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "应急管理部针对安徽启动国家地质灾害四级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674334.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "福建连城培田古村：800年历史的客家庄园",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-08/1200519.shtml",
+      "title": "港中大2006级内地校友返校 重温同窗情谊共话桥梁作用",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674423.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
