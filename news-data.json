@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-07",
-  "time": "22:09",
-  "generatedAt": "2026-08-07T22:09:47.023Z",
+  "date": "2026-08-08",
+  "time": "00:00",
+  "generatedAt": "2026-08-08T00:00:12.808Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -26,11 +26,41 @@
       ]
     },
     {
-      "title": "最新外贸数据公布 四个关键词解读中国经济韧性",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674004.shtml",
+      "title": "巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "45天暴瘦40斤后住进ICU AI减重暗藏哪些风险",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674034.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中期选举在即 美国两党“冗长辩论”规则之争再起波澜",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674032.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄黑客称获取北约直接参与袭击俄领土证据",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674031.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -86,20 +116,20 @@
       ]
     },
     {
-      "title": "【好评中国】烟火氤氲处，经济脉动时",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674002.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
+      "title": "美股收盘：标普500指数再创新高",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E6%A0%87%E6%99%AE500%E6%8C%87%E6%95%B0%E5%86%8D%E5%88%9B%E6%96%B0%E9%AB%98",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国-中亚国家摔跤精英赛西安启幕  十国“跤士”共筑体育交流桥",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-07/10673985.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
+      "title": "考生称遭第二名花钱劝退 当地再通报",
+      "url": "https://www.baidu.com/s?wd=%E8%80%83%E7%94%9F%E7%A7%B0%E9%81%AD%E7%AC%AC%E4%BA%8C%E5%90%8D%E8%8A%B1%E9%92%B1%E5%8A%9D%E9%80%80+%E5%BD%93%E5%9C%B0%E5%86%8D%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,8 +146,8 @@
       ]
     },
     {
-      "title": "秘鲁和墨西哥宣布恢复外交关系",
-      "url": "https://www.baidu.com/s?wd=%E7%A7%98%E9%B2%81%E5%92%8C%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%AE%A3%E5%B8%83%E6%81%A2%E5%A4%8D%E5%A4%96%E4%BA%A4%E5%85%B3%E7%B3%BB",
+      "title": "国际猫咪日",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E7%8C%AB%E5%92%AA%E6%97%A5",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -126,11 +156,61 @@
       ]
     },
     {
-      "title": "重庆通报工程建设项目招投标典型案件",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E9%80%9A%E6%8A%A5%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E6%8B%9B%E6%8A%95%E6%A0%87%E5%85%B8%E5%9E%8B%E6%A1%88%E4%BB%B6",
-      "source": "百度热搜",
+      "title": "德拉埃斯普列亚宣誓就任哥伦比亚总统",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674038.shtml",
+      "source": "中国新闻网",
       "cat": "hot",
-      "score": 1,
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月8日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-08/10674035.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "旅行体验越玩越深！“China Travel”持续升温",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674033.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国首个！健康生活方式医学中心什么样？记者探访",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-08/10674030.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美上诉法院叫停白宫宴会厅改造项目",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674029.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "景区门票“一秒没”？背后可能是不法分子在作祟",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-08/10674028.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -158,86 +238,6 @@
     {
       "title": "法国今年第二季度失业率升至8.3%",
       "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674024.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "德国6月出口额同比增长6.6%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-08/10674023.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "印尼华裔总会新一届理监事就职",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-08/10674021.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国游客在泰国景区坠崖致一死一伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674019.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我们的家园｜萨迦县宗果社区灾后重建纪实：重建的是家园 温暖的是人心",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-07/10674014.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外媒观察丨海外青年追捧中式生活方式 世界看见鲜活立体的中国",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-07/10674013.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“期待从中国的发展实践中汲取经验和智慧”——访南非电力和能源部部长拉莫豪帕",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674011.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "北京出台楼市新政 惠及非京籍家庭",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-07/10674007.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "韩国极端高温持续 首尔气温8年来首次突破40摄氏度",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-07/10674006.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
