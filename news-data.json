@@ -1,10 +1,40 @@
 {
   "date": "2026-08-09",
-  "time": "21:57",
-  "generatedAt": "2026-08-09T21:57:57.686Z",
+  "time": "23:58",
+  "generatedAt": "2026-08-09T23:58:57.286Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美国芝加哥市周末发生10起枪击事件 致4死多伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10674874.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国“陪伴经济”打开消费新空间",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10674872.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“校园贷”换上“新马甲” 警惕暑期网络消费陷阱",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10674868.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "晶采观察丨全民健身热持续升温 体育产业成经济活力新增长极",
       "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674859.shtml",
@@ -26,19 +56,9 @@
       ]
     },
     {
-      "title": "西藏贡觉：科技赋能特色畜种全链发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674852.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【好评中国】照亮“诗和远方” 高品质文旅“燃”动消费市场",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-09/10674849.shtml",
-      "source": "中国新闻网",
+      "title": "存款市场罕见两极分化",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%98%E6%AC%BE%E5%B8%82%E5%9C%BA%E7%BD%95%E8%A7%81%E4%B8%A4%E6%9E%81%E5%88%86%E5%8C%96",
+      "source": "百度热搜",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -46,48 +66,8 @@
       ]
     },
     {
-      "title": "农业农村领域紧抓整治形式主义为基层减负 为持续推动乡村全面振兴提供保障",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674847.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全球媒体聚焦 | 美媒：中国在AI竞赛中有独特优势",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674842.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄驻日大使：日本推翻“无核三原则”将招致邻国反制",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674841.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "OpenAI等美企被曝旗下AI模型“越界” 安全风险引担忧",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674838.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技上市后或冲刺1000亿估值",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E5%90%8E%E6%88%96%E5%86%B2%E5%88%BA1000%E4%BA%BF%E4%BC%B0%E5%80%BC",
+      "title": "宇树科技今起申购",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%BB%8A%E8%B5%B7%E7%94%B3%E8%B4%AD",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -106,8 +86,18 @@
       ]
     },
     {
-      "title": "泰国2026年上半年出口额同比增长17.6%",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674866.shtml",
+      "title": "欧菲光发布澄清公告",
+      "url": "https://www.baidu.com/s?wd=%E6%AC%A7%E8%8F%B2%E5%85%89%E5%8F%91%E5%B8%83%E6%BE%84%E6%B8%85%E5%85%AC%E5%91%8A",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "每天躺着玩手机超5小时 男子确诊血栓 这3个预警信号别忽视→",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-10/10674891.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +106,8 @@
       ]
     },
     {
-      "title": "消息称伊朗议会国家安全委员会批准霍尔木兹海峡安全纲要",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674865.shtml",
+      "title": "市民游客在北京798艺术区打卡“百花奖”",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-10/1200621.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +116,8 @@
       ]
     },
     {
-      "title": "台风“白海豚”登陆 警惕“三碰头”叠加风险",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674864.shtml",
+      "title": "台风“白海豚”强度逐渐减弱 浙皖等地局地有特大暴雨",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674885.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +126,8 @@
       ]
     },
     {
-      "title": "多点位直击台风“白海豚”登陆：树木被吹倒 雨水淹没车辆轮胎",
-      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-09/news1064837.shtml",
+      "title": "令人“心动”的offer，大学生扎堆当景区NPC！",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674886.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +136,8 @@
       ]
     },
     {
-      "title": "中超第22轮：国安大胜新鹏城 蓉城不敌玉昆",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674862.shtml",
+      "title": "斯诺克中国公开赛：墨菲连得607分创纪录 奥沙利文逆转晋级",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-10/10674881.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +146,8 @@
       ]
     },
     {
-      "title": "“少年中国说”华裔新生代使者选拔赛研学营走进江门",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-09/10674861.shtml",
+      "title": "美要“换牌” 伊朗“换将” 美伊博弈变数犹存",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10674880.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +156,8 @@
       ]
     },
     {
-      "title": "高水平对决！300余名轮滑高手齐聚海宁",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674860.shtml",
+      "title": "伊朗任命雷扎伊为最高国家安全委员会秘书",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10674878.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +166,8 @@
       ]
     },
     {
-      "title": "2026斯巴达儿童世锦赛收官 300余名小勇士参赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674857.shtml",
+      "title": "以媒：以总理曾同意从加沙部分地区撤军 但又改变决定",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10674877.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +176,8 @@
       ]
     },
     {
-      "title": "中国GPU龙头企业摩尔线程上半年营收同比增逾147％",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674855.shtml",
+      "title": "8月10日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-10/10674876.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +186,8 @@
       ]
     },
     {
-      "title": "开路的人，最先看到日出——解读“时代楷模”王戟的使命担当",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674856.shtml",
+      "title": "医保个人账户里的钱如何用在刀刃上？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10674875.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +196,8 @@
       ]
     },
     {
-      "title": "台风“白海豚”登陆 各地各部门全力应对",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674854.shtml",
+      "title": "手机APP广告“乱跳转”咋就成了“数字牛皮癣”？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10674873.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +206,8 @@
       ]
     },
     {
-      "title": "焦点访谈｜新场地、新设备、新模式 全民健身融入群众日常生活",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674853.shtml",
+      "title": "印尼一赛车比赛发生事故致7亡9重伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10674871.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +216,8 @@
       ]
     },
     {
-      "title": "日本有识之士：32名中国劳工本不该命丧长崎",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674851.shtml",
+      "title": "特朗普称正在“低调处理”伊朗问题",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10674870.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +226,18 @@
       ]
     },
     {
-      "title": "【好评中国】“烟火气”舞台沸腾文化活力",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-09/10674850.shtml",
+      "title": "三伏天运动，试试“超慢跑”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-10/10674869.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "选购牛肉，这几点要注意",
+      "url": "https://www.chinanews.com.cn/life/2026/08-10/10674867.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
