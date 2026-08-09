@@ -1,63 +1,23 @@
 {
   "date": "2026-08-09",
-  "time": "11:51",
-  "generatedAt": "2026-08-09T11:51:10.239Z",
+  "time": "14:19",
+  "generatedAt": "2026-08-09T14:19:59.027Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "（长江十年行）湖北宜昌：新能源产业蓬勃崛起",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674778.shtml",
+      "title": "全球媒体聚焦 | 美媒：中国在AI竞赛中有独特优势",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674842.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "离境退税“2.0版”政策落地满月 广州入境消费持续升温",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674732.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【一线调研】轨道串起消费新活力",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674786.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "泰国拟提高职业教育比重至55%",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-09/10674764.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "前7月进口增速高于出口8个百分点，意味着什么",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674785.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "尼泊尔加德满都举行游行庆祝世界土著人民国际日",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-09/10674782.shtml",
+      "title": "俄驻日大使：日本推翻“无核三原则”将招致邻国反制",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674841.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -66,28 +26,18 @@
       ]
     },
     {
-      "title": "“粤”上新台阶丨“贸易第一大省” 在出口看不见的“集装箱”？",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674784.shtml",
+      "title": "OpenAI等美企被曝旗下AI模型“越界” 安全风险引担忧",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674838.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "伊朗最高领袖与总统举行会谈，议题涉及民生、军事与能源",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674775.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国香港代表队首次在英国出战国际骑师团体赛识价杯",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674705.shtml",
+      "title": "哈马斯呼吁美国向内塔尼亚胡施压 促其遵守加沙和平计划路线图",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674826.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -96,8 +46,18 @@
       ]
     },
     {
-      "title": "首个全国产10万卡AI超集群投用",
-      "url": "https://www.baidu.com/s?wd=%E9%A6%96%E4%B8%AA%E5%85%A8%E5%9B%BD%E4%BA%A710%E4%B8%87%E5%8D%A1AI%E8%B6%85%E9%9B%86%E7%BE%A4%E6%8A%95%E7%94%A8",
+      "title": "浙江玉环“不可抗力灾害查询系统”筑起数字化“防风堤”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674812.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宇树科技上市后或冲刺1000亿估值",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E5%90%8E%E6%88%96%E5%86%B2%E5%88%BA1000%E4%BA%BF%E4%BC%B0%E5%80%BC",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -106,8 +66,8 @@
       ]
     },
     {
-      "title": "新疆图瓦人村落中的一场特殊“party”",
-      "url": "https://www.chinanews.com.cn/mz/2026/08-09/10674744.shtml",
+      "title": "直击浙江沿海防台：数智赋能 三门蛇蟠岛实现全天候设防",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674845.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +76,8 @@
       ]
     },
     {
-      "title": "香港录得142年以来最高气温 市民游客花式觅清凉",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674779.shtml",
+      "title": "情满天山 援疆印记⑲丨安徽支教生赢得桃李秀昆仑",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-09/10674844.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +86,8 @@
       ]
     },
     {
-      "title": "印尼知名景区布罗莫火山因山火全面关闭",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674763.shtml",
+      "title": "我们的家园｜从助力重建家园到治理乡村 萨迦县扎西岗乡的乡贤力量",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674843.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +96,8 @@
       ]
     },
     {
-      "title": "西藏昌都：现代技艺大赛启幕 以技兴业助振兴",
-      "url": "https://www.chinanews.com.cn/mz/2026/08-09/10674752.shtml",
+      "title": "广东省第十七届运动会在茂名开幕",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674840.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +106,8 @@
       ]
     },
     {
-      "title": "广西医科大学十四年探索边疆卓越医生培养新模式",
-      "url": "https://www.chinanews.com.cn/mz/2026/08-09/10674723.shtml",
+      "title": "香港学子安徽职场“初体验” 沉浸式感知内地科创机遇",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674839.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +116,8 @@
       ]
     },
     {
-      "title": "多方力量闻“风”而动严阵以待筑牢安全防线 全力保障人民群众生命财产安全",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674781.shtml",
+      "title": "爆款频出！国产动画工业链，正把“中国故事”做成全球生意",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-09/10674837.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +126,8 @@
       ]
     },
     {
-      "title": "香港录得气温36.9摄氏度 刷新1884年以来最高气温纪录",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-09/10674772.shtml",
+      "title": "全球媒体聚焦丨大白兔奶糖包装走红西方社交媒体",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674836.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +136,8 @@
       ]
     },
     {
-      "title": "内蒙古通辽：风电装备制造车间有序生产",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-09/10674773.shtml",
+      "title": "架起巴西和中国人民相知相亲的桥梁",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674835.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +146,8 @@
       ]
     },
     {
-      "title": "香港欧洲商务协会主席赫佑汉：多元气质成就香港独特魅力",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674776.shtml",
+      "title": "深山里的全球冠军：海外“Z世代”在贵州读懂中国机遇",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674834.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +156,8 @@
       ]
     },
     {
-      "title": "广东省运会暨省残运会开幕式主题歌《心念山海》发布",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674767.shtml",
+      "title": "台湾学生低成本游广东Vlog走红：镜头内外，交流升温",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674831.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +166,8 @@
       ]
     },
     {
-      "title": "穿林海、睡山坳、涮雪猪，中国森林旅行“野”火了",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674735.shtml",
+      "title": "直击台风“白海豚”登陆点浙江玉环：风雨交加 树木倒伏 当地救援力量已开始行动",
+      "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-09/news1064833.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +176,8 @@
       ]
     },
     {
-      "title": "长安大学科研团队发现稀散金属独立新矿物",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674734.shtml",
+      "title": "湖北启动防汛四级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674827.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +186,8 @@
       ]
     },
     {
-      "title": "（乡村行·看振兴）从守护银发晚年到点亮假期时光：社区“小事”温暖“大家”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674729.shtml",
+      "title": "一习话丨“全民健身计划就是国民幸福计划”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674829.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,10 +196,50 @@
       ]
     },
     {
-      "title": "香港警方瓦解一黑社会集团 涉嫌清洗非法资金超6亿港元",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674708.shtml",
+      "title": "总书记的人民情怀丨“努力提升粮食能源资源安全保障能力”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674828.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏拉萨：咖啡与藏文化碰撞交融",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-09/10674814.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“白海豚”先后在浙江玉环和乐清登陆",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674823.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国大飞机是如何“起飞”的",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674824.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（侨乡新貌）江门侨韵乡情化作文旅场景　成粤港澳大湾区休闲优选地",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-09/10674819.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
       "score": 0,
       "exams": [
         "申论素材"
