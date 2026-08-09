@@ -1,13 +1,23 @@
 {
-  "date": "2026-08-08",
-  "time": "23:49",
-  "generatedAt": "2026-08-08T23:49:43.767Z",
+  "date": "2026-08-09",
+  "time": "04:49",
+  "generatedAt": "2026-08-09T04:49:24.921Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美副总统称美伊冲突仍处于“博弈中段”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674472.shtml",
+      "title": "专家：前7月中国—东盟贸易保持较快增长  RCEP经贸活力持续释放",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-09/10674572.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "观林海、探非遗 中俄青少年结下“林都情”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674568.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -16,8 +26,8 @@
       ]
     },
     {
-      "title": "全球首座、重大升级！我国基建、科技领域创新成果“上新”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674461.shtml",
+      "title": "北京海淀发布“智谷中试港”规划 将建设AI全栈式中试平台集群",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674560.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,9 +36,39 @@
       ]
     },
     {
-      "title": "泰国成立医疗团队为受校园枪击案影响者提供心理健康治疗",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-08/10674445.shtml",
+      "title": "“白海豚”来袭 浙江台州以“最不利情形”部署防台工作",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674559.shtml",
       "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江跨境电商迎“智”变 AI成全链条搭档",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674515.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年国际篮联洲际杯冠军奖杯巡展启动",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674511.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "这种手机壳可能是医疗垃圾做的",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E7%A7%8D%E6%89%8B%E6%9C%BA%E5%A3%B3%E5%8F%AF%E8%83%BD%E6%98%AF%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE%E5%81%9A%E7%9A%84",
+      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -36,8 +76,8 @@
       ]
     },
     {
-      "title": "几元成本的AI广告导致千万市值蒸发",
-      "url": "https://www.baidu.com/s?wd=%E5%87%A0%E5%85%83%E6%88%90%E6%9C%AC%E7%9A%84AI%E5%B9%BF%E5%91%8A%E5%AF%BC%E8%87%B4%E5%8D%83%E4%B8%87%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91",
+      "title": "大爷听AI洒农药 150亩苗一夜枯萎",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E7%88%B7%E5%90%ACAI%E6%B4%92%E5%86%9C%E8%8D%AF+150%E4%BA%A9%E8%8B%97%E4%B8%80%E5%A4%9C%E6%9E%AF%E8%90%8E",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -46,8 +86,18 @@
       ]
     },
     {
-      "title": "超八成睫毛胶样品检出致癌物，部分成分接近502胶！",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674473.shtml",
+      "title": "越禁越买！美国人热衷来中国扫货",
+      "url": "https://www.baidu.com/s?wd=%E8%B6%8A%E7%A6%81%E8%B6%8A%E4%B9%B0%EF%BC%81%E7%BE%8E%E5%9B%BD%E4%BA%BA%E7%83%AD%E8%A1%B7%E6%9D%A5%E4%B8%AD%E5%9B%BD%E6%89%AB%E8%B4%A7",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "足尖逐梦 芭蕾绽放——2026辽宁（沈阳）芭蕾舞比赛启幕",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-09/10674593.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -56,8 +106,8 @@
       ]
     },
     {
-      "title": "未来五年 地质灾害防范会有哪些变化？",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674471.shtml",
+      "title": "这幅名画，为何确定是“文姬归汉”而不是“昭君出塞”？",
+      "url": "https://www.chinanews.com.cn/dxw/2026/08-09/10674595.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -66,8 +116,8 @@
       ]
     },
     {
-      "title": "大量出汗后千万别猛灌白水！这些症状提示你可能不是中暑",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-09/10674470.shtml",
+      "title": "2026年黑龙江省数字农业职工技能竞赛开赛",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674589.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -76,8 +126,8 @@
       ]
     },
     {
-      "title": "克罗地亚两列火车相撞致20人受伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674469.shtml",
+      "title": "长江海事局启动防台风三级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674574.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -86,8 +136,8 @@
       ]
     },
     {
-      "title": "河南发布农田渍涝灾害风险预警",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674468.shtml",
+      "title": "福建提升防台风应急响应至二级",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674573.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +146,8 @@
       ]
     },
     {
-      "title": "中国战队KSG获2026电竞世俱杯王者荣耀项目冠军",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-09/10674467.shtml",
+      "title": "特写：骑马点火炬，内蒙古十六运上的4分30秒",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674571.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +156,8 @@
       ]
     },
     {
-      "title": "8月9日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-09/10674466.shtml",
+      "title": "闽超福建南平队两名台胞球员完成个人首秀 球队客场逆转取胜",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674569.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +166,8 @@
       ]
     },
     {
-      "title": "日本岩手县近海地区发生5.6级地震",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674465.shtml",
+      "title": "智能农机加速“耕”新 2026佳木斯农机展销会启幕",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674562.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +176,8 @@
       ]
     },
     {
-      "title": "我国渤海首个千亿方大气田Ⅰ期开发项目全面投产",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674464.shtml",
+      "title": "2026上海乒乓球嘉年华收官  带动超12万人次报名参赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674558.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +186,8 @@
       ]
     },
     {
-      "title": "超16种改型！回顾轰-6家族的迭代蜕变之路",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-09/10674463.shtml",
+      "title": "四川宜宾高县5.5级地震后余震为何持续不断？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-09/10674557.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +196,8 @@
       ]
     },
     {
-      "title": "一周大涨超7% 金价为何突然上涨？背后两大推手→",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-09/10674462.shtml",
+      "title": "主客场革新赛事模式 安徽以城市绿茵赛场锻造青年足球生力军",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674555.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +206,8 @@
       ]
     },
     {
-      "title": "泰国校园枪击案死亡人数升至9人",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674460.shtml",
+      "title": "云南省第十七届运动会昆明开幕 智慧办赛创历届之最",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674554.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +216,8 @@
       ]
     },
     {
-      "title": "老挝国会主席赛宋蓬病逝",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674459.shtml",
+      "title": "广东省运会男足B组比赛结束 广州队战胜深圳队夺冠",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674552.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +226,8 @@
       ]
     },
     {
-      "title": "美参议院通过临时拨款法案 暂缓政府“停摆”风险",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674458.shtml",
+      "title": "2026中国田径街头巡回赛北京站举行 陈龙夺得男子跳高冠军",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674547.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,58 +236,8 @@
       ]
     },
     {
-      "title": "从规划到落实：中国发展经验引发南非各界思考",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674457.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏第十七届运动会暨第十届民族传统体育运动会开幕",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674456.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“白海豚”增强 菲律宾多地发布强降雨警报",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-09/10674455.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "穗台港澳青年电竞交流湾区行活动在广州启动",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-09/10674454.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "200余名香港青少年在北京完成深度创科实践训练",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-08/10674453.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年“文化中国·水立方杯”中文歌曲大赛颁奖晚会举行",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-08/10674448.shtml",
+      "title": "第十七届北京奥运城市体育文化节开幕",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-09/10674546.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
