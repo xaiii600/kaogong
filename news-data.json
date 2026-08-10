@@ -1,13 +1,13 @@
 {
   "date": "2026-08-10",
-  "time": "05:50",
-  "generatedAt": "2026-08-10T05:50:54.029Z",
+  "time": "10:45",
+  "generatedAt": "2026-08-10T10:45:31.039Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "民盟陕西宝鸡市委会召开“参政为公、实干为民”主题教育座谈会",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-10/10675128.shtml",
+      "title": "最新统计：台湾人口连续31个月下跌",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675291.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -16,48 +16,8 @@
       ]
     },
     {
-      "title": "台风过境暴雨来袭 交通运输部对重点地区开展调度",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675105.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“白海豚”影响中国长三角水陆空交通",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675098.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "百花奖AIGC推优单元获奖名单揭晓，即梦AI独家技术合作助力AI影像创作",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675097.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（财经天下）两大主导力量影响 世界经济增长“冷热不均”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675094.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄罗斯老板娘达尼亚：把俄罗斯味道“烤进”哈尔滨烟火里",
-      "url": "http://www.chinanews.com.cn/shipin/cns/2026/08-10/news1064890.shtml",
+      "title": "商务部就对原产于墨西哥和美国的进口碧根果反倾销调查初裁答记者问",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675294.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -66,8 +26,48 @@
       ]
     },
     {
-      "title": "从科技创新看开局起步的时与势",
-      "url": "https://www.baidu.com/s?wd=%E4%BB%8E%E7%A7%91%E6%8A%80%E5%88%9B%E6%96%B0%E7%9C%8B%E5%BC%80%E5%B1%80%E8%B5%B7%E6%AD%A5%E7%9A%84%E6%97%B6%E4%B8%8E%E5%8A%BF",
+      "title": "银川开通经广州至新加坡国际航线 搭建西北连通东南亚空中走廊",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675274.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "市场监管总局批准发布一批重要国家标准",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675271.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "商务部：初步认定原产于墨西哥和美国的进口碧根果存在倾销",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675278.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "APEC峰会倒计时100天",
+      "url": "https://www.baidu.com/s?wd=APEC%E5%B3%B0%E4%BC%9A%E5%80%92%E8%AE%A1%E6%97%B6100%E5%A4%A9",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "孙女用AI把奶奶P进《西游记》",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%99%E5%A5%B3%E7%94%A8AI%E6%8A%8A%E5%A5%B6%E5%A5%B6P%E8%BF%9B%E3%80%8A%E8%A5%BF%E6%B8%B8%E8%AE%B0%E3%80%8B",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -76,18 +76,8 @@
       ]
     },
     {
-      "title": "多地银行上调存款利率",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E9%93%B6%E8%A1%8C%E4%B8%8A%E8%B0%83%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中年吃够碳水的人更可能健康老去",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%B9%B4%E5%90%83%E5%A4%9F%E7%A2%B3%E6%B0%B4%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%8F%AF%E8%83%BD%E5%81%A5%E5%BA%B7%E8%80%81%E5%8E%BB",
+      "title": "医疗垃圾做手机壳 这也是谋财害命",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE%E5%81%9A%E6%89%8B%E6%9C%BA%E5%A3%B3+%E8%BF%99%E4%B9%9F%E6%98%AF%E8%B0%8B%E8%B4%A2%E5%AE%B3%E5%91%BD",
       "source": "百度热搜",
       "cat": "society",
       "score": 1,
@@ -96,28 +86,8 @@
       ]
     },
     {
-      "title": "广州一医美机构突然停业 消费者傻眼",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E5%B7%9E%E4%B8%80%E5%8C%BB%E7%BE%8E%E6%9C%BA%E6%9E%84%E7%AA%81%E7%84%B6%E5%81%9C%E4%B8%9A+%E6%B6%88%E8%B4%B9%E8%80%85%E5%82%BB%E7%9C%BC",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技预计中签率万分之二",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E9%A2%84%E8%AE%A1%E4%B8%AD%E7%AD%BE%E7%8E%87%E4%B8%87%E5%88%86%E4%B9%8B%E4%BA%8C",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "高市早苗就“无核三原则”含糊表态 引日本民众广泛担忧",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10675100.shtml",
+      "title": "黑龙江年度首趟电影主题列车开行 千里铁道线展现光影文化",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675290.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +96,8 @@
       ]
     },
     {
-      "title": "张家界天门山民俗“宠客” 舞狮竹竿舞硬气功轮番上演",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-10/10675112.shtml",
+      "title": "中法人士向重庆市档案馆捐赠日军侵华轰炸史料",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675268.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +106,8 @@
       ]
     },
     {
-      "title": "港澳学子探秘海南雨林：跟黎族阿姐当“大自然的学生”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675111.shtml",
+      "title": "自然资源部对冀辽鲁启动海洋灾害四级应急响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675300.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +116,8 @@
       ]
     },
     {
-      "title": "祁连山下的“锅气”炒热张掖暑期游",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675122.shtml",
+      "title": "两部门紧急预拨1.8亿元 支持浙江、内蒙古等7省（区）及新疆生产建设兵团做好自然灾害应急抢险救灾工作",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675298.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +126,8 @@
       ]
     },
     {
-      "title": "暑期跨境游热度飙升 拱北口岸迎来客流高峰",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675124.shtml",
+      "title": "中国一重集团原副总经理陆文俊一审获刑15年",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675292.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +136,8 @@
       ]
     },
     {
-      "title": "家在上海融在华阳 三十余载浇灌民族团结之花",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-10/10675121.shtml",
+      "title": "前7个月广西对东盟进出口创历史同期新高",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-10/10675293.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +146,8 @@
       ]
     },
     {
-      "title": "“科举制度在台湾——台湾进士专题展”走进安徽黄山",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-10/10675115.shtml",
+      "title": "应急管理部针对河北、河南、湖北启动国家地质灾害四级应急响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675287.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +156,8 @@
       ]
     },
     {
-      "title": "2026世界网球大师赛呼和浩特站收官",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-10/10675113.shtml",
+      "title": "广东持续高温酷热 全省最高气温超37℃",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675280.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +166,8 @@
       ]
     },
     {
-      "title": "水利部：黄河、太湖、滁河等河流可能发生编号洪水",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675120.shtml",
+      "title": "（长江十年行）湖北枝江三代“护绿人”的接力与坚守",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675283.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +176,8 @@
       ]
     },
     {
-      "title": "北京发布地质灾害气象风险橙色预警",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675096.shtml",
+      "title": "黄河岸边“守艺人”：将非遗故事讲给游客听",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675272.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +186,8 @@
       ]
     },
     {
-      "title": "受台风“白海豚”影响 重庆火车站临时停运列车14趟",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675110.shtml",
+      "title": "“三江源起·玉见北京”京玉文化交流周即将启幕",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675275.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +196,8 @@
       ]
     },
     {
-      "title": "北京发布暴雨橙色预警 拟于8月11日上午启动全市防汛二级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675109.shtml",
+      "title": "“不建议大家买深色蛋糕”上热搜！专家回应→",
+      "url": "https://www.chinanews.com.cn/life/2026/08-10/10675282.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +206,38 @@
       ]
     },
     {
-      "title": "受台风“白海豚”影响 安徽将迎强风雨天气",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675108.shtml",
+      "title": "入秋暑未消 长春植物园成市民纳凉赏景好去处",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-10/10675265.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“白海豚”影响南京",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-10/10675273.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“白海豚”已造成太湖流域及浙东沿海地区74条河流超警",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675276.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "暑气未消秋意至 石家庄多元文旅业态解锁惬意暑期",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675270.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
