@@ -1,10 +1,30 @@
 {
   "date": "2026-08-10",
-  "time": "20:26",
-  "generatedAt": "2026-08-10T20:26:29.177Z",
+  "time": "23:18",
+  "generatedAt": "2026-08-10T23:18:52.703Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美国战略石油储备降至1983年以来最低水平",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675462.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "刘海星率中共代表团访问古巴并出席首届“菲德尔国际对话”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675456.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "泰国上半年与自贸协定伙伴的贸易额同比增长21.8%",
       "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-10/10675451.shtml",
@@ -56,30 +76,20 @@
       ]
     },
     {
-      "title": "台风侵袭致大棚大面积受损 经济损失达上百万 温州果农哽咽发声",
-      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-10/news1064946.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏发布循环经济发展“十五五”规划 全域构建绿色循环新格局",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675421.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "外交部：百余名菲律宾公民被依法处理",
       "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E7%99%BE%E4%BD%99%E5%90%8D%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%85%AC%E6%B0%91%E8%A2%AB%E4%BE%9D%E6%B3%95%E5%A4%84%E7%90%86",
       "source": "百度热搜",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美股收盘：芯片股、光通信概念重挫",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E8%8A%AF%E7%89%87%E8%82%A1%E3%80%81%E5%85%89%E9%80%9A%E4%BF%A1%E6%A6%82%E5%BF%B5%E9%87%8D%E6%8C%AB",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -96,10 +106,20 @@
       ]
     },
     {
-      "title": "宇树科技：最终中签率0.01809759%",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%EF%BC%9A%E6%9C%80%E7%BB%88%E4%B8%AD%E7%AD%BE%E7%8E%870.01809759%25",
+      "title": "教师卷入冲突致人轻伤 不服降岗降薪",
+      "url": "https://www.baidu.com/s?wd=%E6%95%99%E5%B8%88%E5%8D%B7%E5%85%A5%E5%86%B2%E7%AA%81%E8%87%B4%E4%BA%BA%E8%BD%BB%E4%BC%A4+%E4%B8%8D%E6%9C%8D%E9%99%8D%E5%B2%97%E9%99%8D%E8%96%AA",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部批驳印方：藏南地区是中国领土",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E6%89%B9%E9%A9%B3%E5%8D%B0%E6%96%B9%EF%BC%9A%E8%97%8F%E5%8D%97%E5%9C%B0%E5%8C%BA%E6%98%AF%E4%B8%AD%E5%9B%BD%E9%A2%86%E5%9C%9F",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,11 +136,91 @@
       ]
     },
     {
-      "title": "教师卷入冲突致人轻伤 不服降岗降薪",
-      "url": "https://www.baidu.com/s?wd=%E6%95%99%E5%B8%88%E5%8D%B7%E5%85%A5%E5%86%B2%E7%AA%81%E8%87%B4%E4%BA%BA%E8%BD%BB%E4%BC%A4+%E4%B8%8D%E6%9C%8D%E9%99%8D%E5%B2%97%E9%99%8D%E8%96%AA",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "特朗普称美军对霍尔木兹海峡拥有“100%”控制权",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675465.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月11日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-11/10675464.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普称要向伊朗索赔 外媒：美伊谈判陷入僵局",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675463.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "哥伦比亚7.5级强震已致111人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675461.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗最高领袖公布多项任命 调整武装力量领导层",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675460.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "委内瑞拉地震已致6301人遇难",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675459.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普称要向伊朗索赔",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675458.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“免费领宠”咋背上了“宠物贷”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675457.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "哥伦比亚进入“国家灾难状态” 强震已致111死87伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675455.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -138,106 +238,6 @@
     {
       "title": "我国生态保护“十五五”规划明确路线图",
       "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675453.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年闽台同名村镇（同宗）续缘之旅：感受根脉相连",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675452.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗最高领袖将任命数名高级军事指挥官",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10675450.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "刘德华获颁香港浸会大学荣誉文学博士",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-10/10675449.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国驻尼泊尔大使张茂明拜会尼总理巴伦德拉",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10675447.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "资本引擎驱动 广东为科创企业送上成长“加速包”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675445.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国学者领衔研究：21世纪末全球高温日极端高温时长或增加4小时",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675446.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "港澳大学生逐浪海南自贸港：探寻一颗“星”的奥秘",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-10/10675443.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "向实、向新、向未来 专家谈新时代侨务工作",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-10/10675442.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "今年英仙座流星雨将至 公众或可同观“六星连珠”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675441.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国警方深化扫黑除恶专项斗争第一轮集中收网",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675440.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
