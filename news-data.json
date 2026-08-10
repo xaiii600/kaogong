@@ -1,16 +1,56 @@
 {
   "date": "2026-08-10",
-  "time": "14:45",
-  "generatedAt": "2026-08-10T14:45:50.721Z",
+  "time": "18:07",
+  "generatedAt": "2026-08-10T18:07:14.552Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "中国自动化与人工智能教育大会举办 启动自动化学科发展科技树平台",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675398.shtml",
+      "title": "泰国上半年与自贸协定伙伴的贸易额同比增长21.8%",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-10/10675451.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中星4B卫星发射失利",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675448.shtml",
       "source": "中国新闻网",
       "cat": "tech",
-      "score": 2,
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从“一县试验”到“全域推开” 民进中央“智”扶乌蒙结硕果",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-10/10675444.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "柬埔寨卫生大臣高度评价中国援柬中医医疗队",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-10/10675439.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海内外美业精英赴辽宁探寻美丽经济",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675438.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -30,46 +70,6 @@
       "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675421.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI演员商业化提速 真人表演价值引行业思辨",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-10/10675422.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西（人工智能）公共实训基地开建 面向东盟育AI人才",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-10/10675413.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东西问丨宇树科技IPO，外媒“酸葡萄”里吃出“回甘”：这波中国智造黑不动",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675417.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "央行印发《中国人民银行“十五五”改革发展规划》",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675409.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -96,26 +96,6 @@
       ]
     },
     {
-      "title": "宇树科技：最终中签率0.01809759%",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%EF%BC%9A%E6%9C%80%E7%BB%88%E4%B8%AD%E7%AD%BE%E7%8E%870.01809759%25",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "姚景源：不主张给低收入群体直接发钱",
-      "url": "https://www.baidu.com/s?wd=%E5%A7%9A%E6%99%AF%E6%BA%90%EF%BC%9A%E4%B8%8D%E4%B8%BB%E5%BC%A0%E7%BB%99%E4%BD%8E%E6%94%B6%E5%85%A5%E7%BE%A4%E4%BD%93%E7%9B%B4%E6%8E%A5%E5%8F%91%E9%92%B1",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "教师卷入冲突致人轻伤 不服降岗降薪",
       "url": "https://www.baidu.com/s?wd=%E6%95%99%E5%B8%88%E5%8D%B7%E5%85%A5%E5%86%B2%E7%AA%81%E8%87%B4%E4%BA%BA%E8%BD%BB%E4%BC%A4+%E4%B8%8D%E6%9C%8D%E9%99%8D%E5%B2%97%E9%99%8D%E8%96%AA",
       "source": "百度热搜",
@@ -126,118 +106,138 @@
       ]
     },
     {
+      "title": "银幕之外 千亿级市场全面爆发",
+      "url": "https://www.baidu.com/s?wd=%E9%93%B6%E5%B9%95%E4%B9%8B%E5%A4%96+%E5%8D%83%E4%BA%BF%E7%BA%A7%E5%B8%82%E5%9C%BA%E5%85%A8%E9%9D%A2%E7%88%86%E5%8F%91",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗最高领袖任命6人担任高级军事指挥官",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675454.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "我国生态保护“十五五”规划明确路线图",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675453.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年闽台同名村镇（同宗）续缘之旅：感受根脉相连",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675452.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗最高领袖将任命数名高级军事指挥官",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10675450.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "刘德华获颁香港浸会大学荣誉文学博士",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-10/10675449.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国驻尼泊尔大使张茂明拜会尼总理巴伦德拉",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10675447.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "资本引擎驱动 广东为科创企业送上成长“加速包”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675445.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国学者领衔研究：21世纪末全球高温日极端高温时长或增加4小时",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675446.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "港澳大学生逐浪海南自贸港：探寻一颗“星”的奥秘",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-10/10675443.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "向实、向新、向未来 专家谈新时代侨务工作",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-10/10675442.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "今年英仙座流星雨将至 公众或可同观“六星连珠”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675441.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国警方深化扫黑除恶专项斗争第一轮集中收网",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675440.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "青海首个版权服务工作站落户果洛",
       "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675434.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "徐&#x2cc56;的“新”尝试：从新中式餐厅到新一代侨团",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-10/10675433.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "澳大利亚前总理质疑AUKUS：核潜艇交付存风险",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-10/10675429.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "记者直击上海暴雨时险些摔跤 呼吁“能不出门就别出门了”",
-      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-10/news1064945.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "甘肃敦煌景区被曝现“昂贵饮料” 调查显示系设备系统故障",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675431.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "从生肖书签到“猫脸”关公 传统元素闪耀台湾文博会",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-10/10675430.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026鲁台民乐交流音乐会在济南举行",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-10/10675424.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "大连化物所研制高能量密度一次电池功率获突破 放电倍率可提高百倍",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675428.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "格萨尔史诗古乐专场音乐会在青海西宁上演",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-10/10675423.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏首次实现向内蒙古送电 外送省份扩展至23个",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-10/10675426.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "59名港澳台侨代表访问广东茂名 寻合作发展机遇",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675420.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "青海东部农业区遭遇极端高温天气",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-10/10675425.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
