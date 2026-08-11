@@ -1,23 +1,73 @@
 {
   "date": "2026-08-11",
-  "time": "08:14",
-  "generatedAt": "2026-08-11T08:14:45.082Z",
+  "time": "11:09",
+  "generatedAt": "2026-08-11T11:09:31.898Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "俄罗斯“Z世代”教师巧借AI短剧带学生看懂中国",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675788.shtml",
+      "title": "从就业到食堂：山西大同“十五五”的民生温度",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675910.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "黑龙江省哈尔滨市医疗保障局原局长杨天悦接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675794.shtml",
+      "title": "广西五年内将打造面向东盟教育交流合作创新高地",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-11/10675880.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "跨境电商迈入品牌化新阶段 华北地区产业带加速集群式出海",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10675884.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "金融监管总局：保险业对近期重大自然灾害累计已赔付76亿元",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675917.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第十五届中国创新创业大赛山东赛区决赛启幕 释放赛事“乘数效应”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10675872.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "手机涨价潮背后：AI算力抢占内存 行业转向价值竞争",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10675900.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "交通运输部：14个地区连续降雨，公路交通存在高风险",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675896.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -26,8 +76,28 @@
       ]
     },
     {
-      "title": "中央气象台：11日至15日黄淮江淮江汉等地有大范围强降雨",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675773.shtml",
+      "title": "外交部回应“日企高管在华涉案被拘留”：依法查处违法犯罪案件",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675887.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：敦促太平洋岛国论坛秘书处恪守一个中国原则",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675882.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "江苏省南京市人大常委会原主任龙翔一审被判死缓",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675879.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -36,19 +106,9 @@
       ]
     },
     {
-      "title": "俄少女被诱骗进缅甸电诈园 游河逃生",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%B0%91%E5%A5%B3%E8%A2%AB%E8%AF%B1%E9%AA%97%E8%BF%9B%E7%BC%85%E7%94%B8%E7%94%B5%E8%AF%88%E5%9B%AD+%E6%B8%B8%E6%B2%B3%E9%80%83%E7%94%9F",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广东GDP“第一”宝座还稳吗",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9CGDP%E2%80%9C%E7%AC%AC%E4%B8%80%E2%80%9D%E5%AE%9D%E5%BA%A7%E8%BF%98%E7%A8%B3%E5%90%97",
-      "source": "百度热搜",
+      "title": "英国就业市场结束长期下行 岗位招聘与薪资增速回暖",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675875.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -56,8 +116,38 @@
       ]
     },
     {
-      "title": "新思想引领新征程丨加快构建城乡融合发展新格局",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675781.shtml",
+      "title": "全方位培养、引进、用好人才！“十五五”时期，这些利好政策速看→",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675878.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "英国7月食品酒吧消费显著回暖",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675874.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "哈萨克斯坦今年前七个月GDP同比增4.1%",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675779.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "恭王府2026年金鱼特展移步换景中融合赏鱼与非遗",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-11/10675886.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -66,8 +156,8 @@
       ]
     },
     {
-      "title": "一艘沙特商船在曼德海峡遭袭 3名船员死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675792.shtml",
+      "title": "应急管理部针对北京启动国家地质灾害四级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675915.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -76,8 +166,8 @@
       ]
     },
     {
-      "title": "实干开新局｜新动能顶“梁”立柱",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675787.shtml",
+      "title": "五预警齐发，注意防范！多个区域将有大暴雨、特大暴雨",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675909.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -86,8 +176,8 @@
       ]
     },
     {
-      "title": "21天练出腹肌？别再被“速成”健身教程坑了",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-11/10675791.shtml",
+      "title": "幼童吃糖果被卡喉 乘警用海姆立克急救法成功施救",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675898.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +186,8 @@
       ]
     },
     {
-      "title": "何以奇迹",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675783.shtml",
+      "title": "叙利亚法院缺席判处前总统巴沙尔死刑 其弟及多名前官员同获死刑",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675919.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +196,8 @@
       ]
     },
     {
-      "title": "“希望小课堂”里的民族团结课",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-11/10675782.shtml",
+      "title": "合肥两名男子编造传播台风灾情谣言吸粉 被警方依法处罚",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675906.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +206,8 @@
       ]
     },
     {
-      "title": "A股收评：创业板指收涨，沪指、深指收跌",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10675760.shtml",
+      "title": "告别“一煤独大”发展瓶颈 山西大同“动真格”转型",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10675866.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +216,8 @@
       ]
     },
     {
-      "title": "电视越智能，老人看着越费劲？",
-      "url": "https://www.chinanews.com.cn/life/2026/08-11/10675789.shtml",
+      "title": "韩国今年迎来史上最热8月上旬 平均气温29.1℃",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675907.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +226,8 @@
       ]
     },
     {
-      "title": "从实验室样机到产线生产力 报告称人形机器人加速跨越鸿沟",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10675785.shtml",
+      "title": "中菲执法部门合作遣返绑架犯罪嫌疑人樊某某",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675905.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,98 +236,8 @@
       ]
     },
     {
-      "title": "每天收到退休老同事的“早安”问候，该怎么回？",
-      "url": "https://www.chinanews.com.cn/life/2026/08-11/10675784.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "翻盖手机、CCD相机翻红 年轻人为何迷上“老物件”",
-      "url": "https://www.chinanews.com.cn/life/2026/08-11/10675778.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台胞青少年研学走进“孙子故里”：访古建、听曲艺",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-11/10675754.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "华裔青少年西安畅游博物馆 感悟历史寻觅文脉",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-11/10675744.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "张掖市山丹县炒拨拉美食嘉年华书写各民族交往交流交融时代新篇",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-11/10675775.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "太湖发生2026年第1号洪水 江苏苏南18条河流25站水位超警",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675772.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美媒：特朗普政府已吊销逾17.5万份非移民签证",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10675756.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "最珍贵的“生命礼物”：离世幼儿捐献双肾 点亮两名重症患儿重生路",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675750.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "开局起步“十五五”：海南精心守护好自然资源家底",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675748.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "哥伦比亚遭遇7.5级强震 中国专家解析成因和影响",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-11/10675770.shtml",
+      "title": "水利部和中国气象局联合发布红色山洪灾害气象预警",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10675889.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
