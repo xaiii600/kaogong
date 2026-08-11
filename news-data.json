@@ -1,7 +1,7 @@
 {
   "date": "2026-08-11",
-  "time": "18:12",
-  "generatedAt": "2026-08-11T18:12:27.969Z",
+  "time": "20:29",
+  "generatedAt": "2026-08-11T20:29:18.674Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -80,6 +80,16 @@
       "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%AD%E7%AD%BE%E5%8F%B7%E5%87%BA%E7%82%89+%E5%85%B1%E7%BA%A61.94%E4%B8%87%E4%B8%AA",
       "source": "百度热搜",
       "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中俄举行第二十四轮领事磋商",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E4%B8%BE%E8%A1%8C%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%BD%AE%E9%A2%86%E4%BA%8B%E7%A3%8B%E5%95%86",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -228,16 +238,6 @@
     {
       "title": "第六届藏博会将于2026年9月1日至2日在拉萨举办",
       "url": "https://www.chinanews.com.cn/sh/2026/08-11/10676055.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云菌“鲜”行海外 今年前7个月出口量增逾两成",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10676053.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
