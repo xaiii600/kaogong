@@ -1,10 +1,30 @@
 {
   "date": "2026-08-12",
-  "time": "20:26",
-  "generatedAt": "2026-08-12T20:26:14.311Z",
+  "time": "23:24",
+  "generatedAt": "2026-08-12T23:24:26.540Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美国国务院成立特别工作组遏止“生育旅游”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676693.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国佐治亚州一所高中卫生间内发生枪击，一人受伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676696.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "特朗普宣称“美国完全控制着霍尔木兹海峡”",
       "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676687.shtml",
@@ -56,30 +76,10 @@
       ]
     },
     {
-      "title": "联合国官员：中国重视青年发展为发展中国家提供重要借鉴",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676658.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“十五五”时期 青海将推动中（藏）医药走向国际",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676662.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "母亲乱投资欠下五百万 女儿卖房扛债",
-      "url": "https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E4%B9%B1%E6%8A%95%E8%B5%84%E6%AC%A0%E4%B8%8B%E4%BA%94%E7%99%BE%E4%B8%87+%E5%A5%B3%E5%84%BF%E5%8D%96%E6%88%BF%E6%89%9B%E5%80%BA",
+      "title": "浙江一公司收到美国2.62亿元关税退税",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E4%B8%80%E5%85%AC%E5%8F%B8%E6%94%B6%E5%88%B0%E7%BE%8E%E5%9B%BD2.62%E4%BA%BF%E5%85%83%E5%85%B3%E7%A8%8E%E9%80%80%E7%A8%8E",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -96,6 +96,16 @@
       ]
     },
     {
+      "title": "母亲乱投资欠下五百万 女儿卖房扛债",
+      "url": "https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E4%B9%B1%E6%8A%95%E8%B5%84%E6%AC%A0%E4%B8%8B%E4%BA%94%E7%99%BE%E4%B8%87+%E5%A5%B3%E5%84%BF%E5%8D%96%E6%88%BF%E6%89%9B%E5%80%BA",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "中方与柬泰合作无关柬泰边境冲突",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E4%B8%8E%E6%9F%AC%E6%B3%B0%E5%90%88%E4%BD%9C%E6%97%A0%E5%85%B3%E6%9F%AC%E6%B3%B0%E8%BE%B9%E5%A2%83%E5%86%B2%E7%AA%81",
       "source": "百度热搜",
@@ -106,11 +116,101 @@
       ]
     },
     {
-      "title": "C919圆满完成首次国际商业航班飞行",
-      "url": "https://www.baidu.com/s?wd=C919%E5%9C%86%E6%BB%A1%E5%AE%8C%E6%88%90%E9%A6%96%E6%AC%A1%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E8%88%AA%E7%8F%AD%E9%A3%9E%E8%A1%8C",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "中国女篮不敌尼日利亚女篮 热身赛两胜一负",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10676697.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "手机壳成偷拍工具，“懂的都懂”包藏多少恶意？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10676707.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普称白宫新闻秘书莱维特将离职",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676705.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沙颍河泥河洼蓄滞洪区启用",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10676704.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美军称已使59艘商船改变航线，特朗普：伊朗无能为力",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676698.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月13日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-13/10676695.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "已致刚果（金）两千余人死亡 世卫：或为有记录以来最致命埃博拉疫情",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676694.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国智能网联汽车为何发展快",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10676692.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗“波斯湾海峡管理局”：霍尔木兹海峡仍关闭",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676691.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "卡内余额不能买折扣商品？警惕预付卡变“闹心卡”！",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10676690.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -138,106 +238,6 @@
     {
       "title": "ICU医生薄世宁：40岁，每个人都应该做一次防癌筛查",
       "url": "https://www.chinanews.com.cn/jk/2026/08-12/10676682.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "平陆运河开启通航前“大考” 实船试验攻坚四大核心难点",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676681.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《江泽民》 第3集 《临危受命》",
-      "url": "http://www.chinanews.com.cn/gn/shipin/2026/08-12/news1065206.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖北警方打掉涉黑恶违法犯罪团伙50余个",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676678.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西南宁出台快递行业用工指引 守护从业人员劳动权益",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676677.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国首家尼加拉瓜国家馆落地武汉",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676676.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "央行将开展隔夜逆回购操作 每日不超过6000亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676680.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "光伏项目纠纷“府院联动”巧化解 湖南以司法之力守护“天空蓝”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676673.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026兰州书展将启幕：一城书香“读”此不同",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676670.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西大桂山保护区野外放归子三代、子四代人工繁育鳄蜥",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676669.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国近800名青少年棒球选手齐聚佛山挥棒争锋",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-12/10676668.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
