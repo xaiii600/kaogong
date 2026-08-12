@@ -1,7 +1,7 @@
 {
   "date": "2026-08-12",
-  "time": "18:13",
-  "generatedAt": "2026-08-12T18:13:58.791Z",
+  "time": "20:26",
+  "generatedAt": "2026-08-12T20:26:14.311Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -76,16 +76,6 @@
       ]
     },
     {
-      "title": "新能源汽车迎来两个“首次”突破",
-      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BF%8E%E6%9D%A5%E4%B8%A4%E4%B8%AA%E2%80%9C%E9%A6%96%E6%AC%A1%E2%80%9D%E7%AA%81%E7%A0%B4",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "母亲乱投资欠下五百万 女儿卖房扛债",
       "url": "https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E4%B9%B1%E6%8A%95%E8%B5%84%E6%AC%A0%E4%B8%8B%E4%BA%94%E7%99%BE%E4%B8%87+%E5%A5%B3%E5%84%BF%E5%8D%96%E6%88%BF%E6%89%9B%E5%80%BA",
       "source": "百度热搜",
@@ -96,8 +86,28 @@
       ]
     },
     {
+      "title": "新能源汽车迎来两个“首次”突破",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BF%8E%E6%9D%A5%E4%B8%A4%E4%B8%AA%E2%80%9C%E9%A6%96%E6%AC%A1%E2%80%9D%E7%AA%81%E7%A0%B4",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "中方与柬泰合作无关柬泰边境冲突",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E4%B8%8E%E6%9F%AC%E6%B3%B0%E5%90%88%E4%BD%9C%E6%97%A0%E5%85%B3%E6%9F%AC%E6%B3%B0%E8%BE%B9%E5%A2%83%E5%86%B2%E7%AA%81",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "C919圆满完成首次国际商业航班飞行",
+      "url": "https://www.baidu.com/s?wd=C919%E5%9C%86%E6%BB%A1%E5%AE%8C%E6%88%90%E9%A6%96%E6%AC%A1%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E8%88%AA%E7%8F%AD%E9%A3%9E%E8%A1%8C",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -228,16 +238,6 @@
     {
       "title": "全国近800名青少年棒球选手齐聚佛山挥棒争锋",
       "url": "https://www.chinanews.com.cn/ty/2026/08-12/10676668.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "陕西面食手艺人深耕传统制面技艺 传承地道“老陕味”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676667.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
