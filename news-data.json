@@ -1,64 +1,14 @@
 {
   "date": "2026-08-12",
-  "time": "09:50",
-  "generatedAt": "2026-08-12T09:50:29.147Z",
+  "time": "14:34",
+  "generatedAt": "2026-08-12T14:34:42.869Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "联合国教科文组织呼吁阿富汗取消女孩受教育限制",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676434.shtml",
+      "title": "AI生成视频拼接虚假场景 这些涉台风信息都是谣言！",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676671.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "直播：第七届成龙国际动作电影周闭幕式暨荣誉盛典",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-12/10676474.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "亲身感受破除固有成见，民间往来构筑相知基础，美国民众正重新认识中国",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676438.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "C919圆满完成首次国际商业航班飞行",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676463.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "华裔加密货币大亨离奇坠亡",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E8%A3%94%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E5%A4%A7%E4%BA%A8%E7%A6%BB%E5%A5%87%E5%9D%A0%E4%BA%A1",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新能源汽车月度新车销量占比首超60%",
-      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E6%9C%88%E5%BA%A6%E6%96%B0%E8%BD%A6%E9%94%80%E9%87%8F%E5%8D%A0%E6%AF%94%E9%A6%96%E8%B6%8560%25",
-      "source": "百度热搜",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -66,20 +16,40 @@
       ]
     },
     {
-      "title": "A股收盘：全市场超4100只个股上涨",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E5%85%A8%E5%B8%82%E5%9C%BA%E8%B6%854100%E5%8F%AA%E4%B8%AA%E8%82%A1%E4%B8%8A%E6%B6%A8",
-      "source": "百度热搜",
-      "cat": "economy",
+      "title": "联合国官员：中国重视青年发展为发展中国家提供重要借鉴",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676658.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "北京轨道交通项目全部停工",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E8%BD%A8%E9%81%93%E4%BA%A4%E9%80%9A%E9%A1%B9%E7%9B%AE%E5%85%A8%E9%83%A8%E5%81%9C%E5%B7%A5",
-      "source": "百度热搜",
-      "cat": "society",
+      "title": "“十五五”时期 青海将推动中（藏）医药走向国际",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676662.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "上海清算所美国国债新发债券指数首次应用于存款类产品发行",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676617.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西62支队伍角逐2026年“数据要素×”大赛广西分赛决赛",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676646.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -96,8 +66,48 @@
       ]
     },
     {
-      "title": "福建首个“数字游民+乡村OPC”创业园落户屏南",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676482.shtml",
+      "title": "新能源汽车迎来两个“首次”突破",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BF%8E%E6%9D%A5%E4%B8%A4%E4%B8%AA%E2%80%9C%E9%A6%96%E6%AC%A1%E2%80%9D%E7%AA%81%E7%A0%B4",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "C919圆满完成首次国际商业航班飞行",
+      "url": "https://www.baidu.com/s?wd=C919%E5%9C%86%E6%BB%A1%E5%AE%8C%E6%88%90%E9%A6%96%E6%AC%A1%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E8%88%AA%E7%8F%AD%E9%A3%9E%E8%A1%8C",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部回应有关国家影射中方导弹试射",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3%E5%9B%BD%E5%AE%B6%E5%BD%B1%E5%B0%84%E4%B8%AD%E6%96%B9%E5%AF%BC%E5%BC%B9%E8%AF%95%E5%B0%84",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "商家闭店失联？35名消费者起诉获赔",
+      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%AE%B6%E9%97%AD%E5%BA%97%E5%A4%B1%E8%81%94%EF%BC%9F35%E5%90%8D%E6%B6%88%E8%B4%B9%E8%80%85%E8%B5%B7%E8%AF%89%E8%8E%B7%E8%B5%94",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "光伏项目纠纷“府院联动”巧化解 湖南以司法之力守护“天空蓝”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676673.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +116,8 @@
       ]
     },
     {
-      "title": "12日夜间北京降雨预计减弱 13日早晨基本结束",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676476.shtml",
+      "title": "2026兰州书展将启幕：一城书香“读”此不同",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676670.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +126,8 @@
       ]
     },
     {
-      "title": "伊拉克北部库区首府再遭无人机袭击",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676475.shtml",
+      "title": "广西大桂山保护区野外放归子三代、子四代人工繁育鳄蜥",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676669.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +136,8 @@
       ]
     },
     {
-      "title": "直播海报：国新办就全面推进美丽中国建设有关情况举行新闻发布会",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676473.shtml",
+      "title": "全国近800名青少年棒球选手齐聚佛山挥棒争锋",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-12/10676668.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +146,8 @@
       ]
     },
     {
-      "title": "山东威海：暑期海滨游持续升温",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-12/10676467.shtml",
+      "title": "陕西面食手艺人深耕传统制面技艺 传承地道“老陕味”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676667.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +156,8 @@
       ]
     },
     {
-      "title": "自家难题无解拼命抹黑中国？！二驳美西方对中国“系统压制”宗教不实论调",
-      "url": "https://www.chinanews.com.cn/zj/2026/08-12/10676472.shtml",
+      "title": "“观化·当代茶生活艺术展”于国家大剧院启幕",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676666.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +166,8 @@
       ]
     },
     {
-      "title": "谎言如何能掩盖真相？！一驳美西方对华“强制同化”不实指控",
-      "url": "https://www.chinanews.com.cn/zj/2026/08-12/10676471.shtml",
+      "title": "津巴布韦船只倾覆已致44人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676665.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +176,8 @@
       ]
     },
     {
-      "title": "中国大熊猫保护研究中心举办大熊猫生日季丰容活动",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-12/1200889.shtml",
+      "title": "青海科学技术奖励大会在西宁召开",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676661.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "全球媒体聚焦|中国城市旅游蕴藏巨大机遇",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676440.shtml",
+      "title": "香港商经局局长：香港已准备好作为连接中国内地与马来西亚的理想跳板",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-12/10676623.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "历史铁案不容辩驳、亵渎！二战后，同盟国对日军战争罪行进行系统清算",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676433.shtml",
+      "title": "今年以来中欧班列“中通道”通行量突破3000列",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/08-12/10676648.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "美学者一针见血：所谓“中国挤压”是反事实假设",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676457.shtml",
+      "title": "辽宁省挂牌督办朝阳市3人中毒死亡事故",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676664.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "本轮强降雨山西累计转移群众8579人 疏散游客两万余人",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676468.shtml",
+      "title": "“羊妞”过生日，象粪变文创  云南西双版纳野象谷玩出新花样",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-12/10676654.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "河南多地：实行“五停”，非必要不外出",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676456.shtml",
+      "title": "中国香港海关与巴基斯坦海关签订海关合作安排",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-12/10676618.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "雅万高铁上半年开行10640列次 正点率达99.4%",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676437.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026上海书展开幕 各地读者共赴八月阅读盛宴",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-12/1200880.shtml",
+      "title": "“东升西降”重塑台海博弈 两岸专家指新格局凸显时势在大陆",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676643.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
