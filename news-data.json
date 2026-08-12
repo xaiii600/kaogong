@@ -1,10 +1,50 @@
 {
   "date": "2026-08-12",
-  "time": "14:34",
-  "generatedAt": "2026-08-12T14:34:42.869Z",
+  "time": "18:13",
+  "generatedAt": "2026-08-12T18:13:58.791Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "特朗普宣称“美国完全控制着霍尔木兹海峡”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676687.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "综艺《不想睡的星期五》定档 聚焦城市夜间消费新图景",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676686.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "三部门调拨2万件中央救灾物资 支持河北、河南做好安置救助工作",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676685.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "联合国任命冬奥冠军苏翊鸣为“体育促土地”大使",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676679.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "AI生成视频拼接虚假场景 这些涉台风信息都是谣言！",
       "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676671.shtml",
@@ -36,36 +76,6 @@
       ]
     },
     {
-      "title": "上海清算所美国国债新发债券指数首次应用于存款类产品发行",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676617.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西62支队伍角逐2026年“数据要素×”大赛广西分赛决赛",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676646.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国市场不再是BBA的提款机",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%E4%B8%8D%E5%86%8D%E6%98%AFBBA%E7%9A%84%E6%8F%90%E6%AC%BE%E6%9C%BA",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "新能源汽车迎来两个“首次”突破",
       "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BF%8E%E6%9D%A5%E4%B8%A4%E4%B8%AA%E2%80%9C%E9%A6%96%E6%AC%A1%E2%80%9D%E7%AA%81%E7%A0%B4",
       "source": "百度热搜",
@@ -76,31 +86,111 @@
       ]
     },
     {
-      "title": "C919圆满完成首次国际商业航班飞行",
-      "url": "https://www.baidu.com/s?wd=C919%E5%9C%86%E6%BB%A1%E5%AE%8C%E6%88%90%E9%A6%96%E6%AC%A1%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E8%88%AA%E7%8F%AD%E9%A3%9E%E8%A1%8C",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部回应有关国家影射中方导弹试射",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3%E5%9B%BD%E5%AE%B6%E5%BD%B1%E5%B0%84%E4%B8%AD%E6%96%B9%E5%AF%BC%E5%BC%B9%E8%AF%95%E5%B0%84",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "商家闭店失联？35名消费者起诉获赔",
-      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%AE%B6%E9%97%AD%E5%BA%97%E5%A4%B1%E8%81%94%EF%BC%9F35%E5%90%8D%E6%B6%88%E8%B4%B9%E8%80%85%E8%B5%B7%E8%AF%89%E8%8E%B7%E8%B5%94",
+      "title": "母亲乱投资欠下五百万 女儿卖房扛债",
+      "url": "https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E4%B9%B1%E6%8A%95%E8%B5%84%E6%AC%A0%E4%B8%8B%E4%BA%94%E7%99%BE%E4%B8%87+%E5%A5%B3%E5%84%BF%E5%8D%96%E6%88%BF%E6%89%9B%E5%80%BA",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中方与柬泰合作无关柬泰边境冲突",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E4%B8%8E%E6%9F%AC%E6%B3%B0%E5%90%88%E4%BD%9C%E6%97%A0%E5%85%B3%E6%9F%AC%E6%B3%B0%E8%BE%B9%E5%A2%83%E5%86%B2%E7%AA%81",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海内外足球小将聚沈阳 11天鏖战千余场比赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-12/10676689.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南华宁南盘江一民船侧翻致6人落水 目前1人获救",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676688.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "ICU医生薄世宁：40岁，每个人都应该做一次防癌筛查",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-12/10676682.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "平陆运河开启通航前“大考” 实船试验攻坚四大核心难点",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676681.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "《江泽民》 第3集 《临危受命》",
+      "url": "http://www.chinanews.com.cn/gn/shipin/2026/08-12/news1065206.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "湖北警方打掉涉黑恶违法犯罪团伙50余个",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676678.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西南宁出台快递行业用工指引 守护从业人员劳动权益",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676677.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国首家尼加拉瓜国家馆落地武汉",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676676.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "央行将开展隔夜逆回购操作 每日不超过6000亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676680.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -148,96 +238,6 @@
     {
       "title": "陕西面食手艺人深耕传统制面技艺 传承地道“老陕味”",
       "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676667.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“观化·当代茶生活艺术展”于国家大剧院启幕",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-12/10676666.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "津巴布韦船只倾覆已致44人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676665.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "青海科学技术奖励大会在西宁召开",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676661.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "香港商经局局长：香港已准备好作为连接中国内地与马来西亚的理想跳板",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-12/10676623.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "今年以来中欧班列“中通道”通行量突破3000列",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-12/10676648.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "辽宁省挂牌督办朝阳市3人中毒死亡事故",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676664.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“羊妞”过生日，象粪变文创  云南西双版纳野象谷玩出新花样",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-12/10676654.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国香港海关与巴基斯坦海关签订海关合作安排",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-12/10676618.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“东升西降”重塑台海博弈 两岸专家指新格局凸显时势在大陆",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676643.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
