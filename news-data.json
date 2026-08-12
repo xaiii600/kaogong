@@ -1,13 +1,23 @@
 {
-  "date": "2026-08-11",
-  "time": "23:25",
-  "generatedAt": "2026-08-11T23:25:25.471Z",
+  "date": "2026-08-12",
+  "time": "05:50",
+  "generatedAt": "2026-08-12T05:50:15.599Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "中方严斥美国炮制“弹道导弹发射通报”涉华共同发言",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676080.shtml",
+      "title": "好评中国 | “人工智能+”澎湃经济新浪潮",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676302.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "成龙国际电影周拉动文旅消费 哈尔滨景点预订环比增长280%",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676319.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
@@ -16,38 +26,18 @@
       ]
     },
     {
-      "title": "华侨大学国际新能源学院在厦门揭牌",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-11/10676026.shtml",
+      "title": "“人工智能与思想政治教育”学术研讨会在东北大学召开",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-12/10676313.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "tech",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "上海交通大学队夺得第二届亚洲大学生篮球联赛冠军",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-12/10676085.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄伊外交部就伊朗核计划问题举行司长级磋商",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10676075.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "厦门探索公共信用与市场信用融合释放守信便民红利",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10676065.shtml",
+      "title": "（乡村行·看振兴）山西襄垣：“企业+基地+农户”模式带旺乡村“甜蜜经济”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676324.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,8 +46,38 @@
       ]
     },
     {
-      "title": "广西防城港借力国际医学开放平台 推动中医药“出海”",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-11/10676058.shtml",
+      "title": "人民论坛网评|首发经济，“新鲜”之后更“长红”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676296.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全球大语言模型巨头上线“隐形水印” AI写文章以后都要“留痕”了？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676320.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "多地有暴雨或大暴雨 交通运输部维持强降雨二级防御响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676311.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "近120个国内外主流汽车品牌将参加成都国际车展",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676308.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -66,18 +86,58 @@
       ]
     },
     {
-      "title": "宇树科技中签号出炉 共约1.94万个",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%AD%E7%AD%BE%E5%8F%B7%E5%87%BA%E7%82%89+%E5%85%B1%E7%BA%A61.94%E4%B8%87%E4%B8%AA",
-      "source": "百度热搜",
-      "cat": "tech",
+      "title": "美国球员摩西·布朗加盟广州龙狮队",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-12/10676305.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "外媒称哥伦比亚强震已致超200人死亡 古特雷斯发声",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676084.shtml",
+      "title": "广西出台海洋经济发展“十五五”规划  加快建设海洋强区",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-12/10676300.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国政府设备重新允许使用TikTok",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E8%AE%BE%E5%A4%87%E9%87%8D%E6%96%B0%E5%85%81%E8%AE%B8%E4%BD%BF%E7%94%A8TikTok",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "C919国产大飞机正式执飞国际商业航线",
+      "url": "https://www.baidu.com/s?wd=C919%E5%9B%BD%E4%BA%A7%E5%A4%A7%E9%A3%9E%E6%9C%BA%E6%AD%A3%E5%BC%8F%E6%89%A7%E9%A3%9E%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E8%88%AA%E7%BA%BF",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "华裔加密货币投资者从30楼离奇坠亡",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E8%A3%94%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%8A%95%E8%B5%84%E8%80%85%E4%BB%8E30%E6%A5%BC%E7%A6%BB%E5%A5%87%E5%9D%A0%E4%BA%A1",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【好评中国】擘画十五五生态新蓝图，守护万里山河永续生机",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676304.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -86,8 +146,8 @@
       ]
     },
     {
-      "title": "8月12日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-12/10676083.shtml",
+      "title": "长江十年行丨笃行护大江，山河重锦绣",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676299.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +156,8 @@
       ]
     },
     {
-      "title": "“人民艺术家”郭兰英逝世 享年97岁",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676082.shtml",
+      "title": "Meta和TikTok将加强西班牙边境通行内容事实核查",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676317.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +166,8 @@
       ]
     },
     {
-      "title": "当智能眼镜成为“行走的摄像头”，隐私边界如何守住？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676081.shtml",
+      "title": "新西兰总理赢得信任投票继续担任主要执政党领导人",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676310.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +176,8 @@
       ]
     },
     {
-      "title": "英国首相伯纳姆出台新政 力图振兴萧条的商业街",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676079.shtml",
+      "title": "（乡村行·看振兴）广东六联村：甘露梨成“金色名片” 共绘“梨”想画卷",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-12/10676322.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +186,8 @@
       ]
     },
     {
-      "title": "美军：使用导弹袭击一艘驶往伊朗的货轮 并致其停航",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676078.shtml",
+      "title": "大学新生“三件套”涨价了",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676323.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +196,8 @@
       ]
     },
     {
-      "title": "伊朗高级官员：美必须接受伊方条件换取霍尔木兹海峡开放",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676077.shtml",
+      "title": "天山脚下寻本草：海外华裔青少年的中医药体验之旅",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-12/10676321.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +206,8 @@
       ]
     },
     {
-      "title": "伊朗官员：在伊方条件满足前霍尔木兹海峡不会开放",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-11/10676076.shtml",
+      "title": "驻日美军“鱼鹰”运输机紧急着陆 曾多次发生类似情况",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676314.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +216,8 @@
       ]
     },
     {
-      "title": "共赴统战文化之约 把团结故事讲给更多人听",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-11/10676071.shtml",
+      "title": "天津首单商业不动产REITs项目申报证监会",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-12/10676318.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +226,8 @@
       ]
     },
     {
-      "title": "西藏：“数字拉萨”建设成果丰硕 数字赋能雪域高质量发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10676070.shtml",
+      "title": "第三届中国乡村书画大赛·和美乡村少儿书画展华南分区展亮相顺德",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-12/10676315.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,68 +236,8 @@
       ]
     },
     {
-      "title": "国家体育总局体操中心发表抵制“饭圈”声明",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-11/10676074.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "亚洲首个！我国柔直海上风电项目发电量破百亿千瓦时",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-11/10676073.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "水利部针对北京天津启动洪水防御Ⅳ级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10676072.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏4名“最美基层民警”讲述雪域高原守护故事",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10676067.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中新网评：“酱香酒酿酒大师”等称号撤销，然后呢？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10676064.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "港芭原创作品《罗密欧+茱丽叶》为莎翁经典赋予独特香港光彩",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-11/10676066.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "草原之夜，一颗篮球滚过555个嘎查村",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-11/10676063.shtml",
+      "title": "马里武装部队两个月内打死超1800名恐怖分子",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-12/10676272.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
