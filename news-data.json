@@ -1,23 +1,73 @@
 {
   "date": "2026-08-13",
-  "time": "05:54",
-  "generatedAt": "2026-08-13T05:54:04.105Z",
+  "time": "09:51",
+  "generatedAt": "2026-08-13T09:51:03.134Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美国一监狱遭雷击 16名囚犯受伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676952.shtml",
+      "title": "活力中国调研行｜为情绪买单 为意义付费：场景创新激活湖南消费新活力",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677095.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "政策赋能叠加存量红利 汽车后市场迈入提质升级新阶段",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677111.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "晶采观察丨开启新赛道！科技赋能暑期文旅融合创新",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677098.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "第二十九届全国计算机辅助设计与图形学学术会议在苏州开幕",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-13/10676949.shtml",
+      "title": "暑期过半文旅热度持续攀升 文博科技馆成亲子出游首选",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677094.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "好评中国｜“新新三样”新在何处①贸易模式之新",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677086.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新华视点｜匠心赓续文脉 非遗惠及民生",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677083.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "三部门向新疆生产建设兵团调拨中央抗旱物资 支持做好抗旱减灾工作",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677117.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -26,8 +76,8 @@
       ]
     },
     {
-      "title": "第23届东博会将在城市社区增设AI展区",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-13/10676948.shtml",
+      "title": "聚焦政企数智化安全 行业专家共商数据可信方案",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677122.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,38 +86,8 @@
       ]
     },
     {
-      "title": "“汉数宜算”数据传输专线建成",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10676943.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "香港大学生外交夏令营分享会在港举行",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10676933.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊拉克总理重申9月30日是国际联盟撤军最后期限",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676893.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "持续降雨影响交通出行 三省市12个路段封闭管控",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10676899.shtml",
+      "title": "和谐共生 | 生态文旅兑现“吉林之美”的民生幸福",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677081.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -76,18 +96,18 @@
       ]
     },
     {
-      "title": "勇立潮头大湾区丨港铁上的“超级耳朵”！让世界听见大湾区创新脉搏",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10676872.shtml",
+      "title": "普京登上俄日争议岛屿 日本强烈抗议",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10677069.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "将学习教育成果固化为制度机制（树立和践行正确政绩观）",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10676891.shtml",
+      "title": "（活力中国调研行）湘企碳材破卡突围 实现国产自主可控",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677121.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -96,9 +116,9 @@
       ]
     },
     {
-      "title": "5年10万亿元消费增量目标怎样实现",
-      "url": "https://www.baidu.com/s?wd=5%E5%B9%B410%E4%B8%87%E4%BA%BF%E5%85%83%E6%B6%88%E8%B4%B9%E5%A2%9E%E9%87%8F%E7%9B%AE%E6%A0%87%E6%80%8E%E6%A0%B7%E5%AE%9E%E7%8E%B0",
-      "source": "百度热搜",
+      "title": "活力中国调研行丨擂茶、黑茶、新式茶饮齐聚 解锁益阳古巷消费新场景",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677062.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -106,20 +126,80 @@
       ]
     },
     {
-      "title": "普京首次登上俄日争议岛屿",
-      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E9%A6%96%E6%AC%A1%E7%99%BB%E4%B8%8A%E4%BF%84%E6%97%A5%E4%BA%89%E8%AE%AE%E5%B2%9B%E5%B1%BF",
-      "source": "百度热搜",
-      "cat": "international",
+      "title": "好评中国丨“黑科技”装备为防汛救灾提供硬核支撑",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677054.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "今天是国际左撇子日",
-      "url": "https://www.baidu.com/s?wd=%E4%BB%8A%E5%A4%A9%E6%98%AF%E5%9B%BD%E9%99%85%E5%B7%A6%E6%92%87%E5%AD%90%E6%97%A5",
+      "title": "我的青春我“职”道|这群青年用科技为水旱灾害防御提供技术支撑",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677050.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "钦州海关综合技术服务中心2026年“两新”项目政府采购意向公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-13/10677045.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "东兴海关柴油发电机组采购项目的成交结果公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-13/10677041.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "龙邦海关2026-2027年度办公设备维护及耗材定点供应商采购项目（重）成交结果公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-13/10677016.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新能源汽车迎来两个“首次”突破",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BF%8E%E6%9D%A5%E4%B8%A4%E4%B8%AA%E2%80%9C%E9%A6%96%E6%AC%A1%E2%80%9D%E7%AA%81%E7%A0%B4",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "微信要用AI杀死社交吗",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E8%A6%81%E7%94%A8AI%E6%9D%80%E6%AD%BB%E7%A4%BE%E4%BA%A4%E5%90%97",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "长鑫科技 中国市值最大上市公司",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80+%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%80%BC%E6%9C%80%E5%A4%A7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -136,18 +216,18 @@
       ]
     },
     {
-      "title": "张雪机车获红杉中国独家新一轮投资",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E8%8E%B7%E7%BA%A2%E6%9D%89%E4%B8%AD%E5%9B%BD%E7%8B%AC%E5%AE%B6%E6%96%B0%E4%B8%80%E8%BD%AE%E6%8A%95%E8%B5%84",
+      "title": "长鑫科技市值超越腾讯",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%B8%82%E5%80%BC%E8%B6%85%E8%B6%8A%E8%85%BE%E8%AE%AF",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "宋金至明清时期流失彩塑从台湾“回家”展出",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-13/10676926.shtml",
+      "title": "重庆朝天门两江交汇现“鸳鸯锅”景观",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-13/10677125.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,88 +236,8 @@
       ]
     },
     {
-      "title": "“十五五”时期如何守牢生态环境安全底线？生态环境部回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10676950.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西安至安康高铁启动试运行",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10676946.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《逐玉》台北线下展持续圈粉 观众期盼主演来台",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10676941.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台湾餐饮师生赴重庆学烹饪 以食为媒促交流",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10676931.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "粗放式上新，“含新量”不高 “车海战术”为何愈演愈烈？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10676951.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "地铁免费雨衣，岂可一丢了之",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10676947.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家能源局：7月中国绿证价格指数收于222.8点",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10676911.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "大湾区核心工程狮子洋大桥锚碇主体完工",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10676928.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“品尝鱼子酱同工厂员工交流”普京首次登岛视察 日本急了",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10676921.shtml",
+      "title": "马经义：《红楼梦》于微尘之中见哲理",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677126.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
