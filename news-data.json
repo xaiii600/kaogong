@@ -1,10 +1,60 @@
 {
   "date": "2026-08-13",
-  "time": "14:35",
-  "generatedAt": "2026-08-13T14:35:28.024Z",
+  "time": "18:37",
+  "generatedAt": "2026-08-13T18:37:06.293Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美官员称美国将向中东部署“华盛顿”号航母",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10677336.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宇树科技：网上投资者放弃认购数量8734股",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677332.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗最高领袖顾问：若条件得不到满足 或升级冲突",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10677337.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2025-2026国际篮联少年三人篮球总决赛收官",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677331.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "深耕特色赛事IP，2026丽水国际轮滑赛收官",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677326.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "福州：高温催热“夜经济”",
       "url": "https://www.chinanews.com.cn/tp/2026/08-13/10677306.shtml",
@@ -66,26 +116,6 @@
       ]
     },
     {
-      "title": "“美国Z世代并不担忧中国”！最新报告：大多数美国年轻人不把中国看作威胁……",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10677296.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "成都首笔“算力贷”落地 创新“券贷协同”赋能人工智能企业发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677287.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "舍不得买可直接休学退学？校方通报",
       "url": "https://www.baidu.com/s?wd=%E8%88%8D%E4%B8%8D%E5%BE%97%E4%B9%B0%E5%8F%AF%E7%9B%B4%E6%8E%A5%E4%BC%91%E5%AD%A6%E9%80%80%E5%AD%A6%EF%BC%9F%E6%A0%A1%E6%96%B9%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
@@ -106,6 +136,96 @@
       ]
     },
     {
+      "title": "周星驰新作《功夫女足》登陆香港院线",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677338.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国男篮广东佛山热身赛战胜乌拉圭男篮",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677335.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本关东地区遭遇强降雨",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10677334.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "财经大V齐俊杰，被海南证监局点名",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677333.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全球首单企业类自贸离岸债在上海发行",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677330.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "福建福安一船厂着火后爆炸 造成1名消防救援人员不幸牺牲",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677325.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "法律落地有声 让民族团结扎根结果",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-13/10677324.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年上半年香港商品进出口同比量价齐升",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677323.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "述评：我们为什么需要县级博物馆？",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677320.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "开局起步“十五五”：三亚力推旅游产品迭代升级",
       "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677313.shtml",
       "source": "中国新闻网",
@@ -118,126 +238,6 @@
     {
       "title": "评论：华流就是顶流！成龙让全球影迷爱上中国功夫",
       "url": "https://www.chinanews.com.cn/cul/2026/08-13/10677312.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏积极打造中国第二个省级全域旅游示范区",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677310.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677309.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "皇岗口岸港方口岸区举行首次大型演练",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677294.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中美青少年在青岛携手体验中华传统文化 收获跨国友谊",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-13/10677307.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中秘合营 钱凯港上半年集装箱吞吐量同比增长超七成",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677302.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东南亚水果经中老铁路输华今年已超20万吨",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-13/10677304.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国汽车生产重镇重庆车企出海动作不断",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-13/10677295.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "两岸传媒学子采风河北长城文化和冬奥遗产",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-13/10677300.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "174名攀岩好手江西赣州竞技亚洲青年杯",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677298.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【时光印象】从“看戏”到“入戏” 昆明滇剧解锁新体验",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-13/1200984.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "近150名中韩青少年棋手黄山同台竞技",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677292.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "警惕日本“新型军国主义”毒瘤的“温柔”封面",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-13/10677293.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
