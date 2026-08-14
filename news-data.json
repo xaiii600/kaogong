@@ -1,23 +1,53 @@
 {
   "date": "2026-08-14",
-  "time": "05:11",
-  "generatedAt": "2026-08-14T05:11:04.466Z",
+  "time": "09:30",
+  "generatedAt": "2026-08-14T09:30:50.173Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "经济政策一线微观察｜流水线变风景线，暑期“工厂游”火了",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677530.shtml",
+      "title": "共筑消费新生态 平台与实体并非“你死我活”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677752.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "甘肃省副省长程晓波被查 系主动投案",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677751.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江省温州市人大常委会原副主任梁超接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677746.shtml",
       "source": "中国新闻网",
       "cat": "policy",
-      "score": 2,
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "好评中国 | 新能源汽车“双突破”跑出发展新里程",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-14/10677542.shtml",
+      "title": "俄乌互袭波及粮食出口 乌方提议黑海停火",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-14/10677744.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国首个科幻IP+AI OPC社区在成都正式开园",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677745.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,58 +56,88 @@
       ]
     },
     {
-      "title": "中使馆发布关于中国企业和公民来泰国投资经商的提醒",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-14/10677529.shtml",
+      "title": "北海海关综合技术服务中心2026年实验室仪器设备更新项目（重）（GXGL2026M-X228-Z）竞争性协商公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-14/10677726.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "事业单位"
-      ]
-    },
-    {
-      "title": "2026暑期档电影票房超92亿 “电影+”带动消费新活力",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-14/10677520.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "防卫预算申请额创新高 日本加速“再军事化”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-14/10677477.shtml",
+      "title": "八所海关办公设备定点技术维护项目比选成交公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-14/10677724.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "“上下楼即上下游” 北京中关村具身智能产业加速布局",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677519.shtml",
+      "title": "防城海关二区4#楼拆除工程（重）（项目编号：GGZX2026-ZB-258（重））成交结果公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-14/10677725.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "牛津能源研究所专家：中国新能源发展持续“超额”完成目标",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677479.shtml",
+      "title": "南宁海关基础设施功能恢复项目-凭祥海关竞争性磋商公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-14/10677728.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国最高法发布案例 从源头遏制破坏海洋生态环境行为",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677546.shtml",
+      "title": "北海海关综合技术服务中心2026年实验室仪器设备更新项目（GXGL2026M-X228-Z）采购结果公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-14/10677723.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "甘肃省副省长程晓波主动投案被查",
+      "url": "https://www.baidu.com/s?wd=%E7%94%98%E8%82%83%E7%9C%81%E5%89%AF%E7%9C%81%E9%95%BF%E7%A8%8B%E6%99%93%E6%B3%A2%E4%B8%BB%E5%8A%A8%E6%8A%95%E6%A1%88%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "普京登上俄日争议岛屿 日本拟反制",
+      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E7%99%BB%E4%B8%8A%E4%BF%84%E6%97%A5%E4%BA%89%E8%AE%AE%E5%B2%9B%E5%B1%BF+%E6%97%A5%E6%9C%AC%E6%8B%9F%E5%8F%8D%E5%88%B6",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国男子持长矛冲向警察被当场击毙",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%94%B7%E5%AD%90%E6%8C%81%E9%95%BF%E7%9F%9B%E5%86%B2%E5%90%91%E8%AD%A6%E5%AF%9F%E8%A2%AB%E5%BD%93%E5%9C%BA%E5%87%BB%E6%AF%99",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "双汇捐赠6000余箱肉制品驰援舞阳",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677756.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -86,8 +146,8 @@
       ]
     },
     {
-      "title": "2026年度电影总票房突破250亿！连续34天单日票房过亿",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-14/10677566.shtml",
+      "title": "中国援阿尔及利亚医生“轻装出海”传授纤支镜技术",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677754.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +156,8 @@
       ]
     },
     {
-      "title": "海外侨胞助老侨宅焕新颜 留住“看得见”的乡愁",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-14/10677560.shtml",
+      "title": "智慧农业技术集中亮相长春农博会 助力稳产增产",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677750.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +166,8 @@
       ]
     },
     {
-      "title": "七旬台胞的武汉“快乐咖啡屋”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677558.shtml",
+      "title": "浙江纺企跨界“布局”宠物用品",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677749.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +176,8 @@
       ]
     },
     {
-      "title": "北京地区首个货运品牌班列正式开行",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677551.shtml",
+      "title": "国家体育总局：坚决反对任何形式“追私”行为",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-14/10677753.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +186,8 @@
       ]
     },
     {
-      "title": "（走进中国乡村）河北阜城：房子“折叠”卖　生意“展”全球",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677549.shtml",
+      "title": "国防部：中方将继续在仁爱礁附近海域开展维权执法行动",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677748.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +196,8 @@
       ]
     },
     {
-      "title": "两部门对河南启动国家四级救灾应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677559.shtml",
+      "title": "中国成品油价迎年内“第五降”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677747.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +206,18 @@
       ]
     },
     {
-      "title": "雄忻高铁正线铺轨全部完成",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677557.shtml",
+      "title": "央行：7月末社会融资规模存量为463.27万亿元 同比增长7.4%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677742.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "网红美白淡斑霜能即刻美白？当心引发“激素脸”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-14/10677743.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +226,8 @@
       ]
     },
     {
-      "title": "湖南涟源市杨梅山煤矿发生一起瓦斯突出事故 7人失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677540.shtml",
+      "title": "黄河岸边采摘忙 鸿雁故里奏响丰收“交响曲”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677741.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,78 +236,8 @@
       ]
     },
     {
-      "title": "中吉联合考古队完成首年度舒拉巴夏特古城遗址考古工作",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-14/10677535.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "江西非遗新干剪纸：一把剪刀守匠心 方寸红纸传文脉",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-14/10677533.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "直击河南郏县北汝河段民堤溃口抢险",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677526.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“鱼在积水路上游”“玉米地成河”？别信！均为涉汛谣言",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-14/10677532.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "A股午评：超3400只个股飘绿，沪指收跌，深指、创业板指收涨",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677524.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "【“十五五”开好局起好步】我国全面推进美丽中国建设",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677507.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“林肯”号官兵处境引不满，美参院民主党领袖吁立即罢免防长",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-14/10677525.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国车在欧洲“跑”得有多快？欧洲对华电动汽车认知逆转的背后",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-14/10677458.shtml",
+      "title": "违法违规收集使用个人信息 75款移动应用被点名",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-14/10677738.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
