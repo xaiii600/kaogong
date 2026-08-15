@@ -1,83 +1,23 @@
 {
   "date": "2026-08-15",
-  "time": "06:01",
-  "generatedAt": "2026-08-15T06:01:27.335Z",
+  "time": "07:47",
+  "generatedAt": "2026-08-15T07:47:42.064Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "云南省华宁县通报民船侧翻事件搜救进展：1人获救、5人失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678151.shtml",
+      "title": "特朗普声称将宣布霍尔木兹海峡为美国领土 伊朗回应",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678130.shtml",
       "source": "中国新闻网",
-      "cat": "hot",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "“凉资源”变“热产业” 云南昭通旅居经济渐入佳境",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678147.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（文化中国行）从一块石头到一套方法：中国石质文物保护的创新破题",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-15/10678139.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（经济观察）中国咖啡市场持续看涨 海南或成全球咖啡入华新通道",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678137.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "粤桂协作再落子 三江林下经济湾区觅商机",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678125.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "会“思考”的农机在长春农博会登场 AI重塑耕作模式",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678129.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "年轻人最解气的事：把领导做成AI桌宠",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%9C%80%E8%A7%A3%E6%B0%94%E7%9A%84%E4%BA%8B%EF%BC%9A%E6%8A%8A%E9%A2%86%E5%AF%BC%E5%81%9A%E6%88%90AI%E6%A1%8C%E5%AE%A0",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部回应日本政要参拜靖国神社",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E6%94%BF%E8%A6%81%E5%8F%82%E6%8B%9C%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE",
+      "title": "外交部：严正交涉、强烈抗议",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E4%B8%A5%E6%AD%A3%E4%BA%A4%E6%B6%89%E3%80%81%E5%BC%BA%E7%83%88%E6%8A%97%E8%AE%AE",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -86,8 +26,18 @@
       ]
     },
     {
-      "title": "河南周口市防汛抗旱指挥部：贾鲁河周口段溃口目前可控",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678171.shtml",
+      "title": "女子在洱海边刷洗鞋子 大理通报",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%9C%A8%E6%B4%B1%E6%B5%B7%E8%BE%B9%E5%88%B7%E6%B4%97%E9%9E%8B%E5%AD%90+%E5%A4%A7%E7%90%86%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "焦点访谈｜联动防灾 跨省四市一盘棋",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678209.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +46,8 @@
       ]
     },
     {
-      "title": "印尼弗洛勒斯岛附近海域发生7.7级地震 周边城镇房屋倒塌民众撤离",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-15/1201135.shtml",
+      "title": "侵华日军南京暴行再添新证 日军士兵亲笔信记载“杀了一万多”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678208.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +56,8 @@
       ]
     },
     {
-      "title": "从“河长制”到“河湖长制” 浙江河湖治理再升级",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678169.shtml",
+      "title": "习近平：提高防灾减灾救灾能力",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678207.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +66,8 @@
       ]
     },
     {
-      "title": "“雪城”牡丹江：集体婚礼倡新风  边城七夕情意浓",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678166.shtml",
+      "title": "印尼7.7级地震：暂无外国公民伤亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678178.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +76,8 @@
       ]
     },
     {
-      "title": "第十届南昌赛艇大师赛开赛 近500名中外选手逐浪青山湖",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678165.shtml",
+      "title": "胡塞武装称袭击也门摩卡港及沙特南部石油设施",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678182.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +86,8 @@
       ]
     },
     {
-      "title": "从“惩治”走向“修复”：黑龙江法院以恢复性司法探索生态保护新路径",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678164.shtml",
+      "title": "印尼东努沙登加拉省长：地震死亡人数增至5人",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678161.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +96,8 @@
       ]
     },
     {
-      "title": "光源与中子源2026年联合用户学术年会举行",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678163.shtml",
+      "title": "秘鲁模拟8.8级地震及海啸抗灾   专家吁持续开展防灾应急演习",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678136.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +106,8 @@
       ]
     },
     {
-      "title": "截至目前广州发放家政“安心服务证”11万张",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678162.shtml",
+      "title": "南京大屠杀再添史料新证",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678206.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +116,8 @@
       ]
     },
     {
-      "title": "直播海报：河南贾鲁河堤防发生溃口 直击封堵现场及安置点",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678159.shtml",
+      "title": "孟加拉国一拆船厂发生有毒气体泄漏造成9人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678134.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +126,8 @@
       ]
     },
     {
-      "title": "直播：河南贾鲁河堤防发生溃口 直击封堵现场及安置点",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-15/10678156.shtml",
+      "title": "美军“林肯”号航母将返航轮换",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678132.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +136,8 @@
       ]
     },
     {
-      "title": "侧记：一纸捷报跨海峡，台湾青年重走“进京赶考”路",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678154.shtml",
+      "title": "印尼官方解析7.7级地震：系弗洛勒斯弧后逆冲断层活动引发",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678121.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +146,8 @@
       ]
     },
     {
-      "title": "带着外公遗愿再出发 台湾学子11天重走科举路留下“下次再来”约定",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678153.shtml",
+      "title": "河南周口堤防溃口，医院、驾校被淹，紧急封堵现场视频→",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678204.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +156,8 @@
       ]
     },
     {
-      "title": "生态环境法典护航美丽中国和美好生活",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678152.shtml",
+      "title": "高市早苗向靖国神社供奉“玉串料” 内阁大臣及自民党高层多人参拜",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678131.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +166,8 @@
       ]
     },
     {
-      "title": "“午后泰风情”活动在南宁举办 民众尽享“舌尖上的泰国”",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-15/10678148.shtml",
+      "title": "第16期《求是》杂志发表习近平总书记重要文章",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678203.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +176,8 @@
       ]
     },
     {
-      "title": "走向多面中国 华裔青少年在华研学更具参与感",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-15/10678143.shtml",
+      "title": "印尼解除7.7级地震引发的海啸预警",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678107.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +186,58 @@
       ]
     },
     {
-      "title": "聚焦气候韧性农业 第十四届亚洲玉米大会在蓉开幕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678144.shtml",
+      "title": "尼泊尔青年分享首次参加全球青年模联经历",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678085.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "两部门将针对江苏的防汛四级应急响应提升至三级",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678202.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "直击河南周口贾鲁河溃口封堵现场：多方力量昼夜攻坚",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678199.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西南宁梦幻光影夜引客来",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-15/10678174.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "微视频｜以史为鉴 面向未来",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678160.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "和谐共生｜为美丽中国增绿添彩",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678158.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
