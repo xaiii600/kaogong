@@ -1,7 +1,7 @@
 {
   "date": "2026-08-15",
-  "time": "13:46",
-  "generatedAt": "2026-08-15T13:46:33.220Z",
+  "time": "14:59",
+  "generatedAt": "2026-08-15T14:59:48.117Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -11,6 +11,26 @@
       "source": "百度热搜",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "莫言刷短剧拒绝“套路” 谈AI有体会",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-15/10678432.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国官方发布推动生态环境损害赔偿制度改革进程十大案例",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678424.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -46,36 +66,6 @@
       ]
     },
     {
-      "title": "9国青年相聚塞上 2026宁夏国际青年友谊营银川启幕",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-15/10678383.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“俄罗斯制造”节庆集市首登天津 主打“达恰”田园风情",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678365.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中消协提出50条行动建议  引导绿色消费行为",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678375.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "唐钱婷0.03秒绝杀美国名将西罗基",
       "url": "https://www.baidu.com/s?wd=%E5%94%90%E9%92%B1%E5%A9%B70.03%E7%A7%92%E7%BB%9D%E6%9D%80%E7%BE%8E%E5%9B%BD%E5%90%8D%E5%B0%86%E8%A5%BF%E7%BD%97%E5%9F%BA",
       "source": "百度热搜",
@@ -96,6 +86,16 @@
       ]
     },
     {
+      "title": "OpenAI遭遇最剧烈高层震荡",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "河南一银行违规致低保户背40万贷款",
       "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E4%B8%80%E9%93%B6%E8%A1%8C%E8%BF%9D%E8%A7%84%E8%87%B4%E4%BD%8E%E4%BF%9D%E6%88%B7%E8%83%8C40%E4%B8%87%E8%B4%B7%E6%AC%BE",
       "source": "百度热搜",
@@ -106,8 +106,88 @@
       ]
     },
     {
+      "title": "日本民众游行反对政客参拜靖国神社",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678425.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "印尼7.7级地震已致47人死亡 3名中国游客受轻伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "毛乌素的雨，落在世界青年的肩头",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678429.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026海峡两岸（南昌）青年棒垒球交流活动开幕",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678423.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026两岸青年企业家菁英论坛暨两岸青年研学交流活动在江苏昆山举办",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678421.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "调查显示：柬埔寨青年对中柬人文交流认知大幅正向提升",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678420.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩国朝野抨击日本政要参拜靖国神社",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678419.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "台气象部门：台湾东部海域发生5.2级地震",
       "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678415.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【活力中国调研行】张家界“文化名片”发力 欧美游客大涨",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-15/news1065537.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -158,86 +238,6 @@
     {
       "title": "“生态统计智能体”在江西发布",
       "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678410.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "院士专家重庆共论具身智能发展新路径",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678397.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "浙博《金石书画》第八期开展 展出南宋拓本与王阳明绝笔",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-15/10678400.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "文旅观察：年轻人夜间“拼蟹”怎么成了旅游新风尚？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678406.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世台联主席弗格森：中国已成斯诺克核心阵地",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678404.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "林芝消防救援机动支队开展实战训练 夯实高海拔全域机动救援核心能力",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678401.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东西问丨李小平：音乐剧《黑旗令》何以牵动两岸共同家国情怀？",
-      "url": "https://www.chinanews.com.cn/dxw/2026/08-15/10678393.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中新健康｜关灯侧躺刷手机，正在悄悄毁掉你的眼睛",
-      "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-15/news1065525.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "近思录·到2035年建成健康中国，为什么关键在走对路？",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678380.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
