@@ -1,7 +1,7 @@
 {
   "date": "2026-08-15",
-  "time": "22:58",
-  "generatedAt": "2026-08-15T22:58:33.662Z",
+  "time": "23:55",
+  "generatedAt": "2026-08-15T23:55:50.611Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -10,16 +10,6 @@
       "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678434.shtml",
       "source": "中国新闻网",
       "cat": "tech",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国大模型帮日本对AI进行投毒",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B8%AE%E6%97%A5%E6%9C%AC%E5%AF%B9AI%E8%BF%9B%E8%A1%8C%E6%8A%95%E6%AF%92",
-      "source": "百度热搜",
-      "cat": "international",
       "score": 2,
       "exams": [
         "申论素材"
@@ -76,20 +66,10 @@
       ]
     },
     {
-      "title": "（活力中国调研行）当一座内陆小城建设国际港",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678395.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国20家行业协会发布绿色低碳行动倡议",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678394.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
+      "title": "“AI神童”爆仓引发连锁反应",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E7%A5%9E%E7%AB%A5%E2%80%9D%E7%88%86%E4%BB%93%E5%BC%95%E5%8F%91%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,16 +96,6 @@
       ]
     },
     {
-      "title": "中使馆通报留学生在摩洛哥遭伤害",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BD%BF%E9%A6%86%E9%80%9A%E6%8A%A5%E7%95%99%E5%AD%A6%E7%94%9F%E5%9C%A8%E6%91%A9%E6%B4%9B%E5%93%A5%E9%81%AD%E4%BC%A4%E5%AE%B3",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "OpenAI遭遇最剧烈高层震荡",
       "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
       "source": "百度热搜",
@@ -136,21 +106,21 @@
       ]
     },
     {
-      "title": "AI女主发美瞳广告称戴着舒服引质疑",
-      "url": "https://www.baidu.com/s?wd=AI%E5%A5%B3%E4%B8%BB%E5%8F%91%E7%BE%8E%E7%9E%B3%E5%B9%BF%E5%91%8A%E7%A7%B0%E6%88%B4%E7%9D%80%E8%88%92%E6%9C%8D%E5%BC%95%E8%B4%A8%E7%96%91",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "塞尔比与泰国“黑马”桑卡姆会师斯诺克中国公开赛决赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-16/10678445.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "国际人士批评日本歪曲历史",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E4%BA%BA%E5%A3%AB%E6%89%B9%E8%AF%84%E6%97%A5%E6%9C%AC%E6%AD%AA%E6%9B%B2%E5%8E%86%E5%8F%B2",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "8月16日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-16/10678444.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -238,6 +208,36 @@
     {
       "title": "印尼7.7级地震已致47人死亡 3名中国游客受轻伤",
       "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "毛乌素的雨，落在世界青年的肩头",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678429.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026海峡两岸（南昌）青年棒垒球交流活动开幕",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678423.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026两岸青年企业家菁英论坛暨两岸青年研学交流活动在江苏昆山举办",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678421.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
