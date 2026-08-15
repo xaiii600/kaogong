@@ -1,7 +1,7 @@
 {
   "date": "2026-08-15",
-  "time": "21:56",
-  "generatedAt": "2026-08-15T21:56:37.072Z",
+  "time": "22:58",
+  "generatedAt": "2026-08-15T22:58:33.662Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -21,6 +21,16 @@
       "source": "百度热搜",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国队在第38届国际信息学奥赛斩获3金1银",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678442.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -86,30 +96,20 @@
       ]
     },
     {
-      "title": "官方通报智残人员被拉去做眼部手术",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E6%99%BA%E6%AE%8B%E4%BA%BA%E5%91%98%E8%A2%AB%E6%8B%89%E5%8E%BB%E5%81%9A%E7%9C%BC%E9%83%A8%E6%89%8B%E6%9C%AF",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI女主发美瞳广告称戴着舒服引质疑",
-      "url": "https://www.baidu.com/s?wd=AI%E5%A5%B3%E4%B8%BB%E5%8F%91%E7%BE%8E%E7%9E%B3%E5%B9%BF%E5%91%8A%E7%A7%B0%E6%88%B4%E7%9D%80%E8%88%92%E6%9C%8D%E5%BC%95%E8%B4%A8%E7%96%91",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "“龙餐馆”其实不在中东在山东",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%BE%99%E9%A4%90%E9%A6%86%E2%80%9D%E5%85%B6%E5%AE%9E%E4%B8%8D%E5%9C%A8%E4%B8%AD%E4%B8%9C%E5%9C%A8%E5%B1%B1%E4%B8%9C",
       "source": "百度热搜",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "官方通报智残人员被拉去做眼部手术",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E6%99%BA%E6%AE%8B%E4%BA%BA%E5%91%98%E8%A2%AB%E6%8B%89%E5%8E%BB%E5%81%9A%E7%9C%BC%E9%83%A8%E6%89%8B%E6%9C%AF",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -126,6 +126,26 @@
       ]
     },
     {
+      "title": "OpenAI遭遇最剧烈高层震荡",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI女主发美瞳广告称戴着舒服引质疑",
+      "url": "https://www.baidu.com/s?wd=AI%E5%A5%B3%E4%B8%BB%E5%8F%91%E7%BE%8E%E7%9E%B3%E5%B9%BF%E5%91%8A%E7%A7%B0%E6%88%B4%E7%9D%80%E8%88%92%E6%9C%8D%E5%BC%95%E8%B4%A8%E7%96%91",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "国际人士批评日本歪曲历史",
       "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E4%BA%BA%E5%A3%AB%E6%89%B9%E8%AF%84%E6%97%A5%E6%9C%AC%E6%AD%AA%E6%9B%B2%E5%8E%86%E5%8F%B2",
       "source": "百度热搜",
@@ -136,11 +156,21 @@
       ]
     },
     {
-      "title": "OpenAI遭遇最剧烈高层震荡",
-      "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "以色列空袭黎巴嫩 造成11人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678443.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "职场新人入职签约要注意什么",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678441.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -208,36 +238,6 @@
     {
       "title": "印尼7.7级地震已致47人死亡 3名中国游客受轻伤",
       "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "毛乌素的雨，落在世界青年的肩头",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678429.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026海峡两岸（南昌）青年棒垒球交流活动开幕",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678423.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026两岸青年企业家菁英论坛暨两岸青年研学交流活动在江苏昆山举办",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678421.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
