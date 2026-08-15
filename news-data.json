@@ -1,16 +1,36 @@
 {
   "date": "2026-08-15",
-  "time": "14:59",
-  "generatedAt": "2026-08-15T14:59:48.117Z",
+  "time": "15:56",
+  "generatedAt": "2026-08-15T15:56:21.634Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "2026海峡两岸（福州）青少年科技教育交流会在福州开幕",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678434.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "美国大模型帮日本对AI进行投毒",
       "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B8%AE%E6%97%A5%E6%9C%AC%E5%AF%B9AI%E8%BF%9B%E8%A1%8C%E6%8A%95%E6%AF%92",
       "source": "百度热搜",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国使馆：日政要参拜靖国神社严重挑战战后国际秩序",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678435.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -66,6 +86,16 @@
       ]
     },
     {
+      "title": "OpenAI遭遇最剧烈高层震荡",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "唐钱婷0.03秒绝杀美国名将西罗基",
       "url": "https://www.baidu.com/s?wd=%E5%94%90%E9%92%B1%E5%A9%B70.03%E7%A7%92%E7%BB%9D%E6%9D%80%E7%BE%8E%E5%9B%BD%E5%90%8D%E5%B0%86%E8%A5%BF%E7%BD%97%E5%9F%BA",
       "source": "百度热搜",
@@ -86,21 +116,11 @@
       ]
     },
     {
-      "title": "OpenAI遭遇最剧烈高层震荡",
-      "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "河南一银行违规致低保户背40万贷款",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E4%B8%80%E9%93%B6%E8%A1%8C%E8%BF%9D%E8%A7%84%E8%87%B4%E4%BD%8E%E4%BF%9D%E6%88%B7%E8%83%8C40%E4%B8%87%E8%B4%B7%E6%AC%BE",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
+      "title": "洪秀柱：大海是连接两岸同胞的天然纽带",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678433.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -218,26 +238,6 @@
     {
       "title": "中国地震局：印尼7.7级地震区域板块汇聚作用强烈",
       "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678412.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "斯诺克中国公开赛：周跃龙憾负泰国“黑马”无缘决赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678411.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“生态统计智能体”在江西发布",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678410.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
