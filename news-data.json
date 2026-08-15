@@ -1,65 +1,75 @@
 {
   "date": "2026-08-15",
-  "time": "11:54",
-  "generatedAt": "2026-08-15T11:54:38.087Z",
+  "time": "13:46",
+  "generatedAt": "2026-08-15T13:46:33.220Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "中国驻摩洛哥大使馆通报关于中国留学生在摩案件进展",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-15/10678325.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
+      "title": "美国大模型帮日本对AI进行投毒",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B8%AE%E6%97%A5%E6%9C%AC%E5%AF%B9AI%E8%BF%9B%E8%A1%8C%E6%8A%95%E6%AF%92",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "厚植绿色底色！一组数据解锁中国生态新图景",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678334.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国人大代表崔丽枝：深耕菌菇富民路  赋能乡村谋发展",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678331.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "好评中国｜AI长图：守护美丽中国，共绘人与自然和谐共生新画卷",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678320.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西医保影像云归集数据破千万例",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-15/10678310.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（友城故事）新疆喀什国际友城“朋友圈”扩容",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678305.shtml",
+      "title": "（活力中国调研行）当一座内陆小城建设国际港",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678395.shtml",
       "source": "中国新闻网",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国20家行业协会发布绿色低碳行动倡议",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678394.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（经济观察）中国信贷结构持续调整 对实体经济支持力度不减",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678396.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "9国青年相聚塞上 2026宁夏国际青年友谊营银川启幕",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-15/10678383.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“俄罗斯制造”节庆集市首登天津 主打“达恰”田园风情",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678365.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中消协提出50条行动建议  引导绿色消费行为",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678375.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,8 +86,28 @@
       ]
     },
     {
-      "title": "“草原侨乡”鲜光村：镜头两端的烟火与温情",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678335.shtml",
+      "title": "美国一大学发生枪击事件 多人中枪",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E5%A4%A7%E5%AD%A6%E5%8F%91%E7%94%9F%E6%9E%AA%E5%87%BB%E4%BA%8B%E4%BB%B6+%E5%A4%9A%E4%BA%BA%E4%B8%AD%E6%9E%AA",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "河南一银行违规致低保户背40万贷款",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E4%B8%80%E9%93%B6%E8%A1%8C%E8%BF%9D%E8%A7%84%E8%87%B4%E4%BD%8E%E4%BF%9D%E6%88%B7%E8%83%8C40%E4%B8%87%E8%B4%B7%E6%AC%BE",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台气象部门：台湾东部海域发生5.2级地震",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678415.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -86,8 +116,8 @@
       ]
     },
     {
-      "title": "原煤炭工业合肥设计研究院党委书记曹荣平接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678319.shtml",
+      "title": "中国生态日主场活动展示绿色发展新图景",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678414.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +126,8 @@
       ]
     },
     {
-      "title": "淮河防总、淮委调整淮河流域应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678314.shtml",
+      "title": "台湾民间举行纪念活动缅怀抗日先贤",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678413.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +136,8 @@
       ]
     },
     {
-      "title": "三预警齐发 四川北部、甘肃南部局地发生山洪灾害可能性较大",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678292.shtml",
+      "title": "中国地震局：印尼7.7级地震区域板块汇聚作用强烈",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678412.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +146,8 @@
       ]
     },
     {
-      "title": "山西晋中：暴雨过后，消防员变身“摆渡人”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678333.shtml",
+      "title": "斯诺克中国公开赛：周跃龙憾负泰国“黑马”无缘决赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678411.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +156,8 @@
       ]
     },
     {
-      "title": "2026年全国生态日广西水土保持宣传活动在百色举办",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678328.shtml",
+      "title": "“生态统计智能体”在江西发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678410.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +166,8 @@
       ]
     },
     {
-      "title": "两岸及港澳青少年在香港同台竞技以茶会友",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-15/10678330.shtml",
+      "title": "院士专家重庆共论具身智能发展新路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-15/10678397.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "2026暑期档电影票房超95亿 “下半场”势头依旧强劲",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-15/10678329.shtml",
+      "title": "浙博《金石书画》第八期开展 展出南宋拓本与王阳明绝笔",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-15/10678400.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "2026全国五人制棒球俱乐部锦标赛在银川开赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678327.shtml",
+      "title": "文旅观察：年轻人夜间“拼蟹”怎么成了旅游新风尚？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678406.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "宁夏启动“铸牢中华民族共同体意识主题展”巡展活动 首站落地吴忠",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-15/10678326.shtml",
+      "title": "世台联主席弗格森：中国已成斯诺克核心阵地",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678404.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "刘家峡水电厂：半世愚公播翠色 一湖碧水映黄河",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678324.shtml",
+      "title": "林芝消防救援机动支队开展实战训练 夯实高海拔全域机动救援核心能力",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678401.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "以色列空袭黎巴嫩南部造成7人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678308.shtml",
+      "title": "东西问丨李小平：音乐剧《黑旗令》何以牵动两岸共同家国情怀？",
+      "url": "https://www.chinanews.com.cn/dxw/2026/08-15/10678393.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "印尼苏门答腊岛发生6.8级地震 震源深度170千米",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678323.shtml",
+      "title": "中新健康｜关灯侧躺刷手机，正在悄悄毁掉你的眼睛",
+      "url": "http://www.chinanews.com.cn/sh/shipin/2026/08-15/news1065525.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,38 +236,8 @@
       ]
     },
     {
-      "title": "印尼北苏门答腊省发生6.8级地震",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678321.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国二连浩特至蒙古国扎门乌德跨境一日游开通",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678315.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "皇岗口岸港方口岸区举行第二次大型演练和反恐及重大事故演习",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-15/10678316.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "好评中国|未来网评：“典”亮生态画卷，汇聚共建美丽中国磅礴力量",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-15/10678318.shtml",
+      "title": "近思录·到2035年建成健康中国，为什么关键在走对路？",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678380.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
