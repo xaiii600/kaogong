@@ -1,7 +1,7 @@
 {
   "date": "2026-08-15",
-  "time": "20:59",
-  "generatedAt": "2026-08-15T20:59:32.116Z",
+  "time": "21:56",
+  "generatedAt": "2026-08-15T21:56:37.072Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -21,6 +21,16 @@
       "source": "百度热搜",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "厄瓜多尔总统诺沃亚抵达北京 开启访华行程",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678440.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -86,10 +96,30 @@
       ]
     },
     {
+      "title": "AI女主发美瞳广告称戴着舒服引质疑",
+      "url": "https://www.baidu.com/s?wd=AI%E5%A5%B3%E4%B8%BB%E5%8F%91%E7%BE%8E%E7%9E%B3%E5%B9%BF%E5%91%8A%E7%A7%B0%E6%88%B4%E7%9D%80%E8%88%92%E6%9C%8D%E5%BC%95%E8%B4%A8%E7%96%91",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "“龙餐馆”其实不在中东在山东",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%BE%99%E9%A4%90%E9%A6%86%E2%80%9D%E5%85%B6%E5%AE%9E%E4%B8%8D%E5%9C%A8%E4%B8%AD%E4%B8%9C%E5%9C%A8%E5%B1%B1%E4%B8%9C",
       "source": "百度热搜",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中使馆通报留学生在摩洛哥遭伤害",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BD%BF%E9%A6%86%E9%80%9A%E6%8A%A5%E7%95%99%E5%AD%A6%E7%94%9F%E5%9C%A8%E6%91%A9%E6%B4%9B%E5%93%A5%E9%81%AD%E4%BC%A4%E5%AE%B3",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -108,26 +138,6 @@
     {
       "title": "OpenAI遭遇最剧烈高层震荡",
       "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中使馆通报留学生在摩洛哥遭伤害",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BD%BF%E9%A6%86%E9%80%9A%E6%8A%A5%E7%95%99%E5%AD%A6%E7%94%9F%E5%9C%A8%E6%91%A9%E6%B4%9B%E5%93%A5%E9%81%AD%E4%BC%A4%E5%AE%B3",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI女主发美瞳广告称戴着舒服引质疑",
-      "url": "https://www.baidu.com/s?wd=AI%E5%A5%B3%E4%B8%BB%E5%8F%91%E7%BE%8E%E7%9E%B3%E5%B9%BF%E5%91%8A%E7%A7%B0%E6%88%B4%E7%9D%80%E8%88%92%E6%9C%8D%E5%BC%95%E8%B4%A8%E7%96%91",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -228,16 +238,6 @@
     {
       "title": "2026两岸青年企业家菁英论坛暨两岸青年研学交流活动在江苏昆山举办",
       "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678421.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "调查显示：柬埔寨青年对中柬人文交流认知大幅正向提升",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678420.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
