@@ -1,20 +1,10 @@
 {
   "date": "2026-08-16",
-  "time": "15:00",
-  "generatedAt": "2026-08-16T15:00:48.803Z",
+  "time": "15:57",
+  "generatedAt": "2026-08-16T15:57:45.426Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
-    {
-      "title": "AI公司或在抢购未经污染的二手书",
-      "url": "https://www.baidu.com/s?wd=AI%E5%85%AC%E5%8F%B8%E6%88%96%E5%9C%A8%E6%8A%A2%E8%B4%AD%E6%9C%AA%E7%BB%8F%E6%B1%A1%E6%9F%93%E7%9A%84%E4%BA%8C%E6%89%8B%E4%B9%A6",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
     {
       "title": "日媒：高市政权回避历史反省 要警惕其“回归战前”的政策动向",
       "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml",
@@ -86,16 +76,6 @@
       ]
     },
     {
-      "title": "不断攀升！多组数据透视中国出口含“新”量含“绿”量",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678761.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "南极冰川现“神秘生物”系AI生成",
       "url": "https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E7%8E%B0%E2%80%9C%E7%A5%9E%E7%A7%98%E7%94%9F%E7%89%A9%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90",
       "source": "百度热搜",
@@ -116,21 +96,21 @@
       ]
     },
     {
-      "title": "日本人战斗分队在乌成立 与俄军作战",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%88%98%E6%96%97%E5%88%86%E9%98%9F%E5%9C%A8%E4%B9%8C%E6%88%90%E7%AB%8B+%E4%B8%8E%E4%BF%84%E5%86%9B%E4%BD%9C%E6%88%98",
+      "title": "盘点2026年十大最佳AI视频作品",
+      "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B92026%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%9C%80%E4%BD%B3AI%E8%A7%86%E9%A2%91%E4%BD%9C%E5%93%81",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "盘点2026年十大最佳AI视频作品",
-      "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B92026%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%9C%80%E4%BD%B3AI%E8%A7%86%E9%A2%91%E4%BD%9C%E5%93%81",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "赛事类型多样，超5000名“勇士”齐聚崇礼",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-16/10678796.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -238,6 +218,26 @@
     {
       "title": "好评中国丨2291万入境客的账单：老外们的“Chinamaxxing”都max了些啥？",
       "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678777.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "巴西里约州举行“中国友好日”庆祝活动",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-16/10678772.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【好评中国】东湖评论丨防灾前置，方能从容应对",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678778.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
