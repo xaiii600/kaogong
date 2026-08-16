@@ -1,20 +1,10 @@
 {
   "date": "2026-08-16",
-  "time": "11:56",
-  "generatedAt": "2026-08-16T11:56:49.101Z",
+  "time": "13:47",
+  "generatedAt": "2026-08-16T13:47:54.336Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
-    {
-      "title": "直播：行走美丽画卷｜俄罗斯女孩闯入南京“画中仙山”：曾经的矿坑逆袭成零碳景区",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-16/10678695.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
     {
       "title": "乌军称打击俄火箭航天中心",
       "url": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%86%9B%E7%A7%B0%E6%89%93%E5%87%BB%E4%BF%84%E7%81%AB%E7%AE%AD%E8%88%AA%E5%A4%A9%E4%B8%AD%E5%BF%83",
@@ -26,40 +16,90 @@
       ]
     },
     {
-      "title": "滩涂十年变“粮仓”：三亚崖州中心渔港打造产城融合渔港经济区",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678725.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（长征胜利90周年）走进中央红军长征集结出发地江西于都",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-16/10678655.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "活力中国调研行丨夜间文旅消费超4800亿元 湖南古镇这样留住游客的夜晚",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678687.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "良好生态环境是最普惠的民生福祉",
-      "url": "https://www.baidu.com/s?wd=%E8%89%AF%E5%A5%BD%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83%E6%98%AF%E6%9C%80%E6%99%AE%E6%83%A0%E7%9A%84%E6%B0%91%E7%94%9F%E7%A6%8F%E7%A5%89",
+      "title": "AI公司或在抢购未经污染的二手书",
+      "url": "https://www.baidu.com/s?wd=AI%E5%85%AC%E5%8F%B8%E6%88%96%E5%9C%A8%E6%8A%A2%E8%B4%AD%E6%9C%AA%E7%BB%8F%E6%B1%A1%E6%9F%93%E7%9A%84%E4%BA%8C%E6%89%8B%E4%B9%A6",
       "source": "百度热搜",
-      "cat": "society",
+      "cat": "tech",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日政要参拜靖国神社遭国际社会强烈反对",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678786.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国际锐评丨中国为什么值得“反复探索”？",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678781.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "共创1000个AI场景 上海交大成立AI时代商科人才培养联盟",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-16/10678776.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "北斗时空安全产业平台落地长沙 共建共享推动特色产业集群建设",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678775.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "学者：AI革命的下半场将是技术对个人赋能",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678759.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特稿｜开放发展、可靠担当、魅力十足——国际人士眼里的中国",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678763.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "不断攀升！多组数据透视中国出口含“新”量含“绿”量",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678761.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "南极冰川现“神秘生物”系AI生成",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E7%8E%B0%E2%80%9C%E7%A5%9E%E7%A7%98%E7%94%9F%E7%89%A9%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,50 +116,10 @@
       ]
     },
     {
-      "title": "美国一女子骑车摔入桥下被吸入涵洞",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E5%A5%B3%E5%AD%90%E9%AA%91%E8%BD%A6%E6%91%94%E5%85%A5%E6%A1%A5%E4%B8%8B%E8%A2%AB%E5%90%B8%E5%85%A5%E6%B6%B5%E6%B4%9E",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "王祖贤：我们是用AI不是被AI用",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E7%A5%96%E8%B4%A4%EF%BC%9A%E6%88%91%E4%BB%AC%E6%98%AF%E7%94%A8AI%E4%B8%8D%E6%98%AF%E8%A2%ABAI%E7%94%A8",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "于东来打卡小饭店消费380硬要付600",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%89%93%E5%8D%A1%E5%B0%8F%E9%A5%AD%E5%BA%97%E6%B6%88%E8%B4%B9380%E7%A1%AC%E8%A6%81%E4%BB%98600",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "张朝阳：我从来不看AI漫剧",
       "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E6%9C%9D%E9%98%B3%EF%BC%9A%E6%88%91%E4%BB%8E%E6%9D%A5%E4%B8%8D%E7%9C%8BAI%E6%BC%AB%E5%89%A7",
       "source": "百度热搜",
       "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "手机壳 医疗垃圾",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E5%A3%B3+%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE",
-      "source": "百度热搜",
-      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "title": "澳大利亚新州将实施枪支回购计划  涉及约5万人",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678700.shtml",
+      "title": "新起点、新机遇、新突破——澳门各界期盼“三五”规划开创高质量发展新局面",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-16/10678788.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +146,8 @@
       ]
     },
     {
-      "title": "珠海边检总站护航南海开渔 750余艘港澳流动渔船高效通关",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678709.shtml",
+      "title": "我的新疆日记·第五天|北庭与天山，在遗址与群山之间",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-16/10678787.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +156,8 @@
       ]
     },
     {
-      "title": "广东海警护航渔民撒下“金秋第一网”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678715.shtml",
+      "title": "多家日媒：高市政权回避历史反省 要警惕其“回归战前”倾向",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678784.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "title": "第35届海宁家博会特写：从“一块布”到“一座城”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678718.shtml",
+      "title": "一店卖全球，跨境电商推动中国制造加速出海",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678783.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "搭乘神舟六号遨游太空的太阳神鸟蜀绣作品在成都亮相",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678720.shtml",
+      "title": "司机隧道口停车盖雨布 民警声嘶力竭劝离",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-16/news1065605.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "日本千叶县暴雨已致10人死亡 约1500栋房屋被淹",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678732.shtml",
+      "title": "《给阿嬷的情书》台湾首映掀观影热 区桂芝：片名中的“阿嬷”足以触动观众",
+      "url": "http://www.chinanews.com.cn/yl/shipin/cns-d/2026/08-16/news1065604.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "天津口岸首次截获外来物种佛氏圆尾鳉鱼卵",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678721.shtml",
+      "title": "（活力中国调研行）湖南湘西“挤满”外国人",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678773.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "鹤岗双赛联动：林海奔跑与炭火烟火解锁“流量变留量”的文旅密码",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678717.shtml",
+      "title": "山水间的清凉，海河边的美景——老外感叹津门魅力",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678779.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "寻脉古韵筑梦未来 在京台胞中小学生暑期研学活动启幕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678705.shtml",
+      "title": "西藏青藏高原作物种质资源中期库保存青稞资源10000余份",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678771.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "北大学者在全国生态日对谈 从博物学家传记入手重拾自然初心",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678703.shtml",
+      "title": "好评中国丨2291万入境客的账单：老外们的“Chinamaxxing”都max了些啥？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678777.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "千帆竞发赴渔场 福建漳州海警为开渔保驾护航",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678701.shtml",
+      "title": "巴西里约州举行“中国友好日”庆祝活动",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-16/10678772.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
