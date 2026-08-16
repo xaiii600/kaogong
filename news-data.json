@@ -1,53 +1,23 @@
 {
-  "date": "2026-08-15",
-  "time": "23:55",
-  "generatedAt": "2026-08-15T23:55:50.611Z",
+  "date": "2026-08-16",
+  "time": "03:30",
+  "generatedAt": "2026-08-16T03:30:02.073Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "2026海峡两岸（福州）青少年科技教育交流会在福州开幕",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678434.shtml",
+      "title": "国家发展改革委：扎实开展碳达峰行动",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678526.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "policy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国队在第38届国际信息学奥赛斩获3金1银",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678442.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "厄瓜多尔总统诺沃亚抵达北京 开启访华行程",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678440.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国使馆：日政要参拜靖国神社严重挑战战后国际秩序",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678435.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "莫言刷短剧拒绝“套路” 谈AI有体会",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-15/10678432.shtml",
+      "title": "青岛警方：男子利用AI技术编造涉青岛大学校徽谣言 已被行拘",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678512.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -56,10 +26,50 @@
       ]
     },
     {
-      "title": "中国官方发布推动生态环境损害赔偿制度改革进程十大案例",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678424.shtml",
+      "title": "中俄12支篮球队伍竞技“赫哲故里”同江",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-16/10678508.shtml",
       "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“中国为全球防治荒漠化作出重要贡献”——访《联合国防治荒漠化公约》秘书处执行秘书福阿德",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678529.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "于东来打卡小饭店消费380硬要付600",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%89%93%E5%8D%A1%E5%B0%8F%E9%A5%AD%E5%BA%97%E6%B6%88%E8%B4%B9380%E7%A1%AC%E8%A6%81%E4%BB%98600",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中央考核巡查组当场戳破弄虚造假",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E8%80%83%E6%A0%B8%E5%B7%A1%E6%9F%A5%E7%BB%84%E5%BD%93%E5%9C%BA%E6%88%B3%E7%A0%B4%E5%BC%84%E8%99%9A%E9%80%A0%E5%81%87",
+      "source": "百度热搜",
       "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国洛杉矶夜市 东北味拉满",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%B4%9B%E6%9D%89%E7%9F%B6%E5%A4%9C%E5%B8%82+%E4%B8%9C%E5%8C%97%E5%91%B3%E6%8B%89%E6%BB%A1",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,28 +86,8 @@
       ]
     },
     {
-      "title": "“龙餐馆”其实不在中东在山东",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%BE%99%E9%A4%90%E9%A6%86%E2%80%9D%E5%85%B6%E5%AE%9E%E4%B8%8D%E5%9C%A8%E4%B8%AD%E4%B8%9C%E5%9C%A8%E5%B1%B1%E4%B8%9C",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "官方通报智残人员被拉去做眼部手术",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E6%99%BA%E6%AE%8B%E4%BA%BA%E5%91%98%E8%A2%AB%E6%8B%89%E5%8E%BB%E5%81%9A%E7%9C%BC%E9%83%A8%E6%89%8B%E6%9C%AF",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "OpenAI遭遇最剧烈高层震荡",
-      "url": "https://www.baidu.com/s?wd=OpenAI%E9%81%AD%E9%81%87%E6%9C%80%E5%89%A7%E7%83%88%E9%AB%98%E5%B1%82%E9%9C%87%E8%8D%A1",
+      "title": "莫言谈AI写作：只是拼凑旧作然后搅拌",
+      "url": "https://www.baidu.com/s?wd=%E8%8E%AB%E8%A8%80%E8%B0%88AI%E5%86%99%E4%BD%9C%EF%BC%9A%E5%8F%AA%E6%98%AF%E6%8B%BC%E5%87%91%E6%97%A7%E4%BD%9C%E7%84%B6%E5%90%8E%E6%90%85%E6%8B%8C",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -106,8 +96,18 @@
       ]
     },
     {
-      "title": "塞尔比与泰国“黑马”桑卡姆会师斯诺克中国公开赛决赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-16/10678445.shtml",
+      "title": "市场占有率超6成！中国车发现新大陆",
+      "url": "https://www.baidu.com/s?wd=%E5%B8%82%E5%9C%BA%E5%8D%A0%E6%9C%89%E7%8E%87%E8%B6%856%E6%88%90%EF%BC%81%E4%B8%AD%E5%9B%BD%E8%BD%A6%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A4%A7%E9%99%86",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全球顶级赛道设计师姚启明：极速背后的博弈",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678514.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "title": "8月16日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-16/10678444.shtml",
+      "title": "中国品牌汽车走进非洲千家万户",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678528.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +126,8 @@
       ]
     },
     {
-      "title": "以色列空袭黎巴嫩 造成11人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678443.shtml",
+      "title": "打呼噜是睡得香？小心影响孩子身高智力",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-16/10678527.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "title": "职场新人入职签约要注意什么",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678441.shtml",
+      "title": "气田、大飞机、算力……本周一批重大工程迎来“高光时刻”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678525.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +146,8 @@
       ]
     },
     {
-      "title": "河南清潩河鄢陵县仓头村段溃口实现成功合龙",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678439.shtml",
+      "title": "《英汉大词典》App版亮相 传统书籍如何拥抱数智时代？",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-16/10678523.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +156,8 @@
       ]
     },
     {
-      "title": "中国男篮佛山不敌乌拉圭男篮 热身赛一胜一负",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-15/10678438.shtml",
+      "title": "印尼7.7级地震死亡人数升至48人 另有64人受伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678522.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "title": "《给阿嬷的情书》在台湾首映",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678437.shtml",
+      "title": "广东工会百场义诊进县镇 服务职工超万人次",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678507.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "吉隆坡广东义山举办815公祭活动 缅怀南侨机工",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-15/10678436.shtml",
+      "title": "机型“大换小”却不能全额退款 旅客权益怎样维护？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678521.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "洪秀柱：大海是连接两岸同胞的天然纽带",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678433.shtml",
+      "title": "粤港澳青少年三人篮球公开赛在广州举行",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-16/10678506.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "日本民众游行反对政客参拜靖国神社",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678425.shtml",
+      "title": "华裔大学生海南研习行：从“种子到杯子”领略侨乡咖啡文化",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-16/10678505.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "印尼7.7级地震已致47人死亡 3名中国游客受轻伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-15/10678422.shtml",
+      "title": "从“边疆煤都”到“宝藏小城” 黑龙江鹤岗焕发绿色新生",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678515.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "毛乌素的雨，落在世界青年的肩头",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-15/10678429.shtml",
+      "title": "台湾餐饮业师生学做正宗川菜 立体感受“山城烟火”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678517.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "2026海峡两岸（南昌）青年棒垒球交流活动开幕",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678423.shtml",
+      "title": "（长征胜利90周年）广西资源县苗乡火塘边的红色故事",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678494.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "2026两岸青年企业家菁英论坛暨两岸青年研学交流活动在江苏昆山举办",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-15/10678421.shtml",
+      "title": "纪念红军长征胜利90周年暨弘扬长征精神作品巡展在广州启幕",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-16/10678495.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
