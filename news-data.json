@@ -1,10 +1,20 @@
 {
   "date": "2026-08-16",
-  "time": "09:46",
-  "generatedAt": "2026-08-16T09:46:22.445Z",
+  "time": "11:00",
+  "generatedAt": "2026-08-16T11:00:22.758Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "直播：行走美丽画卷｜俄罗斯女孩闯入南京“画中仙山”：曾经的矿坑逆袭成零碳景区",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-16/10678695.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "第九届国际少儿环保公益绘画大赛在北京颁奖",
       "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678667.shtml",
@@ -16,11 +26,21 @@
       ]
     },
     {
-      "title": "从“产业端”走向“生活端” 苏州打造AI科技公共体验空间",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678644.shtml",
+      "title": "（长征胜利90周年）走进中央红军长征集结出发地江西于都",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-16/10678655.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "活力中国调研行丨夜间文旅消费超4800亿元 湖南古镇这样留住游客的夜晚",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678687.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 2,
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -66,38 +86,18 @@
       ]
     },
     {
-      "title": "从技术出海到联合攻关 中国菌物科研拓展国际合作新版图",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678650.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖北巴东：野三关半马激活22℃凉经济",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-16/10678649.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "从“过客”到“归人” 云南昭通避暑经济催热返乡创业潮",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678645.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "良好生态环境是最普惠的民生福祉",
       "url": "https://www.baidu.com/s?wd=%E8%89%AF%E5%A5%BD%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83%E6%98%AF%E6%9C%80%E6%99%AE%E6%83%A0%E7%9A%84%E6%B0%91%E7%94%9F%E7%A6%8F%E7%A5%89",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "手机壳 医疗垃圾",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E5%A3%B3+%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE",
       "source": "百度热搜",
       "cat": "society",
       "score": 1,
@@ -116,20 +116,10 @@
       ]
     },
     {
-      "title": "于东来在小饭店消费380硬要付600",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%9C%A8%E5%B0%8F%E9%A5%AD%E5%BA%97%E6%B6%88%E8%B4%B9380%E7%A1%AC%E8%A6%81%E4%BB%98600",
+      "title": "美国一女子骑车摔入桥下被吸入涵洞",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E5%A5%B3%E5%AD%90%E9%AA%91%E8%BD%A6%E6%91%94%E5%85%A5%E6%A1%A5%E4%B8%8B%E8%A2%AB%E5%90%B8%E5%85%A5%E6%B6%B5%E6%B4%9E",
       "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "手机壳 医疗垃圾",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E5%A3%B3+%E5%8C%BB%E7%96%97%E5%9E%83%E5%9C%BE",
-      "source": "百度热搜",
-      "cat": "society",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -146,18 +136,8 @@
       ]
     },
     {
-      "title": "美国一女子骑车摔入桥下被吸入涵洞",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E5%A5%B3%E5%AD%90%E9%AA%91%E8%BD%A6%E6%91%94%E5%85%A5%E6%A1%A5%E4%B8%8B%E8%A2%AB%E5%90%B8%E5%85%A5%E6%B6%B5%E6%B4%9E",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "金价反弹黄金市场交易又火了",
-      "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E5%8F%8D%E5%BC%B9%E9%BB%84%E9%87%91%E5%B8%82%E5%9C%BA%E4%BA%A4%E6%98%93%E5%8F%88%E7%81%AB%E4%BA%86",
+      "title": "于东来打卡小饭店消费380硬要付600",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%89%93%E5%8D%A1%E5%B0%8F%E9%A5%AD%E5%BA%97%E6%B6%88%E8%B4%B9380%E7%A1%AC%E8%A6%81%E4%BB%98600",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -166,10 +146,10 @@
       ]
     },
     {
-      "title": "美国大兵拍视频吐槽航母卫生间太脏",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E5%85%B5%E6%8B%8D%E8%A7%86%E9%A2%91%E5%90%90%E6%A7%BD%E8%88%AA%E6%AF%8D%E5%8D%AB%E7%94%9F%E9%97%B4%E5%A4%AA%E8%84%8F",
+      "title": "张朝阳：我从来不看AI漫剧",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E6%9C%9D%E9%98%B3%EF%BC%9A%E6%88%91%E4%BB%8E%E6%9D%A5%E4%B8%8D%E7%9C%8BAI%E6%BC%AB%E5%89%A7",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -186,8 +166,18 @@
       ]
     },
     {
-      "title": "清远连南“七月七”开唱节举行 水上捉鸭长桌宴醉游人",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678666.shtml",
+      "title": "金价反弹黄金市场交易又火了",
+      "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E5%8F%8D%E5%BC%B9%E9%BB%84%E9%87%91%E5%B8%82%E5%9C%BA%E4%BA%A4%E6%98%93%E5%8F%88%E7%81%AB%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "水利部和中国气象局联合发布橙色山洪灾害气象预警",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678692.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +186,8 @@
       ]
     },
     {
-      "title": "广西北海农民深耕设施蔬果种植 带动乡邻共富",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678670.shtml",
+      "title": "特朗普再促参议院通过全年采用夏令时法案",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678694.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +196,8 @@
       ]
     },
     {
-      "title": "贵州与马来西亚友好学校结对共建",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-16/10678668.shtml",
+      "title": "第二届世界人形机器人运动会场景赛开赛",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-16/1201261.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +206,8 @@
       ]
     },
     {
-      "title": "开渔首日广东潮州百舸争流 潮州海事部门护航保障安全",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678664.shtml",
+      "title": "南方大范围“隐形高温” 在线 未来或有新台风酝酿",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678690.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +216,8 @@
       ]
     },
     {
-      "title": "云南昭通早熟苹果抢“鲜”上市 高原果乡蹚出“红火”新路",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678663.shtml",
+      "title": "专家：胆管癌治疗迈入“全病程靶向管理”新阶段",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-16/10678686.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +226,18 @@
       ]
     },
     {
-      "title": "履迹滇中阅古今万象 以文为桥联结海外华教同心",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-16/10678662.shtml",
+      "title": "韩军向越过东部军事分界线朝鲜军人鸣枪警告",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678689.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "驰骋林海花海 四千跑者奔赴湖北巴东22℃清凉",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-16/10678657.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
