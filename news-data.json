@@ -1,7 +1,7 @@
 {
   "date": "2026-08-16",
-  "time": "17:54",
-  "generatedAt": "2026-08-16T17:54:12.766Z",
+  "time": "19:10",
+  "generatedAt": "2026-08-16T19:10:35.376Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -126,6 +126,26 @@
       ]
     },
     {
+      "title": "张卓尔舞台 光污染",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E5%8D%93%E5%B0%94%E8%88%9E%E5%8F%B0+%E5%85%89%E6%B1%A1%E6%9F%93",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄方称一日击落近1500架乌无人机",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E6%96%B9%E7%A7%B0%E4%B8%80%E6%97%A5%E5%87%BB%E8%90%BD%E8%BF%911500%E6%9E%B6%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "盘点2026年十大最佳AI视频作品",
       "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B92026%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%9C%80%E4%BD%B3AI%E8%A7%86%E9%A2%91%E4%BD%9C%E5%93%81",
       "source": "百度热搜",
@@ -218,26 +238,6 @@
     {
       "title": "（活力中国调研行）湖南湘西“挤满”外国人",
       "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678773.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "山水间的清凉，海河边的美景——老外感叹津门魅力",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678779.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏青藏高原作物种质资源中期库保存青稞资源10000余份",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678771.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
