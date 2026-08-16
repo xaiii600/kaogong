@@ -1,10 +1,30 @@
 {
   "date": "2026-08-16",
-  "time": "22:57",
-  "generatedAt": "2026-08-16T22:57:34.363Z",
+  "time": "23:55",
+  "generatedAt": "2026-08-16T23:55:10.202Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "向上向善 推动人工智能健康有序发展（总书记的关切·落地的回响）",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678810.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "强震已致289死，哥伦比亚总统：请特朗普暂停关税纾困震后经济",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678809.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "特朗普：“不满”美国早前同意参加与韩国的联合军演",
       "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678801.shtml",
@@ -76,16 +96,6 @@
       ]
     },
     {
-      "title": "学者：AI革命的下半场将是技术对个人赋能",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678759.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "南极冰川现“神秘生物”系AI生成",
       "url": "https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E7%8E%B0%E2%80%9C%E7%A5%9E%E7%A7%98%E7%94%9F%E7%89%A9%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90",
       "source": "百度热搜",
@@ -100,6 +110,16 @@
       "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E6%B6%88%E8%B4%B9%E6%AF%81%E4%BA%86%E9%80%9B%E8%A1%97%E5%92%8C%E5%88%9B%E9%80%A0%E5%8A%9B%E5%90%97",
       "source": "百度热搜",
       "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "央视曝光后 云南连夜通报",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E4%BA%91%E5%8D%97%E8%BF%9E%E5%A4%9C%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -126,31 +146,61 @@
       ]
     },
     {
-      "title": "俄方称一日击落近1500架乌无人机",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E6%96%B9%E7%A7%B0%E4%B8%80%E6%97%A5%E5%87%BB%E8%90%BD%E8%BF%911500%E6%9E%B6%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "明日之星冠军杯：中国U17女足取得“开门红”",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678811.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "张卓尔舞台 光污染",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E5%8D%93%E5%B0%94%E8%88%9E%E5%8F%B0+%E5%85%89%E6%B1%A1%E6%9F%93",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
+      "title": "半夜口干舌燥可能不是缺水 这6种情况一定要警惕",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-17/10678808.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "盘点2026年十大最佳AI视频作品",
-      "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B92026%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%9C%80%E4%BD%B3AI%E8%A7%86%E9%A2%91%E4%BD%9C%E5%93%81",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "巴西里约热内卢州一大巴翻覆致10人遇难",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678807.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "塞尔比“表白”斯诺克：我依旧热爱",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678806.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "英格兰选手马克·塞尔比加冕中国公开赛首位四冠王",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678805.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月17日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-17/10678804.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -188,56 +238,6 @@
     {
       "title": "安全误区需留意 灾后防疫要重视",
       "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678799.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普：已指示国防部“大幅缩减”与韩国联合军演规模",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678798.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "赛事类型多样，超5000名“勇士”齐聚崇礼",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-16/10678796.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "低价团曝出“转卖游客、赌团”内幕 总台曝光暑期游乱象",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-16/10678793.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新起点、新机遇、新突破——澳门各界期盼“三五”规划开创高质量发展新局面",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-16/10678788.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我的新疆日记·第五天|北庭与天山，在遗址与群山之间",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-16/10678787.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
