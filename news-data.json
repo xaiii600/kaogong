@@ -1,10 +1,30 @@
 {
   "date": "2026-08-16",
-  "time": "21:54",
-  "generatedAt": "2026-08-16T21:54:59.066Z",
+  "time": "22:57",
+  "generatedAt": "2026-08-16T22:57:34.363Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "特朗普：“不满”美国早前同意参加与韩国的联合军演",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678801.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "德国企业上半年对美直接投资降至三年来新低",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678797.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "事业单位"
+      ]
+    },
     {
       "title": "日媒：高市政权回避历史反省 要警惕其“回归战前”的政策动向",
       "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml",
@@ -66,26 +86,6 @@
       ]
     },
     {
-      "title": "特稿｜开放发展、可靠担当、魅力十足——国际人士眼里的中国",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678763.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI正在批量制造“幽灵”",
-      "url": "https://www.baidu.com/s?wd=AI%E6%AD%A3%E5%9C%A8%E6%89%B9%E9%87%8F%E5%88%B6%E9%80%A0%E2%80%9C%E5%B9%BD%E7%81%B5%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "南极冰川现“神秘生物”系AI生成",
       "url": "https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E7%8E%B0%E2%80%9C%E7%A5%9E%E7%A7%98%E7%94%9F%E7%89%A9%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90",
       "source": "百度热搜",
@@ -100,6 +100,16 @@
       "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E6%B6%88%E8%B4%B9%E6%AF%81%E4%BA%86%E9%80%9B%E8%A1%97%E5%92%8C%E5%88%9B%E9%80%A0%E5%8A%9B%E5%90%97",
       "source": "百度热搜",
       "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI正在批量制造“幽灵”",
+      "url": "https://www.baidu.com/s?wd=AI%E6%AD%A3%E5%9C%A8%E6%89%B9%E9%87%8F%E5%88%B6%E9%80%A0%E2%80%9C%E5%B9%BD%E7%81%B5%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -126,6 +136,16 @@
       ]
     },
     {
+      "title": "张卓尔舞台 光污染",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E5%8D%93%E5%B0%94%E8%88%9E%E5%8F%B0+%E5%85%89%E6%B1%A1%E6%9F%93",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "盘点2026年十大最佳AI视频作品",
       "url": "https://www.baidu.com/s?wd=%E7%9B%98%E7%82%B92026%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%9C%80%E4%BD%B3AI%E8%A7%86%E9%A2%91%E4%BD%9C%E5%93%81",
       "source": "百度热搜",
@@ -136,21 +156,51 @@
       ]
     },
     {
-      "title": "于东来打卡小饭店消费380硬要付600",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%89%93%E5%8D%A1%E5%B0%8F%E9%A5%AD%E5%BA%97%E6%B6%88%E8%B4%B9380%E7%A1%AC%E8%A6%81%E4%BB%98600",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
+      "title": "特朗普：非常高兴看到沙土巴三国签署共同防务协议",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678803.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "张卓尔舞台 光污染",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E5%8D%93%E5%B0%94%E8%88%9E%E5%8F%B0+%E5%85%89%E6%B1%A1%E6%9F%93",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
+      "title": "时薪最高百元，“临时妈妈”靠谱吗？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678802.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "以军袭击已致黎巴嫩4346人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678800.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "安全误区需留意 灾后防疫要重视",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678799.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普：已指示国防部“大幅缩减”与韩国联合军演规模",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678798.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -188,56 +238,6 @@
     {
       "title": "我的新疆日记·第五天|北庭与天山，在遗址与群山之间",
       "url": "https://www.chinanews.com.cn/cul/2026/08-16/10678787.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多家日媒：高市政权回避历史反省 要警惕其“回归战前”倾向",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678784.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一店卖全球，跨境电商推动中国制造加速出海",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678783.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "司机隧道口停车盖雨布 民警声嘶力竭劝离",
-      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-16/news1065605.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《给阿嬷的情书》台湾首映掀观影热 区桂芝：片名中的“阿嬷”足以触动观众",
-      "url": "http://www.chinanews.com.cn/yl/shipin/cns-d/2026/08-16/news1065604.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（活力中国调研行）湖南湘西“挤满”外国人",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678773.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
