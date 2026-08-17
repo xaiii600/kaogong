@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
-  "time": "03:30",
-  "generatedAt": "2026-08-17T03:30:35.106Z",
+  "time": "06:02",
+  "generatedAt": "2026-08-17T06:02:01.910Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -16,28 +16,8 @@
       ]
     },
     {
-      "title": "1至7月全国铁路完成固定资产投资4406亿元",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678926.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我国汽车芯片五项认证认可行业标准发布",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10678908.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“无法正视过去的国家，就无法赢得国际社会的信任”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678889.shtml",
+      "title": "民调：53%美国选民称个人财务状况较2025年初恶化",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678985.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -46,8 +26,18 @@
       ]
     },
     {
-      "title": "以扎实举措推进农业农村现代化（“十五五”开好局起好步）",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678882.shtml",
+      "title": "第二届国际青年史学家对话会暨国际青年历史学者访华研修班结业仪式举办",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678976.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中外学者：鲜活民生映照新疆人权事业发展",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678980.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -56,10 +46,30 @@
       ]
     },
     {
-      "title": "影视圈“千万大V”被查",
-      "url": "https://www.baidu.com/s?wd=%E5%BD%B1%E8%A7%86%E5%9C%88%E2%80%9C%E5%8D%83%E4%B8%87%E5%A4%A7V%E2%80%9D%E8%A2%AB%E6%9F%A5",
+      "title": "中国汽车芯片五项认证认可行业标准发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10678964.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【“筑基”高质量·系列评论之十】攀登！向着高水平科技自立自强",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-17/10678927.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "长鑫科技=2.5个茅台",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%3D2.5%E4%B8%AA%E8%8C%85%E5%8F%B0",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,8 +86,8 @@
       ]
     },
     {
-      "title": "隐形水印上线 AI写作开始留痕",
-      "url": "https://www.baidu.com/s?wd=%E9%9A%90%E5%BD%A2%E6%B0%B4%E5%8D%B0%E4%B8%8A%E7%BA%BF+AI%E5%86%99%E4%BD%9C%E5%BC%80%E5%A7%8B%E7%95%99%E7%97%95",
+      "title": "长鑫科技盘中涨超10% 股价创新高",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E7%9B%98%E4%B8%AD%E6%B6%A8%E8%B6%8510%25+%E8%82%A1%E4%BB%B7%E5%88%9B%E6%96%B0%E9%AB%98",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -86,8 +96,48 @@
       ]
     },
     {
-      "title": "陕西吉林四川云南广东福建等地将有强对流天气",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678920.shtml",
+      "title": "影视圈“千万大V”被查",
+      "url": "https://www.baidu.com/s?wd=%E5%BD%B1%E8%A7%86%E5%9C%88%E2%80%9C%E5%8D%83%E4%B8%87%E5%A4%A7V%E2%80%9D%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "A股股王长鑫科技市值重回4万亿",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E8%82%A1%E7%8E%8B%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%B8%82%E5%80%BC%E9%87%8D%E5%9B%9E4%E4%B8%87%E4%BA%BF",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "OpenAI 人事地震",
+      "url": "https://www.baidu.com/s?wd=OpenAI+%E4%BA%BA%E4%BA%8B%E5%9C%B0%E9%9C%87",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄军无人机袭击敖德萨",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%86%9B%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%A2%AD%E5%87%BB%E6%95%96%E5%BE%B7%E8%90%A8",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南省第十七届运动会昆明闭幕 破纪录169次创历史新高",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678975.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +146,8 @@
       ]
     },
     {
-      "title": "遵义市仁怀市委原常委、茅台镇党委原书记王远强被“双开”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678931.shtml",
+      "title": "北京雨燕往南飞，结果是去南非！这只“无脚鸟”和家燕真不是近亲",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678990.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +156,8 @@
       ]
     },
     {
-      "title": "我国在稀土检测关键技术领域取得重要进展",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10678932.shtml",
+      "title": "水果皮别扔！四道家常菜解锁降火新方式",
+      "url": "https://www.chinanews.com.cn/life/2026/08-17/10678988.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +166,8 @@
       ]
     },
     {
-      "title": "孙中山当年每次出海为何必经澳门？",
-      "url": "https://www.chinanews.com.cn/dxw/2026/08-17/10678929.shtml",
+      "title": "摩托车手德比斯盼世界超级摩托车锦标赛设立“中国站”",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678981.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +176,8 @@
       ]
     },
     {
-      "title": "希腊萨拉米斯岛突发野火已致2死 593人被紧急疏散",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678910.shtml",
+      "title": "拒服兵役代价有多大？多地公布惩戒案例",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678987.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +186,8 @@
       ]
     },
     {
-      "title": "纪念江泽民同志诞辰100周年大会隆重举行 习近平出席大会并发表重要讲话",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678914.shtml",
+      "title": "韩国东南部遭遇强降雨 1人遇难",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678986.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +196,8 @@
       ]
     },
     {
-      "title": "聊啥推啥，是不是手机在“偷听”？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678885.shtml",
+      "title": "从校园到职场，如何补上沟通礼仪“必修课”？",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-17/10678942.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +206,8 @@
       ]
     },
     {
-      "title": "黑龙江发生2026年第2号洪水",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678906.shtml",
+      "title": "水利部8月17日继续发布洪水黄色预警",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678971.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +216,8 @@
       ]
     },
     {
-      "title": "80岁成首位安徒生插画奖中国获奖者 蔡皋：童年是最好的摇篮",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-17/10678896.shtml",
+      "title": "订单排到2030年 前7个月上海市船舶出口超400亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10678984.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +226,8 @@
       ]
     },
     {
-      "title": "青海生态系统将实现精准价值核算",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678898.shtml",
+      "title": "广东多措并举提升知识产权行政保护质效",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678973.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,58 +236,8 @@
       ]
     },
     {
-      "title": "南海海域和东海部分海域开渔",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678888.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海南封关后首办省运会 开幕式诠释“流动的万泉河，开放的自贸港”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678897.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平：江泽民同志的一生，是光辉的一生、战斗的一生",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678907.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多地迎持续强降雨 各部门联动抢险救援争分夺秒保安全保通畅",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678880.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "专访“赛考斯”：期待，再种一棵“树”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678841.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "要求限期整改 20家儿童寝具生产企业被约谈",
-      "url": "https://www.chinanews.com.cn/kong/2026/08-17/10678856.shtml",
+      "title": "安徽省天然气开发股份有限公司原总经理姚礼进接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678969.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
