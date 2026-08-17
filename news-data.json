@@ -1,16 +1,66 @@
 {
   "date": "2026-08-17",
-  "time": "14:03",
-  "generatedAt": "2026-08-17T14:03:25.069Z",
+  "time": "15:43",
+  "generatedAt": "2026-08-17T15:43:45.824Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "香港特区廉政专员率团赴大连参加APEC反腐败会议",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-17/10679336.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广东国际医疗试点成效显现 外籍人士就医人数同比增逾95%",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679326.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "（经济观察）7月数据揭示中国经济结构之变",
       "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679323.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗官员：已为美国履行谅解备忘录设定最后期限",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679344.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广东力争到2030年山苍子全产业链总产值突破10亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679331.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广州提出至2028年服务贸易年进出口总额超1000亿美元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679325.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -76,60 +126,10 @@
       ]
     },
     {
-      "title": "应对持续强降雨 多地多部门全力抢险救灾保通畅保民生",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679316.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "北京加速机器人从实验室迈向市场",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679280.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技：8月19日上市",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679306.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "石油天然气发展“十五五”规划印发",
       "url": "https://www.baidu.com/s?wd=%E7%9F%B3%E6%B2%B9%E5%A4%A9%E7%84%B6%E6%B0%94%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92%E5%8D%B0%E5%8F%91",
       "source": "百度热搜",
       "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技：将于8月19日科创板上市",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%EF%BC%9A%E5%B0%86%E4%BA%8E8%E6%9C%8819%E6%97%A5%E7%A7%91%E5%88%9B%E6%9D%BF%E4%B8%8A%E5%B8%82",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI12分钟写完剧本 编剧要失业了吗",
-      "url": "https://www.baidu.com/s?wd=AI12%E5%88%86%E9%92%9F%E5%86%99%E5%AE%8C%E5%89%A7%E6%9C%AC+%E7%BC%96%E5%89%A7%E8%A6%81%E5%A4%B1%E4%B8%9A%E4%BA%86%E5%90%97",
-      "source": "百度热搜",
-      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -156,6 +156,76 @@
       ]
     },
     {
+      "title": "长鑫科技上市 合肥又押对了什么",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82+%E5%90%88%E8%82%A5%E5%8F%88%E6%8A%BC%E5%AF%B9%E4%BA%86%E4%BB%80%E4%B9%88",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国一黑熊转动门把手试图开门进屋",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E9%BB%91%E7%86%8A%E8%BD%AC%E5%8A%A8%E9%97%A8%E6%8A%8A%E6%89%8B%E8%AF%95%E5%9B%BE%E5%BC%80%E9%97%A8%E8%BF%9B%E5%B1%8B",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美军宣布与雷神公司签订229亿美元“战斧”导弹合同",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679342.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "羽毛球世锦赛：卫冕冠军石宇奇遭遇“一轮游”",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10679338.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "柬埔寨首都金边启动“五年规划”提质旅游业",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-17/10679337.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "甘肃“一站式”平台巧解百姓烦心事",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679334.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "巴基斯坦安全部队在俾路支省开展反恐行动 击毙2名恐怖分子",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679330.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "海峡两岸（福建）大学生舞龙舞狮争霸赛在泉州开幕",
       "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679324.shtml",
       "source": "中国新闻网",
@@ -168,76 +238,6 @@
     {
       "title": "暨南大学开展建校120周年办学地寻访调研活动",
       "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679320.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "北魏平城时期嵌玻璃釉陶器可见中外文化交流因素",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-17/10679312.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "天津邮轮口岸暑期出入境人员同比增长近两成",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679311.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国提出2030年国内油气供应量目标为4.4亿吨油当量",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679310.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "青海行政执法、检察公益诉讼、环境审判合力保护江源生态",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679309.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖北地方戏曲艺术展演在武汉启幕",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-17/10679308.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国首批：淘宝闪购青岛率先上线“等灯不计时”，骑士等灯时间不计入考核",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679307.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第168次中老缅泰湄公河联合巡逻执法行动启动",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-17/10679300.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
