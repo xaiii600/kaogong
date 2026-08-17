@@ -1,23 +1,23 @@
 {
   "date": "2026-08-17",
-  "time": "10:56",
-  "generatedAt": "2026-08-17T10:56:30.696Z",
+  "time": "12:01",
+  "generatedAt": "2026-08-17T12:01:01.248Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "华南国际咖啡交易创新中心落户广州白云区",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679195.shtml",
+      "title": "国企建功自贸港：“深入开展商业航天的国际化业务交流、合作与发展”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679241.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
       "exams": [
-        "申论素材"
+        "事业单位"
       ]
     },
     {
-      "title": "国务院关于《特殊教育发展提升“十五五”行动计划》的批复",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679203.shtml",
+      "title": "李强主持召开国务院第十二次全体会议强调 深入贯彻落实党中央决策部署 努力完成全年经济社会发展目标任务",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679254.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 2,
@@ -26,8 +26,8 @@
       ]
     },
     {
-      "title": "侨乡海南文昌打造国际一流航天科技城",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-17/10679183.shtml",
+      "title": "中国在量子技术国际标准领域取得新进展",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679231.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
@@ -36,38 +36,28 @@
       ]
     },
     {
-      "title": "国家发展改革委：加大对民间投资项目支持力度",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679151.shtml",
+      "title": "聚焦海洋生态 中国科技馆举办“深蓝脉动 海洋密语”科普教育活动",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679213.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "紧盯洪水和强降雨发展态势 两部门持续部署防范工作",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679229.shtml",
       "source": "中国新闻网",
       "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "大疆诉美国国防部案取得实质性进展",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679193.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "宁夏平罗县通报：不存在养殖场粪水直排情况",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679184.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖南发力智能机器人产业：力争2030年营收突破2000亿元 重点发展三个方向",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679185.shtml",
+      "title": "内蒙古化德县产业蜕变记：从“一铁独大”到“六业齐飞”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679237.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -76,40 +66,60 @@
       ]
     },
     {
-      "title": "（活力中国调研行）福建构建特色养老服务体系",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679177.shtml",
+      "title": "中国官方回应投资增速下降：应更关注结构、质量和效益",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679233.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "《石油天然气发展“十五五”规划》印发",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679108.shtml",
+      "title": "今年前7月中国社会消费商品和服务零售总额同比增长2.6%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679232.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "A股周一放量上涨 长鑫科技市值超4万亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679171.shtml",
+      "title": "国家统计局：中国实现全年经济增长预期目标具备良好基础和条件",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679239.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "《龙餐馆》原型：美国士兵常打酱油喝",
-      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E9%BE%99%E9%A4%90%E9%A6%86%E3%80%8B%E5%8E%9F%E5%9E%8B%EF%BC%9A%E7%BE%8E%E5%9B%BD%E5%A3%AB%E5%85%B5%E5%B8%B8%E6%89%93%E9%85%B1%E6%B2%B9%E5%96%9D",
-      "source": "百度热搜",
+      "title": "海外民众对华好感度持续攀升（国际论道）",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679242.shtml",
+      "source": "中国新闻网",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宁夏统筹超50亿元财政资金赋能农业发展 筑牢“塞上粮仓”坚实根基",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679212.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国家统计局：中国消费价格温和上涨态势没有改变",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679189.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -120,6 +130,16 @@
       "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83%E2%80%9C%E8%B6%85%E4%BA%BA%E2%80%9D",
       "source": "百度热搜",
       "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "女正厅高环被查 曾任伊春市委书记",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E6%AD%A3%E5%8E%85%E9%AB%98%E7%8E%AF%E8%A2%AB%E6%9F%A5+%E6%9B%BE%E4%BB%BB%E4%BC%8A%E6%98%A5%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -156,18 +176,8 @@
       ]
     },
     {
-      "title": "多地景区公告：七夕结婚领证免门票",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E6%99%AF%E5%8C%BA%E5%85%AC%E5%91%8A%EF%BC%9A%E4%B8%83%E5%A4%95%E7%BB%93%E5%A9%9A%E9%A2%86%E8%AF%81%E5%85%8D%E9%97%A8%E7%A5%A8",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "大疆诉美国国防部取得关键进展",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E7%96%86%E8%AF%89%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8%E5%8F%96%E5%BE%97%E5%85%B3%E9%94%AE%E8%BF%9B%E5%B1%95",
+      "title": "《龙餐馆》原型：美国士兵常打酱油喝",
+      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E9%BE%99%E9%A4%90%E9%A6%86%E3%80%8B%E5%8E%9F%E5%9E%8B%EF%BC%9A%E7%BE%8E%E5%9B%BD%E5%A3%AB%E5%85%B5%E5%B8%B8%E6%89%93%E9%85%B1%E6%B2%B9%E5%96%9D",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-17/1201361.shtml",
+      "title": "东西问丨张锦雄、黄愿字：从侨批到身份认同，《给阿嬷的情书》何以触动印尼年轻华裔？",
+      "url": "https://www.chinanews.com.cn/dxw/2026/08-17/10679248.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "习近平就印度尼西亚发生强烈地震向印尼总统普拉博沃致慰问电",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679204.shtml",
+      "title": "香港“医管局2026优秀青年奖”获奖者：探索新兴技术 崇尚医者仁心",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-17/10679240.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "中国人民银行发行江泽民诞辰100周年纪念币",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-17/1201357.shtml",
+      "title": "两岸学者聚首杨时故里 共探“闽学鼻祖”思想当代价值",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679238.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "日媒：高市早苗前往医院接受手部等检查 停留超6个小时",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679201.shtml",
+      "title": "中国7月银行结售汇顺差183亿美元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679236.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "中国邮政发行《纪念江泽民同志诞辰100周年》纪念邮票",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679200.shtml",
+      "title": "7月访港旅客约450万人次同比增3% 业界：盛事活动提升香港影响力",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-17/10679235.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "广西南丹一施工点山体滑坡致1人遇难 仍有4人被困",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679191.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“十四五”期间全国查处滥用行政权力排除、限制竞争案件290件",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679188.shtml",
+      "title": "司法部发布规范涉企行政执法为民办实事典型案例",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10679226.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
