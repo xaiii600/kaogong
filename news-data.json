@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
-  "time": "19:46",
-  "generatedAt": "2026-08-17T19:46:13.541Z",
+  "time": "21:44",
+  "generatedAt": "2026-08-17T21:44:07.751Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -146,6 +146,16 @@
       ]
     },
     {
+      "title": "宇树科技发布“超人”",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83%E2%80%9C%E8%B6%85%E4%BA%BA%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "巴西“乐”“粤”与共 庆祝巴中建交52周年",
       "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679349.shtml",
       "source": "中国新闻网",
@@ -228,16 +238,6 @@
     {
       "title": "甘肃“一站式”平台巧解百姓烦心事",
       "url": "https://www.chinanews.com.cn/sh/2026/08-17/10679334.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "巴基斯坦安全部队在俾路支省开展反恐行动 击毙2名恐怖分子",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679330.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
