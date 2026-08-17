@@ -1,115 +1,65 @@
 {
-  "date": "2026-08-16",
-  "time": "23:55",
-  "generatedAt": "2026-08-16T23:55:10.202Z",
+  "date": "2026-08-17",
+  "time": "03:30",
+  "generatedAt": "2026-08-17T03:30:35.106Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "向上向善 推动人工智能健康有序发展（总书记的关切·落地的回响）",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678810.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "强震已致289死，哥伦比亚总统：请特朗普暂停关税纾困震后经济",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678809.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普：“不满”美国早前同意参加与韩国的联合军演",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678801.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "德国企业上半年对美直接投资降至三年来新低",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678797.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "事业单位"
-      ]
-    },
-    {
-      "title": "日媒：高市政权回避历史反省 要警惕其“回归战前”的政策动向",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678789.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日政要参拜靖国神社遭国际社会强烈反对",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678786.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国际锐评丨中国为什么值得“反复探索”？",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-16/10678781.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "共创1000个AI场景 上海交大成立AI时代商科人才培养联盟",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-16/10678776.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "北斗时空安全产业平台落地长沙 共建共享推动特色产业集群建设",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-16/10678775.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "南极冰川现“神秘生物”系AI生成",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E7%8E%B0%E2%80%9C%E7%A5%9E%E7%A7%98%E7%94%9F%E7%89%A9%E2%80%9D%E7%B3%BBAI%E7%94%9F%E6%88%90",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "手机消费毁了逛街和创造力吗",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E6%B6%88%E8%B4%B9%E6%AF%81%E4%BA%86%E9%80%9B%E8%A1%97%E5%92%8C%E5%88%9B%E9%80%A0%E5%8A%9B%E5%90%97",
+      "title": "AI客服逼走消费者",
+      "url": "https://www.baidu.com/s?wd=AI%E5%AE%A2%E6%9C%8D%E9%80%BC%E8%B5%B0%E6%B6%88%E8%B4%B9%E8%80%85",
       "source": "百度热搜",
       "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "1至7月全国铁路完成固定资产投资4406亿元",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678926.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "我国汽车芯片五项认证认可行业标准发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10678908.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“无法正视过去的国家，就无法赢得国际社会的信任”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678889.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "以扎实举措推进农业农村现代化（“十五五”开好局起好步）",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678882.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "影视圈“千万大V”被查",
+      "url": "https://www.baidu.com/s?wd=%E5%BD%B1%E8%A7%86%E5%9C%88%E2%80%9C%E5%8D%83%E4%B8%87%E5%A4%A7V%E2%80%9D%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -126,8 +76,8 @@
       ]
     },
     {
-      "title": "AI正在批量制造“幽灵”",
-      "url": "https://www.baidu.com/s?wd=AI%E6%AD%A3%E5%9C%A8%E6%89%B9%E9%87%8F%E5%88%B6%E9%80%A0%E2%80%9C%E5%B9%BD%E7%81%B5%E2%80%9D",
+      "title": "隐形水印上线 AI写作开始留痕",
+      "url": "https://www.baidu.com/s?wd=%E9%9A%90%E5%BD%A2%E6%B0%B4%E5%8D%B0%E4%B8%8A%E7%BA%BF+AI%E5%86%99%E4%BD%9C%E5%BC%80%E5%A7%8B%E7%95%99%E7%97%95",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -136,18 +86,8 @@
       ]
     },
     {
-      "title": "俄军称24小时击落1478架乌无人机",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%86%9B%E7%A7%B024%E5%B0%8F%E6%97%B6%E5%87%BB%E8%90%BD1478%E6%9E%B6%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "明日之星冠军杯：中国U17女足取得“开门红”",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678811.shtml",
+      "title": "陕西吉林四川云南广东福建等地将有强对流天气",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678920.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +96,8 @@
       ]
     },
     {
-      "title": "半夜口干舌燥可能不是缺水 这6种情况一定要警惕",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-17/10678808.shtml",
+      "title": "遵义市仁怀市委原常委、茅台镇党委原书记王远强被“双开”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678931.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +106,8 @@
       ]
     },
     {
-      "title": "巴西里约热内卢州一大巴翻覆致10人遇难",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678807.shtml",
+      "title": "我国在稀土检测关键技术领域取得重要进展",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10678932.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +116,8 @@
       ]
     },
     {
-      "title": "塞尔比“表白”斯诺克：我依旧热爱",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678806.shtml",
+      "title": "孙中山当年每次出海为何必经澳门？",
+      "url": "https://www.chinanews.com.cn/dxw/2026/08-17/10678929.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +126,8 @@
       ]
     },
     {
-      "title": "英格兰选手马克·塞尔比加冕中国公开赛首位四冠王",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-17/10678805.shtml",
+      "title": "希腊萨拉米斯岛突发野火已致2死 593人被紧急疏散",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678910.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +136,8 @@
       ]
     },
     {
-      "title": "8月17日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-17/10678804.shtml",
+      "title": "纪念江泽民同志诞辰100周年大会隆重举行 习近平出席大会并发表重要讲话",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678914.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +146,8 @@
       ]
     },
     {
-      "title": "特朗普：非常高兴看到沙土巴三国签署共同防务协议",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678803.shtml",
+      "title": "聊啥推啥，是不是手机在“偷听”？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678885.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +156,8 @@
       ]
     },
     {
-      "title": "时薪最高百元，“临时妈妈”靠谱吗？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678802.shtml",
+      "title": "黑龙江发生2026年第2号洪水",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678906.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +166,8 @@
       ]
     },
     {
-      "title": "以军袭击已致黎巴嫩4346人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678800.shtml",
+      "title": "80岁成首位安徒生插画奖中国获奖者 蔡皋：童年是最好的摇篮",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-17/10678896.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +176,68 @@
       ]
     },
     {
-      "title": "安全误区需留意 灾后防疫要重视",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678799.shtml",
+      "title": "青海生态系统将实现精准价值核算",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678898.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "南海海域和东海部分海域开渔",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678888.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海南封关后首办省运会 开幕式诠释“流动的万泉河，开放的自贸港”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678897.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "习近平：江泽民同志的一生，是光辉的一生、战斗的一生",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-17/10678907.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "多地迎持续强降雨 各部门联动抢险救援争分夺秒保安全保通畅",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-17/10678880.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "专访“赛考斯”：期待，再种一棵“树”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10678841.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "要求限期整改 20家儿童寝具生产企业被约谈",
+      "url": "https://www.chinanews.com.cn/kong/2026/08-17/10678856.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
