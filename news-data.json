@@ -1,7 +1,7 @@
 {
   "date": "2026-08-18",
-  "time": "15:56",
-  "generatedAt": "2026-08-18T15:56:12.374Z",
+  "time": "17:48",
+  "generatedAt": "2026-08-18T17:48:38.745Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -16,11 +16,21 @@
       ]
     },
     {
-      "title": "事关住房公积金 国务院最新发布",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8B%E5%85%B3%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91+%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%9C%80%E6%96%B0%E5%8F%91%E5%B8%83",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 2,
+      "title": "英国二季度劳动力市场进一步降温",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679972.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗称美国曾考虑对伊使用“委内瑞拉”模式但未得逞",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679974.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -96,16 +106,6 @@
       ]
     },
     {
-      "title": "中央政府驻澳门联络办公室：支持澳门在新一份五年规划引领下实现更好发展",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-18/10679927.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "外交部改口：把靖国神社称作战犯神社",
       "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E6%94%B9%E5%8F%A3%EF%BC%9A%E6%8A%8A%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E7%A7%B0%E4%BD%9C%E6%88%98%E7%8A%AF%E7%A5%9E%E7%A4%BE",
       "source": "百度热搜",
@@ -156,11 +156,21 @@
       ]
     },
     {
-      "title": "俄指责英无人机参战：英国成帮凶共犯",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E6%8C%87%E8%B4%A3%E8%8B%B1%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%8F%82%E6%88%98%EF%BC%9A%E8%8B%B1%E5%9B%BD%E6%88%90%E5%B8%AE%E5%87%B6%E5%85%B1%E7%8A%AF",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "尼泊尔和印度将联合测绘“跨境占用”土地",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679973.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗举行已故最高领袖下葬四十日纪念仪式",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679975.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -228,16 +238,6 @@
     {
       "title": "伊朗最高领袖据称将在德黑兰主持活动",
       "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679965.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国少数民族文艺会演北京开启 首场话剧重现津商传奇",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679958.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
