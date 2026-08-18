@@ -1,13 +1,13 @@
 {
   "date": "2026-08-18",
-  "time": "21:57",
-  "generatedAt": "2026-08-18T21:57:47.580Z",
+  "time": "23:02",
+  "generatedAt": "2026-08-18T23:02:31.682Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "2026澳门青年创新创业大赛决赛举行 推动项目对接产业资源",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-18/10679947.shtml",
+      "title": "更好满足多样化住房消费需求 住房公积金提取和使用范围拓宽",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679982.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -21,6 +21,26 @@
       "source": "百度热搜",
       "cat": "policy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "阿联酋宣布暂停与伊朗所有贸易及金融交易",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679986.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "阿联酋宣布暂停与伊朗的一切贸易金融往来",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679981.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -96,26 +116,6 @@
       ]
     },
     {
-      "title": "（投资中国）德企阿玛松增资扩产天津二期项目 拟建北方总部",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679952.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海南成立对外投资合作协同发展联盟 助企出海",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679943.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "外交部改口：把靖国神社称作战犯神社",
       "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E6%94%B9%E5%8F%A3%EF%BC%9A%E6%8A%8A%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E7%A7%B0%E4%BD%9C%E6%88%98%E7%8A%AF%E7%A5%9E%E7%A4%BE",
       "source": "百度热搜",
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "title": "青海海西州直辖区附近发生5.6级左右地震",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679977.shtml",
+      "title": "我国执业医师达529万人 居民主要健康指标达历史最好水平",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679987.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "尼泊尔和印度将联合测绘“跨境占用”土地",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679973.shtml",
+      "title": "8月19日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-19/10679985.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "伊朗举行已故最高领袖下葬四十日纪念仪式",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679975.shtml",
+      "title": "“弟弟举报哥哥冒名上大学”案开庭，真相到底是什么？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679976.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "中越举行海上搜救应急通信演练",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679971.shtml",
+      "title": "医师节，听听医生的心愿",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679984.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "泰国前7个月吸引外资额同比增长37%",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679970.shtml",
+      "title": "一个被低估的减肥小技巧，后悔没早点知道！",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-19/10679983.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "首届电竞世界杯推迟至2027年举行",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679968.shtml",
+      "title": "定制客运何以“加速跑”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679980.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "特朗普：未与伊朗进行任何会谈 未来也无相关计划",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679966.shtml",
+      "title": "应特朗普要求 韩美联合军演提前结束 训练日程缩短约一半",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10679979.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "满足多样化、高品质出行需求正成为行业共识",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679955.shtml",
+      "title": "青海海西州直辖区发生5.6级地震 震源深度10千米",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10679978.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
