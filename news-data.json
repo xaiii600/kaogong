@@ -1,23 +1,23 @@
 {
   "date": "2026-08-18",
-  "time": "07:25",
-  "generatedAt": "2026-08-18T07:25:08.479Z",
+  "time": "09:58",
+  "generatedAt": "2026-08-18T09:58:05.820Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美国电影协会与字节跳动达成合作，共同保护生成模型知识产权",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679622.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
+      "title": "百度Q2 AI业务收入占比连续过半",
+      "url": "https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6Q2+AI%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5%E5%8D%A0%E6%AF%94%E8%BF%9E%E7%BB%AD%E8%BF%87%E5%8D%8A",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "直播：国新办就激发下沉市场活力活跃县域消费有关情况举行新闻发布会",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-18/10679617.shtml",
+      "title": "商务部：培育一批“康养+”“农业+”“历史经典+”等特色消费场景",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679783.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,8 +26,18 @@
       ]
     },
     {
-      "title": "上海科技馆累计游客突破1亿人次",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679592.shtml",
+      "title": "日学者：日本防卫政策正加速向进攻型转变",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679741.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "厄瓜多尔上半年出口额创新高 对华出口保持快速增长",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679726.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,9 +46,19 @@
       ]
     },
     {
-      "title": "AI剧上卫视 能否端出“硬菜”",
-      "url": "https://www.baidu.com/s?wd=AI%E5%89%A7%E4%B8%8A%E5%8D%AB%E8%A7%86+%E8%83%BD%E5%90%A6%E7%AB%AF%E5%87%BA%E2%80%9C%E7%A1%AC%E8%8F%9C%E2%80%9D",
-      "source": "百度热搜",
+      "title": "2026上合组织数字经济论坛将于9月举办",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679759.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "秦平丨“双抢”三变焕新颜，科技服务绘就粮安新答卷",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-18/10679716.shtml",
+      "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -46,30 +66,30 @@
       ]
     },
     {
-      "title": "又一新能源汽车公司成立",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%85%AC%E5%8F%B8%E6%88%90%E7%AB%8B",
-      "source": "百度热搜",
-      "cat": "tech",
+      "title": "官方通报杭州酒局事件：赵某峰、郁某栋被刑拘",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679753.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "国务院：及时谋划出台增量政策",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%8A%A1%E9%99%A2%EF%BC%9A%E5%8F%8A%E6%97%B6%E8%B0%8B%E5%88%92%E5%87%BA%E5%8F%B0%E5%A2%9E%E9%87%8F%E6%94%BF%E7%AD%96",
+      "title": "官方通报杭州酒局事件",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E6%9D%AD%E5%B7%9E%E9%85%92%E5%B1%80%E4%BA%8B%E4%BB%B6",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "宇树科技上市 “中签相当于发财”",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82+%E2%80%9C%E4%B8%AD%E7%AD%BE%E7%9B%B8%E5%BD%93%E4%BA%8E%E5%8F%91%E8%B4%A2%E2%80%9D",
+      "title": "日本驻俄大使被召见至俄外交部",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E9%A9%BB%E4%BF%84%E5%A4%A7%E4%BD%BF%E8%A2%AB%E5%8F%AC%E8%A7%81%E8%87%B3%E4%BF%84%E5%A4%96%E4%BA%A4%E9%83%A8",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -86,8 +106,8 @@
       ]
     },
     {
-      "title": "2026年爱知·名古屋亚运会圣火东京采火仪式举行",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679613.shtml",
+      "title": "内蒙古辽代文物首次大规模亮相新疆",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679774.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +116,8 @@
       ]
     },
     {
-      "title": "朱镕基同志生平",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679627.shtml",
+      "title": "中国电科承建世界精度最高百米级射电望远镜完成核心结构安装",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679773.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +126,8 @@
       ]
     },
     {
-      "title": "特朗普“不续期”，美伊战事会升级吗？",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679615.shtml",
+      "title": "汽车营销从“国内视角”转向“全球视角”——听三位海外达人说中国车",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679733.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +136,8 @@
       ]
     },
     {
-      "title": "头痛心悸、视物模糊……都可能是颈椎病的“百变伪装”",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-18/10679609.shtml",
+      "title": "日本防卫省计划大规模扩编，新设“防卫基盘局”等3个部门",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679738.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +146,8 @@
       ]
     },
     {
-      "title": "能效指标平均提高15% 新版家用太阳能热水系统能效标准实施",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679623.shtml",
+      "title": "翻山越岭搭线送网进瑶寨 八桂大地数智铁塔护青绿",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679792.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +156,8 @@
       ]
     },
     {
-      "title": "8月18日“农产品批发价格200指数”比昨天上升0.14个点",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679619.shtml",
+      "title": "中国商务部：每天有超过1亿件包裹进出农村",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679772.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +166,8 @@
       ]
     },
     {
-      "title": "航行警告！黄海部分海域进行军事活动 禁止驶入",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679614.shtml",
+      "title": "戈壁深处的“种树人”：一位基层林草干部的30载治沙路",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679771.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +176,8 @@
       ]
     },
     {
-      "title": "7月以来十余家上市公司涉嫌违法违规被立案",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679608.shtml",
+      "title": "肯尼亚媒体：深化中非合作释放非洲潜力",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679731.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +186,8 @@
       ]
     },
     {
-      "title": "特朗普炮轰CNN记者“假新闻” 当场连说8次“安静点”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679607.shtml",
+      "title": "浩吉铁路发运货物列车突破10万列 累计发送货物超5.5亿吨",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679770.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +196,8 @@
       ]
     },
     {
-      "title": "一换季就跑厕所？也许是你的脾胃在“闹情绪”",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-18/10679602.shtml",
+      "title": "宁夏回族自治区第十七届运动会闭幕 共打破43项赛事纪录",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-18/10679769.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +206,8 @@
       ]
     },
     {
-      "title": "贵州加强生态环境司法保护 守护大自然亿万年雕琢的岩溶地貌",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679572.shtml",
+      "title": "山东梆子演绎雪域大爱 “繁森故里”唱响民族团结之歌",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679767.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +216,8 @@
       ]
     },
     {
-      "title": "99000立方米超大型乙烷乙烯运输船在沪交付",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679603.shtml",
+      "title": "“反向出差”到中国，为了啥？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679734.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +226,8 @@
       ]
     },
     {
-      "title": "国家气候中心：厄尔尼诺快速发展 有望冲击历史最强",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679585.shtml",
+      "title": "东湖评论丨脚下的路走得稳，前方的景自然新",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-18/10679725.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,28 +236,8 @@
       ]
     },
     {
-      "title": "厦门发布多项对台交流合作措施 突出新媒体赋能等特点",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-18/10679574.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "浙企对话具身智能新机遇：当机器人开始“懂”制造",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679571.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家电投集团黑龙江电力有限公司党委副书记纪连举接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679604.shtml",
+      "title": "山东威海：七夕“流动照相馆”定格岁月",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-18/10679776.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
