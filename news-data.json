@@ -1,33 +1,23 @@
 {
   "date": "2026-08-18",
-  "time": "05:04",
-  "generatedAt": "2026-08-18T05:04:24.606Z",
+  "time": "07:25",
+  "generatedAt": "2026-08-18T07:25:08.479Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "总体平稳 向新向优——透视前7个月国民经济数据",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679431.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国际最新研究：人工智能揭秘音乐“指纹” 辨识爵士音乐家",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679491.shtml",
+      "title": "美国电影协会与字节跳动达成合作，共同保护生成模型知识产权",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679622.shtml",
       "source": "中国新闻网",
       "cat": "international",
-      "score": 2,
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "多地城市夜间经济持续升温 专家建议精细化治理",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679454.shtml",
+      "title": "直播：国新办就激发下沉市场活力活跃县域消费有关情况举行新闻发布会",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-18/10679617.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,50 +26,20 @@
       ]
     },
     {
-      "title": "“十五五”开局之年推进未来产业发展一线观察",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679453.shtml",
+      "title": "上海科技馆累计游客突破1亿人次",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679592.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "60万亿元，打开消费增长新空间",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679435.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "十三届全国政协教科卫体委员会副主任刘慧被公诉",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679498.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "市场监管局干部当了两周外卖骑手，他们发现了什么",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679511.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "石油天然气发展“十五五”规划印发",
-      "url": "https://www.baidu.com/s?wd=%E7%9F%B3%E6%B2%B9%E5%A4%A9%E7%84%B6%E6%B0%94%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92%E5%8D%B0%E5%8F%91",
+      "title": "AI剧上卫视 能否端出“硬菜”",
+      "url": "https://www.baidu.com/s?wd=AI%E5%89%A7%E4%B8%8A%E5%8D%AB%E8%A7%86+%E8%83%BD%E5%90%A6%E7%AB%AF%E5%87%BA%E2%80%9C%E7%A1%AC%E8%8F%9C%E2%80%9D",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -96,8 +56,18 @@
       ]
     },
     {
-      "title": "港股AI大模型双雄重挫逾13%",
-      "url": "https://www.baidu.com/s?wd=%E6%B8%AF%E8%82%A1AI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%8C%E9%9B%84%E9%87%8D%E6%8C%AB%E9%80%BE13%25",
+      "title": "国务院：及时谋划出台增量政策",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%8A%A1%E9%99%A2%EF%BC%9A%E5%8F%8A%E6%97%B6%E8%B0%8B%E5%88%92%E5%87%BA%E5%8F%B0%E5%A2%9E%E9%87%8F%E6%94%BF%E7%AD%96",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宇树科技上市 “中签相当于发财”",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82+%E2%80%9C%E4%B8%AD%E7%AD%BE%E7%9B%B8%E5%BD%93%E4%BA%8E%E5%8F%91%E8%B4%A2%E2%80%9D",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -106,28 +76,18 @@
       ]
     },
     {
-      "title": "日本第22轮核污染水排海总量近8000吨",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%AC%AC22%E8%BD%AE%E6%A0%B8%E6%B1%A1%E6%9F%93%E6%B0%B4%E6%8E%92%E6%B5%B7%E6%80%BB%E9%87%8F%E8%BF%918000%E5%90%A8",
+      "title": "阿卜杜拉二世今起访华",
+      "url": "https://www.baidu.com/s?wd=%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BB%8A%E8%B5%B7%E8%AE%BF%E5%8D%8E",
       "source": "百度热搜",
-      "cat": "society",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "商务部等9部门发文：活跃县域消费",
-      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%8A%A1%E9%83%A8%E7%AD%899%E9%83%A8%E9%97%A8%E5%8F%91%E6%96%87%EF%BC%9A%E6%B4%BB%E8%B7%83%E5%8E%BF%E5%9F%9F%E6%B6%88%E8%B4%B9",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "盗用切片推广竞品 杭州两级法院以不正当竞争落判",
-      "url": "https://www.chinanews.com.cn/fz/2026/08-18/10679459.shtml",
+      "title": "2026年爱知·名古屋亚运会圣火东京采火仪式举行",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679613.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +96,8 @@
       ]
     },
     {
-      "title": "菲律宾南部校园枪击事件致2人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679524.shtml",
+      "title": "朱镕基同志生平",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679627.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +106,8 @@
       ]
     },
     {
-      "title": "19.9元一斤！榴莲价格为何“崩了”",
-      "url": "https://www.chinanews.com.cn/kong/2026/08-18/10679538.shtml",
+      "title": "特朗普“不续期”，美伊战事会升级吗？",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679615.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +116,8 @@
       ]
     },
     {
-      "title": "澳门山东社团总会：当好“精准联络人” 解锁合作新赛道",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-18/10679533.shtml",
+      "title": "头痛心悸、视物模糊……都可能是颈椎病的“百变伪装”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-18/10679609.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +126,8 @@
       ]
     },
     {
-      "title": "四部门发布《关于加强医院法治建设的意见》",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679535.shtml",
+      "title": "能效指标平均提高15% 新版家用太阳能热水系统能效标准实施",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679623.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +136,8 @@
       ]
     },
     {
-      "title": "强降雨引发四川一处地质灾害 提前避险转移55928人",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679536.shtml",
+      "title": "8月18日“农产品批发价格200指数”比昨天上升0.14个点",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679619.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +146,8 @@
       ]
     },
     {
-      "title": "为什么中国的“新农具”这么“聪明”？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679405.shtml",
+      "title": "航行警告！黄海部分海域进行军事活动 禁止驶入",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679614.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +156,8 @@
       ]
     },
     {
-      "title": "国家疾控局发布HPV疫苗科普问答",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-18/10679532.shtml",
+      "title": "7月以来十余家上市公司涉嫌违法违规被立案",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679608.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +166,8 @@
       ]
     },
     {
-      "title": "从“宅兹中国”到笔墨丹青：《图说何以中国画集》亮相2026上海书展",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679527.shtml",
+      "title": "特朗普炮轰CNN记者“假新闻” 当场连说8次“安静点”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679607.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +176,8 @@
       ]
     },
     {
-      "title": "宜（昌）兴（山）高铁启动试运行",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679525.shtml",
+      "title": "一换季就跑厕所？也许是你的脾胃在“闹情绪”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-18/10679602.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +186,8 @@
       ]
     },
     {
-      "title": "骗子冒充白宫幕僚长与英首相互发信息，特朗普回应",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679526.shtml",
+      "title": "贵州加强生态环境司法保护 守护大自然亿万年雕琢的岩溶地貌",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679572.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +196,48 @@
       ]
     },
     {
-      "title": "两部门再次预拨6000万元 支持河南做好防汛应急抢险救灾工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679520.shtml",
+      "title": "99000立方米超大型乙烷乙烯运输船在沪交付",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679603.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国家气候中心：厄尔尼诺快速发展 有望冲击历史最强",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679585.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "厦门发布多项对台交流合作措施 突出新媒体赋能等特点",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-18/10679574.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙企对话具身智能新机遇：当机器人开始“懂”制造",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679571.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国家电投集团黑龙江电力有限公司党委副书记纪连举接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679604.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
