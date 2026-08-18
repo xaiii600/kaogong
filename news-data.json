@@ -1,13 +1,23 @@
 {
-  "date": "2026-08-17",
-  "time": "23:58",
-  "generatedAt": "2026-08-17T23:58:19.847Z",
+  "date": "2026-08-18",
+  "time": "03:14",
+  "generatedAt": "2026-08-18T03:14:33.606Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "香港特区廉政专员率团赴大连参加APEC反腐败会议",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-17/10679336.shtml",
+      "title": "海南推进国际教育创新岛建设调查",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-18/10679492.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 3,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本民众集会抗议高市政府政策：为了党派利益忽视国民生活",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679488.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 2,
@@ -16,18 +26,68 @@
       ]
     },
     {
-      "title": "医保支付改革让“家门口”就医“治得好、负担小”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679360.shtml",
+      "title": "从芯片到瓜子水饺，美式制裁大棒扯落了自己的遮羞布丨新闻会客厅",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679475.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "未来产业大会将于8月26日至27日在成都举行",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679482.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "曾公开批评因凡蒂诺 国际足联首席运营官已离任",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679353.shtml",
+      "title": "直击民生痛点 北京平房院落标准化更新方案出炉",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679489.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "产业布局切忌盲目跟风——推进乡村全面振兴系列谈之一",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679418.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【理响中国·经视图】坚定不移走中国特色金融发展之路",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-18/10679415.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "开局起步“十五五”：世界一流商业航天发射场，海南如何建？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679471.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "欧盟驰援比利时和西班牙应对山火",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679446.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -36,10 +96,20 @@
       ]
     },
     {
-      "title": "伊朗官员：已为美国履行谅解备忘录设定最后期限",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-17/10679344.shtml",
+      "title": "欧盟紧急援助230万欧元应对西非和中部非洲霍乱疫情",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679429.shtml",
       "source": "中国新闻网",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国援圭医疗队牵头建成健康促进中心",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679424.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
@@ -56,8 +126,38 @@
       ]
     },
     {
+      "title": "市场监管局干部当了两周外卖骑手",
+      "url": "https://www.baidu.com/s?wd=%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E5%B1%80%E5%B9%B2%E9%83%A8%E5%BD%93%E4%BA%86%E4%B8%A4%E5%91%A8%E5%A4%96%E5%8D%96%E9%AA%91%E6%89%8B",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "日本大使反应令俄外长直呼惊讶",
       "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%A4%A7%E4%BD%BF%E5%8F%8D%E5%BA%94%E4%BB%A4%E4%BF%84%E5%A4%96%E9%95%BF%E7%9B%B4%E5%91%BC%E6%83%8A%E8%AE%B6",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "商务部等9部门发文：活跃县域消费",
+      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%8A%A1%E9%83%A8%E7%AD%899%E9%83%A8%E9%97%A8%E5%8F%91%E6%96%87%EF%BC%9A%E6%B4%BB%E8%B7%83%E5%8E%BF%E5%9F%9F%E6%B6%88%E8%B4%B9",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部点赞辅警外卖小哥逆行救援",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E7%82%B9%E8%B5%9E%E8%BE%85%E8%AD%A6%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E9%80%86%E8%A1%8C%E6%95%91%E6%8F%B4",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -76,38 +176,8 @@
       ]
     },
     {
-      "title": "美国一黑熊转动门把手试图开门进屋",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E9%BB%91%E7%86%8A%E8%BD%AC%E5%8A%A8%E9%97%A8%E6%8A%8A%E6%89%8B%E8%AF%95%E5%9B%BE%E5%BC%80%E9%97%A8%E8%BF%9B%E5%B1%8B",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "女正厅高环被查 曾任伊春市委书记",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E6%AD%A3%E5%8E%85%E9%AB%98%E7%8E%AF%E8%A2%AB%E6%9F%A5+%E6%9B%BE%E4%BB%BB%E4%BC%8A%E6%98%A5%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "市场监管局干部当了两周外卖骑手",
-      "url": "https://www.baidu.com/s?wd=%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E5%B1%80%E5%B9%B2%E9%83%A8%E5%BD%93%E4%BA%86%E4%B8%A4%E5%91%A8%E5%A4%96%E5%8D%96%E9%AA%91%E6%89%8B",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外卖骑手“红灯停表”一线见闻：配送两单等红灯延时4分钟",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679370.shtml",
+      "title": "生态环境法典“第一案”传递的信号",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679400.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +186,8 @@
       ]
     },
     {
-      "title": "一人公司为何开始“奔县”？来到县城创业不等于“降级”",
-      "url": "https://www.chinanews.com.cn/kong/2026/08-18/10679368.shtml",
+      "title": "从石狮到纽约，再从世界回到海边：杨紫明的“归去来”",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-18/10679484.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +196,8 @@
       ]
     },
     {
-      "title": "两道门4元钱！成都一小区居民回家竟要先交“开门费”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679365.shtml",
+      "title": "伪造的下单页面、诱导共享屏幕……揭秘免费探店、免费试吃诈骗链条",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679496.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +206,8 @@
       ]
     },
     {
-      "title": "河南溃口合龙后，如何应对新考验？",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679364.shtml",
+      "title": "勇立潮头大湾区｜“一站式”出海 国产汽车跑出“加速度”",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-18/10679426.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +216,8 @@
       ]
     },
     {
-      "title": "海外热梗刷屏掀起来华热潮！老外为啥爱“中国游”？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679363.shtml",
+      "title": "溃口合龙后——沙颍河畔，河南周口接续迎战防汛大考",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679472.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +226,8 @@
       ]
     },
     {
-      "title": "特朗普：伊朗不会达成我认为必要的那种协议",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679362.shtml",
+      "title": "习近平总书记指引企业坚定不移走高质量发展之路",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679486.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,78 +236,8 @@
       ]
     },
     {
-      "title": "世界最长海底高铁隧道完成带压盾构换刀",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679361.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "秋季补水≠猛灌水 这几种“喝水法”正在悄悄伤身体",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-18/10679359.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "8月18日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-18/10679358.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "民调：特朗普支持率创第二任期内新低",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679357.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普称金正恩已回应其“对话”请求",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679356.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "委内瑞拉强震已致6438人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679355.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "小心这种大蜗牛可能传染脑膜炎",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679354.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "英国与黎巴嫩签署谅解备忘录 强化安全合作",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679350.shtml",
+      "title": "（活力中国调研行）福州老街区里的“新”活力：让闽都文化“可感可触”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679479.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
