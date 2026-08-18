@@ -1,7 +1,7 @@
 {
   "date": "2026-08-18",
-  "time": "17:48",
-  "generatedAt": "2026-08-18T17:48:38.745Z",
+  "time": "19:42",
+  "generatedAt": "2026-08-18T19:42:49.519Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -10,6 +10,16 @@
       "url": "https://www.chinanews.com.cn/dwq/2026/08-18/10679947.shtml",
       "source": "中国新闻网",
       "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "事关住房公积金 国务院最新发布",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8B%E5%85%B3%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91+%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%9C%80%E6%96%B0%E5%8F%91%E5%B8%83",
+      "source": "百度热搜",
+      "cat": "policy",
       "score": 2,
       "exams": [
         "申论素材"
@@ -228,16 +238,6 @@
     {
       "title": "这才是《欢迎来龙餐馆》的彩蛋",
       "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679956.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗最高领袖据称将在德黑兰主持活动",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679965.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
