@@ -1,14 +1,34 @@
 {
   "date": "2026-08-18",
-  "time": "09:58",
-  "generatedAt": "2026-08-18T09:58:05.820Z",
+  "time": "11:44",
+  "generatedAt": "2026-08-18T11:44:39.399Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "百度Q2 AI业务收入占比连续过半",
-      "url": "https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6Q2+AI%E4%B8%9A%E5%8A%A1%E6%94%B6%E5%85%A5%E5%8D%A0%E6%AF%94%E8%BF%9E%E7%BB%AD%E8%BF%87%E5%8D%8A",
-      "source": "百度热搜",
+      "title": "四川省雅安市名山区人大常委会原党组书记、主任张永祥接受纪律审查和监察调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679842.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "防作弊管控将融入电子计价秤生产全流程 市场监管总局最新部署",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679845.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "四川省遂宁康佳产业园区开发有限公司总经理翁居荣接受纪律审查和监察调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679836.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
       "exams": [
@@ -16,38 +36,38 @@
       ]
     },
     {
-      "title": "商务部：培育一批“康养+”“农业+”“历史经典+”等特色消费场景",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679783.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日学者：日本防卫政策正加速向进攻型转变",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679741.shtml",
+      "title": "“蔡元培教育思想当代价值”学术会议在浙江绍兴举行",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679832.shtml",
       "source": "中国新闻网",
       "cat": "policy",
-      "score": 1,
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "厄瓜多尔上半年出口额创新高 对华出口保持快速增长",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679726.shtml",
+      "title": "上海：2030年将建成国内领先、国际一流韧性安全城市",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679856.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "2026上合组织数字经济论坛将于9月举办",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679759.shtml",
+      "title": "香港最新人口临时数字为751.83万人 同比增0.3%",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-18/10679854.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2024年至今 全国市场监管部门共查办侵犯商业秘密案件383件",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679855.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,8 +76,68 @@
       ]
     },
     {
-      "title": "秦平丨“双抢”三变焕新颜，科技服务绘就粮安新答卷",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-18/10679716.shtml",
+      "title": "第二十届上海金融服务实体经济洽谈会“校园行”启动仪式举办",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679848.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄外交部召见日本驻俄大使提出强烈抗议",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679794.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "挺起全域出彩的“硬支撑”——徐州市铜山区全力以赴建设全国有影响力的特色产业基地",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679758.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南集中签约10个能源类项目 总投资金额69.57亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679834.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国54个城市开通运营城市轨道交通线路347条",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679838.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本消费税下调背后隐忧重重 高市政府遭多方质疑",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679839.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第七届全国辐射物理学术交流会在赣召开 专家学者共议核科技应用创新",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679825.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -66,10 +146,20 @@
       ]
     },
     {
-      "title": "官方通报杭州酒局事件：赵某峰、郁某栋被刑拘",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679753.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
+      "title": "外交部改口：把靖国神社称作战犯神社",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E6%94%B9%E5%8F%A3%EF%BC%9A%E6%8A%8A%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E7%A7%B0%E4%BD%9C%E6%88%98%E7%8A%AF%E7%A5%9E%E7%A4%BE",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "租房提取公积金取消收入比例门槛",
+      "url": "https://www.baidu.com/s?wd=%E7%A7%9F%E6%88%BF%E6%8F%90%E5%8F%96%E5%85%AC%E7%A7%AF%E9%87%91%E5%8F%96%E6%B6%88%E6%94%B6%E5%85%A5%E6%AF%94%E4%BE%8B%E9%97%A8%E6%A7%9B",
+      "source": "百度热搜",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -86,6 +176,16 @@
       ]
     },
     {
+      "title": "安踏前CEO徐阳回应离职：将迁居美国",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E8%B8%8F%E5%89%8DCEO%E5%BE%90%E9%98%B3%E5%9B%9E%E5%BA%94%E7%A6%BB%E8%81%8C%EF%BC%9A%E5%B0%86%E8%BF%81%E5%B1%85%E7%BE%8E%E5%9B%BD",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "日本驻俄大使被召见至俄外交部",
       "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E9%A9%BB%E4%BF%84%E5%A4%A7%E4%BD%BF%E8%A2%AB%E5%8F%AC%E8%A7%81%E8%87%B3%E4%BF%84%E5%A4%96%E4%BA%A4%E9%83%A8",
       "source": "百度热搜",
@@ -96,18 +196,8 @@
       ]
     },
     {
-      "title": "阿卜杜拉二世今起访华",
-      "url": "https://www.baidu.com/s?wd=%E9%98%BF%E5%8D%9C%E6%9D%9C%E6%8B%89%E4%BA%8C%E4%B8%96%E4%BB%8A%E8%B5%B7%E8%AE%BF%E5%8D%8E",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "内蒙古辽代文物首次大规模亮相新疆",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679774.shtml",
+      "title": "中国海油盐城“绿能港”LNG接卸量突破1000万吨",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679858.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +206,8 @@
       ]
     },
     {
-      "title": "中国电科承建世界精度最高百米级射电望远镜完成核心结构安装",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-18/10679773.shtml",
+      "title": "陆海新通道数智一体化平台等六大产品在渝发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679851.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +216,8 @@
       ]
     },
     {
-      "title": "汽车营销从“国内视角”转向“全球视角”——听三位海外达人说中国车",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679733.shtml",
+      "title": "丰富亲子公益服务 西安机场儿童乐园面向旅客免费开放",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679849.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +226,8 @@
       ]
     },
     {
-      "title": "日本防卫省计划大规模扩编，新设“防卫基盘局”等3个部门",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679738.shtml",
+      "title": "全球最大级别双燃料集装箱船从江苏泰州离港",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679853.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,98 +236,8 @@
       ]
     },
     {
-      "title": "翻山越岭搭线送网进瑶寨 八桂大地数智铁塔护青绿",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679792.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国商务部：每天有超过1亿件包裹进出农村",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679772.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "戈壁深处的“种树人”：一位基层林草干部的30载治沙路",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679771.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "肯尼亚媒体：深化中非合作释放非洲潜力",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-18/10679731.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "浩吉铁路发运货物列车突破10万列 累计发送货物超5.5亿吨",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679770.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏回族自治区第十七届运动会闭幕 共打破43项赛事纪录",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-18/10679769.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "山东梆子演绎雪域大爱 “繁森故里”唱响民族团结之歌",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-18/10679767.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“反向出差”到中国，为了啥？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-18/10679734.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东湖评论丨脚下的路走得稳，前方的景自然新",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-18/10679725.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "山东威海：七夕“流动照相馆”定格岁月",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-18/10679776.shtml",
+      "title": "银川打造首个“无蚊公园”试点 精细治理擦亮宜居城市底色",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-18/10679852.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
