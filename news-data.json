@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
-  "time": "23:03",
-  "generatedAt": "2026-08-19T23:03:18.798Z",
+  "time": "23:59",
+  "generatedAt": "2026-08-19T23:59:10.993Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -11,6 +11,36 @@
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普宣布对伊启动“史上最严”经济行动，“任何支援国将遭重罚”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680734.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普宣布对伊朗采取“史上最严厉经济行动”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680732.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美联邦政府债务首破40万亿美元大关，财政危机警报拉响",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680730.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -46,16 +76,6 @@
       ]
     },
     {
-      "title": "从拼融资到比落地，具身智能面临数据“大考”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680697.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "“AI剧像喂猪一样 实在吃不下了”",
       "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E5%89%A7%E5%83%8F%E5%96%82%E7%8C%AA%E4%B8%80%E6%A0%B7+%E5%AE%9E%E5%9C%A8%E5%90%83%E4%B8%8D%E4%B8%8B%E4%BA%86%E2%80%9D",
       "source": "百度热搜",
@@ -76,11 +96,61 @@
       ]
     },
     {
-      "title": "被问副总统是谁 美国年轻人宕机",
-      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E9%97%AE%E5%89%AF%E6%80%BB%E7%BB%9F%E6%98%AF%E8%B0%81+%E7%BE%8E%E5%9B%BD%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%AE%95%E6%9C%BA",
+      "title": "特朗普宣布对伊朗“最严厉经济行动”",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E2%80%9C%E6%9C%80%E4%B8%A5%E5%8E%89%E7%BB%8F%E6%B5%8E%E8%A1%8C%E5%8A%A8%E2%80%9D",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "economy",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "逝者的房贷谁来管？法院判定民政局为遗产管理人",
+      "url": "https://www.chinanews.com.cn/fz/2026/08-20/10680737.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一留学生被冒牌公检法操控的两个月",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-20/10680736.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆给了创业青年哪些“定心丸”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680735.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "油烟机开晚了比二手烟还伤肺？日常养肺这样做",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-20/10680733.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“基辅市内传出爆炸声” 乌空军发布警报：弹道导弹正从北部方向袭来",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680731.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -168,76 +238,6 @@
     {
       "title": "网约车司机下车后猝死，保险“只保行驶中”？法官：劳动者的保障应覆盖整个工作过程",
       "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680724.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "巴西南部巴拉那州两车相撞致23死5伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680719.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "手机充电为什么越来越快",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680723.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "英国刘易斯列车脱轨事故调查：轨道存异常",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680716.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "金与正：对朝美领导人近期沟通事宜一无所知",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680714.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "受南海热带低压影响 广西沿海多个海上项目停航",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680713.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普称可能在“某个时候”恢复与伊朗的谈判",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680712.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（台湾写真）一个七夕两样情：雨中拜月老，古礼贺成年",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680710.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
