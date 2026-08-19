@@ -1,13 +1,33 @@
 {
   "date": "2026-08-19",
-  "time": "03:27",
-  "generatedAt": "2026-08-19T03:27:02.362Z",
+  "time": "05:53",
+  "generatedAt": "2026-08-19T05:53:35.969Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "海南产经新观察：扩消费，海口多措并举",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680141.shtml",
+      "title": "专家学者江苏盱眙共探凹凸棒石产业创新发展",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680231.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（经济观察）“硬科技”企业密集登陆 科创板“硬核底色”持续跃升",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680244.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（侨乡新貌）侨乡玉林香料产业迭代升级 “驶上”全球香料新赛道",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-19/10680206.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -16,19 +36,49 @@
       ]
     },
     {
-      "title": "124万名医务工作者深耕南粤 广东医疗服务能级持续跃升",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-19/10680127.shtml",
+      "title": "以色列指责叙利亚允许土耳其在叙空军基地部署军队",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680201.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国民营航天首次实现火箭入轨回收",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680155.shtml",
+      "title": "法国将驱逐两名伊朗外交人员",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680200.shtml",
       "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "A股市场投资逻辑加速转向",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680203.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "首颗“雄安造”卫星成功入轨",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680202.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "又一国产存储芯片龙头冲刺上市",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E5%9B%BD%E4%BA%A7%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E9%BE%99%E5%A4%B4%E5%86%B2%E5%88%BA%E4%B8%8A%E5%B8%82",
+      "source": "百度热搜",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -46,38 +96,8 @@
       ]
     },
     {
-      "title": "宇树科技高开629% 总市值达4449亿",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E9%AB%98%E5%BC%80629%25+%E6%80%BB%E5%B8%82%E5%80%BC%E8%BE%BE4449%E4%BA%BF",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国宣布：制裁赤根智子",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%AE%A3%E5%B8%83%EF%BC%9A%E5%88%B6%E8%A3%81%E8%B5%A4%E6%A0%B9%E6%99%BA%E5%AD%90",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技今日上市",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%BB%8A%E6%97%A5%E4%B8%8A%E5%B8%82",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "长江十年行丨一江两岸，三重刻度",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680105.shtml",
+      "title": "机器人在北京“上班”：30秒出咖啡、50道菜随便点",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680269.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -86,8 +106,8 @@
       ]
     },
     {
-      "title": "李永金同志逝世",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680182.shtml",
+      "title": "赵乐际会见厄瓜多尔总统诺沃亚",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680261.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +116,8 @@
       ]
     },
     {
-      "title": "光影勾勒山水画卷 《彭城风华》演绎徐州千年往事",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-19/10680145.shtml",
+      "title": "四十天两次回收成功，中国可回收火箭跑到哪一步了？",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680239.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +126,8 @@
       ]
     },
     {
-      "title": "守护日本宪法的和平属性刻不容缓",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680140.shtml",
+      "title": "苏州光福核雕：掌上有乾坤 微米见匠心",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680233.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +136,8 @@
       ]
     },
     {
-      "title": "嫦娥七号飞行任务器箭组合体完成垂直转运 计划近日择机实施发射",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680181.shtml",
+      "title": "平陆运河起点江口街：因水兴衰的千年古街",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-19/10680229.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +146,8 @@
       ]
     },
     {
-      "title": "中国残疾人艺术团《我的梦》公益演出首次走进西藏",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-19/10680138.shtml",
+      "title": "烟台港中非件杂货班轮航线年运量首破600万吨",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680226.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +156,8 @@
       ]
     },
     {
-      "title": "石家庄市一居民楼发生部分坍塌 受伤人员已送医救治",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680177.shtml",
+      "title": "王毅同智利外长佩雷斯会谈",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680255.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +166,8 @@
       ]
     },
     {
-      "title": "国台办介绍国共两党青年双向交流机制化平台情况",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680114.shtml",
+      "title": "七夕佳节 杭州“最美婚登处”迎新人登记高峰",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-19/10680227.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +176,8 @@
       ]
     },
     {
-      "title": "特朗普宣布：推迟3天对加拿大加征50%关税",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680162.shtml",
+      "title": "绕开海峡 伊拉克批准原油出口新机制",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680251.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +186,8 @@
       ]
     },
     {
-      "title": "高温催热海外需求 海关“绿色通道”助力消暑食品出海",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680132.shtml",
+      "title": "首届流行音乐创作大会（广东）将在广州举办",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680224.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +196,8 @@
       ]
     },
     {
-      "title": "嫦娥七号器箭组合体完成垂直转运",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680176.shtml",
+      "title": "国台办回应非洲多国限制“台湾护照”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680222.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +206,8 @@
       ]
     },
     {
-      "title": "国台办回应赖清德诬称“大陆介选”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680171.shtml",
+      "title": "国台办回应台当局尊重日本政要“拜鬼”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680221.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +216,8 @@
       ]
     },
     {
-      "title": "广南联络线西塱隧道盾构掘进转入攻坚冲刺阶段",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680130.shtml",
+      "title": "广州东部公铁联运枢纽正式启动“两查合一”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680223.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +226,8 @@
       ]
     },
     {
-      "title": "岛内质疑“汉光演习”断网影响正常生活 国台办回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680157.shtml",
+      "title": "港澳籍游艇首泊佛山 开启湾区水上休闲新通道",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-19/10680235.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,28 +236,8 @@
       ]
     },
     {
-      "title": "调查指83%内地企业首选香港作为出海服务平台",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-19/10680129.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "岛内盼《八仙！》《欢迎来龙餐馆》等影片在台上映 国台办回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680120.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中企承建的厄瓜多尔圣多明各供水项目惠及50万民众",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680087.shtml",
+      "title": "青海海西州发生5.6级地震 水利部迅即启动水利抗震救灾调度指挥机制",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680234.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
