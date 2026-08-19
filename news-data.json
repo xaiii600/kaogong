@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
-  "time": "14:17",
-  "generatedAt": "2026-08-19T14:17:19.482Z",
+  "time": "15:55",
+  "generatedAt": "2026-08-19T15:55:12.102Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -26,11 +26,21 @@
       ]
     },
     {
-      "title": "上海欲推进6G商用 构建国际数据加工枢纽",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680662.shtml",
+      "title": "业内人士：AI时代，内容体系将进一步扩展",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680700.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从拼融资到比落地，具身智能面临数据“大考”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680697.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -66,16 +76,6 @@
       ]
     },
     {
-      "title": "美国俄勒冈州艺术体操舞蹈学院代表团亲历感受西藏",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680659.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "“AI剧像喂猪一样 实在吃不下了”",
       "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E5%89%A7%E5%83%8F%E5%96%82%E7%8C%AA%E4%B8%80%E6%A0%B7+%E5%AE%9E%E5%9C%A8%E5%90%83%E4%B8%8D%E4%B8%8B%E4%BA%86%E2%80%9D",
       "source": "百度热搜",
@@ -86,31 +86,81 @@
       ]
     },
     {
-      "title": "全球市场大跳水 原因找到了",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E5%B8%82%E5%9C%BA%E5%A4%A7%E8%B7%B3%E6%B0%B4+%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86",
+      "title": "穿武磊球衣小球迷遭围攻？警方通报",
+      "url": "https://www.baidu.com/s?wd=%E7%A9%BF%E6%AD%A6%E7%A3%8A%E7%90%83%E8%A1%A3%E5%B0%8F%E7%90%83%E8%BF%B7%E9%81%AD%E5%9B%B4%E6%94%BB%EF%BC%9F%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "公积金改革大潮",
-      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%94%B9%E9%9D%A9%E5%A4%A7%E6%BD%AE",
+      "title": "被问副总统是谁 美国年轻人宕机",
+      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E9%97%AE%E5%89%AF%E6%80%BB%E7%BB%9F%E6%98%AF%E8%B0%81+%E7%BE%8E%E5%9B%BD%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%AE%95%E6%9C%BA",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "宇树科技坐上杭州“头把交椅”",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%9D%90%E4%B8%8A%E6%9D%AD%E5%B7%9E%E2%80%9C%E5%A4%B4%E6%8A%8A%E4%BA%A4%E6%A4%85%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "（台湾写真）一个七夕两样情：雨中拜月老，古礼贺成年",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680710.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "专家：科学减重要关注腰围，告别“唯体重论”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-19/10680699.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "王毅同韩国外长赵显会谈",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680701.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "最早的七夕，没有“快乐”",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-19/10680698.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "680余家媒体发布2025年度媒体社会责任报告",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-19/10680696.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "河北石家庄一居民楼部分坍塌造成3人死亡",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680695.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -188,56 +238,6 @@
     {
       "title": "2026广东（连山）“七月香”壮家戏水暨非遗民俗系列活动在清远开幕",
       "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680677.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "辽宁营口：力争2030年临港工业产值突破1500亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680675.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "上厅堂下厨房   中国机器人努力成为“生活搭子”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680673.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“爱侣圣地”鸳鸯溪设婚姻登记点 福建屏南打造山水婚恋新场景",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680672.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "南海热带低压生成 中国气象局启动暴雨四级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680682.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "福建罗源县西洋村：从“卖苗木”到“卖风景”的杜鹃谷",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680670.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
