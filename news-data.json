@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
-  "time": "15:55",
-  "generatedAt": "2026-08-19T15:55:12.102Z",
+  "time": "17:43",
+  "generatedAt": "2026-08-19T17:43:55.720Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -66,16 +66,6 @@
       ]
     },
     {
-      "title": "港澳博士生“逐梦”山东 探寻创新创业新机遇",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-19/10680645.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "“AI剧像喂猪一样 实在吃不下了”",
       "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E5%89%A7%E5%83%8F%E5%96%82%E7%8C%AA%E4%B8%80%E6%A0%B7+%E5%AE%9E%E5%9C%A8%E5%90%83%E4%B8%8D%E4%B8%8B%E4%BA%86%E2%80%9D",
       "source": "百度热搜",
@@ -101,6 +91,36 @@
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "金与正：对朝美领导人近期沟通事宜一无所知",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680714.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "受南海热带低压影响 广西沿海多个海上项目停航",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680713.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普称可能在“某个时候”恢复与伊朗的谈判",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-19/10680712.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -218,26 +238,6 @@
     {
       "title": "中国医师节特写：一幅手绘画里的“医者情”",
       "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680684.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏“十四五”以来累计落实残疾人事业发展资金11.3亿元",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680686.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026广东（连山）“七月香”壮家戏水暨非遗民俗系列活动在清远开幕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-19/10680677.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
