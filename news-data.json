@@ -1,10 +1,20 @@
 {
   "date": "2026-08-20",
-  "time": "16:00",
-  "generatedAt": "2026-08-20T16:00:52.750Z",
+  "time": "17:53",
+  "generatedAt": "2026-08-20T17:53:20.156Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "伊朗外交部谴责美国对伊实施新一轮经济制裁",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681381.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "美军中央司令部称“华盛顿”号航母已部署在中东",
       "url": "https://www.chinanews.com.cn/gj/2026/08-20/10681377.shtml",
@@ -26,11 +36,11 @@
       ]
     },
     {
-      "title": "“粤港养老通”落地 跨境养老金融迈入“双轮驱动”时代",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681343.shtml",
+      "title": "特朗普称白宫立法事务主任布雷德将离职",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681384.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
+      "cat": "policy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -58,26 +68,6 @@
     {
       "title": "广西财政筹措资金超4亿元 支持受灾地区农业灾后恢复和水利工程修复",
       "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681356.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "赵乐际同萨尔瓦多立法大会主席卡斯特罗举行会谈",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10681362.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏“举杯贺兰山·青年艺术季”收官 文旅消费持续升温",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681345.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -146,6 +136,56 @@
       ]
     },
     {
+      "title": "美国小飞机撞警用直升机致1死2伤",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%B0%8F%E9%A3%9E%E6%9C%BA%E6%92%9E%E8%AD%A6%E7%94%A8%E7%9B%B4%E5%8D%87%E6%9C%BA%E8%87%B41%E6%AD%BB2%E4%BC%A4",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "德国今年4月以来约有1.4万人因高温相关因素死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681383.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "餐饮黄牛高价倒卖排号是否涉嫌违法？律师解读来了",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681382.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "歌剧《卡门》中文版厦门上演 97岁指挥家郑小瑛执棒",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681380.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "胡塞武装称对沙特发动无人机袭击",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681379.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "香港举办“东盟电影节2026” 逾30部佳片促文化交流合作",
       "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681376.shtml",
       "source": "中国新闻网",
@@ -198,46 +238,6 @@
     {
       "title": "两岸影人在北京共话电影合作",
       "url": "https://www.chinanews.com.cn/gn/2026/08-20/10681368.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“第二现场”沉浸式数字演播项目首演 夯实优质文化资源下沉基层",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-20/10681366.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新疆霍尔果斯铁路口岸累计通行中欧（亚）班列超5.9万列",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681369.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云南大理无量山里的“幸福小院”：饭桌有“暖” 照护有“智”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681364.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "老中青三代音乐人将汇聚深圳“听见中国听见你”原创音乐盛典",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-20/10681363.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
