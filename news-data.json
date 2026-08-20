@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-19",
-  "time": "23:59",
-  "generatedAt": "2026-08-19T23:59:10.993Z",
+  "date": "2026-08-20",
+  "time": "03:26",
+  "generatedAt": "2026-08-20T03:26:44.646Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "国际市场仍为中国航空货运重要增长点",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680715.shtml",
+      "title": "2026中国（太原）国际能源产业博览会首次引入印尼展团",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680843.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "title": "特朗普宣布对伊启动“史上最严”经济行动，“任何支援国将遭重罚”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680734.shtml",
+      "title": "中国黄金协会：我国黄金产业链完整，具备抵御外部风险的充足韧性",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680776.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,8 +26,18 @@
       ]
     },
     {
-      "title": "特朗普宣布对伊朗采取“史上最严厉经济行动”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680732.shtml",
+      "title": "北京市大兴区人大常委会原副主任张德广一审获刑13年",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10680856.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "促消费“组合拳”有效扩大优质供给",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680882.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,18 +46,8 @@
       ]
     },
     {
-      "title": "美联邦政府债务首破40万亿美元大关，财政危机警报拉响",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680730.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普提名奥弗顿出任美国食品和药物管理局局长",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680721.shtml",
+      "title": "我国牵头制定！全球首个算电协同领域国际标准立项",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680880.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -56,18 +56,8 @@
       ]
     },
     {
-      "title": "普京：乌军袭击俄境内目标造成损失但未产生严重后果",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680722.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "业内人士：AI时代，内容体系将进一步扩展",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-19/10680700.shtml",
+      "title": "昆仑万维2026上半年营收53.59亿同比增43.55% AI原生平台加速商业化",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680835.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -76,29 +66,9 @@
       ]
     },
     {
-      "title": "“AI剧像喂猪一样 实在吃不下了”",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E5%89%A7%E5%83%8F%E5%96%82%E7%8C%AA%E4%B8%80%E6%A0%B7+%E5%AE%9E%E5%9C%A8%E5%90%83%E4%B8%8D%E4%B8%8B%E4%BA%86%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "穿武磊球衣小球迷遭围攻？警方通报",
-      "url": "https://www.baidu.com/s?wd=%E7%A9%BF%E6%AD%A6%E7%A3%8A%E7%90%83%E8%A1%A3%E5%B0%8F%E7%90%83%E8%BF%B7%E9%81%AD%E5%9B%B4%E6%94%BB%EF%BC%9F%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普宣布对伊朗“最严厉经济行动”",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E2%80%9C%E6%9C%80%E4%B8%A5%E5%8E%89%E7%BB%8F%E6%B5%8E%E8%A1%8C%E5%8A%A8%E2%80%9D",
-      "source": "百度热搜",
+      "title": "从“靠山吃山”到“绿富同兴”：黑龙江探索林下经济高质量发展新路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680842.shtml",
+      "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -106,8 +76,48 @@
       ]
     },
     {
-      "title": "逝者的房贷谁来管？法院判定民政局为遗产管理人",
-      "url": "https://www.chinanews.com.cn/fz/2026/08-20/10680737.shtml",
+      "title": "向“新”之变！三个维度解读前7月国民经济成绩单",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680865.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西百色：军属军娃进军营 “零距离”体验国防教育",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-20/10680845.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国制裁赤根智子 日本：深感遗憾",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%88%B6%E8%A3%81%E8%B5%A4%E6%A0%B9%E6%99%BA%E5%AD%90+%E6%97%A5%E6%9C%AC%EF%BC%9A%E6%B7%B1%E6%84%9F%E9%81%97%E6%86%BE",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "青岛一男子辱骂女游客 警方通报",
+      "url": "https://www.baidu.com/s?wd=%E9%9D%92%E5%B2%9B%E4%B8%80%E7%94%B7%E5%AD%90%E8%BE%B1%E9%AA%82%E5%A5%B3%E6%B8%B8%E5%AE%A2+%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中超联赛：上海海港队主场1比1战平大连英博海发队",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-20/10680890.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +126,8 @@
       ]
     },
     {
-      "title": "一留学生被冒牌公检法操控的两个月",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-20/10680736.shtml",
+      "title": "开局起步“十五五”：服务自贸港建设，海南高校如何作示范？",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-20/10680859.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +136,8 @@
       ]
     },
     {
-      "title": "重庆给了创业青年哪些“定心丸”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680735.shtml",
+      "title": "活力中国调研行｜见茶不见花，看福州茉莉花茶如何香飘千载",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680892.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +146,8 @@
       ]
     },
     {
-      "title": "油烟机开晚了比二手烟还伤肺？日常养肺这样做",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-20/10680733.shtml",
+      "title": "原创民族歌舞剧《五彩红军衣》专场演出在江西于都上演",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-20/10680886.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +156,8 @@
       ]
     },
     {
-      "title": "“基辅市内传出爆炸声” 乌空军发布警报：弹道导弹正从北部方向袭来",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680731.shtml",
+      "title": "上海民盟举办“与盟同行·会客厅”专场活动",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-20/10680857.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +166,8 @@
       ]
     },
     {
-      "title": "8月20日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-20/10680729.shtml",
+      "title": "“向下扎根+向外开放”赋能海南高职院校发展",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-20/10680855.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +176,8 @@
       ]
     },
     {
-      "title": "“我和他相处得很好” 特朗普：预计今年晚些时候会见金正恩",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680728.shtml",
+      "title": "透视青年运动健身热潮：追求健康向上的生活方式",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680889.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "知情人士：若美升级战事 伊朗考虑打击驻欧美军设施",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680727.shtml",
+      "title": "长江十年行｜江右来“信”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680885.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "“尼泊尔摄影记者镜头下的中国”摄影展开展",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680717.shtml",
+      "title": "中国大足石刻纽约展举行学术讲座",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-20/10680850.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "一乌克兰籍嫌疑人涉嫌参与“北溪”爆炸案被捕",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680718.shtml",
+      "title": "央行8月20日7天期逆回购操作量为零",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680883.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "1次观光游“误闯”10余个直播间，游客“非自愿入镜”咋维权？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680726.shtml",
+      "title": "山西首例侵入式脑机接口植入术完成 截瘫患者有望重塑运动功能",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-20/10680848.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "“看见西藏”故事分享会在尼泊尔举行",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680720.shtml",
+      "title": "第十六届荔枝湾·新西关“七月七·趣巧荟”在广州荔湾举行",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680846.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "我国火箭陆地回收如何实现",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10680725.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "网约车司机下车后猝死，保险“只保行驶中”？法官：劳动者的保障应覆盖整个工作过程",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680724.shtml",
+      "title": "网络软暴力，非除不可！",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-20/10680878.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
