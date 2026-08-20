@@ -1,33 +1,53 @@
 {
   "date": "2026-08-20",
-  "time": "05:52",
-  "generatedAt": "2026-08-20T05:52:56.376Z",
+  "time": "08:08",
+  "generatedAt": "2026-08-20T08:08:31.556Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "开局起步“十五五”：在海南，一个国际教育创新试验区发力扩开放",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680905.shtml",
+      "title": "这个夏天，被科技改写的 不只是消费选择",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681081.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 3,
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "乌空军称俄军发动导弹袭击  基辅多地遇袭已致28人死伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680926.shtml",
+      "title": "海南产经新观察：海南自贸港探路数据领域国际合作",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681047.shtml",
       "source": "中国新闻网",
       "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "市场监管总局公布六起侵犯商业秘密典型案例",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681004.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "内塔尼亚胡警告土耳其勿在叙利亚扩大军事部署",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680921.shtml",
+      "title": "从“自带流量”到“持续出圈” 河南安阳“十五五”加码文旅产业",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681066.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“2026年港澳院校毕业生齐鲁行”济南招才引智政策推介会举办",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681064.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -36,18 +56,8 @@
       ]
     },
     {
-      "title": "5个方面8项政策 上海发布优化房地产政策措施",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680925.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "王卫星：民进党当局污名化统战 刻意制造对立隔阂",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10680922.shtml",
+      "title": "【好评中国】海陆回收双成功，中国航天最硬核的浪漫",
+      "url": "https://www.chinanews.com.cn/ll/2026/08-20/10681073.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -56,8 +66,68 @@
       ]
     },
     {
-      "title": "山西首条直飞美国全货运定期航线开通",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680918.shtml",
+      "title": "（乡村行·看振兴）广东连南：稻鱼共生激活瑶乡生态经济",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681046.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "活力中国调研行丨湖南消费的“对味”密码",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681070.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港零售市场展现新活力 线下消费热度不减",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681048.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年度票房超265亿！暑期档观影场次、人数再创新高",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-20/10681051.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "平台出现“优惠券游戏”，“大数据杀熟”玩起新套路",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681049.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "产业发展开新局｜今天，中国工厂到底在生产什么？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681045.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：中国发展带给世界的不是“冲击”而是机遇，不是“挤压”而是赋能",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10681044.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -66,9 +136,49 @@
       ]
     },
     {
-      "title": "2026全球智慧教育大会在京举行 发布“全球智慧学校计划”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680906.shtml",
+      "title": "韩方称中方积极考虑安排中韩领导人在APEC会议期间会晤 中方回应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10681042.shtml",
       "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "A股收盘：全市场近4100只个股上涨",
+      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E5%85%A8%E5%B8%82%E5%9C%BA%E8%BF%914100%E5%8F%AA%E4%B8%AA%E8%82%A1%E4%B8%8A%E6%B6%A8",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中方回应“美对伊朗毁灭性经济行动”",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E5%AF%B9%E4%BC%8A%E6%9C%97%E6%AF%81%E7%81%AD%E6%80%A7%E7%BB%8F%E6%B5%8E%E8%A1%8C%E5%8A%A8%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宇树科技暴跌",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9A%B4%E8%B7%8C",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "奶奶教育孙女体谅父母不要一味索取",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B6%E5%A5%B6%E6%95%99%E8%82%B2%E5%AD%99%E5%A5%B3%E4%BD%93%E8%B0%85%E7%88%B6%E6%AF%8D%E4%B8%8D%E8%A6%81%E4%B8%80%E5%91%B3%E7%B4%A2%E5%8F%96",
+      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -76,28 +186,8 @@
       ]
     },
     {
-      "title": "美国制裁赤根智子 日本：深感遗憾",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%88%B6%E8%A3%81%E8%B5%A4%E6%A0%B9%E6%99%BA%E5%AD%90+%E6%97%A5%E6%9C%AC%EF%BC%9A%E6%B7%B1%E6%84%9F%E9%81%97%E6%86%BE",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "青岛一男子辱骂女游客 警方通报",
-      "url": "https://www.baidu.com/s?wd=%E9%9D%92%E5%B2%9B%E4%B8%80%E7%94%B7%E5%AD%90%E8%BE%B1%E9%AA%82%E5%A5%B3%E6%B8%B8%E5%AE%A2+%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "河南信阳市光山县：深耕基层阵地 凝聚同心力量",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-20/10680912.shtml",
+      "title": "中国农业银行吉林省分行原行长沙龙云接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10681022.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +196,8 @@
       ]
     },
     {
-      "title": "“照亮0-3”，公益力量触达儿童早期发展“最后一公里”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680941.shtml",
+      "title": "韩国总统李在明会见王毅",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10681079.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +206,8 @@
       ]
     },
     {
-      "title": "河南省第十五届运动会暨第九届残疾人运动会在古都安阳开幕",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-20/10680939.shtml",
+      "title": "40分钟旋转25度   平漯周高铁万吨桥体空中“起舞”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681065.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +216,8 @@
       ]
     },
     {
-      "title": "中国LPR连续15个月不变 “多锚并行”料提升LPR报价效率",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680938.shtml",
+      "title": "当“狂飙”成为流量密码 谁该为流量里的危险负责？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681076.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +226,8 @@
       ]
     },
     {
-      "title": "人民币对美元即期汇率逼近6.72关口，再创逾3年半新高",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10680952.shtml",
+      "title": "河南南阳市淅川县：打好“三张牌” 提升基层统战工作效能",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-20/10681059.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,98 +236,8 @@
       ]
     },
     {
-      "title": "当医师节遇上七夕，一起听听三对医生夫妻的故事",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680951.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "河南省各民主党派“‘四新’‘三好’·青年说”活动成功举办",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-20/10680911.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "水利部8月20日继续发布洪水黄色预警",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680931.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“不管怎样我都要把你治好”：他们一分一厘拼凑着未来",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680940.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“看见西藏”故事分享会在尼泊尔举行",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-20/1201614.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "恒大集团、恒大地产、许家印等案一审宣判",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10680934.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "微视频｜苍生大医",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10680936.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "联播+｜太平洋彼岸“值得信赖的朋友”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-20/10680935.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "以军空袭加沙城市政警察总部  约旦河西岸及耶路撒冷等地31人被捕",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10680923.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "探访中国国内首个省级区域联邦网络靶场",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-20/10680908.shtml",
+      "title": "长江十年行丨一代渔民的上岸与归江",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681074.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
