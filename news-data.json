@@ -1,10 +1,20 @@
 {
   "date": "2026-08-20",
-  "time": "14:21",
-  "generatedAt": "2026-08-20T14:21:05.527Z",
+  "time": "16:00",
+  "generatedAt": "2026-08-20T16:00:52.750Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美军中央司令部称“华盛顿”号航母已部署在中东",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-20/10681377.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "“开放成都·链接全球”智能制造产业直通车搭起国际合作桥梁",
       "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-20/10681365.shtml",
@@ -20,16 +30,6 @@
       "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681343.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "联合国开发计划署“康养旅居可持续发展会议”在重庆江津举行",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681340.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
       "score": 2,
       "exams": [
         "申论素材"
@@ -86,16 +86,6 @@
       ]
     },
     {
-      "title": "汽车之家发布2026年二季度财报: 内容生态迭代创新，业务升级纵深推进",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681338.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "大数据杀熟 3台手机竟显示3个价格",
       "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%9D%80%E7%86%9F+3%E5%8F%B0%E6%89%8B%E6%9C%BA%E7%AB%9F%E6%98%BE%E7%A4%BA3%E4%B8%AA%E4%BB%B7%E6%A0%BC",
       "source": "百度热搜",
@@ -126,6 +116,16 @@
       ]
     },
     {
+      "title": "医院通报孕妇因医生疏忽误服液体",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E9%80%9A%E6%8A%A5%E5%AD%95%E5%A6%87%E5%9B%A0%E5%8C%BB%E7%94%9F%E7%96%8F%E5%BF%BD%E8%AF%AF%E6%9C%8D%E6%B6%B2%E4%BD%93",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "半导体公司密集宣布涨价",
       "url": "https://www.baidu.com/s?wd=%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%85%AC%E5%8F%B8%E5%AF%86%E9%9B%86%E5%AE%A3%E5%B8%83%E6%B6%A8%E4%BB%B7",
       "source": "百度热搜",
@@ -141,6 +141,26 @@
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港举办“东盟电影节2026” 逾30部佳片促文化交流合作",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681376.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "上市公司组织百人“抢公章”？ 海威华芯控制权纠纷升级",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-20/10681375.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -218,26 +238,6 @@
     {
       "title": "老中青三代音乐人将汇聚深圳“听见中国听见你”原创音乐盛典",
       "url": "https://www.chinanews.com.cn/cul/2026/08-20/10681363.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "60名澳门青年走进横琴政务 收获琴澳融合实践成长答卷",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-20/10681361.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "珠江流域启动防汛Ⅳ级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-20/10681360.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
