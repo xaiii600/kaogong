@@ -1,23 +1,13 @@
 {
   "date": "2026-08-21",
-  "time": "08:19",
-  "generatedAt": "2026-08-21T08:19:47.451Z",
+  "time": "10:03",
+  "generatedAt": "2026-08-21T10:03:19.514Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "交通需求与人工智能技术加速对接",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681771.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“百年口岸”绥芬河跨境游热度和消费走高",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681785.shtml",
+      "title": "工业经济大市吕梁探转型：稳住“基本盘”抢占“新赛道”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681901.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,58 +16,8 @@
       ]
     },
     {
-      "title": "部署166项攻关任务 2026年质量强链十大项目启动",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681784.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "场景“上新”给满情绪价值 消费“扩容”激发经济动能",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681779.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《给阿嬷的情书》之外：东南亚华文教育的守脉和向新",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-21/10681772.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“村字号”赛事上新 沉浸式乡土体验激活县域经济",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681775.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "上海自贸区临港新片区 “十五五” 规划出炉：GDP 年均增长目标 7.5%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681768.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第七届中非媒体合作论坛：内容创新赋能人文合作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681767.shtml",
+      "title": "AI+中小企业数字化转型创新发展大会举行 专家建言数实共生",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681899.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -86,10 +26,40 @@
       ]
     },
     {
-      "title": "智慧医疗打通资源壁垒 把高水平诊疗服务送到百姓身边",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681765.shtml",
+      "title": "三部门联合推动已故人士金融账户便利查询服务",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681890.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "1-7月中国财政收入同比增长5.8%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681897.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部回应日本议员计划下周访华",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E8%AE%AE%E5%91%98%E8%AE%A1%E5%88%92%E4%B8%8B%E5%91%A8%E8%AE%BF%E5%8D%8E",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "王毅当众点名美国 韩国外长抿嘴点头",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E6%AF%85%E5%BD%93%E4%BC%97%E7%82%B9%E5%90%8D%E7%BE%8E%E5%9B%BD+%E9%9F%A9%E5%9B%BD%E5%A4%96%E9%95%BF%E6%8A%BF%E5%98%B4%E7%82%B9%E5%A4%B4",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,20 +76,10 @@
       ]
     },
     {
-      "title": "武汉市委秘书长曾晟被查",
-      "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E5%B8%82%E5%A7%94%E7%A7%98%E4%B9%A6%E9%95%BF%E6%9B%BE%E6%99%9F%E8%A2%AB%E6%9F%A5",
+      "title": "经央行公告停止流通的人民币可以买卖",
+      "url": "https://www.baidu.com/s?wd=%E7%BB%8F%E5%A4%AE%E8%A1%8C%E5%85%AC%E5%91%8A%E5%81%9C%E6%AD%A2%E6%B5%81%E9%80%9A%E7%9A%84%E4%BA%BA%E6%B0%91%E5%B8%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E5%8D%96",
       "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "杜兰特NBA历史总收入第一",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%9C%E5%85%B0%E7%89%B9NBA%E5%8E%86%E5%8F%B2%E6%80%BB%E6%94%B6%E5%85%A5%E7%AC%AC%E4%B8%80",
-      "source": "百度热搜",
-      "cat": "economy",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -136,8 +96,48 @@
       ]
     },
     {
-      "title": "中国队晋级U18男篮亚洲杯半决赛 获U19世界杯资格",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681799.shtml",
+      "title": "财政部副部长廖岷晒成绩单",
+      "url": "https://www.baidu.com/s?wd=%E8%B4%A2%E6%94%BF%E9%83%A8%E5%89%AF%E9%83%A8%E9%95%BF%E5%BB%96%E5%B2%B7%E6%99%92%E6%88%90%E7%BB%A9%E5%8D%95",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国际金价站稳4500美元",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E9%87%91%E4%BB%B7%E7%AB%99%E7%A8%B34500%E7%BE%8E%E5%85%83",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "信用卡分期消费 贴息优惠",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%88%86%E6%9C%9F%E6%B6%88%E8%B4%B9+%E8%B4%B4%E6%81%AF%E4%BC%98%E6%83%A0",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中方回应“美督促中国配合制裁伊朗”",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E7%9D%A3%E4%BF%83%E4%B8%AD%E5%9B%BD%E9%85%8D%E5%90%88%E5%88%B6%E8%A3%81%E4%BC%8A%E6%9C%97%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泰媒：泰国王后素提达参加“鹰狮”战机训练",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681910.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +146,8 @@
       ]
     },
     {
-      "title": "“顶流”大圣，忙于救场",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681792.shtml",
+      "title": "2026豫台经贸洽谈会在河南鹤壁举行  签约27个项目",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681898.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +156,8 @@
       ]
     },
     {
-      "title": "珠江委在穗发布珠江水生态保护与修复系列成果",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681786.shtml",
+      "title": "中国疾控中心：自费接种四价、九价HPV疫苗视同完成国家免疫规划接种",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681866.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "title": "长江十年行丨钢厂变景区、码头变乐园，一江碧水赋能江苏百姓好日子",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681789.shtml",
+      "title": "全国65支青少年龙舟队竞渡长江三峡",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681888.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "（长征胜利90周年）甘肃会宁：走进红军会宁会师旧址",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-21/1201710.shtml",
+      "title": "中国网协5人获美网单打正赛席位 吴易昺递补入围",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681895.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "高考生异地摆摊救妹 收获一城人爱心接力",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681781.shtml",
+      "title": "明确！没有接种HPV疫苗不影响入学",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681854.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "大唐四川发电有限公司原巡视员段忠民接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681758.shtml",
+      "title": "中西部精神医学专科联盟在重庆成立",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681886.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "2026宁夏科学实验展演汇演活动收官 趣味实验解锁科普新玩法",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681777.shtml",
+      "title": "黑龙江省发布暴雨红色预警 铁力庆安等地累计雨量将超100毫米",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681893.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "肠道也会出现血管堵塞 突发剧烈腹痛要格外留心",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681778.shtml",
+      "title": "U18男篮亚洲杯：中国队击败菲律宾队晋级四强",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681896.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "吴伟任中投公司副董事长、总经理",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681754.shtml",
+      "title": "医生解答：血常规有问题不代表患有白血病",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681853.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "2026中国社区乒乓球联赛总决赛在北京启动",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681776.shtml",
+      "title": "西藏民族团结里的“茶与盐巴”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681894.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
