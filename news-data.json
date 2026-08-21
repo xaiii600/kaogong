@@ -1,16 +1,56 @@
 {
   "date": "2026-08-21",
-  "time": "15:59",
-  "generatedAt": "2026-08-21T15:59:16.639Z",
+  "time": "17:51",
+  "generatedAt": "2026-08-21T17:51:21.702Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "伊朗外长：美国对伊经济施压行动“注定失败”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682136.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "临床出题、产业破题 广州医博会搭医产协同创新平台",
       "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682106.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "今年7月欧盟油价同比增长16.9%",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682131.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国际足联就世界杯期间多起事件对阿根廷足协作出处罚",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682133.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国印尼外长防长“2+2”对话机制举行第二次部长级会议",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10682129.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -76,40 +116,10 @@
       ]
     },
     {
-      "title": "大陆产业升级释放新机遇 两岸专家吁深化合作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682100.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "阿根廷4人因世界杯决赛冲突被禁赛",
       "url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B74%E4%BA%BA%E5%9B%A0%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%86%B2%E7%AA%81%E8%A2%AB%E7%A6%81%E8%B5%9B",
       "source": "百度热搜",
       "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "如是书院被查封 被洗脑的家长还没醒",
-      "url": "https://www.baidu.com/s?wd=%E5%A6%82%E6%98%AF%E4%B9%A6%E9%99%A2%E8%A2%AB%E6%9F%A5%E5%B0%81+%E8%A2%AB%E6%B4%97%E8%84%91%E7%9A%84%E5%AE%B6%E9%95%BF%E8%BF%98%E6%B2%A1%E9%86%92",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "民生人寿 生肖不合裁员",
-      "url": "https://www.baidu.com/s?wd=%E6%B0%91%E7%94%9F%E4%BA%BA%E5%AF%BF+%E7%94%9F%E8%82%96%E4%B8%8D%E5%90%88%E8%A3%81%E5%91%98",
-      "source": "百度热搜",
-      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
@@ -126,10 +136,10 @@
       ]
     },
     {
-      "title": "第二十九届成都国际汽车展开幕",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E5%B1%8A%E6%88%90%E9%83%BD%E5%9B%BD%E9%99%85%E6%B1%BD%E8%BD%A6%E5%B1%95%E5%BC%80%E5%B9%95",
+      "title": "民生人寿 生肖不合裁员",
+      "url": "https://www.baidu.com/s?wd=%E6%B0%91%E7%94%9F%E4%BA%BA%E5%AF%BF+%E7%94%9F%E8%82%96%E4%B8%8D%E5%90%88%E8%A3%81%E5%91%98",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
@@ -141,6 +151,76 @@
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "武汉市委秘书长曾晟被查",
+      "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E5%B8%82%E5%A7%94%E7%A7%98%E4%B9%A6%E9%95%BF%E6%9B%BE%E6%99%9F%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第二十九届成都国际汽车展开幕",
+      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E5%B1%8A%E6%88%90%E9%83%BD%E5%9B%BD%E9%99%85%E6%B1%BD%E8%BD%A6%E5%B1%95%E5%BC%80%E5%B9%95",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "越南青年赴广西研学 感知中国科创活力",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-22/10682137.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "网传飞机“散云止雨”加重内蒙古旱情？真相来了",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682135.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本新财年预算申请额或超130万亿日元",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682134.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "羽毛球世锦赛：中国队五对双打组合晋级四强",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-22/10682130.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "今年第18、19号台风同时活跃 会怎样影响我国？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682132.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -158,86 +238,6 @@
     {
       "title": "旅德大熊猫双胞胎两岁生日记",
       "url": "https://www.chinanews.com.cn/gj/2026/08-21/10682123.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "怕说错话？怕被人议论？控制不住思虑？别着急，两招教你缓解职场焦虑",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10682118.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“全球新工业革命联盟”落地香港 助力可持续发展",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682116.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西军区举办抢险救灾先进典型事迹报告会",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682114.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "山东临沂一处独立平房院落发生爆炸 致1人死亡2人失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682117.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "山西昔阳发现迄今最高等级夏代墓葬",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10682111.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "董军会见印度尼西亚国防部长",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682112.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏波密开展红色课堂进校园活动 厚植师生爱国情怀",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682102.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《香港文学》风行500期 数十位作家学者共论香江文学发展",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682104.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
