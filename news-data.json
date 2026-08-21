@@ -1,33 +1,43 @@
 {
   "date": "2026-08-21",
-  "time": "05:58",
-  "generatedAt": "2026-08-21T05:58:00.354Z",
+  "time": "08:19",
+  "generatedAt": "2026-08-21T08:19:47.451Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "三部门发布关于进一步做好财政金融协同促内需政策有关工作的通知",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681606.shtml",
+      "title": "交通需求与人工智能技术加速对接",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681771.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "tech",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "财政部：财政金融协同促内需一揽子政策已惠及企业622万家",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681601.shtml",
+      "title": "“百年口岸”绥芬河跨境游热度和消费走高",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681785.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "部署166项攻关任务 2026年质量强链十大项目启动",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681784.shtml",
       "source": "中国新闻网",
       "cat": "policy",
-      "score": 2,
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "我国期货市场首次实现跨境交割",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681629.shtml",
+      "title": "场景“上新”给满情绪价值 消费“扩容”激发经济动能",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681779.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,28 +46,18 @@
       ]
     },
     {
-      "title": "伊朗谴责美宣布对伊新制裁：“用新错误掩盖旧错误”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681614.shtml",
+      "title": "《给阿嬷的情书》之外：东南亚华文教育的守脉和向新",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-21/10681772.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "高市政府“只看美国脸色” 日本国内舆论炸锅了",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681623.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "财政部：“十五五”时期更加注重提升财政宏观调控的有效性精准性",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681596.shtml",
+      "title": "“村字号”赛事上新 沉浸式乡土体验激活县域经济",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681775.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,18 +66,8 @@
       ]
     },
     {
-      "title": "一架载有8人的飞机在美国阿拉斯加州坠毁",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681604.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "财政部：超2500万名婴幼儿及其家庭领到2026年度育儿补贴",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681587.shtml",
+      "title": "上海自贸区临港新片区 “十五五” 规划出炉：GDP 年均增长目标 7.5%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681768.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -86,10 +76,40 @@
       ]
     },
     {
-      "title": "信用卡分期消费 贴息优惠",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%88%86%E6%9C%9F%E6%B6%88%E8%B4%B9+%E8%B4%B4%E6%81%AF%E4%BC%98%E6%83%A0",
+      "title": "第七届中非媒体合作论坛：内容创新赋能人文合作",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681767.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "智慧医疗打通资源壁垒 把高水平诊疗服务送到百姓身边",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681765.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "民生人寿 生肖不合裁员",
+      "url": "https://www.baidu.com/s?wd=%E6%B0%91%E7%94%9F%E4%BA%BA%E5%AF%BF+%E7%94%9F%E8%82%96%E4%B8%8D%E5%90%88%E8%A3%81%E5%91%98",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "武汉市委秘书长曾晟被查",
+      "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E5%B8%82%E5%A7%94%E7%A7%98%E4%B9%A6%E9%95%BF%E6%9B%BE%E6%99%9F%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,8 +136,8 @@
       ]
     },
     {
-      "title": "2027年女足世界杯赛程公布 已有18支队伍获参赛资格",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681647.shtml",
+      "title": "中国队晋级U18男篮亚洲杯半决赛 获U19世界杯资格",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681799.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +146,8 @@
       ]
     },
     {
-      "title": "重庆市原副市长江敦涛被公诉",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681648.shtml",
+      "title": "“顶流”大圣，忙于救场",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681792.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +156,8 @@
       ]
     },
     {
-      "title": "古城墙下纳凉听歌 “乐见长沙”路边音乐会唱响时光乐章",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681621.shtml",
+      "title": "珠江委在穗发布珠江水生态保护与修复系列成果",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681786.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +166,8 @@
       ]
     },
     {
-      "title": "平陆运河首个海关监管作业场所建成运营",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681634.shtml",
+      "title": "长江十年行丨钢厂变景区、码头变乐园，一江碧水赋能江苏百姓好日子",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681789.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +176,8 @@
       ]
     },
     {
-      "title": "调查者李晓方：留住历史的平民记录者",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681632.shtml",
+      "title": "（长征胜利90周年）甘肃会宁：走进红军会宁会师旧址",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-21/1201710.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +186,8 @@
       ]
     },
     {
-      "title": "西双版纳关累港口岸今年以来出入境旅客同比增长42.8%",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-21/10681622.shtml",
+      "title": "高考生异地摆摊救妹 收获一城人爱心接力",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681781.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +196,8 @@
       ]
     },
     {
-      "title": "谌贻琴在北京市调研时强调 加快建设足球青训体系 提升竞技体育后备人才培养水平",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681626.shtml",
+      "title": "大唐四川发电有限公司原巡视员段忠民接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681758.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +206,8 @@
       ]
     },
     {
-      "title": "调解方谴责以色列袭击加沙  欧洲多国反对“E1区”定居点项目",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681612.shtml",
+      "title": "2026宁夏科学实验展演汇演活动收官 趣味实验解锁科普新玩法",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681777.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +216,8 @@
       ]
     },
     {
-      "title": "约旦国王阿卜杜拉二世向人民英雄纪念碑敬献花圈",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681624.shtml",
+      "title": "肠道也会出现血管堵塞 突发剧烈腹痛要格外留心",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681778.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +226,8 @@
       ]
     },
     {
-      "title": "歌手毕夏首谈丈夫离世：黑色素瘤“潜伏”了十年",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681618.shtml",
+      "title": "吴伟任中投公司副董事长、总经理",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681754.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,28 +236,8 @@
       ]
     },
     {
-      "title": "两岸影人相聚北京 共话华语电影新未来",
-      "url": "http://www.chinanews.com.cn/cul/shipin/cns-d/2026/08-21/news1066097.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中新网评：一座城市的温度，体现在如何对待陌生人",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681611.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "最强可达超强台风级！“沙德尔”会登陆我国吗？最新研判→",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681610.shtml",
+      "title": "2026中国社区乒乓球联赛总决赛在北京启动",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681776.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
