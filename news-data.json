@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
-  "time": "22:01",
-  "generatedAt": "2026-08-21T22:01:13.950Z",
+  "time": "23:02",
+  "generatedAt": "2026-08-21T23:02:37.135Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -16,11 +16,41 @@
       ]
     },
     {
-      "title": "临床出题、产业破题 广州医博会搭医产协同创新平台",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682106.shtml",
+      "title": "美国将向联合国支付7.25亿美元拖欠会费",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682144.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗称美经济战“注定失败” 特朗普否认军事选项受限",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682143.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 2,
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "安理会就下任联合国秘书长遴选举行第二轮意向性投票",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682142.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普称对伊转向“经济战”不意味着美军事选项受限",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682138.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -96,26 +126,6 @@
       ]
     },
     {
-      "title": "第十一届京台青年创新创业大赛在京落幕",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682101.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "引入AI参与创作 第十届浙江省十大校园新锐写手评选落幕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682096.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "阿根廷4人因世界杯决赛冲突被禁赛",
       "url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B74%E4%BA%BA%E5%9B%A0%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%86%B2%E7%AA%81%E8%A2%AB%E7%A6%81%E8%B5%9B",
       "source": "百度热搜",
@@ -176,6 +186,46 @@
       ]
     },
     {
+      "title": "中国考古机构首次赴南美洲开展联合考古",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-22/10682145.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "国考"
+      ]
+    },
+    {
+      "title": "世界青年花样滑冰大奖赛西安站：中立运动员日揽两金",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-22/10682139.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国人权研究会代表团访问尼泊尔",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682140.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "世界卫生组织欧洲区主任角逐下一任世界卫生组织总干事",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682141.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "越南青年赴广西研学 感知中国科创活力",
       "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-22/10682137.shtml",
       "source": "中国新闻网",
@@ -188,56 +238,6 @@
     {
       "title": "网传飞机“散云止雨”加重内蒙古旱情？真相来了",
       "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682135.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日本新财年预算申请额或超130万亿日元",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682134.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "羽毛球世锦赛：中国队五对双打组合晋级四强",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-22/10682130.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "今年第18、19号台风同时活跃 会怎样影响我国？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682132.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "超100家创科企业已签约河套香港园区",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682124.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "旅德大熊猫双胞胎两岁生日记",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10682123.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
