@@ -1,23 +1,23 @@
 {
   "date": "2026-08-21",
-  "time": "10:03",
-  "generatedAt": "2026-08-21T10:03:19.514Z",
+  "time": "11:46",
+  "generatedAt": "2026-08-21T11:46:46.317Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "工业经济大市吕梁探转型：稳住“基本盘”抢占“新赛道”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681901.shtml",
+      "title": "伊朗誓言对美国“史上最严厉的经济打击”做出“毁灭性”回应",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681960.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
+      "cat": "international",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "AI+中小企业数字化转型创新发展大会举行 专家建言数实共生",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681899.shtml",
+      "title": "海南产经新观察：以科技创新助力农业强省建设",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/08-21/10681975.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,30 +26,70 @@
       ]
     },
     {
-      "title": "三部门联合推动已故人士金融账户便利查询服务",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681890.shtml",
+      "title": "李强主持召开国务院常务会议",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681981.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "1-7月中国财政收入同比增长5.8%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681897.shtml",
+      "title": "第二十九届成都国际汽车展览会开幕",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-21/10681934.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部回应日本议员计划下周访华",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E8%AE%AE%E5%91%98%E8%AE%A1%E5%88%92%E4%B8%8B%E5%91%A8%E8%AE%BF%E5%8D%8E",
-      "source": "百度热搜",
       "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国印尼全面战略对话机制举行首次会议",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681979.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "十四届全国人大常委会第二十四次会议有关法律案前瞻",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681957.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "世界机器人大会吸引多国业界人士与会共议全球协作路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681955.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（活力中国调研行）厦门古书院转型构建消费新生态 吸引两岸青少年研学",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681953.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "经央行公告停止流通的人民币可以买卖",
+      "url": "https://www.baidu.com/s?wd=%E7%BB%8F%E5%A4%AE%E8%A1%8C%E5%85%AC%E5%91%8A%E5%81%9C%E6%AD%A2%E6%B5%81%E9%80%9A%E7%9A%84%E4%BA%BA%E6%B0%91%E5%B8%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E5%8D%96",
+      "source": "百度热搜",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,38 +116,8 @@
       ]
     },
     {
-      "title": "经央行公告停止流通的人民币可以买卖",
-      "url": "https://www.baidu.com/s?wd=%E7%BB%8F%E5%A4%AE%E8%A1%8C%E5%85%AC%E5%91%8A%E5%81%9C%E6%AD%A2%E6%B5%81%E9%80%9A%E7%9A%84%E4%BA%BA%E6%B0%91%E5%B8%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E5%8D%96",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西玉林警方通报发生故意伤害案",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E8%A5%BF%E7%8E%89%E6%9E%97%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%8F%91%E7%94%9F%E6%95%85%E6%84%8F%E4%BC%A4%E5%AE%B3%E6%A1%88",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "财政部副部长廖岷晒成绩单",
-      "url": "https://www.baidu.com/s?wd=%E8%B4%A2%E6%94%BF%E9%83%A8%E5%89%AF%E9%83%A8%E9%95%BF%E5%BB%96%E5%B2%B7%E6%99%92%E6%88%90%E7%BB%A9%E5%8D%95",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国际金价站稳4500美元",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E9%87%91%E4%BB%B7%E7%AB%99%E7%A8%B34500%E7%BE%8E%E5%85%83",
+      "title": "外交部回应日本议员计划下周访华",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E8%AE%AE%E5%91%98%E8%AE%A1%E5%88%92%E4%B8%8B%E5%91%A8%E8%AE%BF%E5%8D%8E",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -116,28 +126,8 @@
       ]
     },
     {
-      "title": "信用卡分期消费 贴息优惠",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%88%86%E6%9C%9F%E6%B6%88%E8%B4%B9+%E8%B4%B4%E6%81%AF%E4%BC%98%E6%83%A0",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中方回应“美督促中国配合制裁伊朗”",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E7%9D%A3%E4%BF%83%E4%B8%AD%E5%9B%BD%E9%85%8D%E5%90%88%E5%88%B6%E8%A3%81%E4%BC%8A%E6%9C%97%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "泰媒：泰国王后素提达参加“鹰狮”战机训练",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681910.shtml",
+      "title": "首届“行走金陵·双语文博小小讲解员大赛”决赛在南京举办",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681974.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +136,8 @@
       ]
     },
     {
-      "title": "2026豫台经贸洽谈会在河南鹤壁举行  签约27个项目",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681898.shtml",
+      "title": "西安警方捣毁一涉诈窝点 现场抓获17名嫌疑人",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681973.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +146,8 @@
       ]
     },
     {
-      "title": "中国疾控中心：自费接种四价、九价HPV疫苗视同完成国家免疫规划接种",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681866.shtml",
+      "title": "山西大同将再添对韩直飞航线  助力山西对外开放",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681972.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +156,8 @@
       ]
     },
     {
-      "title": "全国65支青少年龙舟队竞渡长江三峡",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681888.shtml",
+      "title": "西藏昌都清洁能源推介会签约7.65亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681969.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +166,8 @@
       ]
     },
     {
-      "title": "中国网协5人获美网单打正赛席位 吴易昺递补入围",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681895.shtml",
+      "title": "中国团队研发多功能涂层 为脑机界面融合和通讯提供通用解决方案",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681964.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +176,8 @@
       ]
     },
     {
-      "title": "明确！没有接种HPV疫苗不影响入学",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681854.shtml",
+      "title": "山东累计实际使用台资313.2亿美元 持续推动鲁台经贸合作走深走实",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681961.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +186,8 @@
       ]
     },
     {
-      "title": "中西部精神医学专科联盟在重庆成立",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681886.shtml",
+      "title": "阿联酋驻华使馆：2026怀柔长城马拉松暨扎耶德慈善跑筹备就绪",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681971.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +196,8 @@
       ]
     },
     {
-      "title": "黑龙江省发布暴雨红色预警 铁力庆安等地累计雨量将超100毫米",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681893.shtml",
+      "title": "民族声乐人才培训收官 30名青年民族声乐骨干放歌汇报音乐会",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681970.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +206,18 @@
       ]
     },
     {
-      "title": "U18男篮亚洲杯：中国队击败菲律宾队晋级四强",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681896.shtml",
+      "title": "中国国家卫健委：警惕打着“宗教医学”幌子非法行医等行为",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681966.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "事业单位"
+      ]
+    },
+    {
+      "title": "（活力中国调研行）从西安到阿拉木图 中欧班列向西提速",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681967.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "医生解答：血常规有问题不代表患有白血病",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-21/10681853.shtml",
+      "title": "“文明之鹰-2026”中国空军参训战机全部抵达埃及",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681965.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "西藏民族团结里的“茶与盐巴”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681894.shtml",
+      "title": "李文俊：“让更多港澳青年站在国家发展的潮头”",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10681963.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
