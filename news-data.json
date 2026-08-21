@@ -1,23 +1,33 @@
 {
   "date": "2026-08-21",
-  "time": "11:46",
-  "generatedAt": "2026-08-21T11:46:46.317Z",
+  "time": "14:19",
+  "generatedAt": "2026-08-21T14:19:20.138Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "伊朗誓言对美国“史上最严厉的经济打击”做出“毁灭性”回应",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681960.shtml",
+      "title": "临床出题、产业破题 广州医博会搭医产协同创新平台",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682106.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "海南产经新观察：以科技创新助力农业强省建设",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-21/10681975.shtml",
+      "title": "海南洋浦港审批便利化新举措提升国际船舶进口岸效率",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682115.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "闽宁科技合作推进会在宁夏银川召开",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682103.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,58 +36,28 @@
       ]
     },
     {
-      "title": "李强主持召开国务院常务会议",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681981.shtml",
+      "title": "第十一届京台青年创新创业大赛在京落幕",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682101.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "第二十九届成都国际汽车展览会开幕",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-21/10681934.shtml",
+      "title": "引入AI参与创作 第十届浙江省十大校园新锐写手评选落幕",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682096.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国印尼全面战略对话机制举行首次会议",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681979.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "十四届全国人大常委会第二十四次会议有关法律案前瞻",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681957.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世界机器人大会吸引多国业界人士与会共议全球协作路径",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681955.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（活力中国调研行）厦门古书院转型构建消费新生态 吸引两岸青少年研学",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681953.shtml",
+      "title": "大陆产业升级释放新机遇 两岸专家吁深化合作",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682100.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -86,20 +66,30 @@
       ]
     },
     {
-      "title": "经央行公告停止流通的人民币可以买卖",
-      "url": "https://www.baidu.com/s?wd=%E7%BB%8F%E5%A4%AE%E8%A1%8C%E5%85%AC%E5%91%8A%E5%81%9C%E6%AD%A2%E6%B5%81%E9%80%9A%E7%9A%84%E4%BA%BA%E6%B0%91%E5%B8%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E5%8D%96",
-      "source": "百度热搜",
-      "cat": "policy",
+      "title": "今年前7个月香港国际机场总客运量3840万人次 同比增11.2%",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682084.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "王毅当众点名美国 韩国外长抿嘴点头",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E6%AF%85%E5%BD%93%E4%BC%97%E7%82%B9%E5%90%8D%E7%BE%8E%E5%9B%BD+%E9%9F%A9%E5%9B%BD%E5%A4%96%E9%95%BF%E6%8A%BF%E5%98%B4%E7%82%B9%E5%A4%B4",
+      "title": "宋庆龄少年儿童发明奖参赛者：创新源于生活",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682085.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "如是书院被查封 被洗脑的家长还没醒",
+      "url": "https://www.baidu.com/s?wd=%E5%A6%82%E6%98%AF%E4%B9%A6%E9%99%A2%E8%A2%AB%E6%9F%A5%E5%B0%81+%E8%A2%AB%E6%B4%97%E8%84%91%E7%9A%84%E5%AE%B6%E9%95%BF%E8%BF%98%E6%B2%A1%E9%86%92",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,8 +106,18 @@
       ]
     },
     {
-      "title": "外交部回应日本议员计划下周访华",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC%E8%AE%AE%E5%91%98%E8%AE%A1%E5%88%92%E4%B8%8B%E5%91%A8%E8%AE%BF%E5%8D%8E",
+      "title": "经央行公告停止流通的人民币可以买卖",
+      "url": "https://www.baidu.com/s?wd=%E7%BB%8F%E5%A4%AE%E8%A1%8C%E5%85%AC%E5%91%8A%E5%81%9C%E6%AD%A2%E6%B5%81%E9%80%9A%E7%9A%84%E4%BA%BA%E6%B0%91%E5%B8%81%E5%8F%AF%E4%BB%A5%E4%B9%B0%E5%8D%96",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中方回应“美督促中国配合制裁伊朗”",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E7%9D%A3%E4%BF%83%E4%B8%AD%E5%9B%BD%E9%85%8D%E5%90%88%E5%88%B6%E8%A3%81%E4%BC%8A%E6%9C%97%E2%80%9D",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -126,8 +126,8 @@
       ]
     },
     {
-      "title": "首届“行走金陵·双语文博小小讲解员大赛”决赛在南京举办",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681974.shtml",
+      "title": "“全球新工业革命联盟”落地香港 助力可持续发展",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682116.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "title": "西安警方捣毁一涉诈窝点 现场抓获17名嫌疑人",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681973.shtml",
+      "title": "广西军区举办抢险救灾先进典型事迹报告会",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682114.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +146,8 @@
       ]
     },
     {
-      "title": "山西大同将再添对韩直飞航线  助力山西对外开放",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681972.shtml",
+      "title": "山东临沂一处独立平房院落发生爆炸 致1人死亡2人失联",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682117.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +156,8 @@
       ]
     },
     {
-      "title": "西藏昌都清洁能源推介会签约7.65亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681969.shtml",
+      "title": "山西昔阳发现迄今最高等级夏代墓葬",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10682111.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "title": "中国团队研发多功能涂层 为脑机界面融合和通讯提供通用解决方案",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681964.shtml",
+      "title": "董军会见印度尼西亚国防部长",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682112.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "山东累计实际使用台资313.2亿美元 持续推动鲁台经贸合作走深走实",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10681961.shtml",
+      "title": "西藏波密开展红色课堂进校园活动 厚植师生爱国情怀",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10682102.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "阿联酋驻华使馆：2026怀柔长城马拉松暨扎耶德慈善跑筹备就绪",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-21/10681971.shtml",
+      "title": "《香港文学》风行500期 数十位作家学者共论香江文学发展",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682104.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "民族声乐人才培训收官 30名青年民族声乐骨干放歌汇报音乐会",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10681970.shtml",
+      "title": "2026年“百企千人”“展翅计划”港澳大学生实习计划在广州结业",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10682108.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,18 +206,8 @@
       ]
     },
     {
-      "title": "中国国家卫健委：警惕打着“宗教医学”幌子非法行医等行为",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681966.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "事业单位"
-      ]
-    },
-    {
-      "title": "（活力中国调研行）从西安到阿拉木图 中欧班列向西提速",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10681967.shtml",
+      "title": "浙江开展红色根脉档案珍品故事讲座 让纸页“开口说话”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682099.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +216,8 @@
       ]
     },
     {
-      "title": "“文明之鹰-2026”中国空军参训战机全部抵达埃及",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-21/10681965.shtml",
+      "title": "西藏山南举办跨区域招聘会 113人实现人岗对接",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-21/10682107.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +226,18 @@
       ]
     },
     {
-      "title": "李文俊：“让更多港澳青年站在国家发展的潮头”",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-21/10681963.shtml",
+      "title": "大型舞剧《武道》首次走出香港开启内地巡演",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10682105.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "多国艺术家张家界共赴新杂技之约",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-21/10682095.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
