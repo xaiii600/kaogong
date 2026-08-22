@@ -1,23 +1,63 @@
 {
   "date": "2026-08-22",
-  "time": "06:02",
-  "generatedAt": "2026-08-22T06:02:05.697Z",
+  "time": "07:50",
+  "generatedAt": "2026-08-22T07:50:31.856Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "未达贸易协议 美国将对部分加拿大商品征50%关税",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682244.shtml",
+      "title": "广州强化科技创新和产业创新深度融合",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-22/10682295.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "（活力中国调研行）多元业态助力平潭国际旅游岛建设",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682258.shtml",
+      "title": "受权发布｜中国共产党第二十届中央纪律检查委员会第六次全体会议公报",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-22/10682270.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "近八成消费者先问AI再下单",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%91%E5%85%AB%E6%88%90%E6%B6%88%E8%B4%B9%E8%80%85%E5%85%88%E9%97%AEAI%E5%86%8D%E4%B8%8B%E5%8D%95",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "暑期经济“热”力足 消费释放新动能",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682296.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "读懂中国消费的“福祉含量”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682294.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "冰城少年绽放国际舞台 哈尔滨小雪花艺术团斩获香港国际音乐节总冠军与金奖",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682287.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -26,8 +66,8 @@
       ]
     },
     {
-      "title": "美国友人赛考斯：美中联手将可以为地球做很多好事",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682247.shtml",
+      "title": "美国友人赛考斯启程前往中国：我是“老内”",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/08-22/news1066179.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -36,8 +76,8 @@
       ]
     },
     {
-      "title": "八国发联合声明 谴责以色列非法定居点政策",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682246.shtml",
+      "title": "国内外专家学者江西抚州研讨王安石改革精神和哲学思想",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682283.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -46,8 +86,8 @@
       ]
     },
     {
-      "title": "（乡村行·看振兴）“绿宝石”串起富民产业链 广西乡村绘就振兴新图景",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682243.shtml",
+      "title": "从“拼规模”到“拼价值”：中国汽车产业重塑增长逻辑",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682268.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,8 +96,8 @@
       ]
     },
     {
-      "title": "国际足联重罚阿根廷队 阿根廷足协：将上诉",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682245.shtml",
+      "title": "美国友人赛考斯启程前往中国",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-22/1201760.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -66,38 +106,8 @@
       ]
     },
     {
-      "title": "这很中国·科技在场丨中国技术改写欧洲百年水泥工业规则",
-      "url": "http://www.chinanews.com.cn/cj/shipin/2026/08-22/news1066164.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普称未指示美财长干预债券市场",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682234.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "六盘山论坛2026在固原举办 聚焦AI赋能材料革新",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-22/10682228.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI算力紧缺时代 大学生买不起电脑了",
-      "url": "https://www.baidu.com/s?wd=AI%E7%AE%97%E5%8A%9B%E7%B4%A7%E7%BC%BA%E6%97%B6%E4%BB%A3+%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B9%B0%E4%B8%8D%E8%B5%B7%E7%94%B5%E8%84%91%E4%BA%86",
+      "title": "一个月内再出两部AI电影长片",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E4%B8%AA%E6%9C%88%E5%86%85%E5%86%8D%E5%87%BA%E4%B8%A4%E9%83%A8AI%E7%94%B5%E5%BD%B1%E9%95%BF%E7%89%87",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -116,26 +126,6 @@
       ]
     },
     {
-      "title": "13个县的消费赶超一线城市",
-      "url": "https://www.baidu.com/s?wd=13%E4%B8%AA%E5%8E%BF%E7%9A%84%E6%B6%88%E8%B4%B9%E8%B5%B6%E8%B6%85%E4%B8%80%E7%BA%BF%E5%9F%8E%E5%B8%82",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "生肖不合就裁员？民生人寿回应",
-      "url": "https://www.baidu.com/s?wd=%E7%94%9F%E8%82%96%E4%B8%8D%E5%90%88%E5%B0%B1%E8%A3%81%E5%91%98%EF%BC%9F%E6%B0%91%E7%94%9F%E4%BA%BA%E5%AF%BF%E5%9B%9E%E5%BA%94",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "蜜雪冰城倒高脚杯后卖398元？警方通报",
       "url": "https://www.baidu.com/s?wd=%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E%E5%80%92%E9%AB%98%E8%84%9A%E6%9D%AF%E5%90%8E%E5%8D%96398%E5%85%83%EF%BC%9F%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
@@ -146,8 +136,8 @@
       ]
     },
     {
-      "title": "一个月内再出两部AI电影长片",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E4%B8%AA%E6%9C%88%E5%86%85%E5%86%8D%E5%87%BA%E4%B8%A4%E9%83%A8AI%E7%94%B5%E5%BD%B1%E9%95%BF%E7%89%87",
+      "title": "大批AI博主因版权问题停更",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E6%89%B9AI%E5%8D%9A%E4%B8%BB%E5%9B%A0%E7%89%88%E6%9D%83%E9%97%AE%E9%A2%98%E5%81%9C%E6%9B%B4",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -156,8 +146,38 @@
       ]
     },
     {
-      "title": "印度尼西亚总统普拉博沃会见王毅一行",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-22/10682254.shtml",
+      "title": "亚朵卖枕头被子收入逼近酒店主业",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%9A%E6%9C%B5%E5%8D%96%E6%9E%95%E5%A4%B4%E8%A2%AB%E5%AD%90%E6%94%B6%E5%85%A5%E9%80%BC%E8%BF%91%E9%85%92%E5%BA%97%E4%B8%BB%E4%B8%9A",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "13个县的消费赶超一线城市",
+      "url": "https://www.baidu.com/s?wd=13%E4%B8%AA%E5%8E%BF%E7%9A%84%E6%B6%88%E8%B4%B9%E8%B5%B6%E8%B6%85%E4%B8%80%E7%BA%BF%E5%9F%8E%E5%B8%82",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI算力紧缺时代 大学生买不起电脑了",
+      "url": "https://www.baidu.com/s?wd=AI%E7%AE%97%E5%8A%9B%E7%B4%A7%E7%BC%BA%E6%97%B6%E4%BB%A3+%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B9%B0%E4%B8%8D%E8%B5%B7%E7%94%B5%E8%84%91%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“超级买家+超级卖家” 中国与世界双向奔赴",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682300.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +186,8 @@
       ]
     },
     {
-      "title": "假扮在校生、冒充辅导员！开学季警惕高校“李鬼”新生群",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682262.shtml",
+      "title": "北京突降暴雨 民众冒雨出行",
+      "url": "https://www.chinanews.com.cnhttps://www.chinanews.com.cn/tp/hd2011/2026/08-22/1201765.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +196,8 @@
       ]
     },
     {
-      "title": "义乌，一座城撑开56个民族的“人生舞台”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-22/10682257.shtml",
+      "title": "“眼见为实”有回响",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682298.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +206,8 @@
       ]
     },
     {
-      "title": "广西宁明水文中心站发布洪水黄色预警",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682260.shtml",
+      "title": "行进中国丨武陵山深处，小城向海行",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682297.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +216,8 @@
       ]
     },
     {
-      "title": "大连机场单日旅客吞吐量首次突破8万人次",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682255.shtml",
+      "title": "长江十年行｜万里长江入苏来，十年织就“绿飘带”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682293.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +226,8 @@
       ]
     },
     {
-      "title": "喝完牛奶肠胃就不舒服？多半是你没选对",
-      "url": "https://www.chinanews.com.cn/life/2026/08-22/10682259.shtml",
+      "title": "12.4万亿元资金，请查收！关乎你的衣食住行",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682292.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,28 +236,8 @@
       ]
     },
     {
-      "title": "多剧种梨园盛会唱响石嘴山 戏曲非遗融合丰富民众文化生活",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682252.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "前列腺癌是“懒癌”还是“隐形杀手”？专家呼吁：中老年男性应将PSA纳入常规体检",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682249.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "雄安新区举办2026年服务疏解专场招聘会",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682256.shtml",
+      "title": "第十三届哈尔滨朝鲜族民俗文化展演举行",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-22/10682285.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
