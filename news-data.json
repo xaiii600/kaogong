@@ -1,10 +1,30 @@
 {
   "date": "2026-08-22",
-  "time": "22:58",
-  "generatedAt": "2026-08-22T22:58:37.514Z",
+  "time": "23:57",
+  "generatedAt": "2026-08-22T23:57:14.562Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "伊朗官员：任何参与对伊经济限制的国家都被视为敌人",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682505.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从“民生痛点”到“旅游爆点”：悬崖电梯托起山乡新希望",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682502.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "加拿大宣布9月8日起对美国商品征收报复性关税",
       "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682499.shtml",
@@ -66,31 +86,61 @@
       ]
     },
     {
-      "title": "世界机器人大会观察：跳出炫技 埋头“干活”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682469.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "香江观澜：皇岗口岸见证港深融合新探索 制度创新提速湾区发展",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-22/10682465.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多家银行更新个人消费贷贴息细则",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E6%B6%88%E8%B4%B9%E8%B4%B7%E8%B4%B4%E6%81%AF%E7%BB%86%E5%88%99",
+      "title": "加拿大将对美国商品征收报复性关税",
+      "url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%B0%86%E5%AF%B9%E7%BE%8E%E5%9B%BD%E5%95%86%E5%93%81%E5%BE%81%E6%94%B6%E6%8A%A5%E5%A4%8D%E6%80%A7%E5%85%B3%E7%A8%8E",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "international",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "出伏别乱“冻” 调作息防秋燥 告别“秋乏”",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-23/10682508.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "霍尔果斯压气首站累计输气突破6000亿立方米",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682507.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "如何让涉密设备“功成身退”？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682506.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“中国值得反复探索”——解码“中国游”的新与变",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682504.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月23日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-23/10682503.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -188,56 +238,6 @@
     {
       "title": "美官员：约40艘油轮21日晚通过霍尔木兹海峡",
       "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682488.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "爱知·名古屋亚运会火炬传递启动",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682483.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年中国贵阳亚洲青年攀岩锦标赛 中国队包揽U17女子攀石前三",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-22/10682482.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "侨链全球开新局 第十二届侨交会收官",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682476.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "皇岗口岸举行首次港深联合压力测试 旅客1分钟内可通过合作查验通道",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-22/10682474.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "故宫出版社新书讲述18世纪西方人视角下的东西文化交流",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682473.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
