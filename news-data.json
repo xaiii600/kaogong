@@ -1,10 +1,20 @@
 {
   "date": "2026-08-22",
-  "time": "15:56",
-  "generatedAt": "2026-08-22T15:56:36.071Z",
+  "time": "17:00",
+  "generatedAt": "2026-08-22T17:00:48.012Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "普京称俄军加大对乌企业打击",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682493.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "2026年贵州“星火杯”国际少年足球邀请赛收官",
       "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-22/10682481.shtml",
@@ -46,11 +56,11 @@
       ]
     },
     {
-      "title": "真金白银投向群众所需，这场发布会讲清“投资于人”",
-      "url": "http://www.chinanews.com.cn/cj/shipin/2026/08-22/news1066214.shtml",
+      "title": "中国队击败新西兰队 晋级U18男篮亚洲杯决赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-22/10682492.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -228,16 +238,6 @@
     {
       "title": "（粤港澳大湾区）“湾区明珠 双城海上游”新航线开通",
       "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682464.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "受台风“紫檀”影响  国铁广州局调整部分列车开行方案",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682457.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
