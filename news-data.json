@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-21",
-  "time": "23:02",
-  "generatedAt": "2026-08-21T23:02:37.135Z",
+  "date": "2026-08-22",
+  "time": "00:00",
+  "generatedAt": "2026-08-22T00:00:52.689Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -106,28 +106,8 @@
       ]
     },
     {
-      "title": "海南洋浦港审批便利化新举措提升国际船舶进口岸效率",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682115.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "闽宁科技合作推进会在宁夏银川召开",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-21/10682103.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "阿根廷4人因世界杯决赛冲突被禁赛",
-      "url": "https://www.baidu.com/s?wd=%E9%98%BF%E6%A0%B9%E5%BB%B74%E4%BA%BA%E5%9B%A0%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%86%B2%E7%AA%81%E8%A2%AB%E7%A6%81%E8%B5%9B",
+      "title": "世界杯决赛冲突处罚公布",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%E5%86%B2%E7%AA%81%E5%A4%84%E7%BD%9A%E5%85%AC%E5%B8%83",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -140,16 +120,6 @@
       "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E5%8F%8D%E9%94%81%E5%9C%A8%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B15%E5%B0%8F%E6%97%B6",
       "source": "百度热搜",
       "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "民生人寿 生肖不合裁员",
-      "url": "https://www.baidu.com/s?wd=%E6%B0%91%E7%94%9F%E4%BA%BA%E5%AF%BF+%E7%94%9F%E8%82%96%E4%B8%8D%E5%90%88%E8%A3%81%E5%91%98",
-      "source": "百度热搜",
-      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
@@ -176,11 +146,81 @@
       ]
     },
     {
-      "title": "第二十九届成都国际汽车展开幕",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E5%B1%8A%E6%88%90%E9%83%BD%E5%9B%BD%E9%99%85%E6%B1%BD%E8%BD%A6%E5%B1%95%E5%BC%80%E5%B9%95",
+      "title": "AI客服 国标",
+      "url": "https://www.baidu.com/s?wd=AI%E5%AE%A2%E6%9C%8D+%E5%9B%BD%E6%A0%87",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "什么是过度护肤和精简护肤？选择哪一种护肤方式会更好？",
+      "url": "https://www.chinanews.com.cn/life/2026/08-22/10682152.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "警惕代谢异常低龄化 孩子也要查血糖血脂",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-22/10682151.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "发展气候康养，得迈过这些“坎儿”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682150.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "挂面拆封两年，男子误食后险入ICU 哪些食物最易滋生黄曲霉素？",
+      "url": "https://www.chinanews.com.cn/life/2026/08-22/10682149.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "脾胃虚寒、阳虚、湿热体质到底该怎么喝牛奶？看完你就明白了",
+      "url": "https://www.chinanews.com.cn/life/2026/08-22/10682148.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "补充蛋白质，不是吃不够，就是吃不对？来看专家建议",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-22/10682147.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月22日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-22/10682146.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -198,46 +238,6 @@
     {
       "title": "世界青年花样滑冰大奖赛西安站：中立运动员日揽两金",
       "url": "https://www.chinanews.com.cn/ty/2026/08-22/10682139.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国人权研究会代表团访问尼泊尔",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682140.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世界卫生组织欧洲区主任角逐下一任世界卫生组织总干事",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-22/10682141.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "越南青年赴广西研学 感知中国科创活力",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-22/10682137.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "网传飞机“散云止雨”加重内蒙古旱情？真相来了",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682135.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
