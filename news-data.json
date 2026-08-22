@@ -1,7 +1,7 @@
 {
   "date": "2026-08-22",
-  "time": "19:32",
-  "generatedAt": "2026-08-22T19:32:08.730Z",
+  "time": "21:01",
+  "generatedAt": "2026-08-22T21:01:49.391Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -51,6 +51,16 @@
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本茨城县南部发生5.9级地震 东京震感明显",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682494.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -228,16 +238,6 @@
     {
       "title": "从摩洛哥到郊区乡村 上海援外医生让大爱薪火相传",
       "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682466.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（粤港澳大湾区）“湾区明珠 双城海上游”新航线开通",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-22/10682464.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
