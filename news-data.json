@@ -1,10 +1,40 @@
 {
   "date": "2026-08-22",
-  "time": "21:57",
-  "generatedAt": "2026-08-22T21:57:18.114Z",
+  "time": "22:58",
+  "generatedAt": "2026-08-22T22:58:37.514Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "加拿大宣布9月8日起对美国商品征收报复性关税",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682499.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国友人“赛考斯”23日凌晨抵京 用中文说出“我回来了”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682498.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "人工智能进课堂，如何学得更好",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-23/10682495.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "普京称俄军加大对乌企业打击",
       "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682493.shtml",
@@ -61,6 +91,46 @@
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026羽毛球世锦赛：中国组合梁伟铿/王昶挺进男双决赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682501.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "叙利亚谴责以色列袭击“严重侵犯叙主权”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682500.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“赛考斯”抵达北京：美中两国可以携手建设更加美好的世界",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682497.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本本州岛5.8级地震已致多人受伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682496.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -168,76 +238,6 @@
     {
       "title": "故宫出版社新书讲述18世纪西方人视角下的东西文化交流",
       "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682473.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "关灯看手机伤眼不可逆 三个方法降低伤害→",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-22/10682477.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "福建启动防台风四级应急响应 平潭所有客渡船停航",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682475.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "重庆武陵山大裂谷：绝壁幽谷引客来",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-22/10682452.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "学体联2026年全国中学生啦啦操锦标赛在云南昭通开赛",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-22/10682451.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026赛季中乙联赛：山西战平兰州进入冲甲组",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-22/10682450.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“蛋饼叔叔”看望患病男孩时几度哽咽 自掏腰包垫付善款助力治疗",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-22/10682470.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“追寻”云南百岁学人张文勋 百余幅翰墨昆明贺寿",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-22/10682468.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
