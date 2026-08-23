@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
-  "time": "15:57",
-  "generatedAt": "2026-08-23T15:57:40.654Z",
+  "time": "17:03",
+  "generatedAt": "2026-08-23T17:03:27.230Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -51,6 +51,26 @@
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国队不敌澳大利亚队 获U18男篮亚洲杯亚军",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10682870.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "羽毛球世锦赛：中国队1金2银收官",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682869.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -218,26 +238,6 @@
     {
       "title": "中国多部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
       "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682835.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "15个国家和地区的机器人在香港角逐“武林至尊”",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-23/10682834.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台湾球迷跨海观赛“以球会友”：体育是两岸交流最好的桥梁",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682832.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
