@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
-  "time": "09:47",
-  "generatedAt": "2026-08-23T09:47:41.028Z",
+  "time": "11:01",
+  "generatedAt": "2026-08-23T11:01:19.610Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -11,6 +11,36 @@
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江船对船绿色甲醇燃料加注规模创新高",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682752.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国医学模拟人和健康传感器“黑科技”长沙集中亮相",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682741.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩红基金会救护车采购陷争议，市场监管部门：供应商已被立案调查",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682742.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -36,70 +66,10 @@
       ]
     },
     {
-      "title": "台风“沙德尔”睁眼！中央气象台：睁眼的台风都是厉害家伙",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682726.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家卫健委通报7位存在严重不良行为的项目评审专家被处理",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682717.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "事业单位"
-      ]
-    },
-    {
-      "title": "（走进中国乡村）古老民族服饰成“潮流” 广西乡镇“绣”出千万产业闯东盟",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-23/10682724.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "北京市文联召开文艺与科技融合发展座谈会",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682694.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新发地启动紧急排查：涉事“甲醛白菜”未流入，当前市场白菜供应充足",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682711.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "三部门调拨2万件中央救灾物资支持广西做好台风“紫檀”救灾救助工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682707.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "数智赋能展风采 山东高校硬核成果亮相教育博览会",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682691.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
+      "title": "乌克兰袭击俄民用目标 普京发声",
+      "url": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E8%A2%AD%E5%87%BB%E4%BF%84%E6%B0%91%E7%94%A8%E7%9B%AE%E6%A0%87+%E6%99%AE%E4%BA%AC%E5%8F%91%E5%A3%B0",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,28 +86,8 @@
       ]
     },
     {
-      "title": "乌克兰袭击俄民用目标 普京发声",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E8%A2%AD%E5%87%BB%E4%BF%84%E6%B0%91%E7%94%A8%E7%9B%AE%E6%A0%87+%E6%99%AE%E4%BA%AC%E5%8F%91%E5%A3%B0",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国际金价连涨三周 反弹还是反转",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E9%87%91%E4%BB%B7%E8%BF%9E%E6%B6%A8%E4%B8%89%E5%91%A8+%E5%8F%8D%E5%BC%B9%E8%BF%98%E6%98%AF%E5%8F%8D%E8%BD%AC",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "自然资源部对云南启动地质灾害防御Ⅳ级响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682735.shtml",
+      "title": "中国气象局：今年西北太平洋已生成20个台风",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682766.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +96,8 @@
       ]
     },
     {
-      "title": "全球首个磁共振脑机接口全栈式解决方案在天津发布",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682728.shtml",
+      "title": "亚洲第一长洞双河洞户外运动挑战赛收官",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682764.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +106,8 @@
       ]
     },
     {
-      "title": "【好评中国】致敬科学家，仰望时代最闪光的精神坐标",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-23/10682733.shtml",
+      "title": "台风“沙德尔”有两种可能路径 将正面影响我国华东沿海",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682765.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +116,8 @@
       ]
     },
     {
-      "title": "2026年黄河流域找矿突破与生态修复技术发展大会在济南举行",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682722.shtml",
+      "title": "真人与机器人同台共演 《机器人生》在沪探索舞台新可能",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682763.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +126,8 @@
       ]
     },
     {
-      "title": "广西崇左边境管理支队闻讯而动 奋战台风“紫檀”抢险救灾一线",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682720.shtml",
+      "title": "郭华东院士：科学智能将助力揭示全球可持续发展演化规律",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682753.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +136,8 @@
       ]
     },
     {
-      "title": "受台风影响 海南环岛高铁24日部分旅客列车临时停运",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682719.shtml",
+      "title": "国家防总办公室派出工作组赴广西协助指导防汛防台风工作",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682754.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +146,8 @@
       ]
     },
     {
-      "title": "台风“紫檀”致广西崇左持续强降雨 多地景区临时关停",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682718.shtml",
+      "title": "应急管理部针对云南启动国家地质灾害四级应急响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682755.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +156,8 @@
       ]
     },
     {
-      "title": "一件红军衣背后的共同奔赴《五彩红军衣》讲述同心长征路",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682712.shtml",
+      "title": "2026羽毛球世锦赛：中国组合刘圣书/谭宁获得银牌",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682756.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +166,8 @@
       ]
     },
     {
-      "title": "“旅客买票占座放零食”应如何处理？专家解读相关法规",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682723.shtml",
+      "title": "台风“紫檀”致广西多地内涝　爱店口岸暂停通关服务",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682751.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +176,8 @@
       ]
     },
     {
-      "title": "广西多地强降雨引发内涝洪水 台风“紫檀”影响仍将持续",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682710.shtml",
+      "title": "广西推动生态文明建设与艺术美育深度融合",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682745.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +186,58 @@
       ]
     },
     {
-      "title": "从八桂风韵到白山黑水：四省区各族青少年以文化为媒绘就“北疆·石榴情”",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-23/10682709.shtml",
+      "title": "《欢迎来龙餐馆》火到台湾！这句台词让网友动容……",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682749.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特写：疲惫与兴奋相互交替的殷玉珍",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682740.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "世界人形机器人运动会迎第二个比赛日 专家解读赛事规则",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682738.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026北京西城百姓戏剧文化市集鸣锣开市",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682736.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国非遗馆“可以观”非遗社教演艺活动探索传承体验新场景",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682732.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "世界人形机器人运动会23日将产生11枚金牌",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682731.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
