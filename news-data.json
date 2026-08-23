@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
-  "time": "17:03",
-  "generatedAt": "2026-08-23T17:03:27.230Z",
+  "time": "17:55",
+  "generatedAt": "2026-08-23T17:55:55.661Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -50,6 +50,16 @@
       "url": "https://www.baidu.com/s?wd=5%E5%B2%81%E5%A5%B3%E7%AB%A5%E7%A7%91%E6%8A%80%E9%A6%86%E4%B8%AD%E9%81%AD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B8%A2%E4%B8%AD%E9%9D%A2%E9%83%A8",
       "source": "百度热搜",
       "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国15岁少年随机开枪致1死1伤",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD15%E5%B2%81%E5%B0%91%E5%B9%B4%E9%9A%8F%E6%9C%BA%E5%BC%80%E6%9E%AA%E8%87%B41%E6%AD%BB1%E4%BC%A4",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -228,16 +238,6 @@
     {
       "title": "泰国前总理：中华文化传承促进不同群体之间的理解与友谊",
       "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682830.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国多部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682835.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
