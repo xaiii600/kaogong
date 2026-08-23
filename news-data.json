@@ -1,10 +1,20 @@
 {
   "date": "2026-08-23",
-  "time": "20:59",
-  "generatedAt": "2026-08-23T20:59:09.258Z",
+  "time": "21:56",
+  "generatedAt": "2026-08-23T21:56:58.295Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美国内华达州里诺市4万多居民因野火紧急撤离",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682873.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "从凭经验到“慧”种田 广西蔗田里算出产业“甜账本”",
       "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682843.shtml",
@@ -51,6 +61,36 @@
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国15岁少年随机开枪致1死1伤",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD15%E5%B2%81%E5%B0%91%E5%B9%B4%E9%9A%8F%E6%9C%BA%E5%BC%80%E6%9E%AA%E8%87%B41%E6%AD%BB1%E4%BC%A4",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "儿童能否单独乘火车出行？铁路官方解答",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10682872.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "哈萨克斯坦举行一院制议会库鲁尔泰首届选举",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682871.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -198,46 +238,6 @@
     {
       "title": "光伏板下奶牛“享清凉” 中国多地竞逐“光伏+”新赛道",
       "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682841.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "乡村舞台音乐飞扬 浙江金华民建助力唱响“光南之声”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682840.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东西问丨殷玉珍：大洋隔不断真诚的心",
-      "url": "https://www.chinanews.com.cn/dxw/2026/08-23/10682839.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "泰国前总理：中华文化传承促进不同群体之间的理解与友谊",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682830.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国多部门指导地方快速处置“白菜收购环节蘸取甲醛溶液”问题",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682835.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
