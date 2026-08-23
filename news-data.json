@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
-  "time": "15:01",
-  "generatedAt": "2026-08-23T15:01:22.620Z",
+  "time": "15:57",
+  "generatedAt": "2026-08-23T15:57:40.654Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -41,6 +41,56 @@
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "5岁女童科技馆中遭机器人踢中面部",
+      "url": "https://www.baidu.com/s?wd=5%E5%B2%81%E5%A5%B3%E7%AB%A5%E7%A7%91%E6%8A%80%E9%A6%86%E4%B8%AD%E9%81%AD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B8%A2%E4%B8%AD%E9%9D%A2%E9%83%A8",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "澳门音乐剧亮相全国少数民族文艺会演 讲述老船厂新故事",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-23/10682868.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“紫檀”造成广西10条河流15个站超警 紧急转移安置8087人",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682867.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中超第24轮：申花战胜蓉城 国安玉昆激战言和",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682866.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西南宁市郁江防洪四级应急响应提升为三级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682865.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -188,56 +238,6 @@
     {
       "title": "台湾球迷跨海观赛“以球会友”：体育是两岸交流最好的桥梁",
       "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682832.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云南凤庆发生泥石流和滑坡灾害致2人遇难4人失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682836.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“紫檀”致广西上思河水暴涨 数千人转移",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-23/1201862.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中华文化大乐园落地柬埔寨华校 以文化为桥厚植中柬友谊",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682828.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年“奔跑吧·少年”陕西省青少年体育夏令营结营",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682827.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "园区治理难题何解？专家建言规则更加清晰可预期",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682826.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
