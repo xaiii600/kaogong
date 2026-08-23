@@ -1,33 +1,43 @@
 {
   "date": "2026-08-23",
-  "time": "05:51",
-  "generatedAt": "2026-08-23T05:51:10.708Z",
+  "time": "07:54",
+  "generatedAt": "2026-08-23T07:54:53.596Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "香港财政司长：国家AI迅速发展对香港发挥显著助力",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-23/10682645.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
+      "title": "美国军事深陷AI迷局",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%86%9B%E4%BA%8B%E6%B7%B1%E9%99%B7AI%E8%BF%B7%E5%B1%80",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "（走进中国乡村）从7亩试验田到畅销海外 葡萄“串”出湖南澧县近百亿元产业",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682644.shtml",
+      "title": "数智赋能展风采 山东高校硬核成果亮相教育博览会",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682691.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "AI研学持续升温 专家提醒家长：别焦虑 警惕无效学习",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682643.shtml",
+      "title": "海内外嘉宾青岛共议“可持续、高效、智能”交通能源未来",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682693.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "提前9年押注、个人砸下10亿，中国版Moderna背后的神秘科技大佬",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682692.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,8 +46,8 @@
       ]
     },
     {
-      "title": "五大连池“冷矿泉”催生“热经济” 康养文旅吸引海外游客",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682640.shtml",
+      "title": "上海楼市“沪八条”施行 新政组合拳激活消费需求",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682703.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -46,8 +56,8 @@
       ]
     },
     {
-      "title": "2026世界机器人大会首发新品超150件 落地场景日益丰富",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682625.shtml",
+      "title": "三部门调拨2万件中央救灾物资支持广西做好台风“紫檀”救灾救助工作",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682702.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -56,8 +66,8 @@
       ]
     },
     {
-      "title": "中俄重型直升机跨境合作项目落地山西 同步启动低空文化交流活动",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682618.shtml",
+      "title": "五支国际船队山东青岛起航竞逐“远东杯”国际帆船拉力赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682671.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -66,8 +76,8 @@
       ]
     },
     {
-      "title": "美国前国务卿基辛格的妻子去世，享年92岁",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682622.shtml",
+      "title": "美国共和党议员批评特朗普的牛肉进口计划",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682665.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -76,20 +86,10 @@
       ]
     },
     {
-      "title": "美国内华达州山火过火面积超3000万平米，数百户家庭被疏散",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682621.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "本周中国科技再达新里程碑",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%AC%E5%91%A8%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%86%8D%E8%BE%BE%E6%96%B0%E9%87%8C%E7%A8%8B%E7%A2%91",
+      "title": "乌克兰袭击俄民用目标 普京发声",
+      "url": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E8%A2%AD%E5%87%BB%E4%BF%84%E6%B0%91%E7%94%A8%E7%9B%AE%E6%A0%87+%E6%99%AE%E4%BA%AC%E5%8F%91%E5%A3%B0",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,8 +106,8 @@
       ]
     },
     {
-      "title": "乌克兰袭击俄民用目标 普京发声",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E8%A2%AD%E5%87%BB%E4%BF%84%E6%B0%91%E7%94%A8%E7%9B%AE%E6%A0%87+%E6%99%AE%E4%BA%AC%E5%8F%91%E5%A3%B0",
+      "title": "普京：最困难情况下俄仍会举行选举",
+      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%EF%BC%9A%E6%9C%80%E5%9B%B0%E9%9A%BE%E6%83%85%E5%86%B5%E4%B8%8B%E4%BF%84%E4%BB%8D%E4%BC%9A%E4%B8%BE%E8%A1%8C%E9%80%89%E4%B8%BE",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -116,28 +116,8 @@
       ]
     },
     {
-      "title": "“AI红娘”承诺三年不结婚就退款",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E7%BA%A2%E5%A8%98%E2%80%9D%E6%89%BF%E8%AF%BA%E4%B8%89%E5%B9%B4%E4%B8%8D%E7%BB%93%E5%A9%9A%E5%B0%B1%E9%80%80%E6%AC%BE",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "37岁失业建筑师转行养老护理员",
-      "url": "https://www.baidu.com/s?wd=37%E5%B2%81%E5%A4%B1%E4%B8%9A%E5%BB%BA%E7%AD%91%E5%B8%88%E8%BD%AC%E8%A1%8C%E5%85%BB%E8%80%81%E6%8A%A4%E7%90%86%E5%91%98",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "加拿大将对美国商品征收报复性关税",
-      "url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%B0%86%E5%AF%B9%E7%BE%8E%E5%9B%BD%E5%95%86%E5%93%81%E5%BE%81%E6%94%B6%E6%8A%A5%E5%A4%8D%E6%80%A7%E5%85%B3%E7%A8%8E",
+      "title": "国际金价连涨三周 反弹还是反转",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E9%87%91%E4%BB%B7%E8%BF%9E%E6%B6%A8%E4%B8%89%E5%91%A8+%E5%8F%8D%E5%BC%B9%E8%BF%98%E6%98%AF%E5%8F%8D%E8%BD%AC",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -146,18 +126,8 @@
       ]
     },
     {
-      "title": "北京新发地：“甲醛白菜”未流入市场",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E6%96%B0%E5%8F%91%E5%9C%B0%EF%BC%9A%E2%80%9C%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%E2%80%9D%E6%9C%AA%E6%B5%81%E5%85%A5%E5%B8%82%E5%9C%BA",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "韩媒：青瓦台被游客破坏，李在明入住日期仍未定",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-23/10682649.shtml",
+      "title": "广东开展森林消防“以水灭火”实战拉练",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682677.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +136,8 @@
       ]
     },
     {
-      "title": "台青谢欣蓓：台湾美食联结两岸情",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682647.shtml",
+      "title": "2026年宋庆龄少年儿童未来科学日活动在北京启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682683.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +146,8 @@
       ]
     },
     {
-      "title": "贵州首列采用“保税物流+铁路快通”新模式的回程中老班列抵达贵阳",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-23/10682646.shtml",
+      "title": "街头田径燃动羊城 撑竿跳高、跳高项目同台绽放",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682682.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +156,8 @@
       ]
     },
     {
-      "title": "陕西：亲子家庭解锁别样体育课堂 走进训练场与田径冠军互动",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682642.shtml",
+      "title": "“东北超”官方推广曲及赛事荣誉视觉发布会在沈阳举办",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682673.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +166,8 @@
       ]
     },
     {
-      "title": "《非遗里的中国》走进四川德阳解码古蜀文脉的当代传承",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682641.shtml",
+      "title": "东西问丨“树”的猜想",
+      "url": "https://www.chinanews.com.cn/dxw/2026/08-23/10682688.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +176,8 @@
       ]
     },
     {
-      "title": "走近“医学传承人”：岐黄薪火绵延浙里 代代医者接续守望",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682632.shtml",
+      "title": "高温天气来袭 重庆人在水中涮火锅",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682684.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +186,8 @@
       ]
     },
     {
-      "title": "多预警齐发！北京启动防汛四级应急响应 注意防范",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682634.shtml",
+      "title": "（文化中国行）敦煌医药文化跨界出圈 “滋补”丝路康养游",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682704.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +196,8 @@
       ]
     },
     {
-      "title": "贵州化肥借力铁路“运仓配”直奔东北粮仓",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682631.shtml",
+      "title": "骗子租写字楼让求职者上假班 揭秘虚假招聘骗局",
+      "url": "https://www.chinanews.com.cn/fz/2026/08-23/10682705.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +206,38 @@
       ]
     },
     {
-      "title": "湖畔歌声起 青山变靠山——迪庆普达措露营音乐节里的生态发展乐章",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682630.shtml",
+      "title": "山海为家，草木为邻——英国植物画家奔雅的香港情缘",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682679.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（活力中国调研行）福建古村新潮：喝老祖宗的酒，走年轻人的路",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682685.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第48届世界技能大赛中国代表团成立",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682674.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新疆第十五届运动会航模比赛在伊宁开赛",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682680.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
