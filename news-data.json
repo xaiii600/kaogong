@@ -1,16 +1,66 @@
 {
   "date": "2026-08-23",
-  "time": "11:01",
-  "generatedAt": "2026-08-23T11:01:19.610Z",
+  "time": "11:57",
+  "generatedAt": "2026-08-23T11:57:37.021Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "【好评中国】东湖评论丨民生与安全，是中国经济最稳的压舱石",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-23/10682734.shtml",
+      "title": "经济学家：AI技术是推动经济“K型”分化的关键变量",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682772.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“词元”像商品一样买卖 解码AI时代的“前店后厂”如何运转",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682781.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "六盘山旱塬红花开 特色药田铺就西吉乡村振兴路",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682778.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一习话丨“功夫模式”背后的创新嘱托",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682777.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沿黄公路（新能源）汽车拉力赛预热赛举行 中外车手逐梦赛道",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682771.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（活力中国调研行）从机构享老到居家安养 厦门织密养老服务网",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682768.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -36,51 +86,121 @@
       ]
     },
     {
-      "title": "韩红基金会救护车采购陷争议，市场监管部门：供应商已被立案调查",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682742.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部副部长苗得雨会见伊朗外交部副部长加里布阿巴迪",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682727.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新疆葡萄产业加速“数智化”转型",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-23/10682725.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "乌克兰袭击俄民用目标 普京发声",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E8%A2%AD%E5%87%BB%E4%BF%84%E6%B0%91%E7%94%A8%E7%9B%AE%E6%A0%87+%E6%99%AE%E4%BA%AC%E5%8F%91%E5%A3%B0",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "加美贸易谈判为何谈崩了",
       "url": "https://www.baidu.com/s?wd=%E5%8A%A0%E7%BE%8E%E8%B4%B8%E6%98%93%E8%B0%88%E5%88%A4%E4%B8%BA%E4%BD%95%E8%B0%88%E5%B4%A9%E4%BA%86",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "澳门运输工务司司长谈“三五”规划：加快都市更新 建设美丽智慧澳门",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-23/10682785.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国首届磁共振脑机接口大会在天津举行",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682782.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "福建南平：工业遗存活化利用 激活城市新活力",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682779.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏洛隆县怒江大拐弯雄奇壮阔",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-23/10682774.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "票房超115亿！2026暑期档临近收官热度不减",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682780.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "学习手记｜“走技能成才、技能报国之路”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682776.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "探访西吉龙王坝：苦瘠旱塬升腾乡村新烟火",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682775.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一渠活水润大湖 话剧《海阔天高》诉说引松奋斗史诗",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682770.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏洛隆：高原秋收季 热巴薪火代代传",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682769.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "珠江防总将防汛防台风Ⅳ级应急响应提升至Ⅲ级",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682767.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国足协：没有证据表明韩国足协对中国足协相关人士提供过“不当招待”行为",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682773.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -118,126 +238,6 @@
     {
       "title": "真人与机器人同台共演 《机器人生》在沪探索舞台新可能",
       "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682763.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "郭华东院士：科学智能将助力揭示全球可持续发展演化规律",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682753.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家防总办公室派出工作组赴广西协助指导防汛防台风工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682754.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "应急管理部针对云南启动国家地质灾害四级应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-23/10682755.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026羽毛球世锦赛：中国组合刘圣书/谭宁获得银牌",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-23/10682756.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“紫檀”致广西多地内涝　爱店口岸暂停通关服务",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682751.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西推动生态文明建设与艺术美育深度融合",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682745.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《欢迎来龙餐馆》火到台湾！这句台词让网友动容……",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682749.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特写：疲惫与兴奋相互交替的殷玉珍",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682740.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世界人形机器人运动会迎第二个比赛日 专家解读赛事规则",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682738.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026北京西城百姓戏剧文化市集鸣锣开市",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-23/10682736.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国非遗馆“可以观”非遗社教演艺活动探索传承体验新场景",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682732.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世界人形机器人运动会23日将产生11枚金牌",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-23/10682731.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
