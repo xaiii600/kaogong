@@ -1,33 +1,23 @@
 {
-  "date": "2026-08-23",
-  "time": "23:56",
-  "generatedAt": "2026-08-23T23:56:56.796Z",
+  "date": "2026-08-24",
+  "time": "03:39",
+  "generatedAt": "2026-08-24T03:39:05.900Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美军中央司令部：在中东地区海域开展舰艇补给作业",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682882.shtml",
+      "title": "8.9万亿日元创新高！日本舆论担忧高防卫预算拖累经济",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683026.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "欧盟敦促以色列停止“E1区”定居点建设项目",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682895.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "孤独症融合教育提速破局，从“随班就座”到“随班就读”还需跨越几道坎",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-24/10682896.shtml",
+      "title": "出行注意！台风影响多地高速通行、部分水域交通管制",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683063.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -36,28 +26,8 @@
       ]
     },
     {
-      "title": "多人受伤 超4万人紧急撤离 美国内华达州野火肆虐",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682897.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "某4S店员工带顾客开试驾车撞伤行人 上海浦东警方通报",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10682891.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "体育产业规模将近翻番，意味着什么",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10682890.shtml",
+      "title": "市场监管总局发布酱香型白酒掺杂食用酒精筛查检验方法",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683043.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,8 +36,8 @@
       ]
     },
     {
-      "title": "上半年经济增长4.7%说明了什么？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10682886.shtml",
+      "title": "市场监管总局：今年已发布新兴产业国家标准1400余项",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10682997.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -76,8 +46,18 @@
       ]
     },
     {
-      "title": "俄国防部：击落269架乌克兰无人机",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682876.shtml",
+      "title": "2026世界机器人大会在北京闭幕",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683046.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一场逼近市中心的山火，烧出美国野火治理的“硬伤”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683050.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -86,28 +66,18 @@
       ]
     },
     {
-      "title": "伊朗官员：若美打经济战 霍尔木兹海峡和波斯湾将再无石油出口",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682874.shtml",
+      "title": "日本排放核污染水已三年 22轮累计排放超17万吨",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683030.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "王毅会见约旦副首相兼外交大臣萨法迪",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10682875.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国内华达州里诺市4万多居民因野火紧急撤离",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682873.shtml",
+      "title": "加强防沙治沙国际合作 推动全球环境治理",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683029.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -116,18 +86,38 @@
       ]
     },
     {
-      "title": "5岁女童科技馆中遭机器人踢中面部",
-      "url": "https://www.baidu.com/s?wd=5%E5%B2%81%E5%A5%B3%E7%AB%A5%E7%A7%91%E6%8A%80%E9%A6%86%E4%B8%AD%E9%81%AD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B8%A2%E4%B8%AD%E9%9D%A2%E9%83%A8",
+      "title": "网友收到长宁7.7地震预警 官方通报",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E5%8F%8B%E6%94%B6%E5%88%B0%E9%95%BF%E5%AE%817.7%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6+%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "出伏后，可以这样养生",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-24/10682899.shtml",
+      "title": "美国27岁选美冠军被剥夺冠军头衔",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD27%E5%B2%81%E9%80%89%E7%BE%8E%E5%86%A0%E5%86%9B%E8%A2%AB%E5%89%A5%E5%A4%BA%E5%86%A0%E5%86%9B%E5%A4%B4%E8%A1%94",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄击落269架乌无人机 普京：加强攻势",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%87%BB%E8%90%BD269%E6%9E%B6%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA+%E6%99%AE%E4%BA%AC%EF%BC%9A%E5%8A%A0%E5%BC%BA%E6%94%BB%E5%8A%BF",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "匿名给差评，为啥还能接到骚扰电话？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683059.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +126,8 @@
       ]
     },
     {
-      "title": "考前密卷、免考名额、内部渠道……小心这些证书陷阱",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10682894.shtml",
+      "title": "“易中天”，集体大跌",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683036.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +136,8 @@
       ]
     },
     {
-      "title": "人形机器人运动会足球赛场上演中外对决",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1201866.shtml",
+      "title": "菲律宾拟禁止13岁及以下儿童使用社交媒体和网络游戏平台",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683053.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +146,8 @@
       ]
     },
     {
-      "title": "“十五五”时期，全国将培育三万名农产品骨干经纪人",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10682892.shtml",
+      "title": "突尼斯附近海域一非法移民船倾覆 已致11人丧生",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683024.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +156,8 @@
       ]
     },
     {
-      "title": "外骨骼，真的那么管用吗？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10682889.shtml",
+      "title": "战舰救援、航母补给、空中加油，海外基地是美军“命门”？",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683014.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +166,8 @@
       ]
     },
     {
-      "title": "路边捡砖、每天喷水……这届年轻人为何在工位认真“养砖”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10682887.shtml",
+      "title": "十余国选手绳舞长安 促“体育+文旅”深度融合",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683048.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +176,8 @@
       ]
     },
     {
-      "title": "“三台共舞”正上演 今年台风为何偏多？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10682888.shtml",
+      "title": "“长征路上新阿坝”大型主题采访活动启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683047.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +186,8 @@
       ]
     },
     {
-      "title": "国家首提“算力超市”和“算力银行”，背后藏着一盘算力“大棋”",
-      "url": "https://www.chinanews.com.cn/gsztc/2026/08-24/10682884.shtml",
+      "title": "第43届百队杯竞技组全面完赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683028.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +196,8 @@
       ]
     },
     {
-      "title": "人这一辈子，一定要去一趟广元！",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10682885.shtml",
+      "title": "全国累计收购小麦超9000万吨",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683051.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +206,8 @@
       ]
     },
     {
-      "title": "8月24日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-24/10682883.shtml",
+      "title": "当机器人开始跑步：我们为何需要一双“看得见”未来的眼睛？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683038.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +216,8 @@
       ]
     },
     {
-      "title": "日本熊本县发生3.9级地震 此前强震仍有2794人避难",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10682881.shtml",
+      "title": "“同根·同声·同心”海峡两岸青少年诵读文化经典交流活动在沈举办",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683037.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +226,18 @@
       ]
     },
     {
-      "title": "平凡与不凡的辩证之道",
-      "url": "https://www.chinanews.com.cn/ll/2026/08-24/10682880.shtml",
+      "title": "迎来首批学生！西藏定日地震灾区重建学校全部建成投用",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-24/10683042.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港故事｜香港青年升旗手逐梦记",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683041.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
