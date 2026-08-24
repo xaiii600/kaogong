@@ -1,10 +1,20 @@
 {
   "date": "2026-08-24",
-  "time": "23:11",
-  "generatedAt": "2026-08-24T23:11:17.362Z",
+  "time": "23:58",
+  "generatedAt": "2026-08-24T23:58:24.888Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "扩大银发产品有效供给 “养老刚需”也是产业蓝海",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683527.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "加拿大总理：若美国拿出“正确态度” 将重返贸易谈判",
       "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683503.shtml",
@@ -16,9 +26,9 @@
       ]
     },
     {
-      "title": "“史上最具毁灭性经济战”一触即发，不信邪的伊朗要在“在美国眼皮底下”继续做生意",
-      "url": "https://www.chinanews.com.cn/gsztc/2026/08-24/10683485.shtml",
-      "source": "中国新闻网",
+      "title": "美政府宣布对伊朗经济制裁措施",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E6%94%BF%E5%BA%9C%E5%AE%A3%E5%B8%83%E5%AF%B9%E4%BC%8A%E6%9C%97%E7%BB%8F%E6%B5%8E%E5%88%B6%E8%A3%81%E6%8E%AA%E6%96%BD",
+      "source": "百度热搜",
       "cat": "international",
       "score": 2,
       "exams": [
@@ -26,38 +36,38 @@
       ]
     },
     {
-      "title": "美方宣布对伊朗新一轮制裁措施 伊朗回应：已做好准备",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683506.shtml",
+      "title": "歌舞剧《幸福的金火车》亮相北京 讲述新疆乡村振兴的故事",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202032.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "欧盟启动民防机制驰援塞尔维亚应对山火",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683493.shtml",
+      "title": "智慧生活加速到来！机器人硬核科技，将带来哪些惊喜？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683513.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "香港特区立法会主席鼓励港人港企更好融入国家发展大局",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683488.shtml",
+      "title": "四川阿坝：松潘县探索“民宿+旅游”赋能乡村振兴",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202020.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "国家人形机器人产业标准体系建设指南将公开征求意见",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683483.shtml",
+      "title": "美宣布对伊实施“经济孤立”新措施 伊方：只会让事情更糟",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683508.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,8 +76,8 @@
       ]
     },
     {
-      "title": "受美伊战事影响，美国取消参加美韩“双龙”演习",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683482.shtml",
+      "title": "美方宣布对伊朗新一轮制裁措施 伊朗回应：已做好准备",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683506.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -86,18 +96,18 @@
       ]
     },
     {
-      "title": "小米扩张自研芯片版图",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%89%A9%E5%BC%A0%E8%87%AA%E7%A0%94%E8%8A%AF%E7%89%87%E7%89%88%E5%9B%BE",
+      "title": "美国正式撤销叙利亚“支恐国家”认定",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%AD%A3%E5%BC%8F%E6%92%A4%E9%94%80%E5%8F%99%E5%88%A9%E4%BA%9A%E2%80%9C%E6%94%AF%E6%81%90%E5%9B%BD%E5%AE%B6%E2%80%9D%E8%AE%A4%E5%AE%9A",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "美军再次在东太平洋打击“贩毒船” 致2人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683507.shtml",
+      "title": "（长征胜利90周年）探访日干乔大沼泽",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202035.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +116,8 @@
       ]
     },
     {
-      "title": "8月25日早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-25/10683505.shtml",
+      "title": "上半年，服务出口同比增长17.6%  “中国服务”加速走向海外",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683526.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +126,8 @@
       ]
     },
     {
-      "title": "以色列总理声称伊朗曾企图暗杀其子",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683504.shtml",
+      "title": "建议在这个年龄前，就开始控糖！很多人都晚了",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-25/10683524.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +136,8 @@
       ]
     },
     {
-      "title": "伊朗最高领袖顾问：回应美方威胁将比以往更加坚决",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683502.shtml",
+      "title": "（长征胜利90周年）四川阿坝草原展现生态画卷",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202028.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +146,8 @@
       ]
     },
     {
-      "title": "中美两个“普通人”的兄妹情：相逢是首歌，同行是你和我",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683501.shtml",
+      "title": "鼠疫风险要了解，野生旱獭摸不得",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-25/10683522.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +156,8 @@
       ]
     },
     {
-      "title": "“赛考斯”重访殷玉珍家：美中两国人民可以成为一家人",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683500.shtml",
+      "title": "订单排到2027年！中国“降温节水”神器在欧洲热卖",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683521.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +166,8 @@
       ]
     },
     {
-      "title": "中白“神鹰-2026”空降兵联合训练圆满结束",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683499.shtml",
+      "title": "航司购票新增“超售让座，立减50” 真能解决超售难题吗？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683520.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +176,8 @@
       ]
     },
     {
-      "title": "台湾青年携宝岛风味与好物亮相黄浦江畔",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683498.shtml",
+      "title": "四川阿坝：东西部协作赋能高原现代农业",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202025.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "“赛考斯”的“女儿”在中国",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683497.shtml",
+      "title": "推动高质量发展行稳致远",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683518.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "Spirit战队获得TI2026冠军 达成三冠王",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683494.shtml",
+      "title": "四个台风接续而来，如何应对？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683516.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "应急管理部针对福建启动国家地质灾害四级应急响应",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683492.shtml",
+      "title": "中国餐饮品牌“出海”新解",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683515.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "宇宙小红点不只是一个点 最新天文研究发现或存在于致密宿主星系",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683491.shtml",
+      "title": "遛狗不牵绳致犬只被撞 责任如何承担？法院这样判",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683514.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "（活力中国调研行）“淄博赶烤”吸引前NBA球星 网络热度下降但“外来客”增多",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683487.shtml",
+      "title": "今年厄尔尼诺事件或冲击历史纪录！对我国有何影响？",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683511.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "李强会见约旦国王阿卜杜拉二世",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1202010.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西龙州：左江龙州段抗洪抢险全力推进",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1202011.shtml",
+      "title": "最新民调：受美伊战事影响 特朗普支持率维持历史低位",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683510.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
