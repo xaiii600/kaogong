@@ -1,16 +1,36 @@
 {
   "date": "2026-08-24",
-  "time": "21:48",
-  "generatedAt": "2026-08-24T21:48:47.318Z",
+  "time": "23:11",
+  "generatedAt": "2026-08-24T23:11:17.362Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "加拿大总理：若美国拿出“正确态度” 将重返贸易谈判",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683503.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "“史上最具毁灭性经济战”一触即发，不信邪的伊朗要在“在美国眼皮底下”继续做生意",
       "url": "https://www.chinanews.com.cn/gsztc/2026/08-24/10683485.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美方宣布对伊朗新一轮制裁措施 伊朗回应：已做好准备",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683506.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -56,26 +76,6 @@
       ]
     },
     {
-      "title": "美国一名海军陆战队员在日本身亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683475.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "重庆“产业援藏”再拓新路 电竞嘉年华活动落地西藏昌都",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683464.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "央视曝光后 沈阳等多地接连通报",
       "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
@@ -96,11 +96,91 @@
       ]
     },
     {
-      "title": "遭信任危机 国际足联主席回应",
-      "url": "https://www.baidu.com/s?wd=%E9%81%AD%E4%BF%A1%E4%BB%BB%E5%8D%B1%E6%9C%BA+%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E4%B8%BB%E5%B8%AD%E5%9B%9E%E5%BA%94",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "美军再次在东太平洋打击“贩毒船” 致2人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683507.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月25日早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-25/10683505.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "以色列总理声称伊朗曾企图暗杀其子",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683504.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗最高领袖顾问：回应美方威胁将比以往更加坚决",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683502.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中美两个“普通人”的兄妹情：相逢是首歌，同行是你和我",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683501.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“赛考斯”重访殷玉珍家：美中两国人民可以成为一家人",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683500.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中白“神鹰-2026”空降兵联合训练圆满结束",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683499.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台湾青年携宝岛风味与好物亮相黄浦江畔",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683498.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“赛考斯”的“女儿”在中国",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683497.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -158,86 +238,6 @@
     {
       "title": "广西龙州：左江龙州段抗洪抢险全力推进",
       "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1202011.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "杜锋出任广东男篮总教练",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683481.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "塔吉克斯坦计划3年内新建1100处电动汽车充电设施",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683461.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "纪念开明书店百年，我们在纪念什么",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683479.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东西问丨短评：千万殷玉珍赛考斯“俯身种树”，中美交流蔚然成林",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683471.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（长江十年行）长江入海处，中国制造从这里驶向深蓝",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683476.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普：明年起将加拿大汽车、零部件和钢铁关税提高至50%",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683477.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "香港律政司司长率跨专业代表团访问新疆",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683473.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "融汇传统与现代 朱宗庆打击乐团《六部曲》将在台湾巡演",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683439.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
