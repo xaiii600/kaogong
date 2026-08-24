@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
-  "time": "17:57",
-  "generatedAt": "2026-08-24T17:57:19.225Z",
+  "time": "19:49",
+  "generatedAt": "2026-08-24T19:49:17.939Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -80,6 +80,36 @@
       "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
       "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "小米扩张自研芯片版图",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%89%A9%E5%BC%A0%E8%87%AA%E7%A0%94%E8%8A%AF%E7%89%87%E7%89%88%E5%9B%BE",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "遭信任危机 国际足联主席回应",
+      "url": "https://www.baidu.com/s?wd=%E9%81%AD%E4%BF%A1%E4%BB%BB%E5%8D%B1%E6%9C%BA+%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E4%B8%BB%E5%B8%AD%E5%9B%9E%E5%BA%94",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI偶像 不能照搬真人明星的逻辑",
+      "url": "https://www.baidu.com/s?wd=AI%E5%81%B6%E5%83%8F+%E4%B8%8D%E8%83%BD%E7%85%A7%E6%90%AC%E7%9C%9F%E4%BA%BA%E6%98%8E%E6%98%9F%E7%9A%84%E9%80%BB%E8%BE%91",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -208,36 +238,6 @@
     {
       "title": "香港律政司司长率跨专业代表团访问新疆",
       "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683473.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "融汇传统与现代 朱宗庆打击乐团《六部曲》将在台湾巡演",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683439.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏洛隆：风光旖旎 山水田园绘就高原诗意画卷",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1201997.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "蒙古族姑娘塔娜：一句“去试试”，闯进“世界义乌”",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683444.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
