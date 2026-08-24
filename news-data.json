@@ -1,33 +1,43 @@
 {
   "date": "2026-08-24",
-  "time": "03:39",
-  "generatedAt": "2026-08-24T03:39:05.900Z",
+  "time": "06:06",
+  "generatedAt": "2026-08-24T06:06:15.550Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "8.9万亿日元创新高！日本舆论担忧高防卫预算拖累经济",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683026.shtml",
+      "title": "助残养老有“新帮手” 浙江加速AI惠民场景落地",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683099.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "出行注意！台风影响多地高速通行、部分水域交通管制",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683063.shtml",
+      "title": "转人工菜单入口须清晰醒目 企业对AI客服答复承担责任",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683124.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "市场监管总局发布酱香型白酒掺杂食用酒精筛查检验方法",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683043.shtml",
+      "title": "国际矿物学协会大会举行 全球学者共话“矿物万象”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683090.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "民调显示超七成加拿大民众支持退出加美贸易谈判",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683113.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,18 +46,18 @@
       ]
     },
     {
-      "title": "市场监管总局：今年已发布新兴产业国家标准1400余项",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10682997.shtml",
+      "title": "冒用“中国地震预警网”名义发布预警信息 成都高新减灾研究所被通报",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683100.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "2026世界机器人大会在北京闭幕",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683046.shtml",
+      "title": "国家发改委紧急安排5000万元 支持广西台风灾后应急恢复",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683086.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -56,40 +66,20 @@
       ]
     },
     {
-      "title": "一场逼近市中心的山火，烧出美国野火治理的“硬伤”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683050.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日本排放核污染水已三年 22轮累计排放超17万吨",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683030.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "加强防沙治沙国际合作 推动全球环境治理",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683029.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "网友收到长宁7.7地震预警 官方通报",
-      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E5%8F%8B%E6%94%B6%E5%88%B0%E9%95%BF%E5%AE%817.7%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6+%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5",
+      "title": "美国大模型价格被中国打下来了",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%B7%E6%A0%BC%E8%A2%AB%E4%B8%AD%E5%9B%BD%E6%89%93%E4%B8%8B%E6%9D%A5%E4%BA%86",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄军向士兵投放便携式激光步枪",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%86%9B%E5%90%91%E5%A3%AB%E5%85%B5%E6%8A%95%E6%94%BE%E4%BE%BF%E6%90%BA%E5%BC%8F%E6%BF%80%E5%85%89%E6%AD%A5%E6%9E%AA",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,18 +96,18 @@
       ]
     },
     {
-      "title": "俄击落269架乌无人机 普京：加强攻势",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%87%BB%E8%90%BD269%E6%9E%B6%E4%B9%8C%E6%97%A0%E4%BA%BA%E6%9C%BA+%E6%99%AE%E4%BA%AC%EF%BC%9A%E5%8A%A0%E5%BC%BA%E6%94%BB%E5%8A%BF",
+      "title": "厦门通报餐厅用敌敌畏消杀",
+      "url": "https://www.baidu.com/s?wd=%E5%8E%A6%E9%97%A8%E9%80%9A%E6%8A%A5%E9%A4%90%E5%8E%85%E7%94%A8%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "匿名给差评，为啥还能接到骚扰电话？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683059.shtml",
+      "title": "2026年“左宗棠与边疆治理”学术研讨会在新疆哈密举行",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683098.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +116,8 @@
       ]
     },
     {
-      "title": "“易中天”，集体大跌",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683036.shtml",
+      "title": "厦金“小三通”客运航线单日出入境旅客量创2023年复航以来新高",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683118.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +126,8 @@
       ]
     },
     {
-      "title": "菲律宾拟禁止13岁及以下儿童使用社交媒体和网络游戏平台",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683053.shtml",
+      "title": "台风“简拉维”已在福建泉州沿海登陆",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683097.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +136,8 @@
       ]
     },
     {
-      "title": "突尼斯附近海域一非法移民船倾覆 已致11人丧生",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683024.shtml",
+      "title": "一粒沙海稻米，何以站上全球稻米品质高地？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683096.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +146,8 @@
       ]
     },
     {
-      "title": "战舰救援、航母补给、空中加油，海外基地是美军“命门”？",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683014.shtml",
+      "title": "中国篮协公示亚运会参赛名单 胡金秋、杨舒予等名将在列",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683119.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +156,8 @@
       ]
     },
     {
-      "title": "十余国选手绳舞长安 促“体育+文旅”深度融合",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683048.shtml",
+      "title": "打破多项人类运动纪录 机器人性能持续进阶",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683116.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +166,8 @@
       ]
     },
     {
-      "title": "“长征路上新阿坝”大型主题采访活动启动",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683047.shtml",
+      "title": "（乡村行·看振兴）山西繁峙：特色农业赋能乡村  “链”起千户增收路",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683106.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +176,8 @@
       ]
     },
     {
-      "title": "第43届百队杯竞技组全面完赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683028.shtml",
+      "title": "（活力中国调研行）“奔县”去山东：小城正成文旅新宠",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683104.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +186,8 @@
       ]
     },
     {
-      "title": "全国累计收购小麦超9000万吨",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683051.shtml",
+      "title": "中国夏粮旺季收购进入高峰",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683114.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +196,8 @@
       ]
     },
     {
-      "title": "当机器人开始跑步：我们为何需要一双“看得见”未来的眼睛？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683038.shtml",
+      "title": "内塔尼亚胡警告哈马斯停止从加沙向以色列“放风筝”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683112.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +206,8 @@
       ]
     },
     {
-      "title": "“同根·同声·同心”海峡两岸青少年诵读文化经典交流活动在沈举办",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683037.shtml",
+      "title": "台风“紫檀”致广西防汛形势严峻 水利部门落实防御举措",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683111.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +216,8 @@
       ]
     },
     {
-      "title": "迎来首批学生！西藏定日地震灾区重建学校全部建成投用",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-24/10683042.shtml",
+      "title": "受台风影响 海口“三港”或将于8月25日凌晨停运",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683109.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +226,18 @@
       ]
     },
     {
-      "title": "香港故事｜香港青年升旗手逐梦记",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683041.shtml",
+      "title": "广西继续发布洪水红色预警 郁江将出现2026年第2号洪水",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683095.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西南宁：洪水来袭 邕江大堤关闸防洪",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-24/10683101.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
