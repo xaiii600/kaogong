@@ -1,33 +1,33 @@
 {
   "date": "2026-08-24",
-  "time": "11:03",
-  "generatedAt": "2026-08-24T11:03:50.989Z",
+  "time": "14:06",
+  "generatedAt": "2026-08-24T14:06:11.488Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "宁夏泾源：科技赋能中蜂产业 做大乡村“甜蜜经济”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683293.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第五届数贸会国际采购需求攀升 AI赛道成主力",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683296.shtml",
+      "title": "美国一名海军陆战队员在日本身亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683475.shtml",
       "source": "中国新闻网",
       "cat": "international",
-      "score": 2,
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "戏曲与音乐剧创新融合 越韵音乐剧《千面》首演轮收官",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-24/10683335.shtml",
+      "title": "重庆“产业援藏”再拓新路 电竞嘉年华活动落地西藏昌都",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683464.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "邬贺铨：AI兴起 互联网基础资源技术创新正当时",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683457.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,9 +36,9 @@
       ]
     },
     {
-      "title": "习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683341.shtml",
-      "source": "中国新闻网",
+      "title": "教育部：一年级不布置书面家庭作业",
+      "url": "https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E9%83%A8%EF%BC%9A%E4%B8%80%E5%B9%B4%E7%BA%A7%E4%B8%8D%E5%B8%83%E7%BD%AE%E4%B9%A6%E9%9D%A2%E5%AE%B6%E5%BA%AD%E4%BD%9C%E4%B8%9A",
+      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -46,28 +46,18 @@
       ]
     },
     {
-      "title": "（活力中国调研行）一缕茶香里的消费新活力",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683295.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
+      "title": "小米扩张自研芯片版图",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%89%A9%E5%BC%A0%E8%87%AA%E7%A0%94%E8%8A%AF%E7%89%87%E7%89%88%E5%9B%BE",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "香港三支球队出征2026新民晚报国际中学生足球赛",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683297.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "罗建彬被查",
-      "url": "https://www.baidu.com/s?wd=%E7%BD%97%E5%BB%BA%E5%BD%AC%E8%A2%AB%E6%9F%A5",
+      "title": "央视曝光后 沈阳等多地接连通报",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -86,78 +76,8 @@
       ]
     },
     {
-      "title": "顾学明等4人被撤销全国政协委员资格",
-      "url": "https://www.baidu.com/s?wd=%E9%A1%BE%E5%AD%A6%E6%98%8E%E7%AD%894%E4%BA%BA%E8%A2%AB%E6%92%A4%E9%94%80%E5%85%A8%E5%9B%BD%E6%94%BF%E5%8D%8F%E5%A7%94%E5%91%98%E8%B5%84%E6%A0%BC",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "小米玄戒O3芯片正式发布",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E7%8E%84%E6%88%92O3%E8%8A%AF%E7%89%87%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄军向士兵投放便携式激光步枪",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%86%9B%E5%90%91%E5%A3%AB%E5%85%B5%E6%8A%95%E6%94%BE%E4%BE%BF%E6%90%BA%E5%BC%8F%E6%BF%80%E5%85%89%E6%AD%A5%E6%9E%AA",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国男子挑衅持刀者被刺伤身亡",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%94%B7%E5%AD%90%E6%8C%91%E8%A1%85%E6%8C%81%E5%88%80%E8%80%85%E8%A2%AB%E5%88%BA%E4%BC%A4%E8%BA%AB%E4%BA%A1",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国大模型价格被中国打下来了",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%BB%B7%E6%A0%BC%E8%A2%AB%E4%B8%AD%E5%9B%BD%E6%89%93%E4%B8%8B%E6%9D%A5%E4%BA%86",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多家商业银行公布消费贷贴息方案",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E5%95%86%E4%B8%9A%E9%93%B6%E8%A1%8C%E5%85%AC%E5%B8%83%E6%B6%88%E8%B4%B9%E8%B4%B7%E8%B4%B4%E6%81%AF%E6%96%B9%E6%A1%88",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "龙餐馆的中东小镇原来在这里",
-      "url": "https://www.baidu.com/s?wd=%E9%BE%99%E9%A4%90%E9%A6%86%E7%9A%84%E4%B8%AD%E4%B8%9C%E5%B0%8F%E9%95%87%E5%8E%9F%E6%9D%A5%E5%9C%A8%E8%BF%99%E9%87%8C",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "总产量保持超22亿公斤 “晋南粮仓”临汾夯实粮食安全根基",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683338.shtml",
+      "title": "塔吉克斯坦计划3年内新建1100处电动汽车充电设施",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683461.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +86,8 @@
       ]
     },
     {
-      "title": "台风“紫檀”致广东多地狂风暴雨",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683332.shtml",
+      "title": "纪念开明书店百年，我们在纪念什么",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683479.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +96,8 @@
       ]
     },
     {
-      "title": "拍摄近千部微短剧 老牌“电影城”长春发力影视新赛道",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-24/10683337.shtml",
+      "title": "东西问丨短评：千万殷玉珍赛考斯“俯身种树”，中美交流蔚然成林",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683471.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +106,8 @@
       ]
     },
     {
-      "title": "广西宁明开展江面漂浮物清障作业",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-24/10683344.shtml",
+      "title": "（长江十年行）长江入海处，中国制造从这里驶向深蓝",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683476.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +116,8 @@
       ]
     },
     {
-      "title": "水利部针对福建省启动洪水防御Ⅳ级应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683346.shtml",
+      "title": "特朗普：明年起将加拿大汽车、零部件和钢铁关税提高至50%",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683477.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +126,8 @@
       ]
     },
     {
-      "title": "习近平致电祝贺阿拉姆吉尔就任孟加拉国总统",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683345.shtml",
+      "title": "香港律政司司长率跨专业代表团访问新疆",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683473.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +136,8 @@
       ]
     },
     {
-      "title": "（长征胜利90周年）宁夏西吉：一根“红军粉”，九十载富民路",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1201975.shtml",
+      "title": "融汇传统与现代 朱宗庆打击乐团《六部曲》将在台湾巡演",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683439.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +146,8 @@
       ]
     },
     {
-      "title": "水利部和中国气象局联合发布红色山洪灾害气象预警",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683340.shtml",
+      "title": "蒙古族姑娘塔娜：一句“去试试”，闯进“世界义乌”",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683444.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +156,88 @@
       ]
     },
     {
-      "title": "河北阜城：4万余亩酿酒红高粱迎丰收",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-24/10683334.shtml",
+      "title": "台青南京行医十余载 盼弘扬中华传统医学精髓",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683450.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“没有文字的史诗”伊玛堪唱响北京",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683468.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南腾冲回应小区违建：已成立专项整改整治工作小组",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683470.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“拉萨文化惠客厅”举行《与太阳共舞》主创分享会 聚焦珞巴族舞剧创作历程",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-24/10683467.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "闽宁协作三十载：西吉小菌棒成为群众增收“金棒棒”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683466.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年服贸会环境与能源服务专题首次引入都市型现代农业内容",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683460.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宁东能源化工基地纳入国家氢能综合应用试点",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683465.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（长征胜利90周年）宁夏西吉：龙王坝村的蝶变",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1201990.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国产机器人出海加速跑 哈尔滨“智造”驶入快车道",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683459.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
