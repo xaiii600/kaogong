@@ -1,10 +1,60 @@
 {
   "date": "2026-08-24",
-  "time": "14:06",
-  "generatedAt": "2026-08-24T14:06:11.488Z",
+  "time": "16:06",
+  "generatedAt": "2026-08-24T16:06:23.843Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "“史上最具毁灭性经济战”一触即发，不信邪的伊朗要在“在美国眼皮底下”继续做生意",
+      "url": "https://www.chinanews.com.cn/gsztc/2026/08-24/10683485.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "欧盟启动民防机制驰援塞尔维亚应对山火",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683493.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港特区立法会主席鼓励港人港企更好融入国家发展大局",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683488.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国家人形机器人产业标准体系建设指南将公开征求意见",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683483.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "受美伊战事影响，美国取消参加美韩“双龙”演习",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683482.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "美国一名海军陆战队员在日本身亡",
       "url": "https://www.chinanews.com.cn/gj/2026/08-24/10683475.shtml",
@@ -26,10 +76,10 @@
       ]
     },
     {
-      "title": "邬贺铨：AI兴起 互联网基础资源技术创新正当时",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683457.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
+      "title": "央视曝光后 沈阳等多地接连通报",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -46,31 +96,61 @@
       ]
     },
     {
-      "title": "小米扩张自研芯片版图",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%89%A9%E5%BC%A0%E8%87%AA%E7%A0%94%E8%8A%AF%E7%89%87%E7%89%88%E5%9B%BE",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "央视曝光后 沈阳等多地接连通报",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
+      "title": "应急管理部针对福建启动国家地质灾害四级应急响应",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683492.shtml",
+      "source": "中国新闻网",
       "cat": "hot",
-      "score": 1,
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "全国政协副主席陈武逝世",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E6%94%BF%E5%8D%8F%E5%89%AF%E4%B8%BB%E5%B8%AD%E9%99%88%E6%AD%A6%E9%80%9D%E4%B8%96",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
+      "title": "宇宙小红点不只是一个点 最新天文研究发现或存在于致密宿主星系",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-24/10683491.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（活力中国调研行）“淄博赶烤”吸引前NBA球星 网络热度下降但“外来客”增多",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683487.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "李强会见约旦国王阿卜杜拉二世",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1202010.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西龙州：左江龙州段抗洪抢险全力推进",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1202011.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "杜锋出任广东男篮总教练",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-24/10683481.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -146,98 +226,18 @@
       ]
     },
     {
+      "title": "西藏洛隆：风光旖旎 山水田园绘就高原诗意画卷",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1201997.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "蒙古族姑娘塔娜：一句“去试试”，闯进“世界义乌”",
       "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683444.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台青南京行医十余载 盼弘扬中华传统医学精髓",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683450.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“没有文字的史诗”伊玛堪唱响北京",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683468.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云南腾冲回应小区违建：已成立专项整改整治工作小组",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-24/10683470.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“拉萨文化惠客厅”举行《与太阳共舞》主创分享会 聚焦珞巴族舞剧创作历程",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-24/10683467.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "闽宁协作三十载：西吉小菌棒成为群众增收“金棒棒”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683466.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年服贸会环境与能源服务专题首次引入都市型现代农业内容",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683460.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁东能源化工基地纳入国家氢能综合应用试点",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683465.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（长征胜利90周年）宁夏西吉：龙王坝村的蝶变",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-24/1201990.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国产机器人出海加速跑 哈尔滨“智造”驶入快车道",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-24/10683459.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
