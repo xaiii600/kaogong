@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
-  "time": "19:49",
-  "generatedAt": "2026-08-24T19:49:17.939Z",
+  "time": "21:48",
+  "generatedAt": "2026-08-24T21:48:47.318Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -100,16 +100,6 @@
       "url": "https://www.baidu.com/s?wd=%E9%81%AD%E4%BF%A1%E4%BB%BB%E5%8D%B1%E6%9C%BA+%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%E4%B8%BB%E5%B8%AD%E5%9B%9E%E5%BA%94",
       "source": "百度热搜",
       "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI偶像 不能照搬真人明星的逻辑",
-      "url": "https://www.baidu.com/s?wd=AI%E5%81%B6%E5%83%8F+%E4%B8%8D%E8%83%BD%E7%85%A7%E6%90%AC%E7%9C%9F%E4%BA%BA%E6%98%8E%E6%98%9F%E7%9A%84%E9%80%BB%E8%BE%91",
-      "source": "百度热搜",
-      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -238,6 +228,16 @@
     {
       "title": "香港律政司司长率跨专业代表团访问新疆",
       "url": "https://www.chinanews.com.cn/dwq/2026/08-24/10683473.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "融汇传统与现代 朱宗庆打击乐团《六部曲》将在台湾巡演",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-24/10683439.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
