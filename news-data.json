@@ -1,25 +1,15 @@
 {
-  "date": "2026-08-24",
-  "time": "23:58",
-  "generatedAt": "2026-08-24T23:58:24.888Z",
+  "date": "2026-08-25",
+  "time": "03:28",
+  "generatedAt": "2026-08-25T03:28:21.789Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "扩大银发产品有效供给 “养老刚需”也是产业蓝海",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683527.shtml",
+      "title": "广西实施稳岗扩容提质行动 多措并举促就业保民生",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-25/10683650.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "加拿大总理：若美国拿出“正确态度” 将重返贸易谈判",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683503.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
       "score": 2,
       "exams": [
         "申论素材"
@@ -36,18 +26,48 @@
       ]
     },
     {
-      "title": "歌舞剧《幸福的金火车》亮相北京 讲述新疆乡村振兴的故事",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202032.shtml",
+      "title": "道路交通安全法修订草案提请审议",
+      "url": "https://www.baidu.com/s?wd=%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E6%B3%95%E4%BF%AE%E8%AE%A2%E8%8D%89%E6%A1%88%E6%8F%90%E8%AF%B7%E5%AE%A1%E8%AE%AE",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "两名联合国维和人员遇袭身亡 古特雷斯：强烈谴责",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683710.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "智慧生活加速到来！机器人硬核科技，将带来哪些惊喜？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683513.shtml",
+      "title": "水法修订草案二审 明确国家建立完善与用水户承受能力相适应的水价形成机制",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683693.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "江苏宿迁通报白菜、金针菇等农产品抽检情况",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683680.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "创新转化哪家强？牛津专家：中国经验值得看",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683683.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -56,28 +76,18 @@
       ]
     },
     {
-      "title": "四川阿坝：松潘县探索“民宿+旅游”赋能乡村振兴",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202020.shtml",
+      "title": "中央气象台继续发布强对流天气蓝色预警",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683670.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "美宣布对伊实施“经济孤立”新措施 伊方：只会让事情更糟",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683508.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美方宣布对伊朗新一轮制裁措施 伊朗回应：已做好准备",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683506.shtml",
+      "title": "美国内华达州“霍克”山火造成严重损失",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202054.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -86,8 +96,18 @@
       ]
     },
     {
-      "title": "央视曝光后 沈阳等多地接连通报",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B2%88%E9%98%B3%E7%AD%89%E5%A4%9A%E5%9C%B0%E6%8E%A5%E8%BF%9E%E9%80%9A%E6%8A%A5",
+      "title": "国家公共数据资源登记平台已登记量超30万项",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683667.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "女子穿拖鞋开套牌车砸瓜摊 警方通报",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E7%A9%BF%E6%8B%96%E9%9E%8B%E5%BC%80%E5%A5%97%E7%89%8C%E8%BD%A6%E7%A0%B8%E7%93%9C%E6%91%8A+%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -96,8 +116,8 @@
       ]
     },
     {
-      "title": "美国正式撤销叙利亚“支恐国家”认定",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%AD%A3%E5%BC%8F%E6%92%A4%E9%94%80%E5%8F%99%E5%88%A9%E4%BA%9A%E2%80%9C%E6%94%AF%E6%81%90%E5%9B%BD%E5%AE%B6%E2%80%9D%E8%AE%A4%E5%AE%9A",
+      "title": "这场中国运动会震惊日本和美国网络",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E5%9C%BA%E4%B8%AD%E5%9B%BD%E8%BF%90%E5%8A%A8%E4%BC%9A%E9%9C%87%E6%83%8A%E6%97%A5%E6%9C%AC%E5%92%8C%E7%BE%8E%E5%9B%BD%E7%BD%91%E7%BB%9C",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -106,8 +126,18 @@
       ]
     },
     {
-      "title": "（长征胜利90周年）探访日干乔大沼泽",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202035.shtml",
+      "title": "AI短剧《非妖哉》导演：1集成本1万",
+      "url": "https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E3%80%8A%E9%9D%9E%E5%A6%96%E5%93%89%E3%80%8B%E5%AF%BC%E6%BC%94%EF%BC%9A1%E9%9B%86%E6%88%90%E6%9C%AC1%E4%B8%87",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "福建省运会三人篮球赛永安开打 140名少年争锋",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-25/10683700.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +146,8 @@
       ]
     },
     {
-      "title": "上半年，服务出口同比增长17.6%  “中国服务”加速走向海外",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683526.shtml",
+      "title": "律师法修改拟明确鼓励支持律师依法提供法律援助",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683699.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +156,8 @@
       ]
     },
     {
-      "title": "建议在这个年龄前，就开始控糖！很多人都晚了",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-25/10683524.shtml",
+      "title": "吴海涛任湖北省委统战部部长",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683697.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +166,8 @@
       ]
     },
     {
-      "title": "（长征胜利90周年）四川阿坝草原展现生态画卷",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202028.shtml",
+      "title": "外媒：以色列一犯罪团伙头目被近距离枪杀",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683698.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "鼠疫风险要了解，野生旱獭摸不得",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-25/10683522.shtml",
+      "title": "“新教学楼非常漂亮！” 西藏定日县三所重建小学建成投用",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683696.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "订单排到2027年！中国“降温节水”神器在欧洲热卖",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683521.shtml",
+      "title": "辽宁省阜新市举办“石榴花红·奔阜向新”主题文艺汇演",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-25/10683691.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "航司购票新增“超售让座，立减50” 真能解决超售难题吗？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683520.shtml",
+      "title": "集群化、智能化、融合化 山西临汾瞄准五百亿级装备制造新高地",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683660.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "四川阿坝：东西部协作赋能高原现代农业",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-25/1202025.shtml",
+      "title": "从岛内热捧大陆电影到两岸影业深度交流：“光影同舟”前景无限！",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683690.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "推动高质量发展行稳致远",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683518.shtml",
+      "title": "健康保障 材质为先：为什么小家电的材质值得你认真挑一次？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683657.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "四个台风接续而来，如何应对？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683516.shtml",
+      "title": "台风“沙德尔”强度有变 已进入48小时警戒线",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683684.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,38 +236,8 @@
       ]
     },
     {
-      "title": "中国餐饮品牌“出海”新解",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683515.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "遛狗不牵绳致犬只被撞 责任如何承担？法院这样判",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683514.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "今年厄尔尼诺事件或冲击历史纪录！对我国有何影响？",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10683511.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "最新民调：受美伊战事影响 特朗普支持率维持历史低位",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683510.shtml",
+      "title": "日本市民团体举办“日军毒气展”　揭露军国主义暴行",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10683678.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
