@@ -1,10 +1,20 @@
 {
   "date": "2026-08-25",
-  "time": "17:50",
-  "generatedAt": "2026-08-25T17:50:31.390Z",
+  "time": "19:50",
+  "generatedAt": "2026-08-25T19:50:21.501Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "新疆阿勒泰加快打造中国高纯石英产业新高地",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684212.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "加拿大宣布对美国商品征收报复性关税",
       "url": "https://www.chinanews.com.cn/gj/2026/08-25/10684208.shtml",
@@ -116,18 +126,18 @@
       ]
     },
     {
-      "title": "航天垂直大模型“华山”健康管理模块完成星上在轨实测验证",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684178.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
+      "title": "公司批量劝退应届生 江苏常州通报",
+      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F+%E6%B1%9F%E8%8B%8F%E5%B8%B8%E5%B7%9E%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "公司批量劝退应届生 江苏常州通报",
-      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F+%E6%B1%9F%E8%8B%8F%E5%B8%B8%E5%B7%9E%E9%80%9A%E6%8A%A5",
+      "title": "杭州警方通报网传“电梯间遭猥亵”",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E2%80%9C%E7%94%B5%E6%A2%AF%E9%97%B4%E9%81%AD%E7%8C%A5%E4%BA%B5%E2%80%9D",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -146,11 +156,21 @@
       ]
     },
     {
-      "title": "杭州警方通报网传“电梯间遭猥亵”",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E2%80%9C%E7%94%B5%E6%A2%AF%E9%97%B4%E9%81%AD%E7%8C%A5%E4%BA%B5%E2%80%9D",
-      "source": "百度热搜",
+      "title": "湄公河水位上涨致柬埔寨四省逾1.8万户家庭受灾",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684213.shtml",
+      "source": "中国新闻网",
       "cat": "hot",
-      "score": 1,
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "王楚钦、孙颖莎领衔WTT中国大满贯赛参赛名单",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-26/10684211.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -218,26 +238,6 @@
     {
       "title": "广西9条河流超警 左江崇左水文站超警7.59米",
       "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684195.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "南宁海事局使用重载无人机成功救助3艘遇险船舶",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684193.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "鸠山由纪夫：对历史真诚反省并表达共情，才能通向真正和解",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684187.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
