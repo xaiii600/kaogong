@@ -1,16 +1,76 @@
 {
   "date": "2026-08-25",
-  "time": "21:48",
-  "generatedAt": "2026-08-25T21:48:20.929Z",
+  "time": "23:36",
+  "generatedAt": "2026-08-25T23:36:35.264Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "古巴谴责美国延长对古实施经济封锁",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684219.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "美国8月消费者信心指数降至7个月来最低值",
       "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684215.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普：霍尔木兹海峡国际水域内所有水雷已被清除或引爆",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684229.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外媒：罕见！美中情局局长秘访莫斯科 与俄方举行未公开会谈",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684226.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国蒙大拿州家庭枪击惨案致9死 枪手杀害8名亲属后自杀",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684225.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "加拿大宣布对价值约200亿美元美国商品征收报复性关税",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684222.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "消息人士：“美中东情报设施遭伊朗重创 修复或需数十亿美元”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684221.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -76,66 +136,6 @@
       ]
     },
     {
-      "title": "沪港数字合作成果丰硕 将深化数据标准对接",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684192.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第十一届APEC粮食安全部长级会议在浙江杭州举行",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684188.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖北形成“海陆空多向联动”的国际物流格局",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684189.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "江苏常州通报“星宇股份被曝批量劝退应届生”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684190.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多国科创企业共聚香港  聚焦AI向善推动全球合作",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-25/10684186.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "向失职失责“亮剑” 为美丽中国“护航”——中央组织部负责人就修订颁布《党政领导干部生态环境损害责任追究办法》答记者问",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684191.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "公司批量劝退应届生 江苏常州通报",
       "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F+%E6%B1%9F%E8%8B%8F%E5%B8%B8%E5%B7%9E%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
@@ -156,11 +156,81 @@
       ]
     },
     {
-      "title": "美股芯片股多数上扬",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E8%8A%AF%E7%89%87%E8%82%A1%E5%A4%9A%E6%95%B0%E4%B8%8A%E6%89%AC",
+      "title": "美国一男子杀害8名亲属后自杀",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E7%94%B7%E5%AD%90%E6%9D%80%E5%AE%B38%E5%90%8D%E4%BA%B2%E5%B1%9E%E5%90%8E%E8%87%AA%E6%9D%80",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "越来越多的快递，为何能越送越快？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684228.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "付费飞机餐走红，免费飞机餐会消失吗？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684227.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美移民执法局7月逮捕近5万人 创特朗普第二任期单月新高",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684224.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月26日早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/08-26/10684223.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "爱吃糖的小孩长大了，甜食配方怎么改？",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-26/10684220.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中方呼吁推动停火止战以保障粮食生产安全",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684218.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“紫檀”在广东徐闻再次登陆 广东广西等地今明天将有强风雨",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684217.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -168,76 +238,6 @@
     {
       "title": "广西龙州多个村落成“孤岛” 救援人员水陆多轮接力紧急送物资",
       "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684214.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湄公河水位上涨致柬埔寨四省逾1.8万户家庭受灾",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684213.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "王楚钦、孙颖莎领衔WTT中国大满贯赛参赛名单",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-26/10684211.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中印边界问题特别代表在北京举行会晤",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684210.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美军机降落莫斯科？克宫回应",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10684209.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一名在韩失踪中国公民遇害 嫌疑人已被捕",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684207.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年度电影总票房突破275亿！《欢迎来龙餐馆》公布全球上映计划",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-25/10684206.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "马来西亚热浪来袭 多地发布高温警报",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10684198.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
