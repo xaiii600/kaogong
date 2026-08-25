@@ -1,33 +1,13 @@
 {
   "date": "2026-08-25",
-  "time": "11:00",
-  "generatedAt": "2026-08-25T11:00:16.854Z",
+  "time": "14:09",
+  "generatedAt": "2026-08-25T14:09:37.103Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "耐心资本浇灌、保险精准护航 中国人寿奋力书写“科技金融”新篇",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684009.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "上半年中国数字产业收入超20万亿元 同比增13.6%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684026.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国发布第五批50个公共数据“跑起来”示范场景",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684003.shtml",
+      "title": "沪港数字合作成果丰硕 将深化数据标准对接",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684192.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,69 +16,19 @@
       ]
     },
     {
-      "title": "山西运城聚力打造国家级铝镁精深加工产业集群",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683985.shtml",
+      "title": "第十一届APEC粮食安全部长级会议在浙江杭州举行",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684188.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "开局起步“十五五”：海南渔业第一大县向现代海洋经济发展新高地迈进",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683992.shtml",
+      "title": "湖北形成“海陆空多向联动”的国际物流格局",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684189.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "浙江检察机关上线AI智能体 “智慧搭档”融入办案全链条",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683991.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（乡村行·看振兴）浙江庆元：“一只瓜蒌”带来乡村产业新蝶变",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10683990.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多款APP被通报",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%AC%BEAPP%E8%A2%AB%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "谷歌下单3200辆中国新能源",
-      "url": "https://www.baidu.com/s?wd=%E8%B0%B7%E6%AD%8C%E4%B8%8B%E5%8D%953200%E8%BE%86%E4%B8%AD%E5%9B%BD%E6%96%B0%E8%83%BD%E6%BA%90",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中方回应美国全面升级对伊制裁",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7%E5%AF%B9%E4%BC%8A%E5%88%B6%E8%A3%81",
-      "source": "百度热搜",
       "cat": "international",
       "score": 1,
       "exams": [
@@ -106,18 +36,98 @@
       ]
     },
     {
-      "title": "日本前外交官亲赴新疆打脸日媒",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%89%8D%E5%A4%96%E4%BA%A4%E5%AE%98%E4%BA%B2%E8%B5%B4%E6%96%B0%E7%96%86%E6%89%93%E8%84%B8%E6%97%A5%E5%AA%92",
-      "source": "百度热搜",
-      "cat": "international",
+      "title": "江苏常州通报“星宇股份被曝批量劝退应届生”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684190.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "国家防总、应急管理部针对山西启动防汛四级应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684028.shtml",
+      "title": "多国科创企业共聚香港  聚焦AI向善推动全球合作",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-25/10684186.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "向失职失责“亮剑” 为美丽中国“护航”——中央组织部负责人就修订颁布《党政领导干部生态环境损害责任追究办法》答记者问",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684191.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江制造业深度拥抱人工智能 加快推进体系化落地",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684180.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "航天垂直大模型“华山”健康管理模块完成星上在轨实测验证",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684178.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "甘肃加快“碳足迹”管理体系建设",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684172.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西吉沙沟乡：水培蔬菜搭上冷链快车 直供江浙沪市场",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684169.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "杭州警方通报网传“电梯间遭猥亵”",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E7%BD%91%E4%BC%A0%E2%80%9C%E7%94%B5%E6%A2%AF%E9%97%B4%E9%81%AD%E7%8C%A5%E4%BA%B5%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美股芯片股多数上扬",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E8%8A%AF%E7%89%87%E8%82%A1%E5%A4%9A%E6%95%B0%E4%B8%8A%E6%89%AC",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "鸠山由纪夫：对历史真诚反省并表达共情，才能通向真正和解",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684187.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +136,8 @@
       ]
     },
     {
-      "title": "台风“沙德尔”逼近 浙江沿海加紧布防",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684027.shtml",
+      "title": "“山海万象·中马沉浸视听交流展”打开双方数字文化合作新空间",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-25/10684184.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +146,8 @@
       ]
     },
     {
-      "title": "从白衣天使到履职先锋 曹英娟的“双重身份”与“一份初心”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683998.shtml",
+      "title": "上海冀“十五五”期间新增认定跨国公司地区总部数量逾300家",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684185.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +156,8 @@
       ]
     },
     {
-      "title": "90件泰山主题作品亮相德州 画作与摄影同台“对话”",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-25/10683980.shtml",
+      "title": "湛江海事部门严阵以待防御台风“紫檀”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684183.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +166,8 @@
       ]
     },
     {
-      "title": "中国建设银行河南省分行原行长石永拴被开除党籍",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684013.shtml",
+      "title": "中越边境广西宁明爱店口岸恢复通关",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684182.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +176,8 @@
       ]
     },
     {
-      "title": "中共十八大以来中国法院受理外逃人员回国受审案件5000余件",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684021.shtml",
+      "title": "“香港动能”主题巡展天津启幕 冀拓津港合作新空间",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684181.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "广东省湛江市副市长、市公安局局长国涛接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684012.shtml",
+      "title": "张荣恭冀两岸青年在振兴中华过程中相向而行",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684173.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "王竹：统筹政法资源与数字身份治理，推动形成网络直播未成年人保护共识",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684016.shtml",
+      "title": "第六届亚洲两栖爬行动物学大会在成都举行",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/08-25/10684179.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "台风“紫檀”“沙德尔”将相继登陆我国 强风雨接连影响华南华东",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684017.shtml",
+      "title": "（长征胜利90周年）探访四川阿坝神座村朱德旧居：藏寨回响长征记忆",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684176.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "一城宋韵向世界 河南开封“十五五”深耕打造文旅融合新名片",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684000.shtml",
+      "title": "台风“紫檀”或二次登陆广东雷州半岛",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684174.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "浙江温州提升防台风应急响应为Ⅲ级",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10683999.shtml",
+      "title": "天工机器人百米竞速跑出8.86秒 再创纪录",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684177.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "台风橙色预警发布！“紫檀”“沙德尔”最新登陆时间→",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684010.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西安机场新开杭州快递专线",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684001.shtml",
+      "title": "陈文清会见越南最高人民法院院长阮文广",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684175.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
