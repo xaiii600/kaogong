@@ -1,10 +1,30 @@
 {
   "date": "2026-08-25",
-  "time": "19:50",
-  "generatedAt": "2026-08-25T19:50:21.501Z",
+  "time": "21:48",
+  "generatedAt": "2026-08-25T21:48:20.929Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "美国8月消费者信心指数降至7个月来最低值",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684215.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄远东在建天然气化工项目火灾致死人数升至3人",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684216.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "新疆阿勒泰加快打造中国高纯石英产业新高地",
       "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684212.shtml",
@@ -116,16 +136,6 @@
       ]
     },
     {
-      "title": "浙江制造业深度拥抱人工智能 加快推进体系化落地",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-25/10684180.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "公司批量劝退应届生 江苏常州通报",
       "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F+%E6%B1%9F%E8%8B%8F%E5%B8%B8%E5%B7%9E%E9%80%9A%E6%8A%A5",
       "source": "百度热搜",
@@ -151,6 +161,16 @@
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西龙州多个村落成“孤岛” 救援人员水陆多轮接力紧急送物资",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684214.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -218,26 +238,6 @@
     {
       "title": "马来西亚热浪来袭 多地发布高温警报",
       "url": "https://www.chinanews.com.cn/gj/2026/08-25/10684198.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "马龙邀请台湾青年“登陆”：“大陆适合每一位热爱运动的年轻人”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-25/10684196.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "广西9条河流超警 左江崇左水文站超警7.59米",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-25/10684195.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
