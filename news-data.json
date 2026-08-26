@@ -1,13 +1,33 @@
 {
   "date": "2026-08-26",
-  "time": "11:04",
-  "generatedAt": "2026-08-26T11:04:13.169Z",
+  "time": "14:08",
+  "generatedAt": "2026-08-26T14:08:25.468Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "国家发展改革委紧急安排1亿元中央预算内投资支持西藏日喀则市吉隆县泥石流灾害灾后应急恢复",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684712.shtml",
+      "title": "筑牢技术底座 “人工智能+”加出新速度、新高度、新成效催生经济新增长点",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684869.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江成立省级数据集团 人工智能产业布局再落关键一子",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684861.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "黑龙江省民营经济统战工作协调机制2026年第一次全体会议召开",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-26/10684855.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 2,
@@ -16,18 +36,8 @@
       ]
     },
     {
-      "title": "中国国际水果展开幕 多国嘉宾看好中国市场提质机遇",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684669.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国政协十四届常委会第十八次会议举行全体会议 围绕“加大保障和改善民生力度，扎实推进全体人民共同富裕”进行大会发言 王沪宁出席",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684674.shtml",
+      "title": "辽宁省发布2026年惠民惠农财政补贴项目清单 让政策红利精准直达民众",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684842.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 2,
@@ -36,28 +46,18 @@
       ]
     },
     {
-      "title": "全国政协十四届常委会第十八次会议举行全体会议 王沪宁出席",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-26/1202205.shtml",
+      "title": "中新网评：被商家公开隐私信息，消费者不能花了钱还被侮辱",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684867.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "水利部迅即部署西藏吉隆泥石流灾害应急处置工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684703.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "安踏集团半年营收创新高 主品牌高质增长",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684695.shtml",
+      "title": "上海民盟举办“与盟同行·会客厅”科技专场活动",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-26/10684853.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -66,8 +66,8 @@
       ]
     },
     {
-      "title": "普京与叙利亚过渡政府总统通话 讨论俄叙关系等议题",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684688.shtml",
+      "title": "上海浦东国际机场启用超110平方米婴幼儿友好空间 助力上海儿童友好城市建设",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684854.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -76,8 +76,8 @@
       ]
     },
     {
-      "title": "三部门调拨3万件中央救灾物资 支持西藏做好灾害救助工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684691.shtml",
+      "title": "国务院食安办挂牌督办“消杀公司违规使用敌敌畏为餐饮门店消杀”事件",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684852.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -86,18 +86,8 @@
       ]
     },
     {
-      "title": "上海浦东举办华侨华人创新创业研修营 近三成学员聚焦人工智能",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-26/10684684.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“更具内涵、更有活力”，从约旦国王时隔11年访华看中约关系",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684682.shtml",
+      "title": "2026广州黄埔国际网球公开赛总奖金17.7万美元 海内外多位名将参赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-26/10684846.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -106,40 +96,10 @@
       ]
     },
     {
-      "title": "俄工厂发生火灾事故导致多名中国公民伤亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684680.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026国际篮联三人篮球挑战赛石景山站收官",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-26/10684675.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我国规范医疗机构特殊医学用途配方食品使用",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-26/10684668.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "久久为功 不断巩固拓展学习教育成果",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%85%E4%B9%85%E4%B8%BA%E5%8A%9F+%E4%B8%8D%E6%96%AD%E5%B7%A9%E5%9B%BA%E6%8B%93%E5%B1%95%E5%AD%A6%E4%B9%A0%E6%95%99%E8%82%B2%E6%88%90%E6%9E%9C",
+      "title": "有工作单位 退休后却变成灵活就业",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%89%E5%B7%A5%E4%BD%9C%E5%8D%95%E4%BD%8D+%E9%80%80%E4%BC%91%E5%90%8E%E5%8D%B4%E5%8F%98%E6%88%90%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A",
       "source": "百度热搜",
-      "cat": "society",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -148,56 +108,6 @@
     {
       "title": "上海13岁女孩靠AI 3天赚了1.8万元",
       "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B713%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%9D%A0AI+3%E5%A4%A9%E8%B5%9A%E4%BA%861.8%E4%B8%87%E5%85%83",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技股价跌破600元",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%B7%E8%B7%8C%E7%A0%B4600%E5%85%83",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "银行职员3天“卖脸”7次收入2500元",
-      "url": "https://www.baidu.com/s?wd=%E9%93%B6%E8%A1%8C%E8%81%8C%E5%91%983%E5%A4%A9%E2%80%9C%E5%8D%96%E8%84%B8%E2%80%9D7%E6%AC%A1%E6%94%B6%E5%85%A52500%E5%85%83",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中方反问：美国士兵在那里做什么",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%8F%8D%E9%97%AE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E5%A3%AB%E5%85%B5%E5%9C%A8%E9%82%A3%E9%87%8C%E5%81%9A%E4%BB%80%E4%B9%88",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "四万亿元投资来了",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E4%B8%87%E4%BA%BF%E5%85%83%E6%8A%95%E8%B5%84%E6%9D%A5%E4%BA%86",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "植入戒酒芯片90天 他们戒酒成功了吗",
-      "url": "https://www.baidu.com/s?wd=%E6%A4%8D%E5%85%A5%E6%88%92%E9%85%92%E8%8A%AF%E7%89%8790%E5%A4%A9+%E4%BB%96%E4%BB%AC%E6%88%92%E9%85%92%E6%88%90%E5%8A%9F%E4%BA%86%E5%90%97",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -216,8 +126,18 @@
       ]
     },
     {
-      "title": "尼泊尔北部山洪已致16人死亡 数百名游客失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684704.shtml",
+      "title": "四万亿元投资来了",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E4%B8%87%E4%BA%BF%E5%85%83%E6%8A%95%E8%B5%84%E6%9D%A5%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "尼泊尔北部山洪遇难人数升至18人 数百名游客失联",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684876.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +146,8 @@
       ]
     },
     {
-      "title": "两部门紧急拨付1.2亿元 支持西藏吉隆泥石流应急抢险救灾",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684700.shtml",
+      "title": "“紫檀”为何三次登陆我国？地形、大气环流等因素共同影响",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684874.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +156,88 @@
       ]
     },
     {
-      "title": "台风、暴雨、强对流！中国气象局升级重大气象灾害为Ⅱ级应急响应状态",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684698.shtml",
+      "title": "广东159个镇街遭遇暴雨、大暴雨",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684870.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "吉隆口岸为何频遭泥石流？问题藏在喜马拉雅深谷",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684871.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "北京密云暖心健康服务直达百姓家门口",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-26/10684868.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "自然资源部对浙江启动地质灾害防御Ⅳ级响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684866.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "马来西亚烟霾持续 多地空气质量不健康",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684862.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏吉隆发生泥石流灾害 各方力量赶赴灾区救援",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684863.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（长征胜利90周年）“追寻长征美·同心建新功——四川新的社会阶层人士弘扬伟大长征精神主题活动”在四川冕宁举行",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-26/10684858.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广西龙胜欢度“跳香节”",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-26/10684843.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆：“黑灯实验室”赋能水环境精准监测",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-26/10684831.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
