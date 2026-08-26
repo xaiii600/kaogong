@@ -1,53 +1,33 @@
 {
   "date": "2026-08-26",
-  "time": "03:39",
-  "generatedAt": "2026-08-26T03:39:54.164Z",
+  "time": "06:01",
+  "generatedAt": "2026-08-26T06:01:18.974Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "【“十四五”西藏发展成就网络巡礼】生态“颜值”变经济“价值”，西藏林芝解锁乡村致富“绿色密码”",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-26/10684447.shtml",
+      "title": "中国养老成本仅为美国四成",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%85%BB%E8%80%81%E6%88%90%E6%9C%AC%E4%BB%85%E4%B8%BA%E7%BE%8E%E5%9B%BD%E5%9B%9B%E6%88%90",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“紫檀”影响减弱 琼州海峡西行船舶交通管制已解除",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684497.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "业内人士山西朔州共探陶瓷产业升级路径：技术引领与标准赋能并重",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684440.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "工信部：将创建国家新兴产业发展示范基地",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684397.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "APEC经济体记者参访粤港澳大湾区，感受APEC“中国年”",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-26/10684436.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "工信部：“十五五”时期我国将加快培育“人工智能+”等重大应用场景",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684384.shtml",
+      "title": "从“工具”到“搭档” AI应怎样助力科研",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684513.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -56,18 +36,8 @@
       ]
     },
     {
-      "title": "系统布局扩内需促消费",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684424.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "工信部：我国已有近200项人工智能关键标准成功研制",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684386.shtml",
+      "title": "海南产经新观察：商业航天加速起势",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684500.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -76,18 +46,58 @@
       ]
     },
     {
-      "title": "加大逆周期调节力度 推动经济持续向好",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684422.shtml",
+      "title": "AI赋能江海联运 广西智慧水运大模型投入示范应用",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684499.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "公司批量劝退应届生 江苏常州通报",
-      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E6%89%B9%E9%87%8F%E5%8A%9D%E9%80%80%E5%BA%94%E5%B1%8A%E7%94%9F+%E6%B1%9F%E8%8B%8F%E5%B8%B8%E5%B7%9E%E9%80%9A%E6%8A%A5",
+      "title": "牦牛闯入黄龙五彩池 景区通报",
+      "url": "https://www.baidu.com/s?wd=%E7%89%A6%E7%89%9B%E9%97%AF%E5%85%A5%E9%BB%84%E9%BE%99%E4%BA%94%E5%BD%A9%E6%B1%A0+%E6%99%AF%E5%8C%BA%E9%80%9A%E6%8A%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国歌手多莉·帕顿去世 全美降半旗",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%AD%8C%E6%89%8B%E5%A4%9A%E8%8E%89%C2%B7%E5%B8%95%E9%A1%BF%E5%8E%BB%E4%B8%96+%E5%85%A8%E7%BE%8E%E9%99%8D%E5%8D%8A%E6%97%97",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "德芙致歉声明遭质疑为AI撰写",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%B7%E8%8A%99%E8%87%B4%E6%AD%89%E5%A3%B0%E6%98%8E%E9%81%AD%E8%B4%A8%E7%96%91%E4%B8%BAAI%E6%92%B0%E5%86%99",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外语学科最容易被AI取代吗",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E8%AF%AD%E5%AD%A6%E7%A7%91%E6%9C%80%E5%AE%B9%E6%98%93%E8%A2%ABAI%E5%8F%96%E4%BB%A3%E5%90%97",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "安徽警方通报女子贴三伏贴遭医生猥亵",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%A5%B3%E5%AD%90%E8%B4%B4%E4%B8%89%E4%BC%8F%E8%B4%B4%E9%81%AD%E5%8C%BB%E7%94%9F%E7%8C%A5%E4%BA%B5",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -106,58 +116,8 @@
       ]
     },
     {
-      "title": "美国歌手多莉·帕顿去世 全美降半旗",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E6%AD%8C%E6%89%8B%E5%A4%9A%E8%8E%89%C2%B7%E5%B8%95%E9%A1%BF%E5%8E%BB%E4%B8%96+%E5%85%A8%E7%BE%8E%E9%99%8D%E5%8D%8A%E6%97%97",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "安徽警方通报女子贴三伏贴遭医生猥亵",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%A5%B3%E5%AD%90%E8%B4%B4%E4%B8%89%E4%BC%8F%E8%B4%B4%E9%81%AD%E5%8C%BB%E7%94%9F%E7%8C%A5%E4%BA%B5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部提醒中国公民暂勿前往斯威士兰",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E6%8F%90%E9%86%92%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%9A%82%E5%8B%BF%E5%89%8D%E5%BE%80%E6%96%AF%E5%A8%81%E5%A3%AB%E5%85%B0",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国一男子杀害8名亲属后自杀",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%80%E7%94%B7%E5%AD%90%E6%9D%80%E5%AE%B38%E5%90%8D%E4%BA%B2%E5%B1%9E%E5%90%8E%E8%87%AA%E6%9D%80",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多家美企旗下AI大模型近期密集降价",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E7%BE%8E%E4%BC%81%E6%97%97%E4%B8%8BAI%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%BF%91%E6%9C%9F%E5%AF%86%E9%9B%86%E9%99%8D%E4%BB%B7",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“紫檀”在广东省吴川市沿海再次登陆",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684453.shtml",
+      "title": "广西龙州：水退人进 街道逐步恢复",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-26/10684494.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +126,8 @@
       ]
     },
     {
-      "title": "民进党当局妄称大陆打造威权法律工具链 国台办驳斥",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684427.shtml",
+      "title": "受台风“沙德尔”影响 长三角铁路部分线路途经列车临时停运",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684487.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +136,8 @@
       ]
     },
     {
-      "title": "A股午评：超3500只个股飘红，三大指数集体收涨",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684450.shtml",
+      "title": "广西12条河流出现超警洪水 左江2026年第1号洪水过境崇左",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684501.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +146,8 @@
       ]
     },
     {
-      "title": "中埃建设者合作打造“非洲第一高楼”——“看，这座大楼就是我们建的”",
-      "url": "https://www.chinanews.com.cn/ydyl/2026/08-26/10684451.shtml",
+      "title": "打一口井添一炉火升一面旗 锡林郭勒盟用身边故事讲活团结佳话",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684490.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +156,8 @@
       ]
     },
     {
-      "title": "【“十四五”西藏发展成就网络巡礼】黑颈鹤翻倍的背后：林芝如何守护青藏高原的生态屏障？",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-26/10684446.shtml",
+      "title": "全国首单特需家庭多类型资产服务信托在北京东城落地",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684486.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +166,8 @@
       ]
     },
     {
-      "title": "甘肃省新联会聚“微光”传递陇原温情",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-26/10684442.shtml",
+      "title": "海南解除台风预警 海口“三港”8月26日14时恢复运输",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684505.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +176,8 @@
       ]
     },
     {
-      "title": "三十载河灯映资江 非遗民俗焕发时代光彩",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-26/10684404.shtml",
+      "title": "跨越千里的公益救治 新疆心脏病患者在上海重获“心”生",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684502.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +186,8 @@
       ]
     },
     {
-      "title": "绿色情缘，见证中美民间友好薪火相传（和音）",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684445.shtml",
+      "title": "兴业银行38周年品牌焕新 “以专业，共兴业”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684483.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +196,48 @@
       ]
     },
     {
-      "title": "也门政府军称打死至少14名胡塞武装人员",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-26/10684444.shtml",
+      "title": "2026年“童声里的中国”新疆兵团少儿歌咏活动举行集中展演",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-26/10684496.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "上海辰山植物园：活态本草实景与纸上本草画卷双向共振",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684493.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "雄激素性秃发治疗迈向局部靶向 临床治疗增加新选择",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-26/10684482.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台风“沙德尔”逼近 福建多地关停景区、停运列车",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-26/10684481.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "换季养生 注意科学辨识这些健康误区",
+      "url": "https://www.chinanews.com.cn/life/2026/08-26/10684508.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
