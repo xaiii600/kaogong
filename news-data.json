@@ -1,23 +1,43 @@
 {
   "date": "2026-08-28",
-  "time": "01:35",
-  "generatedAt": "2026-08-28T01:35:28.717Z",
+  "time": "21:55",
+  "generatedAt": "2026-08-28T21:55:16.809Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "加税的代价落到马桶上！美加贸易战让美国老百姓上厕所难了！",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10685569.shtml",
+      "title": "中国通过新修订的农业法 保障农民权益增加农民收入",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686238.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "policy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "刚果（金）埃博拉疫情迅速蔓延 联合国秘书长吁提供援助",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10685576.shtml",
+      "title": "粤开证券谈美债波动：政策干预难以根本上破除市场担忧",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-28/10686215.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沃什称美联储抗通胀尚未结束 市场上调加息预期",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-29/10686254.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄国防部称成功实施洲际导弹战斗训练发射",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-29/10686253.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -26,9 +46,69 @@
       ]
     },
     {
-      "title": "比尔·盖茨发布12页长文警告AI冲击：这次真的不同",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10685577.shtml",
+      "title": "传承抗战精神 台盟爱国主义教育基地在沈阳揭牌",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686242.shtml",
       "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "草间弥生作品亮相拍卖市场引藏家关注",
+      "url": "https://www.chinanews.com.cn/tp/2026/08-28/10686204.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国出台医疗保障法 维护公民医疗保障合法权益",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686210.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（经济观察）中国楼市大步迈向“现房销售时代”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-28/10686211.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "十四届全国人大常委会第二十四次会议在北京闭幕",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-28/1202491.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中央政治局部署西藏泥石流救援工作",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B2%BB%E5%B1%80%E9%83%A8%E7%BD%B2%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E6%8F%B4%E5%B7%A5%E4%BD%9C",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI演员方桃子将登《时尚COSMO》封面",
+      "url": "https://www.baidu.com/s?wd=AI%E6%BC%94%E5%91%98%E6%96%B9%E6%A1%83%E5%AD%90%E5%B0%86%E7%99%BB%E3%80%8A%E6%97%B6%E5%B0%9ACOSMO%E3%80%8B%E5%B0%81%E9%9D%A2",
+      "source": "百度热搜",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -36,8 +116,18 @@
       ]
     },
     {
-      "title": "美方将安大略湖更名为“美国湖”",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E6%96%B9%E5%B0%86%E5%AE%89%E5%A4%A7%E7%95%A5%E6%B9%96%E6%9B%B4%E5%90%8D%E4%B8%BA%E2%80%9C%E7%BE%8E%E5%9B%BD%E6%B9%96%E2%80%9D",
+      "title": "精神失常男子名下凭空出现贷款",
+      "url": "https://www.baidu.com/s?wd=%E7%B2%BE%E7%A5%9E%E5%A4%B1%E5%B8%B8%E7%94%B7%E5%AD%90%E5%90%8D%E4%B8%8B%E5%87%AD%E7%A9%BA%E5%87%BA%E7%8E%B0%E8%B4%B7%E6%AC%BE",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国博主称赞中国基础设施",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8D%9A%E4%B8%BB%E7%A7%B0%E8%B5%9E%E4%B8%AD%E5%9B%BD%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -46,58 +136,18 @@
       ]
     },
     {
-      "title": "省长叶建春任上被查 江西省委表态",
-      "url": "https://www.baidu.com/s?wd=%E7%9C%81%E9%95%BF%E5%8F%B6%E5%BB%BA%E6%98%A5%E4%BB%BB%E4%B8%8A%E8%A2%AB%E6%9F%A5+%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%A7%94%E8%A1%A8%E6%80%81",
+      "title": "月房贷支出与收入比控制在50%以下",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%88%E6%88%BF%E8%B4%B7%E6%94%AF%E5%87%BA%E4%B8%8E%E6%94%B6%E5%85%A5%E6%AF%94%E6%8E%A7%E5%88%B6%E5%9C%A850%25%E4%BB%A5%E4%B8%8B",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "美国又“国家紧急状态”了",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8F%88%E2%80%9C%E5%9B%BD%E5%AE%B6%E7%B4%A7%E6%80%A5%E7%8A%B6%E6%80%81%E2%80%9D%E4%BA%86",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国22岁大学生敲错房门被警方枪杀",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD22%E5%B2%81%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B2%E9%94%99%E6%88%BF%E9%97%A8%E8%A2%AB%E8%AD%A6%E6%96%B9%E6%9E%AA%E6%9D%80",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宇树科技机器人海外日租金3000美元",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%B5%B7%E5%A4%96%E6%97%A5%E7%A7%9F%E9%87%913000%E7%BE%8E%E5%85%83",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI智能体开发人才需求大涨244%",
-      "url": "https://www.baidu.com/s?wd=AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%BC%80%E5%8F%91%E4%BA%BA%E6%89%8D%E9%9C%80%E6%B1%82%E5%A4%A7%E6%B6%A8244%25",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "港浸大成立专科专病工作室 聚焦中医药人才培养与临床服务升级",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-28/10685596.shtml",
+      "title": "西藏吉隆泥石流灾害已致7人遇难554人失联",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686252.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +156,8 @@
       ]
     },
     {
-      "title": "西藏吉隆县泥石流受灾道路已抢通800米左右",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-28/10685595.shtml",
+      "title": "翻山越岭、向险而行 中国救援队挺进吉隆口岸救援核心位置开展不间断搜救作业",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686251.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +166,8 @@
       ]
     },
     {
-      "title": "探访汶川羌绣博物馆： 一针一线织就千年羌韵",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-28/10685604.shtml",
+      "title": "从天津到比什凯克，全球聚焦“上合时间”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686243.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +176,8 @@
       ]
     },
     {
-      "title": "广东接连遭受台风影响 多举措防汛防风",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-28/10685593.shtml",
+      "title": "东西问丨“掉线”半年，霍尔木兹早已不是从前的霍尔木兹",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10686220.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +186,8 @@
       ]
     },
     {
-      "title": "在多向奔赴中读懂海南开放新势能",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-28/10685606.shtml",
+      "title": "南部非洲华人华侨纪念孙中山诞辰160周年图片展在南非举行",
+      "url": "https://www.chinanews.com.cn/hr/2026/08-28/10686235.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +196,8 @@
       ]
     },
     {
-      "title": "台风“沙德尔”在浙江省温州市龙湾区沿海再次登陆",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-28/10685601.shtml",
+      "title": "鲁迅文学奖首次在上海颁奖",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-28/10686236.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +206,8 @@
       ]
     },
     {
-      "title": "推动云南打造成面向南亚东南亚的高原特色农业“出海口”",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-28/10685599.shtml",
+      "title": "中国科学家破解亚非水稻种间生殖隔离之谜",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686237.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +216,8 @@
       ]
     },
     {
-      "title": "学习快评｜当务之急是千方百计搜救失联人员",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10685600.shtml",
+      "title": "中银香港今年上半年盈利237.39亿港元 同比增长7.1%",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-28/10686241.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +226,8 @@
       ]
     },
     {
-      "title": "一见·三个角度读懂“紧密的中吉命运共同体”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10685597.shtml",
+      "title": "第二十一届中国长春电影节闭幕 《给阿嬷的情书》获评委会大奖",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-28/10686239.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,58 +236,8 @@
       ]
     },
     {
-      "title": "已覆盖192个国家和地区 人民币跨境支付系统持续扩容",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-28/10685578.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风登陆浙江",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-28/10685589.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "世卫组织宣布乌干达本轮埃博拉疫情结束",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10685575.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外媒：委内瑞拉考虑退出欧佩克 最终决定尚未作出",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10685588.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习言道｜习近平心中的“最大政绩”",
-      "url": "http://www.chinanews.com.cn/gn/shipin/2026/08-28/news1066817.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“沙德尔”最强风雨时段到来 明后天强降雨深入内陆",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-28/10685586.shtml",
+      "title": "军事专家：“中华第一舰”退役是中国海军装备现代化重要节点",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686240.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
