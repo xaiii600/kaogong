@@ -1,33 +1,13 @@
 {
-  "date": "2026-08-28",
-  "time": "21:55",
-  "generatedAt": "2026-08-28T21:55:16.809Z",
+  "date": "2026-08-29",
+  "time": "03:44",
+  "generatedAt": "2026-08-29T03:44:44.824Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "中国通过新修订的农业法 保障农民权益增加农民收入",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686238.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "粤开证券谈美债波动：政策干预难以根本上破除市场担忧",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-28/10686215.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "沃什称美联储抗通胀尚未结束 市场上调加息预期",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-29/10686254.shtml",
+      "title": "读懂中国经济的底气与潜能",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-29/10686324.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,8 +16,8 @@
       ]
     },
     {
-      "title": "俄国防部称成功实施洲际导弹战斗训练发射",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-29/10686253.shtml",
+      "title": "《联合国防治荒漠化公约》COP17通过《乌兰巴托宣言》",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-29/10686315.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -46,8 +26,18 @@
       ]
     },
     {
-      "title": "传承抗战精神 台盟爱国主义教育基地在沈阳揭牌",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686242.shtml",
+      "title": "青少年沉迷AI聊天，怎么救？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686316.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从学位扩容到智慧教学 银川靶向破解教育民生痛点",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-29/10686310.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -56,8 +46,8 @@
       ]
     },
     {
-      "title": "草间弥生作品亮相拍卖市场引藏家关注",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-28/10686204.shtml",
+      "title": "烘焙市场扩容 为何实体面包店却纷纷“退场”？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-29/10686312.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,18 +56,8 @@
       ]
     },
     {
-      "title": "中国出台医疗保障法 维护公民医疗保障合法权益",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686210.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（经济观察）中国楼市大步迈向“现房销售时代”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-28/10686211.shtml",
+      "title": "改写消费市场格局！如何接住下沉市场的长期红利",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-29/10686311.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -86,28 +66,48 @@
       ]
     },
     {
-      "title": "十四届全国人大常委会第二十四次会议在北京闭幕",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-28/1202491.shtml",
+      "title": "“暴涨260%”！全球市场“铜”时爆单",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-29/10686305.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中央政治局部署西藏泥石流救援工作",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%94%BF%E6%B2%BB%E5%B1%80%E9%83%A8%E7%BD%B2%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E6%8F%B4%E5%B7%A5%E4%BD%9C",
+      "title": "当孩子的“情绪树洞”变成AI",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-29/10686296.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一组数字看我国经济澎湃动能",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E7%BB%84%E6%95%B0%E5%AD%97%E7%9C%8B%E6%88%91%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "AI演员方桃子将登《时尚COSMO》封面",
-      "url": "https://www.baidu.com/s?wd=AI%E6%BC%94%E5%91%98%E6%96%B9%E6%A1%83%E5%AD%90%E5%B0%86%E7%99%BB%E3%80%8A%E6%97%B6%E5%B0%9ACOSMO%E3%80%8B%E5%B0%81%E9%9D%A2",
+      "title": "美防长被曝考虑2028年竞选美国总统",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E9%98%B2%E9%95%BF%E8%A2%AB%E6%9B%9D%E8%80%83%E8%99%912028%E5%B9%B4%E7%AB%9E%E9%80%89%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "长鑫科技上半年大赚776.05亿元",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%A4%A7%E8%B5%9A776.05%E4%BA%BF%E5%85%83",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -116,38 +116,8 @@
       ]
     },
     {
-      "title": "精神失常男子名下凭空出现贷款",
-      "url": "https://www.baidu.com/s?wd=%E7%B2%BE%E7%A5%9E%E5%A4%B1%E5%B8%B8%E7%94%B7%E5%AD%90%E5%90%8D%E4%B8%8B%E5%87%AD%E7%A9%BA%E5%87%BA%E7%8E%B0%E8%B4%B7%E6%AC%BE",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国博主称赞中国基础设施",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8D%9A%E4%B8%BB%E7%A7%B0%E8%B5%9E%E4%B8%AD%E5%9B%BD%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "月房贷支出与收入比控制在50%以下",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%88%E6%88%BF%E8%B4%B7%E6%94%AF%E5%87%BA%E4%B8%8E%E6%94%B6%E5%85%A5%E6%AF%94%E6%8E%A7%E5%88%B6%E5%9C%A850%25%E4%BB%A5%E4%B8%8B",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏吉隆泥石流灾害已致7人遇难554人失联",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686252.shtml",
+      "title": "快开学了 如何帮孩子远离“假期综合征”？医生建议",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-29/10686325.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +126,8 @@
       ]
     },
     {
-      "title": "翻山越岭、向险而行 中国救援队挺进吉隆口岸救援核心位置开展不间断搜救作业",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686251.shtml",
+      "title": "第十届中欧健康研讨会在布鲁塞尔举行",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-29/10686313.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,58 +136,8 @@
       ]
     },
     {
-      "title": "从天津到比什凯克，全球聚焦“上合时间”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686243.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东西问丨“掉线”半年，霍尔木兹早已不是从前的霍尔木兹",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-28/10686220.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "南部非洲华人华侨纪念孙中山诞辰160周年图片展在南非举行",
-      "url": "https://www.chinanews.com.cn/hr/2026/08-28/10686235.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "鲁迅文学奖首次在上海颁奖",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-28/10686236.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国科学家破解亚非水稻种间生殖隔离之谜",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686237.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中银香港今年上半年盈利237.39亿港元 同比增长7.1%",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-28/10686241.shtml",
+      "title": "特朗普：美获逾650亿桶委石油储量“多数控制权”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-29/10686297.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -227,7 +147,7 @@
     },
     {
       "title": "第二十一届中国长春电影节闭幕 《给阿嬷的情书》获评委会大奖",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-28/10686239.shtml",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-29/10686317.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +156,88 @@
       ]
     },
     {
-      "title": "军事专家：“中华第一舰”退役是中国海军装备现代化重要节点",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-28/10686240.shtml",
+      "title": "此次吉隆口岸泥石流为何抢险救援难度极大？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686323.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "警惕泥石流灾害，请掌握这些避险要点",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686322.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "总台记者探访西藏吉隆镇安置点 物资到位保障群众基本生活",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686321.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "福建海警位金门附近海域依法开展常态执法巡查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-29/10686320.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“实地行走是读懂家国最好的方式”——港澳青少年暑期再掀赴内地交流热潮",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-29/10686319.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国技术助力吉尔吉斯斯坦“变废为宝”",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/08-29/10686318.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "限售股个税新规堵漏洞 会带来哪些影响？",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-29/10686314.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "江苏端出“科学盛宴” 全国科普月将举办超两万场活动",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-29/10686307.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宁夏大武口烟火市集启幕 邂逅《欢迎来龙餐馆》市井温情",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-29/10686304.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
