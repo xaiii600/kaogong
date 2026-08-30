@@ -1,33 +1,13 @@
 {
   "date": "2026-08-30",
-  "time": "13:00",
-  "generatedAt": "2026-08-30T13:00:26.078Z",
+  "time": "17:37",
+  "generatedAt": "2026-08-30T17:37:24.499Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "2026中国国际大数据产业博览会闭幕 发布87项创新成果",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-30/10686879.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 3,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-30/1202635.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI驱动提质增效 美年健康上半年营收38.44亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-30/10686918.shtml",
+      "title": "沪港协同创新再深化 香港大学张江基地二期正式启用",
+      "url": "https://www.chinanews.com.cn/edu/2026/08-30/10686954.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -36,30 +16,30 @@
       ]
     },
     {
-      "title": "2026数博会闭幕 共发布87项创新成果",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-30/10686909.shtml",
+      "title": "中国援圭亚那医疗队探秘亚马孙传统医药：17小时雨林“寻百草”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686942.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "最新数据：尼泊尔泥石流灾害遇难人数升至788人",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686900.shtml",
+      "title": "重庆市忠县人大常委会党组原书记、主任雷亚平接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686939.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "海南产经新观察：琼吉深化种业和航天领域合作",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-30/10686886.shtml",
+      "title": "裕固族民歌唱响国图 拉开人口较少民族口头传统典藏计划2026年度活动大幕",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-30/10686931.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
@@ -86,26 +66,6 @@
       ]
     },
     {
-      "title": "中央纪委副书记孙新阳当选新职",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E7%BA%AA%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E5%AD%99%E6%96%B0%E9%98%B3%E5%BD%93%E9%80%89%E6%96%B0%E8%81%8C",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新能源二手车升温：到店3天就卖出",
-      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E4%BA%8C%E6%89%8B%E8%BD%A6%E5%8D%87%E6%B8%A9%EF%BC%9A%E5%88%B0%E5%BA%973%E5%A4%A9%E5%B0%B1%E5%8D%96%E5%87%BA",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "超强厄尔尼诺正在冲击世界经济",
       "url": "https://www.baidu.com/s?wd=%E8%B6%85%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E6%AD%A3%E5%9C%A8%E5%86%B2%E5%87%BB%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E",
       "source": "百度热搜",
@@ -116,8 +76,28 @@
       ]
     },
     {
-      "title": "尼泊尔泥石流灾害已致794人遇难",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686928.shtml",
+      "title": "中央纪委副书记孙新阳当选新职",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E7%BA%AA%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E5%AD%99%E6%96%B0%E9%98%B3%E5%BD%93%E9%80%89%E6%96%B0%E8%81%8C",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "官方通报“妇女带两名残疾人乞讨”",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E2%80%9C%E5%A6%87%E5%A5%B3%E5%B8%A6%E4%B8%A4%E5%90%8D%E6%AE%8B%E7%96%BE%E4%BA%BA%E4%B9%9E%E8%AE%A8%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "弘扬“上海精神” 凝聚“上合力量”",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686965.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +106,8 @@
       ]
     },
     {
-      "title": "塞浦路斯渡轮倾覆事故已有159人获救",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686925.shtml",
+      "title": "RUN GIRLS女子跑在顺义奥林匹克水上公园开赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-30/10686964.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +116,8 @@
       ]
     },
     {
-      "title": "陕西省2026职业技能大赛榆林开幕",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-30/10686922.shtml",
+      "title": "拾光纪·总统夫妇热情迎接！吉尔吉斯斯坦高规格欢迎习主席抵达",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686963.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +126,8 @@
       ]
     },
     {
-      "title": "巴西宾客探访库布其治沙：“我们将把这里的经验带回巴西”",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686921.shtml",
+      "title": "联播+｜一方有难 八方支援",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686962.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +136,8 @@
       ]
     },
     {
-      "title": "赣江观澜：“荆公故里”江西抚州如何擦亮王安石文化名片？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686920.shtml",
+      "title": "吉隆受灾核心区淤泥超一米 消防救援力量711人、13犬不间断拉网式搜寻",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686961.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +146,8 @@
       ]
     },
     {
-      "title": "复旦大学迎来5100余名本科新生 数智化工具升级迎新服务",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686917.shtml",
+      "title": "习近平同吉尔吉斯斯坦总统小范围晤谈",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686960.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +156,8 @@
       ]
     },
     {
-      "title": "中吉友好，写在比什凯克街头",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686923.shtml",
+      "title": "中国女排2:3惜败泰国队 获亚锦赛亚军",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-30/10686959.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +166,8 @@
       ]
     },
     {
-      "title": "韩国总统李在明改组内阁 提名六部长官人选",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686919.shtml",
+      "title": "尼泊尔泥石流灾害中取得联系的中方人员已安全转移",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686957.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +176,8 @@
       ]
     },
     {
-      "title": "伊朗最高领袖最新声明：美以是地区团结之敌",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686875.shtml",
+      "title": "西藏吉隆口岸通信信号抢通 信号可送达核心救援现场",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686956.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +186,8 @@
       ]
     },
     {
-      "title": "菲律宾近期强降雨致32人死亡 约810万人受影响",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686913.shtml",
+      "title": "直击西藏吉隆口岸抢险救灾：技术护航水陆空救援力量挺进核心区",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns/2026/08-30/news1067100.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +196,8 @@
       ]
     },
     {
-      "title": "大陆赠台大熊猫“圆圆”迎来22岁生日",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-30/1202632.shtml",
+      "title": "（文化中国行）中式书香“碰撞”西方魔幻 江西婺源奇幻图书馆走红",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-30/10686953.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +206,8 @@
       ]
     },
     {
-      "title": "倾听民企心声 浙江民建汇智聚力赋能科创发展",
-      "url": "https://www.chinanews.com.cn/txy/2026/08-30/10686908.shtml",
+      "title": "西藏吉隆因山体滑坡形成的新堰塞湖已自然过流、基本排空",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686952.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +216,28 @@
       ]
     },
     {
-      "title": "空中俯瞰埃及开罗风光",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-30/1202629.shtml",
+      "title": "塞浦路斯发生客轮倾覆事故致6人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-30/10686951.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "年轻人为什么不爱当班主任了？",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-30/10686950.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "东西问·知味东方｜一碗浆面条，为何让“赛考斯”念念不忘？",
+      "url": "https://www.chinanews.com.cn/dxw/2026/08-30/10686946.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
