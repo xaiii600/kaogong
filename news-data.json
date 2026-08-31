@@ -1,13 +1,43 @@
 {
-  "date": "2026-08-30",
-  "time": "23:36",
-  "generatedAt": "2026-08-30T23:36:40.371Z",
+  "date": "2026-08-31",
+  "time": "05:47",
+  "generatedAt": "2026-08-31T05:47:45.836Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "AI客服“转人工”难？“新国标”来了",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686980.shtml",
+      "title": "2026数博会映照“十五五”数字经济发展新图景",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687188.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "服务消费广度深度显著拓展",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687169.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "因违法占地破坏耕地、非法采矿等，5地被通报",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687160.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江省第三届智运会开幕 VR电竞展现科技体育魅力",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687158.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -16,59 +46,9 @@
       ]
     },
     {
-      "title": "受美行政令影响谷歌地图调整安大略湖标注，特朗普发图展示“美国湖”",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686974.shtml",
+      "title": "科学家与企业家面对面 浙江“一张圆桌”加速医疗器械成果转化",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-31/10687156.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国大峡谷国家公园突发山洪 超20人失联",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686971.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国新能源车如何改变南非人的购车选择？",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10686967.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "沪港协同创新再深化 香港大学张江基地二期正式启用",
-      "url": "https://www.chinanews.com.cn/edu/2026/08-30/10686954.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平抵达比什凯克出席上合峰会",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%8A%B5%E8%BE%BE%E6%AF%94%E4%BB%80%E5%87%AF%E5%85%8B%E5%87%BA%E5%B8%AD%E4%B8%8A%E5%90%88%E5%B3%B0%E4%BC%9A",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "医疗防疫分队前往救援一线",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%96%97%E9%98%B2%E7%96%AB%E5%88%86%E9%98%9F%E5%89%8D%E5%BE%80%E6%95%91%E6%8F%B4%E4%B8%80%E7%BA%BF",
-      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -76,9 +56,19 @@
       ]
     },
     {
-      "title": "9月新规来了：涉及公积金、AI客服",
-      "url": "https://www.baidu.com/s?wd=9%E6%9C%88%E6%96%B0%E8%A7%84%E6%9D%A5%E4%BA%86%EF%BC%9A%E6%B6%89%E5%8F%8A%E5%85%AC%E7%A7%AF%E9%87%91%E3%80%81AI%E5%AE%A2%E6%9C%8D",
-      "source": "百度热搜",
+      "title": "日本开始第23轮核污染水排海",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687166.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沪港协同创新再深化 香港大学张江基地二期正式启用",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-31/10687154.shtml",
+      "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -86,8 +76,28 @@
       ]
     },
     {
-      "title": "超强厄尔尼诺正在冲击世界经济",
-      "url": "https://www.baidu.com/s?wd=%E8%B6%85%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E6%AD%A3%E5%9C%A8%E5%86%B2%E5%87%BB%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E",
+      "title": "美国“明抢”委内瑞拉油田",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E2%80%9C%E6%98%8E%E6%8A%A2%E2%80%9D%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%E6%B2%B9%E7%94%B0",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "费大厨开到美国 辣椒炒肉210元一份",
+      "url": "https://www.baidu.com/s?wd=%E8%B4%B9%E5%A4%A7%E5%8E%A8%E5%BC%80%E5%88%B0%E7%BE%8E%E5%9B%BD+%E8%BE%A3%E6%A4%92%E7%82%92%E8%82%89210%E5%85%83%E4%B8%80%E4%BB%BD",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "7000亿足疗市场跑不出一家上市龙头",
+      "url": "https://www.baidu.com/s?wd=7000%E4%BA%BF%E8%B6%B3%E7%96%97%E5%B8%82%E5%9C%BA%E8%B7%91%E4%B8%8D%E5%87%BA%E4%B8%80%E5%AE%B6%E4%B8%8A%E5%B8%82%E9%BE%99%E5%A4%B4",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -96,28 +106,28 @@
       ]
     },
     {
-      "title": "中央纪委副书记孙新阳当选新职",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E7%BA%AA%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E5%AD%99%E6%96%B0%E9%98%B3%E5%BD%93%E9%80%89%E6%96%B0%E8%81%8C",
+      "title": "AI电视剧登陆湖南卫视黄金档",
+      "url": "https://www.baidu.com/s?wd=AI%E7%94%B5%E8%A7%86%E5%89%A7%E7%99%BB%E9%99%86%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E9%BB%84%E9%87%91%E6%A1%A3",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "官方通报“妇女带两名残疾人乞讨”",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E2%80%9C%E5%A6%87%E5%A5%B3%E5%B8%A6%E4%B8%A4%E5%90%8D%E6%AE%8B%E7%96%BE%E4%BA%BA%E4%B9%9E%E8%AE%A8%E2%80%9D",
+      "title": "订单爆了排到年底！这个市场热起来了",
+      "url": "https://www.baidu.com/s?wd=%E8%AE%A2%E5%8D%95%E7%88%86%E4%BA%86%E6%8E%92%E5%88%B0%E5%B9%B4%E5%BA%95%EF%BC%81%E8%BF%99%E4%B8%AA%E5%B8%82%E5%9C%BA%E7%83%AD%E8%B5%B7%E6%9D%A5%E4%BA%86",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "军工企业骨干遭围猎 为两国境外间谍提供敏感资料 细节披露",
-      "url": "https://www.chinanews.com.cn/fz/2026/08-31/10686979.shtml",
+      "title": "高清大图丨扎帕罗夫总统为习近平举行欢迎仪式",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687191.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +136,8 @@
       ]
     },
     {
-      "title": "吉隆口岸信号抢通 新堰塞湖基本排空 受灾核心区将进行深层次搜索",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686978.shtml",
+      "title": "中国贸促会：6月份全球经贸摩擦指数处于高位",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687189.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +146,8 @@
       ]
     },
     {
-      "title": "国道216线受泥石流灾害冲击通行中断 抢通工作持续进行中",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10686977.shtml",
+      "title": "马杜罗社交账号公布狱中照片：面带微笑，身着运动服",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687185.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +156,8 @@
       ]
     },
     {
-      "title": "塞浦路斯渡轮倾覆事件已致8人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686976.shtml",
+      "title": "中国贸促会：7月份全国贸促系统优惠原产地证书签证金额同比增长24.77%",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687183.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +166,8 @@
       ]
     },
     {
-      "title": "跟着潮玩“解锁”大陆旅游新体验",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10686975.shtml",
+      "title": "通往吉隆口岸216国道已抢通533米 降雨或增大救援难度",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687184.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +176,8 @@
       ]
     },
     {
-      "title": "8月31日新闻早报",
-      "url": "https://www.chinanews.com.cn/iframe/2026/08-31/10686973.shtml",
+      "title": "第十九届欧洽会将于10月在成都举办",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687179.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "气候变暖和吉隆县泥石流灾害有关系吗？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686972.shtml",
+      "title": "中吉乌铁路吉尔吉斯斯坦境内段建设全面推进",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687186.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "塞浦路斯渡轮倾覆事故已致7人死亡23人失踪",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686970.shtml",
+      "title": "舞蹈诗剧《蜀道》以诗意肢体铺展千年“人民之路”",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687176.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "大学生创业补贴，何以成了中介的“唐僧肉”？",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686969.shtml",
+      "title": "皮划艇静水世锦赛：中国队2金1银2铜收官",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-31/10687175.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "美伊再度交火：美军袭击伊朗导弹阵地，伊朗回击",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10686968.shtml",
+      "title": "“中国始终发挥着积极、建设性作用”",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687182.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "“新中国民族团结第一碑”最后一位在世签字代表李万学逝世",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10686966.shtml",
+      "title": "我国居民主要健康指标持续向好",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-31/10687170.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "弘扬“上海精神” 凝聚“上合力量”",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-30/10686965.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "RUN GIRLS女子跑在顺义奥林匹克水上公园开赛",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-30/10686964.shtml",
+      "title": "纯牛奶样本在港被检出菌落数超标，君乐宝回应",
+      "url": "https://www.chinanews.com.cn/jk/2026/08-31/10687163.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
