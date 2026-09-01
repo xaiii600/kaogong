@@ -1,63 +1,13 @@
 {
   "date": "2026-09-01",
-  "time": "10:15",
-  "generatedAt": "2026-09-01T10:15:27.529Z",
+  "time": "14:59",
+  "generatedAt": "2026-09-01T14:59:05.353Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "甘肃高原虹鳟鱼首次“游”向俄罗斯市场",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688075.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新华视点｜从各地创新发展赛道 看中国经济澎湃活力",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688021.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄罗斯学者：中国倡议为上合组织成员国的经济发展创造新机遇 合作项目令民众受益",
-      "url": "https://www.chinanews.com.cn/ll/2026/09-01/10688014.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平在“上海合作组织+”会议上的讲话（全文）",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688071.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平出席“上海合作组织+”会议并发表重要讲话",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688057.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "天津创新盘活零散储备土地 首个示范项目变复合便民空间",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688044.shtml",
+      "title": "第三个InnoHK创新香港研发平台启动 聚焦可持续发展等领域",
+      "url": "https://www.chinanews.com.cn/dwq/2026/09-01/10688326.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -66,8 +16,18 @@
       ]
     },
     {
-      "title": "首发经济向新而行",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688049.shtml",
+      "title": "中国科技馆推出脑科学主题展 全景呈现脑研究、脑健康和类脑技术",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688325.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "面对面心贴心 浙江市场监管部门倾听多元主体发展诉求",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688322.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -76,18 +36,8 @@
       ]
     },
     {
-      "title": "新华图讯丨习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688038.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "行进的海岸线｜以黄海为支点 撬动联“网”超“链”深蓝产业",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688033.shtml",
+      "title": "听企声解民忧 浙江启动2026年市场监管服务月活动",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688323.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -96,8 +46,8 @@
       ]
     },
     {
-      "title": "把根扎深 把路走宽——民建中央定点帮扶河北丰宁一线见闻",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-01/10688016.shtml",
+      "title": "中央社会主义学院2026年秋季学期开学典礼在北京举行",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-01/10688318.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -106,18 +56,28 @@
       ]
     },
     {
-      "title": "彭丽媛出席上海合作组织峰会配偶集体活动",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688022.shtml",
+      "title": "APEC嘉宾参访广州 中国人工智能产品受青睐",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688315.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "南宁海关技术中心2026-2027年试验用木材 【GXRZ(2)2026011C1】采购结果公告",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/09-01/10688015.shtml",
+      "title": "开局起步“十五五”：海口发力现代服务业与开放型经济",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688314.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第32次亚太经合组织（APEC）中小企业部长会议参访活动在穗开展",
+      "url": "https://www.chinanews.com.cn/tp/2026/09-01/10688321.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -126,8 +86,8 @@
       ]
     },
     {
-      "title": "友谊关海关2026-2027年度广告服务定点供应商协商谈判采购公告",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/09-01/10688013.shtml",
+      "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-01/10688303.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -136,18 +96,28 @@
       ]
     },
     {
-      "title": "习近平出席2026年上合峰会",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E5%B3%B0%E4%BC%9A",
+      "title": "爱心守望伴银龄 浙江金华邻里互助养老绘就民生暖景",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688300.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "习近平出席“上海合作组织+”会议",
+      "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%87%BA%E5%B8%AD%E2%80%9C%E4%B8%8A%E6%B5%B7%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%2B%E2%80%9D%E4%BC%9A%E8%AE%AE",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "没有手艺都是科技 门店招牌装反走红",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%A1%E6%9C%89%E6%89%8B%E8%89%BA%E9%83%BD%E6%98%AF%E7%A7%91%E6%8A%80+%E9%97%A8%E5%BA%97%E6%8B%9B%E7%89%8C%E8%A3%85%E5%8F%8D%E8%B5%B0%E7%BA%A2",
+      "title": "AI色情短剧黑链曝光 4万月薪招编剧",
+      "url": "https://www.baidu.com/s?wd=AI%E8%89%B2%E6%83%85%E7%9F%AD%E5%89%A7%E9%BB%91%E9%93%BE%E6%9B%9D%E5%85%89+4%E4%B8%87%E6%9C%88%E8%96%AA%E6%8B%9B%E7%BC%96%E5%89%A7",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -156,8 +126,8 @@
       ]
     },
     {
-      "title": "美国炸鸡巨头中国首店开业排队2小时",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%82%B8%E9%B8%A1%E5%B7%A8%E5%A4%B4%E4%B8%AD%E5%9B%BD%E9%A6%96%E5%BA%97%E5%BC%80%E4%B8%9A%E6%8E%92%E9%98%9F2%E5%B0%8F%E6%97%B6",
+      "title": "俄罗斯警告日本和美国",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E8%AD%A6%E5%91%8A%E6%97%A5%E6%9C%AC%E5%92%8C%E7%BE%8E%E5%9B%BD",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -166,18 +136,8 @@
       ]
     },
     {
-      "title": "女子被踢845个群被迫离职 当地通报",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E8%A2%AB%E8%B8%A2845%E4%B8%AA%E7%BE%A4%E8%A2%AB%E8%BF%AB%E7%A6%BB%E8%81%8C+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏银川：月饼车间开足马力“备战”中秋",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-01/10688080.shtml",
+      "title": "上合组织秘书长：25年来，开启区域合作新模式",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688335.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +146,8 @@
       ]
     },
     {
-      "title": "四川成都：机器人登上“开学第一课”",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-01/10688078.shtml",
+      "title": "救援背后的“生命线”",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688333.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +156,8 @@
       ]
     },
     {
-      "title": "“齐鲁网安号”主题专列在山东济南首发",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-01/10688055.shtml",
+      "title": "全域立体组网 吉隆口岸救援通信实现核心区域全覆盖",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688330.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +166,8 @@
       ]
     },
     {
-      "title": "河南郑州：机器人走进开学第一课",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-01/10688045.shtml",
+      "title": "2026年全国石油石化行业液化天然气储运工职业技能竞赛天津开赛",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688324.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +176,8 @@
       ]
     },
     {
-      "title": "韩国公布2027年国防预算约3600亿元 同比增8.2%",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-01/10688067.shtml",
+      "title": "暑运期间广深港高铁跨境客流近720万人次",
+      "url": "https://www.chinanews.com.cn/dwq/2026/09-01/10688320.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +186,8 @@
       ]
     },
     {
-      "title": "【理响中国·一线探新】极寒之地的“绿色脉动”",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688050.shtml",
+      "title": "中埃联合考古队在塞赫迈特神庙遗址发现重要遗迹",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-01/10688312.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +196,48 @@
       ]
     },
     {
-      "title": "连续四年领跑！上海乡村全面振兴发展指数稳居全国第一",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688043.shtml",
+      "title": "上海援青重点项目果洛海东中学建成启用 首批招收1200名新生",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688311.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "拉萨车站2026年暑运发送旅客79.56万人次",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688310.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宁夏完成第三次全国土壤普查省级成果自验收",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688309.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "经纬度：光伏装机首超煤电，中国引领能源绿色转型",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-01/10688317.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【好评中国】河声丨以“开学第一课”为火种，照亮新时代长征路",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-01/10688316.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
