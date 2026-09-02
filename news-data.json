@@ -1,23 +1,43 @@
 {
   "date": "2026-09-02",
-  "time": "00:20",
-  "generatedAt": "2026-09-02T00:20:15.912Z",
+  "time": "04:47",
+  "generatedAt": "2026-09-02T04:47:37.726Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "促进民营经济高质量发展丨解难题、送政策，看民营企业如何轻装出海",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10688386.shtml",
+      "title": "东西问丨吴丹娜：俄语说对了，就能聊到一块儿去吗？",
+      "url": "https://www.chinanews.com.cn/dxw/2026/09-02/10688581.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "暑运出行变迁 藏着中国消费的鲜活底气",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688398.shtml",
+      "title": "从“有学上”到“上好学” 广西蒙山推进县域教育优质均衡发展",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688566.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普提名下任美国海军部长：高雄，越南裔",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688527.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "开局起步“十五五”：海南高质量发展“第三极”构建开放产业体系",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10688558.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,8 +46,18 @@
       ]
     },
     {
-      "title": "养老监护缺失，谁来“兜底”",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688391.shtml",
+      "title": "开局起步“十五五”：海南建设中国开放型经济新高地",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10688557.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海南持续擦亮“慈善助残” 补齐残疾人民生服务短板",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688556.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -36,78 +66,28 @@
       ]
     },
     {
-      "title": "AI与人工客服流转规则有“标”可依",
-      "url": "https://www.chinanews.com.cn/fz/2026/09-02/10688387.shtml",
+      "title": "【长征胜利90周年】探访福建新泉整训纪念馆：追寻《三大纪律八项注意》的“来时路”",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns/2026/09-02/news1067448.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "博物馆的“距今”为何年年不变？碳-14测年基准揭秘",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688385.shtml",
+      "title": "以“椒”为媒感知中国味道 外国留学生“打卡”河北鸡泽辣椒产业",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/09-02/news1067454.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "德国指认俄涉莱比锡机场袭击并宣布反制措施",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688374.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“开学第一课”：俄宇航员与学生定下五年中文之约",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688372.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "扎哈罗娃：在日部署“堤丰”导弹系统“不可接受”",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688361.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平出席“上海合作组织+”会议",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%87%BA%E5%B8%AD%E2%80%9C%E4%B8%8A%E6%B5%B7%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%2B%E2%80%9D%E4%BC%9A%E8%AE%AE",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "秘鲁宣布与伊朗断绝外交关系",
-      "url": "https://www.baidu.com/s?wd=%E7%A7%98%E9%B2%81%E5%AE%A3%E5%B8%83%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%96%AD%E7%BB%9D%E5%A4%96%E4%BA%A4%E5%85%B3%E7%B3%BB",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国银行副总裁在时报广场被刺身亡",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%E5%89%AF%E6%80%BB%E8%A3%81%E5%9C%A8%E6%97%B6%E6%8A%A5%E5%B9%BF%E5%9C%BA%E8%A2%AB%E5%88%BA%E8%BA%AB%E4%BA%A1",
+      "title": "普京硬核回应俄日关系恶化",
+      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E7%A1%AC%E6%A0%B8%E5%9B%9E%E5%BA%94%E4%BF%84%E6%97%A5%E5%85%B3%E7%B3%BB%E6%81%B6%E5%8C%96",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -126,8 +106,38 @@
       ]
     },
     {
-      "title": "未成年人独自出行如何“各解各题”",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688396.shtml",
+      "title": "美国银行副总裁在时报广场被刺身亡",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%93%B6%E8%A1%8C%E5%89%AF%E6%80%BB%E8%A3%81%E5%9C%A8%E6%97%B6%E6%8A%A5%E5%B9%BF%E5%9C%BA%E8%A2%AB%E5%88%BA%E8%BA%AB%E4%BA%A1",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泰国调整免签政策 中使馆发文提醒",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E8%B0%83%E6%95%B4%E5%85%8D%E7%AD%BE%E6%94%BF%E7%AD%96+%E4%B8%AD%E4%BD%BF%E9%A6%86%E5%8F%91%E6%96%87%E6%8F%90%E9%86%92",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "秘鲁宣布与伊朗断绝外交关系",
+      "url": "https://www.baidu.com/s?wd=%E7%A7%98%E9%B2%81%E5%AE%A3%E5%B8%83%E4%B8%8E%E4%BC%8A%E6%9C%97%E6%96%AD%E7%BB%9D%E5%A4%96%E4%BA%A4%E5%85%B3%E7%B3%BB",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "通往西藏吉隆口岸救援通道基本打通 救援力量可陆路进入",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688589.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +146,8 @@
       ]
     },
     {
-      "title": "烘焙界的“世界杯”，中国人夺冠",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688395.shtml",
+      "title": "考古文物移交有时间表了！国家文物局发布试行办法",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688596.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +156,8 @@
       ]
     },
     {
-      "title": "各开10家网店非法销售盗版教材 两男子分别获刑并处罚金",
-      "url": "https://www.chinanews.com.cn/fz/2026/09-02/10688388.shtml",
+      "title": "美军再袭伊朗 伊朗称一婚礼现场遇袭致4死",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688595.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +166,8 @@
       ]
     },
     {
-      "title": "习近平抵达开罗对埃及进行国事访问",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/09-02/1202851.shtml",
+      "title": "荷兰东部乡村发生枪击事件致1人死亡  警方逮捕34人",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688594.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +176,8 @@
       ]
     },
     {
-      "title": "台风蓝色预警：“沙德尔”强降雨影响5省 南海大部风力较强",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688383.shtml",
+      "title": "农工党河南商丘市委会开展敬老义诊活动",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-02/10688586.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +186,8 @@
       ]
     },
     {
-      "title": "如何将“健康第一”摆上餐桌？记者探访“开学第一餐”",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-02/10688382.shtml",
+      "title": "台企在江西：扎根红色沃土二十载 持续加大研发投入",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-02/10688560.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +196,8 @@
       ]
     },
     {
-      "title": "美众议院通过临时拨款法案，以避免政府在中期选举前“停摆”",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688381.shtml",
+      "title": "台企在江西：坚守跨界“新选择” 打造地方特色旅游目的地",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-02/10688562.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +206,8 @@
       ]
     },
     {
-      "title": "我国科研团队首次实现高光谱相机实时解析",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688380.shtml",
+      "title": "英国房贷审批量跌至近两年低位 楼市复苏动能持续走弱",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688545.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +216,8 @@
       ]
     },
     {
-      "title": "希奇莱马宣誓就任赞比亚总统 开启第二个五年任期",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688379.shtml",
+      "title": "2026年夏季为英国有记录以来最热夏季",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688543.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +226,8 @@
       ]
     },
     {
-      "title": "英国首相伯纳姆在议会发表声明 阐述施政方向",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688373.shtml",
+      "title": "伊朗官员称美军袭击胡齐斯坦省已致7人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688584.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,18 +236,8 @@
       ]
     },
     {
-      "title": "中国第二批援尼紧急援助物资雨中运抵加德满都",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688371.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "暴雨黄色预警：浙江福建等5省部分地区有大暴雨",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688370.shtml",
+      "title": "德国勃兰登堡州一变电站遭蓄意破坏",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10688540.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
