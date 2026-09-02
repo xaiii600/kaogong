@@ -1,13 +1,43 @@
 {
   "date": "2026-09-02",
-  "time": "09:43",
-  "generatedAt": "2026-09-02T09:43:30.812Z",
+  "time": "14:33",
+  "generatedAt": "2026-09-02T14:33:53.890Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "中山市2026年1－7月对外贸易进口重点商品统计表",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/09-02/10688872.shtml",
+      "title": "国际反病毒大会天津启幕 聚焦AI网络威胁",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10689108.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "越山海｜当埃及金字塔遇上中国科技",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10689134.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI场景数据安全引关注 天津探索数据安全治理与隐私保护新路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10689128.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "聚焦生物医药合作 “韩你来蓉—2026成都韩国经贸投资交流会”举行",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10689126.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -16,8 +46,28 @@
       ]
     },
     {
-      "title": "追着牧民转场40余年 阿鲁科尔沁草原有一支流动医疗队",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688860.shtml",
+      "title": "香港国际时尚汇展开幕 参展品牌数量创历届新高",
+      "url": "https://www.chinanews.com.cn/tp/2026/09-02/10689105.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年国际现代五项联盟障碍跑世锦赛北京开赛",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/09-02/1202982.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "援赤几中国医疗队“光明行” 服务当地民众超千人",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10689097.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -26,28 +76,8 @@
       ]
     },
     {
-      "title": "普京将与特朗普在今年APEC峰会期间会晤？外交部回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688865.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家安全生产应急救援队伍持续监测现场次生灾害 采集2700组数据",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688861.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "市场监管总局：上半年全国市场监管系统查办案件64.17万件",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10688840.shtml",
+      "title": "促推藜麦产业高质量发展  专家建言共筑全链合作格局",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10689107.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -56,18 +86,28 @@
       ]
     },
     {
-      "title": "手机涨价罪魁祸首是AI吗",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E6%B6%A8%E4%BB%B7%E7%BD%AA%E9%AD%81%E7%A5%B8%E9%A6%96%E6%98%AFAI%E5%90%97",
-      "source": "百度热搜",
-      "cat": "tech",
+      "title": "8月广州二手住宅市场网签量同比微增",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10689101.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "俄罗斯人拿人民币在黑河夜市疯狂扫货",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E4%BA%BA%E6%8B%BF%E4%BA%BA%E6%B0%91%E5%B8%81%E5%9C%A8%E9%BB%91%E6%B2%B3%E5%A4%9C%E5%B8%82%E7%96%AF%E7%8B%82%E6%89%AB%E8%B4%A7",
+      "title": "中共中央批准：开除岳普煜党籍",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E6%89%B9%E5%87%86%EF%BC%9A%E5%BC%80%E9%99%A4%E5%B2%B3%E6%99%AE%E7%85%9C%E5%85%9A%E7%B1%8D",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国地勤暴力损坏中国飞机？国航回应",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%9C%B0%E5%8B%A4%E6%9A%B4%E5%8A%9B%E6%8D%9F%E5%9D%8F%E4%B8%AD%E5%9B%BD%E9%A3%9E%E6%9C%BA%EF%BC%9F%E5%9B%BD%E8%88%AA%E5%9B%9E%E5%BA%94",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -76,8 +116,8 @@
       ]
     },
     {
-      "title": "俄罗斯无人机能力大增",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E7%BD%97%E6%96%AF%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%83%BD%E5%8A%9B%E5%A4%A7%E5%A2%9E",
+      "title": "海上漂了272天的美国水兵登陆了",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%B7%E4%B8%8A%E6%BC%82%E4%BA%86272%E5%A4%A9%E7%9A%84%E7%BE%8E%E5%9B%BD%E6%B0%B4%E5%85%B5%E7%99%BB%E9%99%86%E4%BA%86",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -86,8 +126,28 @@
       ]
     },
     {
-      "title": "新疆娃娃的河南话，咋就“可中”了？",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-02/10688881.shtml",
+      "title": "中方对G20会议未发表公报深表遗憾",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%AF%B9G20%E4%BC%9A%E8%AE%AE%E6%9C%AA%E5%8F%91%E8%A1%A8%E5%85%AC%E6%8A%A5%E6%B7%B1%E8%A1%A8%E9%81%97%E6%86%BE",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泉州市教育局：紧急停课",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%89%E5%B7%9E%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80%EF%BC%9A%E7%B4%A7%E6%80%A5%E5%81%9C%E8%AF%BE",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "平陆运河“三大枢纽”船闸运行方案获得批复",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10689135.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +156,8 @@
       ]
     },
     {
-      "title": "再见，赛考斯；我们期待，再见赛考斯",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688899.shtml",
+      "title": "南海之滨的“上合回响” 海南自贸港拓宽互利共赢新空间",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10689130.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +166,8 @@
       ]
     },
     {
-      "title": "山西左权：清漳河国家湿地公园现壮美云海",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-02/10688887.shtml",
+      "title": "守护绿水青山 海南构建生态环境信用监管体系",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10689129.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +176,8 @@
       ]
     },
     {
-      "title": "“女孩办幼升小升学宴 ”？安徽阜阳辟谣：不实信息",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688888.shtml",
+      "title": "习近平主席为践行全球治理倡议凝心聚力",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10689131.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +186,8 @@
       ]
     },
     {
-      "title": "中新网评：家长提议凑600元请保洁打扫教室，这个钱该不该花？",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-02/10688884.shtml",
+      "title": "五大议题45场报告 第八届中国边疆考古学术研讨会在呼伦贝尔举行",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10689125.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +196,8 @@
       ]
     },
     {
-      "title": "中新健康｜肺癌位居癌症死亡率首位 专家提醒：CT“早筛”是关键",
-      "url": "https://www.chinanews.com.cn/jk/2026/09-02/10688869.shtml",
+      "title": "开局起步“十五五”：海南儋洋一体化纵深推进 聚力扩开放",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10689123.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +206,8 @@
       ]
     },
     {
-      "title": "微视频｜深化全面战略伙伴关系 推进中埃命运共同体建设",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688879.shtml",
+      "title": "福建全力以赴开展抢险救援",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10689120.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +216,8 @@
       ]
     },
     {
-      "title": "【央视快评】推动上海合作组织实现更高质量发展",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688875.shtml",
+      "title": "台风“三顾”带火浙江玉环 滨海小城如何承接这波热度？",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10689119.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +226,8 @@
       ]
     },
     {
-      "title": "从设备共享到人员下沉 北京密云如何破解山区就医难",
-      "url": "https://www.chinanews.com.cn/jk/2026/09-02/10688871.shtml",
+      "title": "菲律宾比索汇率再创历史新低 盘中跌破62.5关口",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-02/10689118.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,68 +236,8 @@
       ]
     },
     {
-      "title": "因海象不佳影响  “两马”航线将双向停航",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688868.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏回族自治区气象台发布大风蓝色预警信号",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688849.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "北京动物园：计划9月4日至9日对大熊猫新馆室内展厅门进行改造升级",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-02/10688839.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第二十届赣台会将举办 “新面孔、首来族”比例超往届",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688855.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "习近平致电祝贺挪威国王哈康八世即位",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10688870.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年01月至07月云南省进出口月度总值表",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/09-02/10688867.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "越南用工荒打脸“中国挤压论”",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-02/10688862.shtml",
+      "title": "摩托车队护卫 习近平乘车前往欢迎仪式现场",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-02/10689127.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
