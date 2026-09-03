@@ -1,24 +1,104 @@
 {
   "date": "2026-09-03",
-  "time": "04:47",
-  "generatedAt": "2026-09-03T04:47:54.873Z",
+  "time": "09:56",
+  "generatedAt": "2026-09-03T09:56:25.867Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "科技助力加工“破局” 赋能油茶产业转型升级",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689360.shtml",
+      "title": "广西持续优化住房消费政策 存量房交易日趋活跃",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689648.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
+      "cat": "policy",
+      "score": 3,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "应急管理部会同交通运输部紧急调拨道路保通加固装备驰援吉隆",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689394.shtml",
+      "title": "三部门调拨中央救灾物资支持福建做好救灾救助工作",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689700.shtml",
       "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（长征胜利90周年）湖北红安：“红军粮”“红军布”变身富民产业",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689679.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026世界动力电池大会四川宜宾开幕 发布8项创新技术",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689660.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部正告日本右翼势力：坚持和平发展才是正道",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689669.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“沙德尔”减弱为热带低压 国家海洋预报台发布风暴潮警报解除通报",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689665.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国专家成功借量子纠缠提取粒子信息",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689659.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "墨西哥“大V”：国际社会对华印象正在发生巨大积极变化",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689666.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外国友人被中国黑科技折服：“太舒服了，我怕每天睡过头”",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689661.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "教育局回应“家长晒纪委身份”",
+      "url": "https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E5%B1%80%E5%9B%9E%E5%BA%94%E2%80%9C%E5%AE%B6%E9%95%BF%E6%99%92%E7%BA%AA%E5%A7%94%E8%BA%AB%E4%BB%BD%E2%80%9D",
+      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -26,59 +106,9 @@
       ]
     },
     {
-      "title": "农工党中央“地域+领域”组团式帮扶毕节纪实",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689393.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“黑土地上的精神力量” 黑龙江大中小学思政育人大课堂 “开学第一课”开讲",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689359.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁德遇大范围暴雨到大暴雨 多项雨量数据刷新历史纪录",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689379.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“欧陆法传承与发展论坛”在澳门举办 助力国际法律合作",
-      "url": "https://www.chinanews.com.cn/dwq/2026/09-03/10689358.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家体育总局：培育有国际竞争力的体育制造品牌",
-      "url": "https://www.chinanews.com.cn/ty/2026/09-03/10689382.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "从荒芜沙漠到产业集群——中埃经贸合作建起优质“样板间”",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689381.shtml",
-      "source": "中国新闻网",
+      "title": "撬动7万亿大市场 先干了这件大事",
+      "url": "https://www.baidu.com/s?wd=%E6%92%AC%E5%8A%A87%E4%B8%87%E4%BA%BF%E5%A4%A7%E5%B8%82%E5%9C%BA+%E5%85%88%E5%B9%B2%E4%BA%86%E8%BF%99%E4%BB%B6%E5%A4%A7%E4%BA%8B",
+      "source": "百度热搜",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -86,18 +116,18 @@
       ]
     },
     {
-      "title": "孩子写作业先问AI 家长怎么办",
-      "url": "https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E5%86%99%E4%BD%9C%E4%B8%9A%E5%85%88%E9%97%AEAI+%E5%AE%B6%E9%95%BF%E6%80%8E%E4%B9%88%E5%8A%9E",
+      "title": "美国航母来了 泰国心情很复杂",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%88%AA%E6%AF%8D%E6%9D%A5%E4%BA%86+%E6%B3%B0%E5%9B%BD%E5%BF%83%E6%83%85%E5%BE%88%E5%A4%8D%E6%9D%82",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "“深圳校服”火出圈！网友：全国推广",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-03/10689408.shtml",
+      "title": "“千里同好”，习近平历史性访问推动中埃关系再深化",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689692.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +136,8 @@
       ]
     },
     {
-      "title": "预计9月有2到3个台风登陆或影响我国 官方最新研判",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689407.shtml",
+      "title": "中国政府第三批紧急援助物资运抵尼泊尔",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689688.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +146,8 @@
       ]
     },
     {
-      "title": "整治“内卷式”竞争 反垄断执法护企专项行动持续推进",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689406.shtml",
+      "title": "河南许昌市“走民企 看发展 提信心”网络主题系列宣传活动举行",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689687.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +156,8 @@
       ]
     },
     {
-      "title": "自然资源部组织开展中国台湾岛以东管辖海域海洋地球物理综合调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689402.shtml",
+      "title": "河南开封市兰考县：四维发力优化营商环境护航企业发展",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689686.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +166,8 @@
       ]
     },
     {
-      "title": "（长征胜利90周年）“五彩红军衣”背后的畲乡之变",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689401.shtml",
+      "title": "2026中国羽毛球大师赛：韩国女单名将安洗莹淘汰中国小将韩千禧晋级1/4决赛",
+      "url": "https://www.chinanews.com.cn/tp/2026/09-03/10689678.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "香港举行仪式纪念中国人民抗日战争胜利81周年",
-      "url": "https://www.chinanews.com.cn/dwq/2026/09-03/10689397.shtml",
+      "title": "敦煌鸣沙山下农文旅融合 激活乡村“多元增收链”",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689682.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "守好“钱袋子” 老年人要当心这些套路",
-      "url": "https://www.chinanews.com.cn/fz/2026/09-03/10689400.shtml",
+      "title": "从吃好到吃健康 金龙鱼的“大国食事”",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689676.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "云南虎跳峡景区外围山体滑坡排险启动 将加装防护网",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689398.shtml",
+      "title": "相差81岁“老朋友”的跨时空友谊",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689677.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "京九铁路累计发送货物10.53亿吨",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689391.shtml",
+      "title": "秀我中国丨“赛考斯”：我的心有一部分留在了中国",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689675.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "2026年中华文化大乐园—英国伦敦园学员展示学习成果",
-      "url": "https://www.chinanews.com.cn/hr/2026/09-03/10689344.shtml",
+      "title": "视频丨日本战争之“毒”不容掩盖 总台记者曝光日军毒气战罪证",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689674.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "陈力达任侨乡泉州市委书记",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689342.shtml",
+      "title": "外国专家赞叹广州地铁：比东京伦敦巴黎更棒",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689673.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,38 +236,8 @@
       ]
     },
     {
-      "title": "2026年CBA夏季联赛青岛站开赛 青岛崂山啤酒取得开门红",
-      "url": "https://www.chinanews.com.cn/ty/2026/09-03/10689339.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海南产经新观察：信用建设助力自贸港开放发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689337.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "A股午评：超3100只个股飘绿，三大指数集体收涨",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689389.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "受台风“沙德尔”影响  福建漳州多地启动“三停一休”",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689335.shtml",
+      "title": "民建潮安总支开展奖学助学活动 25名学子获帮扶",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689671.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
