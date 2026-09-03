@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
-  "time": "14:38",
-  "generatedAt": "2026-09-03T14:38:01.186Z",
+  "time": "18:46",
+  "generatedAt": "2026-09-03T18:46:37.115Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -16,21 +16,51 @@
       ]
     },
     {
-      "title": "马来西亚国家银行维持隔夜政策利率2.75%不变",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-03/10689928.shtml",
+      "title": "2026京西国际山地户外季包含六大赛事",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-03/10689971.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "2026中国（太原）国际能源产业博览会开幕",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-03/10689937.shtml",
+      "title": "西藏吉隆泥石流灾害核心区见闻：科技助力搜寻，护航救援",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689970.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI短剧刷来刷去都是同一张脸 是技术难题还是创作取舍？",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689966.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国青年孔子故里感悟儒家文化",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-03/10689962.shtml",
       "source": "中国新闻网",
       "cat": "international",
-      "score": 2,
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "银川出台工业转型升级实施意见 加快构建现代化产业体系",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689952.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -40,96 +70,6 @@
       "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689947.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西安建大创新技术 为千年木构古建“无痛”加固",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689925.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "近300位嘉宾齐聚天津 共探智能体安全治理与产业发展新思路",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689922.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“重庆文旅农庄”品牌在渝发布 创新打造高品质乡村微度假目的地",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689912.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "长沙经开区精准送服务进企 万余名产业人才获评职称赋能发展",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689911.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026中国（太原）国际能博会开幕 海内外企业共话绿色未来",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689904.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第二十一届中国国际中小企业博览会在广州开幕",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689896.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云南多举措撬动租车自驾游市场 让游客进得来、散得开、玩得透",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689940.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026中国文化旅游产业博览会在天津开幕",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-03/10689935.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "天津武清百年非遗老汤飘香国际赛场",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689921.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -146,18 +86,48 @@
       ]
     },
     {
-      "title": "重庆机场集团反腐风暴",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E6%9C%BA%E5%9C%BA%E9%9B%86%E5%9B%A2%E5%8F%8D%E8%85%90%E9%A3%8E%E6%9A%B4",
+      "title": "男子被贷款15年 签字指纹全是假的",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E8%B4%B7%E6%AC%BE15%E5%B9%B4+%E7%AD%BE%E5%AD%97%E6%8C%87%E7%BA%B9%E5%85%A8%E6%98%AF%E5%81%87%E7%9A%84",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "青海：“柴达木枸杞采摘”劳务品牌带动超10万民众增收",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689950.shtml",
+      "title": "AI短剧“千人一面”",
+      "url": "https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E2%80%9C%E5%8D%83%E4%BA%BA%E4%B8%80%E9%9D%A2%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI的收银台为何值86倍天价",
+      "url": "https://www.baidu.com/s?wd=AI%E7%9A%84%E6%94%B6%E9%93%B6%E5%8F%B0%E4%B8%BA%E4%BD%95%E5%80%BC86%E5%80%8D%E5%A4%A9%E4%BB%B7",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "小团队做了台AI对讲机 3天众筹1000%",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E5%9B%A2%E9%98%9F%E5%81%9A%E4%BA%86%E5%8F%B0AI%E5%AF%B9%E8%AE%B2%E6%9C%BA+3%E5%A4%A9%E4%BC%97%E7%AD%B91000%25",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "应急管理部调派央企力量全力支持吉隆泥石流灾害抢险救援",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10689974.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +136,8 @@
       ]
     },
     {
-      "title": "中国建筑师马岩松主持设计的卢卡斯叙事艺术博物馆将在洛杉矶开馆",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-03/10689949.shtml",
+      "title": "中国羽毛球大师赛：男单世界第一乔纳坦爆冷出局",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-03/10689973.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +146,8 @@
       ]
     },
     {
-      "title": "卓越领军+青创上海 上海分层培育新时代民营企业家",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689948.shtml",
+      "title": "粤东持续强降雨 韩江发生2026年第1号洪水",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689972.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +156,8 @@
       ]
     },
     {
-      "title": "前8月义乌快件（跨境）监管中心累计出口额4.5亿美元",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689946.shtml",
+      "title": "每一分钟仿佛都长得不止60秒(记者手记)",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689969.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +166,18 @@
       ]
     },
     {
-      "title": "中国西部陆海新通道平陆运河开展通航前最大规模演练",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689945.shtml",
+      "title": "史前甘肃人群为何形成独特遗传演化和社会结构？古基因组研究揭示",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689968.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "【讲习所·中国与世界】习近平以4点主张推动上合组织实现更高质量发展",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689967.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +186,8 @@
       ]
     },
     {
-      "title": "中国中铁首批钢筋石笼助力西藏吉隆灾区道路修复",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689944.shtml",
+      "title": "南孔文化旅游季启幕 浙江衢州探索传统文化新表达",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689965.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +196,8 @@
       ]
     },
     {
-      "title": "青海大柴旦地震灾区全面复工复课复产",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689941.shtml",
+      "title": "京宁慈善协作再结硕果：“大爱正心·善行宁夏”公益活动在银川温情启幕",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689964.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +206,8 @@
       ]
     },
     {
-      "title": "粮食安全问题如何破解？多国水稻专家在滇共探新品种培育之法",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689907.shtml",
+      "title": "韩国光州双年展主办方顽固坚持错误做法 中方已提出严正交涉",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689961.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +216,28 @@
       ]
     },
     {
-      "title": "今年暑运期间北京铁警护航超8214万人次旅客平安出行",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689897.shtml",
+      "title": "【活力中国调研行】北纬45°黑土地跑出年轻态养生主食",
+      "url": "http://www.chinanews.com.cn/cj/shipin/cns-d/2026/09-03/news1067687.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（长征胜利90周年）一场持续到深夜的座谈会：老区问“难”，新阶层答“策”",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689960.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "浙江义乌的外籍版“邻里互助”：用志愿时长兑换中文课",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689958.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
