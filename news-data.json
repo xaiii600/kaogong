@@ -1,33 +1,43 @@
 {
   "date": "2026-09-03",
-  "time": "09:56",
-  "generatedAt": "2026-09-03T09:56:25.867Z",
+  "time": "14:38",
+  "generatedAt": "2026-09-03T14:38:01.186Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "广西持续优化住房消费政策 存量房交易日趋活跃",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689648.shtml",
+      "title": "2026中国航空金融（东疆）国际论坛天津举行 国际参与度创新高",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689951.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "international",
       "score": 3,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "三部门调拨中央救灾物资支持福建做好救灾救助工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689700.shtml",
+      "title": "马来西亚国家银行维持隔夜政策利率2.75%不变",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-03/10689928.shtml",
       "source": "中国新闻网",
       "cat": "policy",
-      "score": 1,
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "（长征胜利90周年）湖北红安：“红军粮”“红军布”变身富民产业",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689679.shtml",
+      "title": "2026中国（太原）国际能源产业博览会开幕",
+      "url": "https://www.chinanews.com.cn/tp/2026/09-03/10689937.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台企在江西：传统制造业智能化改造 鞋产品畅销海外市场",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689947.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,8 +46,8 @@
       ]
     },
     {
-      "title": "2026世界动力电池大会四川宜宾开幕 发布8项创新技术",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689660.shtml",
+      "title": "西安建大创新技术 为千年木构古建“无痛”加固",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689925.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -46,8 +56,38 @@
       ]
     },
     {
-      "title": "外交部正告日本右翼势力：坚持和平发展才是正道",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689669.shtml",
+      "title": "近300位嘉宾齐聚天津 共探智能体安全治理与产业发展新思路",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689922.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“重庆文旅农庄”品牌在渝发布 创新打造高品质乡村微度假目的地",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689912.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "长沙经开区精准送服务进企 万余名产业人才获评职称赋能发展",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689911.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026中国（太原）国际能博会开幕 海内外企业共话绿色未来",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689904.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -56,28 +96,8 @@
       ]
     },
     {
-      "title": "“沙德尔”减弱为热带低压 国家海洋预报台发布风暴潮警报解除通报",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689665.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国专家成功借量子纠缠提取粒子信息",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689659.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "墨西哥“大V”：国际社会对华印象正在发生巨大积极变化",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689666.shtml",
+      "title": "第二十一届中国国际中小企业博览会在广州开幕",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689896.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -86,28 +106,38 @@
       ]
     },
     {
-      "title": "外国友人被中国黑科技折服：“太舒服了，我怕每天睡过头”",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689661.shtml",
+      "title": "云南多举措撬动租车自驾游市场 让游客进得来、散得开、玩得透",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689940.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "教育局回应“家长晒纪委身份”",
-      "url": "https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E5%B1%80%E5%9B%9E%E5%BA%94%E2%80%9C%E5%AE%B6%E9%95%BF%E6%99%92%E7%BA%AA%E5%A7%94%E8%BA%AB%E4%BB%BD%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "society",
+      "title": "2026中国文化旅游产业博览会在天津开幕",
+      "url": "https://www.chinanews.com.cn/tp/2026/09-03/10689935.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "撬动7万亿大市场 先干了这件大事",
-      "url": "https://www.baidu.com/s?wd=%E6%92%AC%E5%8A%A87%E4%B8%87%E4%BA%BF%E5%A4%A7%E5%B8%82%E5%9C%BA+%E5%85%88%E5%B9%B2%E4%BA%86%E8%BF%99%E4%BB%B6%E5%A4%A7%E4%BA%8B",
+      "title": "天津武清百年非遗老汤飘香国际赛场",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689921.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "流感疫苗市场变天了",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%81%E6%84%9F%E7%96%AB%E8%8B%97%E5%B8%82%E5%9C%BA%E5%8F%98%E5%A4%A9%E4%BA%86",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -116,18 +146,18 @@
       ]
     },
     {
-      "title": "美国航母来了 泰国心情很复杂",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%88%AA%E6%AF%8D%E6%9D%A5%E4%BA%86+%E6%B3%B0%E5%9B%BD%E5%BF%83%E6%83%85%E5%BE%88%E5%A4%8D%E6%9D%82",
+      "title": "重庆机场集团反腐风暴",
+      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E6%9C%BA%E5%9C%BA%E9%9B%86%E5%9B%A2%E5%8F%8D%E8%85%90%E9%A3%8E%E6%9A%B4",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "“千里同好”，习近平历史性访问推动中埃关系再深化",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689692.shtml",
+      "title": "青海：“柴达木枸杞采摘”劳务品牌带动超10万民众增收",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689950.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +166,8 @@
       ]
     },
     {
-      "title": "中国政府第三批紧急援助物资运抵尼泊尔",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689688.shtml",
+      "title": "中国建筑师马岩松主持设计的卢卡斯叙事艺术博物馆将在洛杉矶开馆",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-03/10689949.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "河南许昌市“走民企 看发展 提信心”网络主题系列宣传活动举行",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689687.shtml",
+      "title": "卓越领军+青创上海 上海分层培育新时代民营企业家",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689948.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "河南开封市兰考县：四维发力优化营商环境护航企业发展",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689686.shtml",
+      "title": "前8月义乌快件（跨境）监管中心累计出口额4.5亿美元",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689946.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "2026中国羽毛球大师赛：韩国女单名将安洗莹淘汰中国小将韩千禧晋级1/4决赛",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-03/10689678.shtml",
+      "title": "中国西部陆海新通道平陆运河开展通航前最大规模演练",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689945.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "敦煌鸣沙山下农文旅融合 激活乡村“多元增收链”",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689682.shtml",
+      "title": "中国中铁首批钢筋石笼助力西藏吉隆灾区道路修复",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689944.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "从吃好到吃健康 金龙鱼的“大国食事”",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689676.shtml",
+      "title": "青海大柴旦地震灾区全面复工复课复产",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689941.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "相差81岁“老朋友”的跨时空友谊",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689677.shtml",
+      "title": "粮食安全问题如何破解？多国水稻专家在滇共探新品种培育之法",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689907.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,38 +236,8 @@
       ]
     },
     {
-      "title": "秀我中国丨“赛考斯”：我的心有一部分留在了中国",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689675.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "视频丨日本战争之“毒”不容掩盖 总台记者曝光日军毒气战罪证",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-03/10689674.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外国专家赞叹广州地铁：比东京伦敦巴黎更棒",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-03/10689673.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "民建潮安总支开展奖学助学活动 25名学子获帮扶",
-      "url": "https://www.chinanews.com.cn/txy/2026/09-03/10689671.shtml",
+      "title": "今年暑运期间北京铁警护航超8214万人次旅客平安出行",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-03/10689897.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
