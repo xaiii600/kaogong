@@ -1,13 +1,23 @@
 {
   "date": "2026-09-04",
-  "time": "00:10",
-  "generatedAt": "2026-09-04T00:10:35.650Z",
+  "time": "04:44",
+  "generatedAt": "2026-09-04T04:44:39.352Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美国30年期贷款利率升至6.71% 创一年多来最高值",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-04/10689992.shtml",
+      "title": "2026世界制造业大会将聚焦量子科技、具身智能等前沿产业",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690181.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "事关智能锁和养老机器人 我国智能家居国际标准化建设提速",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690172.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
@@ -16,9 +26,9 @@
       ]
     },
     {
-      "title": "深夜突发！美国AI大宕机",
-      "url": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%A4%9C%E7%AA%81%E5%8F%91%EF%BC%81%E7%BE%8E%E5%9B%BDAI%E5%A4%A7%E5%AE%95%E6%9C%BA",
-      "source": "百度热搜",
+      "title": "抖音生活服务快餐小吃行业峰会：交易额同比增长114%，消费需求和商家规模双增长",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690153.shtml",
+      "source": "中国新闻网",
       "cat": "international",
       "score": 2,
       "exams": [
@@ -26,8 +36,8 @@
       ]
     },
     {
-      "title": "陪诊师成为就业新选择",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690008.shtml",
+      "title": "涉及医药、能源等领域！第二批妨碍统一市场卡点堵点案件公布",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690187.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -36,18 +46,8 @@
       ]
     },
     {
-      "title": "人工智能中小企业创业支持计划启动",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10689994.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多国从美国运回黄金 专家：美元体系面临信任危机",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-04/10689982.shtml",
+      "title": "两项国标成功立项 我国深度参与动力电池国际标准制定",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690180.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -56,9 +56,9 @@
       ]
     },
     {
-      "title": "美国近期袭击已致伊朗18死142伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-04/10689979.shtml",
-      "source": "中国新闻网",
+      "title": "多国从美国运回黄金",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9B%BD%E4%BB%8E%E7%BE%8E%E5%9B%BD%E8%BF%90%E5%9B%9E%E9%BB%84%E9%87%91",
+      "source": "百度热搜",
       "cat": "international",
       "score": 1,
       "exams": [
@@ -66,8 +66,8 @@
       ]
     },
     {
-      "title": "AI短剧“千人一面”",
-      "url": "https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E2%80%9C%E5%8D%83%E4%BA%BA%E4%B8%80%E9%9D%A2%E2%80%9D",
+      "title": "OpenAI总裁宣布AGI到来",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E6%80%BB%E8%A3%81%E5%AE%A3%E5%B8%83AGI%E5%88%B0%E6%9D%A5",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -76,8 +76,8 @@
       ]
     },
     {
-      "title": "外交部：已向韩方提出严正交涉",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E5%B7%B2%E5%90%91%E9%9F%A9%E6%96%B9%E6%8F%90%E5%87%BA%E4%B8%A5%E6%AD%A3%E4%BA%A4%E6%B6%89",
+      "title": "美国将要求欧洲偿还援乌巨额资金",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%B0%86%E8%A6%81%E6%B1%82%E6%AC%A7%E6%B4%B2%E5%81%BF%E8%BF%98%E6%8F%B4%E4%B9%8C%E5%B7%A8%E9%A2%9D%E8%B5%84%E9%87%91",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "title": "OpenAI发布GPT-6 Astra",
-      "url": "https://www.baidu.com/s?wd=OpenAI%E5%8F%91%E5%B8%83GPT-6+Astra",
+      "title": "年薪可达百万！商业航天抢人",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%96%AA%E5%8F%AF%E8%BE%BE%E7%99%BE%E4%B8%87%EF%BC%81%E5%95%86%E4%B8%9A%E8%88%AA%E5%A4%A9%E6%8A%A2%E4%BA%BA",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -96,48 +96,18 @@
       ]
     },
     {
-      "title": "特斯拉Cybercab正式在美国投入运营",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89Cybercab%E6%AD%A3%E5%BC%8F%E5%9C%A8%E7%BE%8E%E5%9B%BD%E6%8A%95%E5%85%A5%E8%BF%90%E8%90%A5",
+      "title": "当地通报新校区多名学生头晕流鼻血",
+      "url": "https://www.baidu.com/s?wd=%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5%E6%96%B0%E6%A0%A1%E5%8C%BA%E5%A4%9A%E5%90%8D%E5%AD%A6%E7%94%9F%E5%A4%B4%E6%99%95%E6%B5%81%E9%BC%BB%E8%A1%80",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "流感疫苗市场变天了",
-      "url": "https://www.baidu.com/s?wd=%E6%B5%81%E6%84%9F%E7%96%AB%E8%8B%97%E5%B8%82%E5%9C%BA%E5%8F%98%E5%A4%A9%E4%BA%86",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "男子被贷款15年 签字指纹全是假的",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E8%B4%B7%E6%AC%BE15%E5%B9%B4+%E7%AD%BE%E5%AD%97%E6%8C%87%E7%BA%B9%E5%85%A8%E6%98%AF%E5%81%87%E7%9A%84",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国“林肯”号航母大面积锈蚀",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E2%80%9C%E6%9E%97%E8%82%AF%E2%80%9D%E5%8F%B7%E8%88%AA%E6%AF%8D%E5%A4%A7%E9%9D%A2%E7%A7%AF%E9%94%88%E8%9A%80",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏吉隆泥石流背后，警惕有人利用天灾浑水摸鱼！",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690018.shtml",
+      "title": "数十名埃及本土演员参演 《欢迎来龙餐馆》见证中埃人文影视深度交流",
+      "url": "https://www.chinanews.com.cn/cul/2026/09-04/10690198.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +116,8 @@
       ]
     },
     {
-      "title": "西藏吉隆镇各族民众守望相助共渡泥石流灾害难关",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10689987.shtml",
+      "title": "中国体育代表团秘书长：有信心有能力确保第12次蝉联亚运会金牌榜和奖牌榜首位",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-04/10690197.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +126,8 @@
       ]
     },
     {
-      "title": "离奇“战场串台”！美高官直播把伊朗记成委内瑞拉，说美军0死亡，特朗普紧急救场",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-04/10690013.shtml",
+      "title": "福建莆田因强降雨有人员失联",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690196.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +136,8 @@
       ]
     },
     {
-      "title": "孩子佩戴OK镜需要注意什么？",
-      "url": "https://www.chinanews.com.cn/jk/2026/09-04/10690011.shtml",
+      "title": "陈妤颉：争取登上亚运会最高领奖台",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-04/10690195.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +146,8 @@
       ]
     },
     {
-      "title": "带着实践成果去答辩，是什么体验",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-04/10690010.shtml",
+      "title": "西藏吉隆泥石流灾害核心区开展全面消杀工作",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690194.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +156,8 @@
       ]
     },
     {
-      "title": "开学第一课，从“空中校车”讲起",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-04/10690007.shtml",
+      "title": "中国国家医保局：全面实现分娩镇痛纳入医保报销",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690184.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +166,8 @@
       ]
     },
     {
-      "title": "为何越来越多的全球青年创业者扎根中国",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690006.shtml",
+      "title": "石家庄航空口岸首次设立生鲜类产品指定监管场地",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690183.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +176,8 @@
       ]
     },
     {
-      "title": "科学闪光者：给蚊子“去毒”20年",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690005.shtml",
+      "title": "江西启动防汛四级应急响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690193.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +186,8 @@
       ]
     },
     {
-      "title": "入境游定制师，在张家界款待世界",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690004.shtml",
+      "title": "国家免疫规划HPV疫苗免费接种，为何选在13周岁？专家解读",
+      "url": "https://www.chinanews.com.cn/jk/2026/09-04/10690191.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +196,8 @@
       ]
     },
     {
-      "title": "成分不明用后致敏，睫毛胶水安全隐患待解",
-      "url": "https://www.chinanews.com.cn/fz/2026/09-04/10690003.shtml",
+      "title": "青春华章｜“理直气壮开好思政课”",
+      "url": "https://www.chinanews.com.cn/edu/2026/09-04/10690190.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +206,38 @@
       ]
     },
     {
-      "title": "北京今天以晴为主最高温32℃ 周末两天气温略降",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690002.shtml",
+      "title": "应急管理部协调中国石油油品应急保供力量驰援西藏吉隆抢险救援",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690188.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "上半年支持城市更新减税降费及退税4870亿元",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-04/10690189.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "暴雨黄色预警持续！这些地区出行请注意防范",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-04/10690186.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "未来5年，医保报销、生育保险、长护险将有新变化！",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-04/10690185.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
