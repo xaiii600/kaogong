@@ -1,10 +1,20 @@
 {
   "date": "2026-09-05",
-  "time": "16:07",
-  "generatedAt": "2026-09-05T16:07:56.180Z",
+  "time": "18:25",
+  "generatedAt": "2026-09-05T18:25:26.016Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "中外专家共议地热脱碳：国际合作是发展关键",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-06/10691218.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "国际地热论坛：中外专家山西共议地热赋能低碳未来",
       "url": "https://www.chinanews.com.cn/gn/2026/09-05/10691204.shtml",
@@ -16,11 +26,21 @@
       ]
     },
     {
-      "title": "广东省人工智能核心产业规模突破3000亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10691181.shtml",
+      "title": "“天宫课堂·港澳专场”将开讲 神舟二十三号航天员乘组与学生“天地对话”",
+      "url": "https://www.chinanews.com.cn/dwq/2026/09-06/10691221.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "柬埔寨首届华文教育研讨会在金边举行 直面华校办学痛点",
+      "url": "https://www.chinanews.com.cn/hr/2026/09-06/10691219.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -86,26 +106,6 @@
       ]
     },
     {
-      "title": "与AI对话 向未来发问——“未来讲堂”全国科普月专场活动在北京举行",
-      "url": "https://www.chinanews.com.cn/edu/2026/09-05/10691176.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一个智库论坛如何解码中国边疆经济十年之变？",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10691175.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "新能源汽车动力电池将迎“退役潮”",
       "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0%E5%B0%86%E8%BF%8E%E2%80%9C%E9%80%80%E5%BD%B9%E6%BD%AE%E2%80%9D",
       "source": "百度热搜",
@@ -116,11 +116,71 @@
       ]
     },
     {
-      "title": "DeepSeek被曝将采购16万颗华为芯片",
-      "url": "https://www.baidu.com/s?wd=DeepSeek%E8%A2%AB%E6%9B%9D%E5%B0%86%E9%87%87%E8%B4%AD16%E4%B8%87%E9%A2%97%E5%8D%8E%E4%B8%BA%E8%8A%AF%E7%89%87",
+      "title": "《鲜花》被吐槽像菜市场买鲜花",
+      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E9%B2%9C%E8%8A%B1%E3%80%8B%E8%A2%AB%E5%90%90%E6%A7%BD%E5%83%8F%E8%8F%9C%E5%B8%82%E5%9C%BA%E4%B9%B0%E9%B2%9C%E8%8A%B1",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "economy",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "641名救援人员抵达江西遂川泥石流灾害现场开展搜救工作",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691226.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "乒乓球德甲第四轮：樊振东独得两分帮助球队四轮全胜",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-06/10691225.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "世界超级摩托车锦标赛法国站：“张雪机车”获第一回合季军",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-06/10691224.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国羽毛球大师赛：中国香港男单提前锁定冠亚军",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-06/10691223.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "台湾鲜果“朝摘夕至” 岛内文旦柚登陆南京",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-06/10691222.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "厦门口岸多措并举助力第二十六届投洽会旅客便捷通关",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691220.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -178,66 +238,6 @@
     {
       "title": "19国“Z世代”青年走进成都了解美丽中国生态故事",
       "url": "https://www.chinanews.com.cn/sh/2026/09-05/10691193.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美军称打击伊朗三艘油轮",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10691194.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外贸服务搬进宠博会 “浙里出海”助绍兴企业掘金新蓝海",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10691192.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海南省首批出口车型公开道路测试牌照落地 服务全国车企出海验证",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10691191.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云端牵线 线下结缘 “浙里幸福荟”助力青年觅良缘",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10691189.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家图书馆开展2026年度“文津好书中国行”广东站、横琴站系列活动",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-05/10691188.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（活力中国调研行）稻花香里说丰年 农文旅融出好“丰”景",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10691185.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
