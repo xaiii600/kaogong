@@ -1,43 +1,23 @@
 {
   "date": "2026-09-05",
-  "time": "04:40",
-  "generatedAt": "2026-09-05T04:40:15.290Z",
+  "time": "09:09",
+  "generatedAt": "2026-09-05T09:09:55.849Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "《中国—东盟主流媒体运河国际报道倡议书》发布 推动区域传播协作",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/09-05/10690858.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "五大人格与基因有何关联？国际最新研究识别1000多个相关遗传变异",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10690824.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（活力中国调研行）黑龙江孙吴：寒地养“好牛” 延伸肉牛产业链",
-      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10690843.shtml",
+      "title": "透过数据看8月大宗商品市场运行向好 企业生产经营活动按下“加速键”",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10690951.shtml",
       "source": "中国新闻网",
       "cat": "economy",
-      "score": 1,
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "一见·三个关键词看习主席中亚中东之行",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690849.shtml",
+      "title": "国际篮联北京三人篮球公开赛在通州开赛",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/09-05/1203241.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -46,8 +26,28 @@
       ]
     },
     {
-      "title": "好评中国|科技向新，高质量发展脉搏更有力",
-      "url": "https://www.chinanews.com.cn/ll/2026/09-05/10690842.shtml",
+      "title": "阿根廷就马岛问题启动对45家企业和个人的制裁程序",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10690974.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "时政纪录片丨志合山海 大道同行——习近平主席出席上合组织峰会并访问吉尔吉斯斯坦、埃及纪实",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690979.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "向新之翼丨科学的未来在青年——习近平总书记关心青年创新创造的故事",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690978.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -56,8 +56,18 @@
       ]
     },
     {
-      "title": "西藏吉隆：涉外金融服务不断档 跨境业务及时办",
-      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10690838.shtml",
+      "title": "兰州榆中官方通报“莴笋收购环节染色”：立案查处6家企业",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10690966.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国超大市场红利惠及全球",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10690964.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,8 +76,18 @@
       ]
     },
     {
-      "title": "专访｜“中国政府给予我们的支持是全方位的！”——访尼泊尔外交部长希西尔",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10690836.shtml",
+      "title": "亚太媒体高端论坛举办科技创新成果展",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690943.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“国际软法研讨会”在港举行",
+      "url": "https://www.chinanews.com.cn/dwq/2026/09-05/10690939.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -76,8 +96,18 @@
       ]
     },
     {
-      "title": "【活力中国调研行】黑龙江孙吴“链”式养牛 一头牛撬动一方产业",
-      "url": "http://www.chinanews.com.cn/cj/shipin/cns-d/2026/09-05/news1067822.shtml",
+      "title": "青春华章因创新更“燃”",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10690954.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "8月中国物流业景气指数为50.9%  市场预期回升",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10690932.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -86,10 +116,20 @@
       ]
     },
     {
-      "title": "未来五年医保改革划了哪些重点",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E5%8C%BB%E4%BF%9D%E6%94%B9%E9%9D%A9%E5%88%92%E4%BA%86%E5%93%AA%E4%BA%9B%E9%87%8D%E7%82%B9",
+      "title": "9000名选手星夜鏖战吉林国际越野跑山赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-05/10690928.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "兰州榆中通报莴笋收购环节染色",
+      "url": "https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E6%A6%86%E4%B8%AD%E9%80%9A%E6%8A%A5%E8%8E%B4%E7%AC%8B%E6%94%B6%E8%B4%AD%E7%8E%AF%E8%8A%82%E6%9F%93%E8%89%B2",
       "source": "百度热搜",
-      "cat": "policy",
+      "cat": "hot",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,20 +146,20 @@
       ]
     },
     {
-      "title": "“宇宙最大医院”连续3任院长落马",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%AE%87%E5%AE%99%E6%9C%80%E5%A4%A7%E5%8C%BB%E9%99%A2%E2%80%9D%E8%BF%9E%E7%BB%AD3%E4%BB%BB%E9%99%A2%E9%95%BF%E8%90%BD%E9%A9%AC",
+      "title": "OpenAI官宣将自研人形机器人",
+      "url": "https://www.baidu.com/s?wd=OpenAI%E5%AE%98%E5%AE%A3%E5%B0%86%E8%87%AA%E7%A0%94%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "日本请求俄拆纪念碑菊花纹章遭拒",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E8%AF%B7%E6%B1%82%E4%BF%84%E6%8B%86%E7%BA%AA%E5%BF%B5%E7%A2%91%E8%8F%8A%E8%8A%B1%E7%BA%B9%E7%AB%A0%E9%81%AD%E6%8B%92",
+      "title": "中建集团：坚决拥护党中央决定",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%BB%BA%E9%9B%86%E5%9B%A2%EF%BC%9A%E5%9D%9A%E5%86%B3%E6%8B%A5%E6%8A%A4%E5%85%9A%E4%B8%AD%E5%A4%AE%E5%86%B3%E5%AE%9A",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -136,6 +176,16 @@
       ]
     },
     {
+      "title": "补贴1亿！这一省会城市楼市政策调整",
+      "url": "https://www.baidu.com/s?wd=%E8%A1%A5%E8%B4%B41%E4%BA%BF%EF%BC%81%E8%BF%99%E4%B8%80%E7%9C%81%E4%BC%9A%E5%9F%8E%E5%B8%82%E6%A5%BC%E5%B8%82%E6%94%BF%E7%AD%96%E8%B0%83%E6%95%B4",
+      "source": "百度热搜",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
       "title": "制裁生效 中国稀土企业拒绝对美发货",
       "url": "https://www.baidu.com/s?wd=%E5%88%B6%E8%A3%81%E7%94%9F%E6%95%88+%E4%B8%AD%E5%9B%BD%E7%A8%80%E5%9C%9F%E4%BC%81%E4%B8%9A%E6%8B%92%E7%BB%9D%E5%AF%B9%E7%BE%8E%E5%8F%91%E8%B4%A7",
       "source": "百度热搜",
@@ -146,8 +196,8 @@
       ]
     },
     {
-      "title": "广东水利防汛防台风Ⅲ级应急响应调整为Ⅳ级应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690857.shtml",
+      "title": "携手同行——亚太媒体合作伙伴计划扬帆启程",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690997.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +206,8 @@
       ]
     },
     {
-      "title": "“苏BA”火热开赛",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-05/10690853.shtml",
+      "title": "走进安徽滁州，看中国制造的“较真”",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-05/10690993.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +216,8 @@
       ]
     },
     {
-      "title": "江西省遂川县高坪镇发生泥石流灾害 已造成1死11失联",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690860.shtml",
+      "title": "尼泊尔泥石流灾害中一名受困中国工人获救",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-05/10690986.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +226,8 @@
       ]
     },
     {
-      "title": "福建省降水减弱  终止防汛应急响应",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690855.shtml",
+      "title": "我国将加快建设“六张网”项目库",
+      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690984.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,58 +236,8 @@
       ]
     },
     {
-      "title": "“白云黄鹤”飞至莱茵河 武汉以文化为桥“觅知音”",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-05/10690852.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "玻利维亚一军营爆炸造成至少58人受伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10690828.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "吉林长春：民族乐器邂逅交响 解码中国神话精神内核",
-      "url": "https://www.chinanews.com.cn/cul/2026/09-05/10690845.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "以色列空袭黎巴嫩南部致5死23伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10690827.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "近镜头｜两大文明跨越时空的双向奔赴",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690859.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "时习之丨不断发展壮大的“上合大家庭”众行致远",
-      "url": "https://www.chinanews.com.cn/gn/2026/09-05/10690856.shtml",
+      "title": "壹视界·心相知丨在埃及，“中国元素”见证中埃友好",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-05/10690980.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
