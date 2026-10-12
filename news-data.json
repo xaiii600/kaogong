@@ -1,10 +1,80 @@
 {
-  "date": "2026-10-11",
-  "time": "20:23",
-  "generatedAt": "2026-10-11T20:23:44.185Z",
+  "date": "2026-10-12",
+  "time": "00:38",
+  "generatedAt": "2026-10-12T00:38:08.368Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "全国统一的数据产权登记制度正式实施 数据流通交易“有证可依”",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-12/10711177.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "特朗普宣布俄乌进入“能源停火”，泽连斯基回应",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711169.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "打卡跟练、大数据定制食谱……AI成职场人“减重搭子”",
+      "url": "https://www.chinanews.com.cn/life/2026/10-12/10711167.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI虚拟人代言产品“亲测有效”，是否站得住脚？专家说法",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711166.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗：美国接受伊方所提部分条件，但其回应“不够充分”",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711164.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "伊朗称美国已接受伊方所提部分条件",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711161.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沙特民航总局：达曼法赫德国王国际机场遭袭",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711159.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "波黑前部长会议主席：中国以长远眼光谋划未来",
       "url": "https://www.chinanews.com.cn/gj/2026/10-11/10711155.shtml",
@@ -26,29 +96,9 @@
       ]
     },
     {
-      "title": "中国·敦煌国际武术公开赛开幕 20余国选手“以武会友”",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-11/10711146.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "泰国前外长：乐见中方调停斡旋泰柬边境冲突",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-11/10711145.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（机遇香港）全球电竞市场升温 香港搭台对接全球买家觅商机",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-11/10711130.shtml",
-      "source": "中国新闻网",
+      "title": "央视曝投资1.2亿项目仅建5个棚",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E6%8A%95%E8%B5%841.2%E4%BA%BF%E9%A1%B9%E7%9B%AE%E4%BB%85%E5%BB%BA5%E4%B8%AA%E6%A3%9A",
+      "source": "百度热搜",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -76,38 +126,18 @@
       ]
     },
     {
-      "title": "特朗普：俄乌双方同意“能源停火”",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E4%BF%84%E4%B9%8C%E5%8F%8C%E6%96%B9%E5%90%8C%E6%84%8F%E2%80%9C%E8%83%BD%E6%BA%90%E5%81%9C%E7%81%AB%E2%80%9D",
+      "title": "食品安全法大修",
+      "url": "https://www.baidu.com/s?wd=%E9%A3%9F%E5%93%81%E5%AE%89%E5%85%A8%E6%B3%95%E5%A4%A7%E4%BF%AE",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "市监局通报烧烤店厨师吐漱口水",
-      "url": "https://www.baidu.com/s?wd=%E5%B8%82%E7%9B%91%E5%B1%80%E9%80%9A%E6%8A%A5%E7%83%A7%E7%83%A4%E5%BA%97%E5%8E%A8%E5%B8%88%E5%90%90%E6%BC%B1%E5%8F%A3%E6%B0%B4",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "江西立法杜绝 “新官不理旧账”",
-      "url": "https://www.baidu.com/s?wd=%E6%B1%9F%E8%A5%BF%E7%AB%8B%E6%B3%95%E6%9D%9C%E7%BB%9D+%E2%80%9C%E6%96%B0%E5%AE%98%E4%B8%8D%E7%90%86%E6%97%A7%E8%B4%A6%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "郑钦文创造历史 首夺中网女单冠军",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-12/10711158.shtml",
+      "title": "特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711180.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +146,8 @@
       ]
     },
     {
-      "title": "吉布提沿海移民船只倾覆事故死亡人数升至139人",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711157.shtml",
+      "title": "北方大部地区将有冷空气活动 西南地区东部江南北部等地有一次较强降水过程",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711174.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +156,8 @@
       ]
     },
     {
-      "title": "全球媒体聚焦 | “长征是值得非洲探讨的国家发展理念”",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711156.shtml",
+      "title": "WTT中国大满贯赛：中国选手王曼昱获得女单冠军",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-12/1207554.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +166,8 @@
       ]
     },
     {
-      "title": "IMF和世行年会将在曼谷举行 泰国加强安保和城市保障",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-11/10711153.shtml",
+      "title": "泽连斯基回应特朗普：乌克兰领导人应由乌人民决定",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711178.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +176,8 @@
       ]
     },
     {
-      "title": "中超第27轮：蓉城遭绝杀暂缓夺冠 海牛提前降级",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-11/10711154.shtml",
+      "title": "严惩“黑飞”幕后推手 网警侦破非法破解无人机案",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711176.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +186,8 @@
       ]
     },
     {
-      "title": "澳大利亚前总理陆克文：呼吁共建平等开放的亚太共同体",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-11/10711147.shtml",
+      "title": "沙特民航总局：11日利雅得机场再遭袭，致1死11伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711175.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +196,8 @@
       ]
     },
     {
-      "title": "WTT中国大满贯赛：王曼昱女单卫冕 国乒两冠收官",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-11/10711144.shtml",
+      "title": "东北虎带五崽、海南长臂猿扩群 首批国家公园交出五年生态答卷",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-12/10711173.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +206,8 @@
       ]
     },
     {
-      "title": "沙特主导联军称利雅得机场航站楼遭袭",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-11/10711149.shtml",
+      "title": "长假后“不想上班”，“节后综合征”如何破解？专家建议",
+      "url": "https://www.chinanews.com.cn/jk/2026/10-12/10711172.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +216,8 @@
       ]
     },
     {
-      "title": "2026上海网球大师赛：周意惜败胡尔卡奇 中国单打选手全部出局",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-11/10711143.shtml",
+      "title": "2026年中网：郑钦文首获女单冠军",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-12/1207541.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +226,8 @@
       ]
     },
     {
-      "title": "第三次中柬泰二轨对话会举行 推动落实抚仙会晤共识",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-11/10711142.shtml",
+      "title": "人这一辈子，一定要去一趟马鞍山：一半是铁水奔流，一半是诗仙明月",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711170.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,38 +236,8 @@
       ]
     },
     {
-      "title": "长春书写生态“立体答卷”：虎豹归林　笑语满河",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-11/10711141.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（文化新纪行）从一座古城读懂千年吴越",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-11/10711140.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "音乐剧《四十天》重庆站大幕开启 演绎“宜昌大撤退”实业救国史诗",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-11/10711139.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "郑钦文生涯首夺WTA1000级别赛事冠军",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-11/10711137.shtml",
+      "title": "真相来了丨所谓“金卡社保卡”是电信诈骗 不要轻信“升级骗局”",
+      "url": "https://www.chinanews.com.cn/fz/2026/10-12/10711168.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
