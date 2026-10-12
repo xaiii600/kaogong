@@ -1,83 +1,33 @@
 {
   "date": "2026-10-12",
-  "time": "00:38",
-  "generatedAt": "2026-10-12T00:38:08.368Z",
+  "time": "07:28",
+  "generatedAt": "2026-10-12T07:28:38.241Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "全国统一的数据产权登记制度正式实施 数据流通交易“有证可依”",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-12/10711177.shtml",
+      "title": "青海省国有资产投资管理有限公司副总经理冯鹏被查",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712018.shtml",
       "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "特朗普宣布俄乌进入“能源停火”，泽连斯基回应",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711169.shtml",
+      "title": "海口海关2026年数据库运维服务项目比选公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-12/10712015.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
+      "cat": "policy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "打卡跟练、大数据定制食谱……AI成职场人“减重搭子”",
-      "url": "https://www.chinanews.com.cn/life/2026/10-12/10711167.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI虚拟人代言产品“亲测有效”，是否站得住脚？专家说法",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711166.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗：美国接受伊方所提部分条件，但其回应“不够充分”",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711164.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "伊朗称美国已接受伊方所提部分条件",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711161.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "沙特民航总局：达曼法赫德国王国际机场遭袭",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711159.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "波黑前部长会议主席：中国以长远眼光谋划未来",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-11/10711155.shtml",
+      "title": "平孟海关关于2026年10月份“关领导接待日”的公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-12/10712050.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -86,10 +36,120 @@
       ]
     },
     {
-      "title": "“袁稻思源”杂交水稻智能育种平台长沙发布 AI赋能育种创新",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-11/10711148.shtml",
+      "title": "教育部：“十四五”期间全国职业教育经费增长23.3%",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-12/10712049.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第三轮第七批中央生态环境保护督察全面启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712043.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "教育部：我国已在32个国家共建了38家鲁班工坊",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-12/10712033.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "第三轮第七批中央生态环境保护督察启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712031.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "青茂海关视频监控系统新增摄像头和存储扩容项目成交公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-12/10712027.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "规模再创新高 2026世界职业院校技能大赛3.6万名选手参加",
+      "url": "https://www.chinanews.com.cn/edu/2026/10-12/10712010.shtml",
       "source": "中国新闻网",
       "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "赴一场“科技之旅” 京疆友谊“攻关”中生长",
+      "url": "https://www.chinanews.com.cn/txy/2026/10-12/10712024.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海口海关缉私局西海岸办公区消防安全评估项目比选成交公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-12/10712016.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "河南农业大学举办“石榴映农·同心红” 民族团结进步宣传教育活动启动仪式",
+      "url": "https://www.chinanews.com.cn/txy/2026/10-12/10711993.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沿黄观光路国际自行车赛迎来决胜赛段 中外骑手逐风黄河枣乡",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-12/10712012.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "王兴兴：犯的最大错误是还不够相信AI",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E5%85%B4%E5%85%B4%EF%BC%9A%E7%8A%AF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%94%99%E8%AF%AF%E6%98%AF%E8%BF%98%E4%B8%8D%E5%A4%9F%E7%9B%B8%E4%BF%A1AI",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中央暗访检查组质问：这儿怎么没铭牌",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%9A%97%E8%AE%BF%E6%A3%80%E6%9F%A5%E7%BB%84%E8%B4%A8%E9%97%AE%EF%BC%9A%E8%BF%99%E5%84%BF%E6%80%8E%E4%B9%88%E6%B2%A1%E9%93%AD%E7%89%8C",
+      "source": "百度热搜",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
@@ -106,28 +166,8 @@
       ]
     },
     {
-      "title": "胖东来施工现场 干净得像AI",
-      "url": "https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E6%96%BD%E5%B7%A5%E7%8E%B0%E5%9C%BA+%E5%B9%B2%E5%87%80%E5%BE%97%E5%83%8FAI",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中央考核巡查专家：你们这么挂灯没用",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E8%80%83%E6%A0%B8%E5%B7%A1%E6%9F%A5%E4%B8%93%E5%AE%B6%EF%BC%9A%E4%BD%A0%E4%BB%AC%E8%BF%99%E4%B9%88%E6%8C%82%E7%81%AF%E6%B2%A1%E7%94%A8",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "食品安全法大修",
-      "url": "https://www.baidu.com/s?wd=%E9%A3%9F%E5%93%81%E5%AE%89%E5%85%A8%E6%B3%95%E5%A4%A7%E4%BF%AE",
+      "title": "机器人给我们养老还有多远",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%BB%99%E6%88%91%E4%BB%AC%E5%85%BB%E8%80%81%E8%BF%98%E6%9C%89%E5%A4%9A%E8%BF%9C",
       "source": "百度热搜",
       "cat": "society",
       "score": 1,
@@ -136,8 +176,8 @@
       ]
     },
     {
-      "title": "特朗普宣布：新任白宫新闻秘书13日举行首次新闻发布会",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711180.shtml",
+      "title": "患者超1亿！教你4个动作自测关节健康",
+      "url": "https://www.chinanews.com.cn/jk/2026/10-12/10712048.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +186,8 @@
       ]
     },
     {
-      "title": "北方大部地区将有冷空气活动 西南地区东部江南北部等地有一次较强降水过程",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711174.shtml",
+      "title": "A股收评：超4300只个股飘绿，三大指数集体收跌",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-12/10712046.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +196,8 @@
       ]
     },
     {
-      "title": "WTT中国大满贯赛：中国选手王曼昱获得女单冠军",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-12/1207554.shtml",
+      "title": "中国商务部介绍中欧混动汽车、电动汽车磋商共识",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-12/10712045.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +206,8 @@
       ]
     },
     {
-      "title": "泽连斯基回应特朗普：乌克兰领导人应由乌人民决定",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711178.shtml",
+      "title": "全国多地同步开展罚没走私烟草集中销毁活动",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-12/10712039.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +216,8 @@
       ]
     },
     {
-      "title": "严惩“黑飞”幕后推手 网警侦破非法破解无人机案",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711176.shtml",
+      "title": "阿尔及利亚逮捕61名摩洛哥公民 称其涉嫌策划破坏活动",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10712021.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +226,8 @@
       ]
     },
     {
-      "title": "沙特民航总局：11日利雅得机场再遭袭，致1死11伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10711175.shtml",
+      "title": "特朗普称乌克兰应该换总统 英大臣：我们支持泽连斯基",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-12/10712038.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,48 +236,8 @@
       ]
     },
     {
-      "title": "东北虎带五崽、海南长臂猿扩群 首批国家公园交出五年生态答卷",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-12/10711173.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "长假后“不想上班”，“节后综合征”如何破解？专家建议",
-      "url": "https://www.chinanews.com.cn/jk/2026/10-12/10711172.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年中网：郑钦文首获女单冠军",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-12/1207541.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "人这一辈子，一定要去一趟马鞍山：一半是铁水奔流，一半是诗仙明月",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711170.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "真相来了丨所谓“金卡社保卡”是电信诈骗 不要轻信“升级骗局”",
-      "url": "https://www.chinanews.com.cn/fz/2026/10-12/10711168.shtml",
+      "title": "草原深处，两个红色符号的守望",
+      "url": "https://www.chinanews.com.cn/txy/2026/10-12/10712029.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
