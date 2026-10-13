@@ -1,23 +1,43 @@
 {
   "date": "2026-10-13",
-  "time": "07:49",
-  "generatedAt": "2026-10-13T07:49:38.662Z",
+  "time": "16:07",
+  "generatedAt": "2026-10-13T16:07:31.322Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "向民众返还财物37.4亿元 安徽亮出五年反腐民生账本",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713698.shtml",
+      "title": "第七届“一带一路”税收征管合作论坛在雅加达开幕",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/10-13/10714088.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "international",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "我国牵头制定的电气继电器线圈特性测试国际标准发布",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713774.shtml",
+      "title": "浙江交通观察：高速“穿针引线”催热“桂花经济”",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714080.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩国KOSPI指数收跌超5% 两大半导体股延续跌势",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714095.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2025年欧盟进口纯电动汽车逾四成来自中国",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714093.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -26,8 +46,8 @@
       ]
     },
     {
-      "title": "拉萨：织密救助保障网 守好困难群众“民生线”",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713700.shtml",
+      "title": "聚焦“急难愁盼” 广西织密医保民生保障网",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10714089.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -36,18 +56,8 @@
       ]
     },
     {
-      "title": "青海省国有资产投资管理有限公司原总经理郝立华被开除党籍",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713771.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI时代，为什么我们更需要创意写作？",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-13/10713694.shtml",
+      "title": "中国科技企业华为：未来10年逻辑折叠技术具备持续演进空间",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714086.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -56,28 +66,28 @@
       ]
     },
     {
-      "title": "龙邦海关关于发布2026年10月份“关领导接待日”的公告",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-13/10713770.shtml",
+      "title": "新兴市场客商组团赴浙江金华“淘货” 意向订单超1亿元",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-13/10714081.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "上下楼就是上下游 合肥零碳中心构建全球领先零碳技术生态圈",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713692.shtml",
+      "title": "海河流域AI短临预报模型在天津发布 每6分钟更新未来3小时预报",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10714079.shtml",
       "source": "中国新闻网",
-      "cat": "society",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "俄罗斯博主组团来琼 向俄语区“种草”海南",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713688.shtml",
+      "title": "京津冀首趟“一单制”国际铁公联运班列石家庄首发",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714073.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -86,89 +96,9 @@
       ]
     },
     {
-      "title": "“合肥造”机器人加速走向海内外市场",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713719.shtml",
+      "title": "多国议员天津行：民声直达立法 技能联通世界",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10714066.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新能源汽车月度出口占比连续四个月超50%",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713757.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（经济观察）不靠海的重庆，如何让 “渝车” 驶向世界？",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713703.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "开局之年看中国·潮涌荆楚｜拆除网箱后，这条鱼游向全球产业标杆",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713745.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新质生产力顶层设计出炉 释放多重产业信号",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713732.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "孩子越来越笨 AI正在惩罚下一代",
-      "url": "https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E8%B6%8A%E6%9D%A5%E8%B6%8A%E7%AC%A8+AI%E6%AD%A3%E5%9C%A8%E6%83%A9%E7%BD%9A%E4%B8%8B%E4%B8%80%E4%BB%A3",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "马克林去世 外交部：深切哀悼",
-      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E5%85%8B%E6%9E%97%E5%8E%BB%E4%B8%96+%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E6%B7%B1%E5%88%87%E5%93%80%E6%82%BC",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "公司称AI女偶像因怀孕暂停活动",
-      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E7%A7%B0AI%E5%A5%B3%E5%81%B6%E5%83%8F%E5%9B%A0%E6%80%80%E5%AD%95%E6%9A%82%E5%81%9C%E6%B4%BB%E5%8A%A8",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中央暗访检查组专家：这样放肯定不行",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E6%9A%97%E8%AE%BF%E6%A3%80%E6%9F%A5%E7%BB%84%E4%B8%93%E5%AE%B6%EF%BC%9A%E8%BF%99%E6%A0%B7%E6%94%BE%E8%82%AF%E5%AE%9A%E4%B8%8D%E8%A1%8C",
-      "source": "百度热搜",
       "cat": "policy",
       "score": 1,
       "exams": [
@@ -176,8 +106,68 @@
       ]
     },
     {
-      "title": "第二经济大省“开抢”年轻人",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%BA%8C%E7%BB%8F%E6%B5%8E%E5%A4%A7%E7%9C%81%E2%80%9C%E5%BC%80%E6%8A%A2%E2%80%9D%E5%B9%B4%E8%BD%BB%E4%BA%BA",
+      "title": "平陆运河荣膺绿色设计界“奥斯卡” 生态优先理念获国际肯定",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10714087.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "内河航道国际组织主席：灵渠历经2000多年保存完好堪称典范",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10714084.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "赵乐际分别会见博茨瓦纳总统博科、多哥部长会议主席福雷",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10714075.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "习近平会见多哥部长会议主席福雷",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10714061.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "4800元学习机AI讲题6遍讲出6个样",
+      "url": "https://www.baidu.com/s?wd=4800%E5%85%83%E5%AD%A6%E4%B9%A0%E6%9C%BAAI%E8%AE%B2%E9%A2%986%E9%81%8D%E8%AE%B2%E5%87%BA6%E4%B8%AA%E6%A0%B7",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆市原市长黄奇帆被查",
+      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E5%B8%82%E5%8E%9F%E5%B8%82%E9%95%BF%E9%BB%84%E5%A5%87%E5%B8%86%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "苹果正式进军智能家居市场",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E6%AD%A3%E5%BC%8F%E8%BF%9B%E5%86%9B%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85%E5%B8%82%E5%9C%BA",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -186,8 +176,18 @@
       ]
     },
     {
-      "title": "广西北海海警局5天连续查获4起走私案件 案值约500万元",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713704.shtml",
+      "title": "国考报名今开始：拟招3.57万人，打击“公考围岗”",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714094.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "国考"
+      ]
+    },
+    {
+      "title": "柬埔寨亡人节三天假期吸引国内外游客逾216万人次",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-13/10714092.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "广西在防城港市公开销毁罚没走私烟草6000万支",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713702.shtml",
+      "title": "在吉林市“护好一湖清水 守好一片青山”",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10714090.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "安徽保持惩治腐败高压态势 5年来立案厅级干部363人",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713693.shtml",
+      "title": "“2026天下甬商家乡行”在宁波启幕 甬港协同成势",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714083.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "赵增连同志任职",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713773.shtml",
+      "title": "大型原创历史舞台剧《大儒张载》升级版亮相第十一届陕西省艺术节",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-13/10714082.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "聚焦现代医学、电动汽车、工业城市 “自然图书”将首批出版三部专著",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10713715.shtml",
+      "title": "雄安新区首单“保税+TIR”业务启运",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-13/10714074.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "四川解读《美丽四川建设“十五五”规划》：聚焦建设美丽中国先行区",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713753.shtml",
+      "title": "多国议员参访天津：老厂房里听岁月 古街巷中见生活",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-13/10714071.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
