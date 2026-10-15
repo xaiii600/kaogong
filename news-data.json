@@ -1,10 +1,50 @@
 {
   "date": "2026-10-15",
-  "time": "15:07",
-  "generatedAt": "2026-10-15T15:07:44.808Z",
+  "time": "19:15",
+  "generatedAt": "2026-10-15T19:15:03.106Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "日本记者涉间谍活动在俄被捕 俄方驳回日方交涉",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715373.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "哥伦比亚一国际客运大巴翻车 致4死56伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-15/10715368.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "一堂课、两场展、七十年——走进中央社会主义学院建院70周年开放日活动",
+      "url": "https://www.chinanews.com.cn/txy/2026/10-15/10715364.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "共探海洋产业升级路径 福建东山举办“做好‘海’的文章”水产品购销暨海洋经济招商大会",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715363.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "四川省达州市政协原党组书记陈文胜被“双开”",
       "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715201.shtml",
@@ -36,46 +76,6 @@
       ]
     },
     {
-      "title": "荷兰企业赴浙江觅新机 共拓机器人产业新蓝海",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715333.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "香港首个具身智能国际应用训练场开幕",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-15/10715331.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中国上海国际艺术节举办国际演艺大会 中外艺术机构达成多项合作",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-15/10715321.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "闻香识邛崃 海外华媒解码邛崃酒产业发展新势能",
-      "url": "https://www.chinanews.com.cn/hr/2026/10-15/10715346.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "香港警方通报珠宝大劫案：拘捕1男1女",
       "url": "https://www.baidu.com/s?wd=%E9%A6%99%E6%B8%AF%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E7%8F%A0%E5%AE%9D%E5%A4%A7%E5%8A%AB%E6%A1%88%EF%BC%9A%E6%8B%98%E6%8D%951%E7%94%B71%E5%A5%B3",
       "source": "百度热搜",
@@ -86,21 +86,71 @@
       ]
     },
     {
-      "title": "泽连斯基称乌克兰遭美国背叛",
-      "url": "https://www.baidu.com/s?wd=%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E7%A7%B0%E4%B9%8C%E5%85%8B%E5%85%B0%E9%81%AD%E7%BE%8E%E5%9B%BD%E8%83%8C%E5%8F%9B",
+      "title": "美光科技转涨 此前一度跌超6%",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%85%89%E7%A7%91%E6%8A%80%E8%BD%AC%E6%B6%A8+%E6%AD%A4%E5%89%8D%E4%B8%80%E5%BA%A6%E8%B7%8C%E8%B6%856%25",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "官方通报两人赴泰国旅游意外死亡",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E4%B8%A4%E4%BA%BA%E8%B5%B4%E6%B3%B0%E5%9B%BD%E6%97%85%E6%B8%B8%E6%84%8F%E5%A4%96%E6%AD%BB%E4%BA%A1",
-      "source": "百度热搜",
+      "title": "也门官员称胡塞武装袭击亚丁总统府致3人死亡",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715372.shtml",
+      "source": "中国新闻网",
       "cat": "hot",
-      "score": 1,
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "日本启动调查在东京附近设立核废料填埋场",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-15/10715370.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沙特称胡塞武装对利雅得机场袭击致17死333伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-15/10715369.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-15/10715366.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海口海关完成海南首家AEO高级认证企业简易复核",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715362.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "探寻乡村发展变迁 海峡两岸媒体来湘联合采访启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715360.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -126,7 +176,7 @@
       ]
     },
     {
-      "title": "【东盟专线】（活力中国）数智加持 “柳州造” 借平陆运河出海东盟",
+      "title": "（活力中国）数智加持 “柳州造” 借平陆运河出海东盟",
       "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10715358.shtml",
       "source": "中国新闻网",
       "cat": "hot",
@@ -188,56 +238,6 @@
     {
       "title": "王毅同阿塞拜疆外长巴伊拉莫夫会谈",
       "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715335.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "比亚迪敲定马来西亚组装伙伴 转用现有厂房推进本地生产",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715355.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海南自贸港封关以来珍珠加工增值内销货值破亿",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715356.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "通信感知网开通运行 中国渤海海域5G网络覆盖率超80%",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715350.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "甘肃讨赖河绿洲灌溉系统见证两千年水利开发史",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-15/10715349.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "运力追着客流跑 国铁广州局五年到发旅客逾52亿人次",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10715348.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
