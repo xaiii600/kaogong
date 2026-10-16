@@ -1,13 +1,23 @@
 {
   "date": "2026-10-16",
-  "time": "07:19",
-  "generatedAt": "2026-10-16T07:19:59.831Z",
+  "time": "12:34",
+  "generatedAt": "2026-10-16T12:34:03.822Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "2026天津五大道金融论坛开幕 聚焦“大国创新与金融强国”",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715664.shtml",
+      "title": "国际葡萄酒业者探访宁夏贺兰山东麓  深化产业交流",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715937.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆以科技奖励赋能产业创新  近五年“三大奖”授奖625项",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715928.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -16,18 +26,8 @@
       ]
     },
     {
-      "title": "国家发展改革委等三部门完善养老服务价格政策",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715657.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国资源循环企业齐聚天津 助力京津冀产业创新",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715654.shtml",
+      "title": "（乡村行·看振兴）科技创新赋能 浙江龙泉千年灵芝产业加速发展",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715896.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -36,8 +36,18 @@
       ]
     },
     {
-      "title": "上交所：大力提升资本市场服务新质生产力的发展质效",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715665.shtml",
+      "title": "中国药都樟树办“药交会” 发布中药材AI检测大模型",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715939.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆办专场招聘活动拓青年就业渠道",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715929.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -46,9 +56,69 @@
       ]
     },
     {
-      "title": "南通警方通报：驾驶员因操作不当碰撞路人致1死4伤，已被公安机关依法控制",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715616.shtml",
+      "title": "前三季度北京新增实体首店766家 消费版图加速扩容",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715926.shtml",
       "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆大学教授深耕机械传动领域35载 获重庆市“科技突出贡献奖”",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715909.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "打造闽台短剧产业合作新标杆 福建漳州首个专业短剧实景片场启用",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715904.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“向彼、向实、向未来” 评中欧贸易投资磋商机制第二次例会成果",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715902.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "李强主持召开国务院常务会议",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715918.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "存款利率普遍上调了",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E6%99%AE%E9%81%8D%E4%B8%8A%E8%B0%83%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "曲家文被查 已退休三年多",
+      "url": "https://www.baidu.com/s?wd=%E6%9B%B2%E5%AE%B6%E6%96%87%E8%A2%AB%E6%9F%A5+%E5%B7%B2%E9%80%80%E4%BC%91%E4%B8%89%E5%B9%B4%E5%A4%9A",
+      "source": "百度热搜",
       "cat": "hot",
       "score": 1,
       "exams": [
@@ -56,19 +126,9 @@
       ]
     },
     {
-      "title": "5年430项惠青政策 黑龙江“青年朋友圈”聚力东北振兴发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715658.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我国已建成规模最大职业教育体系 产教融合赋能新质生产力",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-16/10715661.shtml",
-      "source": "中国新闻网",
+      "title": "男子凌晨炖鱼睡着 醒来鱼已碳化",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E5%87%8C%E6%99%A8%E7%82%96%E9%B1%BC%E7%9D%A1%E7%9D%80+%E9%86%92%E6%9D%A5%E9%B1%BC%E5%B7%B2%E7%A2%B3%E5%8C%96",
+      "source": "百度热搜",
       "cat": "society",
       "score": 1,
       "exams": [
@@ -76,29 +136,9 @@
       ]
     },
     {
-      "title": "中国邮政储蓄银行原副行长曲家文被查",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715653.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026世界航海装备大会福州开幕 聚焦全球可持续海事创新",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715649.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "总投资超20亿元！中沙古雷乙烯项目关键配套工程建成投产",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715648.shtml",
-      "source": "中国新闻网",
+      "title": "山东煎饼盯上粮食产业下一个风口",
+      "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E4%B8%9C%E7%85%8E%E9%A5%BC%E7%9B%AF%E4%B8%8A%E7%B2%AE%E9%A3%9F%E4%BA%A7%E4%B8%9A%E4%B8%8B%E4%B8%80%E4%B8%AA%E9%A3%8E%E5%8F%A3",
+      "source": "百度热搜",
       "cat": "economy",
       "score": 1,
       "exams": [
@@ -106,28 +146,8 @@
       ]
     },
     {
-      "title": "中外研究团队在量子声学领域获重大实验进展",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715647.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美媒眼馋：中国造出了美国人喜欢的车",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%AA%92%E7%9C%BC%E9%A6%8B%EF%BC%9A%E4%B8%AD%E5%9B%BD%E9%80%A0%E5%87%BA%E4%BA%86%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%96%9C%E6%AC%A2%E7%9A%84%E8%BD%A6",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国防部：中方将以有力行动遏制任何祸乱南海的行径",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715674.shtml",
+      "title": "“粤艇南下”首航 粤港游艇双向游拓展大湾区优质生活圈",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-16/10715935.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +156,8 @@
       ]
     },
     {
-      "title": "国防部：菲个别政客为一己私利破坏中菲两国两军关系",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715673.shtml",
+      "title": "广交会观察：中国具身智能机器人走向车间",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715934.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +166,8 @@
       ]
     },
     {
-      "title": "纪念孙中山诞辰160周年 “革命的隐君子——宋耀如”展览在沪开幕",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715663.shtml",
+      "title": "让民歌“活”起来 2026北京传统音乐节开幕",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-16/10715933.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +176,8 @@
       ]
     },
     {
-      "title": "国防部：日方唯有真诚悔罪 才能真正面向未来",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715671.shtml",
+      "title": "“我的赶考行”西柏坡主题红色研学活动在河北平山启动",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715932.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +186,8 @@
       ]
     },
     {
-      "title": "中国大唐集团原湖南分公司党组副书记魏远接受审查调查",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715666.shtml",
+      "title": "2026 Velosolutions UCI泵道世锦赛总决赛在京开赛",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-16/10715925.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +196,8 @@
       ]
     },
     {
-      "title": "第五届雄安·雄州文化艺术节启幕",
-      "url": "https://www.chinanews.com.cn/tp/2026/10-16/10715655.shtml",
+      "title": "新疆兵团第六师五家渠市构建城乡融合发展新格局",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715923.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +206,8 @@
       ]
     },
     {
-      "title": "中国驻菲律宾大使回应菲防长涉华谬论：究竟谁才是麻烦制造者？",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715660.shtml",
+      "title": "智能服务暖客商 航空公司“加码”服务第140届广交会",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715922.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +216,8 @@
       ]
     },
     {
-      "title": "风口上的景区NPC，职业化标准如何建立？",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715662.shtml",
+      "title": "联美控股：公司及相关股东被证监会立案",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715920.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +226,8 @@
       ]
     },
     {
-      "title": "侨乡揭阳邀请全球潮人回家“接福”",
-      "url": "https://www.chinanews.com.cn/hr/2026/10-16/10715659.shtml",
+      "title": "中国民航冬春航季将启 冰雪游、避寒游目的地加密航线",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715911.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,28 +236,8 @@
       ]
     },
     {
-      "title": "“岭南烽火 长征印记——红军长征在广东档案史料展”开幕",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715656.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "专家学者厦门探讨月港申遗",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715650.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年1月至9月我国发布国家标准外文版620项",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715646.shtml",
+      "title": "截至2025年底 我国户外运动参与人数超5亿",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-16/10715936.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
