@@ -1,63 +1,33 @@
 {
-  "date": "2026-10-15",
-  "time": "22:28",
-  "generatedAt": "2026-10-15T22:28:13.631Z",
+  "date": "2026-10-16",
+  "time": "01:30",
+  "generatedAt": "2026-10-16T01:30:01.818Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "美国俄勒冈州本德市一所小学发生枪击事件",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715377.shtml",
+      "title": "央行发布最新金融数据，这些看点值得关注！",
+      "url": "https://www.chinanews.com.cn/gsztc/2026/10-16/10715419.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "美货运“龙”飞船与国际空间站对接",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715375.shtml",
+      "title": "美国9月零售销售额环比增长0.8% 好于市场预期",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715390.shtml",
       "source": "中国新闻网",
       "cat": "international",
-      "score": 1,
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "联合国安理会谴责胡塞武装跨境袭击民用设施",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715374.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日本记者涉间谍活动在俄被捕 俄方驳回日方交涉",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715373.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "哥伦比亚一国际客运大巴翻车 致4死56伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-15/10715368.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "一堂课、两场展、七十年——走进中央社会主义学院建院70周年开放日活动",
-      "url": "https://www.chinanews.com.cn/txy/2026/10-15/10715364.shtml",
+      "title": "河池海关关于开展2026年10月“关领导接待日”的公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-16/10715428.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -66,8 +36,18 @@
       ]
     },
     {
-      "title": "共探海洋产业升级路径 福建东山举办“做好‘海’的文章”水产品购销暨海洋经济招商大会",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715363.shtml",
+      "title": "《亚信第七次峰会宣言》（全文）",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715427.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "千年窑火遇上非遗味道 河北峰峰一道“窑工饭”激活古镇新经济",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715417.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -76,8 +56,8 @@
       ]
     },
     {
-      "title": "四川省达州市政协原党组书记陈文胜被“双开”",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715201.shtml",
+      "title": "硕龙海关关于开展2026年10月份“关领导接待日”的公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-16/10715425.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -86,8 +66,8 @@
       ]
     },
     {
-      "title": "（投资中国）阿科玛集团董事长：中国市场对洞察应用趋势和客户需求尤为关键",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715352.shtml",
+      "title": "财政部将于10月在香港发行155亿元人民币国债",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715411.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -96,8 +76,18 @@
       ]
     },
     {
-      "title": "前三季度四川货物贸易进出口总值增长6.3%",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10715354.shtml",
+      "title": "湖南省株洲市政协原副主席彭新军接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715409.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中欧达成谅解，将如何影响汽车产业？",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-16/10715412.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -106,18 +96,48 @@
       ]
     },
     {
-      "title": "香港警方通报珠宝大劫案：拘捕1男1女",
-      "url": "https://www.baidu.com/s?wd=%E9%A6%99%E6%B8%AF%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E7%8F%A0%E5%AE%9D%E5%A4%A7%E5%8A%AB%E6%A1%88%EF%BC%9A%E6%8B%98%E6%8D%951%E7%94%B71%E5%A5%B3",
-      "source": "百度热搜",
-      "cat": "hot",
+      "title": "钦州港海关2026年10月份“关长接待日”公告",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-16/10715405.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "美光科技转涨 此前一度跌超6%",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%85%89%E7%A7%91%E6%8A%80%E8%BD%AC%E6%B6%A8+%E6%AD%A4%E5%89%8D%E4%B8%80%E5%BA%A6%E8%B7%8C%E8%B6%856%25",
+      "title": "中方呼吁解决中东矛盾根源 纠正巴勒斯坦历史不公",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715391.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "冷空气发威北方大部气温将创新低 大范围雨雪明起进入最强时段",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715396.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从百年巴黎车展看国产品牌出海——中国车企，加速布局欧洲市场",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-16/10715395.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国内一半AI算力被指在造爽剧",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%86%85%E4%B8%80%E5%8D%8AAI%E7%AE%97%E5%8A%9B%E8%A2%AB%E6%8C%87%E5%9C%A8%E9%80%A0%E7%88%BD%E5%89%A7",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -126,8 +146,68 @@
       ]
     },
     {
-      "title": "英法海底隧道法国入口处客车与列车相撞致19人伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715376.shtml",
+      "title": "AI学会“逆向” 软件的天要塌了吗",
+      "url": "https://www.baidu.com/s?wd=AI%E5%AD%A6%E4%BC%9A%E2%80%9C%E9%80%86%E5%90%91%E2%80%9D+%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%A4%A9%E8%A6%81%E5%A1%8C%E4%BA%86%E5%90%97",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "殷玉珍站上联合国领奖台",
+      "url": "https://www.baidu.com/s?wd=%E6%AE%B7%E7%8E%89%E7%8F%8D%E7%AB%99%E4%B8%8A%E8%81%94%E5%90%88%E5%9B%BD%E9%A2%86%E5%A5%96%E5%8F%B0",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "又一个千万人口大市要来了",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E4%B8%AA%E5%8D%83%E4%B8%87%E4%BA%BA%E5%8F%A3%E5%A4%A7%E5%B8%82%E8%A6%81%E6%9D%A5%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "车行老板：油车比新能源车更保值",
+      "url": "https://www.baidu.com/s?wd=%E8%BD%A6%E8%A1%8C%E8%80%81%E6%9D%BF%EF%BC%9A%E6%B2%B9%E8%BD%A6%E6%AF%94%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E6%9B%B4%E4%BF%9D%E5%80%BC",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "有人用AI复刻出Adobe全家桶",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%89%E4%BA%BA%E7%94%A8AI%E5%A4%8D%E5%88%BB%E5%87%BAAdobe%E5%85%A8%E5%AE%B6%E6%A1%B6",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄方首次公开音乐厅恐袭事件现场视频",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E6%96%B9%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E9%9F%B3%E4%B9%90%E5%8E%85%E6%81%90%E8%A2%AD%E4%BA%8B%E4%BB%B6%E7%8E%B0%E5%9C%BA%E8%A7%86%E9%A2%91",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "这8所学校“零近视”，做对了什么",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715432.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +216,8 @@
       ]
     },
     {
-      "title": "也门官员称胡塞武装袭击亚丁总统府致3人死亡",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-16/10715372.shtml",
+      "title": "（长征胜利90周年）从延安来，守护“另一条路”",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715423.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +226,8 @@
       ]
     },
     {
-      "title": "日本启动调查在东京附近设立核废料填埋场",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-15/10715370.shtml",
+      "title": "海外川渝籍社团会长联席会在曼谷举办年会",
+      "url": "https://www.chinanews.com.cn/hr/2026/10-16/10715426.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,88 +236,8 @@
       ]
     },
     {
-      "title": "沙特称胡塞武装对利雅得机场袭击致17死333伤",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-15/10715369.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国产剧出海“四剑客”齐发力：从“零星出海”走向“规模化登陆”",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-15/10715366.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "海口海关完成海南首家AEO高级认证企业简易复核",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-15/10715362.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "探寻乡村发展变迁 海峡两岸媒体来湘联合采访启动",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715360.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "王毅会见巴勒斯坦外长：坚定支持巴人民争取恢复民族合法权利的正义事业",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715361.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "深圳市退役军人无偿献血品牌活动启动",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715359.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（活力中国）数智加持 “柳州造” 借平陆运河出海东盟",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-15/10715358.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "西藏大学驻村工作队为高原群众免费筛查高原适应性调节功能",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-15/10715353.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "8月台湾制造业加班工时创46年同月新高",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-15/10715351.shtml",
+      "title": "（长征胜利90周年）大山里的“铁公交”",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-16/10715420.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
