@@ -1,73 +1,13 @@
 {
   "date": "2026-10-19",
-  "time": "10:57",
-  "generatedAt": "2026-10-19T10:57:09.220Z",
+  "time": "17:34",
+  "generatedAt": "2026-10-19T17:34:44.495Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "外媒关注中国经济数据：展现强大韧性 全年增长目标有望顺利实现",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717337.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "工业和信息化部：深入实施“人工智能+制造” 助力商品消费提质升级",
-      "url": "https://www.chinanews.com.cn/kong/2026/10-19/10717320.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家外汇局拟推出一批增量措施支持企业参与国际市场",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717299.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "兴安盟牛产业“链”出致富路",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717336.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "A股机器人相关板块周一走强 宇树科技股价大涨",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717329.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "单德朋：石椅村给民族地区乡村振兴带来了哪些启示？",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717321.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖北鄂州花湖机场首次保障国际文物珍品跨境运输",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717307.shtml",
+      "title": "欧盟今年前9个月非法入境人次同比下降近三分之一",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717538.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -76,18 +16,8 @@
       ]
     },
     {
-      "title": "新疆电网首次实现输电工程全流程数字化验收",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717304.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "湖南江华建99所村级养老中心 互助养老温暖瑶山老人",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717302.shtml",
+      "title": "柬埔寨正式启动“超级污染物减排加速计划”",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717534.shtml",
       "source": "中国新闻网",
       "cat": "society",
       "score": 1,
@@ -96,10 +26,110 @@
       ]
     },
     {
-      "title": "韩国养老金“血亏”一万亿",
-      "url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E5%85%BB%E8%80%81%E9%87%91%E2%80%9C%E8%A1%80%E4%BA%8F%E2%80%9D%E4%B8%80%E4%B8%87%E4%BA%BF",
+      "title": "8国学者齐聚重庆研讨“人工智能时代的肿瘤免疫学”",
+      "url": "https://www.chinanews.com.cn/jk/2026/10-19/10717529.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国统一大市场下的郑州经开区以何招商？",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717526.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏芒康举办葡萄酒产业高质量发展座谈暨产销对接会",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717522.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "“世界瓷都”福建德化力推陶瓷历史经典产业高质量发展",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717520.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "当电影遇上AI：影视工业重塑“新质生产力”",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717515.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏拉萨“两会”即将开幕 过去五年履职答卷亮眼",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717512.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（乡村行·看振兴）河南新县“新侨”回归办实体 为乡村振兴注入“新侨”力",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717513.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "海南加快建设国家级交通零碳服务区 推动行业绿色转型",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717511.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "乌镇峰会前瞻：“一展一会一赛一论坛”将绘智能互联新图景",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717510.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "读懂中国经济的韧性和活力",
+      "url": "https://www.baidu.com/s?wd=%E8%AF%BB%E6%87%82%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%9A%84%E9%9F%A7%E6%80%A7%E5%92%8C%E6%B4%BB%E5%8A%9B",
       "source": "百度热搜",
-      "cat": "society",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "巴黎骚乱街头有人cos美国队长",
+      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E9%BB%8E%E9%AA%9A%E4%B9%B1%E8%A1%97%E5%A4%B4%E6%9C%89%E4%BA%BAcos%E7%BE%8E%E5%9B%BD%E9%98%9F%E9%95%BF",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,28 +146,8 @@
       ]
     },
     {
-      "title": "星巴克 消费入座",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B+%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "郎平赴上海探望汤淼：期待医疗突破",
-      "url": "https://www.baidu.com/s?wd=%E9%83%8E%E5%B9%B3%E8%B5%B4%E4%B8%8A%E6%B5%B7%E6%8E%A2%E6%9C%9B%E6%B1%A4%E6%B7%BC%EF%BC%9A%E6%9C%9F%E5%BE%85%E5%8C%BB%E7%96%97%E7%AA%81%E7%A0%B4",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部：向日方提出严正交涉强烈抗议",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E5%90%91%E6%97%A5%E6%96%B9%E6%8F%90%E5%87%BA%E4%B8%A5%E6%AD%A3%E4%BA%A4%E6%B6%89%E5%BC%BA%E7%83%88%E6%8A%97%E8%AE%AE",
+      "title": "国际乒联最新排名：男单王楚钦第5",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E4%B9%92%E8%81%94%E6%9C%80%E6%96%B0%E6%8E%92%E5%90%8D%EF%BC%9A%E7%94%B7%E5%8D%95%E7%8E%8B%E6%A5%9A%E9%92%A6%E7%AC%AC5",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -146,8 +156,38 @@
       ]
     },
     {
-      "title": "全国全民体能大赛总决赛汉中收官 汉水之滨上演体能竞技",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-19/10717335.shtml",
+      "title": "商用车这碗饭 新能源快分走一半",
+      "url": "https://www.baidu.com/s?wd=%E5%95%86%E7%94%A8%E8%BD%A6%E8%BF%99%E7%A2%97%E9%A5%AD+%E6%96%B0%E8%83%BD%E6%BA%90%E5%BF%AB%E5%88%86%E8%B5%B0%E4%B8%80%E5%8D%8A",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "老人去见苦命“小海” 上车才知是AI",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E5%8E%BB%E8%A7%81%E8%8B%A6%E5%91%BD%E2%80%9C%E5%B0%8F%E6%B5%B7%E2%80%9D+%E4%B8%8A%E8%BD%A6%E6%89%8D%E7%9F%A5%E6%98%AFAI",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "四川马边通报“硫磺熏制鲜竹笋”",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E5%B7%9D%E9%A9%AC%E8%BE%B9%E9%80%9A%E6%8A%A5%E2%80%9C%E7%A1%AB%E7%A3%BA%E7%86%8F%E5%88%B6%E9%B2%9C%E7%AB%B9%E7%AC%8B%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026VCT上海冠军赛收官 新英雄遐思亮相",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-19/10717540.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +196,8 @@
       ]
     },
     {
-      "title": "《鲁迅逝世九十周年纪念》封中封发行",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717333.shtml",
+      "title": "CBA常规赛次轮：北控主场不敌卫冕冠军上海队",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-19/10717539.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +206,8 @@
       ]
     },
     {
-      "title": "香港重阳秋祭：游子不忘根脉，乡情绵延不息",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-19/10717330.shtml",
+      "title": "韩国总统李在明：必须尽快收回战时作战指挥权",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717535.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +216,8 @@
       ]
     },
     {
-      "title": "习言道｜长江上中下游共进退，习近平强调“一损俱损，一荣俱荣”",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717282.shtml",
+      "title": "青海举办第二届藏传佛教寺庙消防技能竞赛活动",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717533.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +226,8 @@
       ]
     },
     {
-      "title": "“睿宝”“辉宝”回国进入倒计时！爱宝乐园公布最新安排",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717326.shtml",
+      "title": "多国学者以东南亚华人与海外视角研讨中国式现代化",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717530.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,48 +236,8 @@
       ]
     },
     {
-      "title": "网传高铁座椅是HPV感染来源？真相来了→",
-      "url": "https://www.chinanews.com.cn/jk/2026/10-19/10717325.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "从戈壁归来在戈壁扎根：一座侨乡70年的守望与新生",
-      "url": "https://www.chinanews.com.cn/hr/2026/10-19/10717324.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家大剧院芭蕾舞团成立",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-19/10717317.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026在沪高校台湾学子迎新活动举行",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717319.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“四海归心”妈祖文化海外传播项目在莆田启动",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717315.shtml",
+      "title": "行业人士齐聚重庆 共议移动互联条件下的报业媒体矩阵打造",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717532.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
