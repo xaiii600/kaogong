@@ -1,13 +1,13 @@
 {
   "date": "2026-10-19",
-  "time": "04:55",
-  "generatedAt": "2026-10-19T04:55:09.150Z",
+  "time": "10:57",
+  "generatedAt": "2026-10-19T10:57:09.220Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "建设银行发布“健养安”养老金融新产品 探索金融与养老服务深度融合",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717060.shtml",
+      "title": "外媒关注中国经济数据：展现强大韧性 全年增长目标有望顺利实现",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717337.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -16,8 +16,28 @@
       ]
     },
     {
-      "title": "9月中国原油生产增速加快",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717089.shtml",
+      "title": "工业和信息化部：深入实施“人工智能+制造” 助力商品消费提质升级",
+      "url": "https://www.chinanews.com.cn/kong/2026/10-19/10717320.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国家外汇局拟推出一批增量措施支持企业参与国际市场",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717299.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "兴安盟牛产业“链”出致富路",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717336.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,48 +46,68 @@
       ]
     },
     {
-      "title": "一图读懂中国经济三季报",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717088.shtml",
+      "title": "A股机器人相关板块周一走强 宇树科技股价大涨",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717329.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "前三季度中国GDP同比增长4.6%",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717087.shtml",
+      "title": "单德朋：石椅村给民族地区乡村振兴带来了哪些启示？",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717321.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "广东：到2030年经济林年产值超1200亿元",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-19/10717063.shtml",
+      "title": "湖北鄂州花湖机场首次保障国际文物珍品跨境运输",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717307.shtml",
       "source": "中国新闻网",
-      "cat": "economy",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "被曝光后 江苏丹阳连夜通报",
-      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E6%9B%9D%E5%85%89%E5%90%8E+%E6%B1%9F%E8%8B%8F%E4%B8%B9%E9%98%B3%E8%BF%9E%E5%A4%9C%E9%80%9A%E6%8A%A5",
+      "title": "新疆电网首次实现输电工程全流程数字化验收",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717304.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "湖南江华建99所村级养老中心 互助养老温暖瑶山老人",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717302.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩国养老金“血亏”一万亿",
+      "url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E5%85%BB%E8%80%81%E9%87%91%E2%80%9C%E8%A1%80%E4%BA%8F%E2%80%9D%E4%B8%80%E4%B8%87%E4%BA%BF",
       "source": "百度热搜",
-      "cat": "hot",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "长鑫科技开盘跳水",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%BC%80%E7%9B%98%E8%B7%B3%E6%B0%B4",
+      "title": "女子离婚6天用AI救了前夫一命",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E7%A6%BB%E5%A9%9A6%E5%A4%A9%E7%94%A8AI%E6%95%91%E4%BA%86%E5%89%8D%E5%A4%AB%E4%B8%80%E5%91%BD",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -76,18 +116,38 @@
       ]
     },
     {
-      "title": "宇树科技涨超10%",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%B6%A8%E8%B6%8510%25",
+      "title": "星巴克 消费入座",
+      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B+%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "（粤港澳大湾区）2025年粤港澳大湾区高温日数偏多 降水极端性强",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-19/10717091.shtml",
+      "title": "郎平赴上海探望汤淼：期待医疗突破",
+      "url": "https://www.baidu.com/s?wd=%E9%83%8E%E5%B9%B3%E8%B5%B4%E4%B8%8A%E6%B5%B7%E6%8E%A2%E6%9C%9B%E6%B1%A4%E6%B7%BC%EF%BC%9A%E6%9C%9F%E5%BE%85%E5%8C%BB%E7%96%97%E7%AA%81%E7%A0%B4",
+      "source": "百度热搜",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：向日方提出严正交涉强烈抗议",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E5%90%91%E6%97%A5%E6%96%B9%E6%8F%90%E5%87%BA%E4%B8%A5%E6%AD%A3%E4%BA%A4%E6%B6%89%E5%BC%BA%E7%83%88%E6%8A%97%E8%AE%AE",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国全民体能大赛总决赛汉中收官 汉水之滨上演体能竞技",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-19/10717335.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -96,8 +156,8 @@
       ]
     },
     {
-      "title": "供销总社：当前农服行业正向全程综合农业服务加速转型",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717090.shtml",
+      "title": "《鲁迅逝世九十周年纪念》封中封发行",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717333.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -106,8 +166,8 @@
       ]
     },
     {
-      "title": "泰国普吉九皇斋节：传统华人文化融入当地旅游体验",
-      "url": "https://www.chinanews.com.cn/hr/2026/10-19/10717073.shtml",
+      "title": "香港重阳秋祭：游子不忘根脉，乡情绵延不息",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-19/10717330.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -116,8 +176,8 @@
       ]
     },
     {
-      "title": "（长征胜利90周年）长征是如何走向世界的？",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717072.shtml",
+      "title": "习言道｜长江上中下游共进退，习近平强调“一损俱损，一荣俱荣”",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717282.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -126,8 +186,8 @@
       ]
     },
     {
-      "title": "从窑洞微光到万家灯火，陕北第一座火电厂用光明守护革命圣地丨企步新长征",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-19/10717086.shtml",
+      "title": "“睿宝”“辉宝”回国进入倒计时！爱宝乐园公布最新安排",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-19/10717326.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -136,8 +196,8 @@
       ]
     },
     {
-      "title": "举重选手崔哲夺得名古屋亚残运会中国代表团首金",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-19/10717082.shtml",
+      "title": "网传高铁座椅是HPV感染来源？真相来了→",
+      "url": "https://www.chinanews.com.cn/jk/2026/10-19/10717325.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +206,8 @@
       ]
     },
     {
-      "title": "A股午评：超3800只个股飘绿，沪指收涨，深指、创业板指收跌",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717079.shtml",
+      "title": "从戈壁归来在戈壁扎根：一座侨乡70年的守望与新生",
+      "url": "https://www.chinanews.com.cn/hr/2026/10-19/10717324.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +216,8 @@
       ]
     },
     {
-      "title": "河南开封：菊风宋韵满汴梁",
-      "url": "https://www.chinanews.com.cn/tp/2026/10-19/10717068.shtml",
+      "title": "国家大剧院芭蕾舞团成立",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-19/10717317.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +226,8 @@
       ]
     },
     {
-      "title": "CBA常规赛：北京首钢84比82客场胜吉林",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-19/1208239.shtml",
+      "title": "2026在沪高校台湾学子迎新活动举行",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717319.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,68 +236,8 @@
       ]
     },
     {
-      "title": "加勒比国家自媒体代表团参访新疆",
-      "url": "https://www.chinanews.com.cn/mz/2026/10-19/10717067.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "直播：长征路上学党史｜云聚陕甘宁 看星火映山河",
-      "url": "https://www.chinanews.com.cn/iframe/2026/10-19/10717071.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "哈尔滨机场2026年旅客吞吐量突破2000万人次",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-19/10717069.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "直播：长征路上学党史｜驻足将台堡 庆长征伟大胜利",
-      "url": "https://www.chinanews.com.cn/iframe/2026/10-19/10717070.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "CBA常规赛：广州队战胜浙江队 取得“开门红”",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-19/10717066.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "浦江同舟话团结 | 建筑学家傅克诚的学术求索之路",
-      "url": "https://www.chinanews.com.cn/txy/2026/10-19/10717047.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2027年北京高考报名25日开始",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717065.shtml",
+      "title": "“四海归心”妈祖文化海外传播项目在莆田启动",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-19/10717315.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
