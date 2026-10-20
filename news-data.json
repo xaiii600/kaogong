@@ -1,13 +1,13 @@
 {
   "date": "2026-10-20",
-  "time": "07:44",
-  "generatedAt": "2026-10-20T07:44:52.181Z",
+  "time": "13:40",
+  "generatedAt": "2026-10-20T13:40:28.447Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "徐州举办第十届人工智能大会 构建量算产业生态合作共同体",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717837.shtml",
+      "title": "湖南永州开放34个AI应用场景 打造绿能智算产业高地",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718121.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -16,218 +16,138 @@
       ]
     },
     {
-      "title": "教育部等三部门部署防控儿童青少年高度近视",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-20/10717829.shtml",
+      "title": "商务部就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718136.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "事业单位"
+      ]
+    },
+    {
+      "title": "作家张柠：抵御“AI味儿”  文学艺术创作须有独创性",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-20/10718114.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "今年前三季度江西外贸进出口增长19.4% 为近四年同期最快增速",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718119.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "应用场景项目以点带面撬动改革全局",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718108.shtml",
       "source": "中国新闻网",
       "cat": "policy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部：中方一贯反对将科技经贸问题政治化",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717825.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "科技创新与产业创新协同发力 新兴领域出口跑出加速度",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717817.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "特朗普对APEC会议期间举行中美俄元首会谈持积极态度  中方回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717819.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "让创新势能进一步激发消费潜能",
-      "url": "https://www.baidu.com/s?wd=%E8%AE%A9%E5%88%9B%E6%96%B0%E5%8A%BF%E8%83%BD%E8%BF%9B%E4%B8%80%E6%AD%A5%E6%BF%80%E5%8F%91%E6%B6%88%E8%B4%B9%E6%BD%9C%E8%83%BD",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 2,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "AI换脸拟声 仿冒名人带货如何“解”",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717836.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "外交部：国际调解院成立一年来得到国际社会广泛支持 创始成员国增至48个",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717835.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "长征精神对新时代中国外交和发展有何启示？中国外交部回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717834.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026晋港澳青创峰会收官 青年代表走访山西探寻文脉与科创合作",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-20/10717822.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "四川前三季度GDP同比增长4.9% 锂离子电池产量增长94.7%",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717818.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "日本发射火星卫星探测器 计划2031年带回“火卫一”样本",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-20/10717827.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部：中欧经贸问题上的分歧完全可以通过对话加以解决",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10717826.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "显著改善帕金森病症状 XS411临床进展受国际关注",
-      "url": "https://www.chinanews.com.cn/jk/2026/10-20/10717812.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "《广告产业发展“十五五”规划》解读",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717794.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "建议花几秒钟跟AI抬个杠",
-      "url": "https://www.baidu.com/s?wd=%E5%BB%BA%E8%AE%AE%E8%8A%B1%E5%87%A0%E7%A7%92%E9%92%9F%E8%B7%9FAI%E6%8A%AC%E4%B8%AA%E6%9D%A0",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "山东淄博市副市长沙向东被查",
-      "url": "https://www.baidu.com/s?wd=%E5%B1%B1%E4%B8%9C%E6%B7%84%E5%8D%9A%E5%B8%82%E5%89%AF%E5%B8%82%E9%95%BF%E6%B2%99%E5%90%91%E4%B8%9C%E8%A2%AB%E6%9F%A5",
-      "source": "百度热搜",
-      "cat": "hot",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "在闽宁协作中铸牢中华民族共同体意识",
-      "url": "https://www.chinanews.com.cn/txy/2026/10-20/10717843.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "加快发展新一代智能制造 工信部明确四方面重点举措",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717842.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云岭动态二十二期",
-      "url": "https://www.chinanews.com.cn/txy/2026/10-20/10717831.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "驻英国使馆提醒中国公民注意英方出入境检查",
-      "url": "https://www.chinanews.com.cn/${mypath}/2026/10-20/10717839.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "凝“新”聚力促融合 数艺无界启新篇——“新艺中国·数艺无界”大会暨全国新的社会阶层人士服务考察活动湖南行综述",
-      "url": "https://www.chinanews.com.cn/txy/2026/10-20/10717832.shtml",
+      "title": "“化工城”吉林推动能源转型  绘就绿色低碳发展图景",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718106.shtml",
       "source": "中国新闻网",
       "cat": "society",
-      "score": 0,
+      "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "拉萨筑牢食安监督网 守护外卖烟火气",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10717830.shtml",
+      "title": "前三季度中国经济“成绩单”来了",
+      "url": "https://www.baidu.com/s?wd=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E2%80%9C%E6%88%90%E7%BB%A9%E5%8D%95%E2%80%9D%E6%9D%A5%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "新央企！国家数据集团成立",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%A4%AE%E4%BC%81%EF%BC%81%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI陪骗子聊天初创公司融资800万美元",
+      "url": "https://www.baidu.com/s?wd=AI%E9%99%AA%E9%AA%97%E5%AD%90%E8%81%8A%E5%A4%A9%E5%88%9D%E5%88%9B%E5%85%AC%E5%8F%B8%E8%9E%8D%E8%B5%84800%E4%B8%87%E7%BE%8E%E5%85%83",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美俄为何改装“爷爷辈”轰炸机",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E4%BF%84%E4%B8%BA%E4%BD%95%E6%94%B9%E8%A3%85%E2%80%9C%E7%88%B7%E7%88%B7%E8%BE%88%E2%80%9D%E8%BD%B0%E7%82%B8%E6%9C%BA",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI凭人脸照片预测癌症患者死亡风险",
+      "url": "https://www.baidu.com/s?wd=AI%E5%87%AD%E4%BA%BA%E8%84%B8%E7%85%A7%E7%89%87%E9%A2%84%E6%B5%8B%E7%99%8C%E7%97%87%E6%82%A3%E8%80%85%E6%AD%BB%E4%BA%A1%E9%A3%8E%E9%99%A9",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "星巴克消费入座获支持 消费者变了",
+      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7%E8%8E%B7%E6%94%AF%E6%8C%81+%E6%B6%88%E8%B4%B9%E8%80%85%E5%8F%98%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "DeepSeek一张卡每小时收入38美元",
+      "url": "https://www.baidu.com/s?wd=DeepSeek%E4%B8%80%E5%BC%A0%E5%8D%A1%E6%AF%8F%E5%B0%8F%E6%97%B6%E6%94%B6%E5%85%A538%E7%BE%8E%E5%85%83",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "三亚市副市长陈克伯任上被查",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E4%BA%9A%E5%B8%82%E5%89%AF%E5%B8%82%E9%95%BF%E9%99%88%E5%85%8B%E4%BC%AF%E4%BB%BB%E4%B8%8A%E8%A2%AB%E6%9F%A5",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "河南商丘：冲刺四季度 企业生产忙",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-20/10718115.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +156,88 @@
       ]
     },
     {
-      "title": "我国在建规模最大陆岛公路项目大连长海大桥进入大规模箱梁制运架施工阶段",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10717824.shtml",
+      "title": "银川河湖长制推行十年：塞上湖城建成“15分钟亲水圈”",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718129.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "青海丹噶尔皮绣：针尖绣出皮上艺术",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-20/10718112.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "从匠心手作到智能好物 132件好物角逐2026浙江特色伴手礼",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718133.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "千年长安遇琼西 琼陕共拓文旅合作新空间",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718127.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "肖复兴现身“名家讲经典”：书是成长的伴侣",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-20/10718128.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "意大利街头艺术家“但丁爷爷”现身开封，与游客亲切互动",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718131.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "百年院落汇聚女性力量 “看见她——影响时代的女性”影像展在北京开幕",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-20/1208365.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广东农村地区“一老一小”流感疫苗免费接种开打",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718125.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "青藏集团公司今年货物发送量同比上升8.3%",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-20/10718124.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
