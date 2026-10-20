@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "time": "18:32",
-  "generatedAt": "2026-10-20T18:32:18.112Z",
+  "time": "22:24",
+  "generatedAt": "2026-10-20T22:24:50.995Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -11,6 +11,16 @@
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "乌克兰问题会谈在挪威举行 美特使将赴俄转达相关内容",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718221.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -66,30 +76,10 @@
       ]
     },
     {
-      "title": "联合国旅游组织/亚太旅游协会旅游趋势与展望大会在桂林举行",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-20/10718189.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "前三季度中国经济“成绩单”来了",
       "url": "https://www.baidu.com/s?wd=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E2%80%9C%E6%88%90%E7%BB%A9%E5%8D%95%E2%80%9D%E6%9D%A5%E4%BA%86",
       "source": "百度热搜",
       "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "商务部回应“美方制裁中国5家企业”",
-      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%8A%A1%E9%83%A8%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E6%96%B9%E5%88%B6%E8%A3%81%E4%B8%AD%E5%9B%BD5%E5%AE%B6%E4%BC%81%E4%B8%9A%E2%80%9D",
-      "source": "百度热搜",
-      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -116,20 +106,20 @@
       ]
     },
     {
-      "title": "DeepSeek一张卡每小时收入38美元",
-      "url": "https://www.baidu.com/s?wd=DeepSeek%E4%B8%80%E5%BC%A0%E5%8D%A1%E6%AF%8F%E5%B0%8F%E6%97%B6%E6%94%B6%E5%85%A538%E7%BE%8E%E5%85%83",
+      "title": "商务部回应“美方制裁中国5家企业”",
+      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%8A%A1%E9%83%A8%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E6%96%B9%E5%88%B6%E8%A3%81%E4%B8%AD%E5%9B%BD5%E5%AE%B6%E4%BC%81%E4%B8%9A%E2%80%9D",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中东酋长要把国产飞行汽车“飞”回家",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%B8%9C%E9%85%8B%E9%95%BF%E8%A6%81%E6%8A%8A%E5%9B%BD%E4%BA%A7%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6%E2%80%9C%E9%A3%9E%E2%80%9D%E5%9B%9E%E5%AE%B6",
+      "title": "AI凭人脸照片预测癌症患者死亡风险",
+      "url": "https://www.baidu.com/s?wd=AI%E5%87%AD%E4%BA%BA%E8%84%B8%E7%85%A7%E7%89%87%E9%A2%84%E6%B5%8B%E7%99%8C%E7%97%87%E6%82%A3%E8%80%85%E6%AD%BB%E4%BA%A1%E9%A3%8E%E9%99%A9",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -156,11 +146,51 @@
       ]
     },
     {
-      "title": "AI凭人脸照片预测癌症患者死亡风险",
-      "url": "https://www.baidu.com/s?wd=AI%E5%87%AD%E4%BA%BA%E8%84%B8%E7%85%A7%E7%89%87%E9%A2%84%E6%B5%8B%E7%99%8C%E7%97%87%E6%82%A3%E8%80%85%E6%AD%BB%E4%BA%A1%E9%A3%8E%E9%99%A9",
+      "title": "中东酋长要把国产飞行汽车“飞”回家",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%B8%9C%E9%85%8B%E9%95%BF%E8%A6%81%E6%8A%8A%E5%9B%BD%E4%BA%A7%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6%E2%80%9C%E9%A3%9E%E2%80%9D%E5%9B%9E%E5%AE%B6",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "罗马尼亚新一届政府宣誓就职",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718223.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "胡塞武装称过去24小时也门遭沙特空袭93次",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718222.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "以军称打死哈马斯安全机构高级成员",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718220.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美官员：美总统特使将于21日与普京会面",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718219.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -213,36 +243,6 @@
       "score": 0,
       "exams": [
         "国考"
-      ]
-    },
-    {
-      "title": "李家超：APEC财长会在港举办是香港历史性时刻",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-20/10718212.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "刘海星分别会见意大利、阿联酋客人",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-20/10718211.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "文化观察：从良渚看文化遗产如何点亮大众旅游？",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-20/10718207.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
       ]
     }
   ]
