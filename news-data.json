@@ -1,23 +1,23 @@
 {
   "date": "2026-10-21",
-  "time": "07:48",
-  "generatedAt": "2026-10-21T07:48:53.437Z",
+  "time": "13:56",
+  "generatedAt": "2026-10-21T13:56:38.950Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "工信部印发《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718511.shtml",
+      "title": "《金融支持建设北京（京津冀）国际科技创新中心实施方案》发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718754.shtml",
       "source": "中国新闻网",
-      "cat": "policy",
-      "score": 2,
+      "cat": "international",
+      "score": 3,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "云南前三季度新能源电池产业增加值同比增长90.4%",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718512.shtml",
+      "title": "全国碳排放权交易市场累计成交量突破10亿吨",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718769.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -26,38 +26,28 @@
       ]
     },
     {
-      "title": "第十六届国际纳米技术产业博览会在苏州开幕",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718500.shtml",
+      "title": "科技部解读《关于推动科技创新和产业创新深度融合的意见》",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718734.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中俄界江乌苏里江秋季禁渔期结束  139艘渔船出港开捕",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718523.shtml",
+      "title": "科技援疆赋能 新疆兵团第十二师农业育种迈向“选育创造”",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718760.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中国应对气候变化南南合作受到国际社会高度评价",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718521.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（经济观察）中国品牌出海热 “扎下根”成为新课题",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718514.shtml",
+      "title": "哈萨克斯坦成甘肃最大贸易伙伴 “甘味”出口增长",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/10-21/10718758.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,8 +56,18 @@
       ]
     },
     {
-      "title": "外交部：对中国与白俄罗斯两国关系发展充满信心",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718520.shtml",
+      "title": "通用人工智能大会行业智能体创新挑战赛在渝开赛",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718756.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国际青年福建中医药文化研习营福州开营",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718751.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -76,28 +76,8 @@
       ]
     },
     {
-      "title": "外交部：中方对日本实施出口管制 目的是制止日本“再军事化”",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718517.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部：在乌克兰危机问题上，中方的立场是一贯的",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718515.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "跨国产学研赋能产业升级 中德设计工坊激活顺昌杉木新动能",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718513.shtml",
+      "title": "于都：一根纱线织出千亿产业（看中国好物七十二变）",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718745.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -106,38 +86,28 @@
       ]
     },
     {
-      "title": "王毅将出席2026全球治理论坛(雄安)开幕式 外交部介绍论坛情况",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718509.shtml",
+      "title": "李家超与财政部部长蓝佛安会面　就内地和香港经济金融发展交流意见",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-21/10718741.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "外交部：敦促美方立即停止对古巴的封锁和任何形式的胁迫施压",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718507.shtml",
+      "title": "“浙里共赢” 搭台 助浙江储能产业链接全球市场",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718739.shtml",
       "source": "中国新闻网",
-      "cat": "international",
+      "cat": "economy",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "外交部：中方维护关键矿产全球产供链稳定与安全的立场没有变化",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718506.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家能源局：推动煤电与新能源融合发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718495.shtml",
+      "title": "人工智能技术加速演进 业界如何驭智前行？",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718738.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -146,38 +116,28 @@
       ]
     },
     {
-      "title": "国家能源局就《关于推动煤电与新能源融合发展的实施意见》答记者问",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718498.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国台办以数据回应“脱钩断链”：两岸产供链持续稳固",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718488.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“中国AI禁令”拟出台 震动全球",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E5%9B%BDAI%E7%A6%81%E4%BB%A4%E2%80%9D%E6%8B%9F%E5%87%BA%E5%8F%B0+%E9%9C%87%E5%8A%A8%E5%85%A8%E7%90%83",
+      "title": "中俄等18国发表联合声明",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E7%AD%8918%E5%9B%BD%E5%8F%91%E8%A1%A8%E8%81%94%E5%90%88%E5%A3%B0%E6%98%8E",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "于东来拿2000万投资爱情研究小组",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%8B%BF2000%E4%B8%87%E6%8A%95%E8%B5%84%E7%88%B1%E6%83%85%E7%A0%94%E7%A9%B6%E5%B0%8F%E7%BB%84",
+      "title": "南宁车务段通报女子错过检票失控哀求",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%97%E5%AE%81%E8%BD%A6%E5%8A%A1%E6%AE%B5%E9%80%9A%E6%8A%A5%E5%A5%B3%E5%AD%90%E9%94%99%E8%BF%87%E6%A3%80%E7%A5%A8%E5%A4%B1%E6%8E%A7%E5%93%80%E6%B1%82",
+      "source": "百度热搜",
+      "cat": "hot",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "雷军：在汽车产业没有安全其它都是0",
+      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%EF%BC%9A%E5%9C%A8%E6%B1%BD%E8%BD%A6%E4%BA%A7%E4%B8%9A%E6%B2%A1%E6%9C%89%E5%AE%89%E5%85%A8%E5%85%B6%E5%AE%83%E9%83%BD%E6%98%AF0",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -186,61 +146,101 @@
       ]
     },
     {
-      "title": "粉红豹现身法国骚乱现场系AI伪造",
-      "url": "https://www.baidu.com/s?wd=%E7%B2%89%E7%BA%A2%E8%B1%B9%E7%8E%B0%E8%BA%AB%E6%B3%95%E5%9B%BD%E9%AA%9A%E4%B9%B1%E7%8E%B0%E5%9C%BA%E7%B3%BBAI%E4%BC%AA%E9%80%A0",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "法国10年期国债收益率突破5% 创下2002年以来新高",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718750.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "星巴克明日起在中国施行消费入座",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B%E6%98%8E%E6%97%A5%E8%B5%B7%E5%9C%A8%E4%B8%AD%E5%9B%BD%E6%96%BD%E8%A1%8C%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
+      "title": "江西省第四届少数民族传统体育运动会：民族健身操比赛活力四射",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-21/10718747.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "又一部获奖小说被质疑由AI代笔",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E9%83%A8%E8%8E%B7%E5%A5%96%E5%B0%8F%E8%AF%B4%E8%A2%AB%E8%B4%A8%E7%96%91%E7%94%B1AI%E4%BB%A3%E7%AC%94",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
+      "title": "会“自愈”的防腐涂层问世  沪高校研发出新材料守护深远海风电装备",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718768.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "年轻人“旁听”遵义会议爆火",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E2%80%9C%E6%97%81%E5%90%AC%E2%80%9D%E9%81%B5%E4%B9%89%E4%BC%9A%E8%AE%AE%E7%88%86%E7%81%AB",
-      "source": "百度热搜",
-      "cat": "policy",
-      "score": 1,
+      "title": "新疆兵团：非遗在民众指尖翻飞中活起来",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718767.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "成都市教育局回应“取消中考”建议",
-      "url": "https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88%E4%B8%AD%E8%80%83%E2%80%9D%E5%BB%BA%E8%AE%AE",
-      "source": "百度热搜",
-      "cat": "society",
-      "score": 1,
+      "title": "福建与台湾光复档案文献展在福州举行",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-21/10718723.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中东“榜一大哥”率团来华提飞行汽车",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%B8%9C%E2%80%9C%E6%A6%9C%E4%B8%80%E5%A4%A7%E5%93%A5%E2%80%9D%E7%8E%87%E5%9B%A2%E6%9D%A5%E5%8D%8E%E6%8F%90%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
+      "title": "外籍人士走进海口社区 习练八段锦感受中国传统文化",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-21/10718692.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "述评：今天我们为什么要纪念台湾义勇队？",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718765.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "《电动汽车动力蓄电池在役检测试验方法》国标发布",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718753.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "重庆市原江北区委副书记、区长何贵接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718752.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "广州南沙多举措向全球引才",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-21/10718748.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
