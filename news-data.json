@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
-  "time": "18:45",
-  "generatedAt": "2026-10-21T18:45:26.692Z",
+  "time": "22:28",
+  "generatedAt": "2026-10-21T22:28:14.122Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -11,6 +11,26 @@
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "美国对伊朗实施新一轮制裁",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10718819.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "俄国防部：俄军继续打击乌物流中心及港口基础设施",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10718818.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
@@ -116,36 +136,6 @@
       ]
     },
     {
-      "title": "中央安全生产考核巡查二、三季度明查暗访发现重大事故隐患950项",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718789.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "261个港澳台项目参加广州科技创新创业大赛",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-21/10718788.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "首届湖南安全应急装备产业博览会开幕 全链条装备亮相",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718785.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
       "title": "年轻人盯上养老院里的新职业",
       "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9B%AF%E4%B8%8A%E5%85%BB%E8%80%81%E9%99%A2%E9%87%8C%E7%9A%84%E6%96%B0%E8%81%8C%E4%B8%9A",
       "source": "百度热搜",
@@ -166,11 +156,61 @@
       ]
     },
     {
-      "title": "雷军：在汽车产业没有安全其它都是0",
-      "url": "https://www.baidu.com/s?wd=%E9%9B%B7%E5%86%9B%EF%BC%9A%E5%9C%A8%E6%B1%BD%E8%BD%A6%E4%BA%A7%E4%B8%9A%E6%B2%A1%E6%9C%89%E5%AE%89%E5%85%A8%E5%85%B6%E5%AE%83%E9%83%BD%E6%98%AF0",
+      "title": "AI模特图占领女装行业",
+      "url": "https://www.baidu.com/s?wd=AI%E6%A8%A1%E7%89%B9%E5%9B%BE%E5%8D%A0%E9%A2%86%E5%A5%B3%E8%A3%85%E8%A1%8C%E4%B8%9A",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "tech",
       "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国体操队时隔20年再夺世锦赛女团金牌",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-22/10718821.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "沙特一油田设施遭无人机袭击 致2死2伤",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10718820.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "泽连斯基：乌方支持尽快启动新一轮三方会谈",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10718817.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "牙膏分类新规来了 如何挑选适合自己的产品？",
+      "url": "https://www.chinanews.com.cn/jk/2026/10-22/10718816.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "法国总统马克龙：将采取一切必要措施防范骚乱再次发生",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10718815.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -198,46 +238,6 @@
     {
       "title": "第四届海洋负排放开放科学大会厦门举行 推进全球气候治理行动",
       "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718801.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "舞剧《长联·大观》昆明首演 180字“天下第一长联”跃然舞台",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718803.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "多位司法行政一线代表共话平安中国、法治中国建设",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718805.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "神秘丹尼索瓦人有何共性特征？中国科学家最新研究许家窑人揭秘",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718809.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“香港连场好戏”旅游项目启动 推介50部电影逾百个取景地",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-21/10718795.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
