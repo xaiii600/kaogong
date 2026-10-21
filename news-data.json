@@ -1,13 +1,23 @@
 {
   "date": "2026-10-21",
-  "time": "01:42",
-  "generatedAt": "2026-10-21T01:42:34.316Z",
+  "time": "07:48",
+  "generatedAt": "2026-10-21T07:48:53.437Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "真实岗位任务进入实训、产业数据进入学习……揭秘职教未来实训中心",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-21/10718233.shtml",
+      "title": "工信部印发《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718511.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南前三季度新能源电池产业增加值同比增长90.4%",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718512.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 2,
@@ -16,8 +26,118 @@
       ]
     },
     {
-      "title": "几块钱就能享受高阶会员 二手平台“破解版AI”靠谱吗",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718270.shtml",
+      "title": "第十六届国际纳米技术产业博览会在苏州开幕",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718500.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中俄界江乌苏里江秋季禁渔期结束  139艘渔船出港开捕",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718523.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国应对气候变化南南合作受到国际社会高度评价",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718521.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（经济观察）中国品牌出海热 “扎下根”成为新课题",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718514.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：对中国与白俄罗斯两国关系发展充满信心",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718520.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：中方对日本实施出口管制 目的是制止日本“再军事化”",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718517.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：在乌克兰危机问题上，中方的立场是一贯的",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718515.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "跨国产学研赋能产业升级 中德设计工坊激活顺昌杉木新动能",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718513.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "王毅将出席2026全球治理论坛(雄安)开幕式 外交部介绍论坛情况",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718509.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：敦促美方立即停止对古巴的封锁和任何形式的胁迫施压",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718507.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "外交部：中方维护关键矿产全球产供链稳定与安全的立场没有变化",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718506.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "国家能源局：推动煤电与新能源融合发展",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718495.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -26,18 +146,8 @@
       ]
     },
     {
-      "title": "长征具有跨越时代与国界的启示意义（国际论坛）",
-      "url": "https://www.chinanews.com.cn/ll/2026/10-21/10718266.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我国将建设一批专精特新赋能中心 助力中小企业创新发展",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718253.shtml",
+      "title": "国家能源局就《关于推动煤电与新能源融合发展的实施意见》答记者问",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718498.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -46,48 +156,8 @@
       ]
     },
     {
-      "title": "中东部大部降水稀少 江南多地降温如换季",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718250.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "台风“蔷琵”继续向西偏北方向移动 中东部地区仍有大风降温天气",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718246.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "美国联邦航空管理局：波音737 MAX 10机型获得适航认证",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718241.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "威胁刺杀特朗普 美国一男子遭逮捕",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718244.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "手搓“微缩博物馆” 解锁文创新体验",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-21/10718240.shtml",
+      "title": "国台办以数据回应“脱钩断链”：两岸产供链持续稳固",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718488.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -96,9 +166,9 @@
       ]
     },
     {
-      "title": "“速成车”惹争议被叫停 新能源汽车如何重塑造车底层逻辑",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718235.shtml",
-      "source": "中国新闻网",
+      "title": "“中国AI禁令”拟出台 震动全球",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%AD%E5%9B%BDAI%E7%A6%81%E4%BB%A4%E2%80%9D%E6%8B%9F%E5%87%BA%E5%8F%B0+%E9%9C%87%E5%8A%A8%E5%85%A8%E7%90%83",
+      "source": "百度热搜",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -106,18 +176,8 @@
       ]
     },
     {
-      "title": "泽连斯基：讨论了美俄乌三方领导人会晤可能性",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718232.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "前三季度中国经济“成绩单”来了",
-      "url": "https://www.baidu.com/s?wd=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E2%80%9C%E6%88%90%E7%BB%A9%E5%8D%95%E2%80%9D%E6%9D%A5%E4%BA%86",
+      "title": "于东来拿2000万投资爱情研究小组",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%8B%BF2000%E4%B8%87%E6%8A%95%E8%B5%84%E7%88%B1%E6%83%85%E7%A0%94%E7%A9%B6%E5%B0%8F%E7%BB%84",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -126,18 +186,38 @@
       ]
     },
     {
-      "title": "年轻人每月在养老院服务可减免房租",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AF%8F%E6%9C%88%E5%9C%A8%E5%85%BB%E8%80%81%E9%99%A2%E6%9C%8D%E5%8A%A1%E5%8F%AF%E5%87%8F%E5%85%8D%E6%88%BF%E7%A7%9F",
+      "title": "粉红豹现身法国骚乱现场系AI伪造",
+      "url": "https://www.baidu.com/s?wd=%E7%B2%89%E7%BA%A2%E8%B1%B9%E7%8E%B0%E8%BA%AB%E6%B3%95%E5%9B%BD%E9%AA%9A%E4%B9%B1%E7%8E%B0%E5%9C%BA%E7%B3%BBAI%E4%BC%AA%E9%80%A0",
       "source": "百度热搜",
-      "cat": "society",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "法国将部署军队反恐力量应对示威活动",
-      "url": "https://www.baidu.com/s?wd=%E6%B3%95%E5%9B%BD%E5%B0%86%E9%83%A8%E7%BD%B2%E5%86%9B%E9%98%9F%E5%8F%8D%E6%81%90%E5%8A%9B%E9%87%8F%E5%BA%94%E5%AF%B9%E7%A4%BA%E5%A8%81%E6%B4%BB%E5%8A%A8",
+      "title": "星巴克明日起在中国施行消费入座",
+      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B%E6%98%8E%E6%97%A5%E8%B5%B7%E5%9C%A8%E4%B8%AD%E5%9B%BD%E6%96%BD%E8%A1%8C%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7",
+      "source": "百度热搜",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "又一部获奖小说被质疑由AI代笔",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E9%83%A8%E8%8E%B7%E5%A5%96%E5%B0%8F%E8%AF%B4%E8%A2%AB%E8%B4%A8%E7%96%91%E7%94%B1AI%E4%BB%A3%E7%AC%94",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "年轻人“旁听”遵义会议爆火",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E2%80%9C%E6%97%81%E5%90%AC%E2%80%9D%E9%81%B5%E4%B9%89%E4%BC%9A%E8%AE%AE%E7%88%86%E7%81%AB",
       "source": "百度热搜",
       "cat": "policy",
       "score": 1,
@@ -146,101 +226,21 @@
       ]
     },
     {
-      "title": "商务部回应“美方制裁中国5家企业”",
-      "url": "https://www.baidu.com/s?wd=%E5%95%86%E5%8A%A1%E9%83%A8%E5%9B%9E%E5%BA%94%E2%80%9C%E7%BE%8E%E6%96%B9%E5%88%B6%E8%A3%81%E4%B8%AD%E5%9B%BD5%E5%AE%B6%E4%BC%81%E4%B8%9A%E2%80%9D",
+      "title": "成都市教育局回应“取消中考”建议",
+      "url": "https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88%E4%B8%AD%E8%80%83%E2%80%9D%E5%BB%BA%E8%AE%AE",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "【这个城市有点潮】甘肃会宁：90年，一座城的红色记忆",
-      "url": "https://www.chinanews.com.cnhttps://www.chinanews.com.cn/tp/hd2011/2026/10-21/1208396.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "A股开盘：超3200只个股飘红，三大指数集体高开",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718268.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "费德勒：来中国书写给网球的“情书”",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-21/10718260.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "尼日利亚报告近期首例埃博拉确诊病例",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718247.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "水利部出台母亲河复苏行动标准",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-21/10718252.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏西吉：火石寨迎来绝美秋日晨景",
-      "url": "http://www.chinanews.com.cn/sh/shipin/2026/10-21/news1072469.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "凛冬将至，欧洲再临“能源关”",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718257.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "高市执政满一年，日媒质问：“这场噩梦还要持续多久？”",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-21/10718255.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "警惕“长得像食物、其实有毒”的野果 已有游客误食后腹泻不止",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718254.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
+      "title": "中东“榜一大哥”率团来华提飞行汽车",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%B8%9C%E2%80%9C%E6%A6%9C%E4%B8%80%E5%A4%A7%E5%93%A5%E2%80%9D%E7%8E%87%E5%9B%A2%E6%9D%A5%E5%8D%8E%E6%8F%90%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
       "exams": [
         "申论素材"
       ]
