@@ -1,63 +1,53 @@
 {
   "date": "2026-10-22",
-  "time": "07:44",
-  "generatedAt": "2026-10-22T07:44:52.075Z",
+  "time": "13:55",
+  "generatedAt": "2026-10-22T13:55:11.749Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "（经济观察）“用出来的”人民币国际化",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719054.shtml",
+      "title": "上海：市民在WTCC 2026西岸国际科技消费嘉年华感受前沿科技",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-22/10719386.shtml",
       "source": "中国新闻网",
       "cat": "international",
+      "score": 3,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "周小川：中国现有金融工具应对AI风险仍有效",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719365.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
       "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "中方回应欧盟新版北极战略：以冷战思维划分阵营，不利于北极地区和平稳定发展",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719083.shtml",
+      "title": "“故宫文化遗产数智活化与产业化创新场景”入选首批标志性重大应用场景",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-22/10719351.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "全国首宗再生水利用节水碳交易落地广东",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719061.shtml",
+      "title": "上海金融监管局：构建与数字金融战略相匹配的激励体系，激发数字化建设活力",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719345.shtml",
       "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
+      "cat": "economy",
+      "score": 2,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "内蒙古乌兰察布市发生一起交通事故 致4人死亡",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-22/10719078.shtml",
-      "source": "中国新闻网",
-      "cat": "society",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中俄总理第三十一次定期会晤举行 中方介绍会晤情况和成果",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719079.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "我国对外投资存量连续9年保持世界前三",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719076.shtml",
+      "title": "国家大宗商品储运产业计量测试中心在浙江舟山揭牌",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719377.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -66,89 +56,9 @@
       ]
     },
     {
-      "title": "菲律宾称正探索与台湾深化合作 外交部：菲方应当以实际行动恪守一个中国原则",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719074.shtml",
+      "title": "青海发布科技创新“十五五”规划",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719374.shtml",
       "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "第七届中国电竞产业大会在青海西宁开幕",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719046.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中方对中美俄元首会晤是否持开放态度？外交部回应",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719066.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部：以冷战思维划分阵营不利于北极地区和平稳定发展",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719065.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "外交部：菲方应以实际行动恪守一个中国原则",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719064.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "东西问丨高碧春：这位美国友人，为何被中国多家自然博物馆提及？",
-      "url": "https://www.chinanews.com.cn/dxw/2026/10-22/10719036.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "今年前三季度大连市累计发放支农支小再贷款55亿元 民企再贷款134亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719059.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "新华社在美国找到红军长征时珍贵照片",
-      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8D%8E%E7%A4%BE%E5%9C%A8%E7%BE%8E%E5%9B%BD%E6%89%BE%E5%88%B0%E7%BA%A2%E5%86%9B%E9%95%BF%E5%BE%81%E6%97%B6%E7%8F%8D%E8%B4%B5%E7%85%A7%E7%89%87",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "马天宇：没有密友 只能找AI聊天",
-      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E5%A4%A9%E5%AE%87%EF%BC%9A%E6%B2%A1%E6%9C%89%E5%AF%86%E5%8F%8B+%E5%8F%AA%E8%83%BD%E6%89%BEAI%E8%81%8A%E5%A4%A9",
-      "source": "百度热搜",
       "cat": "tech",
       "score": 1,
       "exams": [
@@ -156,8 +66,58 @@
       ]
     },
     {
-      "title": "揭露骗局 红军伟大长征不容消费",
-      "url": "https://www.baidu.com/s?wd=%E6%8F%AD%E9%9C%B2%E9%AA%97%E5%B1%80+%E7%BA%A2%E5%86%9B%E4%BC%9F%E5%A4%A7%E9%95%BF%E5%BE%81%E4%B8%8D%E5%AE%B9%E6%B6%88%E8%B4%B9",
+      "title": "山东法院立案登记制改革十余年收案超2200万件",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719370.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "（经济观察）重庆消费凭什么跑出“加速度”？",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719354.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "闽北红色旅游和研学市场同步升温",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-22/10719350.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "报告：京津冀协同深化催生数智金融一体化发展新需求",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719347.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "韩国驻华大使：期待以APEC会议为契机深化韩中务实合作",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10719325.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "人民日报评星巴克消费入座",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E6%98%9F%E5%B7%B4%E5%85%8B%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -166,38 +126,8 @@
       ]
     },
     {
-      "title": "大量金条正离开美国去往新加坡",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%87%8F%E9%87%91%E6%9D%A1%E6%AD%A3%E7%A6%BB%E5%BC%80%E7%BE%8E%E5%9B%BD%E5%8E%BB%E5%BE%80%E6%96%B0%E5%8A%A0%E5%9D%A1",
-      "source": "百度热搜",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "半月谈：别让片面比较带偏AI讨论",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8A%E6%9C%88%E8%B0%88%EF%BC%9A%E5%88%AB%E8%AE%A9%E7%89%87%E9%9D%A2%E6%AF%94%E8%BE%83%E5%B8%A6%E5%81%8FAI%E8%AE%A8%E8%AE%BA",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "A股“市值一哥”再创新高",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E2%80%9C%E5%B8%82%E5%80%BC%E4%B8%80%E5%93%A5%E2%80%9D%E5%86%8D%E5%88%9B%E6%96%B0%E9%AB%98",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "杭州警方通报盘石创始人田宁失联",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%AD%E5%B7%9E%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E7%9B%98%E7%9F%B3%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%94%B0%E5%AE%81%E5%A4%B1%E8%81%94",
+      "title": "夏林茂被查 北京市委表态",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%8F%E6%9E%97%E8%8C%82%E8%A2%AB%E6%9F%A5+%E5%8C%97%E4%BA%AC%E5%B8%82%E5%A7%94%E8%A1%A8%E6%80%81",
       "source": "百度热搜",
       "cat": "hot",
       "score": 1,
@@ -206,18 +136,28 @@
       ]
     },
     {
-      "title": "星巴克“消费入座”新规已实施",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E5%B7%B4%E5%85%8B%E2%80%9C%E6%B6%88%E8%B4%B9%E5%85%A5%E5%BA%A7%E2%80%9D%E6%96%B0%E8%A7%84%E5%B7%B2%E5%AE%9E%E6%96%BD",
+      "title": "这档医学综艺惹怒医疗圈",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E6%A1%A3%E5%8C%BB%E5%AD%A6%E7%BB%BC%E8%89%BA%E6%83%B9%E6%80%92%E5%8C%BB%E7%96%97%E5%9C%88",
       "source": "百度热搜",
-      "cat": "economy",
+      "cat": "society",
       "score": 1,
       "exams": [
         "申论素材"
       ]
     },
     {
-      "title": "敦煌莫高窟连续50年“零火灾”，靠的是什么？",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-22/10719081.shtml",
+      "title": "新能源汽车维修 一件难求",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E7%BB%B4%E4%BF%AE+%E4%B8%80%E4%BB%B6%E9%9A%BE%E6%B1%82",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南昆明：民众滇池畔乐享秋日美景",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-22/10719359.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +166,8 @@
       ]
     },
     {
-      "title": "沙特民航总局：达曼机场遇袭死亡人数升至2人",
-      "url": "https://www.chinanews.com.cn/gj/2026/10-22/10719085.shtml",
+      "title": "西藏首届航空器外场维护员职业技能大赛开赛",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-22/10719390.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +176,68 @@
       ]
     },
     {
-      "title": "新动能加速成长 带动作用不断增强",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-22/10719084.shtml",
+      "title": "“柴达木粮仓”青海都兰10万余亩藜麦迎丰收",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-22/10719360.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "北京延庆将分阶段推进长城大景区建设 守好“根与脉”",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-22/10719379.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "西藏第一届航空器外场维护员职业技能大赛圆满落幕",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-22/10719376.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "香港两家媒体同日收到英国可疑粉末信，警方已到场封锁、疏散并采样调查",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-22/10719381.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "10月22日新闻夜读",
+      "url": "https://www.chinanews.com.cn/iframe/2026/10-22/10719375.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "榆林至西双版纳航线即将开通",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-22/10719373.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "四川运动员夺得亚残运会50米步枪卧射-SH2级金牌",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-22/10719372.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
