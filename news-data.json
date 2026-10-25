@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
-  "time": "18:27",
-  "generatedAt": "2026-10-25T18:27:27.518Z",
+  "time": "21:54",
+  "generatedAt": "2026-10-25T21:54:54.647Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
@@ -56,10 +56,10 @@
       ]
     },
     {
-      "title": "丈母娘也开始抢AI人了",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%88%E6%AF%8D%E5%A8%98%E4%B9%9F%E5%BC%80%E5%A7%8B%E6%8A%A2AI%E4%BA%BA%E4%BA%86",
+      "title": "美国UFO文件披露神秘“黑三角”",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BDUFO%E6%96%87%E4%BB%B6%E6%8A%AB%E9%9C%B2%E7%A5%9E%E7%A7%98%E2%80%9C%E9%BB%91%E4%B8%89%E8%A7%92%E2%80%9D",
       "source": "百度热搜",
-      "cat": "tech",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -76,10 +76,20 @@
       ]
     },
     {
-      "title": "美国UFO文件披露神秘“黑三角”",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BDUFO%E6%96%87%E4%BB%B6%E6%8A%AB%E9%9C%B2%E7%A5%9E%E7%A7%98%E2%80%9C%E9%BB%91%E4%B8%89%E8%A7%92%E2%80%9D",
+      "title": "丈母娘也开始抢AI人了",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%88%E6%AF%8D%E5%A8%98%E4%B9%9F%E5%BC%80%E5%A7%8B%E6%8A%A2AI%E4%BA%BA%E4%BA%86",
       "source": "百度热搜",
-      "cat": "international",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "卫星视角下的“丰收调色盘”",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%AB%E6%98%9F%E8%A7%86%E8%A7%92%E4%B8%8B%E7%9A%84%E2%80%9C%E4%B8%B0%E6%94%B6%E8%B0%83%E8%89%B2%E7%9B%98%E2%80%9D",
+      "source": "百度热搜",
+      "cat": "tech",
       "score": 1,
       "exams": [
         "申论素材"
@@ -233,16 +243,6 @@
       "score": 0,
       "exams": [
         "事业单位"
-      ]
-    },
-    {
-      "title": "2026重庆开州汉丰湖马拉松开跑 近8000名选手驰骋环湖PB赛道",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720818.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
       ]
     }
   ]
