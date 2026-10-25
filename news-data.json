@@ -1,10 +1,20 @@
 {
   "date": "2026-10-25",
-  "time": "14:27",
-  "generatedAt": "2026-10-25T14:27:04.752Z",
+  "time": "18:27",
+  "generatedAt": "2026-10-25T18:27:27.518Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
+    {
+      "title": "津巴布韦总统呼吁西方国家无条件解除制裁",
+      "url": "https://www.chinanews.com.cn/gj/2026/10-25/10720864.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
     {
       "title": "27支队伍角逐2026年中国—东盟国际龙舟公开赛",
       "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-25/10720854.shtml",
@@ -46,10 +56,20 @@
       ]
     },
     {
-      "title": "小菌菇撑起富民大产业",
-      "url": "https://www.chinanews.com.cn/tp/2026/10-25/10720808.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
+      "title": "丈母娘也开始抢AI人了",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%88%E6%AF%8D%E5%A8%98%E4%B9%9F%E5%BC%80%E5%A7%8B%E6%8A%A2AI%E4%BA%BA%E4%BA%86",
+      "source": "百度热搜",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "黑熊横渡中俄界江“入境”中国",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%91%E7%86%8A%E6%A8%AA%E6%B8%A1%E4%B8%AD%E4%BF%84%E7%95%8C%E6%B1%9F%E2%80%9C%E5%85%A5%E5%A2%83%E2%80%9D%E4%B8%AD%E5%9B%BD",
+      "source": "百度热搜",
+      "cat": "international",
       "score": 1,
       "exams": [
         "申论素材"
@@ -66,11 +86,51 @@
       ]
     },
     {
-      "title": "虞书欣菜市场里走红毯",
-      "url": "https://www.baidu.com/s?wd=%E8%99%9E%E4%B9%A6%E6%AC%A3%E8%8F%9C%E5%B8%82%E5%9C%BA%E9%87%8C%E8%B5%B0%E7%BA%A2%E6%AF%AF",
-      "source": "百度热搜",
-      "cat": "economy",
-      "score": 1,
+      "title": "CBA：山西主场101:79战胜江苏 迎新赛季三连胜",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720865.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "乒乓球亚锦赛：中国队4金4银收官",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720866.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国短池游泳锦标赛：潘展乐赢百米“飞鱼大战”",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720863.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "银杏果落地发臭还能捡吗？这些食用误区一定要避开",
+      "url": "https://www.chinanews.com.cn/life/2026/10-25/10720861.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "今晚不再睡帐篷！西藏巴青7.0级震后 安置板房迎来新主人",
+      "url": "http://www.chinanews.com.cn/sh/shipin/cns-d/2026/10-25/news1072949.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
       "exams": [
         "申论素材"
       ]
@@ -178,66 +238,6 @@
     {
       "title": "2026重庆开州汉丰湖马拉松开跑 近8000名选手驰骋环湖PB赛道",
       "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720818.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026二沙岛户外音乐季开幕 香港中乐团将首度亮相",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-25/10720835.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "云南耿马傣族造纸焕新畅销",
-      "url": "https://www.chinanews.com.cn/tp/2026/10-25/10720831.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "全国总工会拨付200万元支援西藏灾区救灾救助工作",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720838.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "宁夏知识产权保护和运用“十五五”规划获批 锚定2030年知识产权强区建设目标",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720828.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "2026年武台定光文化交流活动在福建武平举办",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720823.shtml",
-      "source": "中国新闻网",
-      "cat": "hot",
-      "score": 0,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "解锁八桂鱼鲜密码 《在广西吃鱼》新书南宁首发",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-25/10720827.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
