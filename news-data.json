@@ -1,13 +1,13 @@
 {
   "date": "2026-10-25",
-  "time": "09:55",
-  "generatedAt": "2026-10-25T09:55:23.706Z",
+  "time": "14:27",
+  "generatedAt": "2026-10-25T14:27:04.752Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "探索外交话语的“区域国别转向”  专家学者在沪研讨对外话语体系建设",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-25/10720735.shtml",
+      "title": "27支队伍角逐2026年中国—东盟国际龙舟公开赛",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/10-25/10720854.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -16,8 +16,38 @@
       ]
     },
     {
-      "title": "研学旅游市场升温 海南高校发力培育专业人才",
-      "url": "https://www.chinanews.com.cn/edu/2026/10-25/10720732.shtml",
+      "title": "台湾专家：从“养老”到“享老”为两岸康养融合提供新机遇",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720822.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "AI赋能、丝弦入药：上海推动音乐疗愈纳入临床多学科治疗",
+      "url": "https://www.chinanews.com.cn/jk/2026/10-25/10720814.shtml",
+      "source": "中国新闻网",
+      "cat": "tech",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "河北省第十四届人民代表大会常务委员会公告",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720832.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "小菌菇撑起富民大产业",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-25/10720808.shtml",
       "source": "中国新闻网",
       "cat": "economy",
       "score": 1,
@@ -26,98 +56,8 @@
       ]
     },
     {
-      "title": "非遗铜雕技艺饰品广交会受追捧 中东客商现场下单买买买！",
-      "url": "http://www.chinanews.com.cn/cul/shipin/cns-d/2026/10-25/news1072909.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "乌兹别克斯坦艺术家：希望中亚五国与中国的艺术家能够同台演出",
-      "url": "https://www.chinanews.com.cn/cul/2026/10-25/10720730.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "中外企业绿色发展与全球贡献国际传播研讨会举行，平安集团盛瑞生发表主题演讲",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720724.shtml",
-      "source": "中国新闻网",
-      "cat": "international",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "让数据要素更“有温度” “数据要素×”大赛绽放创新活力",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720720.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "“不干正事”的AI，卖爆了",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720722.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（走进中国乡村）贵州“银匠村”：年轻人进村学艺　老匠人赶订单忙创新",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720716.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "陕西杨凌：田间地头变“科技秀场”",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720715.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（走进中国乡村）从集散中心到海外餐桌　湖南汝城小黄姜“种”出大产业",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720713.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "央视曝AI人哭着卖惨带货",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9DAI%E4%BA%BA%E5%93%AD%E7%9D%80%E5%8D%96%E6%83%A8%E5%B8%A6%E8%B4%A7",
-      "source": "百度热搜",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄乌为啥都同意停火",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E4%B9%8C%E4%B8%BA%E5%95%A5%E9%83%BD%E5%90%8C%E6%84%8F%E5%81%9C%E7%81%AB",
+      "title": "美国UFO文件披露神秘“黑三角”",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BDUFO%E6%96%87%E4%BB%B6%E6%8A%AB%E9%9C%B2%E7%A5%9E%E7%A7%98%E2%80%9C%E9%BB%91%E4%B8%89%E8%A7%92%E2%80%9D",
       "source": "百度热搜",
       "cat": "international",
       "score": 1,
@@ -126,8 +66,8 @@
       ]
     },
     {
-      "title": "多平台撤销任泽平“经济学家”认证",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%B9%B3%E5%8F%B0%E6%92%A4%E9%94%80%E4%BB%BB%E6%B3%BD%E5%B9%B3%E2%80%9C%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E2%80%9D%E8%AE%A4%E8%AF%81",
+      "title": "虞书欣菜市场里走红毯",
+      "url": "https://www.baidu.com/s?wd=%E8%99%9E%E4%B9%A6%E6%AC%A3%E8%8F%9C%E5%B8%82%E5%9C%BA%E9%87%8C%E8%B5%B0%E7%BA%A2%E6%AF%AF",
       "source": "百度热搜",
       "cat": "economy",
       "score": 1,
@@ -136,8 +76,8 @@
       ]
     },
     {
-      "title": "云南云临高速公路20公里特长隧道左幅贯通",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720743.shtml",
+      "title": "西藏那曲巴青7.0级地震震区玛如乡二村受灾群众安置点活动板房顺利通电",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720856.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -146,8 +86,8 @@
       ]
     },
     {
-      "title": "以球为媒聚侨心 全球华人高尔夫邀请赛海口开球",
-      "url": "https://www.chinanews.com.cn/hr/2026/10-25/10720748.shtml",
+      "title": "两岸同忆台静农：渡海传薪续文脉 “歇脚庵”里话古今",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720855.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -156,8 +96,8 @@
       ]
     },
     {
-      "title": "2026年云南省城市篮球联赛总决赛昭通启幕",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720742.shtml",
+      "title": "守千年技艺 绘傣陶新章：一位西双版纳女陶艺师的“新纹样”",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-25/10720844.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -166,8 +106,8 @@
       ]
     },
     {
-      "title": "济枣铁路重点工程安子岭隧道顺利贯通",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720746.shtml",
+      "title": "在榕台青于非遗与新媒体碰撞中感悟闽都文脉",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720843.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +116,8 @@
       ]
     },
     {
-      "title": "震中一夜（在现场）",
-      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720750.shtml",
+      "title": "草方格锁黄沙 鹅喉羚蹄印见证中卫生态之变",
+      "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720842.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +126,8 @@
       ]
     },
     {
-      "title": "2026青科会大健康论坛：瓯江实验室发布联合攻关计划",
-      "url": "https://www.chinanews.com.cn/jk/2026/10-25/10720731.shtml",
+      "title": "2026年闽台青少年街舞展演在福州举办",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720840.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +136,8 @@
       ]
     },
     {
-      "title": "九三学社首届“德赛杯”书法大赛优秀作品展在宁波开幕",
-      "url": "https://www.chinanews.com.cn/txy/2026/10-25/10720727.shtml",
+      "title": "粤港澳大湾区青少年选手齐聚深圳“以球会友”",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-25/10720839.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +146,8 @@
       ]
     },
     {
-      "title": "陕西：气排球赋能群众体育 全民健身绘就运动画卷",
-      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720726.shtml",
+      "title": "广交会观察：中国陶瓷企业靠原创设计拿下海外订单",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-25/10720830.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +156,8 @@
       ]
     },
     {
-      "title": "凤凰山高速公路开工建设 预计2030年通车",
-      "url": "https://www.chinanews.com.cn/dwq/2026/10-25/10720725.shtml",
+      "title": "湖北宜昌：长江之畔“长”出绿色算力科创高地",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720841.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +166,18 @@
       ]
     },
     {
-      "title": "（结图纪事）走进贵州都匀",
-      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-25/1208820.shtml",
+      "title": "探访广交会进口展：从印度锅到越南篮 外国企业组团觅商机",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/10-25/10720829.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "事业单位"
+      ]
+    },
+    {
+      "title": "2026重庆开州汉丰湖马拉松开跑 近8000名选手驰骋环湖PB赛道",
+      "url": "https://www.chinanews.com.cn/ty/2026/10-25/10720818.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +186,58 @@
       ]
     },
     {
-      "title": "习近平同比利时国王菲利普就中比建交55周年互致贺信",
-      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720728.shtml",
+      "title": "2026二沙岛户外音乐季开幕 香港中乐团将首度亮相",
+      "url": "https://www.chinanews.com.cn/dwq/2026/10-25/10720835.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "云南耿马傣族造纸焕新畅销",
+      "url": "https://www.chinanews.com.cn/tp/2026/10-25/10720831.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "全国总工会拨付200万元支援西藏灾区救灾救助工作",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720838.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "宁夏知识产权保护和运用“十五五”规划获批 锚定2030年知识产权强区建设目标",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720828.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "2026年武台定光文化交流活动在福建武平举办",
+      "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720823.shtml",
+      "source": "中国新闻网",
+      "cat": "hot",
+      "score": 0,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "解锁八桂鱼鲜密码 《在广西吃鱼》新书南宁首发",
+      "url": "https://www.chinanews.com.cn/cul/2026/10-25/10720827.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
