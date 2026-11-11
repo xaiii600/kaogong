@@ -1,13 +1,13 @@
 {
   "date": "2026-11-11",
-  "time": "06:47",
-  "generatedAt": "2026-11-11T06:47:23.676Z",
+  "time": "15:26",
+  "generatedAt": "2026-11-11T15:26:28.585Z",
   "source_summary": "中国新闻网(30) · 百度热搜(52)",
   "count": 24,
   "items": [
     {
-      "title": "三亚与阿联酋企业签约  深化绿色低碳国际合作",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730087.shtml",
+      "title": "王沪宁会见古巴党和政府特使、古共中央政治局委员、外交部长罗德里格斯",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730549.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 2,
@@ -16,8 +16,18 @@
       ]
     },
     {
-      "title": "伊拉克因担忧美国制裁 拒绝伊朗国足飞机降落",
-      "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730096.shtml",
+      "title": "AI“店长”助商家出海 “双十一”海外潜力市场成交量大涨",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730521.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 2,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "王毅同美国国务卿鲁比奥通电话",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730564.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -26,18 +36,8 @@
       ]
     },
     {
-      "title": "读懂这张投给中国市场的“信心票”",
-      "url": "https://www.chinanews.com.cn/ll/2026/11-11/10730141.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "（深圳APEC）APEC会议倒计时一周 深圳以开放包容姿态迎八方宾朋",
-      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730097.shtml",
+      "title": "（深圳APEC）2026年APEC领导人会议周新闻中心启用",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730556.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -46,78 +46,8 @@
       ]
     },
     {
-      "title": "购物车里的搁置清单 未成交订单折射哪些消费新信号？",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730130.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "防城海关综合技术服务中心2026年实验室试剂耗材采购项目的竞争性协商公告",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-11/10730124.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国台办指“双十一”消费热见证两岸生活方式相通",
-      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730095.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "拱北海关技术中心2026年理化类实验室设备采购项目（重新招标）中标公告",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-11/10730112.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "百年口岸绥芬河借势“双11” 跨境电商贸易额破3.3亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730076.shtml",
-      "source": "中国新闻网",
-      "cat": "economy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "医生有了AI分身，看病会不一样吗？还有哪些障碍？",
-      "url": "https://www.chinanews.com.cn/jk/2026/11-11/10730108.shtml",
-      "source": "中国新闻网",
-      "cat": "tech",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "国家发改委5场发布会稳预期、提信心",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730100.shtml",
-      "source": "中国新闻网",
-      "cat": "policy",
-      "score": 1,
-      "exams": [
-        "申论素材"
-      ]
-    },
-    {
-      "title": "俄美乌三方会谈之际，泽连斯基与莫迪通电话",
-      "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730086.shtml",
+      "title": "俄美乌三方会谈结束 俄乌就大规模换俘达成一致",
+      "url": "https://www.chinanews.com.cn/gj/2026/11-11/10730554.shtml",
       "source": "中国新闻网",
       "cat": "international",
       "score": 1,
@@ -126,8 +56,18 @@
       ]
     },
     {
-      "title": "我国新能源汽车销量占比持续走高",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730082.shtml",
+      "title": "报告显示：中国旅游市场人气旺盛 “流量转化”考题待解",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730553.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中国发射探源计划探路者卫星",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730548.shtml",
       "source": "中国新闻网",
       "cat": "tech",
       "score": 1,
@@ -136,8 +76,38 @@
       ]
     },
     {
-      "title": "会计改革与发展“十五五”规划发布",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730080.shtml",
+      "title": "中国（内蒙古）自由贸易试验区法治研究中心揭牌",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730546.shtml",
+      "source": "中国新闻网",
+      "cat": "economy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "山西老年人口突破800万  围绕五大重点谋划“十五五”老龄工作布局",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-11/10730545.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "山西民政收官“十四五”惠及184万民众  五大方向布局“十五五”民生工作",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-11/10730543.shtml",
+      "source": "中国新闻网",
+      "cat": "society",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "学习贯彻党的二十届五中全会精神中央宣讲团在中宣部宣讲",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730538.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -146,8 +116,8 @@
       ]
     },
     {
-      "title": "新修订《人类遗传资源管理条例实施细则》公布",
-      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730058.shtml",
+      "title": "APEC会议倒计时一周 深圳街头繁花盛放迎八方宾朋",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/11-11/1210580.shtml",
       "source": "中国新闻网",
       "cat": "policy",
       "score": 1,
@@ -156,8 +126,28 @@
       ]
     },
     {
-      "title": "300元卖掉的脸下一秒就成AI短剧主角",
-      "url": "https://www.baidu.com/s?wd=300%E5%85%83%E5%8D%96%E6%8E%89%E7%9A%84%E8%84%B8%E4%B8%8B%E4%B8%80%E7%A7%92%E5%B0%B1%E6%88%90AI%E7%9F%AD%E5%89%A7%E4%B8%BB%E8%A7%92",
+      "title": "重庆市永川区人大常委会原副主任王寒峰被“双开”",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730536.shtml",
+      "source": "中国新闻网",
+      "cat": "policy",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "中亚媒体人：“百闻不如一见，这里是充满活力的新疆”",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-11/10730525.shtml",
+      "source": "中国新闻网",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "Anthropic世纪IPO恐成AI行情高点",
+      "url": "https://www.baidu.com/s?wd=Anthropic%E4%B8%96%E7%BA%AAIPO%E6%81%90%E6%88%90AI%E8%A1%8C%E6%83%85%E9%AB%98%E7%82%B9",
       "source": "百度热搜",
       "cat": "tech",
       "score": 1,
@@ -166,8 +156,18 @@
       ]
     },
     {
-      "title": "宁夏引黄灌区迎来冬灌高峰 唐徕渠加大流量输水保农田生态用水",
-      "url": "https://www.chinanews.com.cn/sh/2026/11-11/10730101.shtml",
+      "title": "俄方公布俄美乌三方会谈成果",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%84%E6%96%B9%E5%85%AC%E5%B8%83%E4%BF%84%E7%BE%8E%E4%B9%8C%E4%B8%89%E6%96%B9%E4%BC%9A%E8%B0%88%E6%88%90%E6%9E%9C",
+      "source": "百度热搜",
+      "cat": "international",
+      "score": 1,
+      "exams": [
+        "申论素材"
+      ]
+    },
+    {
+      "title": "纪念孙中山诞辰160周年图片展在菲律宾马尼拉开幕",
+      "url": "https://www.chinanews.com.cn/hr/2026/11-11/10730555.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -176,8 +176,8 @@
       ]
     },
     {
-      "title": "上海海关半年累计保障对非零关税举措享惠货物货值超43亿元",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730138.shtml",
+      "title": "（友城故事）成都与莫斯科再签三年行动计划促各领域合作深化",
+      "url": "https://www.chinanews.com.cn/ydyl/2026/11-11/10730552.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -186,8 +186,8 @@
       ]
     },
     {
-      "title": "国铁沈阳局“双11”快运正日发力  高铁成网全域保时效",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730128.shtml",
+      "title": "两岸民众在北京碧云寺追思中山先生",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730551.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -196,8 +196,8 @@
       ]
     },
     {
-      "title": "香港深圳青年总会主席：认得清中西语境，接得住深圳速度",
-      "url": "https://www.chinanews.com.cn/dwq/2026/11-11/10730129.shtml",
+      "title": "哈尔滨：一条长街的“中山印记”",
+      "url": "https://www.chinanews.com.cn/tp/2026/11-11/10730544.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "通讯：深圳企业把中国支付标准写进世界",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730098.shtml",
+      "title": "中国新增三处世界地质遗产地",
+      "url": "https://www.chinanews.com.cn/gn/2026/11-11/10730550.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -216,8 +216,8 @@
       ]
     },
     {
-      "title": "三峡水运新通道前置保障工程取得新进展",
-      "url": "https://www.chinanews.com.cn/sh/2026/11-11/10730078.shtml",
+      "title": "云南“十五五”中医药发展规划：提升少数民族医药服务能力",
+      "url": "https://www.chinanews.com.cn/txy/2026/11-11/10730547.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -226,8 +226,8 @@
       ]
     },
     {
-      "title": "系列纪录片《对话东盟》开播",
-      "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-11/10730079.shtml",
+      "title": "广西北海女子刷短视频被骗100余万元 警方全额追回",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-11/10730542.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "title": "科学核算“身价” 绿水青山有了统一“计价器”",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-11/10730099.shtml",
+      "title": "高架上被风筝线“割车” 别小看这根隐形伤人线",
+      "url": "https://www.chinanews.com.cn/life/2026/11-11/10730540.shtml",
       "source": "中国新闻网",
       "cat": "hot",
       "score": 0,
